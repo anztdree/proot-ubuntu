@@ -1,0 +1,416 @@
+{
+  "11": {
+    "id": 11,
+    "signType": "龟",
+    "quality": "green",
+    "goodsID": 241,
+    "num": 5,
+    "random": 10000,
+    "sellTo": 1
+  },
+  "12": [
+    {
+      "id": 12,
+      "signType": "龟",
+      "quality": "green",
+      "goodsID": 241,
+      "num": 5,
+      "random": 6000,
+      "sellTo": 1
+    },
+    {
+      "id": 12,
+      "signType": "龟",
+      "quality": "blue",
+      "goodsID": 251,
+      "num": 5,
+      "random": 4000,
+      "sellTo": 1
+    }
+  ],
+  "13": [
+    {
+      "id": 13,
+      "signType": "龟",
+      "quality": "blue",
+      "goodsID": 251,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 13,
+      "signType": "龟",
+      "quality": "purple",
+      "goodsID": 261,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 1
+    }
+  ],
+  "14": [
+    {
+      "id": 14,
+      "signType": "龟",
+      "quality": "purple",
+      "goodsID": 261,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 14,
+      "signType": "龟",
+      "quality": "orange",
+      "goodsID": 271,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 0.6
+    }
+  ],
+  "21": {
+    "id": 21,
+    "signType": "神",
+    "quality": "green",
+    "goodsID": 242,
+    "num": 5,
+    "random": 10000,
+    "sellTo": 1
+  },
+  "22": [
+    {
+      "id": 22,
+      "signType": "神",
+      "quality": "green",
+      "goodsID": 242,
+      "num": 5,
+      "random": 6000,
+      "sellTo": 1
+    },
+    {
+      "id": 22,
+      "signType": "神",
+      "quality": "blue",
+      "goodsID": 252,
+      "num": 5,
+      "random": 4000,
+      "sellTo": 1
+    }
+  ],
+  "23": [
+    {
+      "id": 23,
+      "signType": "神",
+      "quality": "blue",
+      "goodsID": 252,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 23,
+      "signType": "神",
+      "quality": "purple",
+      "goodsID": 262,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 1
+    }
+  ],
+  "24": [
+    {
+      "id": 24,
+      "signType": "神",
+      "quality": "purple",
+      "goodsID": 262,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 24,
+      "signType": "神",
+      "quality": "orange",
+      "goodsID": 272,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 0.6
+    }
+  ],
+  "31": {
+    "id": 31,
+    "signType": "魔",
+    "quality": "green",
+    "goodsID": 243,
+    "num": 5,
+    "random": 10000,
+    "sellTo": 1
+  },
+  "32": [
+    {
+      "id": 32,
+      "signType": "魔",
+      "quality": "green",
+      "goodsID": 243,
+      "num": 5,
+      "random": 6000,
+      "sellTo": 1
+    },
+    {
+      "id": 32,
+      "signType": "魔",
+      "quality": "blue",
+      "goodsID": 253,
+      "num": 5,
+      "random": 4000,
+      "sellTo": 1
+    }
+  ],
+  "33": [
+    {
+      "id": 33,
+      "signType": "魔",
+      "quality": "blue",
+      "goodsID": 253,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 33,
+      "signType": "魔",
+      "quality": "purple",
+      "goodsID": 263,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 1
+    }
+  ],
+  "34": [
+    {
+      "id": 34,
+      "signType": "魔",
+      "quality": "purple",
+      "goodsID": 263,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 34,
+      "signType": "魔",
+      "quality": "orange",
+      "goodsID": 273,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 0.6
+    }
+  ],
+  "41": {
+    "id": 41,
+    "signType": "界",
+    "quality": "green",
+    "goodsID": 244,
+    "num": 5,
+    "random": 10000,
+    "sellTo": 1
+  },
+  "42": [
+    {
+      "id": 42,
+      "signType": "界",
+      "quality": "green",
+      "goodsID": 244,
+      "num": 5,
+      "random": 6000,
+      "sellTo": 1
+    },
+    {
+      "id": 42,
+      "signType": "界",
+      "quality": "blue",
+      "goodsID": 254,
+      "num": 5,
+      "random": 4000,
+      "sellTo": 1
+    }
+  ],
+  "43": [
+    {
+      "id": 43,
+      "signType": "界",
+      "quality": "blue",
+      "goodsID": 254,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 43,
+      "signType": "界",
+      "quality": "purple",
+      "goodsID": 264,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 1
+    }
+  ],
+  "44": [
+    {
+      "id": 44,
+      "signType": "界",
+      "quality": "purple",
+      "goodsID": 264,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 44,
+      "signType": "界",
+      "quality": "orange",
+      "goodsID": 274,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 0.6
+    }
+  ],
+  "51": {
+    "id": 51,
+    "signType": "悟",
+    "quality": "green",
+    "goodsID": 245,
+    "num": 5,
+    "random": 10000,
+    "sellTo": 1
+  },
+  "52": [
+    {
+      "id": 52,
+      "signType": "悟",
+      "quality": "green",
+      "goodsID": 245,
+      "num": 5,
+      "random": 6000,
+      "sellTo": 1
+    },
+    {
+      "id": 52,
+      "signType": "悟",
+      "quality": "blue",
+      "goodsID": 255,
+      "num": 5,
+      "random": 4000,
+      "sellTo": 1
+    }
+  ],
+  "53": [
+    {
+      "id": 53,
+      "signType": "悟",
+      "quality": "blue",
+      "goodsID": 255,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 53,
+      "signType": "悟",
+      "quality": "purple",
+      "goodsID": 265,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 1
+    }
+  ],
+  "54": [
+    {
+      "id": 54,
+      "signType": "悟",
+      "quality": "purple",
+      "goodsID": 265,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 54,
+      "signType": "悟",
+      "quality": "orange",
+      "goodsID": 275,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 0.6
+    }
+  ],
+  "61": {
+    "id": 61,
+    "signType": "全",
+    "quality": "green",
+    "goodsID": 246,
+    "num": 5,
+    "random": 10000,
+    "sellTo": 1
+  },
+  "62": [
+    {
+      "id": 62,
+      "signType": "全",
+      "quality": "green",
+      "goodsID": 246,
+      "num": 5,
+      "random": 6000,
+      "sellTo": 1
+    },
+    {
+      "id": 62,
+      "signType": "全",
+      "quality": "blue",
+      "goodsID": 256,
+      "num": 5,
+      "random": 4000,
+      "sellTo": 1
+    }
+  ],
+  "63": [
+    {
+      "id": 63,
+      "signType": "全",
+      "quality": "blue",
+      "goodsID": 256,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 63,
+      "signType": "全",
+      "quality": "purple",
+      "goodsID": 266,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 1
+    }
+  ],
+  "64": [
+    {
+      "id": 64,
+      "signType": "全",
+      "quality": "purple",
+      "goodsID": 266,
+      "num": 5,
+      "random": 8000,
+      "sellTo": 1
+    },
+    {
+      "id": 64,
+      "signType": "全",
+      "quality": "orange",
+      "goodsID": 276,
+      "num": 5,
+      "random": 2000,
+      "sellTo": 0.6
+    }
+  ]
+}

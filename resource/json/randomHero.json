@@ -1,0 +1,224 @@
+{
+  "1811": {
+    "id": 1811,
+    "name": "随机白",
+    "quality": "white",
+    "showIcon": "new_white_png"
+  },
+  "1812": {
+    "id": 1812,
+    "name": "随机白·体",
+    "quality": "white",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_white_png"
+  },
+  "1813": {
+    "id": 1813,
+    "name": "随机白·力",
+    "quality": "white",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_white_png"
+  },
+  "1814": {
+    "id": 1814,
+    "name": "随机白·技",
+    "quality": "white",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_white_png"
+  },
+  "1821": {
+    "id": 1821,
+    "name": "随机绿",
+    "quality": "green",
+    "showIcon": "new_green_png"
+  },
+  "1822": {
+    "id": 1822,
+    "name": "随机绿·体",
+    "quality": "green",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_green_png"
+  },
+  "1823": {
+    "id": 1823,
+    "name": "随机绿·力",
+    "quality": "green",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_green_png"
+  },
+  "1824": {
+    "id": 1824,
+    "name": "随机绿·技",
+    "quality": "green",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_green_png"
+  },
+  "1831": {
+    "id": 1831,
+    "name": "随机蓝",
+    "quality": "blue",
+    "showIcon": "new_blue_png"
+  },
+  "1832": {
+    "id": 1832,
+    "name": "随机蓝·体",
+    "quality": "blue",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_blue_png"
+  },
+  "1833": {
+    "id": 1833,
+    "name": "随机蓝·力",
+    "quality": "blue",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_blue_png"
+  },
+  "1834": {
+    "id": 1834,
+    "name": "随机蓝·技",
+    "quality": "blue",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_blue_png"
+  },
+  "1841": {
+    "id": 1841,
+    "name": "随机紫",
+    "quality": "purple",
+    "showIcon": "new_purple_png"
+  },
+  "1842": {
+    "id": 1842,
+    "name": "随机紫·体",
+    "quality": "purple",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_purple_png"
+  },
+  "1843": {
+    "id": 1843,
+    "name": "随机紫·力",
+    "quality": "purple",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_purple_png"
+  },
+  "1844": {
+    "id": 1844,
+    "name": "随机紫·技",
+    "quality": "purple",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_purple_png"
+  },
+  "1851": {
+    "id": 1851,
+    "name": "随机橙",
+    "quality": "orange",
+    "showIcon": "new_orange_png"
+  },
+  "1852": {
+    "id": 1852,
+    "name": "随机橙·体",
+    "quality": "orange",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_orange_png"
+  },
+  "1853": {
+    "id": 1853,
+    "name": "随机橙·力",
+    "quality": "orange",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_orange_png"
+  },
+  "1854": {
+    "id": 1854,
+    "name": "随机橙·技",
+    "quality": "orange",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_orange_png"
+  },
+  "1855": {
+    "id": 1855,
+    "name": "随机橙·超必杀",
+    "quality": "orange",
+    "showIcon": "new_orange_png"
+  },
+  "1861": {
+    "id": 1861,
+    "name": "随机橙SS",
+    "quality": "flickerOrange",
+    "showIcon": "new_orange_png"
+  },
+  "1862": {
+    "id": 1862,
+    "name": "随机橙SS·体",
+    "quality": "flickerOrange",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_orange_png"
+  },
+  "1863": {
+    "id": 1863,
+    "name": "随机橙SS·力",
+    "quality": "flickerOrange",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_orange_png"
+  },
+  "1864": {
+    "id": 1864,
+    "name": "随机橙SS·技",
+    "quality": "flickerOrange",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_orange_png"
+  },
+  "1865": {
+    "id": 1865,
+    "name": "随机橙SS·超必杀",
+    "quality": "flickerOrange",
+    "showIcon": "new_orange_png"
+  },
+  "1881": {
+    "id": 1881,
+    "name": "随机橙SSS",
+    "quality": "superOrange",
+    "showIcon": "new_orange_png"
+  },
+  "1882": {
+    "id": 1882,
+    "name": "随机橙SSS·体",
+    "quality": "superOrange",
+    "type": "body",
+    "typeIcon": "new_body_png",
+    "showIcon": "new_orange_png"
+  },
+  "1883": {
+    "id": 1883,
+    "name": "随机橙SSS·力",
+    "quality": "superOrange",
+    "type": "strength",
+    "typeIcon": "new_strength_png",
+    "showIcon": "new_orange_png"
+  },
+  "1884": {
+    "id": 1884,
+    "name": "随机橙SSS·技",
+    "quality": "superOrange",
+    "type": "skill",
+    "typeIcon": "new_skill_png",
+    "showIcon": "new_orange_png"
+  }
+}

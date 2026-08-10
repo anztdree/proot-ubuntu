@@ -1,0 +1,52 @@
+{
+  "1": {
+    "id": 1,
+    "belongTo": "enemy",
+    "speed": 445
+  },
+  "2": {
+    "id": 2,
+    "belongTo": "player",
+    "speed": 438
+  },
+  "3": {
+    "id": 3,
+    "belongTo": "enemy",
+    "speed": 432
+  },
+  "4": {
+    "id": 4,
+    "belongTo": "player",
+    "speed": 425
+  },
+  "5": {
+    "id": 5,
+    "belongTo": "enemy",
+    "speed": 420
+  },
+  "6": {
+    "id": 6,
+    "belongTo": "player",
+    "speed": 413
+  },
+  "7": {
+    "id": 7,
+    "belongTo": "enemy",
+    "speed": 407
+  },
+  "8": {
+    "id": 8,
+    "belongTo": "player",
+    "speed": 400
+  },
+  "9": {
+    "id": 9,
+    "belongTo": "enemy",
+    "speed": 395
+  },
+  "10": {
+    "id": 10,
+    "belongTo": "player",
+    "speed": 388
+  }
+}

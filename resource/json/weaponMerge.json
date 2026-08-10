@@ -1,0 +1,126 @@
+{
+  "20001": {
+    "id": 20001,
+    "weaponID": 4101,
+    "name": "绿",
+    "random": 1000
+  },
+  "20002": {
+    "id": 20002,
+    "weaponID": 4201,
+    "name": "蓝",
+    "random": 1000
+  },
+  "20003": [
+    {
+      "id": 20003,
+      "weaponID": 4301,
+      "name": "紫",
+      "random": 1000
+    },
+    {
+      "id": 20003,
+      "weaponID": 4302,
+      "name": "紫",
+      "random": 1000
+    },
+    {
+      "id": 20003,
+      "weaponID": 4303,
+      "name": "紫",
+      "random": 1000
+    },
+    {
+      "id": 20003,
+      "weaponID": 4304,
+      "name": "紫",
+      "random": 1000
+    },
+    {
+      "id": 20003,
+      "weaponID": 4305,
+      "name": "紫",
+      "random": 1000
+    },
+    {
+      "id": 20003,
+      "weaponID": 4306,
+      "name": "紫",
+      "random": 1000
+    }
+  ],
+  "20004": [
+    {
+      "id": 20004,
+      "weaponID": 4401,
+      "name": "橙",
+      "random": 1000
+    },
+    {
+      "id": 20004,
+      "weaponID": 4402,
+      "name": "橙",
+      "random": 1000
+    },
+    {
+      "id": 20004,
+      "weaponID": 4403,
+      "name": "橙",
+      "random": 1000
+    },
+    {
+      "id": 20004,
+      "weaponID": 4404,
+      "name": "橙",
+      "random": 1000
+    },
+    {
+      "id": 20004,
+      "weaponID": 4405,
+      "name": "橙",
+      "random": 1000
+    },
+    {
+      "id": 20004,
+      "weaponID": 4406,
+      "name": "橙",
+      "random": 1000
+    }
+  ],
+  "20005": {
+    "id": 20005,
+    "weaponID": 4407,
+    "name": "红",
+    "random": 1000
+  },
+  "20006": {
+    "id": 20006,
+    "weaponID": 4408,
+    "name": "红",
+    "random": 1000
+  },
+  "20007": {
+    "id": 20007,
+    "weaponID": 4409,
+    "name": "红",
+    "random": 1000
+  },
+  "20008": {
+    "id": 20008,
+    "weaponID": 4410,
+    "name": "红",
+    "random": 1000
+  },
+  "20009": {
+    "id": 20009,
+    "weaponID": 4411,
+    "name": "红",
+    "random": 1000
+  },
+  "20010": {
+    "id": 20010,
+    "weaponID": 4412,
+    "name": "红",
+    "random": 1000
+  }
+}

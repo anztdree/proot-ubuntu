@@ -1,0 +1,130 @@
+{
+  "1": [
+    {
+      "id": 1,
+      "isSelf": 1,
+      "heroID": 1205,
+      "position": 0,
+      "totalHp": 350,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -55,
+      "skillDamage": -100,
+      "skillDamageType": 1
+    },
+    {
+      "id": 1,
+      "heroID": 1906,
+      "position": 0,
+      "totalHp": 150,
+      "totalEnergy": 100,
+      "startEnergy": 60,
+      "level": 1,
+      "normalDamage": -30,
+      "skillDamage": -73,
+      "skillDamageType": 0
+    },
+    {
+      "id": 1,
+      "heroID": 1906,
+      "position": 1,
+      "totalHp": 150,
+      "totalEnergy": 100,
+      "startEnergy": 60,
+      "level": 1,
+      "normalDamage": -28,
+      "skillDamage": -75,
+      "skillDamageType": 0
+    },
+    {
+      "id": 1,
+      "heroID": 1206,
+      "position": 3,
+      "totalHp": 150,
+      "totalEnergy": 100,
+      "startEnergy": 0,
+      "level": 1,
+      "normalDamage": -31,
+      "skillDamage": -80,
+      "skillDamageType": 0
+    }
+  ],
+  "2": [
+    {
+      "id": 2,
+      "isSelf": 1,
+      "heroID": 1205,
+      "position": 1,
+      "totalHp": 500,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -100,
+      "skillDamage": -137,
+      "skillDamageType": 1
+    },
+    {
+      "id": 2,
+      "isSelf": 1,
+      "heroID": 1309,
+      "position": 0,
+      "totalHp": 1000,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -67,
+      "skillDamage": -131,
+      "skillDamageType": 0
+    },
+    {
+      "id": 2,
+      "isSelf": 1,
+      "heroID": 1206,
+      "position": 2,
+      "totalHp": 500,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -59,
+      "skillDamage": -119,
+      "skillDamageType": 0
+    },
+    {
+      "id": 2,
+      "heroID": 1906,
+      "position": 0,
+      "totalHp": 115,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -87,
+      "skillDamage": -164,
+      "skillDamageType": 0
+    },
+    {
+      "id": 2,
+      "heroID": 1906,
+      "position": 2,
+      "totalHp": 115,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -73,
+      "skillDamage": -135,
+      "skillDamageType": 0
+    },
+    {
+      "id": 2,
+      "heroID": 1201,
+      "position": 3,
+      "totalHp": 675,
+      "totalEnergy": 100,
+      "startEnergy": 50,
+      "level": 3,
+      "normalDamage": -135,
+      "skillDamage": -215,
+      "skillDamageType": 0
+    }
+  ]
+}

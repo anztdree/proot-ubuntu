@@ -1,0 +1,63 @@
+{
+  "4501": {
+    "id": 4501,
+    "name": "白色耳环",
+    "version": 202107081051,
+    "quality": "white",
+    "abilityNum": 7,
+    "ability1": "hp",
+    "value1": 1526,
+    "ability2": "attackPercent",
+    "value2": 0.05,
+    "ability3": "hpPercent",
+    "value3": 0.05
+  },
+  "4502": {
+    "id": 4502,
+    "name": "绿色耳环",
+    "version": 202107081051,
+    "quality": "green"
+  },
+  "4503": {
+    "id": 4503,
+    "name": "蓝色耳环",
+    "version": 202107081051,
+    "quality": "blue"
+  },
+  "4504": {
+    "id": 4504,
+    "name": "紫色耳环",
+    "version": 202107081051,
+    "quality": "purple"
+  },
+  "4505": {
+    "id": 4505,
+    "name": "橙色耳环",
+    "version": 202107081051,
+    "quality": "orange"
+  },
+  "4506": {
+    "id": 4506,
+    "name": "绿色耳环",
+    "version": 202107081051,
+    "quality": "green"
+  },
+  "4507": {
+    "id": 4507,
+    "name": "蓝色耳环",
+    "version": 202107081051,
+    "quality": "blue"
+  },
+  "4508": {
+    "id": 4508,
+    "name": "紫色耳环",
+    "version": 202107081051,
+    "quality": "purple"
+  },
+  "4509": {
+    "id": 4509,
+    "name": "橙色耳环",
+    "version": 202107081051,
+    "quality": "orange"
+  }
+}

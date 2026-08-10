@@ -1,0 +1,19 @@
+{
+  "1": {
+    "id": 1,
+    "isWork": 1,
+    "device": "Android",
+    "channel": "BSNative",
+    "url": "https://dragonh5cdn.popoh5.com/DragonBall_en_BS_WEB2V1_202011111431.apk",
+    "downloadAward1": 101,
+    "downloadNum1": 100,
+    "downloadAward2": 123,
+    "downloadNum2": 3,
+    "loginAward1": 101,
+    "loginNum1": 100,
+    "loginAward2": 123,
+    "loginNum2": 3,
+    "downloadAwardDescription": "downloadAward_downloadAwardDescription_3",
+    "loginAwardDescription": "downloadAward_loginAwardDescription_4"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "101": [
+    {
+      "id": 101,
+      "level": 1,
+      "ability": "critical",
+      "value": 0.02,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_1"
+    },
+    {
+      "id": 101,
+      "level": 2,
+      "ability": "critical",
+      "value": 0.045,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_2"
+    },
+    {
+      "id": 101,
+      "level": 3,
+      "ability": "critical",
+      "value": 0.075,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_3"
+    },
+    {
+      "id": 101,
+      "level": 4,
+      "ability": "critical",
+      "value": 0.11,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_4"
+    },
+    {
+      "id": 101,
+      "level": 5,
+      "ability": "critical",
+      "value": 0.15,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_5"
+    }
+  ],
+  "102": [
+    {
+      "id": 102,
+      "level": 1,
+      "ability": "blockThrough",
+      "value": 0.02,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_6"
+    },
+    {
+      "id": 102,
+      "level": 2,
+      "ability": "blockThrough",
+      "value": 0.045,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_7"
+    },
+    {
+      "id": 102,
+      "level": 3,
+      "ability": "blockThrough",
+      "value": 0.075,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_8"
+    },
+    {
+      "id": 102,
+      "level": 4,
+      "ability": "blockThrough",
+      "value": 0.11,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_9"
+    },
+    {
+      "id": 102,
+      "level": 5,
+      "ability": "blockThrough",
+      "value": 0.15,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_10"
+    }
+  ],
+  "103": [
+    {
+      "id": 103,
+      "level": 1,
+      "ability": "block",
+      "value": 0.02,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_11"
+    },
+    {
+      "id": 103,
+      "level": 2,
+      "ability": "block",
+      "value": 0.045,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_12"
+    },
+    {
+      "id": 103,
+      "level": 3,
+      "ability": "block",
+      "value": 0.075,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_13"
+    },
+    {
+      "id": 103,
+      "level": 4,
+      "ability": "block",
+      "value": 0.11,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_14"
+    },
+    {
+      "id": 103,
+      "level": 5,
+      "ability": "block",
+      "value": 0.15,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_15"
+    }
+  ],
+  "104": [
+    {
+      "id": 104,
+      "level": 1,
+      "ability": "criticalDamageResist",
+      "value": 0.035,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_16"
+    },
+    {
+      "id": 104,
+      "level": 2,
+      "ability": "criticalDamageResist",
+      "value": 0.075,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_17"
+    },
+    {
+      "id": 104,
+      "level": 3,
+      "ability": "criticalDamageResist",
+      "value": 0.125,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_18"
+    },
+    {
+      "id": 104,
+      "level": 4,
+      "ability": "criticalDamageResist",
+      "value": 0.18,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_19"
+    },
+    {
+      "id": 104,
+      "level": 5,
+      "ability": "criticalDamageResist",
+      "value": 0.25,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_20"
+    }
+  ],
+  "105": [
+    {
+      "id": 105,
+      "level": 1,
+      "ability": "damageDown",
+      "value": 0.01,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_21"
+    },
+    {
+      "id": 105,
+      "level": 2,
+      "ability": "damageDown",
+      "value": 0.025,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_22"
+    },
+    {
+      "id": 105,
+      "level": 3,
+      "ability": "damageDown",
+      "value": 0.045,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_23"
+    },
+    {
+      "id": 105,
+      "level": 4,
+      "ability": "damageDown",
+      "value": 0.065,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_24"
+    },
+    {
+      "id": 105,
+      "level": 5,
+      "ability": "damageDown",
+      "value": 0.09,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_25"
+    }
+  ],
+  "106": [
+    {
+      "id": 106,
+      "level": 1,
+      "ability": "attackPercentInBattle",
+      "value": 0.08,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_26"
+    },
+    {
+      "id": 106,
+      "level": 2,
+      "ability": "attackPercentInBattle",
+      "value": 0.18,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_27"
+    },
+    {
+      "id": 106,
+      "level": 3,
+      "ability": "attackPercentInBattle",
+      "value": 0.3,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_28"
+    },
+    {
+      "id": 106,
+      "level": 4,
+      "ability": "attackPercentInBattle",
+      "value": 0.44,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_29"
+    },
+    {
+      "id": 106,
+      "level": 5,
+      "ability": "attackPercentInBattle",
+      "value": 0.6,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_30"
+    }
+  ],
+  "107": [
+    {
+      "id": 107,
+      "level": 1,
+      "ability": "speed",
+      "value": 7,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_31"
+    },
+    {
+      "id": 107,
+      "level": 2,
+      "ability": "speed",
+      "value": 15,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_32"
+    },
+    {
+      "id": 107,
+      "level": 3,
+      "ability": "speed",
+      "value": 25,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_33"
+    },
+    {
+      "id": 107,
+      "level": 4,
+      "ability": "speed",
+      "value": 36,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_34"
+    },
+    {
+      "id": 107,
+      "level": 5,
+      "ability": "speed",
+      "value": 50,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_35"
+    }
+  ],
+  "108": [
+    {
+      "id": 108,
+      "level": 1,
+      "ability": "dodge",
+      "value": 0.01,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_36"
+    },
+    {
+      "id": 108,
+      "level": 2,
+      "ability": "dodge",
+      "value": 0.025,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_37"
+    },
+    {
+      "id": 108,
+      "level": 3,
+      "ability": "dodge",
+      "value": 0.045,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_38"
+    },
+    {
+      "id": 108,
+      "level": 4,
+      "ability": "dodge",
+      "value": 0.07,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_39"
+    },
+    {
+      "id": 108,
+      "level": 5,
+      "ability": "dodge",
+      "value": 0.1,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_40"
+    }
+  ],
+  "109": [
+    {
+      "id": 109,
+      "level": 1,
+      "ability": "hit",
+      "value": 0.01,
+      "costSelf": 0,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 200,
+      "name": "weaponHalo_name_41"
+    },
+    {
+      "id": 109,
+      "level": 2,
+      "ability": "hit",
+      "value": 0.025,
+      "costSelf": 1,
+      "costAny": 1,
+      "costID1": 589,
+      "num1": 400,
+      "name": "weaponHalo_name_42"
+    },
+    {
+      "id": 109,
+      "level": 3,
+      "ability": "hit",
+      "value": 0.045,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 800,
+      "name": "weaponHalo_name_43"
+    },
+    {
+      "id": 109,
+      "level": 4,
+      "ability": "hit",
+      "value": 0.07,
+      "costSelf": 1,
+      "costAny": 2,
+      "costID1": 589,
+      "num1": 1200,
+      "name": "weaponHalo_name_44"
+    },
+    {
+      "id": 109,
+      "level": 5,
+      "ability": "hit",
+      "value": 0.1,
+      "costSelf": 2,
+      "costAny": 3,
+      "costID1": 589,
+      "num1": 2000,
+      "name": "weaponHalo_name_45"
+    }
+  ]
+}

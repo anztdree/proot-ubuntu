@@ -1,0 +1,54 @@
+{
+  "1": {
+    "id": 1,
+    "name": "赛亚人",
+    "value1Needed": 3,
+    "value1": 0.2,
+    "value2Needed": 6,
+    "value2": 0.2
+  },
+  "2": {
+    "id": 2,
+    "name": "超级赛亚人",
+    "value1Needed": 2,
+    "value1": 0.2,
+    "value2Needed": 4,
+    "value2": 0.2,
+    "value3Needed": 6,
+    "value3": 0.2
+  },
+  "3": {
+    "id": 3,
+    "name": "邪恶",
+    "value1Needed": 2,
+    "value1": 0.3,
+    "value2Needed": 4,
+    "value2": 0.2,
+    "value3Needed": 6,
+    "value3": 0.2
+  },
+  "4": {
+    "id": 4,
+    "name": "人造人",
+    "value1Needed": 2,
+    "value1": 0.1,
+    "value2Needed": 4,
+    "value2": 0.1,
+    "value3Needed": 4,
+    "value3": 0.1
+  },
+  "5": {
+    "id": 5,
+    "name": "神",
+    "value1Needed": 1,
+    "value1": 0.15,
+    "value2Needed": 2,
+    "value2": 0.15
+  },
+  "6": {
+    "id": 6,
+    "name": "龟仙流",
+    "value1Needed": 4,
+    "value1": 0.3
+  }
+}

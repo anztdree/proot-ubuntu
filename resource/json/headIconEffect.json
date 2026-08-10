@@ -1,0 +1,20 @@
+{
+  "101": {
+    "id": 101,
+    "type": "effect",
+    "name": "跨服战冠军",
+    "resource": "kuafuzhanguanjun"
+  },
+  "102": {
+    "id": 102,
+    "type": "effect",
+    "name": "跨服战2~4名",
+    "resource": "kuafuzhanyajun"
+  },
+  "103": {
+    "id": 103,
+    "type": "effect",
+    "name": "巅峰之战冠军",
+    "resource": "uiEffect_Peak1"
+  }
+}

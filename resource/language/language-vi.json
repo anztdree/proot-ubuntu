@@ -1,0 +1,4903 @@
+{
+  "TSUIController": {
+    "id1": "{0}h ",
+    "id2": "{0}p ",
+    "id3": "{0}s",
+    "id4": "{0} ngày ",
+    "id5": "{0} giờ ",
+    "id6": "{0} phút ",
+    "id7": "Túi Hero đã đầy, sẽ gửi qua thư!",
+    "id8": "Tài khoản này đã login trên thiết bị khác",
+    "id9": "Đã mất kết nối ",
+    "id10": "Hãy kiểm tra đường truyền rồi thử lại",
+    "id11": "Xin chào, hãy đăng nhập lại rồi thử thanh toán",
+    "hhmm": "{0}giờ{1}phút",
+    "ddhh": "{0} ngày {1}h "
+  },
+  "activitySetReward": {
+    "id1": "VP Ngẫu Nhiên",
+    "id2": "Đã đạt số lần báo danh cao nhất",
+    "id3": "Cần tốn {0}x{1}, mua không?",
+    "id4": "Xác nhận",
+    "id5": "Hủy",
+    "id6": "Mua đang CD…"
+  },
+  "BackPackCommon": {
+    "id1": "Giảm {0}",
+    "id2": "+{0}%",
+    "id3": "25"
+  },
+  "error_handler": {
+    "id1": "Lỗi chưa biết!{0}"
+  },
+  "heroCommon": {
+    "id1": "Thắp Sáng Sổ Tay",
+    "id2": "HP",
+    "id3": "Công",
+    "id4": "Thủ",
+    "id5": "Tốc Độ",
+    "deid6": "0.5",
+    "frid7": "22"
+  },
+  "OpenLimit": {
+    "id1": "Người chơi đạt Lv{0} mở {1}",
+    "id4": "Hoàn thành {0} sẽ mở {1}",
+    "id6": "Team đạt Lv {0} mở {1}"
+  },
+  "ToolCommon": {
+    "id3": "Ấn Ký-Kame",
+    "id4": "Ấn Ký-Shin",
+    "id5": "Ấn Ký-Mo",
+    "id6": "Ấn Ký-Go",
+    "id7": "Ấn Ký-Kai",
+    "id8": "Ấn Ký-Zen",
+    "id9": "ngày trước",
+    "id10": "Giờ trước ",
+    "id11": "Phút trước",
+    "id12": " ",
+    "id13": "/",
+    "id14": "/",
+    "id15": "Chưa",
+    "id16": "Vạn",
+    "id17": "Ức",
+    "id18": "Đã max lv!",
+    "id19": "Giảm {0}",
+    "deid20": "18",
+    "id20": "Hiệu quả độc quyền ({0})",
+    "id21": "Không rõ",
+    "id22": "Sau khi Đá đạt cấp 5 tiến hành giám định được nhận hiệu quả độc quyền",
+    "id23": "<font color={0}>{1}</font>\n<font color={2}>{3}/{4} {5}</font>",
+    "id24": "Khảm 4 Đá {0} hiệu quả đặc biệt mới được kích hoạt kỹ năng độc quyền",
+    "timeLab": "Thời gian vượt ải: {0}",
+    "serverLab": "Cụm {0}"
+  },
+  "viewCommon": {
+    "id1": "2 món",
+    "id2": "3 món",
+    "id3": "4 món",
+    "id4": "Thông tin",
+    "id5": "Skill",
+    "id6": "Trang Bị",
+    "id7": "Ấn Ký ",
+    "id8": "Kame",
+    "id9": "Ấn Ký-Kame",
+    "id10": "Shin",
+    "id11": "Ấn Ký-Shin",
+    "id12": "Mo",
+    "id13": "Ấn Ký-Mo",
+    "id14": "Kai",
+    "id15": "Ấn Ký-Kai",
+    "id16": "Go",
+    "id17": "Ấn Ký-Go",
+    "id18": "Zen",
+    "id19": "Ấn Ký-Zen",
+    "id20": "Bạn Bè",
+    "id21": "Yêu cầu kết bạn ",
+    "id22": "Danh sách đăng ký ",
+    "id24": "Online ",
+    "id25": "{0} ngày trước ",
+    "id26": "{0} giờ trước ",
+    "id27": "{0} phút trước ",
+    "id28": "l{0}/{1}",
+    "id29": "Hero",
+    "id30": "Siêu Tất Sát",
+    "deid31": "29",
+    "deid32": "30",
+    "frid33": "20",
+    "id33": "Danh sách đen",
+    "id34": "7 ngày trước"
+  },
+  "AltarInfoManger": {
+    "id1": "Đội Đấu Trường không được trống, không thể mở khóa",
+    "id2": "Hero này đang trong đội hình thủ tại Đấu Trường, có muốn mở khóa không? ",
+    "id3": "OK",
+    "id4": "Hủy",
+    "id5": "Anh hùng này đã ra trận trong đội hình thủ Đại Hội Võ Thuật và cùng đội với anh hùng cộng hưởng, có muốn chọn và gỡ khỏi trận?",
+    "id6": "Anh hùng này đang ra trận trong đội thủ Chiến Đỉnh Phong, không thể mở khóa",
+    "id7": "Anh hùng chính và anh hùng cộng hưởng đồng thời trong đội hình thủ Đấu Trường, xác nhận đổi sẽ gỡ anh hùng cộng hưởng khỏi đội hình thủ!",
+    "id8": "Anh hùng chính và anh hùng cộng hưởng đồng thời trong đội hình thủ Chiến Đỉnh Phong, không thể đổi",
+    "id9": "Đội thủ trong Chiến Đỉnh Phong không được trống, không thể mở khóa"
+  },
+  "equipInfoManager": {
+    "id1": "Giáp Tay ",
+    "id2": "Áo ",
+    "id3": "Đai",
+    "id4": "Giày "
+  },
+  "friendManager": {
+    "id1": "Số tim mỗi ngày nhận được đạt {0} cái ",
+    "id3": "Số tim mỗi ngày tặng đã đạt {0} cái ",
+    "id4": "Đã có quá nhiều bạn, không thể thao tác!"
+  },
+  "TeamInfoManager": {
+    "id1": "Thành viên",
+    "id2": "Đội phó ",
+    "id3": "Đội trưởng",
+    "id4": "{0} giờ {1} phút sau có thể tham gia Team!",
+    "id5": "{0} phút sau có thể tham gia Team !!",
+    "id6": "{0} phút sau có thể tạo đội",
+    "id7": "Đã hết lượt mua trong ngày!",
+    "id8": "Mua <font color={0}>{1} lần khiêu chiến</font>, cần tốn <font color={2}>{3}{4}</font>, muốn mua không?",
+    "id9": "Hoạt động Tranh Đoạt Ngọc Rồng đã kết thúc",
+    "id10": "TG Hồi Phục:\n{0}"
+  },
+  "towerDataManager": {
+    "id1": "đã kết thúc ",
+    "id2": "Chưa mở ",
+    "id3": "Hoạt động đã kết thúc",
+    "id4": "Còn: {0} tổng kết",
+    "id6": "Hoạt động chưa mở "
+  },
+  "battleCallBack": {
+    "id1": "Lực Chiến không đủ ",
+    "ballWarId1": "Có Anh Hùng trong đội đang phòng thủ chỗ khác, muốn thay đổi (Thay đổi thì chổ cũ sẽ bị cường đạo chiếm)?",
+    "ballwarId2": "Xác nhận",
+    "ballwarId3": "Hủy"
+  },
+  "onHookSingleton": {
+    "id1": "Thường",
+    "id2": "Khó ",
+    "id3": "Ác Mộng",
+    "id4": "Chưa bắt đầu ải ",
+    "id5": "Thường",
+    "id6": "Khó ",
+    "id7": "Ác Mộng",
+    "id8": "Địa Ngục",
+    "id9": "Địa Ngục"
+  },
+  "summonSingleton": {
+    "id1": "Túi Hero đã đầy, muốn tách bớt không?",
+    "id3": "Túi Hero không đủ, có muốn tách bớt không? ",
+    "id5": "Đi",
+    "id6": "Hủy"
+  },
+  "UIWindowManager": {
+    "id1": "Mua lần này y/c VIP{0}, muốn đi xem đặc quyền VIP không?",
+    "id3": "Số lượng không đủ",
+    "id4": "Bạn đã bị đội trưởng đuổi khỏi Team!",
+    "id5": "Đội hình đã có thay đổi, muốn lưu không?",
+    "id6": "Đồng ý sửa",
+    "id7": "Không fix",
+    "id8": "Hãy tham gia Team trước ",
+    "id9": "Thứ 5 hàng tuần mở ",
+    "id10": "·Phải đánh bại 7 Baby Cell thì mới được đánh với bản thể Cell\n\n·Vượt ải Trò Chơi Cell, có thể khiến phần quà mỗi ngày tốt hơn\n\n·Trò Chơi Cell là trò chơi 1v1 ",
+    "id11": "·sáng 6:00 reset số lần",
+    "id12": "·Trống",
+    "id13": "·Mỗi ngày có thể nhận quà 1 lần\n\n·Quà reset lúc 6:00 mỗi ngày ",
+    "id14": " - Tối đa phối hợp 3 chiến đội tranh đoạt tài nguyên\n- Đồng thời chiến đội phe ta cũng bị chiến đội khác đoạt tài nguyên\n- Cố gắng chiếm tài nguyên đội khác và bảo vệ tài nguyên của mình.",
+    "id15": "- Thời gian xếp cặp: 0:00 mỗi thứ 2-6\n\nThời gian mở: 9:00 mỗi thứ 2-6\n\nThời gian tổng kết: 21:00 mỗi thứ 2-6",
+    "id16": "-Phối hợp lúc 0h mỗi ngày, chiến đội tham gia tối thiểu phải có 10 thành viên.\n\n-Bắt cặp xong nếu thành viên phòng thủ thoát chiến đội sẽ không ảnh hưởng đến đội hình phòng thủ phe ta trong lần bắt cặp này",
+    "id17": "- Khi tổng kết, tổng quà thưởng sẽ căn cứ vào tài nguyên đoạt được và tài nguyên bảo vệ\n- Thưởng sẽ nhận theo tỷ lệ tài nguyên của mỗi thành viên đoạt được.",
+    "id18": "Dựa vào thời gian mở server gần nhau để phân nhóm SV tiến hành giải đấu liên server\n\nSau khi báo danh vòng loại, nếu như có thể vào Top64, sẽ có thể tham gia Vòng Tăng Cấp của liên SV\n\nMọi người đều có thể tham gia dự đoán kết quả để có cơ hội nhận x2 Vàng\n\nGiải đấu Liên SV lấy đội hình trận hôm qua, update mỗi ngày.",
+    "id19": "Báo danh: Thứ 2\n\nVòng loại: Thứ 3\n\nVòng Tăng Cấp: Thứ 4 - thứ 7.",
+    "id20": "Dự đoán không cần điều kiện\n\nCần báo danh mới được tham gia Vòng Loại và Vòng Tăng Cấp",
+    "id21": "Thưởng dự đoán Vòng Tăng Cấp, sẽ được phát qua thư",
+    "id22": "- Mỗi tuần đánh Tranh Đoạt Ngọc Rồng 1 lần, phối hợp 3 chiến đội liên server có điểm Rank tương đương cùng tranh đoạt 7 Viên Ngọc Rồng, chiến đội có nhiều Ngọc Rồng hơn sẽ thắng\n-Trong khu thám hiểm tìm ra các viên Ngọc Rồng sẽ nhận được buff, thông qua chiếm trung tâm khu vực sẽ chiếm được Ngọc Rồng khu đó\n- Ngọc Rồng của thành viên chiến đội phát hiện, thì chỉ thành viên chiến đội đó mới thấy được\n- Buff Cờ có hiệu lực khi chiến đấu với kẻ địch (Không có hiệu lực khi giao đấu với thành viên cùng chiến đội)",
+    "id23": "- TG mở: 09:00 thứ 7 hàng tuần\n- TG tổng kết: 21:00 CN hàng tuần",
+    "id24": "- Tranh Đoạt Ngọc Rồng chỉ có thể do đội trưởng hoặc đội phó báo danh\n- Sôi Nổi chiến đội đạt 5000 mới có thể báo danh\n- Báo danh tính đến 24:00 thứ 6 hàng tuần, và tiến hành ghép chiến đội dựa theo Lực Chiến\n\nThành viên gia nhập chiến đội sau 24:00 thứ 6 trong tuần, không thể tham gia Tranh Đoạt Ngọc Rồng",
+    "id25": "- Khi tổng kết, sẽ dựa theo số Ngọc Rồng đang có để tính xếp hạng, thành viên nhận thưởng theo xếp hạng chiến đội (Nếu 2 chiến đội có số Ngọc Rồng bằng nhau sẽ cùng xếp thấp hơn 1 hạng)\n- Khi tổng kết cấp Rank của chiến đội sẽ tăng số lượng quà Xu Vinh Dự\n- Người chơi chiếm Tháp Trung Tâm sẽ được nhận thêm Ngọc Rồng trong khu đó",
+    "id30": "Giới thiệu lối chơi",
+    "id31": "1. Chiến Đỉnh Phong tất cả người chơi toàn server cùng tham gia đấu liên SV trong 1 khu đấu\n\n2. Chiến Đỉnh Phong mỗi mùa đấu duy trì trong 30 ngày, lần lượt 3 giai đoạn Khiêu Chiến Đỉnh Phong, Quyết Chiến Đỉnh Phong, Đỉnh Vinh Dự",
+    "id32": "Bậc",
+    "id33": "1).Chiến Đỉnh Phong tổng cộng có 6 bậc: Đồng, Bạc, Vàng, Bạch Kim, Kim Cương, Vương Giả\n\n2). Các bậc Đồng, Bạc, Vàng, Bạch Kim, Kim Cương mỗi bậc có 3 bậc nhỏ, mỗi bậc nhỏ tăng cấp lần lượt từ I đến Ⅲ\n\n3). Lần đầu vào Chiến Đỉnh Phong cần thiết lập đội hình thủ, hệ thống dựa vào tổng lực chiến đội hình thủ của người chơi để xếp bậc ban đầu\n\n4). Bảo vệ bậc: chiến đấu thất bại ở bậc Đồng sẽ không bị trừ điểm bậc, chiến đấu thất bại ở Bạch Kim không bị rớt bậc\n\n5). Quy tắc kế thừa bậc mùa giải mới:\n    Vương Giả   → Kim Cương I\n    Kim Cương Ⅲ → Kim Cương I\n    Kim Cương II → Bạch Kim III\n    Kim Cương I  → Bạch Kim II\n    Bạch Kim III → Bạch Kim II\n    Bạch Kim II → Bạch Kim I\n    Bạch Kim I  → Vàng III\n    Vàng III → Vàng II\n    Vàng II → Vàng I\n    Vàng I  → Bạc III\n    Bạc III trở xuống kế thừa trực tiếp",
+    "id34": "Khiêu chiến Đỉnh Phong",
+    "id35": "1). Ngày 1 đến 25 mỗi mùa đấu là giai đoạn Khiêu Chiến Đỉnh Phong\n\n2). Trong thời gian Khiêu Chiến Đỉnh Phong, người chơi có thể xếp cặp liên server đấu với người chơi khác, khi số lần chiến đấu không đủ có thể dùng Kim Cương để mua\n\n3). Nếu không vừa ý với đối thủ được xếp cặp, có thể dùng Kim Cương để xếp cặp lại\n\n4). Mỗi đội ít nhất cần ra trận 1 anh hùng, nếu không thì đội này tự động bị xử thua\n\n5). Khi hết giờ chiến đấu, đội phòng thủ được phán định chiến thắng\n\n6). Lúc 2 bên chiến đấu, bên có đội thắng nhiều hơn sẽ dành chiến thắng cuối cùng",
+    "id36": "Quyết Chiến Đỉnh Phong",
+    "id37": "1). Ngày 26 đến 29 mỗi mùa đấu là giai đoạn Quyết Chiến Đỉnh Phong\n\n2). Sau khi giai đoạn Khiêu Chiến Đỉnh Phong kết thúc, người chơi top 64 trong BXH Vinh Dự sẽ xếp cặp ngẫu nhiên để Quyết Chiến Đỉnh Phong\n\n3). Đội hình của người chơi trong giai đoạn Quyết Chiến Đỉnh Phong là đội hình thủ khi kết thúc giai đoạn Khiêu Chiến Đỉnh Phong\n\n4). Quyết Chiến Đỉnh Phong do hệ thống xếp cặp chiến đấu, dựa theo đội người chơi lần lượt theo thứ tự đánh luân phiên, khi có một phe không thể dùng đội nữa thì bị xử thua\n\n5). Trong thời gian Quyết Chiến Đỉnh Phong tất cả người chơi đều có thể xem lịch sử chiến đấu của ngày hôm đó và dùng kim cương để đoán, có cơ hội nhận được thưởng x2 Kim Cương",
+    "id38": "Đỉnh Vinh Dự",
+    "id39": "1). Ngày 30 của mỗi mùa đấu là giai đoạn Đỉnh Vinh Dự\n\n2). Top 8 người chơi mỗi khu đấu Quyết Chiến Đỉnh Phong sẽ được hiển thị trong Sảnh Vinh Dự",
+    "id40": "Thưởng mùa đấu",
+    "id41": "1). Thưởng bậc: Thời gian mùa đấu đạt được bậc tương ứng thì có thể trực tiếp nhận thưởng\n\n2). Thưởng tổng kết: Gởi qua hình thức thư sau khi mùa đấu kết thúc, trong thời gian mùa đấu người chơi ít nhất phải tham gia khiêu chiến qua 1 lần mới có thể nhận thưởng tổng kết\n\n3). Thưởng Quyết Chiến Đỉnh Phong: Gởi qua hình thức thư sau khi kết thúc mùa đấu"
+  },
+  "activityChoseRewardTip": {
+    "id1": "Hãy chọn phần thưởng"
+  },
+  "activityExChangeTip": {
+    "id1": "Hãy chọn nguyên liệu để đôi 3!",
+    "id2": "Kim Cương không đủ, hãy nạp thêm!"
+  },
+  "activityLuckyStar": {
+    "id1": "Có thể tăng lv ",
+    "id2": "Điểm May Mắn: {0}",
+    "id3": "Cần VIP{0}",
+    "id4": "Được trả lại",
+    "id5": "Đã max lv",
+    "id6": "Đã đạt giới hạn ",
+    "id7": "TG Kết Thúc:",
+    "id8": "Điểm May Mắn càng cao, tỉ lệ tăng cấp trực tiếp càng cao.",
+    "id9": "Tỉ lệ hiện tại: ",
+    "id10": "Bạn đã nhận 1 món ",
+    "id11": "Nếu muốn tiếp tục tăng cấp, hãy trả lại trang bị nhận trước đó:",
+    "id12": "Đang trang bị ",
+    "id13": "Tăng Cấp xong",
+    "deid14": "26",
+    "krid15": "28",
+    "krid16": "28",
+    "frid15": "28",
+    "frid16": "30"
+  },
+  "activityNormalLuck": {
+    "id1": "x10 lần tỉ lệ ra nhân vật, {0} kết thúc",
+    "id2": "Rút X10 chắc chắn nhận Hero <font color=0xFF9900>Cam</font>",
+    "id5": "Kho thẻ nhân vật",
+    "id6": "26",
+    "deid7": "25",
+    "deid8": "28"
+  },
+  "activitySuperLuck": {
+    "id1": "x10 lần tỉ lệ ra nhân vật, {0} kết thúc",
+    "id2": "Rút x10 100% nhận",
+    "id3": "Màu cam ",
+    "id4": "Hero",
+    "id5": "Kho thẻ nhân vật"
+  },
+  "activityTimeListItem": {
+    "id1": "{0}/{1}"
+  },
+  "BulmaPartyItemListItem": {
+    "id1": "Kho tồn: {0}",
+    "id2": "Kho tồn không đủ !"
+  },
+  "BuyNewDiscountsGiftPanel": {
+    "id2": "Tổng tiêu phí:",
+    "id3": "OK",
+    "id4": "Hủy"
+  },
+  "DailyCumulativeRecharge": {
+    "id2": "Tích nạp hiện tại: "
+  },
+  "DailyCumulativeRechargeTimeListItem": {
+    "id1": "{0}/{1}",
+    "krid2": "0.8",
+    "viid3": "24"
+  },
+  "exchangeHeroActivity": {
+    "id1": "·{0}{1}Hero x{2}",
+    "id2": "Tùy ý",
+    "id3": "Loại S.Mạnh",
+    "id4": "Loại skill",
+    "id5": "Loại TL",
+    "id6": "·{0}Hero {1}x{2}",
+    "id7": "Đổi",
+    "deid8": "0.5",
+    "id8": "·Cần Vip {0}",
+    "id9": "·Cần người chơi đạt VIP {0} trở lên",
+    "deid10": "20"
+  },
+  "heroRebateActivityListItem": {
+    "id1": "Lượt Còn: {0}",
+    "id2": "Ngẫu nhiên {0}{1}-{2}",
+    "deid3": "30",
+    "deid4": "25"
+  },
+  "learnSignActivity": {
+    "id1": "{0} chữ Ấn Ký ",
+    "id2": "Tự động Học X10, dựa theo phẩm chất mỗi lần tự tiêu hao Vé Master tương ứng!",
+    "id3": "OK",
+    "id4": "Hủy",
+    "id5": "TG Kết Thúc",
+    "id6": "Đang chọn: ",
+    "id7": "Tỉ lệ nhận được ",
+    "id8": "Tự động bán các loại Ấn Ký sau:",
+    "id9": "Lục",
+    "id10": "Lam ",
+    "id11": "Tím",
+    "deid12": "28"
+  },
+  "luckRewardActivity": {
+    "id1": "    Tham gia rút thưởng vip, mỗi lần rút được {0} lần có thể nhận 1 rương maymắn có tỷ lệ mở được Hero theo chủ đề đang hot!",
+    "id3": "    Thông qua rút thẻ, rút x10 rương hoặc là hợp thành mảnh nhận được ",
+    "id4": "(không bao gồm Triệu Hồi Rồng Thần và thay thế), có thể nhận 3 món trang bị cam trong 1 bộ",
+    "id5": "    Trong thời gian hoạt động tiêu hao {0} xu may mắn đạt hạng 1, thưởng 1 bộ ngọc rồng. Dùng 7 viên ngọc rồng cầu nguyện, có thể chọn 1 hero cao cấp mình thích. ",
+    "id6": "Tiến độ hiện tại: ",
+    "id7": "Sau khi kết thúc hoạt động sẽ gửi quà qua thư ",
+    "id8": "Rương May Mắn",
+    "id9": "1 bộ Ngọc Rồng 1-7 sao"
+  },
+  "newDiscountGiftListItem": {
+    "id1": "Hạn mua : {0}",
+    "id3": "Túi km server mới ",
+    "id4": "EXP VIP",
+    "frid5": "26",
+    "frid6": "0.75",
+    "enme7": "-7"
+  },
+  "SevenDaysRecharge": {
+    "id1": "VIP{0} trở lên",
+    "id2": "Điều kiện tham gia hoạt động:"
+  },
+  "sevenDaysRechargeListItem": {
+    "id1": "Cần VIP{0}",
+    "deid2": "28",
+    "deid3": "30"
+  },
+  "SevenDaysSign": {
+    "id1": "Ngày thứ {0}",
+    "deid2": "22"
+  },
+  "specificTotalRankItem": {
+    "id1": "Chưa",
+    "deid2": "28",
+    "deid3": "1"
+  },
+  "strongPersonActivity": {
+    "id1": "Chưa đến ngày chỉ định ",
+    "id3": "Không thể làm mới, túi km chỉ bán mỗi ngày 1 món!",
+    "id4": "TG Kết Thúc",
+    "id5": "Làm mới sẽ có VP mới, mỗi ngày chỉ được mua 1 món VP giá khuyến mãi",
+    "id6": "Phúc lợi mỗi ngày ",
+    "id7": "HĐ Sôi Nổi",
+    "id8": "Km mỗi ngày ",
+    "id9": "Làm Mới",
+    "id10": "Quy Tắc",
+    "deid11": "1",
+    "deid12": "27"
+  },
+  "superGiftList": {
+    "id1": "Hạn mua : {0}",
+    "id3": "Túi Siêu May Mắn",
+    "frid4": "26",
+    "enme5": "1"
+  },
+  "PadipataAnswer": {
+    "frid1": "35"
+  },
+  "TimeLimitGiftBag": {
+    "id1": "Mua {0}",
+    "id2": "{0}",
+    "id3": "Quà{0}",
+    "id4": "Chỉ ",
+    "id5": "Nạp trong tab này có thể nhận được ",
+    "id6": "Đếm ngược thời gian còn : ",
+    "id7": "(Còn {0} lần)",
+    "deid7": "0.8",
+    "deid8": "0.5",
+    "deid9": "24",
+    "deid10": "20",
+    "viid11": "-18",
+    "id11": "Đã Hết Hạn"
+  },
+  "totalRankActivity": {
+    "id1": "Hoạt động đã kết thúc",
+    "id2": "CD:",
+    "id3": "BXH TOP ",
+    "id4": "Hạng 500",
+    "id5": "Được nhận",
+    "id6": "Phần thưởng phong phú!",
+    "id7": "Hạng 1 ",
+    "id8": "Hạng 2 ",
+    "id9": "Hạng 3",
+    "id10": "Cấp:",
+    "id11": "XH:",
+    "deid12": "26",
+    "krid13": "26",
+    "frid14": "23",
+    "frid15": "22",
+    "viid16": "18"
+  },
+  "activityChoseRewardTipViewData": {
+    "id1": "CÓ thể nhận thưởng sau ",
+    "id2": "Có thể chọn một trong các phần thưởng sau ",
+    "id3": "Chọn một trong các thưởng dưới đây",
+    "id4": "Nhận ngẫu nhiên một trong các thưởng dưới đây",
+    "id5": "Nhận tất cả thưởng dưới đây",
+    "deid5": "22"
+  },
+  "activityExChangeTipViewData": {
+    "id1": "{0} đổi nguyên liệu ",
+    "id2": "Đổi"
+  },
+  "entrustActivityViewData": {
+    "id1": "Hoàn thành {0} nhiệm vụ {1} sao"
+  },
+  "friendBattleRewardActivityViewData": {
+    "id1": "Tổng lần thắng {0} lần "
+  },
+  "learnSignActivityViewData": {
+    "id1": "Quy Lão Kame",
+    "id2": "Kame",
+    "id3": "Kami",
+    "id4": "Shin",
+    "id5": "Đại Ma Vương Piccolo",
+    "id6": "Mo",
+    "id7": "Thần Vũ Trụ",
+    "id8": "Kai",
+    "id9": "Goku",
+    "id10": "Go",
+    "id11": "Ngài Zeno",
+    "id12": "Zen"
+  },
+  "orangeHeroActivityViewData": {
+    "id1": "S trở lên",
+    "id2": "SS trở lên",
+    "id3": "Tích lũy nhận được {0} {1} Hero "
+  },
+  "rechargeAwardActivityViewData": {
+    "id1": "Nạp Tích Lũy {0} tặng",
+    "id3": "Nạp Tích Lũy {0} trở lên và đạt hạng 2-3 tặng",
+    "id4": "Nạp Tích Lũy {0} trở lên và đạt hạng 1 tặng",
+    "viid5": "163"
+  },
+  "signUpUpAwardViewData": {
+    "id1": "Tích lũy Ấn Ký học {0} lần : "
+  },
+  "totalRankActivityViewData": {
+    "id1": "Chưa",
+    "id3": "Ải:",
+    "id4": "Thắp Sáng:",
+    "id5": "Số Tầng:",
+    "id6": "Lực Chiến:",
+    "id7": "Số Sao:",
+    "id8": "Tổng Tư Chất:"
+  },
+  "TheWildAdventure": {
+    "id1": "Còn: {0}",
+    "id2": "Khoảng cách quá xa!",
+    "id4": "Reset số tầng bản đồ cần tốn {0}Kim Cương , reset bản đồ không hồi điểm hành động, đồng ý không?",
+    "id6": "Đã hết lượt reset",
+    "id7": "Có muốn reset bản đồ tầng này không, reset bản đồ không hồi phục điểm hành động, đồng ý không?",
+    "id8": "Đã hết lượt mua điểm hành động",
+    "id9": "Mua <font color={0}>{1} lần điểm hành động</font>, cần tốn <font color={2}>{3}Kim Cương </font>, muốn mua không?",
+    "id10": "(Còn: ",
+    "id11": "Lần)",
+    "id12": "Còn",
+    "id13": "Tầng này còn:",
+    "id14": "OK",
+    "id15": "Hủy",
+    "id16": "Đã hết lượt reset!",
+    "id17": "Tiêu hao {0} điểm hành động có thể tìm kiếm toàn bản đồ và nhận tất cả thưởng rương, có tìm nhanh không?"
+  },
+  "AltarMain": {
+    "id1": "Hãy chọn Hero muốn tách!",
+    "id2": "Không thể tách tất cả Hero ",
+    "id3": "Trong số Hero chọn có phẩm  {0} , muốn tách không?",
+    "id5": "OK",
+    "id6": "Hủy",
+    "id7": "Hãy chọn Hero muốn trùng sinh!",
+    "id8": "Trong số Hero chọn có phẩm  {0} , muốn trùng sinh không?",
+    "id10": "Dùng {0}Kim Cương để trùng sinh Hero không?",
+    "id12": "Hãy chọn Ấn Ký cần tách!",
+    "id13": "Trong số item chọn có phẩm <font color=0xff9046 strokecolor=0xcb1e11>Cam</font> , muốn tách không?",
+    "id15": "Hãy chọn Ấn Ký cần trùng sinh!",
+    "id16": "Trong số item chọn có phẩm  <font color=0xff9046 strokecolor=0xcb1e11>Cam</font> , muốn trùng sinh không?",
+    "id17": "Dùng {0}Kim Cương để trùng sinh Ấn Ký không ?",
+    "id18": "Hãy chọn vũ khí cần tách!",
+    "id19": "Trong số item chọn có phẩm <font color=0xff9046 strokecolor=0xcb1e11>Cam</font>, muốn tách không?",
+    "id20": "Hãy chọn vũ khí cần trùng sinh!",
+    "id21": "Trong số item chọn có phẩm  <font color=0xff9046 strokecolor=0xcb1e11>Cam</font> , muốn trùng sinh không?",
+    "id22": "Dùng {0}Kim Cương  để trùng sinh vũ khí không?",
+    "id23": "1. Hoàn trả tất cả Trang Bị, Vũ Khí, Ấn Ký\n\n2. Hoàn trả tất cả nguyên liệu Mảnh Potara, Ngọc Potara và Hồn Potara tiêu phí để tăng cấp và tăng bậc Hoa Tai\n\n3. Hoàn trả tất cả Viên Nhộng EXP, Viên Đột Phá tiêu hao khi tăng cấp hoặc đột phá Anh Hùng\n\n4. Hoàn trả 80% Đá Năng Lượng tiêu hao khi Tu Luyện Khí Công\n\n5. Hoàn trả 80% Vàng tiêu phí trưởng thành\n\n6. Hoàn trả Đá Hồn tiêu hao khi thức tỉnh Anh Hùng\n\n7. Hoàn trả 80% Đá Thức Tỉnh tiêu hao khi thức tỉnh\n\n8. Hoàn trả tất cả Viên Nhộng Đột Phá và Thẻ Tu Luyện tiêu hao khi đột phá giới hạn và hoàn trả 80% Đá Thức Tỉnh",
+    "id24": "Hero",
+    "id25": "Ấn Ký ",
+    "id26": "Vũ Khí",
+    "id27": "Hãy chọn Hero muốn trùng sinh ",
+    "id28": "Trùng sinh hoàn trả nguyên liệu trang bị, Đá Hồn Hero. ",
+    "id29": "Sau khi trùng sinh xong bảo lưu cấp sao ",
+    "id30": "Hãy chọn Hero muốn tách ",
+    "id31": "Có thể chọn lọc ",
+    "id32": "Hoàn trả Đá Hồn",
+    "id33": "Hãy chọn Ấn Ký muốn trùng sinh ",
+    "id34": "Trùng sinh hoàn trả nguyên liệu Cường Hóa, tăng sao.",
+    "id36": "Hãy chọn Ấn Ký muốn tách ",
+    "id37": "Hoàn trả Thần Thạch Z",
+    "id38": "Hãy chọn vũ khí muốn trùng sinh ",
+    "id39": "Hãy chọn vũ khí muốn tách ",
+    "id40": "Hoàn trả Kim Tinh",
+    "id41": "Hỗ trợ",
+    "id42": "Chọn Nhanh Ấn Ký",
+    "id43": "Hủy chọn loại hình Ấn Ký sẽ không chọn ",
+    "id44": "Ấn Ký·Quy",
+    "id45": "Ấn Ký-Shin",
+    "id46": "Ấn Ký-Mo",
+    "id47": "Ấn Ký-Kai",
+    "id48": "Ấn Ký-Go",
+    "id49": "Ấn Ký-Zen",
+    "id50": "Lục",
+    "id51": "Lam ",
+    "id52": "Tím",
+    "id53": "Chọn Nhanh Hero",
+    "id54": "Hủy chọn loại hình Hero sẽ không chọn ",
+    "id55": "Trắng",
+    "id56": "Chọn Nhanh Vũ Khí",
+    "id57": "Hủy chọn loại hình vũ khí sẽ không chọn ",
+    "id58": "Chọn Nhanh",
+    "id59": "Tách",
+    "id60": "Trở về thiết lập ban đầu ",
+    "id61": "Hủy hết",
+    "id62": "OK",
+    "id63": "Hủy",
+    "id64": "Chọn Hero cần kế thừa và mục tiêu kế thừa ",
+    "id65": "Kế thừa cấp sao, lv, giới hạn đột phá Hero",
+    "id66": "Chọn Hero kế thừa",
+    "id67": "Chọn Hero mục tiêu",
+    "id68": "1, Hoàn trả 100%  Tinh Thạch Z\n\n2, Hoàn trả 80% Vàng\n\n3, Dựa theo cấp sao hoàn trả tỉ lệ Tinh Thạch Z nhất định, không cùng cấp sao hoàn trả lượng đá khác nhau",
+    "id69": "1. Hoàn trả 100% Hợp Kim\n\n2. Hoàn trả 80% Vàng\n\n3. Dựa theo cấp sao để hoàn trả Kim Tinh, cấp sao khác nhau lượng hoàn trả khác nhau.\n\n4. Hoàn trả 100% Hắc Tinh và các vũ khí khác tiêu hao khi kích hoạt và tăng cấp Vòng Sáng Vũ Khí\n\n5.Vũ khí tăng lên Đỏ sẽ dựa theo cấp sao để hoàn trả lại Vũ Khí 0 sao-Đỏ đã tiêu hao khi tăng cấp, và dựa vào tiêu hao nhất định hoàn trả Vẫn Thiết",
+    "id70": "Hero này đang được Kế Thừa miễn phí",
+    "id71": "Thời gian này miễn phí Kế Thừa Hero",
+    "id72": "Anh hùng không bảo lưu cấp sao sau khi trùng sinh sẽ không hoàn trả mảnh gốc\nTốn {0} Kim Cương trùng sinh anh hùng?",
+    "id73": "Anh hùng không bảo lưu cấp sao sau khi trùng sinh sẽ không hoàn trả mảnh gốc\nAnh hùng được chọn trùng sinh có phẩm {0}, đồng ý muốn trùng sinh?",
+    "deid70": "1.2",
+    "id74": "Ấn Ký hiện tại đã được tăng thuộc tính, Trùng Sinh sẽ không trả lại nguyên liệu, muốn Trùng Sinh?",
+    "frid75": "45",
+    "frid76": "26",
+    "frid77": "1.2",
+    "id75": "Không thể trùng sinh anh hùng cộng hưởng",
+    "id76": "Không thể tách anh hùng cộng hưởng",
+    "id77": "Anh hùng này đang cộng hưởng, sau khi trùng sinh trạng thái cộng hưởng anh hùng cũng thay đổi, có trùng sinh không?",
+    "id78": "Anh hùng này đang cộng hưởng, sau khi trùng sinh trạng thái cộng hưởng anh hùng cũng thay đổi, có tách không?",
+    "id79": "Khi triệu hồi, tự động phân giải anh hùng phẩm tím và phẩm thấp hơn rút được"
+  },
+  "arenaBattleItem": {
+    "id1": "Lực Chiến: {0}",
+    "id2": "Hãy thiết lập đội hình phòng thủ!"
+  },
+  "arenaMain": {
+    "id1": "Lực Chiến: {0}",
+    "id2": "Đã hết lượt mua ",
+    "id3": "1.       Đệ Nhất Hội Võ 9h mỗi tối tiến hành tổng kết phát quà \n 2. Khi đạt xếp hạng cao hơn có thể nhận phần thưởng rank cao hơn \n3. Số lần tấn công mỗi ngày lúc 6:00 sáng sẽ reset lại",
+    "id4": "Lực Chiến",
+    "id5": "XH",
+    "id6": "Tên nhân vật ",
+    "id7": "Lv ",
+    "id8": "Lượt khiêu chiến còn:",
+    "deid9": "24",
+    "deid10": "25",
+    "deid11": "21"
+  },
+  "arenaMainViewData": {
+    "id1": "{0} chiến thắng {1}",
+    "id2": ", xếp hạng Hội võ tăng đến hạng {0}",
+    "id4": ", tiếp tục xưng bá hạng nhất",
+    "id5": "Đã hết lượt mua ",
+    "id6": "Mua <font color={0}>{1}</font> lần Đại Hội Võ Thuật, cần tốn \n<font color={2}>{3}</font> Kim Cương , xác định mua?"
+  },
+  "arenaMyTeam": {
+    "id1": "Chỉ có một phần Hero mới có Siêu Tất Sát\n\n\n\nSiêu Tất Sát phải thông qua kích duyên và mở khóa mới được dùng\n\n\n\nHero khi kích hoạt được Siêu Tất Sát ra trận, thì sẽ có thể dùng Siêu Tất Sát khi chiến đấu\n\n\n\ncó thể chủ động sắp xếp thứ tự Siêu Tất Sát",
+    "id2": "Điều chỉnh đội hình "
+  },
+  "arenaRecordList": {
+    "id1": " - Vừa mới - ",
+    "id2": " -10 phút trước-",
+    "id3": " -30 phút trước-",
+    "id4": " -1 giờ trước -",
+    "id5": " -Hôm nay -",
+    "id6": " -Hôm qua-",
+    "id7": " - mấy ngày trước -",
+    "id9": "XH "
+  },
+  "arenaRewardTips": {
+    "id1": "XH hôm qua: Không có",
+    "id2": "XH hôm qua: {0}",
+    "id3": "22h mỗi ngày tổng kết",
+    "id4": "Phần thưởng tổng kết ngày ",
+    "id5": "Nhận",
+    "deid6": "27",
+    "krid7": "26",
+    "frid8": "28"
+  },
+  "arenaRewardTipsViewData": {
+    "id1": "Đang ở Rank {{0} xếp hạng ",
+    "id3": "Đang ở Rank {{0}+ xếp hạng ",
+    "id4": "Đang ở Rank {0}- Xếp hạng {1}"
+  },
+  "battleEnemyLineUp": {
+    "id1": "Cần Lực Chiến: {0}",
+    "id2": "15",
+    "deid3": "0.5"
+  },
+  "battleStart": {
+    "id1": "Cần Lực Chiến: {0}",
+    "id2": "Trong đội Hero là duy nhất\n Hero cùng tên dùng để tăng sao thức tỉnh",
+    "id3": "Vị trí ra trận đã đầy ",
+    "id4": "Chỉ có Anh Hùng Lv {0} trở lên mới được ra trận",
+    "id7": "Hero đã tử vong không thể tham chiến ",
+    "id8": "Chọn Hero ra trận",
+    "id9": "Vui lòng làm theo hướng dẫn!",
+    "id10": "Chỉ có một phần Hero mới có Siêu Tất Sát\n\n\n\nSiêu Tất Sát phải thông qua kích duyên và mở khóa mới được dùng\n\n\n\nHero khi kích hoạt được Siêu Tất Sát ra trận, thì sẽ có thể dùng Siêu Tất Sát khi chiến đấu\n\n\n\ncó thể chủ động sắp xếp thứ tự Siêu Tất Sát",
+    "id11": "--Chỉ Anh Hùng lv 40 trở lên mới được ra trận--",
+    "deid12": "1",
+    "frid13": "27",
+    "id12": "Chỉ có thể ra trận 1 trong số anh hùng cộng hưởng",
+    "id13": "Trong đội có anh hùng cộng hưởng với nhau, hãy gỡ khỏi trận trước",
+    "id14": "Anh hùng đang trong đội khác",
+    "id15": "Trong 1 phút chỉ có thể lưu đội hình thủ 1 lần, hãy thử lại sau",
+    "id16": "Đội hình đội vẫn chưa lên đủ, có muốn lưu không?",
+    "id17": "Đội có đội hình trống, không thể lưu.",
+    "id18": "Vẫn còn có thể đưa Siêu Cấp ra trận, có chắc muốn lưu không?",
+    "id19": "OK",
+    "id20": "Hủy",
+    "id21": "Đội có đội hình trống, không thể ra trận.",
+    "id22": "Đội hình đội vẫn chưa lên đủ, có muốn ra trận không?",
+    "id23": "Vẫn còn có thể đưa Siêu Cấp ra trận, có chắc muốn ra trận không?"
+  },
+  "beanToHero": {
+    "id1": "Số người chọn để hồi sinh: {0}",
+    "id2": "Hero đã trong trạng thái đầy HP ",
+    "id3": "Hãy chọn Hero muốn hồi sinh ",
+    "id4": "Thiếu Đậu Thần ",
+    "id5": "Đậu Thần hồi sinh ",
+    "id6": "Cần tốn ",
+    "id7": "Hồi sinh",
+    "deid8": "35"
+  },
+  "bossPanel": {
+    "id1": "Lv {0} mở ",
+    "id2": "Số lần:",
+    "id3": "Mở sau {0} ngày mở server",
+    "id4": "Hiện chưa có Binh Đoàn, vui lòng chờ",
+    "id5": "Mở sau cấp 18",
+    "enid6": "26"
+  },
+  "qiangDiDamagePage": {
+    "id1": "Online "
+  },
+  "qiangDiMain": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua <font color={0}>{1} lần đánh BOSS</font>, cần tốn <font color={2}>{3}{4}</font>, đồng ý không ?",
+    "id3": " sau ",
+    "id4": "sẽ xuất hiện",
+    "id5": "Hạng 1 ",
+    "id6": "X.Hạng:",
+    "id7": "- 3 đợt BOSS sẽ lần lượt xuất hiện, tất cả người chơi ở Server này cùng tấn công\n- Sau khi hạ BOSS thưởng sẽ phát theo xếp hạng sát thương\n- Sau khi hạ toàn bộ 3 BOSS, sẽ xuất hiện lượt BOSS mới.",
+    "id8": "- Thường xuyên",
+    "id9": "- Không có",
+    "id10": "- Sau khi mỗi BOSS bị hạ, thưởng sẽ phát qua thư theo xếp hạng sát thương\n- Quà tổng kết có thể phát hơi muộn.",
+    "deid11": "29",
+    "deid12": "26",
+    "deid13": "24",
+    "krid14": "26",
+    "viid15": "24"
+  },
+  "ShaLuFastSetBattleTeam": {
+    "id1": "Vị trí ra trận đang trống, hãy sắp xếp lại ",
+    "id2": "Xác định đội hình khiêu chiến",
+    "id3": " -Thứ tự xuất chiến có thể đổi tùy thích -",
+    "id4": "Đổi Đội Hình",
+    "id5": "Xác định đội hình",
+    "deid6": "36",
+    "deid7": "24",
+    "deid8": "32",
+    "id13": "Trong đội có anh hùng cộng hưởng với nhau, hãy gỡ khỏi trận trước"
+  },
+  "shaLuSetBattleTeam": {
+    "id2": "Hero cùng tên chỉ được xuất hiện 1 người trong đội hình ",
+    "id3": "Ra trận đã đầy, cao nhất 10 người!",
+    "id4": "Vị trí ra trận đang trống, hãy sắp xếp lại ",
+    "id5": "Đổi Đội Hình",
+    "id6": "Xác định đội hình",
+    "frid7": "40",
+    "id12": "Chỉ có thể ra trận 1 trong số anh hùng cộng hưởng",
+    "id13": "Trong đội có anh hùng cộng hưởng với nhau, hãy gỡ khỏi trận trước"
+  },
+  "strongBossListItem": {
+    "id1": "Hãy đợi",
+    "id2": "Chưa",
+    "id3": "BOSS chưa đạt ",
+    "deid4": "Xếp hạng: {0}"
+  },
+  "shaLuAwardPageViewData": {
+    "id1": "Số"
+  },
+  "shaLuGameViewData": {
+    "id1": "Cell (Lv{0})",
+    "id3": "Baby Cell {0} (Lv{1})"
+  },
+  "ShaLuPassSuccessViewData": {
+    "id1": "Trò Chơi Cell thành công vượt ải {0}!",
+    "id2": "Vượt ải Trò Chơi Cell thành Công,\nNgày mai có thể đánh lại!",
+    "id3": "Tăng phần thưởng mỗi ngày có thể nhận",
+    "id4": "(Hôm sau được dùng) ",
+    "frid5": "39"
+  },
+  "bossFightingListItem": {
+    "id1": " người",
+    "id2": "Tạm trống",
+    "id3": "(Lv {0})",
+    "id4": "Đang tham gia ",
+    "id8": "Cần Lv {0} mới mở!",
+    "id9": "Tham gia:",
+    "id10": "Thời gian hồi sinh ",
+    "id11": "Mở ",
+    "frid12": "18",
+    "viid13": "30"
+  },
+  "BossFightingPanel": {
+    "id1": "Đạt giới hạn mua ",
+    "id2": "Mua <font color={0}>{1} lần đánh BOSS</font>, cần tốn <font color={2}>{3}{4}</font>, đồng ý không ?",
+    "id3": "1. BOSS khác nhau có thời gian làm mới khác nhau\n\n2. BOSS chỉ được làm mới trong thời gian 9:00-22:00 hàng ngày\n\n3. Người chơi đầu tiên tham gia tranh đoạt BOSS tự động trở thành người sở hữu BOSS này\n\n4. Sau khi người chơi đánh bại người sở hữu ban đầu sẽ trở thành người sở hữu mới\n\n5. Sau khi BOSS tử vong sẽ thưởng dựa vào XH sát thương và sở hữu\n\n6. Người chơi không thể khiêu chiến liên tục cùng 1 người quá 3 lần"
+  },
+  "BossFightMain": {
+    "id1": "Đếm ngược thời gian hồi sinh: ",
+    "id2": "Đang CD...({0})",
+    "id4": "Đang hồi sinh ...({0})",
+    "id5": "1.Mọi người trong cùng server cùng nhau đánh BOSS\n\n2. Chỉ tính khi tranh đoạt BOSS trừ số lần, duy trì chiến đấu sẽ không tiêu hao\n\n3. Người đầu tiên đánh BOSS sẽ chiếm hữu Boss, cho đến khi người đó bị người khác đánh bại\n\n 4. Đánh bại người sở hữu sẽ trở thành người chiếm hữu boss mới\n\n5. Khi BOSS bị đánh bại xong, phán đoán người sở hữu và sát thương gây ra trên boss để gửi quà qua thư\n\n6. Không thể đánh cùng 1 người liên tục quá 3 lần, khi quyền chiếm hữu thay đổi có thể tiến hành đánh tiếp",
+    "id6": "Đạt giới hạn mua ",
+    "id7": "Mua <font color={0}>{1} lần đánh BOSS</font>, cần tốn <font color={2}>{3}{4}</font>, đồng ý không ?",
+    "id10": "Đang tham gia tranh đoạt 1 boss ",
+    "id11": "Hãy tham gia tranh đoạt BOSS",
+    "id12": "Quà được gửi qua thư dựa theo Sở Hữu khi BOSS bị diệt",
+    "id13": "Hiện không ai đánh boss ",
+    "id14": "Hiện không có ai giành được BOSS ",
+    "id15": "ST",
+    "id16": "Phần thưởng hoạt động x2",
+    "id17": "Tự Chiến Đấu",
+    "id18": "Không thể đánh một người liên tục quá {0} lần",
+    "id19": "Quà được gửi qua thư dựa theo Xếp Hạng khi BOSS bị diệt",
+    "viid20": "24"
+  },
+  "chapterMain": {
+    "id1": "Vượt ải mức thường xong sẽ mở",
+    "id2": "Vượt ải mức khó xong mở khóa!",
+    "id3": "Chương{0}",
+    "id4": "Đã nhận thưởng!",
+    "id5": "Vượt ải Ác Mộng xong mở khó!",
+    "viid6": "-20"
+  },
+  "chatMain": {
+    "id1": "Nhập… ",
+    "id2": "Hãy gia nhập Team",
+    "id3": "Thao tác quá nhanh…",
+    "id4": "Chữ số không vượt quá {0}",
+    "id5": "Không có tin mới ",
+    "id6": "Thế giới ",
+    "id7": "Hệ thống",
+    "id8": "Team ",
+    "id9": "Gửi",
+    "id10": "Hệ thống chat đã đóng"
+  },
+  "chatMainViewData": {
+    "id1": "Hệ thống Thông báo "
+  },
+  "counterpartBuyTips": {
+    "id1": "Đã đạt giới hạn mua ",
+    "id5": "Trang Bị",
+    "id6": "Đột phá ",
+    "id7": "EXP ",
+    "id8": "Ấn Ký ",
+    "id9": "Hợp Kim ",
+    "id10": "Tinh Thạch Z",
+    "id11": "Mua <font color={0}>{1} lần lượt phụ bản {2}</font>,\nCần tốn <font color={3}>{4} {5}</font>, xác nhận mua?"
+  },
+  "counterpartChooseLevel": {
+    "id1": "Ải {0}",
+    "id2": "Cần LV",
+    "id3": "Hãy hoàn thành ải trước",
+    "id4": "Thiếu Lv"
+  },
+  "counterpartMain": {
+    "id1": "Lv {0} mở ",
+    "id2": "Làm mới lúc 6:00 mỗi ngày ",
+    "id3": "Sổ lần phụ bản : "
+  },
+  "equipmentCounterpart": {
+    "id1": "1. Mỗi ngày có thể khiêu chiến 2 lần\n\n\n\n2. Khiêu chiến thành công sẽ khấu trừ số lượt, thất bại không trừ\n\n\n 3. VIP càng cao có thể mua thêm lượt khiêu chiến càng nhiều."
+  },
+  "equipmentCounterpartList": {
+    "id1": "Lv {0} mở "
+  },
+  "resourceCounterpart": {
+    "id1": "1. Mỗi ngày có thể khiêu chiến 2 lần\n\n\n\n2. Khiêu chiến thành công sẽ khấu trừ số lượt, thất bại không trừ\n\n\n 3. VIP càng cao có thể mua thêm lượt khiêu chiến càng nhiều.",
+    "id2": "Lượt còn",
+    "id3": "-3",
+    "id4": "-5.5",
+    "id5": "1",
+    "deid6": "2",
+    "deid7": "30"
+  },
+  "signetCounterChooseLevel": {
+    "id1": "Ải {0}",
+    "id2": "Đã là ải 1",
+    "id3": "Hãy hoàn thành ải trước",
+    "id4": "Thiếu Lv",
+    "id5": "Cần LV{0}",
+    "frid6": "28"
+  },
+  "signetCounterpart": {
+    "id1": "1. Mỗi ngày có thể khiêu chiến 2 lần\n\n\n\n2. Khiêu chiến thành công sẽ khấu trừ số lượt, thất bại không trừ\n\n\n 3. VIP càng cao có thể mua thêm lượt khiêu chiến càng nhiều.",
+    "id2": "Thời gian mở: thứ 2, 4, 6, chủ nhật",
+    "id3": "Thời gian mở: Thứ 3, 5, 7, chủ nhật",
+    "id4": "30",
+    "deid5": "30"
+  },
+  "signetCounterpartViewData": {
+    "id1": "{0}/{1}"
+  },
+  "dragonDisplace": {
+    "id1": "1.       Hero thay đổi có thể chuyển Hero Cam thành một Hero Cam ngẫu nhiên khác\n\n\n\n 2. Chỉ có thể thắp sáng Hero mới được thay ra \n\n\n\n3. Chỉ có một phần Hero mặc định là thắp sáng sẵn \n\n\n\n 4. Người chơi  khi nhận được Hero nào đó, sẽ thắp sáng trong tập Hero"
+  },
+  "dragonPromise": {
+    "id1": "Cần VIP",
+    "id2": "1. Thu thập 7 viên Ngọc Rồng khác nhau, có thể tiến hành 1 lần cầu nguyện Ngọc Rồng\n\n\n\n 2. Cầu nguyện Ngọc Rồng cũng có thể chọn một Anh Hùng trong kho cầu nguyện để thực hiện nguyện vọng, nhận trực tiếp Anh Hùng đó. ",
+    "id3": "Không có Ngọc Rồng để thêm",
+    "id4": "Đã tập hợp đủ Ngọc Rồng, cầu nguyện xong mới thêm Ngọc Rồng được"
+  },
+  "dragonPromiseEnd": {
+    "id1": "Hero thay thế hiện tại thấp hơn Hero cũ, có muốn giữ vậy không?",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Bỏ",
+    "id5": "Lưu"
+  },
+  "earringEvolve": {
+    "id1": "Cần Hero Lv {0}",
+    "id2": "Tăng Bậc Khoen",
+    "id3": "(Còn: ",
+    "id4": "Tăng bậc",
+    "deid5": "24",
+    "id5": "Người chơi cần đạt Lv{0}",
+    "deid6": "35"
+  },
+  "earringInfo": {
+    "id1": "Tăng Cấp",
+    "id2": "Tăng bậc",
+    "deid3": "50"
+  },
+  "EarringIntensify": {
+    "id1": "Công"
+  },
+  "entrustBattle": {
+    "id2": "Ra trận đã đầy ",
+    "id3": "Phẩm Hero không phù hợp ",
+    "id4": "Bạn chỉ được ra trận 1 người ",
+    "id5": "Mỗi ngày chỉ được hỗ trợ 1 lần",
+    "id6": "Hero này hôm nay đã được nhờ vả 10 lần, không thể trợ chiến nữa ",
+    "id7": "Hero không phù hợp lv yêu cầu",
+    "id8": "Loại Hero  không phù hợp ",
+    "id9": "Độ khó Nhiệm Vụ ",
+    "id10": "Không tìm thấy Hero phù hợp điều kiện",
+    "id11": "Ra Trận Ngay",
+    "id12": "Hero đang có",
+    "id13": "Nhờ bạn hỗ trợ ",
+    "deid14": "33",
+    "id15": "Đã hoàn thành "
+  },
+  "entrustBook": {
+    "id1": "Ủy thác chưa nhận thưởng nếu số lượng >=20, \nsẽ không tiến hành tự động reset mỗi ngày, hãy mau nhận thưởng!",
+    "id2": "Nhiệm vụ ủy thác ",
+    "id3": "Tốn: ",
+    "id4": "(Note: Ủy thác mới sẽ biến mất vào lúc 6h hôm sau) "
+  },
+  "entrustChooseSupportHero": {
+    "id1": "Hãy chọn Anh Hùng",
+    "id2": "Không có nguyên liệu Hero phù hợp ",
+    "id3": "Hãy chọn Hero trợ chiến",
+    "deid4": "40"
+  },
+  "entrustHeroListItem": {
+    "id1": "Đã dùng ",
+    "id2": "Đã mượn xong",
+    "id3": "l{0}/{1}"
+  },
+  "entrustListItem": {
+    "id1": "{0} giờ",
+    "id2": "Dùng {0} Kim Cương để tăng tốc\n và hoàn thành ngay ủy thác này?",
+    "id3": "Phần thưởng",
+    "id4": "Xem ",
+    "id5": "Tăng tốc",
+    "id6": "Hoàn thành ",
+    "deid7": "30",
+    "deid8": "28",
+    "frid9": "24",
+    "deid10": "30",
+    "viid9": "30",
+    "frid11": "30"
+  },
+  "entrustMain": {
+    "id1": "1. Sẽ tự làm mới ủy thác vào 6:00 hàng ngày\n\n2. Dùng Thư Ủy Thác tăng ủy thác sẽ mất hiệu lực lúc 6:00 hôm sau\n\n3. VIP có thể tăng số lượng ủy thác làm mới mỗi ngày\n\n4. Tổng số lượng nhiệm vụ ủy thác tối đa 20",
+    "id2": "Đã hoàn thành tất cả ủy thác hôm nay ",
+    "id3": "Điều phái nhanh",
+    "id4": "Tạm thời không thể ủy thác nhiệm vụ",
+    "viid3": "0.7",
+    "id5": "Điều phái nhanh"
+  },
+  "entrustMainViewData": {
+    "id1": "Muốn dùng {0} {1}, để làm mới ủy thác? (Tổng {2})"
+  },
+  "entrustSupport": {
+    "id1": " 1. Mỗi khi có bạn nhờ Anh Hùng trợ chiến, sẽ được nhận thưởng\n\n2. Thưởng trợ chiến có tích lũy, nhưng không quá 50\n\n 3. Vượt quá 50 sẽ không được nhận thêm, nên hãy nhớ nhận kịp thời.",
+    "id2": "Nhận",
+    "frid3": "30",
+    "viid4": "180",
+    "viid5": "0.7"
+  },
+  "entrustSupportViewData": {
+    "id1": "Bạn của bạn",
+    "id2": "Dùng Hero của ngài trợ chiến",
+    "id3": ">Nhưng phần thưởng đã đầy, không thể nhận tiếp </font>",
+    "id4": "Nhận thưởng <font color=",
+    "id5": "Số lần trợ chiến đã hết"
+  },
+  "applyForFriendListItem": {
+    "id1": "Đã có quá nhiều bạn, không thể thao tác!"
+  },
+  "friendFind": {
+    "id1": "Nhập tên người chơi hoặc id ",
+    "id2": "Không được để trống!",
+    "id3": "Không chơi tự kỉ vậy được!",
+    "id4": "không tìm thấy tên cần tìm!",
+    "id5": "Yêu cầu",
+    "id6": "Đã gửi yêu cầu kết bạn ",
+    "deid7": "28"
+  },
+  "friendInfo": {
+    "id1": "Muốn xóa bạn này không?",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Thông tin bạn ",
+    "id5": "Đội hình ",
+    "id6": "So Tài",
+    "id7": "Gửi thư",
+    "id8": "Đã gửi yêu cầu kết bạn!",
+    "deid9": "Chưa thiết lập đội hình Đấu Trường",
+    "deid10": "40",
+    "id11": "Thêm vào D.S đen",
+    "id12": "Đưa {0} ra khỏi danh sách đen?",
+    "id13": "Thông tin người chơi",
+    "id14": "Đã thêm vào D.S đen",
+    "id15": "Đưa {0} vào danh sách đen không?",
+    "deid16": "30"
+  },
+  "friendMainListItem": {
+    "id1": "Số tim mỗi ngày tặng đã đạt {0} cái ",
+    "id3": "Số tim mỗi ngày nhận được đạt {0} cái "
+  },
+  "attrChangeShow": {
+    "id1": "{0} tăng ",
+    "id2": "{0} giảm "
+  },
+  "equipChange": {
+    "id1": "2 món",
+    "id2": "3 món",
+    "id3": "4 món",
+    "id4": " - Đã trang bị - ",
+    "id5": "Đổi",
+    "frid6": "24",
+    "frid7": "24"
+  },
+  "heroBagUpgrade": {
+    "id1": "Dùng {0}Kim Cương mở rộng túi Hero ?",
+    "id2": "Muốn mở rộng túi không?",
+    "id3": "OK",
+    "id4": "Nhắc nhở"
+  },
+  "heroLimitEvolveSuccess": {
+    "id1": "Đạt giới hạn đột phá Lv {0}",
+    "id2": "Đột phá thành công",
+    "id3": "Lv giới hạn ",
+    "id4": "Tiến hóa thành công"
+  },
+  "heroList": {
+    "id1": "Túi đã max cấp!",
+    "id2": "Phẩm Chất",
+    "id3": "Lv ",
+    "id4": "Lực Chiến",
+    "id5": "Không có mảnh Hero ",
+    "deid6": "20",
+    "id6": "Chưa thiết lập tạo đội hình nhanh"
+  },
+  "heroMainEquip": {
+    "id1": "Người chơi Đạt Lv {0} mở khóa vị trí vũ khí ",
+    "id2": "Người chơi Đạt Lv {0} mở khóa vị trí khoen tai ",
+    "id3": "Chi tiết",
+    "id4": "Hoa tai, vũ khí, trang bị của anh hùng cộng hưởng đều phải giống với anh hùng chính"
+  },
+  "heroMainInfo": {
+    "id1": "Cần Hero thức tỉnh !",
+    "id2": "Hero max cấp!",
+    "id4": "Hero không thể tăng lv, cần phải thức tỉnh mới tăng sao!",
+    "id5": "Hero đang torng Máy Không Gian không thể bồi dưỡng ",
+    "id6": "Cần duyệt",
+    "id7": "HP",
+    "id8": "Công",
+    "id9": "Thủ",
+    "id10": "Tốc Độ",
+    "id11": "Chi tiết",
+    "id12": "Hero không thể đột phá, cần thức tỉnh cấp sao trước!",
+    "deid13": "0.7",
+    "deid14": "30",
+    "frid15": "1.25",
+    "viid16": "0.9"
+  },
+  "heroMainLimitEvolve": {
+    "id1": "Cần Hero thức tỉnh {0} sao mở!!",
+    "id3": "Cần Hero tăng đến Lv {0} mới mở!!",
+    "id5": "Giới hạn đã đột phá mức cao nhất!",
+    "id6": "Công Cơ Bản",
+    "id7": "HP Cơ Bản",
+    "id8": "Thiếu mảnh Hero đột phá ",
+    "id9": "(Còn: ",
+    "id10": "Tiêu hao nguyên liệu ",
+    "id11": "Chi tiết",
+    "deid12": "0",
+    "id12": "Cấp giới hạn đột phá của anh hùng cộng hưởng phải giống với anh hùng chính",
+    "id13": "Người chơi có thể tiếp tục nâng cấp sau khi lên cấp 200!",
+    "deid14": "16",
+    "id14": "Tốn {0} Kim Cương, reset Đột Phá Giới Hạn không?"
+  },
+  "heroMainSkill": {
+    "id1": "Chưa đủ điều kiện kích hoạt, không thể thao tác ",
+    "id2": "Cần Hero Lv {0} mới có thể tiếp tục tăng cấp !",
+    "id3": "Chi tiết"
+  },
+  "heroMainWakeUp": {
+    "id1": "Thiếu lượng VL Thức Tỉnh",
+    "id2": "Hero Lục trở xuống không thể thức tỉnh",
+    "id3": "Tăng Tư Chất",
+    "id4": "Tăng cấp skill",
+    "id5": "Tiêu hao nguyên liệu ",
+    "id6": "Chi tiết",
+    "id7": "Giới hạn Lv đạt: ",
+    "id8": "HP Cơ Bản",
+    "id9": "Công Cơ Bản",
+    "id10": "Tăng Thuộc tính ",
+    "id11": "Tư Chất",
+    "id12": "Hero thức tỉnh max cấp!!",
+    "id13": "Giới hạn Tư Chất!",
+    "id14": "Đã max lv!",
+    "id15": "Lv đã đạt giới hạn:",
+    "deid16": "0.5",
+    "frid1": 50,
+    "frid2": "38",
+    "frid3": "26",
+    "deid17": "0.5"
+  },
+  "heroPotentailListItem": {
+    "id1": "Chưa đủ điều kiện kích hoạt, không thể thao tác ",
+    "id2": "Cần Hero Lv {0} mới có thể tiếp tục tăng cấp !"
+  },
+  "HeroSperSkillInfo": {
+    "id1": "Hero này không có Siêu Tất Sát!",
+    "id2": "Hero này không có Tiềm Năng!",
+    "id3": "Tiềm Năng",
+    "id4": "Điều kiện kích hoạt ",
+    "id5": "Thắp sáng",
+    "id6": "Sổ Tay "
+  },
+  "heroStampSuitTip": {
+    "id1": "Bộ Kame",
+    "id2": "Bộ Shin",
+    "id3": "Bộ Mo",
+    "id4": "Bộ Kai",
+    "id5": "Bộ Go",
+    "id6": "Bộ Zen",
+    "id7": "Lọc Thuộc Tính Bộ Ấn Ký",
+    "frid8": "30"
+  },
+  "heroSuperSkillListItem": {
+    "id1": "Sắp mở Siêu Tất Sát!"
+  },
+  "HeroAttributeDetailsViewData": {
+    "id1": "Điểm HP",
+    "id2": "Công",
+    "id3": "Thủ",
+    "id4": "Tốc Độ",
+    "id5": "TL Chuẩn",
+    "id6": "TL Né",
+    "id7": "TL Đỡ",
+    "id8": "Đỡ Đòn",
+    "id9": "ST Skill",
+    "id10": "ST Siêu Tất Sát",
+    "id11": "TL Bạo",
+    "id12": "TL Miễn Bạo",
+    "id13": "ST Bạo",
+    "id14": "Phá Thủ",
+    "id15": "Giảm ST",
+    "id16": "Miễn Khống",
+    "id17": "HQ Nhận Trị Liệu/Khiên",
+    "id18": "Hộ Giáp",
+    "id19": "HQ Trị Liệu/Khiên",
+    "id20": "HQ Khiên",
+    "id21": "Tăng ST",
+    "id22": "Giảm ST",
+    "id23": "Tư Chất"
+  },
+  "heroLimitEvolveSuccessViewData": {
+    "id1": "Lv {0}"
+  },
+  "heroMainAttributeViewData": {
+    "id1": "(TL Giảm ST Thủ {0}%)",
+    "id2": "(TL Giảm ST Giáp {0}%)",
+    "deid3": "24"
+  },
+  "heroMainLimitEvolveViewData": {
+    "id1": "Công",
+    "id2": "HP"
+  },
+  "heroMainStampViewData": {
+    "id1": "Không có Thuộc Tính Bộ",
+    "id2": "Bộ Kame +",
+    "id3": "Bộ Shin +",
+    "id4": "Bộ Mo +",
+    "id5": "Bộ Kai +",
+    "id6": "Bộ Go +",
+    "id7": "Bộ Zen +"
+  },
+  "heroMainWakeUpViewData": {
+    "id1": "Lv {0}"
+  },
+  "heroStampSuitTipViewData": {
+    "id1": "Bộ chữ {0}",
+    "id2": "6 {0} chữ Ấn Ký đạt {1} sao ",
+    "id5": "Chưa kích hoạt Thuộc Tính Bộ",
+    "id6": "Cấp Bộ TB +{0}",
+    "id7": "Trống",
+    "id8": "Kame",
+    "id9": "Shin",
+    "id10": "Mo",
+    "id11": "Kai",
+    "id12": "Go",
+    "id13": "Zen"
+  },
+  "heroWakeUpSuccessViewData": {
+    "id1": "Công Cơ Bản+",
+    "id2": "HP Cơ Bản+",
+    "id3": "Thủ Cơ Bản+",
+    "id4": "Tốc Độ +",
+    "id5": "Lv {0}"
+  },
+  "heroWakeUpChose": {
+    "id1": "Chọn Anh Hùng xuyên không!",
+    "id2": "Hãy chọn mảnh Hero ",
+    "id3": "Hãy chọn Hero nguyên liệu ",
+    "id4": "Hero cam mới có thể tiến hành xuyên không",
+    "id5": "Số Hero nguyên liệu đã đầy",
+    "id6": "Mảnh nguyên liệu đang không đủ !",
+    "id7": "Chỉ được chọn 1 loại VL Mảnh",
+    "id8": "Hero đang trên đội hình Ải Chính, muốn mở khóa không?",
+    "id9": "OK",
+    "id10": "Hủy",
+    "id11": "Có muốn tách Hero ra mảnh không?",
+    "id12": "Hãy chọn Anh Hùng",
+    "id13": "Không có Hero phù hợp ",
+    "id14": "Hero tiêu hao sẽ hoàn trả tất cả nguyên liệu tăng cấp ",
+    "id15": "Yêu cầu Anh Hùng: 0 sao lv 1, hiện không có Anh Hùng cùng tên đã tăng cấp ",
+    "id16": "Hero SS và SSS  3 sao có thể tiến hành kế thừa, mau đi bồi dưỡng!",
+    "id17": "CHọn Hero kế thừa",
+    "id18": "Chọn Hero mục tiêu",
+    "id19": "1 lần chỉ được chọn 1 mục tiêu",
+    "id20": "1 lần chỉ được chọn 1 mục tiêu",
+    "id21": "Không có nguyên liệu Hero phù hợp ",
+    "deid22": "35",
+    "frid1": "28",
+    "id24": "Hãy chọn anh hùng chính",
+    "id25": "Yêu cầu anh hùng: Anh hùng SS trở lên và trên cấp 1",
+    "id26": "Hãy chọn anh hùng cộng hưởng",
+    "id27": "Yêu cầu Anh Hùng:Là Anh hùng Lv1 có phẩm chất không cao hơn Anh hùng chính, và không có Anh Hùng cùng tên đã tăng cấp",
+    "id30": "Không thể trùng sinh anh hùng cộng hưởng",
+    "id31": "Sau khi trùng sinh anh hùng này, trạng thái anh hùng cộng hưởng cũng sẽ thay đổi, có muốn trùng sinh không?",
+    "id32": "Anh hùng này đã ra trận trong Khiêu Chiến Cell, không thể đặt vào vị trí cộng hưởng.",
+    "id33": "Sau khi kế thừa anh hùng này, trạng thái anh hùng cộng hưởng cũng sẽ thay đổi, có muốn kế thừa không?",
+    "enid34": "25"
+  },
+  "StampWear": {
+    "id1": "Thuộc tính : Tất cả ",
+    "id2": "Thuộc tính : Tự định nghĩa ",
+    "id3": "Bộ TB: Tất Cả",
+    "id4": "Bộ TB: Kame",
+    "id5": "Bộ TB: Shin",
+    "id6": "Bộ TB: Mo",
+    "id7": "Bộ TB: Kai",
+    "id8": "Bộ TB: Go",
+    "id9": "Bộ TB: Zen",
+    "id10": "Lọc:",
+    "id11": "Không tìm thấy Ấn Ký ngài muốn",
+    "id12": "Túi Ấn Ký ",
+    "id13": "Đã max lv!",
+    "id14": " - Đã trang bị - ",
+    "id15": "Thuộc tính : Tấn công",
+    "id16": "Mang ",
+    "id17": "Đổi"
+  },
+  "suitAttrDetalListItem": {
+    "id1": "Đã kích hoạt",
+    "id2": "(Chưa kích hoạt) ",
+    "deid3": "20"
+  },
+  "home": {
+    "id1": "{0}/h",
+    "id2": "Hiệu suất VIP{0}+{1}%",
+    "id4": "Cần LV{0}",
+    "id5": "Hãy hoàn thành NV chính {0} trước khi tiếp tục ải sau~",
+    "id7": "[Chính]",
+    "id8": "Đạt <font color={0}>Lv{1}</font> mở khóa nhiệm vụ !",
+    "id9": "Sau khi kết thúc đếm ngược sẽ được nhận thưởng",
+    "id10": "Chủ Nhật",
+    "id11": "Thứ 2",
+    "id12": "Thứ 3",
+    "id13": "Thứ 4",
+    "id14": "Thứ 5",
+    "id15": "Thứ 6",
+    "id16": "Thứ 7",
+    "id17": "-30",
+    "viid18": "-9",
+    "viid19": "30",
+    "viid20": "0",
+    "id18": "22"
+  },
+  "homeGainTips": {
+    "id2": "{0}/h",
+    "id3": "Tăng đến VIP {0} khi treo máy sẽ tăng {1}% thu ích",
+    "id4": "Thời gian treo máy!",
+    "id5": "OK",
+    "id6": "Phúc lợi liên server ",
+    "frid7": "30"
+  },
+  "homeProfitTips": {
+    "id1": "{0}/h"
+  },
+  "showChooseLevel": {
+    "id1": "Ải {0}-{1}"
+  },
+  "jialintaMain": {
+    "id2": "Đã hết lượt mua trong ngày!",
+    "id3": "Mua <font color={0}>{1} Đùi Gà Karin</font>, cần tốn <font color={2}>{3}{4}</font>, xác nhận mua? (Chú ý: 06:00 mỗi ngày sẽ reset thành 10 lần)",
+    "id6": "Mua <font color={0}>{1} lần Leo THáp</font>,cần tốn <font color={2}>{3}{4}</font>,đồng ý không ?",
+    "id7": "Thời gian mở: 9:00 thứ 2 - 21:00 chủ nhật",
+    "id8": "Vòng này còn:",
+    "id9": "+{0}%",
+    "id10": "·Mỗi vòng đua Tháp Karin duy trì 2 ngày\n- Mỗi cấp tiến hành “leo” hoặc đánh bại đối thủ sẽ được tăng số tầng\n- Sau mỗi vòng kết thúc sẽ căn cứ xếp hạng server tổng kết phát thưởng.",
+    "id11": "·Mỗi vòng 2 ngày, mở tuần hoàn.",
+    "id12": "·Trống",
+    "id13": "·Khi tổng kết, thưởng sẽ căn cứ vào xếp hạng sau cùng của người chơi và gửi qua thư\n- Khi reset vòng mới, Đùi Gà và Rương chưa nhận sẽ mất đi.",
+    "id14": "-2",
+    "id15": "-16",
+    "id16": "1",
+    "frid17": "32"
+  },
+  "jialintaEnemyViewData": {
+    "id1": "Tầng {0}",
+    "id2": "S{0}"
+  },
+  "jialintaMainViewData": {
+    "id1": "Tầng thứ {0}",
+    "id3": "Hạng 500+",
+    "id4": "Hạng thứ {0}"
+  },
+  "jialintaRankPageViewData": {
+    "id1": "Tầng thứ {0}"
+  },
+  "towerAllServerRankListItem": {
+    "id1": "Tầng thứ {0}"
+  },
+  "towerSelfServerRankListItem": {
+    "id1": "Tầng thứ {0}"
+  },
+  "login": {
+    "id1": "Hãy nhập tên tài khoản ",
+    "id2": "Hãy chọn server",
+    "id3": "Chơi game điều độ, giữ gìn sức khỏe, bảo vệ tài khoản, tránh bị lừa gạt.",
+    "id4": "Nhập tài khoản",
+    "id5": "Nhấn để nhập mật khẩu",
+    "id6": "30",
+    "id7": "10",
+    "id8": "\n<font size = 20>审批文号 新广出审【2017】3358号 ISBN 978-7-7979-6838-6\n出版单位:杭州群游科技有限公司 运营单位：万界（上海）网络股份有限公司</font>",
+    "id9": "\n<font size = 20>审批文号 国新出审【2019】517号 \n ISBN 978-7-498-05935-2  软著登记号：2017SR651303</font>"
+  },
+  "mahaAdventure": {
+    "id1": "BOSS đã bị hạ gục",
+    "id2": "Lần mạo hiểm sau:",
+    "deid3": "116",
+    "deid4": "69"
+  },
+  "mahaAdventureSingleton": {
+    "id1": "Đạt giới hạn mua ",
+    "id2": "Mua <font color={0}>{1} lần đánh BOSS</font>, cần tốn <font color={2}>{3}{4}</font>, đồng ý không ?"
+  },
+  "mailListItem": {
+    "id1": "Hôm nay ",
+    "id2": "{0} ngày ",
+    "frid3": "23"
+  },
+  "MailPanel": {
+    "id1": "Có muốn xóa hết thư đã đọc?\n",
+    "id2": "(Có vật phẩm chưa nhận không bị xóa) ",
+    "id3": "OK",
+    "id4": "Hủy",
+    "id5": "KHÔNG thể nhận đính kèm!",
+    "id6": "Hệ thống",
+    "id7": "Bạn Bè",
+    "id8": "Thông báo ",
+    "id9": "Hiện không có thư mới~",
+    "id10": "Hiện không có Thông báo ",
+    "id11": "Nhận Nhanh",
+    "id12": "Gửi thư",
+    "deid13": "38"
+  },
+  "marketMain": {
+    "id1": "Cần VIP{0}",
+    "id2": "Đồng ý làm mới",
+    "id3": "Làm Mới",
+    "id4": "Còn",
+    "deid5": "30"
+  },
+  "marketMainViewData": {
+    "id1": "Hết lượt làm mới",
+    "id2": "Làm Mới",
+    "frid3": "35"
+  },
+  "packMain": {
+    "id1": "Túi Trang bị đang trống",
+    "id2": "Trong túi Ấn Ký  đang trống",
+    "id3": "Túi Vũ Khí đang trống",
+    "id4": "Túi nguyên liệu đang trống",
+    "id5": "Lọc:",
+    "id6": "Không tìm thấy Ấn Ký ngài muốn",
+    "id7": "Không có vũ khí ngài muốn",
+    "id8": "Lọc Bộ Ấn Ký",
+    "id9": "Ấn Ký trong bộ lọc được chọn sẽ xuất hiện trong danh sách (mặc định là tất cả)",
+    "id10": "Ấn Ký·Quy",
+    "id11": "Ấn Ký-Shin",
+    "id12": "Ấn Ký-Mo",
+    "id13": "Ấn Ký-Kai",
+    "id14": "Ấn Ký-Go",
+    "id15": "Ấn Ký-Zen",
+    "id16": "Vị trí số 1",
+    "id17": "Vị trí số 2",
+    "id18": "Vị trí số 3",
+    "id19": "Số 4",
+    "id20": "Vị trí số 5",
+    "id21": "Vị trí số 6",
+    "id22": "Lọc thuộc tính Ấn Ký",
+    "id23": "Ấn Ký có thuộc tính đang chọn sẽ xuất hiện trong ds (mặc định là hiển thị toàn bộ)",
+    "id24": "Lọc thuộc tính Vũ Khí",
+    "id25": "Vũ khí có thuộc tính đang chọn sẽ xuất hiện trong ds (mặc định là hiển thị toàn bộ)",
+    "id26": "Lọc Bộ TB",
+    "id27": "Lọc Thuộc tính ",
+    "id28": "Chọn hết",
+    "id29": "Hủy hết",
+    "id30": "OK",
+    "id31": "Hủy",
+    "id32": "Công",
+    "id33": "TL Công",
+    "id34": "Điểm HP",
+    "id35": "TL HP",
+    "id36": "Thủ",
+    "id37": "TL Thủ",
+    "id38": "TL Bạo",
+    "id39": "ST Bạo",
+    "id40": "TL Miễn Bạo",
+    "id41": "TL Đỡ",
+    "id42": "TL Chuẩn",
+    "id43": "Tốc Độ",
+    "deid44": "35",
+    "id45": "Lọc loại",
+    "id46": "Không tìm thấy nguyên liệu cần tìm",
+    "id47": "Không tìm thấy trang bị cần tìm"
+  },
+  "SignPieceCompound": {
+    "id1": "Số lượng ghép phải hơn 1!",
+    "id2": "Ghép"
+  },
+  "WeaponDebrisCompound": {
+    "id1": "Số lượng ghép phải hơn 1!",
+    "id2": "Ghép"
+  },
+  "PadipataMain": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua <font color={0}>{1} lần số lần tu luyện</font>, cần tốn <font color={2}>{3}{4}</font>, muốn mua không?",
+    "id3": "Thời gian hồi:{0}:{1}:{2}",
+    "id4": "Tốn 1 điểm số lần tu hành tiếp tục chiến đấu không?(Phe ta đã khôi phục đầy, phe địch không khôi phục)",
+    "id5": "Bỏ",
+    "id6": "OK",
+    "id7": "không đủ lần!",
+    "id8": "Còn:"
+  },
+  "FeedbackPanel": {
+    "id1": "Không để trống nội dung phải hồi!",
+    "id2": "Gửi thành công!",
+    "id3": "OK"
+  },
+  "RechristenPanel": {
+    "id1": "Tên không được trống!",
+    "id2": "Bao gồm các từ nhạy cảm!",
+    "id3": "Nhấn để nhập tên ",
+    "id4": "Tên tối đa {0} ký tự!",
+    "id6": "Muốn đổi tên không?",
+    "id7": "Hãy nhập tên muốn đổi ",
+    "id8": "Xác định đổi",
+    "id9": "Đổi Tên ",
+    "id10": "Lần này miễn phí",
+    "deid11": "35"
+  },
+  "ArenaChooseMain": {
+    "id1": "Lv {0} mở ",
+    "id2": "Tham gia Team và Team phải lớn hơn Lv {0}",
+    "id3": "Phải tham gia Team thì mới mở ",
+    "id4": "Thứ hai tuần thứ 3 tính từ lúc mở server sẽ mở!",
+    "id5": "Nhận Kim Cương và hiệu ứng khung ảnh!",
+    "id6": "Mở vào thứ 2 của tuần thứ tư server mới",
+    "id7": "Số lần tấn công",
+    "id8": "Số lần:",
+    "id9": "Lượt Khiêu Chiến:",
+    "id10": "Lượt Đoạt Bảo:",
+    "deid11": "26",
+    "id11": "Server mở {0} ngày sẽ mở",
+    "id12": "Mùa đấu thứ {0}  Đang Quyết Chiến Đỉnh Phong",
+    "id13": "Mùa đấu thứ {0}  Số lần khiêu chiến: ",
+    "deid14": "26"
+  },
+  "ShopItemListItem": {
+    "id1": "Kho tồn: {0}",
+    "id2": "Đã bán hết"
+  },
+  "ShopMain": {
+    "id1": "Đi Team ",
+    "id2": "Đi Tế Đàn ",
+    "id3": "Đi ",
+    "id4": "Đi Hội Võ ",
+    "id5": "Có muốn làm mới tiệm không?",
+    "id6": "{0} ngày ",
+    "id7": "{0}h ",
+    "id8": "{0}p ",
+    "id9": "{0}s",
+    "id10": "{0} sau tự động làm mới ",
+    "id11": "1. Cứ cách một khoảng thời gian sẽ tự động làm mới Tiệm\n\n\n2. Tự động làm mới không tốn tài nguyên\n\n\n3. Tự động làm mới sẽ reset số lượng thương phẩm trong Tiệm.",
+    "id12": "Làm Mới",
+    "id13": "Đến Binh Đoàn",
+    "deid13": "40"
+  },
+  "signLevelUp": {
+    "id1": "Cường Hóa ",
+    "id2": "Tăng Sao",
+    "id3": "Tẩy luyện ",
+    "id4": "Cường Hóa {0} lần",
+    "id5": "Không thể tăng sao, Ấn Ký cần đạt lv {0}!",
+    "id6": "Không thể tăng sao, không đủ nguyên liệu ",
+    "id7": "Cần người chơi Đạt Lv {0}!",
+    "id8": "Cường Hóa Lv{0} xong được tăng Sao",
+    "id9": "Đã tăng đến cấp cao nhất",
+    "id10": "Nguyên Liệu Tinh Luyện: ",
+    "id11": "(Còn: ",
+    "id12": "Đã tăng đến cấp sao cao nhất",
+    "id13": "Tẩy luyện reset thuộc tính ngẫu nhiên",
+    "id14": "Đã max lv!",
+    "id15": "Cường Hóa Nhanh",
+    "deid16": "26",
+    "deid17": "35",
+    "id18": "Tăng",
+    "frid19": "26",
+    "frid20": "30",
+    "frid21": "0",
+    "frid22": "22"
+  },
+  "signStarUpChose": {
+    "id1": "Số Ấn Ký nguyên liệu đã đầy ",
+    "id2": "Phải đến Tế Đàn Trùng Sinh rồi mới chọn nguyên liệu ",
+    "id3": "Không có nguyên liệu Ấn Ký phù hợp ",
+    "id4": "Hãy chọn nguyên liệu Ấn Ký",
+    "id5": "Nguyên liệu Ấn Ký ban đầu là 0 sao lv 1",
+    "deid6": "35"
+  },
+  "signLevelUpViewData": {
+    "id1": "Có thể mở khóa bộ trang bị lv {0}",
+    "id2": "Không thuộc tính",
+    "id3": "Sau khi Ấn Ký đầy sao có thể tiến hành tăng",
+    "id4": "Hãy chọn thuộc tính muốn tăng",
+    "id5": "Mỗi thuộc tính đều được tăng\n Mỗi lần tăng đều sẽ làm mới ngẫu nhiên và giữ thuộc tính tăng cao nhất"
+  },
+  "snakeBattleLineUp": {
+    "id2": "Trong đội Hero là duy nhất\n Hero cùng tên dùng để tăng sao thức tỉnh",
+    "id3": "Vị trí ra trận đã đầy ",
+    "id4": "Hero đã tử vong không thể tham chiến ",
+    "id5": "Chỉ có Anh Hùng Lv {0} trở lên mới được ra trận",
+    "id7": "Chọn Hero ra trận",
+    "id8": "Chỉ có một số Hero mới có Siêu Tất Sát\nSiêu Tất Sát phải thông qua kích duyên và mở khóa mới được dùng\n Hero khi kích hoạt được Siêu Tất Sát ra trận, thì sẽ có thể dùng Siêu Tất Sát khi chiến đấu\n có thể chủ động sắp xếp thứ tự Siêu Tất Sát",
+    "id9": "Siêu Tất Sát"
+  },
+  "snakeBeanToHero": {
+    "id1": "Số người chọn để hồi sinh: {0}",
+    "id2": "Hero đã trong trạng thái đầy HP ",
+    "id3": "Hãy chọn Hero muốn hồi sinh ",
+    "id4": "Thiếu Đậu Thần ",
+    "id5": "Đậu Thần hồi sinh ",
+    "id6": "Hiện chưa có Anh Hùng ra trận",
+    "id7": "Cần tốn ",
+    "id8": "Hồi sinh",
+    "deid9": "35"
+  },
+  "snakeMain": {
+    "id1": "Cần VIP{0}",
+    "id2": "Hãy chọn rương thưởng!",
+    "id3": "Chưa đủ VIP!",
+    "id4": "Hãy vượt ải trước rồi mới được càn quét!",
+    "id5": "1. Vượt Xà Đạo reset lúc 6:00 mỗi ngày\n\n\n2. Thưởng chưa nhận sẽ gửi qua thư\n\n\n3. Anh Hùng tử vong trong Vượt Xà Đạo, không thể dùng lại trong lần khiêu chiến này\n\n\n4. Vượt ải 10 sẽ được càn quét.",
+    "deid6": "30",
+    "id7": "Không có thưởng để nhận"
+  },
+  "snakeMainViewData": {
+    "id1": "Xu Xà Đạo x{0}"
+  },
+  "summaryBossFailViewData": {
+    "id1": "Tổng sát thương chiến đấu:",
+    "id2": "XH hiện tại:",
+    "id3": "Tăng hạng còn cần:",
+    "id4": "Sôi Nổi Team:",
+    "id5": "HP BOSS còn:"
+  },
+  "SummaryDefeated": {
+    "id1": "Nghiệm chứng chiến đấu thức bại ",
+    "id2": "Có thể dùng các cách sau để tăng Lực Chiến đội ",
+    "id3": "Tổng sát thương chiến đấu:",
+    "id4": "Sôi Nổi Team:",
+    "krid5": "736"
+  },
+  "summonMain": {
+    "id1": "Chúc mừng <font color={0}>{1}</font> rút <font color={2}>{3}</font> Hero <font color={4}>{5}</font>",
+    "id2": "{0} sau miễn phí ",
+    "id3": "<font color=0x9EACD2>Rút X10 chắc chắn nhận Hero </font><font color=0xFF9900>Cam</font>",
+    "id6": "Lần này miễn phí",
+    "id7": "(Giảm 15%)"
+  },
+  "summonTypePage": {
+    "id1": "{0} sau ",
+    "deid2": "32",
+    "krid3": "72.5",
+    "krid4": "54",
+    "viid1": "-5",
+    "viid2": "25",
+    "viid3": "1"
+  },
+  "taskItem": {
+    "id1": "Tiến độ nhiệm vụ hiện tại {0}/{1}",
+    "id2": "LV{0} mở khóa",
+    "deid3": "23",
+    "deid4": "20",
+    "krid2": "-4",
+    "frid5": "20",
+    "frid6": "-4",
+    "frid7": "17"
+  },
+  "taskMain": {
+    "id2": "{0} cái ",
+    "id3": "{0} {1}",
+    "id4": "TG làm mới",
+    "enid5": "23",
+    "frid6": "23"
+  },
+  "ApplyForTeamPanel": {
+    "id1": "Cần duyêt",
+    "id2": "Không cần duyệt",
+    "id3": "Lv ≥{0}",
+    "id4": "Chưa đủ Lv yêu cầu!",
+    "id5": "Thông tin team ",
+    "id6": "Đội trưởng: ",
+    "id7": "Đăng ký gia nhập",
+    "id8": "Bạn đã gửi yêu cầu",
+    "id9": "Bạn đã gia nhập Team khác",
+    "id10": "Bạn đã ở Team này"
+  },
+  "battleForTreasureMain": {
+    "id1": "-Chiến đội đạt Lv {0}",
+    "id2": "Thời gian mở: 9:00 - 21:00 thứ 2 - chủ nhật hàng tuần",
+    "id3": "Điều kiện mở Đoạt Bảo:",
+    "id4": "Vật tư đã đoạt: ",
+    "id5": "Vật tư được đoạt:",
+    "id6": "Đã cướp hết tất cả team địch ",
+    "id7": "T.Gian tranh đoạt còn:",
+    "id8": "Hiện không có log chiến đội ",
+    "id9": "-Khi phối hợp chiến đội lúc 0h, số lượng đội viên phải hơn 10 người.",
+    "id10": "-Trên 4 chiến đội đáp ứng 2 điều kiện trên",
+    "deid11": "24"
+  },
+  "bossDetalListItem": {
+    "id1": "BOSS đã bị hạ gục",
+    "id2": "BOSS hiện chưa mở",
+    "id3": "Ải Thứ ",
+    "id4": "",
+    "viid5": "26"
+  },
+  "ConfirmMakeOverCaptain": {
+    "id1": "Hãy nhập 4 ký tự “{0}”!",
+    "id3": "Lỗi khi nhập!",
+    "id4": "OK",
+    "id5": "Nhập"
+  },
+  "CreationTeam": {
+    "id1": "Tên không được để trống!",
+    "id2": "Bao gồm các từ nhạy cảm!",
+    "id3": "Hãy nhập tên Team ",
+    "id4": "Tên Team không thể vượt {0} ký tự!",
+    "id6": "Tên không được để số trước ",
+    "id7": "Tạo Team cần VIP {0}",
+    "id8": "(Mỗi ngày chỉ được tạo 1 lần, tạo Team cần VIP {0}) ",
+    "id9": "Nhập tên Team :",
+    "id10": "Tạo ",
+    "id11": "Tạo Team ",
+    "deid12": "20",
+    "frid1": "30"
+  },
+  "FindTeam": {
+    "id1": "Tên hoặc id không thể để trống ",
+    "id2": "Không tìm thấy Team này!",
+    "id3": "OK",
+    "id4": "Nhập tên Team hoặc ID Team ",
+    "id5": "Tìm kiếm ",
+    "frid1": "30"
+  },
+  "JoinTeam": {
+    "id1": "Đăng Ký Nhanh thành công!",
+    "id2": "Không có Team thỏa yêu cầu!",
+    "id3": "Chưa có tạo Team ",
+    "deid3": "Chưa có tạo Team "
+  },
+  "SaDanRedPacket": {
+    "id1": "\n\n\nMỗi lần nhận lì xì tăng độ thân mật với Satan\n\nĐộ thân mật càng cao, lì xì càng nhiều!"
+  },
+  "saDanRedPacketListItem": {
+    "id1": "Team Lv{0} mở khóa ",
+    "id2": "VIP{0} mở khóa ",
+    "id3": "Mở khóa ",
+    "id4": "Nhận",
+    "deid5": "26"
+  },
+  "signInListItem": {
+    "id1": "Cấp VIP không đủ {0}, không thể báo danh",
+    "id3": "Dùng {0}Kim Cương tiến hành báo danh?",
+    "id5": "OK",
+    "id6": "Hủy",
+    "id7": "Mỗi ngày có thể báo danh 1 lần, xác định không? ",
+    "id8": "EXP Team+",
+    "id9": "Sôi Nổi Team+",
+    "id10": "Điểm Danh",
+    "deid11": "22"
+  },
+  "signInRecordListItem": {
+    "id1": "{0}/{1}"
+  },
+  "teamBoss": {
+    "id5": "1. Mỗi lần chiến đấu đều có thể nhận phần thưởng 1 lần\n\n2. Khi BOSS bị tiêu diệt, thưởng sẽ được gửi qua thư\n\n3. Thưởng tiêu diệt sẽ được gửi dựa vào XH sát thương\n\n4. BOSS bị đánh bại sẽ mở BOSS tiếp theo.\n\n5. Sau khi BOSS bị tiêu diệt, XH sát thương của BOSS này sẽ được giữ lại thêm một ngày",
+    "id6": "Thứ",
+    "id7": "Ải ",
+    "viid8": "1"
+  },
+  "teamItemListItem": {
+    "id1": "Cần duyêt",
+    "id2": "Không cần duyệt",
+    "id3": "Lv ≥{0}",
+    "id4": "Số người:",
+    "id5": "Không cần duyệt",
+    "id6": "Tổng sôi nổi tuần: {0}",
+    "frid7": "20"
+  },
+  "TeamLobby": {
+    "id2": "Thông báo không được để trống!",
+    "id3": "Bao gồm các từ nhạy cảm",
+    "id4": "Miêu tả không được để trống!",
+    "id5": "Tính năng này chưa phát triển ",
+    "id6": "Chỉ có đội trưởng và đội phó có thể đổi!",
+    "id7": "1. Tổng Sôi Nổi chiến đội là tổng điểm Sôi Nổi trong tuần của tất cả đội viên\n\n2. Khi thành viên rời chiến đội, Sôi Nổi không bị giảm\n\n3. Điểm Sôi Nổi dùng để báo danh tham gia Tranh Đoạt Ngọc Rồng\n\n[Cách nhận]\nĐiểm danh chiến đội 50 Sôi Nổi/lần\nBOSS Chiến Đội 10 Sôi Nổi/lần\nĐoạt Bảo 10 Sôi Nổi/lần\nLì Xì Satan 5 Sôi Nổi/lần",
+    "id8": "Tổng Sôi Nổi Tuần: {0}",
+    "id9": "Số người:",
+    "id10": "Thông báo nội bộ",
+    "id11": "Thông tin giản lược",
+    "id12": "1.Có cần duyệt không:",
+    "id13": "2.Muốn hạn chế lv không:",
+    "id14": "Lv tài khoản≥",
+    "id15": "Có ",
+    "id16": "Không",
+    "deid17": "30",
+    "deid18": "25",
+    "frid19": "22"
+  },
+  "teamLogListItem": {
+    "id1": "{0}/{1}"
+  },
+  "TeamManageMember": {
+    "id1": "Chuyển chức Đội Trưởng",
+    "id2": "Chuyển chức Team",
+    "id3": "Giải tán chiến đội thành công!",
+    "id4": "Giải tán chiến đội",
+    "id5": "Có muốn giáng chức đội phó thành thành viên thường không?",
+    "id6": "OK",
+    "id7": "Hủy",
+    "id8": "Có muốn nhậm mệnh thành viên này làm đội phó không?",
+    "id9": "Rời Team thành công !",
+    "id10": "Có muốn đuổi thành viên này khỏi Team không?",
+    "id11": "Đã gửi yêu cầu kết bạn!",
+    "id12": "Có muốn dùng  {0} {1} để buộc tội đội trưởng không? Sau khi buộc tội, ngài sẽ trở thành đội trưởng mới.",
+    "id13": "Tiếp tục đá người sẽ khiến Team không thể tham gia Đoạt Bảo, có muốn tiếp tục không? ",
+    "id14": "Đội hình ",
+    "id15": "Thông tin thành viên",
+    "id16": "Mời Rời Team ",
+    "id17": "Giải trừ đội phó ",
+    "id18": "Bổ nhiệm Đội Phó ",
+    "id19": "Rời Team ",
+    "id20": "Buộc tội đội trưởng ",
+    "id21": "Gửi thư",
+    "id22": "Chuyển chức Đội Trưởng"
+  },
+  "TeamPanel": {
+    "id1": "Đang thi công, chờ nha!",
+    "id2": "Gia nhập Team thành công!",
+    "id3": "Tạo Team thành công!",
+    "id4": "Tổng Sôi Nổi tuần:",
+    "deid5": "30"
+  },
+  "teamTechnology": {
+    "id1": "SM",
+    "id2": "TL",
+    "id3": "Skill",
+    "id4": "Phải mở khóa kỹ thuật này!",
+    "id5": "1. Xu Chiến Đội có thể dùng để tăng cấp kỹ thuật chiến đội nhận thuốc tính\n\n\n 2. Khi số điểm đạt điều kiện mở khóa, sẽ mở cấp kỹ thuật tiếp theo\n\n\n3. Khi rời chiến đội Kỹ Thuật chiến đội vẫn có hiệu lực.",
+    "deid6": "28"
+  },
+  "techLevelUp": {
+    "id1": "Kích hoạt ",
+    "id2": "Đã tăng đến lvmax!",
+    "id3": "Cần tốn : ",
+    "id4": "OK",
+    "deid5": "35",
+    "deid6": "22",
+    "id5": "Tăng cấp",
+    "id6": "Tăng cấp nhanh",
+    "viid7": "19"
+  },
+  "techReset": {
+    "id1": ">Reset Cây Kỹ Thuật tab này sẽ hoàn trả 100% Xu Chiến Đội (</font><font color=",
+    "id2": "Có muốn reset ",
+    "id3": "Cần: ",
+    "id4": "Hủy",
+    "id5": "OK",
+    "frid6": "35"
+  },
+  "treasureDefendSetPage": {
+    "id1": "Cần phải thiết lập 10 người tham gia phòng thủ",
+    "id2": "Team thủ phải có 10 người trở lên ",
+    "id3": "Đồng ý điều chỉnh",
+    "frid4": "36"
+  },
+  "treasureEnemyGroupListItem": {
+    "id1": "Thiếu lượt Đoạt Bảo",
+    "id2": "Tranh đoạt thành công {0}\nGiành được {1} vật tư cho Team ",
+    "id3": "\nĐã đánh bại thành viên cuối cùng bên địch, hãy trở về tầng trước. ",
+    "id4": "Vật Tư được tranh đoạt còn:",
+    "viid5": "20"
+  },
+  "treasureEnemyListItem": {
+    "id1": "Rương Team Lv{0}"
+  },
+  "battleForTreasureEnemyViewData": {
+    "id1": "Team LV {0}[{1}]"
+  },
+  "battleForTreasureMainViewData": {
+    "id1": "Team [{0}] "
+  },
+  "ConfirmMakeOverCaptainViewData": {
+    "id1": "Hãy nhập “{0}”"
+  },
+  "teamTechnologyViewData": {
+    "id1": "Tích lũy đầu tư {0} để mở khóa kỹ thuật cấp sau "
+  },
+  "techLevelUpViewData": {
+    "id1": "Kỹ thuật đã đầy cấp ",
+    "id2": "Tăng Cấp",
+    "id3": "Kích hoạt kỹ thuật mới ",
+    "id4": "Cần người chơi Lv {0}",
+    "id5": "Y/c {0} - Tổng cấp Kỹ Thuật đạt cấp {1}",
+    "id6": "SM",
+    "id7": "TL",
+    "id8": "Skill"
+  },
+  "techResetViewData": {
+    "id1": "Cùng "
+  },
+  "treasureDefendSetPageViewData": {
+    "id1": "Phòng thủ hiện tại ",
+    "id2": "Chỉ có thể thiết lập 10 người phòng thủ "
+  },
+  "TempleTrial": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua <font color=",
+    "id3": "lần đánh Thí Luyện Thần Điện</font>",
+    "id4": ", Cần tốn <font color=",
+    "id5": ", có muốn mua không? ",
+    "id6": "Đã vượt ải Thí Luyện Thần Điện!",
+    "id7": "  Nơi này là Phòng Thời Gian, có thể đi đến quá khứ, hiện tại, tương lai để chiến đấu với các kẻ địch khác nhau.",
+    "id8": "Lượt còn",
+    "id9": "Hỗ trợ",
+    "id10": "1.       Mỗi ngày có thể nhận 5 lần thưởng khi đánh \n\n\n2. Đánh thành công không trừ số lần, thất bại trừ số lần \n\n\n3. VIP cao hơn sẽ có thể mua thêm lượt đánh",
+    "deid11": "30",
+    "deid12": "30"
+  },
+  "TempleTrialRank": {
+    "id1": "Tầng thứ {0}",
+    "id2": "Chưa có ai đạt TOP"
+  },
+  "trialRankListItem": {
+    "id1": "Tầng thứ {0}",
+    "deid2": "1",
+    "deid3": "30",
+    "viid4": "25"
+  },
+  "timeLeapChooseAdressViewData": {
+    "id1": "Lv {0} mở khóa "
+  },
+  "timeLeapMain": {
+    "id1": "Chưa ủy thác",
+    "id2": "Ủy thác một Anh Hùng tiến hành Xuyên Không, sẽ nhận được mảnh Anh Hùng",
+    "id3": "Chưa ủy thác",
+    "krid4": "28"
+  },
+  "timeLeapMainViewData": {
+    "id1": "Lv {0}\nhoặc VIP{1} mở khóa",
+    "id2": "{0}\n trở về"
+  },
+  "commonItemGetTips": {
+    "id1": ">Tiêu hao</font><font color=",
+    "id2": "Vàng </font> ",
+    "id3": "Kim Cương </font>",
+    "id4": "Sôi Nổi Team+{0}",
+    "id5": "Nhấn vào chổ trống để thoát"
+  },
+  "materialNotEnoughTipsViewData": {
+    "id1": "Số lượng không đủ",
+    "frid2": "32"
+  },
+  "skillTipsViewData": {
+    "id1": "Thức tỉnh {0} sao tăng lv ",
+    "id2": "Đã max lv",
+    "id3": "Đột phá Lv {0} kích hoạt",
+    "id4": "Đột phá Lv {0} tăng cấp ",
+    "id5": "Tấn công vật lí ",
+    "id6": "Skill Chủ Động",
+    "id7": "Skill Bị Động",
+    "id8": "Siêu Tất Sát",
+    "id9": "Tiềm Năng",
+    "id10": "Vật lí ",
+    "id11": "Chủ Động",
+    "id12": "Bị Động",
+    "id13": "{0} tăng thêm {1};",
+    "krid14": "22",
+    "frid15": "-10"
+  },
+  "totalRank": {
+    "id1": "X.Hạng:",
+    "id2": "Chưa",
+    "id3": "Hạng {0}",
+    "id4": "Team:",
+    "id5": "Trống Chưa",
+    "id6": " Chưa",
+    "id7": "Hạng {0}",
+    "id8": "Xếp hạng hiện tại:",
+    "id9": "Sổ tầng cao nhất:",
+    "id10": "Tầng {0}",
+    "id11": "Cấp chiến đội:",
+    "id12": "Ải cốt truyện hiện tại:",
+    "id13": "Lv hiện tại: ",
+    "id14": "Lực Chiến kỷ lục:",
+    "id15": "Hiện không có dữ liệu xếp hạng ",
+    "id16": "BXH Lực Chiến",
+    "id17": "BXH Lv ",
+    "id18": "BXH Ải ",
+    "id19": "BXH Thi Đấu",
+    "id20": "Thí Luyện Thần Điện",
+    "id21": "Trò Chơi Cell ",
+    "id22": "Bảng Team ",
+    "deid23": "20",
+    "deid24": "30",
+    "frid1": "26"
+  },
+  "totalRankFirst": {
+    "id1": "Cấp chiến đội: {0}",
+    "id2": "XH Hội Võ ",
+    "id3": "XH: {0}",
+    "id4": "Sổ tầng cao nhất",
+    "id5": "Trò Chơi Cell Tầng {0}",
+    "id6": "Ải cốt truyện hiện tại ",
+    "id7": "Lv hiện tại",
+    "id8": "Lực Chiến kỷ lục",
+    "id9": "Thí Luyện Thần Điện Tầng {0}",
+    "id10": "32",
+    "id11": "23",
+    "deid12": "30",
+    "deid13": "22",
+    "frid1": "24",
+    "viid14": "-9"
+  },
+  "TrialPanel": {
+    "id1": "Lv {0} mở ",
+    "id2": "Số lần: <font color=0xF9C369>{0}/{1}</font>",
+    "id3": "Điểm hành động: <font color=0xF9C369>{0}/{1}</font>",
+    "id4": "Sự kiện đã hoàn thành : <font color=0xF9C369>{0}</font>",
+    "id5": "Until the next Time Trial: {0} day(s)"
+  },
+  "userLevelUp": {
+    "id1": "Lv {0} mở "
+  },
+  "weaponChosePage": {
+    "id1": "Thuộc tính : Tất cả ",
+    "id2": "Thuộc tính : Tự định nghĩa ",
+    "id3": "Lọc:",
+    "id4": "Không có vũ khí ngài muốn",
+    "id5": "Túi Vũ Khí",
+    "id6": "Thuộc tính : Tấn công",
+    "id7": "Mang ",
+    "id8": "Vũ Khí",
+    "enid9": "24",
+    "frid10": "35"
+  },
+  "weaponDiff": {
+    "id1": "Thuộc tính : Tất cả ",
+    "id2": "Thuộc tính : Tự định nghĩa ",
+    "id3": "Lọc:",
+    "id4": "Không có vũ khí ngài muốn",
+    "id5": "Túi Vũ Khí",
+    "id6": " - Đã trang bị - ",
+    "id7": "Thuộc tính : Tấn công",
+    "id8": "Đổi",
+    "id9": "Vũ Khí",
+    "enid10": "24"
+  },
+  "weaponInfo": {
+    "id1": "Bạn sắp tách 1 Vũ Khí {0} Sao, xác nhận?",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Bạn sắp tách 1 Vũ Khí Tím, xác nhận?",
+    "id5": "Bạn sắp tách 1 Vũ Khí Cam, xác nhận?",
+    "id6": "Gỡ",
+    "id7": "Đổi",
+    "id8": "Tinh Luyện",
+    "id9": "Mang ",
+    "id10": "Vũ Khí",
+    "id11": "Chọn",
+    "id12": "{0}: Toàn đội {1}",
+    "deid12": "28",
+    "deid13": "156",
+    "id13": "Trong chiến đấu Vòng Sáng Vũ Khí sẽ cùng tồn tại với Vòng Sáng Anh Hùng và duy trì hiệu lực, khi có Vòng Sáng cùng thuộc tính, chỉ có Vòng Sáng cấp cao nhất mới có hiệu lực",
+    "deid14": "30"
+  },
+  "weaponLevelUp": {
+    "id1": "Cường Hóa ",
+    "id2": "Tăng Sao",
+    "id3": "Cần người chơi Đạt Lv {0}",
+    "id4": "Cường Hóa {0} lần",
+    "id5": "Đã tăng đến cấp cao nhất",
+    "id6": "Công:",
+    "id7": "VL Tinh \nLuyện:",
+    "id8": "(Còn: ",
+    "id9": "Đã tăng đến cấp sao cao nhất",
+    "id10": "Cường Hóa Nhanh",
+    "id11": "Vòng Sáng",
+    "id12": "Hãy chọn trong 2 hiệu quả Vòng Sáng dưới đây:",
+    "id13": "Hãy chọn 1 loại hiệu quả Vòng Sáng",
+    "id14": "Số lượng vũ khí cần để kích hoạt Vòng Sáng không đủ",
+    "id15": "Sau khi kích hoạt Vòng Sáng Vũ Khí thì không thể thay đổi! Đồng ý chọn hiệu quả Vòng Sáng này: \n{0}",
+    "id16": "Số lượng vũ khí cần để tăng cấp Vòng Sáng không đủ",
+    "id17": "Kích hoạt",
+    "id18": "Tăng Cấp",
+    "id19": "OK",
+    "id20": "Hủy",
+    "id21": "Mở sau khi vũ khí hiện tại đủ 5 sao",
+    "id22": "(Max Lv {0})",
+    "id23": "Vũ Khí Vật Liệu phải là ban đầu 0 Sao Lv1",
+    "deid11": "30",
+    "deid12": "50",
+    "deid13": "22",
+    "enid24": "Hiệu quả Vòng Sáng sau khi tăng cấp:",
+    "enid25": "20",
+    "enid26": "20",
+    "enid27": "21",
+    "enid28": "30",
+    "krid29": "26",
+    "frid29": "-5",
+    "viid30": "32",
+    "frid30": "26",
+    "id24": "Thần Hóa",
+    "id25": "Cấp người chơi không đủ, cấp {0} mở bậc tăng sao tiếp theo",
+    "id26": "Sau khi người chơi đạt cấp {0} và có 5 vũ khí 5 sao cam sẽ mở thần hóa",
+    "id27": "Sau khi vũ khí tăng lên đỏ, không thể Trùng Sinh thành vũ khí cam, tách vũ khí đỏ sẽ được số lượng Vẫn Thiết nhất định, quyết định tăng lên đỏ?"
+  },
+  "BuyGoldPanel": {
+    "id1": "{0} lần",
+    "id2": "Lần này miễn phí",
+    "id3": "Hôm nay đã hết lượt mua!",
+    "id4": "Dùng {0}Kim Cương Mua Vàng ?",
+    "id5": "Lv càng cao, số Vàng mỗi lần mua được càng nhiều! Số lần mua được reset lúc 6h mỗi ngày!",
+    "id6": "Lượt mua hôm nay còn!",
+    "id7": "Mua lần này nhận Vàng:",
+    "id8": "Mua ",
+    "id9": "10",
+    "id10": "30",
+    "id11": "30",
+    "id12": "30",
+    "id13": "30",
+    "id14": "35"
+  },
+  "BuyLevelGiftPanel": {
+    "id1": "Quà KM Lv{0}",
+    "id3": "Tổng tiêu phí:",
+    "id4": "OK",
+    "id5": "Hủy"
+  },
+  "levelGiftListItem": {
+    "id1": "Cần Lv{0}",
+    "id2": "Còn:",
+    "id3": "Mua {0}",
+    "id4": "Giảm {0}",
+    "deid5": "0.5",
+    "deid6": "230"
+  },
+  "MonthCardPanel": {
+    "id1": "EXP VIP",
+    "id2": "Còn: {0}",
+    "id3": "{0} ngày ",
+    "id4": "{0} giờ ",
+    "id5": "1 giờ",
+    "id6": "Mua {0}",
+    "id7": "Xem đặc quyền VIP"
+  },
+  "rechargeListItem": {
+    "id1": "{0} Kim Cương",
+    "id2": "Tặng ",
+    "id3": "KC",
+    "id4": "VND",
+    "deid5": "0.65",
+    "deid6": "22",
+    "viid7": "0.8",
+    "viid8": "170",
+    "id5": "Giá gốc {0}",
+    "enid9": "166",
+    "enid10": "186",
+    "id6": "G.Hạn mua: {0}"
+  },
+  "VIPPanel": {
+    "id1": "Phúc Lợi Chuyên Dụng VIP{0}",
+    "id2": "Cấp VIP không đủ!",
+    "id4": "Nạp tiếp ",
+    "id5": "Trở thành ",
+    "id6": "Nạp Ngay ",
+    "id7": "Nhận",
+    "id8": "VIP đạt cấp tối đa!",
+    "id9": "30",
+    "krid10": "",
+    "frid10": "35",
+    "viid13": "380"
+  },
+  "VIPPrerogativeGiftListItem": {
+    "id1": "Cần VIP",
+    "id2": "Cấp VIP không đủ!",
+    "id3": "Đã mua!"
+  },
+  "WelfarePanel": {
+    "id1": "Code không được để trống!",
+    "id2": "Không có túi quà nào để nhận",
+    "id3": "Quét mã QR",
+    "id4": "Cách liên hệ",
+    "id5": "Mua {0}",
+    "id6": "Sau khi mua sẽ mở khóa thưởng quý giá, tích lũy sẽ nhận {0} Kim Cương và 1 bộ trang bị cam 0! Mua không?",
+    "id7": "Đã mở khóa thưởng quý",
+    "id8": "Niveau",
+    "id9": "Phần thưởng chung",
+    "id10": "Vinh dự",
+    "krid8": "32"
+  },
+  "StrongBossManager": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua <font color={0}>{1} lần đánh BOSS</font>, cần tốn <font color={2}>{3}{4}</font>, đồng ý không ?"
+  },
+  "DamageMode": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua <font color={0}>{1}",
+    "id3": "Lần đánh BOSS</font>, cần tốn <font color={0}>{1}{2}",
+    "id4": "</font>, muốn xác nhận ?"
+  },
+  "HeroAppraiseMain": {
+    "id1": "Anh hùng từ cấp {0} trở lên mới được đánh giá (Trừ anh hùng cộng hưởng)",
+    "id2": "Hiện không có Hero để phối!",
+    "id3": "{0} phút ",
+    "id4": "Tổng đánh giá:",
+    "id5": "Đánh Giá Hero",
+    "id6": "Phối Hero ",
+    "id7": "Hiện không có bình luận~",
+    "id8": "Phối Vũ Khí:",
+    "id9": "Phối Ấn Ký: ",
+    "id11": "Đánh Giá Hero ",
+    "id12": "Cách nhận",
+    "id13": " hoặc ",
+    "deid14": "26",
+    "deid15": "33",
+    "frid16": "24",
+    "deid17": "0.55",
+    "deid18": "18",
+    "id16": "Tab Anh Hùng"
+  },
+  "InputHeroAppraise": {
+    "id1": "Bạn chưa đánh giá Hero này, không thể tiếp tục!",
+    "id2": "Nội dung không được để trống",
+    "id3": "Nội dung có chứa ký tự cấm, yêu cầu sửa lại!",
+    "id4": "Nhấn vào để đánh giá Hero ",
+    "id5": "Gửi thành công!",
+    "id6": "Đánh Giá Hero",
+    "id7": "Đánh Giá Hero:",
+    "id8": "Gửi"
+  },
+  "BattleChooseSuperSkill": {
+    "id1": "Đã chọn Siêu Tất Sát này rồi",
+    "id2": "Số Siêu Tất Sát ra trận đã đủ",
+    "id3": "Siêu Cấp này đã ở trong đội khác"
+  },
+  "SuperSkillMain": {
+    "id1": "Muốn reset Siêu Tất Sát không?(Hoàn trả{0})\n\ncần tốn {1}{2}",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Siêu Tất Sát đã đầy",
+    "id5": "{0} {1}",
+    "id6": "Reset",
+    "id7": "40",
+    "enid8": "35"
+  },
+  "SummonGiftRewardActivityViewData": {
+    "id1": "Tích lũy quay Hero {0} lần "
+  },
+  "StrengthenEquipActivity": {
+    "id1": "Phẩm Chất quá cao không thể tăng cấp ",
+    "id2": "Thiếu {0}, không thể tăng lv ",
+    "id3": "Đang trang bị ",
+    "id4": "Tăng Cấp xong",
+    "id5": "Hãy đặt Trang Bị muốn tăng cấp vào (Cam trở lên)",
+    "frid6": "24",
+    "id6": "Trang bị này không thể tăng cấp"
+  },
+  "StrengthenSignActivity": {
+    "id1": "Thiếu {0}, không thể tăng lv ",
+    "id2": "Hãy đặt Ấn Ký muốn tẩy luyện vào",
+    "id3": "Tẩy luyện sẽ làm mới điểm thuộc tính phụ của Ấn Ký ",
+    "id4": "Tẩy luyện reset thuộc tính ngẫu nhiên",
+    "id5": "Đã max lv!",
+    "id6": "25",
+    "id7": "24",
+    "id8": "Ấn Ký hiện tại đã được tăng thuộc tính, Tẩy Luyện sẽ cài lại thuộc tính tăng và sẽ không trả lại nguyên liệu tăng, có chắc muốn Tẩy Luyện?",
+    "id9": "OK",
+    "id10": "Hủy"
+  },
+  "EarringLevelUp": {
+    "id1": "Tăng cấp {0} lần ",
+    "id2": "Tăng Cấp Khoen",
+    "id3": "Lv ",
+    "id4": "Tăng bậc thành công ",
+    "id5": "Tăng Cấp",
+    "id6": "Tăng Cấp Ngay",
+    "deid7": "1",
+    "krid8": "-15",
+    "krid9": "45"
+  },
+  "GlobalWarMain": {
+    "id1": "Chỉ dành cho người chơi đã mở SV {0}-{1} ngày",
+    "id2": "Chỉ giới hạn người chơi tham gia từ lúc mở sv {0}ngày  trở đi",
+    "id3": "Cần Lv {0} mới có thể tham gia liên đấu",
+    "id4": "CD Vòng Loại: <font color=0x35F444>{0}</font>",
+    "id5": "Không thể tham gia vòng loại",
+    "id6": "Cho đến khi kết thúc thì top 20 bxh sẽ tự động báo danh ",
+    "deid7": "30",
+    "frid8": "22",
+    "frid9": "28"
+  },
+  "FriendShipInfoListItem": {
+    "id1": "{0} {1}"
+  },
+  "GlobalWarSeaElection": {
+    "id1": "{0} trận ",
+    "id2": "Đã nhận thưởng rồi!",
+    "id3": "Chưa đạt yêu cầu không thể nhận thưởng",
+    "id4": "Chọn lọc đã kết thúc ",
+    "id5": "X.Hạng",
+    "id6": "Trận thắng: ",
+    "id7": "Hiện không có log đối chiến ",
+    "id8": "Thời gian vòng sau ",
+    "deid9": "1",
+    "frid10": "25"
+  },
+  "RechargePanel": {
+    "id1": "Nạp thêm {0} trở thành ",
+    "id2": "Xem đặc quyền ",
+    "id3": "38",
+    "id4": "VIP đạt cấp tối đa!",
+    "id5": "30",
+    "deid6": "30",
+    "viid7": "315",
+    "enme8": "1",
+    "enme9": "0"
+  },
+  "GlobalWarCommon": {
+    "id1": "Thứ {0}",
+    "id2": "1",
+    "id3": "2",
+    "id4": "3",
+    "id5": "4",
+    "id6": "5",
+    "id7": "6",
+    "id8": " Ngày",
+    "id9": "Báo danh ",
+    "id10": "Chọn lọc",
+    "id11": "Vòng loại ",
+    "id12": "16 TOP4",
+    "id13": "Bán Kết",
+    "id14": "Chung Kết",
+    "id15": "Chưa",
+    "id16": "TL Cược:{0}",
+    "id17": "Team:",
+    "id18": "Đội hình Team ",
+    "id19": "S{0}",
+    "id20": "20",
+    "frid21": "26"
+  },
+  "GlobarWarGuess": {
+    "id1": "· Tốn vàng để tăng {0} giờ tăng thu ích khi treo máy\n·Dự đoán thành công sẽ được nhận Vàng gấp nhiều lần",
+    "id2": "Nhắc nhở",
+    "id3": "Muốn dùng Vàng để ủng hộ, chọn dự đoán xong không thể sửa.",
+    "id4": "Cần: ",
+    "id5": "OK",
+    "id6": "Hủy",
+    "id7": "20",
+    "deid8": "30"
+  },
+  "SeaElectionRanking": {
+    "id1": "S{0}",
+    "id2": "※Người chơi có số trận thắng giống nhau sẽ tính theo xếp hạng Lực Chiến ",
+    "id3": "Hiện không có xếp hạng ",
+    "id4": "Chưa",
+    "deid5": "30",
+    "krid7": "26"
+  },
+  "GlobalFourToOneBattle": {
+    "id1": "Quyết đấu Vòng loại ",
+    "id2": "Tranh TOP4",
+    "id3": "Nhóm thứ {0}",
+    "id4": "S{0}",
+    "id5": "TG Thi Đấu",
+    "id6": "Server",
+    "id7": "Bản thân",
+    "id8": "Sau mở ",
+    "id9": "Nhóm 1 ",
+    "id10": "Nhóm 2 ",
+    "id11": "Nhóm 3",
+    "id12": "12:00 vòng 12 ",
+    "id13": "18:00 vòng 2 ",
+    "frid14": "1.25"
+  },
+  "GlobalEndResoultShow": {
+    "id1": "[{0}]",
+    "id2": "S{0}",
+    "id3": "Server",
+    "id4": "Bản thân",
+    "id5": "XH",
+    "id6": "Tên nhân vật ",
+    "id7": "Lv ",
+    "id8": "Sv",
+    "id9": "Team",
+    "id10": "Số trận tương đồng thì lấy Lực Chiến cao hơn "
+  },
+  "GlobalWarRankSampleInfoListItem": {
+    "id1": "S{0}"
+  },
+  "GlobalEndBattleRecord": {
+    "id1": "[{0}]",
+    "id2": "S{0}",
+    "id3": "Phát lại ",
+    "id4": "Chi tiết",
+    "id5": "Phát lại ",
+    "id6": "Server",
+    "id7": "Bản thân"
+  },
+  "GlobalGuessWindowViewData": {
+    "id1": "Vòng loại đợt 1",
+    "id2": "Vòng loại đợt 2",
+    "id3": "16 TOP4 Vòng 1 ",
+    "id4": "16 TOP4 Vòng 2 ",
+    "id5": "Bán Kết",
+    "id6": "Chung Kết"
+  },
+  "GlobalFourToTwoBattle": {
+    "id1": "S{0}",
+    "id2": "TL Cược: {0}",
+    "id3": "Đoạt Quán Quân: {0} lần",
+    "id4": "TG Thi Đấu",
+    "id5": "Server",
+    "id6": "Bản thân",
+    "id7": "Chưa"
+  },
+  "GlobalWarRecordListItem": {
+    "id1": "S{0}",
+    "id2": "Phát lại "
+  },
+  "GlobalGuessAndRecord": {
+    "id1": "S{0}",
+    "id2": "TL Cược:{0}",
+    "id3": "Phát lại ",
+    "id4": "Chi tiết",
+    "id5": "Thao tác dự đoán thành công ",
+    "id6": "Team:",
+    "id7": "Phát lại ",
+    "deid8": "30",
+    "viid9": "20",
+    "frid9": "30"
+  },
+  "HeroEvolve": {
+    "id1": "Cần {0} anh hùng có phẩm chất {1} và {3} sao trở lên, Cấp ≥ {2}",
+    "id2": "Tăng T.Tính Cơ Bản",
+    "id3": "HP Cơ Bản",
+    "id4": "Công Cơ Bản",
+    "id5": "Mở khóa kĩ nang mới ",
+    "id6": "Tăng cấp skill",
+    "id7": "Đột Phá chưa tăng cấp "
+  },
+  "DragonBallBattleEnemyInfo": {
+    "id1": "BUFF Thủ:",
+    "id2": "Buff tấn công:",
+    "id3": "Rút lui thành công!",
+    "id4": "OK",
+    "id5": "Hủy",
+    "id6": "Muốn rút lui sao, rút lui rồi chổ này sẽ bị cường đạo chiếm nha? ",
+    "id7": "Hoạt động Tranh Đoạt Ngọc Rồng đã kết thúc!",
+    "id8": "Do thành viên trong Team chiếm được… ",
+    "id9": "Khi đang bảo vệ không thể khiêu chiến … ...{0} giây",
+    "id10": "Đang CD...{0}",
+    "id11": "24:00 thứ 6 hàng tuần mới gia nhập vào thành viên, không thể tham gia Tranh Đoạt Ngọc Rồng",
+    "id12": "Hero không tồn tại ",
+    "id13": "Nhấn vào Anh Hùng để xem thông tin chi tiết!",
+    "id14": "Đang tìm...",
+    "id15": "Hai bên tranh đoạt Cờ không nhận buff",
+    "id16": "32",
+    "deid17": "30",
+    "frid18": "27"
+  },
+  "DragonBallBattleMapInfo": {
+    "id1": "Đội hình thủ đã thay đổi, chiến đấu vô hiệu và không tốn số lần!",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Trong đội hình Hero hiện tại đang phòng thủ, muốn thay đổi không (thay đổi thì chổ cũ sẽ bị cường đạo chiếm)?",
+    "id5": "Thiết lập đội hình thủ thành công ",
+    "id6": "Hoạt động Tranh Đoạt Ngọc Rồng đã kết thúc!",
+    "id7": "Không rõ",
+    "id8": "Trống",
+    "id9": "Chưa thám hiểm ",
+    "id10": "Đã tìm hiểu ",
+    "id11": "1.       Mỗi cờ chiếm được, đều sẽ tăng một lần buff chiến đấu tại khu Trung Tâm\n\n2. Mỗi lần buff chiến đấu tăng {0}% Tăng ST và Giảm ST\n\n3. Buff chiến đấu chỉ có hiệu quả trong Tháp Trung Tâm, tranh đoạt cờ không có hiệu quả",
+    "id12": "Tầng {0}",
+    "id13": "1.Thành Viên trong Team lần đầu chiếm được cờ có thể xác định chổ này có Ngọc Rồng hay không\n\n2.Thành viên trong Team phát hiện Ngọc Rồng, người Team khác sẽ không thấy, đồng thời phe ta cũng không thể phát hiện được Ngọc Rồng của Team khác\n\n3.Khi tổng kết chung cuộc, Team chiếm được Tháp Trung Tâm sẽ nhận được tất cả Ngọc Rồng trong khu đó, bất kể do ai phát hiện",
+    "id14": "Chiếm lĩnh Tháp trung tâm sẽ chiếm được khu này, sở hữu tất cả Ngọc Rồng",
+    "id15": "Phe chiếm hữu khu này: ",
+    "id16": "Khu này phát hiện Ngọc Rồng: ",
+    "id17": "Buff Tháp Trung Tâm ",
+    "id18": "Tháp Trung Tâm ",
+    "id19": "Chiếm lĩnh: ",
+    "id20": "Đang bảo vệ",
+    "id21": "20",
+    "id22": "26",
+    "id23": "24",
+    "deid24": "20",
+    "deid25": "26",
+    "frid26": "26"
+  },
+  "DragonBallBattleSignUp": {
+    "id1": "09:00 sáng Thứ 7 mở",
+    "id2": "(Chưa báo danh, không thể tham gia, thời hạn Báo Danh đến 24:00 tối thứ 6)",
+    "id3": "Chỉ đội turởng và đội phó được quyền báo danh ",
+    "id4": "Sôi Nổi Team không đủ ",
+    "id5": "1. Tổng Sôi Nổi chiến đội là tổng điểm Sôi Nổi trong tuần của tất cả đội viên\n\n2. Khi thành viên rời chiến đội, Sôi Nổi không bị giảm\n\n3. Điểm Sôi Nổi dùng để báo danh tham gia Tranh Đoạt Ngọc Rồng\n\n[Cách nhận]\nĐiểm danh chiến đội 50 Sôi Nổi/lần\nBOSS Chiến Đội 10 Sôi Nổi/lần\nĐoạt Bảo 10 Sôi Nổi/lần\nLì Xì Satan 5 Sôi Nổi/lần",
+    "id6": "Team Lv {0} trở lên mới được báo danh",
+    "id7": "Team: ",
+    "id8": "Điểm Xếp Hạng:",
+    "id9": "Cần Sôi Nổi Team:",
+    "id10": "Thứ hai tuần thứ 4 tính từ lúc mở server sẽ mở!",
+    "id11": "09:00 sáng Thứ 7 mở",
+    "deid12": "1.25",
+    "deid13": "23"
+  },
+  "DragonBallBattleMainViewData": {
+    "id1": "Hệ thống",
+    "id2": "Tranh Đoạt Ngọc Rồng còn:{0}"
+  },
+  "DragonBallBattleRewardTips": {
+    "id1": "<font color=0xF7551B><b>- Người chơi chiếm khu Tháp Trung Tâm, nhận tất cả Ngọc Rồng trong khu này</b></font>\n- Người chơi khác nhận thưởng theo hạng nhất, nhì của chiến đội\n- Thưởng sẽ gửi qua thư",
+    "id2": "Hiện không có dữ liệu BXH",
+    "id3": "BXH Vinh Dự",
+    "id4": "Đội quán quân",
+    "id5": "Đội á quân",
+    "id6": "Đội hạng 3",
+    "frid7": "26"
+  },
+  "DragonBallBattleMain": {
+    "id1": "Trống",
+    "id2": "Thông báo không thể để trống!",
+    "id3": "Chữ số không vượt quá {0}",
+    "id4": "Nhập… ",
+    "id5": "",
+    "id6": "",
+    "id7": "Ưu tiên",
+    "id8": "Kết Quả",
+    "id9": "Chiến báo ",
+    "id10": "Kênh Team ",
+    "id11": "Gửi",
+    "deid12": "25",
+    "deid13": "38",
+    "deid14": "18",
+    "deid15": "30",
+    "frid16": "28"
+  },
+  "DragonBallBattleHonor": {
+    "id1": "1.       Mỗi lần chiến đấu có thể nhận 50 điểm vinh dự, chiến thắng người khác nhận được thêm 10 điểm\n2. Khi tổng kết, nếu chiếm được khu Tháp Trung Tâm sẽ nhận được 500 điểm vinh dự\n3. Khi tổng kết, chiếm khu có Ngọc Rồng sẽ được 100 điểm vinh dự",
+    "deid2": "1.25"
+  },
+  "ParagraphListItem": {
+    "id1": "Khi tổng kết Tranh Đoạt Ngọc Rồng sẽ được nhận thêm <font color=0xff9046>{0}%</font> Xu Vinh Dự ",
+    "id2": "Chiến đấu trong phân đoạn này, đoạt thứ hạng sau\nTop1 <font color={3}> {0}</font> Top2 <font color={4}> {1}</font> Top3 <font color={5}> {2}</font>",
+    "frid3": "24"
+  },
+  "MailSend": {
+    "id1": "Hãy nhập tiêu đề thư ",
+    "id2": "Hãy nhập nội dung thư ",
+    "id3": "Nội dung giới hạn {0} ký tự ",
+    "id4": "Người nhận: {0}",
+    "id5": "OK",
+    "id6": "Hủy",
+    "id7": "Muốn gửi thư này không?",
+    "id8": "Muốn xóa thư này và tất cả hồi âm không?",
+    "id9": "Người gửi:",
+    "id10": "Gửi"
+  },
+  "BallRecordItem": {
+    "id1": "<font color=0xff9046>Ngọc Rồng 1 sao </font>",
+    "id2": "<font color=0xff9046>Ngọc Rồng 2 sao </font>",
+    "id3": "<font color=0xff9046>Ngọc Rồng 3 sao </font>",
+    "id4": "<font color=0xff9046>Ngọc Rồng 4 sao </font>",
+    "id5": "<font color=0xff9046>Ngọc Rồng 5 sao </font>",
+    "id6": "<font color=0xff9046>Ngọc Rồng 6 sao </font>",
+    "id7": "<font color=0xff9046>Ngọc Rồng 7 sao </font>"
+  },
+  "HeroAppraiseItemListItem": {
+    "id1": "Đã like "
+  },
+  "HeroAppraisePanel": {
+    "id1": "Đã like ",
+    "id2": "Đánh Giá"
+  },
+  "GemChangeOrWear": {
+    "id1": "Đã có thuộc tính tương đồng",
+    "id2": "Thuộc tính Nguyên khí chính là duy nhất",
+    "id3": "Tu Hành Vũ Trụ Kai, nhận được Nguyên Khí ở Tiệm Chiến Đội ",
+    "id4": "Túi Nguyên khí ",
+    "id5": "Nguyên khí ",
+    "id6": " - Đã trang bị - ",
+    "id7": "Mang ",
+    "id8": "Đổi",
+    "id9": "Nguyên khí "
+  },
+  "GemResetAddPage": {
+    "id1": "Lv {0}",
+    "id3": "Hãy chọn nguyên khí muốn dung luyện ",
+    "id4": "Hiện không có Nguyên Khí, trong tu hành và Tiệm Team có thể nhận",
+    "id5": "Giá Gốc",
+    "id6": "Đặt Vào Nhanh:",
+    "id7": "(Còn: ",
+    "id8": "Hủy hết",
+    "id9": "Bắt đầu dung luyện",
+    "krid10": "23",
+    "frid11": "30",
+    "frid12": "46"
+  },
+  "friendMailListItem": {
+    "id1": "Hôm nay "
+  },
+  "GlobalWarWelfare": {
+    "id1": "[Quán quân]{0}",
+    "id2": "[TOP4]{0}",
+    "id3": "Tăng {0}% hiệu suất treo máy, duy trì 3 ngày",
+    "id4": "[{0}]",
+    "id5": "S{0}",
+    "id6": "Trong liên đấu mùa trước, thành tích tốt nhất các tuyển thủ sever mình là; ",
+    "id7": "Tất cả người chơi server nhận được (Cộng dồn với thu ích VIP):",
+    "id8": "OK"
+  },
+  "ServerWelfare": {
+    "id1": "<font color=0x58bde7>{0}</font>Đạt <font color=0xf1f44d> quán quân liên đấu, thu ích cả server +{1}%(Duy trì 3 ngày)</font>",
+    "id2": "<font color=0x58bde7>{0}</font>đạt <font color=0xf1f44d>TOP4 liên đấu, cả server treo máy được {1}% thu ích (Duy trì 3 ngày )</font>",
+    "id3": "{0}.... Sau đóng",
+    "id4": "20"
+  },
+  "FriendMailInfo": {
+    "id1": "Hãy nhập nội dung muốn gửi ",
+    "id2": "Nhiều nhất {0} ký tự ",
+    "id3": "OK",
+    "id4": "Hủy",
+    "id5": "Muốn gửi thư này không?",
+    "id6": "Muốn xóa thư này và tất cả hồi âm không?",
+    "id7": "Chú ý: NPH sẽ không dùng bất kì hình thức nào gửi thư cá nhân cho người chơi ",
+    "id8": "Gửi"
+  },
+  "FriendMailInfoViewData": {
+    "id1": "Hôm nay "
+  },
+  "MailInfoManager": {
+    "id1": "Lv {0} mở thư gửi bạn "
+  },
+  "HighLadderListItem": {
+    "id1": "S{0}",
+    "id2": "1.25",
+    "id3": "1",
+    "viid4": "-6"
+  },
+  "ConsumptionFeedbackItemListItem": {
+    "id1": "Tích lũy tiêu hao đạt {0}\nXH TOP {1}",
+    "id2": "Tích lũy tiêu hao đạt {0}\nXH TOP {1}-{2}",
+    "id3": "Tích lũy tốn {0}: {1}",
+    "id4": "Hoạt động đã kết thúc!",
+    "frid5": "30",
+    "viid6": "150"
+  },
+  "BroadcastSingleton": {
+    "id1": "<font color=0xffe61a>[Hệ thống]:</font>"
+  },
+  "GoodHarvests": {
+    "id1": "Đã nhận",
+    "id2": "{0} ngày ",
+    "id3": "{0} giờ sau có thể nhận ",
+    "id4": "TG Kết Thúc:",
+    "id5": "Tích lũy nhận được : ",
+    "id6": "Hoàn trả:",
+    "frid7": "29"
+  },
+  "ExpeditionChapterEnemy": {
+    "id1": "Không đủ lượt khiêu chiến!",
+    "id2": "{0} sau khôi phục ",
+    "id3": "30"
+  },
+  "rechargeRebateItemListItem": {
+    "id1": "ĐK: Nạp {0}",
+    "id2": "{0} X{1}",
+    "id3": "Đã nhận",
+    "krid4": "18"
+  },
+  "SingleRechargeItemListItem": {
+    "id1": "Nạp 1 lần <font color=0xFFED78>{0}</font> trở lên",
+    "id2": "Nạp 1 lần <font color=0xFFED78>{0}</font>"
+  },
+  "ActivityMergeBoss": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua <font color={0}>{1}lần tấn công</font>,cần tốn <font color={2}>{3}{4}</font>,đồng ý không ?",
+    "id3": "Tích lũy cống hiến sôi nổi chiến đội:",
+    "id4": "Lượt còn:"
+  },
+  "TodayDiscountListItem": {
+    "id1": "{0}",
+    "id2": "EXP VIP",
+    "id3": "Giảm {0}",
+    "id4": "1.2",
+    "deid5": "0.4"
+  },
+  "GemResetNormal": {
+    "id1": "Hoạt động Dung Luyện KM50% đã kết thúc, giá đã được điều chỉnh lại, hãy thử lại sau!",
+    "id2": "Hoạt động Dung Luyện KM50% đã mở, giá đã được điều chỉnh lại, hãy thử lại sau!",
+    "id3": "Hoạt động này sẽ mở vào cuối tuần, hãy chờ",
+    "id4": "Nguyên Khí Dung Luyện cuối tuần giảm 50% Vàng",
+    "id5": "Vui lòng chờ",
+    "deid6": "1.25"
+  },
+  "SuperGiftBuyWithOtherListItem": {
+    "id1": "Túi Siêu May Mắn",
+    "id2": "Hạn mua : {0}"
+  },
+  "ExpeditionEventPandectListItem": {
+    "id1": "{0} ải {1}-{2}",
+    "id2": "Thường",
+    "id3": "Khó ",
+    "id4": "Ác Mộng",
+    "id5": "Hoàn thành ",
+    "id6": "Đang tiến hành ",
+    "id7": "Xem ",
+    "id8": "Đã trinh sát",
+    "deid8": "45",
+    "deid9": "33"
+  },
+  "WeeklyHarvestGetViewData": {
+    "id1": "{0}x{1}",
+    "id2": "({0})"
+  },
+  "WeeklyHarvestSaveViewData": {
+    "id1": "{0} sau có thể nhận "
+  },
+  "ExpeditionMachineListItem": {
+    "id1": "Lv.{0}",
+    "id2": "Thiết lập mở ",
+    "id3": "Tăng giới hạn ",
+    "id4": "Lv0",
+    "id5": "Lv{0}",
+    "id6": "Dùng Tàu Không Gian x{0} để mở?",
+    "id7": "OK",
+    "id8": "Hủy",
+    "id9": "Lv: ",
+    "id10": "Tăng giới hạn ",
+    "id11": "Thiết lập mở ",
+    "frid12": "40"
+  },
+  "ExpeditionMachineHeroInfo": {
+    "id1": "Hero đang tiến hành sự kiện không thể rời thuyền",
+    "id2": "Rời tàu",
+    "id3": "Cần tốn : "
+  },
+  "ExpeditionEventMain": {
+    "id1": "Băt đầu chấp hành sự kiện",
+    "id2": "Hãy hoàn thành sự kiện ",
+    "id3": "Hãy chọn sự kiện trinh sát",
+    "id4": "Hoàn thành sự kiện chờ đợi",
+    "id5": "<font size = 20>Hiện đã tăng tốc thời gian: {0}h {1}ph</font>\n\nMuốn dùng Kim Cương x{2} để hoàn thành sự kiện này?",
+    "id6": "Trinh thám quá nhiều sự kiện, hãy giải quyết bớt đi ",
+    "id7": "<font size = 20>Hiện đã tăng tốc thời gian: {0}h {1}ph</font>\n\nHiện đang {2}, muốn dùng Kim Cương x{3} để hoàn thành sự kiện này?\n<font size=20>(trạng thái {4} sẽ tốn x{5} Kim Cương )</font>",
+    "id8": "Đã đạt giới hạn, không thể thao tác ",
+    "id9": "Đã hoàn thành ",
+    "id10": "Đang tiến hành … ",
+    "id11": "Sự kiện sản xuất ",
+    "id12": "Sự kiện trinh thám ",
+    "id13": "Không có sự kiện",
+    "id14": "Xem phái ",
+    "id15": "Thêm vào sưu tập",
+    "id16": "Xóa sưu tập",
+    "id17": "Đã thêm vào danh sách sưu tập",
+    "id18": "Đã xóa",
+    "id19": "Đã đạt giới hạn số mục sưu tập",
+    "deid15": "26",
+    "deid16": "28",
+    "deid17": "20"
+  },
+  "ExpeditionEventMainViewData": {
+    "id1": "Giới hạn sự kiện: {0}/{1}",
+    "id2": "<font color={0}>{1}</font> xuất chinh\nNăng Lực Z cả đội +{2}"
+  },
+  "ExpeditionLineUp": {
+    "id1": "Chưa thu thập đủ {0}/{1}",
+    "id2": "Tổng cộng thêm {0}",
+    "id3": "Đã có Hero này ra trận ",
+    "id4": "Hero này đang bận chuyện khác",
+    "id5": "Ra trận đã đầy ",
+    "id6": "Năng Lực Z không đủ",
+    "id7": "1.Tăng Lv có thể tăng Năng Lực Z của Hero\n\n2.Hero Phẩm Chất càng cao, Năng Lực Z càng cao\n\n3.Tổng điểm Năng Lực Z của đội hình ra trận, có nhận hiệu quả cộng từ tổ hợp Hero\n\n4.Tính điểm cộng tổ hợp Hero là cộng theo tổng điểm Năng Lực Z cơ bản của tất cả Hero đội hình ra trận",
+    "id8": "Hiển thị Thông tin Hero ra trận ",
+    "id9": "(Sau nhấn tổ hợp có thể hiện Thông tin Hero liên quan) ",
+    "id10": "Nhân vật cốt truyện ",
+    "id11": "Chi tiết",
+    "deid12": "28",
+    "id12": "Chỉ có thể ra trận 1 trong số anh hùng cộng hưởng",
+    "id13": "Chọn anh hùng xong mới lưu",
+    "id14": "Đội hình đội đã đạt giới hạn",
+    "id15": "Đội này đã lưu",
+    "id16": "Đội này đã ở trong danh sách"
+  },
+  "ExpeditionLineUpFetterListItem": {
+    "id1": "Chưa thu thập đủ {0}/{1}",
+    "deid2": "20"
+  },
+  "ExpeditionChapter": {
+    "id1": "Vượt ải mức thường và lv {0} trở lên sẽ mở",
+    "id2": "Vượt ải mức khó lv {0} trở lên mở ",
+    "id3": " sẽ xuất hiện trong version sau",
+    "id4": "<font size=35>Đã mở độ khó {0}\n\nĐã mở Ngoại Truyện độ khó {1}</font>",
+    "id5": "<font size=35>Độ khó {0} yêu cầu Lv{1} mở \n\nĐã mở Ngoại Truyện độ khó {2}</font>",
+    "id6": "Thường",
+    "id7": "Khó ",
+    "id8": "Ác Mộng",
+    "id9": "1. Ải đã vượt qua rồi có thể quay lại điều tra sự kiện\n2. Sự kiện có yêu cầu Năng Lực Z, hoàn thành sự kiện sẽ nhận thưởng\n3. Có thể dùng Kim Cương để hoàn thành ngay sự kiện, nhưng sẽ có độ mệt mỏi khi qua thời gian quy định, trạng thái Mệt Mỏi sẽ tăng Kim Cương cần tiêu phí\n\nCấp Mệt Mỏi\nMệt Mỏi 1, quá 100 giờ, tiêu phí Kim Cương x1.5\nMệt Mỏi 2, quá 200 giờ, tiêu phí Kim Cương x2\nMệt Mỏi 3, quá 300 giờ, tiêu phí Kim Cương x3\nQuá 360 giờ sẽ không thể tăng tốc.",
+    "id10": "90",
+    "id11": "50",
+    "id12": "175"
+  },
+  "ExpeditionMachineMain": {
+    "id1": "Hero trong Máy Không Gian có thể không cần thức tỉnh tăng giới hạn lv ",
+    "id2": "Tăng cấp Anh Hùng có thể tăng Năng Lực Z",
+    "id3": "Tăng giới hạn ",
+    "id4": "Thiết lập mở "
+  },
+  "HeroWakeUpGodSuccess": {
+    "id1": "Thần Hóa thành công",
+    "id2": "Thức tỉnh thành công",
+    "id3": "Tăng Thuộc tính ",
+    "id4": "Giới hạn Lv đạt: ",
+    "id5": "Tư Chất",
+    "id6": "HP Cơ Bản",
+    "id7": "Công Cơ Bản"
+  },
+  "ExpeditionCommon": {
+    "id1": "Chưa thu thập đủ0/1",
+    "id2": "[{0}/{1}] thu thập {2} {3}  Năng Lực Z+{4}%",
+    "deid1": "19"
+  },
+  "ExpeditionTipsViewData": {
+    "id1": "Anh Hùng Lv {0} {1}"
+  },
+  "SnakeHeroListItem": {
+    "id1": "l{0}/{1}"
+  },
+  "HeroListItem": {
+    "id1": "l{0}/{1}"
+  },
+  "WeeklyHarvestGet": {
+    "id1": "Tích lũy mùa turơc1 nhận được  x (tỉ lệ hoàn trả {0})",
+    "id2": "Tối đa nhận "
+  },
+  "HeroMainQiGong": {
+    "id1": "HP",
+    "id2": "Công",
+    "id3": "Thủ",
+    "id4": "Tốc Độ",
+    "id5": "Chi tiết",
+    "id6": "Tu Luyện sẽ thay đổi ngẫu nhiên 3 thuộc tính cơ bản ",
+    "id7": "Đột phá Hero có thể tăng giới hạn tu luyện thuộc tính ",
+    "id8": "HP Cơ Bản",
+    "id9": "Công Cơ Bản",
+    "id10": "Thủ Cơ Bản",
+    "id11": "Thuộc tính Tu Luyện có thay đổi",
+    "id12": "Lực Chiến ",
+    "id13": "(Còn: ",
+    "id14": "Tu Luyện",
+    "id15": "Tu Luyện X10",
+    "id16": "Hủy",
+    "id17": "Lưu",
+    "id18": "Tu Luyện Ngay",
+    "id19": "Lv {0} mở ",
+    "deid18": "40",
+    "frid1": "50",
+    "krid1": "0.5",
+    "frid2": "23",
+    "id20": "Tỷ lệ khí công của anh hùng cộng hưởng giống với anh hùng chính"
+  },
+  "GetBackReource": {
+    "id1": "Có thể tìm lại {0} giờ",
+    "id2": "Có thể tìm lại <font color=0xF85F03>{0}</font> lần",
+    "id3": "Tìm Lại",
+    "id4": "Đã thu hồi ",
+    "id5": "Tài Nguyên",
+    "id6": "Trang Bị",
+    "id7": "Ấn Ký ",
+    "id8": "Thu hồi {0} phụ bản {1} lần ",
+    "id9": "{0} sau biến mất",
+    "id10": "Tài nguyên và lượt khiêu chiến PB tối đa được tìm lại 3 ngày",
+    "id11": "Tài Nguyên Treo Máy ",
+    "id12": "PB Tài Nguyên",
+    "id13": "PB Trang Bị",
+    "id14": "PB Ấn Ký",
+    "id15": "35",
+    "deid16": "30",
+    "frid1": "24",
+    "frid2": "22",
+    "krid1": "-7",
+    "krid2": "26"
+  },
+  "ExpeditionEventAwardPreview": {
+    "id1": "Xem trước sự kiện ",
+    "id2": "Sự kiện sản xuất ",
+    "id3": "OK",
+    "id4": "30",
+    "deid5": "26"
+  },
+  "InheritTips": {
+    "id1": "1. Chỉ có Anh Hùng SS và SSS 3 sao trở lên mới có thể kế thừa",
+    "id2": "2. Anh Hùng mục tiêu và Anh Hùng kế thừa có thể cùng phẩm",
+    "id3": "3. Anh Hùng mục tiêu có thể kế thừa cấp sao, lv, giới hạn đột phá.",
+    "id4": "4. Khi anh hùng đầy Khí Công có thể truyền Khí Công cho anh hùng mục tiêu, bằng không sẽ hoàn trả tất cả Đá Năng Lượng và Vàng đã tiêu hao",
+    "id5": "5.Hoàn trả Ngọc Potara, Mảnh Potara, Hồn Potara tiêu hao của anh hùng kế thừa.",
+    "id6": "6. Hoàn trả Nguyên Khí, Ấn Ký, vũ khí và trang bị của anh hùng kế thừa.",
+    "id7": "7. Kế thừa tất cả nguyên liệu tiêu hao, KC kế thừa tăng theo cấp sao và phẩm của anh hùng. ",
+    "id8": "8. Khi Anh Hùng đã tăng cấp thì không thể dùng làm Anh Hùng mục tiêu.\n\n9.Hiện đang miễn phí Kế Thừa Hero thì kế thừa không tốn Kim Cương",
+    "id9": "Hỗ trợ"
+  },
+  "IllustratedHandBook": {
+    "id1": "HP",
+    "id2": "Công",
+    "id3": "Thủ",
+    "id4": "Tốc Độ",
+    "id5": "Chi tiết",
+    "deid6": "0.6",
+    "id6": "Người chơi trình diễn"
+  },
+  "SnakeFastBattle": {
+    "id1": "Vượt ải nhanh ",
+    "id2": "Đang vượt ải nhanh… ",
+    "id3": "Đã hoàn thành vượt ải ",
+    "id4": "Điều chỉnh đội hình ",
+    "id5": "Tiếp tục chiến đấu ",
+    "id6": "Đậu Thần hồi sinh ",
+    "id7": "Hero phe ta đã chết hết, không thể tiếp tục chiến đấu!",
+    "id8": "Ải {0}",
+    "id9": "Đã làm mới Xà Đạo, hãy thử lại!",
+    "id10": "-15",
+    "deid11": "22",
+    "deid12": "30",
+    "krid13": "45"
+  },
+  "CombatStatistics": {
+    "id1": "Hero",
+    "id2": "Lượng ST",
+    "id3": "Lượng Trị Liệu/Khiên",
+    "id4": "Lượng sát thương kế thừa",
+    "id5": "Siêu Tất Sát",
+    "deid6": "230",
+    "frid7": "24"
+  },
+  "FiltratePanel": {
+    "id1": "Vị trí số {0}",
+    "id2": "Chọn Nhanh Hero",
+    "id3": "Hủy chọn loại hình Hero sẽ không chọn ",
+    "id4": "Chọn Nhanh Ấn Ký",
+    "id5": "Hủy chọn loại hình Ấn Ký sẽ không chọn ",
+    "id6": "Chọn Nhanh Vũ Khí",
+    "id7": "Hủy chọn loại hình vũ khí sẽ không chọn ",
+    "id8": "Lọc Bộ Ấn Ký",
+    "id9": "Ấn Ký trong bộ lọc được chọn sẽ xuất hiện trong danh sách (mặc định là tất cả)",
+    "id10": "Lọc thuộc tính Ấn Ký",
+    "id11": "Ấn Ký có thuộc tính đang chọn sẽ xuất hiện trong ds (mặc định là hiển thị toàn bộ)",
+    "id12": "Lọc thuộc tính Vũ Khí",
+    "id13": "Vũ khí có thuộc tính đang chọn sẽ xuất hiện trong ds (mặc định là hiển thị toàn bộ)",
+    "id14": "Hủy hết",
+    "id15": "Chọn hết",
+    "id16": "Trở về thiết lập ban đầu ",
+    "id17": "Trắng",
+    "id18": "Lục",
+    "id19": "Lam ",
+    "id20": "Tím",
+    "id21": "OK",
+    "id22": "Hủy",
+    "deid23": "30",
+    "deid24": "30",
+    "deid25": "28",
+    "id26": "Đạo cụ có thể mở",
+    "id27": "Nguyên liệu sự kiện",
+    "id28": "Nguyên liệu tiêu hao",
+    "id29": "Hồn đỏ anh hùng",
+    "id30": "Khác",
+    "id31": "Loại vũ khí được chọn sẽ hiển thị trong danh sách (Mặc định hiển thị toàn bộ)",
+    "id32": "Trang bị",
+    "id33": "Nguyên Khí",
+    "id34": "Đá",
+    "id35": "Loại trang bị được chọn sẽ hiển thị trong danh sách (Mặc định hiển thị toàn bộ)",
+    "id37": "Lọc loại nguyên liệu",
+    "id38": "Lọc loại trang bị",
+    "id39": "Loại nguyên liệu được chọn sẽ hiển thị trong danh sách (Mặc định hiển thị toàn bộ)"
+  },
+  "ActivitySpecialOffer": {
+    "id1": "Thẻ EXP "
+  },
+  "BulmaParty": {
+    "id1": "Đang có: "
+  },
+  "ConsumptionFeedbackRank": {
+    "id1": "Chưa có ai tiêu Kim Cương ",
+    "id2": "Chưa"
+  },
+  "MergeBossDamageRank": {
+    "id1": "Chưa có thành viên nào khiêu chiến BOSS ",
+    "id2": "Chưa"
+  },
+  "TeamHonor": {
+    "id1": "Tổng vật tư có:",
+    "id2": " Phòng thủ còn: ",
+    "id3": "Tranh đoạt nhận:",
+    "id4": "Tranh đoạt vật tư càng nhiều, Xu Chiến Đội nhận được khi tổng kết càng nhiều",
+    "id5": "Hiện không có thành viên tiến hành chiến đấu ",
+    "id6": "Chưa",
+    "frid7": "24",
+    "frid8": "1"
+  },
+  "EquipListChoseUp": {
+    "id1": "Không có trang bị ngài muốn tìm ",
+    "id2": "Hãy chọn trang bị muốn Cường Hóa ",
+    "deid3": "35",
+    "deid4": "28"
+  },
+  "EquipListByType": {
+    "id1": "Không có trang bị ngài muốn tìm ",
+    "id2": "Hãy chọn trang bị muốn mang ",
+    "deid3": "35"
+  },
+  "RechargeRebate": {
+    "id1": "TG Kết Thúc:"
+  },
+  "ReturnAwardActivityListItem": {
+    "id1": "Tích lũy nhận được : ",
+    "id2": "Hoàn trả cao nhất:"
+  },
+  "HeroAwardActivity": {
+    "id1": "TG Kết Thúc"
+  },
+  "MergeBossAwardPage": {
+    "id1": "Thưởng thêm cho top 1 sát thương",
+    "id2": "Thưởng mỗi lượt khiêu chiến",
+    "id3": "Thưởng toàn đội diệt BOSS",
+    "frid4": "24",
+    "frid5": "24"
+  },
+  "BossDamagePage": {
+    "id1": "Chưa có thành viên nào khiêu chiến BOSS "
+  },
+  "PowerCompetitionActivityListItem": {
+    "id1": "Sau khi kết thúc hoạt động sẽ gửi quà qua thư "
+  },
+  "StampDetal": {
+    "id1": "Đã max lv!",
+    "id2": "Gỡ",
+    "id3": "Đổi",
+    "id4": "Tinh Luyện",
+    "id5": "Hủy",
+    "id6": "Chọn",
+    "deid1": "26",
+    "viid7": "19",
+    "frid1": "30"
+  },
+  "SignWashWindow": {
+    "id1": "Muốn đổi không ?",
+    "id2": "Đã max lv!",
+    "id3": "Hủy",
+    "id4": "Lưu",
+    "id5": "OK ",
+    "krid6": "20",
+    "id6": "Sau khi đổi, lực chiến anh hùng thay đổi",
+    "id7": "Lực chiến: ",
+    "id8": "Anh hùng mang vào Ấn Ký sẽ hiển thị thay đổi lực chiến",
+    "deid8": "30"
+  },
+  "TodayDiscount": {
+    "id1": "Làm mới sau ",
+    "id2": "-243",
+    "frid1": "27",
+    "deid2": "24"
+  },
+  "WeeklyHarvestSave": {
+    "id1": "Đang Tích Lũy",
+    "id2": "Vòng này nhận:",
+    "id3": "Hiện có thể hoàn trả: "
+  },
+  "CounterpartTips": {
+    "id1": "Hỗ trợ",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Nhắc nhở",
+    "id5": "(Số lần mua còn: {0})",
+    "deid6": "24"
+  },
+  "ExpeditionTips": {
+    "id2": "Về Năng Lực Z",
+    "id3": "Hệ số Phẩm Chất",
+    "id4": "Tăng cấp Hero có thể tăng Năng Lực Z",
+    "id5": "Phẩm chất càng cao Năng Lực Z của Anh Hùng càng cao",
+    "id6": "1. Chỉ Hero 0 Sao Lv 1 mới được cho vào Máy Không Gian.",
+    "id7": "2. Hero đang trong Máy Không Gian, giới hạn Lv được tăng đến giới hạn của Máy, không cần thức tỉnh",
+    "id8": "3.Hero đang trong Máy Không Gian, có thể tiến hành tăng lv hoặc đột phá, tăng Năng Lực Z",
+    "id9": "Hỗ trợ",
+    "deid10": "28"
+  },
+  "SignInPanel": {
+    "id1": "Điểm Danh",
+    "id2": "Log "
+  },
+  "QiangDiBossDamageAndAwardInfo": {
+    "id1": "Tổng ST",
+    "id2": "Chưa có người lên bảng ",
+    "id3": "Tham gia khiêu chiến mới có thưởng"
+  },
+  "JialintaRankPage": {
+    "id1": "Chưa có người lên bảng ",
+    "id2": "XH Server ",
+    "id3": "BXH Toàn Server",
+    "deid4": "28",
+    "frid5": "1"
+  },
+  "CommonRule": {
+    "id1": "Quy tắc hỗ trợ "
+  },
+  "JialintaRule": {
+    "id1": "Quy tắc hỗ trợ ",
+    "id2": "Lối chơi ",
+    "id3": "",
+    "id4": "",
+    "id5": "",
+    "id6": "",
+    "id7": "Thời gian",
+    "id8": "",
+    "id9": "Điều kiện: ",
+    "id10": "",
+    "id11": "Tổng kết: ",
+    "id12": "",
+    "id13": "",
+    "id14": ""
+  },
+  "MahaAdventureBattleRewardTips": {
+    "id1": "Quà"
+  },
+  "ShaLuAwardPage": {
+    "id1": "Xem trước phần thưởng"
+  },
+  "ShaLuMyHeros": {
+    "id1": " - kéo avatar để thay đổi thứ tự đội viên - ",
+    "id2": "Bắt đầu chiến đấu ",
+    "id3": "Đậu Thần hồi sinh ",
+    "deid4": "46",
+    "frid5": "24"
+  },
+  "ShaLuPassSuccess": {
+    "id1": "Tăng phần thưởng mỗi ngày có thể nhận",
+    "id2": "(Hôm sau được dùng) "
+  },
+  "ShaLuSetTeamWarn": {
+    "id1": "(Dữ liệu Hero không thể update) ",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Nhắc nhở",
+    "id5": "Sau khi xác nhận đội hình thì trong ngày sẽ không thể đổi người, đồng ý không?",
+    "id6": "6",
+    "deid7": "26"
+  },
+  "ShaLuWarn": {
+    "id1": "(Có thể nhận tiếp) ",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Có phần thưởng ngày chưa nhận! Muốn rời giao diện này sao? "
+  },
+  "SnakeCloseWarn": {
+    "id1": "(Có thể nhận tiếp) ",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Đã mở khóa rương chưa có nhận! Muốn tắt giao diện sao? "
+  },
+  "BossFightingAffiliationAward": {
+    "id1": "Quà được gửi qua thư"
+  },
+  "BossFightingRankAward": {
+    "id1": "Quà được gửi qua thư"
+  },
+  "Bulletin": {
+    "id1": "Chúc mừng "
+  },
+  "HeroCardPoolDisplay": {
+    "id1": "Tỉ lệ",
+    "id2": "Nhấn vào chổ trống để thoát",
+    "deid3": "16",
+    "enid4": "18"
+  },
+  "FindDragonBall": {
+    "id1": "Nhấn vào chổ trống để thoát",
+    "id2": "Chỉ có thành viên chung Team người phát hiện Ngọc Rồng mới thấy được "
+  },
+  "FriendHeat": {
+    "id1": "Số lượng bạn ",
+    "id2": "Làm mới lúc 6:00 mỗi ngày ",
+    "id3": "Chưa có kết bạn ",
+    "id4": "Nhận và gửi nhanh",
+    "deid5": "20"
+  },
+  "SummaryBossFail": {
+    "id1": "Lượt còn",
+    "deid2": "30"
+  },
+  "DragonBallBattleFinishTips": {
+    "id1": "Team này chưa tham gia Tranh đoạt Ngọc Rồng",
+    "id2": "OK",
+    "deid3": "30"
+  },
+  "DragonBallBattleHighLadder": {
+    "id1": "Hiện không có dữ liệu xếp hạng ",
+    "id2": "BXH Đấu Xếp Hạng",
+    "id3": "Rank cộng thêm ",
+    "id4": "1.25",
+    "id5": "1",
+    "deid6": "24",
+    "frid7": "28"
+  },
+  "DragonBackpack": {
+    "id1": "Túi Ngọc Rồng",
+    "id2": "Hiện không có Ngọc Rồng số sao này ",
+    "id3": "OK",
+    "id4": "Tạm không có Ngọc Rồng"
+  },
+  "DragonPromisePool": {
+    "id1": "Hồ cầu nguyện",
+    "id2": "Hiện không có Hero được Kế Thừa Miễn Phí",
+    "id3": "Miễn phí khi là anh hùng kế thừa",
+    "deid2": "30"
+  },
+  "EarringLevelFull": {
+    "id1": "Khoen đã max cấp",
+    "id2": "Đã tăng đến lvmax",
+    "id3": "OK",
+    "deid4": "36"
+  },
+  "EntrustHeroPos": {
+    "id1": "Lv ra trận ",
+    "frid2": "33"
+  },
+  "ExpeditionCombinationDetails": {
+    "id1": "Hiện không có tổ hợp cộng thêm kích hoạt "
+  },
+  "ExpeditionCombinationDetailsListItem": {
+    "id1": "NV Cốt Truyện: {0}\n\nNV Cốt Truyện ra trận   Năng Lực Z+{1}%",
+    "id2": "26",
+    "deid3": "23"
+  },
+  "ExpeditionEventLineUp": {
+    "id1": "Hero xuất chiến",
+    "id2": "TG Về Đội"
+  },
+  "ExpeditionEventPandect": {
+    "id1": "6h mỗi ngày nhiệm vụ chưa tiến hành sẽ mất",
+    "id2": "Giới hạn sự kiện tích lũy: ",
+    "id3": "Hiện không có sự kiện, có thể trinh sát trong khi đánh ải ",
+    "id4": "DS sự kiện",
+    "id5": "DS sưu tập",
+    "id6": "Chưa sưu tập sự kiện",
+    "id7": "Giới hạn sự kiện sưu tập",
+    "deid4": "28",
+    "deid5": "30",
+    "krid6": "-5",
+    "deid8": "32",
+    "id8": "Chưa thể trinh sát tự kiện",
+    "id9": "Hoàn thành trinh sát nhanh danh sách sưu tập",
+    "id10": "Trinh sát nhanh",
+    "deid11": "28",
+    "enid12": "24"
+  },
+  "ExpeditionMachineHeroMoveOut": {
+    "id1": "Xem tài nguyên hoàn trả",
+    "id2": "Xác nhận rời thuyền",
+    "id3": "Hủy",
+    "deid4": "32"
+  },
+  "ExpeditionMachinePutHeroInTip": {
+    "id1": "(không tốn kc, reset xong sẽ cho trực tiếp vào túi) ",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Nhắc nhở",
+    "id5": "Hero này đã tiến hành bồi dưỡng qua hoặc đang mang trang bị, xác nhận cho vào Máy Không Gian sẽ reset lại từ đầu"
+  },
+  "ExpeditionMachineUpSuccess": {
+    "id1": "Máy Không Gian có thể bỏ qua thức tỉnh tăng giới hạn lv ",
+    "id2": "Cấp cao nhất",
+    "id3": "5"
+  },
+  "FindFriendPage": {
+    "id1": "Kết Bạn ",
+    "id2": "Thêm bạn "
+  },
+  "FriendApply": {
+    "id1": "Hiện không có bạn mới"
+  },
+  "SendFriendMailChosePage": {
+    "id1": "Chưa có kết bạn ",
+    "id2": "Gửi thư"
+  },
+  "GemBook": {
+    "id1": "Sổ Tay Nguyên Khí ",
+    "id2": "Thuộc tính sau chỉ hiển thị thuộc tính chính cao nhất",
+    "id3": "Hồ Nguyên Khí Công",
+    "id4": "Hồ Nguyên Khí Thủ",
+    "id5": "Hồ Nguyên Khí Skill",
+    "deid6": "26",
+    "frid7": "26"
+  },
+  "GlobalWarFinal": {
+    "id1": "TG Thi Đấu"
+  },
+  "GlobalWarRanking": {
+    "id1": "Hiện không có xếp hạng ",
+    "id2": "Đội hình hiện tại không khớp với đội hình liên server, cụ thể dùng đội hình đang dùng làm chuẩn",
+    "viid3": "20"
+  },
+  "GlobalWarRankingItemListItem": {
+    "id1": "Tích lũy Đoạt Quán Quân:",
+    "krid2": "0.6",
+    "viid3": "20"
+  },
+  "GlobalWarReward": {
+    "id1": "- Quán quân có hiệu ứng đặc biệt riêng, top 2-4 nhận hiệu ứng của Top4 \n- Hiệu ứng Avatar duy trì cho đến khi tổng kết, các thưởng khác sẽ gửi qua thư",
+    "id2": "Hiệu ứng Ava Quán Quân (7 ngày)",
+    "id3": "Hiệu ứng Ava TOP4 (7 ngày)",
+    "deid4": "22",
+    "deid5": "1",
+    "deid6": "1"
+  },
+  "GlobalWarSeaElectionDesListItem": {
+    "id1": "Hệ thống",
+    "frid2": "21"
+  },
+  "TreasureTeamChangeWarn": {
+    "id1": "Nhắc nhở",
+    "id2": "Bỏ và thoát",
+    "id3": "Lưu và thoát",
+    "id4": "Điều chỉnh đội hình tham gia phòng thủ, có muốn bảo lưu không?",
+    "deid5": "36"
+  },
+  "BuyTips": {
+    "id1": "Nhắc nhở",
+    "id2": "Muốn đổi không ? ",
+    "id3": "OK",
+    "id4": "Hủy"
+  },
+  "HeroGetWay": {
+    "id1": "Cách nhận",
+    "deid2": "24",
+    "viid3": "0.45",
+    "frid3": "0.7"
+  },
+  "HeroMainAttribute": {
+    "id1": "Thuộc tính Chi tiết"
+  },
+  "HeroMainStamp": {
+    "id1": "Chi tiết",
+    "frid2": "26",
+    "id2": "Ấn Ký của anh hùng cộng hưởng giống với anh hùng chính"
+  },
+  "HeroWakeUpReturn": {
+    "id1": "Khi thức tỉnh tất cả nguyên liệu trang bị sẽ trên người Hero sẽ được hoàn trả ",
+    "id2": "Hoàn trả Vật Liệu"
+  },
+  "HeroWakeUpSuccess": {
+    "id1": "Thức tỉnh thành công",
+    "id2": "Khả năng phát triển tăng ",
+    "id3": "Tăng Tư Chất",
+    "id4": "Tăng giới hạn Lv ",
+    "id5": "Tăng Skill Chủ Động"
+  },
+  "JialintaRankAward": {
+    "id1": "Xem Quà BXH ",
+    "frid2": "29"
+  },
+  "MahaAdventureBossKillTips": {
+    "id1": "Hãy nhận phần thưởng sau",
+    "id2": "Thu nhận",
+    "deid3": "30"
+  },
+  "MahaAdventureFriendHelp": {
+    "id1": "Không có boss nào cần bạn hỗ trợ tiêu diệt."
+  },
+  "MahaFriendHelpListItem": {
+    "id1": "Đến từ bạn bè"
+  },
+  "MailDetails": {
+    "id1": "Người gửi:",
+    "id2": "Xóa",
+    "id3": "Nhận"
+  },
+  "PackItemInfo": {
+    "id1": "Số lượng hiện tại :",
+    "id2": "Chi tiết",
+    "id3": "Ghép",
+    "id4": "Bán",
+    "id5": "Mở ",
+    "id6": "Không thể bán",
+    "id7": "10"
+  },
+  "ItemsTips": {
+    "id1": "Số lượng hiện tại :",
+    "id2": "Chi tiết",
+    "deid3": "26"
+  },
+  "SettingMain": {
+    "id1": "Server version: ",
+    "id2": "Thiết lập Thông tin ",
+    "frid1": "40"
+  },
+  "SignAttrChose": {
+    "id1": "Lọc thuộc tính Ấn Ký",
+    "id2": "Hiển thị toàn bộ ",
+    "id3": "Lọc tự thiết lập",
+    "id4": "Tỉ lệ Công",
+    "id5": "Tỉ lệ HP",
+    "id6": "Tỉ lệ Thủ",
+    "id7": "Tỉ lệ Né",
+    "id8": "Xuyên Giáp",
+    "id9": "Độ Bền",
+    "id10": "TL Bạo",
+    "id11": "ST Bạo",
+    "id12": "TL Miễn Bạo",
+    "id13": "TL Đỡ",
+    "id14": "TL Chuẩn",
+    "id15": "Tốc Độ",
+    "deid16": "36",
+    "deid17": "26"
+  },
+  "SignPosChose": {
+    "id1": "Lọc vị trí Ấn Ký",
+    "id2": "Hiển thị toàn bộ ",
+    "id3": "Lọc tự thiết lập"
+  },
+  "SignSuitNameChose": {
+    "id1": "Lọc Bộ Ấn Ký",
+    "id2": "Hiển thị toàn bộ ",
+    "id3": "Kame",
+    "id4": "Kai",
+    "id5": "Shin",
+    "id6": "Go",
+    "id7": "Mo",
+    "id8": "Zen",
+    "frid9": "36"
+  },
+  "SummaryPveSuccess": {
+    "id1": "Tổng sát thương chiến đấu:",
+    "id2": "Sôi Nổi Team:"
+  },
+  "SummaryDefeatedWithAward": {
+    "id1": "Có thể dùng các cách sau để tăng Lực Chiến đội ",
+    "id2": "Sôi Nổi Team:",
+    "id3": "Tổng sát thương chiến đấu:",
+    "frid4": "29"
+  },
+  "SummaryPvpSuccess": {
+    "id1": "Sôi Nổi Team:",
+    "deid2": "1"
+  },
+  "SummonEnergyTips": {
+    "id1": "Đặc quyền thẻ vĩnh viễn ",
+    "id2": "Triệu hồi cao cấp 80 lần, có thể rút ngẫu nhiên một Hero Siêu Tất Sát S hoặc SS. Đặc quyền chuyên thuộc VIP vĩnh viễn. ",
+    "id3": "Đi Mua",
+    "id4": " - Năng Lượng chưa đầy-",
+    "deid5": "29.5",
+    "deid6": "40"
+  },
+  "TaskMainTips": {
+    "id1": "Yêu cầu Nhiệm Vụ "
+  },
+  "BattleForTreasureEnemy": {
+    "id1": "Vật tư được đoạt:",
+    "id2": "Vật tư tranh đoạt còn:",
+    "id3": "Cá nhân đoạt vật tư:",
+    "id4": "Chiến đội đoạt vật tư:",
+    "deid5": "-40",
+    "frid6": "34",
+    "viid7": "24"
+  },
+  "BossAwardPage": {
+    "id1": "Phần thưởng xếp hạng sát thương sau khi hạ gục",
+    "id2": "Phần thưởng mỗi lần chiến đấu",
+    "viid3": "21"
+  },
+  "MemberItemListItem": {
+    "id1": "Sôi Nổi Tuần: {0}"
+  },
+  "TeamHeadChang": {
+    "id1": "… Avatar đang dùng … "
+  },
+  "TreasureDefendViewPage": {
+    "id1": "- Trong thời gian mở Đoạt Bảo, không thể điều chỉnh đội phòng thủ",
+    "id2": "- Đội hình phòng thủ Đoạt Bảo là đội hình đấu trường ngày hôm qua",
+    "id3": "Chưa tham gia hoạt động vòng này "
+  },
+  "TreasureGetTip": {
+    "id1": "Thuộc Team:",
+    "id2": "OK"
+  },
+  "TimeLeapChooseAdress": {
+    "id1": "Diệt có tỷ lệ nhận mảnh: ",
+    "deid2": "30",
+    "deid3": "30"
+  },
+  "TimeLeapChooseTime": {
+    "id1": "6 tiếng",
+    "id2": "10 tiếng",
+    "id3": "22 tiếng"
+  },
+  "DiamondTips": {
+    "id1": "Kim Cương không đủ ",
+    "id2": "Kim Cương không đủ, có nạp thêm không",
+    "id3": "Đi nạp",
+    "id4": "Nghĩ lại "
+  },
+  "LoginMessage": {
+    "id1": "Thông báo ",
+    "id2": "OK"
+  },
+  "MaterialNotEnoughTips": {
+    "id1": "Thiếu nguyên liệu ",
+    "id2": "Số lượng đang có: ",
+    "deid3": "30",
+    "deid4": "28"
+  },
+  "OpenLimitPage": {
+    "id1": "Mở ",
+    "id2": "Vui lòng chờ"
+  },
+  "TotalRankItem": {
+    "id1": "Đội trưởng",
+    "deid2": "20"
+  },
+  "WeaponAttrGroupChose": {
+    "id1": "Lọc thuộc tính Vũ Khí",
+    "id2": "Hiển thị toàn bộ ",
+    "id3": "Lọc tự thiết lập",
+    "id4": "Công",
+    "id5": "TL Công",
+    "id6": "Điểm HP",
+    "id7": "TL HP",
+    "id8": "Thủ",
+    "id9": "TL Thủ",
+    "id10": "TL Bạo",
+    "id11": "ST Bạo",
+    "id12": "TL Miễn Bạo",
+    "id13": "TL Đỡ",
+    "id14": "TL Chuẩn",
+    "id15": "Tốc Độ",
+    "deid16": "26",
+    "frid17": "36"
+  },
+  "ReceiveAwardPanel": {
+    "id1": "OK",
+    "id2": "Có thể xem trước item nhận được ",
+    "deid3": "24",
+    "id3": "Hoàn trả 80% Đá Thức Tỉnh tiêu hao, hoàn trả 100% các nguyên liệu tiêu hao còn lại"
+  },
+  "SupriseReward": {
+    "id1": "OK"
+  },
+  "MarketListItem": {
+    "id1": "Nhận",
+    "deid2": "30"
+  },
+  "ShaLuDayAward": {
+    "id1": "Nhận",
+    "frid2": "42",
+    "viid3": "300"
+  },
+  "LeaveTeamTip": {
+    "id1": "OK",
+    "id2": "Hủy",
+    "id3": "Chú ý ",
+    "id4": "1. Rời khỏi chiến đội sẽ không thể tham gia chiến đội khác trong ngày\n\n2. Xu Chiến Đội còn vẫn được bảo lưu khi qua chiến đội mới, nhưng không lưu lịch sử cống hiến."
+  },
+  "CommonErrorTips": {
+    "id1": "OK",
+    "id2": "Lỗi"
+  },
+  "AchievementListItem": {
+    "id1": "Nhận",
+    "id2": "Đi",
+    "id3": "Chưa hoàn thành ",
+    "deid4": "40"
+  },
+  "TaskListItem": {
+    "id1": "Nhận",
+    "id2": "Đi",
+    "id3": "Chưa hoàn thành ",
+    "deid4": "45",
+    "viid5": "24"
+  },
+  "ExpeditionMachineUpTip": {
+    "id1": "OK",
+    "id2": "Hủy",
+    "id3": "Nhắc nhở",
+    "id4": "    Muốn tăng giới hạn cấp của Tàu Không Gian này?"
+  },
+  "GemDetal": {
+    "id1": "Gỡ",
+    "id2": "Đổi",
+    "id3": "Nguyên khí ",
+    "id4": "Hủy",
+    "id5": "OK",
+    "deid6": "30",
+    "deid7": "30"
+  },
+  "EquipDetal": {
+    "id1": "Gỡ",
+    "id2": "Đổi",
+    "id3": "Mang ",
+    "id4": "Bán",
+    "deid5": "24",
+    "deid6": "50",
+    "frid7": "26",
+    "id5": "Giám định",
+    "id6": "Đá không hợp với anh hùng, không thể kích hoạt hiệu quả độc quyền",
+    "id7": "Cường hóa",
+    "deid8": "30",
+    "frid9": "30",
+    "frid10": "30"
+  },
+  "GlobalWarMyGuessListItem": {
+    "id1": "Phát lại ",
+    "id2": "Đang tiến hành … ",
+    "id3": "Chưa tiến hành dự đoán",
+    "viid4": "25"
+  },
+  "SellWindow": {
+    "id1": "Bán"
+  },
+  "HeroDebrisSummon": {
+    "id1": "Ghép"
+  },
+  "OpenBox": {
+    "id1": "Mở "
+  },
+  "TeamNotice": {
+    "id1": "OK",
+    "id2": "Thông báo mới"
+  },
+  "HeroItemTips": {
+    "id1": "Chi tiết",
+    "id2": "Vui lòng chờ",
+    "deid3": "0.55"
+  },
+  "ArenaRecordListItem": {
+    "id1": "XH "
+  },
+  "RandomFriendListItem": {
+    "id1": "Yêu cầu",
+    "frid1": "46"
+  },
+  "ActivityTurnTable": {
+    "id1": "Quy Tắc",
+    "viid1": "180",
+    "id2": "Lịch sử nhận thưởng",
+    "id3": "Chưa có lịch sử nhận thưởng",
+    "id4": "Tỉ lệ\n{0}%"
+  },
+  "ArenaRecord": {
+    "id1": "Log "
+  },
+  "StrongBossDamageInfoListItem": {
+    "id1": "Tổng ST"
+  },
+  "MyTreasureTeamListItem": {
+    "id1": "Team thủ phải có 10 người trở lên ",
+    "krid2": "28"
+  },
+  "WhisRankAwardListItem": {
+    "id1": "Điểm Thích Whis đạt {0}\nXH TOP {1}",
+    "id2": "Điểm Thích Whis đạt {0}\nXH TOP {1}-{2}",
+    "id3": "Điểm Thích Whis: {0}",
+    "id4": "Sau khi kết thúc hoạt động sẽ gửi quà qua thư ",
+    "id5": "5",
+    "deid6": "22"
+  },
+  "SummonTenSuccess": {
+    "id1": "Lần này miễn phí",
+    "id2": "(Giảm 15%)"
+  },
+  "whisBenedictionListItem": {
+    "id1": "Hạn mua: {0}",
+    "id2": "Đã đổi xong "
+  },
+  "WhisFeast": {
+    "id1": "Tặng Món Ngon",
+    "id2": "Quà Xếp Hạng",
+    "id3": "Tiệm Chúc Phúc",
+    "id4": "Tăng Tốc Ngay",
+    "id5": "Hoàn thành ",
+    "id6": "Tăng Tốc Ngay cần tốn {0} {1}, xác nhận Tăng Tốc không?",
+    "id7": "Đang CD: {0}",
+    "deid8": "36"
+  },
+  "WhisFeastGiveCate": {
+    "id1": "Ramen",
+    "id2": "Tempura",
+    "id3": "Kem Dâu",
+    "id4": "Tặng",
+    "id5": "Tặng Món Ngon thành công!",
+    "id6": "Miễn phí",
+    "id7": "CD: {0} giờ",
+    "id8": "Còn: {0}",
+    "id9": "28"
+  },
+  "WhisFavorabilityRank": {
+    "id1": "Hiện chưa có ai nhận được Điểm Thích",
+    "deid2": "1.25"
+  },
+  "TempleTrialEverydayAward": {
+    "id1": "Có phần thưởng ngày chưa nhận! Muốn rời giao diện này sao? \n\n(Có thể quay lại để nhận) ",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Quà Ngày",
+    "id5": "Quà Vượt Ải ",
+    "id6": "Nhận",
+    "deid7": "26"
+  },
+  "NewHeroRewardActivity": {
+    "id1": "Hạn mua: {0}",
+    "id2": "Giới hạn mua",
+    "id3": "Mua {0}",
+    "id4": "Đã đổi xong ",
+    "id5": "Quà Đổi Lệnh Khao Thưởng"
+  },
+  "JialintaLevelMoreViewData": {
+    "id1": "Hiệu Quả Cấp",
+    "id2": "Người chơi đạt Lv{0} trở lên, Nước Siêu Thần trong rương thưởng và thưởng xếp hạng sẽ cộng thêm: ",
+    "id3": "Đạt Lv{0}:",
+    "id4": "+{0}%"
+  },
+  "BossDamagePageViewData": {
+    "id1": "Thời gian giải cấm: 6h mai",
+    "id2": "(Mỗi ngày nhiều nhất đánh {0} BOSS)"
+  },
+  "CDKEYPanel": {
+    "id1": "Đổi giftcode",
+    "id2": "Hãy nhập code quà "
+  },
+  "BattleMedalPanel": {
+    "id1": "Làm mới sau:",
+    "id2": "Nhấn mở khóa Chiến Lệnh Cao Cấp",
+    "id3": "Đã mở khóa",
+    "id4": "Có thể thông qua nhiệm vụ Chiến Lệnh nhận EXP",
+    "id5": "Mua cấp",
+    "id6": "Nhận EXP",
+    "id7": "Cấp Chiến Lệnh",
+    "id8": "Chiến Lệnh Thường",
+    "id9": "Chiến Lệnh Cao Cấp",
+    "id10": "Xem quà cấp sau",
+    "id11": "Nhận Nhanh",
+    "id12": "Quà Chiến Lệnh",
+    "id13": "NV Chiến Lệnh",
+    "id14": "Tiệm Chiến Lệnh",
+    "id15": "Max cấp, không thể mua",
+    "id16": "Mua <font color={0}>1 cấp Chiến Lệnh</font> cần tốn <font color={0}>{1} Kim Cương </font>, xác nhận mua?",
+    "id17": "Mở khóa thành công!",
+    "id18": "Lv {0} mở ",
+    "id19": "1. Trong thời gian chỉ định, tất cả người chơi có thể thông qua hoàn thành nhiệm vụ Chiến Lệnh nhận EXP Chiến Lệnh, tăng cấp Chiến Lệnh, và nhận Quà Cấp Chiến Lệnh\n\n2. Người chơi có thể mở Chiến Lệnh Cao Cấp, sẽ được thưởng thêm Chiến Lệnh Cao Cấp.\n\n3. Có thể dùng huân chương của thưởng Cấp Chiến Lệnh để đổi quà trong Tiệm Chiến Lệnh.\n\n4. Người chơi Lv90 trở lên có thể mua Cấp Chiến Lệnh\n\n5. TG cập nhật Chiến Lệnh là 30 ngày, sau 30 ngày tự động cập nhật Chiến Lệnh vòng sau, cần phải mua lại Chiến Lệnh Cao Cấp.\n\n6. Anh Hùng đổi trong Tiệm Tế Đàn hoặc ghép mảnh không tính vào N.Vụ Chiến Lệnh.",
+    "id20": "Mở khóa Chiến Lệnh cao cấp và đạt lv tương ứng sẽ có quà ",
+    "id21": "Không có phần thưởng để nhận",
+    "id22": "Đạt giới hạn số lần mua!",
+    "deid22": "-19",
+    "deid23": "22",
+    "deid24": "22",
+    "deid25": "24",
+    "krid26": "26",
+    "frid1": "22",
+    "frid2": "25",
+    "enid27": "24",
+    "frid28": "22",
+    "krid28": "26"
+  },
+  "BattleMedalShopListItem": {
+    "id1": "Hạn mua: {0} lần ",
+    "id2": "Đã bán hết",
+    "id3": "Đổi Tiệm Chiến Lệnh",
+    "krid4": "28"
+  },
+  "BattleMedalTaskListItem": {
+    "id1": "Tiến độ nhiệm vụ hiện tại:{0}/{1}",
+    "id2": "Nhận",
+    "id3": "30"
+  },
+  "OpenHighGradeBattleMedal": {
+    "id1": "{0}",
+    "id2": "Mở khóa Chiến Lệnh Cao Cấp và tăng cấp Chiến Lệnh sẽ nhận thêm thưởng",
+    "deid3": "1.25",
+    "viid4": "0.7"
+  },
+  "BattleMedalAwardListItem": {
+    "id1": "Chưa mở khóa Chiến Lệnh Cao Cấp, không thể nhận thưởng."
+  },
+  "TrainingPoinInfo": {
+    "id1": "Lv tu luyện:{0}",
+    "id2": "Thuộc tính cấp sau:",
+    "id3": "Đã đạt giới hạn Tu Luyện"
+  },
+  "TrainingMain": {
+    "id1": "Tu luyện nhóm đã đạt giới hạn ",
+    "id2": "{0} Hero có thể đột phá giới hạn lv {1} có thể mở khóa ",
+    "id3": "Lv tổng:",
+    "id4": "1. Tu Luyện tăng thuộc tính cho toàn đội\n\n2. Mỗi lần Tu Luyện tăng ngẫu nhiên 1 mốc\n\n3. Cấp mốc cách nhau không quá 1 cấp\n\n4. Giới hạn tổng cấp Mốc: {0}\n\n5. Reset sẽ hoàn trả toàn bộ Thẻ Tu Luyện đội đã tiêu hao",
+    "id5": "\n\n {0} Anh Hùng đột phá giới hạn Lv{1} tăng đến Lv{2}",
+    "id6": "(Thuộc tính Tu Luyện Đội tác dụng lên cả đội)",
+    "deid7": "22",
+    "id7": "Có tốn {0} Kim Cương để reset tu luyện đội không？\n\nHoàn trả Thẻ Tu Luyện: {1}"
+  },
+  "TotalTrainAttrListItem": {
+    "id1": "Chưa mở khóa",
+    "deid2": "22"
+  },
+  "AttrsExplainDesViewData": {
+    "id1": "[{0}]"
+  },
+  "SummonOneSuccess": {
+    "id1": "Lần này miễn phí",
+    "id2": "(Giảm 15%)"
+  },
+  "HeroEquipAndStampShow": {
+    "id1": "Lv.{0}",
+    "id2": "Chú ý: Một số cách chơi thuộc tính hiển thị của Hero sẽ không đồng nhất, cụ thể dựa theo thuộc tính hiển thị làm chuẩn. ",
+    "deid3": "14"
+  },
+  "ChangeHeadIcon": {
+    "id1": "Cài đặt avatar",
+    "id2": "Avatar",
+    "id3": "Khung avatar",
+    "id4": "OK",
+    "id5": "Điều kiện mở khóa:",
+    "id6": "Chưa mở khóa khung Avatar",
+    "id7": "Chưa mở khóa Avatar",
+    "id8": "Nhận được anh hùng {0}",
+    "deid1": "30",
+    "deid2": "50",
+    "deid3": "26"
+  },
+  "AdventureEnemyInfo": {
+    "id1": "Hero không tồn tại ",
+    "id2": "Nhấn vào Anh Hùng để xem thông tin chi tiết!",
+    "id3": "Đang tìm..."
+  },
+  "ArenaOtherInfo": {
+    "id1": "Nhấn vào Anh Hùng để xem thông tin chi tiết!",
+    "id2": "Xếp hạng hiện tại ",
+    "id3": "Đang tìm...",
+    "deid4": "21",
+    "id4": "Đội hình Đại Hội Võ Thuật",
+    "id5": "Đội hình Chiến Đỉnh Phong",
+    "id6": "Con Đường Đỉnh Phong",
+    "id7": "Đội {0}",
+    "id8": "Chưa từng tham gia Chiến Đỉnh Phong",
+    "enid9": "20",
+    "id9": "Đội hình hiển thị là đội hình Chiến Đỉnh Phong 1 ngày trước của người chơi",
+    "id10": "Đội hình hiển thị là đội hình thủ Đại Hội Võ Thuật 1 ngày trước của người chơi",
+    "enid11": "16"
+  },
+  "SnakeChapterInfo": {
+    "id1": "Nhấn vào Anh Hùng để xem thông tin chi tiết!",
+    "id2": "Đang tìm..."
+  },
+  "RuleModel": {
+    "id1": "Lối chơi ",
+    "id2": "Thời gian",
+    "id3": "Điều kiện",
+    "id4": "Tổng kết"
+  },
+  "JialintaEnemy": {
+    "id1": "Nhấn vào Anh Hùng để xem thông tin chi tiết!",
+    "id2": "Đang tìm...",
+    "id3": "0",
+    "id4": "0.75"
+  },
+  "WeaponInfoTip": {
+    "id1": "Vũ Khí",
+    "deid2": "28"
+  },
+  "EarringLevelUpViewData": {
+    "id1": "Lv {0}"
+  },
+  "SignetCounterpartTips": {
+    "id1": "Có thể rơi "
+  },
+  "ChangeTeamName": {
+    "id1": "Chỉ có đội trưởng và đội phó được đổi tên Team!",
+    "id2": "Sửa tên Team thành công!",
+    "id3": "Hãy nhập tên mà bạn muốn đổi:",
+    "id4": "Đổi Tên ",
+    "id5": "Xác định đổi",
+    "id6": "Nhập",
+    "id7": "Đổi tên cần tốn {0} Kim Cương, xác nhận không?",
+    "id8": "35"
+  },
+  "JialintaLevelMore": {
+    "id1": "24",
+    "id2": "5"
+  },
+  "SignWashTip": {
+    "id1": "Kho thuộc tính ngẫu nhiên:",
+    "viid2": "26"
+  },
+  "ThreeDaysActivityListItem": {
+    "id1": "30",
+    "id2": "30"
+  },
+  "ConsumptionFeedback": {
+    "id1": "Hoạt động đã kết thúc!",
+    "viid2": "160"
+  },
+  "OldUserActivity": {
+    "id1": "·<font color={0}>{1}</font>mỗi lần sự kiện, user cũ được thay Ngọc Rồng {2} lần, thay Ấn Ký {3} lần, thay Vũ Khí {4} lần, thay Nguyên Khí {5} lần, thay Tăng Ấn Ký {6} lần",
+    "id2": "·Điều kiện thay Ấn Ký <font color={0}>vip{1}</font> trở lên, điều kiện thay Vũ Khí <font color={2}>vip{3}</font> trở lên, điều kiện thay Nguyên Khí <font color={4}>vip{5}</font> trở lên, điều kiện thay Tăng Ấn Ký <font color={6}>vip{7}</font> trở lên",
+    "id3": "Cám ơn bạn đã trải qua {0} ngày cùng Ngọc Rồng, bạn là Users Cũ {1}!",
+    "id4": "Users Cũ cấp bậc khác nhau, có thể nhận Phúc Lợi khác nhau trong hoạt động, mau xem thử cấp Users Cũ của bạn nào!",
+    "id5": "Hôm nay không cần chứng nhận lại!",
+    "id6": "Chứng nhận thành công!",
+    "id7": "Cám ơn bạn đã trải qua {0} ngày cùng Ngọc Rồng, bạn vẫn chưa là Users Cũ!",
+    "id8": "18"
+  },
+  "OldPlayerExchange": {
+    "id1": "Bạn là Users Cũ {0}, có thể Thay Thế {1} {2} lần",
+    "id2": "Hãy đặt vào {0} cần Thay Thế",
+    "id3": "Ngọc Rồng",
+    "id4": "Ấn Ký ",
+    "id5": "Vũ Khí",
+    "id6": "Cần VIP{0}",
+    "id7": "Lượt thay thế còn lại không đủ",
+    "id8": "(Còn: {0} lần)",
+    "id9": "Bạn vẫn chưa là Users Cũ, không thể tham gia hoạt động",
+    "id10": "Đặt vào 1 Ngọc Rồng, sẽ reset ngẫu nhiên 1 viên Ngọc Rồng số sao khác",
+    "id11": "Đặt vào 1 Ấn Ký Cam Lv1 0 sao, sẽ reset thành 1 vị trí ngẫu nhiên, loại Bộ Ấn Ký không thay đổi, nhưng sẽ thay đổi thuộc tính phụ.",
+    "id12": "Đặt vào 1 vũ khí đỏ hoặc cam 0 sao cấp 1, sẽ reset thành 1 loại vũ khí ngẫu nhiên",
+    "id13": "Lần này miễn phí",
+    "id14": "Đặt vào 1 Nguyên Khí cấp 5, sẽ ngẫu nhiên tạo mới 1 Nguyên Khí cấp 5 cùng loại",
+    "id15": "Nguyên khí ",
+    "id16": "Đặt vào 1 nguyên liệu Tăng Ấn Ký Cam, sẽ ngẫu nhiên tạo mới 1 nguyên liệu Tăng Ấn Ký cùng phẩm",
+    "id17": "Tăng Ấn Ký"
+  },
+  "WeaponChoseCommon": {
+    "id1": "Hãy chọn Vũ Khí Vật Liệu",
+    "id2": "Vũ Khí Vật Liệu phải là ban đầu 0 Sao Lv1",
+    "id3": "Không có Vũ Khí Vật Liệu phù hợp",
+    "id4": "Không đủ số lượng nguyên liệu và vũ khí cần",
+    "id5": "Vũ khí nguyên liệu cần đã đủ",
+    "deid6": "35"
+  },
+  "shaLuGame": {
+    "id1": "36",
+    "krid2": "230",
+    "frid3": "28"
+  },
+  "ThreeDaysActivity": {
+    "id1": "30",
+    "viid3": "160"
+  },
+  "OrangeHeroActivity": {
+    "viid1": "185"
+  },
+  "TSGuideNode": {
+    "id1": "Nhấn vào chổ bất kì để tiếp tục"
+  },
+  "GetWayListItem": {
+    "id1": "28"
+  },
+  "HeroSkin": {
+    "id1": "Đồng thời đổi AVA",
+    "id2": "Kích hoạt ",
+    "id3": "Mở Dùng",
+    "id4": "20",
+    "deid5": "40"
+  },
+  "OnceTrain": {
+    "id1": "Sẽ lưu khi kết quả Tu Luyện mục đã chọn không nhỏ hơn 0",
+    "id2": "Bắt Đầu Tu Luyện",
+    "id3": "Hãy chọn 1 loại thuộc tính ",
+    "id4": "Sau khi bắt đầu Tu Luyện sẽ tự động Tu Luyện X10",
+    "id5": "1. Mỗi lần chỉ được chọn một dòng thuộc tính để Tu Luyện Ngay\n\n2. Bắt đầu tự động Tu Luyện sẽ tự Tu Luyện x10, cho đến khi tài nguyên không đủ hoặc thuộc tính đạt giới hạn, khi chọn Lực Chiến 3 mục thuộc tính đều đạt giới hạn mới ngừng\n\n3. Nhật ký Tu Luyện chỉ ghi lại kết quả của tu luyện ngay",
+    "id6": "Thuộc tính bạn chọn đã đạt giới hạn",
+    "id7": "23",
+    "frid1": "23"
+  },
+  "OnceTrainRecordListItem": {
+    "id1": "HP Cơ Bản",
+    "id2": "Công Cơ Bản",
+    "id3": "Thủ Cơ Bản",
+    "id4": "Lực Chiến ",
+    "id5": "Lưu",
+    "id6": "Hủy",
+    "frid1": "30"
+  },
+  "PublicityPanel": {
+    "id1": "Là anh em thì cùng nhau xây dựng Team bá nhất!",
+    "id2": "Nhấp gửi sẽ gửi tin chiêu mộ đến kênh chat Thế Giới",
+    "id3": "Nhắc nhở",
+    "id4": "Gửi",
+    "id5": "Vượt giới hạn số từ",
+    "id6": "Đã gửi tin chiêu mộ, hãy thử lại sau {0} phút",
+    "id7": "Gửi thành công!",
+    "id8": "Có gửi tin chiêu mộ không?"
+  },
+  "OnceTrainRecord": {
+    "id1": "Thuộc tính bạn chọn đã đạt giới hạn",
+    "id2": "Lần tu luyện nhanh này tăng {0} Lực Chiến",
+    "viid3": "22"
+  },
+  "NienBeastActivity": {
+    "id1": "{0} Công",
+    "id2": "(Còn",
+    "id3": "：{0}）",
+    "id4": "TG Kết Thúc: {0}",
+    "id5": "30"
+  },
+  "KillNienBeastBossAward": {
+    "id1": "Quà Tổng Kết XH",
+    "id2": "Quà Diệt Niên Thú Toàn Khu",
+    "id3": "Quà được gửi qua thư",
+    "id4": "30",
+    "id5": "28"
+  },
+  "KillNienBossDamageRank": {
+    "id1": "Chưa có người lên bảng ",
+    "id2": "Chưa"
+  },
+  "KillNienBeastBossAttackAward": {
+    "id1": "Khi bị {0} tấn công có tỷ lệ rơi",
+    "id2": "TL Rơi",
+    "frid3": "24"
+  },
+  "KillNienRankAwardListItem": {
+    "id1": "Giải Tham Gia"
+  },
+  "WeaponCircleTeamAttr": {
+    "id1": "Trong chiến đấu Vòng Sáng Vũ Khí sẽ cùng tồn tại với Vòng Sáng Anh Hùng và duy trì hiệu lực, khi có Vòng Sáng cùng thuộc tính, chỉ có Vòng Sáng cấp cao nhất mới có hiệu lực",
+    "id2": "Toàn đội {0}",
+    "id3": "Đã tồn tại Vòng Sáng cùng loại",
+    "id4": "Vòng Sáng Vũ Khí",
+    "deid5": "18",
+    "deid6": "15",
+    "enid1": "18",
+    "frid7": "18"
+  },
+  "OpenTeamworkWindow": {
+    "id1": "Giám định",
+    "id2": "Nhắc nhở",
+    "id3": "Chìa Khóa Binh Đoàn",
+    "id4": "Đặt Chìa Khóa Binh Đoàn vào để mở Binh Đoàn",
+    "id5": "OK",
+    "id6": "Hiện không có Chìa Khóa Binh Đoàn",
+    "deid7": "28",
+    "deid8": "25"
+  },
+  "ApplyTeamworkTeam": {
+    "id1": "Chọn",
+    "id2": "Chọn trước thân phận xin vào:",
+    "id3": "Xin vào nhanh",
+    "id4": "{0} sao",
+    "id8": "{0}/1",
+    "id9": "Giới hạn yêu cầu đồng thời: {0}/10",
+    "id10": "Hãy chọn 1 thân phận trước",
+    "id11": "Hãy chọn cấp sao Binh Đoàn trước",
+    "id12": "Hãy chọn thân phận bản thân trước:",
+    "id13": "Xác nhận xin vào",
+    "id14": "Xác nhận mở",
+    "deid15": "24",
+    "deid16": "17",
+    "deid17": 13,
+    "frid17": "46"
+  },
+  "TeamworkBossPanel": {
+    "id1": "Tạm không có người tạo Binh Đoàn",
+    "id3": "Binh Đoàn",
+    "id4": "Binh Đoàn",
+    "id5": "Thời gian hết hạn {0}",
+    "id6": "1 sao",
+    "id7": "2 sao",
+    "id8": "3 sao",
+    "id9": "4 sao",
+    "id10": "5 sao",
+    "id11": "Toàn bộ",
+    "id12": "Thao tác quá nhiều lần, hãy thử lại sau",
+    "frid13": "24",
+    "frid14": "30",
+    "frid15": "24",
+    "id13": "6 sao",
+    "joinWaitTips": "Đang CD, chút nữa vào lại"
+  },
+  "TeamworkBossAwardPage": {
+    "id1": "Thưởng thành tựu",
+    "id2": "Thưởng Binh Đoàn",
+    "id3": "Thưởng toàn bộ",
+    "id4": "Thưởng thêm đội trưởng",
+    "id5": "Thời gian hết hạn {0}",
+    "deid6": "24",
+    "deid7": "40",
+    "deid8": "20"
+  },
+  "TeamworkDayAwardListItem": {
+    "id1": "Nhận",
+    "id2": "Chưa hoàn thành ",
+    "deid3": "36",
+    "deid4": "24",
+    "deid8": "24"
+  },
+  "MyApplyTeamList": {
+    "id1": "Đang xin vào",
+    "id2": "Giới hạn xin vào {0}/{1}",
+    "id3": "Hiện chưa xin vào bất kỳ binh đoàn nào",
+    "id4": "Đóng đếm ngược",
+    "id5": "Yêu cầu",
+    "deid1": "16"
+  },
+  "TeamworkBossExplainViewData": {
+    "id1": "Đánh bại BOSS mới có thể vượt ải Binh Đoàn",
+    "id2": "Đánh bại tiểu quái mới có thể vào tiếp",
+    "id3": "Có nhiều hiệu quả đặc biệt ngăn cản người chơi tấn công Binh Đoàn",
+    "id4": "Sau khi vào sẽ chuyển đến lối vào đường BOSS",
+    "id5": "Tăng thưởng thêm khi vượt ải Binh Đoàn",
+    "id6": "Trận Dịch Chuyển",
+    "id7": "Rương"
+  },
+  "TeamDungeonApplyPage": {
+    "id1": "Thời gian đóng Binh Đoàn {0}",
+    "id2": "Mỗi Bot mỗi ngày chỉ được dùng 1 lần, chỉ dành cho Binh Đoàn 1-2 sao",
+    "id3": "Danh sách đăng ký ",
+    "id4": "Danh sách thành viên",
+    "id5": "Yêu cầu người chơi",
+    "id6": "Bot",
+    "id7": "Đội trưởng",
+    "id8": "Tạm không có đơn xin tham gia",
+    "id9": "Hôm nay không còn Bot được dùng",
+    "id10": "Mỗi Bot mỗi ngày chỉ được dùng 1 lần, chỉ dành cho Binh Đoàn 1-2 sao",
+    "id11": "Đồng ý thêm người chơi này vào đội?\n(Chiêu mộ thành công không thể kích ra)",
+    "id12": "Hủy",
+    "id13": "OK",
+    "id14": "Thông báo chiêu mộ thành công",
+    "deid15": "21",
+    "deid16": "24"
+  },
+  "TeamworkRoomSet": {
+    "id1": "Cần kiểm duyệt tất cả những người xin vào",
+    "id2": "Cho phép vào trực tiếp",
+    "id3": "Lực chiến ≥",
+    "id4": "Trước khi thân phận đạt đủ số lượng tương ứng, người chơi đạt lực chiến cần thì sẽ được vào trực tiếp.",
+    "id5": "Lưu cài đặt",
+    "id6": "Vạn",
+    "deid7": "26",
+    "frid8": "32",
+    "frid9": "20"
+  },
+  "DungeonApplyUserListItem": {
+    "id1": "Tấn Công",
+    "id2": "Hỗ Trợ",
+    "id3": "Tầm Bảo",
+    "id4": "[Server {0}] {1}",
+    "id5": "<{0}>",
+    "id6": "Chiêu mộ",
+    "deid7": "32",
+    "frid8": "20"
+  },
+  "TeamworkBattleRecord": {
+    "id1": "Chú ý: Lịch sử chỉ lưu trong 3 ngày gần nhất, quá thời gian sẽ không thể nhận thưởng!",
+    "id2": "Nhận Nhanh",
+    "id3": "Tạm không có lịch sử Binh Đoàn",
+    "id4": "Đã nhận toàn bộ thưởng",
+    "deid5": "36"
+  },
+  "TeamworkBossInfo": {
+    "id1": "Số người không đủ",
+    "id2": "/{0}",
+    "id3": "Tạm không có lịch sử Binh Đoàn",
+    "id4": "Thời gian đóng Binh Đoàn {0}",
+    "id5": "Đội trưởng đang chỉnh đội hình, vui lòng đợi...",
+    "id6": "Chào mừng đến với đội",
+    "id7": "Đã yêu cầu, sau {0}s có thể xin vào lại đội này",
+    "id8": "Không thể xin vào đội đã đủ thành viên",
+    "id9": "{0}HP{1}",
+    "id10": "{0} HP {1}, đã tử trận",
+    "id11": "Binh Đoàn đã đóng",
+    "id12": "Có người xin vào Binh Đoàn",
+    "id13": "Không thể xem thông tin chi tiết của Bot",
+    "deid14": 22
+  },
+  "CollectionLobby": {
+    "id1": "Thời gian mở: 12:00 - 24:00 hàng ngày",
+    "id2": "Yêu cầu Binh Đoàn Liên Server đã được duyệt, muốn kiểm tra?",
+    "id3": "Hủy",
+    "id4": "OK",
+    "id5": "1. Hoàn thành 20 nhiệm vụ ngày để mở Rương Vật Tư Binh Đoàn sẽ được nhận ngẫu nhiên Chìa Khóa Binh Đoàn và Thẻ Thân Phận\n\n2. Dùng Chìa Khóa Binh Đoàn có thể mở Binh Đoàn\n\n3. Xin vào Binh Đoàn cần Thẻ Thân Phận\n\n4. Binh Đoàn có đủ 7 người thì sẽ bắt đầu chiến đấu\n\n5. Chỉ sau khi hạ BOSS vượt ải Binh Đoàn mới có thể nhận thưởng\n\n6. Mỗi ngày tiến hành ngẫu nhiên nhiệm vụ ải Binh Đoàn\n\n7. Quá giờ Binh Đoàn, mở thất bại thì Thẻ Thân Phận và Chìa Khóa Binh Đoàn sẽ hoàn trả qua thư.",
+    "id6": "[Server {0}]",
+    "id7": "Có chiến hữu muốn mời bạn gia nhập Binh Đoàn, đồng ý?"
+  },
+  "TeamworkFirstKillShow": {
+    "id1": "Chỉ thống kê Binh Đoàn cấp sao cao nhất",
+    "id2": "Tạm không có lịch sử qua ải"
+  },
+  "TeamworkGetAwardPage": {
+    "id1": "Thưởng toàn bộ",
+    "id2": "Chỉ được nhận thưởng sau khi hạ BOSS",
+    "frid3": "28"
+  },
+  "TeamworkFailTips": {
+    "id1": "Rất tiếc, khiêu chiến thất bại",
+    "id2": "OK"
+  },
+  "TeamworkSuccessTips": {
+    "id1": "Chúc mừng khiêu chiến thành công!",
+    "id2": "OK"
+  },
+  "TeamworkChatMain": {
+    "id1": "Nhập… ",
+    "id2": "Không có trong đội",
+    "id3": "Gửi tin quá nhanh...{0}s)",
+    "id4": "Chữ số không vượt quá {0}",
+    "id5": "Không có tin mới ",
+    "id6": "Chung",
+    "id8": "Đội",
+    "id7": "Thông tin chiến hữu",
+    "id9": "Gửi",
+    "id10": "Phía trên là lịch sử tin nhắn",
+    "id11": "Thành viên Binh Đoàn đã đủ, không thể mời thêm",
+    "deid10": "Đố Vui",
+    "deid11": "Chào hỏi",
+    "deid12": "30",
+    "deid13": "22",
+    "id12": "Không có đội hình phòng thủ đấu trường, không thể tham gia Binh Đoàn liên SV",
+    "deid14": "20",
+    "id13": "Chat nhanh",
+    "enid15": "25",
+    "enid16": "30"
+  },
+  "GrowPartChoseListItem": {
+    "deid1": "32"
+  },
+  "CommonActivityRewardListItem": {
+    "deid1": "25"
+  },
+  "ExpeditionCombinationBook": {
+    "deid1": "22"
+  },
+  "ExpeditionCombinationBookTagListItem": {
+    "deid1": "28"
+  },
+  "BarTypeTips": {
+    "deid1": "26"
+  },
+  "DoubleElevenPanel": {
+    "deid1": "30"
+  },
+  "PackOneKeyMerge": {
+    "id1": "Ghép nhanh nhận vật phẩm dưới đây",
+    "id2": "Ghép tối đa 99 vật phẩm trong 1 lần",
+    "id3": "OK",
+    "id4": "Hủy",
+    "id5": "Tiêu hao <font color=0xB76107>{0}</font> ghép được trang bị dưới đây",
+    "deid6": "24"
+  },
+  "TeamworkBossExplain": {
+    "deid1": 20,
+    "viid2": "22"
+  },
+  "TeamworkMyTeamShow": {
+    "id1": "1. Đội hình Binh Đoàn Liên Server ban đầu mặc định là đội hình đấu trường hiện tại\n2. Trong Binh Đoàn Liên Server, cấp của tất cả các anh hùng sẽ được cố định là 300, tư chất sẽ được cố định ở tư chất cao nhất với phẩm tương ứng\n3. Đội hình và thuộc tính của đội tham gia lấy thông tin đội hình khi vào đội làm chuẩn",
+    "id2": "Điều chỉnh đội hình "
+  },
+  "ExchangeMerchant": {
+    "id1": "Đổi",
+    "id2": "Hạn mua: {0}",
+    "frid3": "25",
+    "frid4": "36",
+    "id3": "Có: {0}",
+    "deid5": "24"
+  },
+  "ExchangeMerchantAddEquip": {
+    "id1": "Thêm đạo cụ",
+    "id2": "Không thể chọn đạo cụ trong túi",
+    "id4": "Chỉ được chọn 1 loại đạo cụ",
+    "id5": "Hãy thêm đạo cụ"
+  },
+  "SignAddtionChoose": {
+    "id1": "Tăng Ấn Ký",
+    "id2": "Thuộc tính hiện tại:",
+    "id3": "Thuộc tính Tăng Ấn Ký",
+    "id4": "(Nguyên liệu còn lại:",
+    "id5": ")",
+    "id6": "Hãy chọn phương thức tăng",
+    "id7": "Tăng",
+    "id8": "Thuộc tính tăng lần này {0} + {1}\nThuộc tính tăng hiện tại {2} + {3}\nGiá trị tăng không vượt quá giá trị hiện có, vì vậy sẽ không được lưu.",
+    "id9": "Đã được tăng vào phạm vi điểm tối đa, hãy tiếp tục tăng bằng các nguyên liệu cao cấp",
+    "id10": "Đã tăng đến phạm vi điểm tối đa",
+    "enid11": "Tốn:",
+    "id11": "Tăng lại",
+    "id12": "Kết quả tăng",
+    "id13": "OK",
+    "enid1": "33",
+    "deid1": "26",
+    "deid2": "23"
+  },
+  "WeaponCircleTipListItem": {
+    "deid1": "21",
+    "deid2": "18",
+    "enid1": "23"
+  },
+  "SearchTeamPanel": {
+    "id1": "Tìm Binh Đoàn",
+    "id2": "Nhập ID Binh Đoàn",
+    "id3": "OK",
+    "frid4": "36",
+    "deid5": "50"
+  },
+  "WeaponCircleTip": {
+    "id1": "Sổ tay Vòng Sáng Vũ Khí",
+    "id2": "Mỗi vũ khí chỉ được chọn 1 trong 2 vòng sáng để nâng cấp, dưới đây chỉ hiển thị giá trị của thuộc tính cao nhất",
+    "enid1": "30",
+    "enid2": "20"
+  },
+  "TeamworkFriends": {
+    "id1": "Hiện không có thông tin được mời",
+    "id2": "Hiện không có chiến hữu",
+    "id3": "Tạm không có đơn xin tham gia",
+    "id4": "Hiện không có tin nhắn",
+    "id5": "",
+    "id6": "D.Sách chiến hữu",
+    "id7": "Tin nhắn",
+    "id8": "Thông tin được mời",
+    "id9": "Thêm chiến hữu",
+    "id10": "Binh Đoàn đang chuẩn bị",
+    "id11": "[Server {0}]",
+    "id12": "<{0}>",
+    "id13": "Giới hạn chiến hữu {0}/{1}",
+    "id14": " -Hôm nay -",
+    "id15": "Xin vào",
+    "id16": "Danh sách đăng ký ",
+    "id17": "Tìm người quen",
+    "deid18": "33",
+    "deid19": "36",
+    "enid20": "20",
+    "deid21": "40",
+    "deid22": "20"
+  },
+  "TeamworkFriendApplyListItem": {
+    "id1": "Chiến hữu đã đạt giới hạn, không thể thêm!"
+  },
+  "TeamworkRecommendFriends": {
+    "id1": "Chỉ hiển thị người chơi cùng chiến đội, bạn bè SV này",
+    "id2": "Hiện không có người quen",
+    "id3": "Yêu cầu tất cả",
+    "id4": "Xin vào",
+    "krid5": "24",
+    "deid5": "24",
+    "deid6": "24",
+    "frid7": "32"
+  },
+  "TeamworkFriendInfo": {
+    "id1": "Xóa chiến hữu này?",
+    "id2": "OK",
+    "id3": "Hủy",
+    "id4": "Thông tin chiến hữu",
+    "id5": "Đội hình ",
+    "id8": "Đã gửi yêu cầu chiến hữu!",
+    "deid9": "Chiến hữu chưa cài đặt đội hình đấu trường",
+    "deid10": "40",
+    "deid11": "30",
+    "id11": "Có đưa {0} vào danh sách đen không, sau khi vào danh sách các thông tin binh đoàn liên quan của đối phương tự động mất",
+    "id12": "Xác nhận xóa {0} khỏi danh sách đen?",
+    "id13": "Hãy xóa người chơi này khỏi danh sách đen trước",
+    "id14": "Đối phương đã trong danh sách đen"
+  },
+  "InviteTeamworkFriend": {
+    "id1": "Hiện không thể mời chiến hữu",
+    "frid2": "31"
+  },
+  "InviteTeamworkFriendListItem": {
+    "id1": "Mời"
+  },
+  "StampLeach": {
+    "id1": "Hãy đặt Ấn Ký vào",
+    "id2": "Toàn bộ",
+    "id3": "Ấn Ký Mo",
+    "id4": "Ấn Ký Kame",
+    "id5": "Ấn Ký Shin",
+    "id6": "Ấn Ký Kai",
+    "id7": "Ấn Ký Go",
+    "id8": "Ấn Ký Zen",
+    "id9": "Chọn Ấn Ký",
+    "frid10": "24",
+    "id10": "Tốn: ",
+    "id11": "Lượt Còn: {0}",
+    "id12": "Số lần tách còn lại không đủ"
+  },
+  "LanguageList": {
+    "id1": "Sửa ngôn ngữ xong sẽ tự động tải lại game",
+    "id2": "Xác định đổi",
+    "id3": "Cài đặt ngôn ngữ",
+    "id4": "Hãy chọn 1 ngôn ngữ",
+    "frid5": "30"
+  },
+  "GemChoseCommon": {
+    "id1": "Hãy chọn Nguyên Khí nguyên liệu",
+    "id2": "Nguyên Khí nguyên liệu ban đầu phải là 0 sao cấp 1.",
+    "id3": "Không có Nguyên Khí nguyên liệu phù hợp",
+    "id4": "Số lượng Nguyên Khí nguyên liệu không đủ",
+    "id5": "Đã đáp ứng Nguyên Khí nguyên liệu cần thiết",
+    "frid6": "35"
+  },
+  "DungeonEnemyOrTrapTip": {
+    "krid1": "22"
+  },
+  "LikeReward": {
+    "id1": "",
+    "id2": ""
+  },
+  "AchievementAwardListItem": {
+    "frid1": 23,
+    "enid2": "0"
+  },
+  "breakTotalAttrListItem": {
+    "krid1": 22
+  },
+  "GemResetChoseListItem": {
+    "frid1": "30",
+    "frid2": "28"
+  },
+  "EquipGemIllustrated": {
+    "id1": "Anh hùng tương ứng",
+    "id2": "Thu thập 4 món trang bị của một bộ sẽ kích hoạt kỹ năng đặc biệt: ",
+    "deid3": "26"
+  },
+  "EquipGemIllustratedViewData": {
+    "Saiya": "Saiya",
+    "Angel": "Thiên Sứ",
+    "Hakai": "Hủy Diệt",
+    "Create": "Sáng tạo",
+    "Demon": "Ác Ma",
+    "LegendSaiya": "LSS"
+  },
+  "AuthenticateEquipGemSuccess": {
+    "id1": "Giám định thành công",
+    "id2": "Hiệu quả độc quyền (được nhận thêm sau khi trang bị anh hùng cùng thẻ)",
+    "id3": "Được kích hoạt sau khi trang bị 4 viên Đá của thẻ chính tương ứng"
+  },
+  "WearEquipGem": {
+    "id1": "Khảm Đá",
+    "id2": "Dừng cường hóa Đá",
+    "id3": "Hiệu quả độc quyền ({0})",
+    "id4": "Hãy chọn Đá muốn thay thế!",
+    "id5": "Hãy chọn Đá khảm",
+    "id6": "Hãy chọn Đá cường hóa",
+    "id7": "Trong túi không có đá",
+    "id8": "Hãy đặt Đá vào",
+    "enid8": "35",
+    "frid9": "27"
+  },
+  "EquipGemUp": {
+    "id1": "Chọn nhanh",
+    "id2": "Cường hóa",
+    "id3": "Đá đã đầy cấp",
+    "id4": "Trong nguyên liệu tiêu hao có Đá cấp cao, muốn tiếp tục?",
+    "id5": "Hãy đặt Đá cần cường hóa vào trước!",
+    "id6": "Nguyên liệu tiêu hao hiện có Đá đã đầy cấp, không cần thêm!",
+    "id7": "Xác nhận",
+    "id8": "Hủy",
+    "id9": "Đá này có thể giám định, có muốn dùng 1 Vé Giám Định để giám định? (Vé Giám Định còn: {0} vé)",
+    "deid10": "36",
+    "enid8": "35",
+    "id10": "1. Có thể đổi Đá ở Tiệm Binh Đoàn.\n\n2. Có thể dùng loại Đá khác để tăng cấp Đá.\n\n3. Đá tăng đến cấp 5 có thể tốn Vé Giám Định để giám định, sau khi giám định sẽ nhận được hiệu quả độc quyền, dùng cho anh hùng tương ứng sẽ tăng nhiều thuộc tính.\n\n4. Anh hùng tương ứng có thể kích hoạt các kỹ năng độc quyền sau khi dùng 4 viên Đá tương đồng\n\n5. Trang Bị Cam trở lên mới được khảm Đá",
+    "id11": "Hãy chọn nguyên liệu cường hóa"
+  },
+  "EquipGemDetal": {
+    "id1": "Đá chưa đạt cấp 5, đến cường hóa?",
+    "id2": "Đến",
+    "id3": "Đá này có thể giám định, có muốn dùng 1 Vé Giám Định để giám định? (Vé Giám Định còn: {0} vé)",
+    "id4": "Xác nhận",
+    "id5": "Hủy"
+  },
+  "HeroEquipAndStampShowAttrListItem": {
+    "frid1": "22"
+  },
+  "TrialAwardListItem": {
+    "viid1": "0.9",
+    "viid2": "2.5"
+  },
+  "ServerList": {
+    "krid1": "30"
+  },
+  "TeamworkBossBattle": {
+    "id1": "Yêu cầu ghi trận đấu gặp lỗi",
+    "id2": "Yêu cầu dữ liệu trận đấu gặp lỗi",
+    "id3": "Yêu cầu dữ liệu lịch sử gặp lỗi",
+    "id4": "Nhận",
+    "frid5": "26"
+  },
+  "FreeInheritShow": {
+    "id1": "Anh hùng kế thừa miễn phí hiện tại",
+    "id2": "TG kết thúc: {0}",
+    "id3": "Giảm {0}",
+    "id4": "Miễn phí",
+    "enme1": "0.25",
+    "enme2": "25",
+    "enme3": "-230"
+  },
+  "QuestionPanelItemViewData": {
+    "type1": "{Chọn 1}",
+    "type2": "{Chọn nhiều}",
+    "id1": "Hãy nhập vào…",
+    "id2": "Chọn tối đa {0}",
+    "id3": "Không được quá {0} ký tự",
+    "id4": "Không được ít hơn {0} ký tự"
+  },
+  "QuestionPanel": {
+    "id1": "Câu thứ {0} chưa đáp",
+    "id2": "Gởi"
+  },
+  "BuggyTreasure": {
+    "id1": "Đếm ngược: ",
+    "id2": "Có: ",
+    "id3": "Nhấn vào ô để tìm bảo vật",
+    "id4": "<font size=36 color=0x96FF00>Kho báu đã bị tìm thấy!</font>",
+    "id5": "<font size=32 color=0xE81E1E>Sự kiện đã kết thúc, cám ơn đã tham gia!</font>",
+    "id6": "Xem quà thưởng",
+    "id7": "Tìm ra thưởng cuối tiến vào hành tinh kế tiếp",
+    "id8": "Tầng này đã tìm xong",
+    "id9": "Sau {0} kết thúc",
+    "id10": "Hoạt động đã kết thúc",
+    "deid11": "16",
+    "deid12": "26",
+    "id13": "Sau khi tìm ra thưởng cuối sẽ làm mới hành tinh hiện tại"
+  },
+  "GetWay": {
+    "id1": "Cách nhận"
+  },
+  "HeroLinkSetting": {
+    "id1": "1. Vị trí cộng hưởng bên trái có thể đặt anh hùng  SS hoặc SSS và cấp lớn hơn 1 để làm anh hùng chính\n\n2. Sau  khi đặt vào anh hùng chính, bên phải có thể đặt vào anh hùng cùng phẩm với anh hùng chính, cấp 1, chưa từng tăng cấp và cùng tên để làm anh hùng cộng hưởng (Trừ anh hùng đã ra trận trong khiêu chiến Cell)\n\n3. Cấp độ, tỷ lệ thuộc tính khí công, cấp đột phá giới hạn, trang bị, bảo thạch, vũ khí, hoa tai, ấn ký của anh hùng cộng hưởng từ đầu đến cuối đều giống với anh hùng chính, và không thể thao tác tăng cấp đột phá, mặc trang bị, bảo thạch, vũ khi, ấn ký\n\n4. Cấp sao, duyên phận, nguyên khí, skin, tăng kỹ năng chiến đội và tu luyện binh đoàn của anh hùng cộng hưởng vẫn duy trì trạng thái ban đầu và có thể thao tác giác ngộ, kích hoạt duyên phận, đổi nguyên khí, skin... bình thường\n\n5. Gỡ anh hùng chính sẽ khiến anh hùng cộng hưởng trở về trạng thái ban đầu\n\n6. Gỡ anh hùng cộng hưởng sẽ khiến nội dung thống nhất với anh hùng chính toàn bộ trở về ban đầu, vị trí cộng hưởng tương ứng sẽ vào thời gian hồi, có thể dùng Kim Cương để làm mới thời gian hồi\n\n7. Anh hùng cộng hưởng với nhau không thể đồng thời cùng ra trận\n\n8. Anh hùng cộng hưởng không thể dùng khi đột phá hạn chế anh hùng",
+    "id2": "Mở giới hạn cấp: ",
+    "id3": "1. Sau khi 15 anh hùng đều đầy sao, hệ thống cộng hưởng sẽ tiến hành tăng cấp, mở tổng tư chất toàn đội\n\n2. Khi đạt tổng tư chất toàn đội mức nhất định, có thể đột phá giới hạn cấp cao nhất của anh hùng\n\n3. Sau khi Tổng Tư Chất toàn đội đạt 12170, cấp giới hạn anh hùng mở đến cấp 340\n\n4. Sau khi Tổng Tư Chất toàn đội đạt 13262, cấp giới hạn anh hùng mở đến cấp 360\n\n5. Cấp giới hạn anh hùng lưu trữ ở cấp cao nhất"
+  },
+  "HeroLinkListItem": {
+    "id1": "Đã kích hoạt",
+    "id2": "Chưa mở",
+    "id3": "Tốn {0} Kim Cương để làm mới thời gian hồi, có làm mới không?",
+    "id4": "Hãy đặt anh hùng chính vào bên trái trước",
+    "id5": "OK",
+    "id6": "Hủy",
+    "id7": "Phẩm của anh hùng chính được chọn và anh hùng cộng hưởng khác nhau, hãy gỡ toàn bộ anh hùng cộng hưởng xuống rồi chọn lại anh hùng chính",
+    "id8": "Khí công, đột phá giới hạn hoặc hoa tai của anh hùng này không ở trạng thái ban đầu, không thể cộng hưởng, hãy trùng sinh trước",
+    "id9": "Mở khóa 1 ô vị trí cộng hưởng mới cần tốn <font color=0xFC9925>{0}</font> Kim Cương, có mở khóa không?"
+  },
+  "LinkToHeroListItem": {
+    "id1": "Đang hồi…"
+  },
+  "UnfixLinkHero": {
+    "id1": "Gỡ anh hùng cộng hưởng",
+    "id2": "Sau khi gỡ khỏi vị trí cộng hưởng thì cấp, tỷ lệ thuộc tính khí công, cấp đột phá giới hạn, trang bị, vũ khí, hoa tai, ấn ký đều trở về trạng thái ban đầu",
+    "id3": "Sau <font color=0xFA7308>{0}</font> vị trí cộng hưởng hiện tại mới có thể thêm anh hùng"
+  },
+  "TopBattleStateOneMain": {
+    "id1": "Bậc",
+    "id2": "Tích điểm",
+    "id3": "Thưởng",
+    "id4": "Bậc tiếp theo",
+    "id5": "Bậc hiện tại",
+    "id6": "Mùa đấu thứ {0}",
+    "id7": "Đã đạt bậc cao nhất",
+    "id8": "{0} [Mùa đấu thứ {1}]",
+    "id9": "Lượt còn: ",
+    "id10": "Điểm bậc: {0}",
+    "id11": "BXH Đỉnh Phong vinh dự",
+    "id12": "Cung Điện Vinh Dự",
+    "id13": "(Khiêu Chiến Đỉnh Phong: {0}-{1})",
+    "id14": "Không có đối thủ, không đánh cũng thắng",
+    "id15": "Đã hết lượt mua trong ngày!",
+    "id16": "Mua <font color={0}>{1}</font> lần khiêu chiến của Chiến Đỉnh Phong, cần <font color={2}>{3}{4}</font> Kim Cương, có mua không?",
+    "id17": "Hãy thiết lập đội hình thủ trước để xác định bậc ban đầu",
+    "enid18": "18",
+    "frid19": "18",
+    "deid20": "24",
+    "deid21": "20",
+    "viid22": "28",
+    "viid23": "22",
+    "timeDown": "(Khiêu chiến Đỉnh Phong:còn{0})"
+  },
+  "TopBattleMatch": {
+    "id1": "Còn: <font color=0xffb526 size = 26>{0}</font>",
+    "id2": "Hiện không có xếp cặp với đối thủ khác, hãy thử lại sau",
+    "id3": "Mua {0} lần khiêu chiến Chiến Đỉnh Phong, cần {1} Kim Cương, có mua không?",
+    "id4": "Có tốn {0} Kim Cương làm mới xếp cặp đối thủ không?",
+    "id5": "OK",
+    "id6": "Hủy",
+    "enid7": "22"
+  },
+  "TopBattleTopItemViewData": {
+    "id1": "Trận thứ{0}",
+    "id2": "W",
+    "id3": "L"
+  },
+  "SummaryTopPvpEnd": {
+    "id1": "Điểm bậc: ",
+    "id2": "Tổng tỷ số",
+    "id3": "({0})",
+    "id4": "Hiệp thứ {0}"
+  },
+  "CombatStatisticsNew": {
+    "id1": "Trận {0}",
+    "id2": "Anh Hùng",
+    "id3": "Lượng sát thương",
+    "id4": "Lượng Trị Liệu/Hộ thuẫn",
+    "id5": "Lượng sát thương kế thừa",
+    "viid6": "18",
+    "viid7": "240"
+  },
+  "TopBattleRecordListItem": {
+    "id1": "Điểm: ",
+    "id2": "({0})"
+  },
+  "TopBattleRecordDetialListItem": {
+    "id1": "Hiệp thứ {0}",
+    "id2": "Phát lại "
+  },
+  "TopBattlePlayerHerosViewData": {
+    "id1": "Đội 1",
+    "id2": "Đội 2",
+    "id3": "Đội 3"
+  },
+  "TopBattleGuessAndRecord": {
+    "id1": "Có tốn {0} Kim Cương đoán không?",
+    "id2": "OK",
+    "id3": "Hủy"
+  },
+  "TopBattlePlayerSimpleInfoViewData": {
+    "id1": "Chiến đội: {0}",
+    "id2": "Server: {0}"
+  },
+  "TopFourToTwoBattle": {
+    "id1": "T.Gian thi đấu",
+    "id2": "18:00"
+  },
+  "TopBattleEndRecord": {
+    "id1": "Bản thân",
+    "id2": "Server",
+    "id3": "【{0}】",
+    "id4": "Cụm {0}",
+    "id5": "Vào thẳng",
+    "id6": "lv.{0}"
+  },
+  "TopBattleEndShow": {
+    "id1": "X.Hạng",
+    "id2": "Tên nhân vật ",
+    "id3": "Lv ",
+    "id4": "Server"
+  },
+  "BuyCountNumTips": {
+    "id1": "Đã hết lượt mua trong ngày!",
+    "id2": "Mua lần này cần VIP{0}, muốn xem đặc quyền VIP?",
+    "id3": "Mua <font color={0}>{1}</font> lần khiêu chiến của Chiến Đỉnh Phong, cần <font color={2}>{3}{4}</font> Kim Cương, có mua không?"
+  },
+  "TopBattleReward": {
+    "id0": "Thưởng bậc",
+    "id1": "Quà Tổng Kết",
+    "id2": "Thưởng Quyết Chiến Đỉnh Phong",
+    "id3": "Trong mùa đấu hiện tại đạt được bậc tương ứng thì có thể nhận thưởng bậc",
+    "id4": "Khi kết thúc mùa đấu hiện tại, người chơi đã tham gia khiêu chiếu nhận được thưởng tổng kết bậc tương ứng thông qua thư",
+    "id5": "Khi kết thúc mùa đấu hiện tại, thưởng xếp hạng Quyết Chiến Đỉnh Phong gởi thông qua thư",
+    "enid6": "20",
+    "edid7": "20",
+    "enid7": "20",
+    "id6": "Hiệu ứng Ava quán quân (30 ngày)"
+  },
+  "TopBattleRank": {
+    "id1": "Không có dữ liệu xếp hạng ",
+    "deid2": "142",
+    "deid3": "1"
+  },
+  "TopBattleRankRewardListItem": {
+    "id1": "Nhận",
+    "id2": "Đạt đến <font color=0xb64c06>{0}</font> thì có thể nhận",
+    "enid3": "24"
+  },
+  "HeroLinkTip": {
+    "id1": "1. Tạo cộng hưởng không tốn anh hùng chính hoặc anh hùng cộng hưởng\n\n2. Sau khi cộng hưởng cấp độ, tỷ lệ thuộc tính khí công, cấp đột phá giới hạn, trang bị, vũ khí, hoa tai, ấn ký đều sẽ giống với anh hùng chính\n\n3. Anh hùng chính và anh hùng cộng hưởng không thể đồng thời ra trận\n\n4. Sau khi cộng hưởng Anh Hùng sẽ có thời gian hồi nhất định, người chơi dùng Kim Cương để reset thời gian",
+    "id2": "Chi tiết cộng hưởng",
+    "id3": "Hủy"
+  },
+  "TopBattleHonor": {
+    "id1": "Mùa đấu hiện tại vẫn chưa có thông tin xếp hạng"
+  },
+  "FastTeamUseListItem": {
+    "id1": "Tạo đội anh hùng hoặc siêu cấp hiện tại đã tra trận trong đội khác, không thể dùng",
+    "id2": "Tạo đội hiện tại trống, không thể dùng"
+  },
+  "VsThreeBattleStart": {
+    "id1": "Điều chỉnh"
+  },
+  "TopBattlePlayerHeros": {
+    "deid1": "30"
+  },
+  "TopBattleRankListItem": {
+    "enid1": "0.6",
+    "viid2": "505"
+  },
+  "TopHistoryRecordListItem": {
+    "id1": "Mùa {0}",
+    "id2": "Top <font color=0xFFF070>{0}</font> mùa giải",
+    "frid3": "16",
+    "frid4": "30"
+  },
+  "FastTeamSetting": {
+    "id1": "Chưa thiết lập tạo đội hình nhanh"
+  },
+  "ActivityEquipCast": {
+    "id1": "Tốn: ",
+    "id2": "Rương Thường",
+    "id3": "Rương Cao Cấp",
+    "id4": "Rương Hiếm",
+    "id5": "Rương Hoa Lệ",
+    "id6": "Rương Quý",
+    "id7": "Nhận thưởng: {0}x{1}"
+  },
+  "ActivityDiamondShop": {
+    "enid1": "465"
+  },
+  "Blacklist": {
+    "id1": "Tạm không có D.S đen",
+    "id2": "Danh sách đen"
+  },
+  "LayerRewardPoolShow": {
+    "id1": "Xem thưởng",
+    "id2": "Tỷ lệ nhận: ",
+    "deid3": "20",
+    "deid4": "26"
+  },
+  "DownloadRewardItemViewData": {
+    "id1": "Nhận trong APK",
+    "id2": "Nhận thưởng",
+    "id3": "Đến tải game",
+    "enid4": "25"
+  },
+  "ActivityKarinRich": {
+    "id1": "Hoạt động kế thúc: {0}",
+    "id2": "Số lần miễn phí: {0}",
+    "id3": "Lần chiêu tài này tiêu hao",
+    "id4": "Đổi ngày và miễn phí<font color=f44500>{0} giây</font>Cơ hội tài chính",
+    "id5": "Chúc mừng",
+    "id6": "Đã nhận được",
+    "id7": "Nạp thêm <font color=0xf44500>{0}</font> nhận được <font color=0xf44500>{1} lần</font> cơ hội chiêu tài",
+    "id8": "Số lần còn: {0}",
+    "id9": "Hãy quay lại vào ngày mai",
+    "id10": "Số lần còn lại không đủ",
+    "id11": "Số lượng vật phẩm cần không đủ",
+    "enid12": "19",
+    "deid13": "21"
+  },
+  "BackPackItemChoose": {
+    "id1": "Chọn nguyên liệu Tăng Ấn Ký",
+    "id2": "Bạn không có Tăng Ấn Ký",
+    "id3": "Xác nhận",
+    "enid3": "32"
+  },
+  "SpaceTrail": {
+    "id1": "Kết thúc thí luyện kỳ này: ",
+    "id2": "Còn: {0}",
+    "id3": "1. Trong Thí Luyện Thời Gian, Anh Hùng của người chơi tăng toàn bộ đến đầy cấp, Nguyên Khí, đột phá giới hạn tăng đầy thuộc tính, Trang Bị, Ấn Ký, Hoa Tai và Vũ Khí cũng sẽ tăng đến Cam đầy cấp đầy sao (trang bị không phải Cam cũng tăng đến Cam)\n2. Thí Luyện Thời Gian mở vào ngày 1 mỗi tháng, thời gian mở 3 tuần, thời gian còn lại sẽ đóng.\n3. Sau khi cài lại Thí Luyện Thời Gian sẽ cài lại thưởng tương ứng",
+    "id4": "Anh hùng này tạm thời không thể khiêu chiến"
+  },
+  "SpaceTrialMain": {
+    "id1": "Phiên tòa kết thúc",
+    "id2": "Còn: {0}",
+    "id3": "",
+    "id4": "Hãy vượt ải trước độ khó 1 sao trước",
+    "id5": "Số lượt mua đã đạt giới hạn!",
+    "id6": "Mua <font color={0}>{1}</font> lượt Thí Luyện Thời Gian, cần <font color={2}>{3}{4}</font> Kim Cương, mua không?",
+    "id7": "Đến phiên chạy lần tới",
+    "viid8": "18"
+  },
+  "HeroMainTagList": {
+    "id1": "Tab chính: ",
+    "id2": "Loại: ",
+    "id3": "Chương: ",
+    "id4": "Tạm không có tab Anh Hùng",
+    "enid5": "35",
+    "enid6": "22"
+  },
+  "SpaceTrialChooseDifficulties": {
+    "id1": "Không đủ lượt khiêu chiến"
+  },
+  "SpaceTrialHelpViewData": {
+    "id1": "Giúp đỡ",
+    "id2": "1. Trong Thí Luyện Thời Gian, anh hùng của người chơi sẽ tăng:\nA. Cấp Anh Hùng cố định là cấp 300, kích duyên toàn bộ, đột phá giới hạn và khí công tăng đầy thuộc tính.\nB. Trang Bị, Nguyên Khí, Ấn Ký, Hoa Tai, Đá và Vũ Khí của Anh Hùng tăng đến Cam đầy cấp đầy sao (Trang bị không phải Cam cũng tăng đến Cam)\nC. Chỉ số ngoại vi như Kỹ Thuật, Tu Luyện Đội, Siêu Cấp cũng tăng đầy thuộc tính\nD. Đá bị động, Vòng Sáng Vũ Khí, Skin không có hiệu lực trong Thí Luyện Thời Gian\n2. Thuộc tính tốc độ anh hùng của người chơi giữ nguyên không đổi",
+    "id3": "\n3. Chỉ anh hùng SS trở lên mới được tham gia khiêu chiến Thí Luyện Thời Gian\n\n4. Thí Luyện Thời Gian kỳ này mở vào ngày {0} của tháng, mở trong {1} ngày, thời gian còn lại sẽ đóng\n\n5. Sau khi cài lại Thí Luyện Thời Gian sẽ cài lại thưởng tương ứng."
+  },
+  "SpaceTrailListItem": {
+    "id1": "Tầng {0}"
+  },
+  "SpaceTrialAwardListItem": {
+    "id1": "Nhận"
+  },
+  "DifficultyListItem": {
+    "id1": "24"
+  },
+  "GravityTrial": {
+    "id1": "Số lần mua hôm nay đã đạt tối đa!",
+    "id2": "Mua <font color=0xf76b48>{0} lần số lần Phòng Trọng Lực</font>, cần tốn <font color=0xf76b48>{1}{2}</font>, mua không?",
+    "id3": "Đã vượt ải Huấn Luyện Trọng Lực!",
+    "id4": "Lượt còn ",
+    "limitDes": "Chịu ảnh hưởng hiệu quả ải",
+    "help": "• Mỗi ngày khiêu chiến 10 lần, cứ 30ph hồi 1 lần\n\n•Số tầng càng cao, thưởng càng hấp dẫn\n\n• Mỗi ải đều có hiệu quả đặc biệt, người chơi cần đổi các đội hình khác nhau để không bị ảnh hưởng bởi hiệu quả của ải",
+    "deid5": "30"
+  },
+  "ActivityLuckyReel": {
+    "enid1": "15"
+  },
+  "ActivityBlindBox": {
+    "id1": "SK kết thúc",
+    "id2": "Nhấp mở hộp",
+    "id3": "Đổi",
+    "id4": "Lần này tốn: ",
+    "id5": "Đã mở hết hộp đợt này",
+    "id6": "Quy tắc game",
+    "id7": "Sau khi bắt đầu sẽ xác định phần thưởng trong hộp và xáo trộn thứ tự",
+    "id8": "Tốn <font color=0xf44500>{0}*{1}</font> ra ngẫu nhiên một đợt đạo cụ trong tổng kho thưởng cho vào hộp",
+    "id9": "Miễn phí",
+    "id10": "Làm mới xong sẽ ra ngẫu nhiên một đợt đạo cụ trong tổng kho thưởng cho vào hộp",
+    "deid11": "17",
+    "id12": "Đã nhận",
+    "id13": "Thưởng lớn còn: {0}/{1}",
+    "id11": "{0} không đủ"
+  },
+  "SmithyItemsListItem": {
+    "id1": "Lv{0} mở khóa"
+  },
+  "SmithyMain": {
+    "id1": "Cần người chơi đạt {0}"
+  },
+  "SummonWishList": {
+    "id1": "Khi rút được Anh Hùng SS, được chọn nhận trong các Anh Hùng SS sau, tỷ lệ nhận Anh Hùng SS không đổi",
+    "id2": "Tâm Nguyện chưa chọn đủ, không thể lưu",
+    "id3": "Tâm Nguyện đã đầy, không thể thêm",
+    "id4": "Lưu thành công",
+    "id5": "Tâm Nguyện tổng cộng có thể thêm được 15 Anh Hùng\n\nKhi chưa chọn đủ 15 Anh Hùng, không thể lưu\n\nAnh Hùng SS người chơi rút được, nhất định phải là Anh Hùng được chọn trong Tâm Nguyện\n\nTỷ lệ nhận Anh Hùng SS không đổi\n\nQuy tắc nhận mảnh Anh Hùng SS, Túi Anh Hùng SS dựa theo quy tắc của Tâm Nguyện\n\nNgười chơi rút được Anh Hùng SS từ Triệu Hồi Cao Cấp, Đặc Quyền Thẻ Vĩnh Viễn cũng dựa vào quy tắc Tâm Nguyện"
+  },
+  "SpaceTrialPassTeams": {
+    "id1": "Hiện không có đội hình vượt ải"
+  },
+  "SpaceTrialPassTeamListItem": {
+    "id2": "Chiến đội:{0}",
+    "id3": "SV {0}",
+    "id4": "Số lượt:{0}",
+    "id5": "Thời gian vượt ải:{0}",
+    "deid5": "18"
+  },
+  "RewardHistoryListItem": {
+    "id1": "{0} bạn nhận được {1} x{2}!"
+  },
+  "ExpeditionQuickTeam": {
+    "id1": "Giới hạn lưu đội {0}/{1}",
+    "id2": "Danh sách đội trống",
+    "id3": "Năng lực đội",
+    "id4": "{0}",
+    "id5": "/{0}",
+    "id6": "Xóa đội hình này không?",
+    "id7": "Trong đội này hiện có anh hùng đang ở sự kiện khác, hãy chọn đội khác"
+  },
+  "ActivityOverflow": {
+    "des1Label_text": "Mua xong nhận ngay",
+    "des2Label_text": "Mua xong mỗi ngày có thể nhận",
+    "dayDes": "Ngày {0}",
+    "alreadyBuyDes": "Đã mua",
+    "buyTips": "Có tốn {0} Kim Cương mua Quỹ Siêu Giá Trị?"
+  },
+  "ActivityLanternBlessing": {
+    "id1": "Tốn <font color=0xf44500>{0}*{1}</font> để reset lồng đèn không"
+  },
+  "ActivityCrossServerRankPanel": {
+    "id1": "Thời gian làm mới lần cuối: {0}",
+    "deid2": "22",
+    "deid3": "20"
+  },
+  "herosOverflowListItem": {
+    "id1": "(Giới hạn mua: {0}/{1})"
+  },
+  "HeroLinkSettingHelpPanel": {
+    "id1": "Quy tắc cộng hưởng",
+    "id2": "Giới hạn cấp anh hùng",
+    "viid3": "22"
+  },
+  "LuckyReelRewardShowListItem": {
+    "id1": "{0}%"
+  },
+  "WelfareAccountListItem": {
+    "id1": "Nạp thêm <font color=0xffd634>{0}</font>, lập tức đạt danh hiệu phúc lợi <font color=0xffd634>{1}</font>",
+    "id2": "Ngươi đã đạt danh hiệu phúc lợi <font color=0xffd634>{0}</font>",
+    "id3": "22",
+    "id4": "20"
+  },
+  "CommonPrivilegeReward": {
+    "id1": "Vượt 300 ải thí luyện đầu có thể nhận thêm mảnh Anh Hùng SS",
+    "id2": "Mở khóa đặc quyền Thí Luyện Thần Điện và vượt ải thí luyện 1-300 có thể nhận thêm thưởng",
+    "id3": "Mở khóa đặc quyền ải và vượt 20 chương ải đầu có thể nhận thêm thưởng",
+    "enme": "-8"
+  },
+  "YouTuberTip": {
+    "id1": "Thư",
+    "id2": "Hãy điền địa chỉ mail thường dùng",
+    "id3": "Nhấp vào để nhập",
+    "id4": "Địa chỉ thư không đúng, hãy nhập lại",
+    "id5": "Thêm thành công"
+  },
+  "YouTuber": {
+    "id1": "Liên hệ chúng tôi:",
+    "id2": "<font href='event:{0}'><u>{1}</u></font>",
+    "id3": "Sao chép thành công"
+  },
+  "ActGalaticAdventure": {
+    "id11": "Trúng Bẫy sẽ lui về ngẫu nhiên 1-3 bước",
+    "id12": "Trúng Trượt sẽ tiến về trước ngẫu nhiên 1-3 bước",
+    "id13": "Dùng mở Rương Thần Bí nhận thưởng",
+    "id14": "Số lượng vật phẩm cần không đủ",
+    "id15": "Nhận xong rồi mới xem rương",
+    "id16": "Số vòng quay: <font color=0x51f145>{0}</font> vòng quay"
+  },
+  "ActGAdventureRecord": {
+    "id1": "{0}\nĐã đổ {1} điểm, ，",
+    "id2": "Đã nhận {0}*{1}",
+    "id3": "{0}\nĐã lui {1} bước, ",
+    "id4": "{0}\nĐã dẫm lên Trượt, đã tiến {1} bước.",
+    "id5": "Nhận 1 điểm EXP Rương, Cấp Rương+1",
+    "id6": "Chìa Khóa tăng cấp đến Lv.{0}",
+    "id7": "{0}\nĐã mở Rương Thần Bí, nhận được {1}*{2}.",
+    "id8": "Đã dẫm lên Bẫy.",
+    "id9": "Đã tiến {0} bước.",
+    "id10": "Đã về điểm khởi đầu"
+  },
+  "ActGARewardPrivewPanel": {
+    "id1": "Rương Thần Bí {0}",
+    "id2": "Thưởng bàn cờ",
+    "enid3": "20"
+  },
+  "GAMysteriousBoxPanel": {
+    "id1": "Có dùng chìa khóa để nhận thưởng và <font color = 0xFF0000>cài lại Rương Thần Bí</font>?",
+    "id2": " Lần đầu trúng nơi chìa khóa sẽ nhận được chìa khóa LV.1, sau đó, mỗi lần trúng nơi có chìa khóa, chìa khóa sẽ tăng 1 cấp, cấp chìa khóa càng cao càng có thể mở được rương cấp cao, mở rương nhận thưởng xong thì chìa khóa sẽ mất, lần kế tiếp trúng nơi có chìa khóa, chìa khóa nhận được là chìa khóa Lv.1",
+    "id3": "Chìa khóa có thể mở Rương Lv.{0}",
+    "id4": "Xem trước thưởng",
+    "id5": "Rương Lv.{0}",
+    "enid6": "20"
+  },
+  "CompareNumMain": {
+    "normalLabel_text": "Hoàn thành vượt 1 ải Khiêu chiến sẽ mở khóa",
+    "difficultyLimit": "Hãy vượt ải Thí Luyện ải {0}",
+    "chapterIndexLabel": "Ải thứ {0}",
+    "diffcultyName0": "Dễ",
+    "diffcultyName1": "Thường",
+    "diffcultyName2": "Khó",
+    "lessMoreDes": "Chính",
+    "lessMoreDes2": "Vượt qua Chính"
+  },
+  "CompareNumGame": {},
+  "OneKeyEntrustListItem": {
+    "id1": "Thưởng ủy thác:",
+    "id2": "không đủ điều kiện ra trận",
+    "sizeId2": "20"
+  },
+  "OneKeyEntrustPanel": {
+    "id1": "Không có Nhiệm vụ ủy thác"
+  },
+  "GleaningActivtiy": {
+    "id0": "Mỗi lần rút, sẽ tăng lượng vé thưởng tiêu tốn",
+    "id1": "Rút Kho thưởng lần thứ {0}",
+    "id2": "Kho thưởng trống",
+    "id3": "Mua {0} tấm vé thưởng, cần tốn {1} Kim Cương, xác nhận mua?"
+  },
+  "ActivityCommonAwardShow": {},
+  "CommonBuyItem": {
+    "titleLabel_text": "Nhắc nhở"
+  },
+  "ActNewHeroChallengeMain": {
+    "endTime_text": "Hoạt động kết thúc：<font color=0x96ff48>{0}</font>"
+  },
+  "ActNewHeroChallenge": {
+    "endTime_text": "Hoạt động kết thúc：<font color=0x96ff48>{0}</font>",
+    "tip1": "Nhận thưởng xong mở khiêu chiến",
+    "tip2": "Đạt hạng {0} sẽ mở khiêu chiến",
+    "tip3": "{0} sau sẽ mở khiêu chiến"
+  },
+  "ActNewHeroChallengeItem": {
+    "emptyLab": "Chờ update",
+    "serverLab": "Cụm {0}"
+  },
+  "ActNewHeroChallengeHornorListItem": {
+    "titleLab_text": "Khiêu chiến đội hình có tỷ lệ thắng cao nhất của [{0}]",
+    "lab_text": "Tỷ lệ thắng của đội hình",
+    "guideLab_text": "Chiến đội: {0}",
+    "serverLab_text": "Cụm {0}",
+    "timeLab_text": "Thời gian vượt ải: {0}",
+    "lab1_text": "Chờ update",
+    "lab2_text": "Chờ update"
+  },
+  "ActNewHeroChangeSpeed": {
+    "tipLab_text": "Di chuyển avatar để sắp thứ tự đánh",
+    "sureBtn_label": "Xác nhận"
+  },
+  "ActNewHeroBattleStart": {
+    "tip1": "Cần đủ 5 người ",
+    "tip2": "Anh hùng mới không thể rời trận"
+  },
+  "ActNewHeroChallengeTopInfo": {
+    "teamBtn_label": "Đội hình người chơi",
+    "rateBtn_label": "XH tỷ lệ thắng",
+    "tipLab_text": "Thuộc tính anh hùng và trang bị hiện do hệ thống thiết lập có thể sẽ không khớp với trong game!",
+    "emptyLab_text": "Không có đội hình dùng lượt > 5 trận"
+  },
+  "NewHeroChallengeData": {
+    "taskTitle": "Người chơi thắng <font color=0xffe96e>{0}</font>",
+    "taskTitle1": "Hạng {0} Liên Server không tồn tại, nhận thưởng trực tiếp"
+  },
+  "ActNewHeroChallengeTopInfoListItem": {
+    "lab_text": "Tỷ lệ thắng của đội hình"
+  }
+}

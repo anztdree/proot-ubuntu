@@ -1,0 +1,184 @@
+{
+  "1": {
+    "id": 1,
+    "itemIDList": 101,
+    "itemNameList": "钻石",
+    "accessList": "116,241,120,196,192,202,151,227,",
+    "limitNum": 5000
+  },
+  "2": {
+    "id": 2,
+    "itemIDList": "151,152,153,154,155,156,157,158,159,502",
+    "itemNameList": "龙珠（一星珠→七星珠）\n随机龙珠\n龙珠任选包",
+    "accessList": "116,120,210,196,247,",
+    "limitNum": 10
+  },
+  "3": {
+    "id": 3,
+    "itemIDList": "501",
+    "itemNameList": "觉醒石",
+    "accessList": "192,181,196,",
+    "limitNum": 50
+  },
+  "4": {
+    "id": 4,
+    "itemIDList": "521",
+    "itemNameList": "神秘召唤珠",
+    "accessList": "120,196,",
+    "limitNum": 40
+  },
+  "5": {
+    "id": 5,
+    "itemIDList": "520",
+    "itemNameList": "大师券",
+    "accessList": "120,180,",
+    "limitNum": 150
+  },
+  "6": {
+    "id": 6,
+    "itemIDList": "149",
+    "itemNameList": "幸运币",
+    "accessList": "120,180,",
+    "limitNum": 150
+  },
+  "7": {
+    "id": 7,
+    "itemIDList": "111",
+    "itemNameList": "灵魂石",
+    "accessList": "259,245,",
+    "limitNum": 60000
+  },
+  "8": {
+    "id": 8,
+    "itemIDList": "112",
+    "itemNameList": "武道币",
+    "accessList": "109,192,",
+    "limitNum": 7500
+  },
+  "9": {
+    "id": 9,
+    "itemIDList": "113",
+    "itemNameList": "蛇道币",
+    "accessList": "184,185,",
+    "limitNum": 2000
+  },
+  "10": {
+    "id": 10,
+    "itemIDList": "114",
+    "itemNameList": "战队币",
+    "accessList": "131,136,133,104,",
+    "limitNum": 7000
+  },
+  "11": {
+    "id": 11,
+    "itemIDList": "131",
+    "itemNameList": "经验胶囊",
+    "accessList": "137,196,150,210,171,188,211,180,189,",
+    "limitNum": 30000000
+  },
+  "12": {
+    "id": 12,
+    "itemIDList": "132",
+    "itemNameList": "突破胶囊",
+    "accessList": "137,171,188,210,180,211,",
+    "limitNum": 1000000
+  },
+  "13": {
+    "id": 13,
+    "itemIDList": "134",
+    "itemNameList": "超神水",
+    "accessList": "147,137,189,193,211,",
+    "limitNum": 4000
+  },
+  "14": {
+    "id": 14,
+    "itemIDList": "136",
+    "itemNameList": "能量石",
+    "accessList": "137,211,181,",
+    "limitNum": 15000
+  },
+  "15": {
+    "id": 15,
+    "itemIDList": "142",
+    "itemNameList": "修炼卡",
+    "accessList": "196,180,198,189,",
+    "limitNum": 5000
+  },
+  "16": {
+    "id": 16,
+    "itemIDList": "546",
+    "itemNameList": "神格胶囊",
+    "accessList": "210,183,",
+    "limitNum": 1500
+  },
+  "17": {
+    "id": 17,
+    "itemIDList": "240",
+    "itemNameList": "Z神石",
+    "accessList": "180,189,171,107,190,",
+    "limitNum": 10000
+  },
+  "18": {
+    "id": 18,
+    "itemIDList": "589",
+    "itemNameList": "黑晶",
+    "accessList": "174,183,",
+    "limitNum": 700
+  },
+  "20": {
+    "id": 20,
+    "itemIDList": "634",
+    "itemNameList": "鉴定券",
+    "accessList": "183,",
+    "limitNum": 7
+  },
+  "21": {
+    "id": 21,
+    "itemIDList": "635",
+    "itemNameList": "神秘之石",
+    "accessList": "183,",
+    "limitNum": 70
+  },
+  "22": {
+    "id": 22,
+    "itemIDList": "661",
+    "itemNameList": "陨铁",
+    "accessList": "248,180,240,",
+    "limitNum": 2000
+  },
+  "23": {
+    "id": 23,
+    "itemIDList": "662",
+    "itemNameList": "星岩",
+    "accessList": "171,180,",
+    "limitNum": 1500
+  },
+  "24": {
+    "id": 24,
+    "itemIDList": "655",
+    "itemNameList": "波塔拉之魂",
+    "accessList": "240,",
+    "limitNum": 3000
+  },
+  "25": {
+    "id": 25,
+    "itemIDList": "135",
+    "itemNameList": "波塔拉碎片",
+    "accessList": "151,106,240,180,",
+    "limitNum": 120000
+  },
+  "26": {
+    "id": 26,
+    "itemIDList": "139",
+    "itemNameList": "波塔拉之玉",
+    "accessList": "151,106,180,",
+    "limitNum": 4000
+  },
+  "27": {
+    "id": 27,
+    "itemIDList": "2600",
+    "itemNameList": "龙神碎片",
+    "accessList": "188,",
+    "limitNum": 2
+  }
+}

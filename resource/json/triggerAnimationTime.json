@@ -1,0 +1,499 @@
+{
+  "1": {
+    "id": 1,
+    "trigger": "battleStart",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "2": {
+    "id": 2,
+    "trigger": "roundStart",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "3": {
+    "id": 3,
+    "trigger": "everyFewRound",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "4": {
+    "id": 4,
+    "trigger": "beforeAction",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "5": {
+    "id": 5,
+    "trigger": "useNormal",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "6": {
+    "id": 6,
+    "trigger": "useNormalOwn",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "7": {
+    "id": 7,
+    "trigger": "useNormalEnemy",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "8": {
+    "id": 8,
+    "trigger": "useSkill",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "9": {
+    "id": 9,
+    "trigger": "useSkillOwn",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "10": {
+    "id": 10,
+    "trigger": "useSkillEnemy",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "11": {
+    "id": 11,
+    "trigger": "useSuper",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "12": {
+    "id": 12,
+    "trigger": "useSuperOwn",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "13": {
+    "id": 13,
+    "trigger": "useSuperEnemy",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "14": {
+    "id": 14,
+    "trigger": "useSkillID",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "15": {
+    "id": 15,
+    "trigger": "useSkillOwnID",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "16": {
+    "id": 16,
+    "trigger": "useSkillEnemyID",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "17": {
+    "id": 17,
+    "trigger": "hit",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "18": {
+    "id": 18,
+    "trigger": "hitNormal",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "19": {
+    "id": 19,
+    "trigger": "hitSkill",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "20": {
+    "id": 20,
+    "trigger": "hitSuper",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "21": {
+    "id": 21,
+    "trigger": "hitAfter",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "22": {
+    "id": 22,
+    "trigger": "hitNormalAfter",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "23": {
+    "id": 23,
+    "trigger": "hitSkillAfter",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "24": {
+    "id": 24,
+    "trigger": "hitSuperAfter",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "25": {
+    "id": 25,
+    "trigger": "targetDodge",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "26": {
+    "id": 26,
+    "trigger": "targetBlock",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "27": {
+    "id": 27,
+    "trigger": "giveDamage",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "28": {
+    "id": 28,
+    "trigger": "giveCriticalDamage",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "29": {
+    "id": 29,
+    "trigger": "giveStatus",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "30": {
+    "id": 30,
+    "trigger": "giveStatusType",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "31": {
+    "id": 31,
+    "trigger": "targetDeath",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "32": {
+    "id": 32,
+    "trigger": "enemyDeath",
+    "animTime": "start,finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "33": {
+    "id": 33,
+    "trigger": "afterAction",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "34": {
+    "id": 34,
+    "trigger": "beenHitBefore",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "35": {
+    "id": 35,
+    "trigger": "beenHit",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "36": {
+    "id": 36,
+    "trigger": "dodge",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "37": {
+    "id": 37,
+    "trigger": "block",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "38": {
+    "id": 38,
+    "trigger": "getDamage",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "hit"
+  },
+  "39": {
+    "id": 39,
+    "trigger": "getCriticalDamage",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "40": {
+    "id": 40,
+    "trigger": "getStatus",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "41": {
+    "id": 41,
+    "trigger": "selfStatusRemove",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "42": {
+    "id": 42,
+    "trigger": "getStatusType",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "43": {
+    "id": 43,
+    "trigger": "selfStatusTypeRemove",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "44": {
+    "id": 44,
+    "trigger": "selfDeathBefore",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "45": {
+    "id": 45,
+    "trigger": "selfDeath",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "46": {
+    "id": 46,
+    "trigger": "ownDeathBefore",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "47": {
+    "id": 47,
+    "trigger": "ownDeath",
+    "animTime": "start,finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "48": {
+    "id": 48,
+    "trigger": "revive",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "49": {
+    "id": 49,
+    "trigger": "normalEndSelfBefore",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "50": {
+    "id": 50,
+    "trigger": "skillEndSelfBefore",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "51": {
+    "id": 51,
+    "trigger": "superEndSelfBefore",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "52": {
+    "id": 52,
+    "trigger": "normalEndSelf",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "53": {
+    "id": 53,
+    "trigger": "skillEndSelf",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "54": {
+    "id": 54,
+    "trigger": "superEndSelf",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "55": {
+    "id": 55,
+    "trigger": "normalEndAttacker",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "56": {
+    "id": 56,
+    "trigger": "skillEndAttacker",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "57": {
+    "id": 57,
+    "trigger": "superEndAttacker",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "58": {
+    "id": 58,
+    "trigger": "shieldEnd",
+    "animTime": "start,finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "hit"
+  },
+  "59": {
+    "id": 59,
+    "trigger": "afterDoubleHitNormal",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "60": {
+    "id": 60,
+    "trigger": " afterDoubleHitNormalEnemy",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "61": {
+    "id": 61,
+    "trigger": "afterDoubleHitNormalOwn",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "62": {
+    "id": 62,
+    "trigger": "skillEndSelfBeforeHit",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "63": {
+    "id": 63,
+    "trigger": "energyFull",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "64": {
+    "id": 64,
+    "trigger": "mustDodge",
+    "animTime": "finish",
+    "animTimeMulti": "finish",
+    "removeAnimTime": "finish"
+  },
+  "65": {
+    "id": 65,
+    "trigger": "reviveOwn",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "66": {
+    "id": 66,
+    "trigger": "afterCounterAttack",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "67": {
+    "id": 67,
+    "trigger": "afterBattleStart",
+    "animTime": "start",
+    "animTimeMulti": "start",
+    "removeAnimTime": "start"
+  },
+  "68": {
+    "id": 68,
+    "trigger": "giveCriticalDamageOwn",
+    "animTime": "hit",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "69": {
+    "id": 69,
+    "trigger": "winSolo",
+    "animTime": "start",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  },
+  "70": {
+    "id": 70,
+    "trigger": "beforeCounterAttackOwn",
+    "animTime": "finish",
+    "animTimeMulti": "start",
+    "removeAnimTime": "finish"
+  },
+  "71": {
+    "id": 71,
+    "trigger": "atLockHealth",
+    "animTime": "finish",
+    "animTimeMulti": "hit",
+    "removeAnimTime": "finish"
+  }
+}

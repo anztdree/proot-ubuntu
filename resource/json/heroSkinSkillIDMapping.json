@@ -1,0 +1,114 @@
+{
+  "150501": {
+    "skillId": 150501,
+    "skinId": 1505001,
+    "idBattleSkin": 150500101,
+    "idHangupSkin": 150500101
+  },
+  "150591": {
+    "skillId": 150591,
+    "skinId": 1505001,
+    "idBattleSkin": 150500191,
+    "idHangupSkin": 150500191
+  },
+  "151301": {
+    "skillId": 151301,
+    "skinId": 1513001,
+    "idBattleSkin": 151300101,
+    "idHangupSkin": 151300101
+  },
+  "151391": {
+    "skillId": 151391,
+    "skinId": 1513001,
+    "idBattleSkin": 151300191,
+    "idHangupSkin": 151300191
+  },
+  "151501": {
+    "skillId": 151501,
+    "skinId": 1515001,
+    "idBattleSkin": 151500101,
+    "idHangupSkin": 151500101
+  },
+  "151591": {
+    "skillId": 151591,
+    "skinId": 1515001,
+    "idBattleSkin": 151500191,
+    "idHangupSkin": 151500191
+  },
+  "151601": {
+    "skillId": 151601,
+    "skinId": 1516001,
+    "idBattleSkin": 151600101,
+    "idHangupSkin": 151600101
+  },
+  "151691": {
+    "skillId": 151691,
+    "skinId": 1516001,
+    "idBattleSkin": 151600191,
+    "idHangupSkin": 151600191
+  },
+  "160301": {
+    "skillId": 160301,
+    "skinId": 1603001,
+    "idBattleSkin": 160300101,
+    "idHangupSkin": 160300101
+  },
+  "160391": {
+    "skillId": 160391,
+    "skinId": 1603001,
+    "idBattleSkin": 160300191,
+    "idHangupSkin": 160300191
+  },
+  "160401": {
+    "skillId": 160401,
+    "skinId": 1604001,
+    "idBattleSkin": 160400101,
+    "idHangupSkin": 160400101
+  },
+  "160491": {
+    "skillId": 160491,
+    "skinId": 1604001,
+    "idBattleSkin": 160400191,
+    "idHangupSkin": 160400191
+  },
+  "161001": [
+    {
+      "skillId": 161001,
+      "skinId": 1610001,
+      "idBattleSkin": 161000101,
+      "idHangupSkin": 161000101
+    },
+    {
+      "skillId": 161001,
+      "skinId": 1610002,
+      "idBattleSkin": 161000201,
+      "idHangupSkin": 161000201
+    }
+  ],
+  "161091": [
+    {
+      "skillId": 161091,
+      "skinId": 1610001,
+      "idBattleSkin": 161000191,
+      "idHangupSkin": 161000191
+    },
+    {
+      "skillId": 161091,
+      "skinId": 1610002,
+      "idBattleSkin": 161000291,
+      "idHangupSkin": 161000291
+    }
+  ],
+  "161901": {
+    "skillId": 161901,
+    "skinId": 1619001,
+    "idBattleSkin": 161900101,
+    "idHangupSkin": 161900101
+  },
+  "161991": {
+    "skillId": 161991,
+    "skinId": 1619001,
+    "idBattleSkin": 161900191,
+    "idHangupSkin": 161900191
+  }
+}

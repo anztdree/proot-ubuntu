@@ -1,0 +1,72 @@
+{
+  "1": {
+    "id": 1,
+    "difficulty": 0.2,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "2": {
+    "id": 2,
+    "difficulty": 0.25,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "3": {
+    "id": 3,
+    "difficulty": 0.3,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "4": {
+    "id": 4,
+    "difficulty": 0.35,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "5": {
+    "id": 5,
+    "difficulty": 0.4,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "6": {
+    "id": 6,
+    "difficulty": 0.5,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "7": {
+    "id": 7,
+    "difficulty": 0.6,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "8": {
+    "id": 8,
+    "difficulty": 0.67,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "9": {
+    "id": 9,
+    "difficulty": 0.74,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  },
+  "10": {
+    "id": 10,
+    "difficulty": 0.81,
+    "award1": 113,
+    "num1": 10,
+    "battleBackGround": "sedao_jpg"
+  }
+}

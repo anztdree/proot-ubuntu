@@ -1,0 +1,14 @@
+{
+  "901": {
+    "id": 901,
+    "name": "大战弗利沙",
+    "dialogID": 9011,
+    "picture": "story_901_png"
+  },
+  "903": {
+    "id": 903,
+    "name": "遇见布玛",
+    "dialogID": 9031,
+    "picture": "story_903_png"
+  }
+}

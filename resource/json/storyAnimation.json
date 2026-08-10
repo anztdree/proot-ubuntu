@@ -1,0 +1,380 @@
+{
+  "100001001": [
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangdiyiduanzuizhongban",
+      "actionName": "newAnimation",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "startEvent",
+      "nextID": "badakeruchang",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "badakeruchang",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "badakeruchang",
+      "nextID": "daiji",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "fulishachixudipan",
+      "actionName": "newAnimation",
+      "effectLayer": 1,
+      "dragonX": 284,
+      "dragonY": 80,
+      "isLoop": 1,
+      "eventID": "badakeruchang",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "manxue",
+      "uiName": "blood1",
+      "effectLayer": 3,
+      "dragonX": 114,
+      "dragonY": -272,
+      "eventID": "blood6Event",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "manxue",
+      "uiName": "blood2",
+      "effectLayer": 3,
+      "dragonX": 114,
+      "dragonY": 0,
+      "eventID": "blood6Event",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "manxue",
+      "uiName": "blood3",
+      "effectLayer": 3,
+      "dragonX": 281,
+      "dragonY": 88,
+      "eventID": "blood6Event",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "manxue",
+      "uiName": "blood4",
+      "effectLayer": 3,
+      "dragonX": 281,
+      "dragonY": -153,
+      "eventID": "blood6Event",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "manxue",
+      "uiName": "blood5",
+      "effectLayer": 3,
+      "dragonX": 281,
+      "dragonY": -357,
+      "eventID": "blood6Event",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "manxue",
+      "uiName": "blood6",
+      "effectLayer": 3,
+      "dragonX": -190,
+      "dragonY": -90,
+      "eventID": "blood6Event",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "daiji",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "storyIdle": 1,
+      "eventID": "daiji",
+      "nextID": "dasixiaobing",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "dasixiaobing",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "dasixiaobing",
+      "nextID": "daiji2",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "c3swk_beiji02",
+      "actionName": "newAnimation",
+      "effectLayer": 4,
+      "dragonX": 100,
+      "dragonY": -180,
+      "eventID": "HitEvent1",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "kouxue",
+      "uiName": "blood1",
+      "effectLayer": 3,
+      "dragonX": 114,
+      "dragonY": -272,
+      "eventID": "HitEvent1",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangbaojishuzi",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 114,
+      "dragonY": -272,
+      "eventID": "HitEvent1",
+      "isRemove": "hide"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "c3swk_beiji02",
+      "actionName": "newAnimation",
+      "effectLayer": 4,
+      "dragonX": 100,
+      "dragonY": 125,
+      "eventID": "HitEvent2",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangxuetiao",
+      "actionName": "kouxue",
+      "uiName": "blood2",
+      "effectLayer": 3,
+      "dragonX": 114,
+      "dragonY": 0,
+      "eventID": "HitEvent2",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangbaojishuzi",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 114,
+      "dragonY": 0,
+      "eventID": "HitEvent2",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "daiji2",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "storyIdle": 1,
+      "eventID": "daiji2",
+      "nextID": "badakejineng",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "badakejineng",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "badakejineng",
+      "nextID": "daiji3",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangbadakegoupai",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": -168,
+      "dragonY": -500,
+      "eventID": "badakejineng",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangbadakefeixingmingzhong",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": -245,
+      "dragonY": 0,
+      "eventID": "EffectEvent1",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangbadakemingzhong2",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 100,
+      "dragonY": 85,
+      "eventID": "HitEvent3",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "WKCY-beiji",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 200,
+      "dragonY": 85,
+      "eventID": "HitEvent4",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangfulishashanbi",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 284,
+      "dragonY": 0,
+      "eventID": "HitEvent4",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangfulishadimiantiehua",
+      "actionName": "newAnimation",
+      "effectLayer": 1,
+      "dragonX": 284,
+      "dragonY": 80,
+      "eventID": "HitEvent4",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichanggantanhao",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": -160,
+      "dragonY": -75,
+      "eventID": "storyEvent3",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "daiji3",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "storyIdle": 1,
+      "eventID": "daiji3",
+      "nextID": "daiji4",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangfuwuqibaoqi",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 284,
+      "dragonY": 90,
+      "storyIdle": 1,
+      "eventID": "daiji3",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "daiji4",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "daiji4",
+      "nextID": "fulishaguochangtexie",
+      "isRemove": "no"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangfuwuqibaoqi",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 284,
+      "dragonY": 90,
+      "eventID": "daiji4",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangfulishagoupai",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 200,
+      "dragonY": -500,
+      "eventID": "TagEvent1",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "fulishaguochangtexie",
+      "actionName": "newAnimation",
+      "effectLayer": 4,
+      "dragonX": 0,
+      "dragonY": 0,
+      "scaleXY": 1.25,
+      "transposition": 1,
+      "eventID": "fulishaguochangtexie",
+      "nextID": "flishafadazhao",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangfulishadiuqiu",
+      "actionName": "newAnimation",
+      "effectLayer": 3,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "flishafadazhao",
+      "isRemove": "is"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "qlzkc-zhandouzuizhongban",
+      "actionName": "flishafadazhao",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "flishafadazhao",
+      "nextID": "kaichang3",
+      "isRemove": "all"
+    },
+    {
+      "animationId": 100001001,
+      "dragonName": "kaichangdisanduanzuizhongban",
+      "actionName": "kaichang3",
+      "effectLayer": 2,
+      "dragonX": 0,
+      "dragonY": 0,
+      "eventID": "kaichang3",
+      "nextID": "finish",
+      "isRemove": "is"
+    }
+  ]
+}

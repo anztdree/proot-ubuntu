@@ -1,0 +1,128 @@
+{
+  "1": {
+    "id": 1,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 20,
+    "vipNeeded": 0,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 50,
+    "karinTowerClimbVIPNeeded": 0
+  },
+  "2": {
+    "id": 2,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 20,
+    "vipNeeded": 2,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 50,
+    "karinTowerClimbVIPNeeded": 2
+  },
+  "3": {
+    "id": 3,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 30,
+    "vipNeeded": 4,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 60,
+    "karinTowerClimbVIPNeeded": 4
+  },
+  "4": {
+    "id": 4,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 30,
+    "vipNeeded": 6,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 60,
+    "karinTowerClimbVIPNeeded": 4
+  },
+  "5": {
+    "id": 5,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 40,
+    "vipNeeded": 9,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 70,
+    "karinTowerClimbVIPNeeded": 6
+  },
+  "6": {
+    "id": 6,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 40,
+    "vipNeeded": 10,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 70,
+    "karinTowerClimbVIPNeeded": 6
+  },
+  "7": {
+    "id": 7,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 50,
+    "vipNeeded": 11,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 80,
+    "karinTowerClimbVIPNeeded": 9
+  },
+  "8": {
+    "id": 8,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 50,
+    "vipNeeded": 12,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 80,
+    "karinTowerClimbVIPNeeded": 9
+  },
+  "9": {
+    "id": 9,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 60,
+    "vipNeeded": 13,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 90,
+    "karinTowerClimbVIPNeeded": 12
+  },
+  "10": {
+    "id": 10,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 60,
+    "vipNeeded": 14,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 90,
+    "karinTowerClimbVIPNeeded": 12
+  },
+  "11": {
+    "id": 11,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 70,
+    "vipNeeded": 15,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 100,
+    "karinTowerClimbVIPNeeded": 15
+  },
+  "12": {
+    "id": 12,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 70,
+    "vipNeeded": 16,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 100,
+    "karinTowerClimbVIPNeeded": 15
+  },
+  "13": {
+    "id": 13,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 80,
+    "vipNeeded": 17,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 110,
+    "karinTowerClimbVIPNeeded": 17
+  },
+  "14": {
+    "id": 14,
+    "karinTowerCostID": 101,
+    "karinTowerRefreshPrice": 80,
+    "vipNeeded": 18,
+    "karinTowerClimbCostID": 101,
+    "karinTowerClimbRefreshPrice": 110,
+    "karinTowerClimbVIPNeeded": 18
+  }
+}

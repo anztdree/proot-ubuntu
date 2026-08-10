@@ -1,0 +1,26 @@
+{
+  "101": {
+    "id": 101,
+    "dungeonName": "熔岩地狱",
+    "attackerSkill1Trigger": "showUp",
+    "attackerSkill1Action": "gainDamageUp",
+    "attackerSkill1ActionPara1": "self",
+    "attackerSkill1ActionPara2": "boss",
+    "attackerSkill1ActionPara3": 0.5,
+    "supporterSkill1Trigger": "showUp",
+    "supporterSkill1Action": "gainDamageUp",
+    "supporterSkill1ActionPara1": "allPartner",
+    "supporterSkill1ActionPara2": "allEnemy",
+    "supporterSkill1ActionPara3": 0.05,
+    "supporterSkill2Trigger": "showUp",
+    "supporterSkill2Action": "gainDestroyAbility",
+    "supporterSkill2ActionPara1": 1,
+    "treasureSkill1Trigger": "showUp",
+    "treasureSkill1Action": "gainTreasureUp",
+    "treasureSkill1ActionPara1": "allPartner",
+    "treasureSkill1ActionPara2": 0.5,
+    "attackerSkill": "teamDungeonRoleSkill_attackerSkill_1",
+    "supporterSkill": "teamDungeonRoleSkill_supporterSkill_2",
+    "treasureSkill": "teamDungeonRoleSkill_treasureSkill_3"
+  }
+}

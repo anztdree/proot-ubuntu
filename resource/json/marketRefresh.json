@@ -1,0 +1,302 @@
+{
+  "1": {
+    "id": 1,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 1
+  },
+  "2": {
+    "id": 2,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 1
+  },
+  "3": {
+    "id": 3,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 1
+  },
+  "4": {
+    "id": 4,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 1
+  },
+  "5": {
+    "id": 5,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 1
+  },
+  "6": {
+    "id": 6,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 4
+  },
+  "7": {
+    "id": 7,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 4
+  },
+  "8": {
+    "id": 8,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 4
+  },
+  "9": {
+    "id": 9,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 4
+  },
+  "10": {
+    "id": 10,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 20,
+    "vipNeeded": 4
+  },
+  "11": {
+    "id": 11,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 30,
+    "vipNeeded": 8
+  },
+  "12": {
+    "id": 12,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 30,
+    "vipNeeded": 8
+  },
+  "13": {
+    "id": 13,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 30,
+    "vipNeeded": 8
+  },
+  "14": {
+    "id": 14,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 30,
+    "vipNeeded": 8
+  },
+  "15": {
+    "id": 15,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 30,
+    "vipNeeded": 8
+  },
+  "16": {
+    "id": 16,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 40,
+    "vipNeeded": 11
+  },
+  "17": {
+    "id": 17,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 40,
+    "vipNeeded": 11
+  },
+  "18": {
+    "id": 18,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 40,
+    "vipNeeded": 11
+  },
+  "19": {
+    "id": 19,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 40,
+    "vipNeeded": 11
+  },
+  "20": {
+    "id": 20,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 40,
+    "vipNeeded": 11
+  },
+  "21": {
+    "id": 21,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 13
+  },
+  "22": {
+    "id": 22,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 13
+  },
+  "23": {
+    "id": 23,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 13
+  },
+  "24": {
+    "id": 24,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 13
+  },
+  "25": {
+    "id": 25,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 13
+  },
+  "26": {
+    "id": 26,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 14
+  },
+  "27": {
+    "id": 27,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 14
+  },
+  "28": {
+    "id": 28,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 14
+  },
+  "29": {
+    "id": 29,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 14
+  },
+  "30": {
+    "id": 30,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 14
+  },
+  "31": {
+    "id": 31,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 15
+  },
+  "32": {
+    "id": 32,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 15
+  },
+  "33": {
+    "id": 33,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 15
+  },
+  "34": {
+    "id": 34,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 15
+  },
+  "35": {
+    "id": 35,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 15
+  },
+  "36": {
+    "id": 36,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 16
+  },
+  "37": {
+    "id": 37,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 16
+  },
+  "38": {
+    "id": 38,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 16
+  },
+  "39": {
+    "id": 39,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 16
+  },
+  "40": {
+    "id": 40,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 16
+  },
+  "41": {
+    "id": 41,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 17
+  },
+  "42": {
+    "id": 42,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 17
+  },
+  "43": {
+    "id": 43,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 17
+  },
+  "44": {
+    "id": 44,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 17
+  },
+  "45": {
+    "id": 45,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 17
+  },
+  "46": {
+    "id": 46,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 18
+  },
+  "47": {
+    "id": 47,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 18
+  },
+  "48": {
+    "id": 48,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 18
+  },
+  "49": {
+    "id": 49,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 18
+  },
+  "50": {
+    "id": 50,
+    "marketRefreshCostID": 101,
+    "marketRefreshPrice": 50,
+    "vipNeeded": 18
+  }
+}

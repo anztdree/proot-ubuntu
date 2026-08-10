@@ -1,0 +1,17 @@
+{
+  "0": {
+    "id": 0,
+    "heroIntelligence": 0,
+    "heroLevelMax": 320
+  },
+  "1": {
+    "id": 1,
+    "heroIntelligence": 12170,
+    "heroLevelMax": 340
+  },
+  "2": {
+    "id": 2,
+    "heroIntelligence": 13262,
+    "heroLevelMax": 360
+  }
+}

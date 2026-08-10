@@ -1,0 +1,14 @@
+{
+  "1": {
+    "id": 1,
+    "cabinNumFree": 5,
+    "cabinNumDiamond": 0,
+    "seatNumFree": 1,
+    "seatNumDiamond": 1,
+    "seatNumDiamond2": 1,
+    "seatCd": 43200,
+    "seatCdClearDimaond": 100,
+    "heroNumberLimit": 15,
+    "heroStarLimit": 10
+  }
+}

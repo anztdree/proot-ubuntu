@@ -1,0 +1,62 @@
+{
+  "1": {
+    "id": 1,
+    "type": "broadcast",
+    "content": "dragonBallWarNotice_content_1"
+  },
+  "2": {
+    "id": 2,
+    "type": "broadcast",
+    "content": "dragonBallWarNotice_content_2"
+  },
+  "3": {
+    "id": 3,
+    "type": "broadcast",
+    "content": "dragonBallWarNotice_content_3"
+  },
+  "4": {
+    "id": 4,
+    "type": "broadcast",
+    "content": "dragonBallWarNotice_content_4"
+  },
+  "51": {
+    "id": 51,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_1"
+  },
+  "52": {
+    "id": 52,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_3"
+  },
+  "53": {
+    "id": 53,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_5"
+  },
+  "54": {
+    "id": 54,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_6"
+  },
+  "55": {
+    "id": 55,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_4"
+  },
+  "56": {
+    "id": 56,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_7"
+  },
+  "57": {
+    "id": 57,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_8"
+  },
+  "58": {
+    "id": 58,
+    "type": "record",
+    "content": "dragonBallWarNotice_content_9"
+  }
+}

@@ -1,0 +1,4901 @@
+{
+  "TSUIController": {
+    "id1": "{0}:",
+    "id2": "{0}:",
+    "id3": "{0}",
+    "id4": "{0}Jour(s)",
+    "id5": "{0}h",
+    "id6": "{0}min",
+    "id7": "Le Sac du Héros est Plein, les objets seront envoyés par email !",
+    "id8": "Voter compte est déjà connecté sur un autre appareil",
+    "id9": "Déconnecté du Serveur",
+    "id10": "Demande expirée, veuillez vérifier votre connexion internet",
+    "id11": "Cher joueur, veuillez vous reconnecter et réessayer de procéder au paiement",
+    "hhmm": "{0}hrs{1}mins",
+    "ddhh": "{0} Jour(s){1} Heure"
+  },
+  "activitySetReward": {
+    "id1": "Objet Aléatoire",
+    "id2": "Nombre de reconnexions maximum atteint",
+    "id3": "Coûte{0}x{1}, acheter ?",
+    "id4": "OK",
+    "id5": "Annuler",
+    "id6": "CD d'achat..."
+  },
+  "BackPackCommon": {
+    "id1": "{0}%Off",
+    "id2": "+{0}%",
+    "id3": "22"
+  },
+  "error_handler": {
+    "id1": "Erreur Inconnue !{0}"
+  },
+  "heroCommon": {
+    "id1": "Illustration d’Allumage ",
+    "id2": "PV",
+    "id3": "ATQ",
+    "id4": "DEF",
+    "id5": "VIT",
+    "deid6": "0.45",
+    "frid7": "16"
+  },
+  "OpenLimit": {
+    "id1": "Nécessite Joueur Niv.{0} pour déverrouiller {1}",
+    "id4": "Veuillez d’abord terminer la {0} pour pouvoir déverrouiller {1}",
+    "id6": "Nécessite Clan Niv.{0} pour ouvrir {1}"
+  },
+  "ToolCommon": {
+    "id3": "Marque Kamé",
+    "id4": "Marque Shin",
+    "id5": "Marque Mo",
+    "id6": "Marque Go",
+    "id7": "Marque Kai",
+    "id8": "Marque Zen",
+    "id9": "jour(s) avant",
+    "id10": "heure(s) avant",
+    "id11": "minute(s) avant",
+    "id12": "/",
+    "id13": "/",
+    "id14": " ",
+    "id15": "Non listé",
+    "id16": "0k",
+    "id17": "00000000",
+    "id18": "Niveau max !",
+    "id19": "{0}%Off",
+    "deid20": "23",
+    "id20": "Effet Exclusif ({0})",
+    "id21": "Inconnu",
+    "id22": "Une fois que la Gemme atteint le Niv.5, elle peut être identifiée pour obtenir un effet exclusif",
+    "id23": "<font color={0}>{1}</font>\n<font color={2}>{3}/{4} {5}</font>",
+    "id24": "Montez 4 Gemmes avec l’effet exclusif {0} pour activer la Compétence exclusive",
+    "timeLab": "Time of Clearance: {0}",
+    "serverLab": "Zone {0}"
+  },
+  "viewCommon": {
+    "id1": "Ensemble(2)",
+    "id2": "Ensemble(3)",
+    "id3": "Ensemble(4)",
+    "id4": "Message",
+    "id5": "Compétence",
+    "id6": "Équipement",
+    "id7": "Marque",
+    "id8": "Kamé",
+    "id9": "Marque Kamé",
+    "id10": "Shin",
+    "id11": "Marque Shin",
+    "id12": "Mo",
+    "id13": "Marque Mo",
+    "id14": "Kai",
+    "id15": "Marque Kai",
+    "id16": "Go",
+    "id17": "Marque Go",
+    "id18": "Zen",
+    "id19": "Marque Zen",
+    "id20": "Amis",
+    "id21": "Demande d’Ami",
+    "id22": "Liste",
+    "id24": "En Ligne",
+    "id25": "{0} jour(s) avant",
+    "id26": "{0} heure(s) avant",
+    "id27": "{0} minute(s) avant",
+    "id28": "l{0}/{1}",
+    "id29": "Héros",
+    "id30": "Super Ultime",
+    "deid31": "29",
+    "deid32": "20",
+    "frid33": "18",
+    "id33": "Blacklist",
+    "id34": "7 days before"
+  },
+  "AltarInfoManger": {
+    "id1": "L’Équipe d’Arène ne peut pas être vide, impossible de déverrouiller",
+    "id2": "Ce Héros est déployé dans la Formation de Défense de l’Arène. Déverrouiller et sélectionner?",
+    "id3": "OK",
+    "id4": "Annuler",
+    "id5": "This hero is already deployed in the Defend Lineup of the Tournament and is in the same team with the main hero. Confirm to dismiss this hero and select?",
+    "id6": "Le héros a été déployé dans la formation de Defend dans Ace Showdown, ne peut pas être déverrouillé",
+    "id7": "The selected Main Hero and Resonance Hero can be deployed in the Defend Lineup of the arena together. The changing will dismiss the resonance hero from the defending lineup!",
+    "id8": "The selected Main Hero and Resonance Hero are both deployed in the Defend Lineup of Ace Showdown. Unable to change.",
+    "id9": "Ace Showdown team can not be empty, unable to unlock"
+  },
+  "equipInfoManager": {
+    "id1": "Bracelet",
+    "id2": "Tenue",
+    "id3": "Ceinture",
+    "id4": "Chaussures"
+  },
+  "friendManager": {
+    "id1": "Limite quotidienne de collecte de Cœurs de {0}",
+    "id3": "Limite quotidienne d’envoi de Cœurs de {0}",
+    "id4": "Limite de nombre d’amis atteinte, impossible d’ajouter plus d’amis !"
+  },
+  "TeamInfoManager": {
+    "id1": "Membre",
+    "id2": "Vice-Chef",
+    "id3": "Chef",
+    "id4": "Vous pourrez rejoindre un Clan dans {0} heure(s) {1} minute(s) !",
+    "id5": "Vous pourrez rejoindre un Clan dans {0} minute(s) !",
+    "id6": "Vous pourrez créer un Clan dans {0} minute(s) !",
+    "id7": "Limite d'achats quotidienne atteinte !",
+    "id8": "Acheter <font color={0}>{1} chance(s) de défi</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?",
+    "id9": "Conquête de Dragon Ball Terminée",
+    "id10": "Temps de Récupération:\n{0}"
+  },
+  "towerDataManager": {
+    "id1": "Terminé",
+    "id2": "Verrouillé",
+    "id3": "Événement Terminé",
+    "id4": "Restant: {0} règlement",
+    "id6": "Événement Verrouillé"
+  },
+  "battleCallBack": {
+    "id1": "Puissance Insuffisante",
+    "ballWarId1": "There are hero(es) garrisoning other position from the current lineup. Confirm to change the hero (The position will be captured by the bandits)?",
+    "ballwarId2": "OK",
+    "ballwarId3": "Cancel"
+  },
+  "onHookSingleton": {
+    "id1": "Normal",
+    "id2": "Difficile",
+    "id3": "Cauchemar",
+    "id4": "Étape Non Commencée",
+    "id5": "Normal",
+    "id6": "Difficile",
+    "id7": "Cauchemar",
+    "id8": "Enfer",
+    "id9": "Enfer"
+  },
+  "summonSingleton": {
+    "id1": "Sac du Héros Plein ! Dissoudre le Héros dans l’Autel ?",
+    "id3": "Espace insuffisant dans le Sac du Héros ! Dissoudre le Héros dans l’Autel ?",
+    "id5": "Aller",
+    "id6": "Annuler"
+  },
+  "UIWindowManager": {
+    "id1": "L’achat actuel nécessite VIP{0}. Voir les Privilèges VIP ?",
+    "id3": "Nombre insuffisant",
+    "id4": "Vous avez été expulsé du Clan par le Chef !",
+    "id5": "La Formation a changé. Confirmer la modification ?",
+    "id6": "Modifier",
+    "id7": "Ne pas Modifier",
+    "id8": "Veuillez d’abord rejoindre un Clan",
+    "id9": "Ouvre lors de la semaine 4",
+    "id10": "·Vous devrez vaincre 7 Cell Jr avant de pouvoir défier Cell\n\nTerminer le Cell Game pour collecter des récompenses de coffre meilleures chaque jour\n\nLe Cell Game est un combat 1 contre 1",
+    "id11": "·Chances réinitialisées tous les jours à 6h00",
+    "id12": "·Aucun",
+    "id13": "·Les récompenses de coffre peuvent être collectées une fois par jour\n\nLes récompenses de coffre sont réinitialisées tous les jours à 6h00",
+    "id14": "·Affrontez 3 Clans maximum pour piller leurs ressources\n\nVos ressources peuvent aussi être pillées par d’autres Clans\n\nPillez les ressources des autres clans et protégez vos ressources autant que possible",
+    "id15": "·Appariement: du lundi au vendredi à 0h00\n\ndu lundi au vendredi à 9h00\n\nRèglement: du lundi au vendredi à 21h00",
+    "id16": "Il y a au moins dix membres de l'équipe dans le match à 0 heure tous les jours \n\n · Une fois le match terminé, le retrait du membre dé",
+    "id17": "·Les récompenses sont calculées en fonction de la quantité de ressources pillées et conservées\n\nLes récompenses sont attribuées proportionnellement aux ressources pillées individuellement par chaque membre",
+    "id18": "Les serveurs sont divisés en différentes régions en fonction de leur date de lancement. Les serveurs de la même région avec une date de lancement proche rejoindront la Bataille Inter-Serveurs ensemble.\n\nAprès inscription, les 64 meilleurs des matchs de sélection pourront rejoindre les matchs classés de la Bataille Inter-Serveurs. \n\nTous les joueurs peuvent parier sur les matchs classés, et avoir une chance de voir leurs Pièces doublées\n\nLa Formation de la Bataille Inter-Serveurs sera votre Formation d'Arène de la veille et sera actualisée tous les jours\n\nSi la bataille se termine, le défenseur ci-dessous remporte la victoire",
+    "id19": "Les inscriptions ont lieu le lundi\n\nLes matchs de sélection ont lieu le mardi\n\nLes matchs classés se déroulent du mercredi au samedi",
+    "id20": "Aucune restriction pour les paris\n\nIl est nécessaire de s’inscrire avant de pouvoir participer aux matchs de sélection et aux matchs classés",
+    "id21": "Les récompenses des paris sur les matchs classés seront envoyées par mail",
+    "id22": "·La Conquête de Dragon Ball a lieu chaque semaine, le système appariera 3 Clans dont les scores Elo sont proches pour s’affronter lors de la conquête des 7 Dragon Balls. Le Clan avec le plus de Dragon Balls gagne\n\nRecherchez la Dragon Ball de chaque zone et obtenez des bonus. Vous obtiendrez la Dragon Ball en occupant les 7 Tours Centrales de la zone\n\nSi un membre du Clan repère la Dragon Ball, seuls les membres alliés peuvent la voir\n\nLe bonus apporté par le point du drapeau est actif lors du combat contre l’ennemi (Aucun effet lorsque vous affrontez un membre du même Clan)",
+    "id23": "·Ouverture: le samedi à 9h00\n\nRèglement: le dimanche à 21h00",
+    "id24": "·Seuls le Chef et le Vice-Chef du Clan peuvent procéder à l’inscription pour la Conquête de Dragon Ball\n\nL’Activité du Clan doit être de 5000 ou plus pour pouvoir procéder à l’inscription\n\nLes inscriptions se terminent le vendredi à 23h59, et les candidats seront appariés en fonction de la Puissance du Clan\n\nLes membres qui rejoignent le Clan le vendredi après 23h59 ne pourront pas participer à la Conquête de Dragon Ball",
+    "id25": "·Durant le règlement, les Clans seront classé en fonction du nombre de Dragon Balls dont ils se sont emparées, et les membres du Clan obtiendront la récompense de classement correspondante (si 2 Clans possèdent le même nombre de Dragon Balls, ils seront classés ex-aequo au rang inférieur)\n\nAprès le règlement, la récompense de Pièces d’Honneur augmentera en fonction du rang Elo du Clan\n\nLe joueur qui occupe la Tour Centrale obtiendra la Dragon Ball de la zone",
+    "id30": "Présentation du Mode de Jeu",
+    "id31": "1. La Bataille pour le Sommet est une compétition inter-serveurs à laquelle peuvent participer les joueurs de tous les serveurs d'une zone de compétition.\n\n2. Une saison complète de la Bataille pour le Sommet dure 30 jours et est divisée en trois catégories : Défier le Sommet, Duel de Sommet et Sommet de la Gloire",
+    "id32": "Rang",
+    "id33": "La Bataille du Sommet est divisée en six parties: cuivre, argent, or, platine, diamants, roi\n\n2)  .Le bronze, l&apos;argent, l&apos;or, le platine et les diamants ont trois sous - parties, chacune passant de I à Ⅲ\n\n3). Pour entrer dans la bataille de pointe, il faut d&apos;abord mettre en place une capacité de défense, le système attribue aux joueurs une phase initiale en fonction de la force de combat totale protégée par la Section de défense\n\n4). Si la bataille échoue, la médaille de bronze ne sera pas retirée et la médaille d&apos;argent ne perdra pas son rang\n\n5). Pour une nouvelle saison, les règles de la succession hiérarchique sont les suivantes: roi\n → diamant I\n    diamant III → diamant I\n    diamant II → platine III\n    diamant I → platine II\n    platine III → platine II\n    platine II → platine I\n    platine I → or III\n    or III → or II\n    or II → or I\n    or I → argent III\n    Les sections sous argent III seront héritées directement",
+    "id34": "Défier le Sommet",
+    "id35": "1) Défier le Sommet a lieu du 1er au 25ème jour de chaque saison\n\n2) Durant la période de Défier le Sommet, les joueurs procéder à un appariement inter-serveurs avec d’autres joueurs pour combattre. Si les chances de bataille sont insuffisantes, ils peuvent consommer des Diamants pour en acheter\n\n3) Si vous n'êtes pas satisfait de l'adversaire correspondant, vous pouvez consommer des Diamants pour procéder à un nouvel appariement\n\n4) Chaque équipe doit inclure au moins 1 Héros, sinon l'équipe perdra automatiquement\n\n5) Lorsque la bataille dépasse le temps imparti, la victoire est accordée à l'équipe de défense\n\n6) Parmi les deux parties de la bataille, l'équipe avec le plus d'équipes victorieuses remportera la victoire finale",
+    "id36": "Duel de Sommet",
+    "id37": "1) Le Duel de Sommet a lieu du 26ème au 29ème jour de chaque saison\n\n2) Une fois le défi terminé, les 64 joueurs du Classement du Sommet de la Gloire seront appariés au hasard pour le Duel de sommet\n\n3) La formation des joueurs durant le Duel de sommet est la formation de défense à la fin de la phase de Défier le Sommet\n\n4) L’appariement des batailles du Duel de Sommet est effectué automatiquement par le système, et les batailles ont lieu tour à tour en suivant l’ordre des équipes des joueurs. Si une partie n'a pas d'équipe disponible, elle perd\n\n5) Pendant le Duel de Sommet, tous les joueurs peuvent regarder les enregistrements de bataille de la journée et parier des Diamants pour avoir une chance d'obtenir le double de Diamants en récompense",
+    "id38": "Sommet de la Gloire",
+    "id39": "1) Le Sommet de la Gloire a lieu le 30ème jour de chaque saison\n\n2) Les 8 meilleurs joueurs du Duel de Sommet de chaque division entreront pour toujours dans le Palais de la Gloire",
+    "id40": "Récompense de Saison",
+    "id41": "1) Récompense de Rang : Vous pouvez la recevoir directement après avoir atteint le rang correspondant lors de la saison\n\n2) Récompense de Règlement : Elle sera émise par e-mail après la fin de la saison. Seuls les joueurs qui ont participé au défi au moins une fois au cours de la saison recevront la récompense de règlement\n\n3) Récompense du Duel de Sommet : Elle sera émise par e-mail après la fin de la saison"
+  },
+  "activityChoseRewardTip": {
+    "id1": "Veuillez sélectionner votre récompense !"
+  },
+  "activityExChangeTip": {
+    "id1": "Veuillez sélectionner le matériel à échanger !",
+    "id2": "Diamants insuffisants, veuillez d’abord recharger !"
+  },
+  "activityLuckyStar": {
+    "id1": "Peut être amélioré",
+    "id2": "Chance: {0}",
+    "id3": "Nécessite VIP{0}",
+    "id4": "Peut être replacé",
+    "id5": "Niveau Max",
+    "id6": "Atteindre la limite d’activité",
+    "id7": "Fin de l’Événement:",
+    "id8": "Plus votre Chance sera élevée, plus grandes seront vos chances d’amélioration directe.",
+    "id9": "Taux actuel:",
+    "id10": "Vous avez collecté 1 pièce",
+    "id11": "Si vous souhaitez continuer à l’améliorer, veuillez replacer l’équipement collecté:",
+    "id12": "Équipement Actuel",
+    "id13": "Après Amélioration",
+    "deid14": "26",
+    "frid15": "25",
+    "frid16": "23",
+    "krid15": "28",
+    "krid16": "28"
+  },
+  "AchievementAwardListItem": {
+    "frid1": 22,
+    "enid2": "0"
+  },
+  "activityNormalLuck": {
+    "id1": "Chances multipliées par 10 pour les Personnages, valide jusqu’à {0}",
+    "id2": "Invocations x10 rapporte un Héros <font color=0xFF9900>orange</font>",
+    "id5": "Pool Heroes",
+    "id6": "18",
+    "deid7": "25",
+    "deid8": "28"
+  },
+  "activitySuperLuck": {
+    "id1": "Chances multipliées par 10 pour les Personnages, valide jusqu’à {0}",
+    "id2": "Invocations x10 rapporte",
+    "id3": "Orange",
+    "id4": "Héros",
+    "id5": "Bassin de Cartes de Personnages"
+  },
+  "activityTimeListItem": {
+    "id1": "{1}/{0}"
+  },
+  "BulmaPartyItemListItem": {
+    "id1": "Stock: {0}",
+    "id2": "Stock Insuffisant !"
+  },
+  "BuyNewDiscountsGiftPanel": {
+    "id2": "Coût Total:",
+    "id3": "OK",
+    "id4": "Annuler"
+  },
+  "DailyCumulativeRecharge": {
+    "id2": "Recharge Cumulée Actuelle: "
+  },
+  "DailyCumulativeRechargeTimeListItem": {
+    "id1": "{1}/{0}",
+    "krid2": "1",
+    "viid3": "30"
+  },
+  "exchangeHeroActivity": {
+    "id1": "·{0} {1} Héros x{2}",
+    "id2": "N’importe lequel",
+    "id3": "ATQ",
+    "id4": "CMP",
+    "id5": "DEF",
+    "id6": "·{0} Héros {1}x{2}",
+    "id7": "Échanger",
+    "deid8": "0.35",
+    "id8": "- Required VIP Level {0}",
+    "id9": "- The player's VIP Level must reach {0} or higher",
+    "deid10": "20"
+  },
+  "heroRebateActivityListItem": {
+    "id1": "Chances Restantes: {0}",
+    "id2": "Aléatoirement {0} {1}~{2}",
+    "deid3": "20",
+    "deid4": "25"
+  },
+  "learnSignActivity": {
+    "id1": "Marque {0} ",
+    "id2": "Apprendre x10 automatiquement consomme la quantité de Coupons de Maître correspondante !",
+    "id3": "OK",
+    "id4": "Annuler",
+    "id5": "Heure de fin",
+    "id6": "Sélection Actuelle:",
+    "id7": "Chance d’Obtenir:",
+    "id8": "Les Marques de cette qualité seront vendues automatiquement:",
+    "id9": "Vert",
+    "id10": "Bleu",
+    "id11": "Violet",
+    "deid12": "28"
+  },
+  "luckRewardActivity": {
+    "id1": "    Rejoignez le Bassin Chanceux Luxueux, toutes les {0} tentatives, vous pourrez collecter un Coffre Chanceux qui peut contenir le Héros orange du thème actuel !",
+    "id3": "    1 pièce peut être obtenue grâce aux Invocations, en ouvrant 10 Coffres ou en synthétisant des Fragments",
+    "id4": "(à l’exception de l’Invocation et du Remplacement de Shenron), un ensemble de 3 équipements oranges peut être collecté",
+    "id5": "    Durant l’événement, celui qui dépense plus de {0} Pièces Chanceuses et obtient la 1ère place du Classement de Coût sera récompensé par 1 ensemble de Dragon Balls. Avec les 7 Dragon Balls, vous pouvez faire des vœux et sélectionner 1 Super Héros !",
+    "id6": "Progression Actuelle:",
+    "id7": "Envoyé par mail après la fin de l’événement",
+    "id8": "Coffre Chanceux",
+    "id9": "1 Ensemble de Dragon Ball (1 étoile - 7 étoiles)"
+  },
+  "newDiscountGiftListItem": {
+    "id1": "Limite d’achat: {0}",
+    "id3": "Offre Spéciale de Nouveau Serveur",
+    "id4": "EXP VIP",
+    "frid5": "20",
+    "frid6": "1",
+    "enme7": "-7"
+  },
+  "SevenDaysRecharge": {
+    "id1": "VIP{0} ou supérieur",
+    "id2": "Conditions de Participation:"
+  },
+  "sevenDaysRechargeListItem": {
+    "id1": "Nécessite VIP{0}",
+    "deid2": "24",
+    "deid3": "30"
+  },
+  "SevenDaysSign": {
+    "id1": "Jour {0}",
+    "deid2": "18"
+  },
+  "specificTotalRankItem": {
+    "id1": "Non listé",
+    "deid2": "28",
+    "deid3": "1"
+  },
+  "strongPersonActivity": {
+    "id1": "Date spécifique non atteinte",
+    "id3": "Impossible de rafraîchir, seule une pièce en promotion peut être achetée chaque jour",
+    "id4": "Heure de fin",
+    "id5": "Rafraîchir changera les promotions, seule une pièce en promotion peut être achetée chaque jour",
+    "id6": "Avantages Quotidiens",
+    "id7": "Événement d’Activité",
+    "id8": "Prix Spécial Quotidien",
+    "id9": "Rafraîchir",
+    "id10": "Règles",
+    "deid11": "1",
+    "deid12": "27"
+  },
+  "superGiftList": {
+    "id1": "Limite d’achat:{0}",
+    "id3": "Pack de Valeur Chanceux",
+    "frid4": "23",
+    "enme5": "1"
+  },
+  "TimeLimitGiftBag": {
+    "id1": "{0}",
+    "id2": "{0}",
+    "id3": "Pack{0}",
+    "id4": "Seulement",
+    "id5": "Recharger ici pour obtenir",
+    "id6": "Limité dans le Temps:",
+    "id7": "(Restant: {0})",
+    "deid7": "1",
+    "deid8": "0.5",
+    "deid9": "23",
+    "deid10": "18",
+    "viid11": "-8",
+    "id11": "Expired"
+  },
+  "PadipataAnswer": {
+    "frid1": "30"
+  },
+  "totalRankActivity": {
+    "id1": "Événement Terminé",
+    "id2": "Compte à rebours:",
+    "id3": "Dans le classement,",
+    "id4": "les 500 premiers",
+    "id5": "peuvent obtenir",
+    "id6": "de superbes récompenses!",
+    "id7": "1er",
+    "id8": "2ème",
+    "id9": "3ème",
+    "id10": "Mon Niveau:",
+    "id11": "Mon Rang:",
+    "deid12": "20",
+    "krid13": "21",
+    "frid14": "20",
+    "frid15": "21",
+    "viid16": "22"
+  },
+  "activityChoseRewardTipViewData": {
+    "id1": "Vous pouvez obtenir la récompense ci-dessous",
+    "id2": "Sélectionnez l’une des récompenses suivantes",
+    "id3": "Select one from the following rewards",
+    "id4": "Obtain a random one from the following rewards",
+    "id5": "You can obtain all of the following rewards",
+    "deid5": "20"
+  },
+  "activityExChangeTipViewData": {
+    "id1": "{0} Matériel d’Échange",
+    "id2": "Échanger"
+  },
+  "entrustActivityViewData": {
+    "id1": "Terminer {0} Quêtes {1} étoiles"
+  },
+  "friendBattleRewardActivityViewData": {
+    "id1": "Victoires totales {0}"
+  },
+  "learnSignActivityViewData": {
+    "id1": "Kamé Sennin",
+    "id2": "Kamé",
+    "id3": "Dieu",
+    "id4": "Shin",
+    "id5": "Piccolo Daimaô",
+    "id6": "Mo",
+    "id7": "Maître Kaïô",
+    "id8": "Kai",
+    "id9": "M. Goku",
+    "id10": "Go",
+    "id11": "Zen'ô",
+    "id12": "Zen"
+  },
+  "orangeHeroActivityViewData": {
+    "id1": "  S ou supérieur",
+    "id2": "SS ou supérieur",
+    "id3": "{0} Héros {1} Obtenus"
+  },
+  "rechargeAwardActivityViewData": {
+    "id1": "Cadeau obtenu en rechargeant {0}",
+    "id3": "Cadeau obtenu en rechargeant {0} ou plus et en ayant atteint le rang 2-3",
+    "id4": "Cadeau obtenu en rechargeant {0} ou plus et en ayant atteint le rang 1",
+    "viid5": "143"
+  },
+  "signUpUpAwardViewData": {
+    "id1": "Total Marque Apprise {0}:"
+  },
+  "totalRankActivityViewData": {
+    "id1": "Non listé",
+    "id3": "Mon Étape:",
+    "id4": "Mon Allumage: ",
+    "id5": "Mon Étage:",
+    "id6": "Ma Puissance:",
+    "id7": "Mes Étoiles:",
+    "id8": "Mes Points de Qualité Totaux:"
+  },
+  "TheWildAdventure": {
+    "id1": "{0}",
+    "id2": "Trop loin !",
+    "id4": "Réinitialiser la carte de cet étage coûtera {0} Diamants et ne restaurera pas la Motivation. Continuer ?",
+    "id6": "Limite de réinitialisations atteinte",
+    "id7": "Réinitialiser la carte de cet étage ne restaurera pas la Motivation. Continuer ?",
+    "id8": "Limite d'achats de Motivation atteinte !",
+    "id9": "Acheter <font color={0}>{1} Motivation</font> nécessite <font color={2}>{3} Diamants</font>. Continuer ?",
+    "id10": "(Restant:",
+    "id11": ")",
+    "id12": "Restant",
+    "id13": "Restants dans cet étage:",
+    "id14": "OK",
+    "id15": "Annuler",
+    "id16": "Limite de réinitialisations atteinte!",
+    "id17": "You can spend {0} point(s) of Action Points to explore the entire map, gaining all Chest Rewards. Would you like to explore all now?"
+  },
+  "AltarMain": {
+    "id1": "Veuillez sélectionner le Héros à dissoudre !",
+    "id2": "Impossible de dissoudre tous les Héros !",
+    "id3": "Il y a des Héros {0} parmi la sélection. Voulez-vous les dissoudre ?",
+    "id5": "OK",
+    "id6": "Annuler",
+    "id7": "Veuillez sélectionner le Héros à réincarner !",
+    "id8": "Il y a des Héros {0} parmi la sélection. Voulez-vous les réincarner ?",
+    "id10": "Dépenser {0} Diamants pour réincarner les Héros sélectionnés ?",
+    "id12": "Veuillez sélectionner les Marques à dissoudre !",
+    "id13": "Il y a des Marques <font color=0xff9046 strokecolor=0xcb1e11>oranges</font> parmi la sélection. Voulez-vous les dissoudre ?",
+    "id15": "Veuillez sélectionner les Marques à réincarner !",
+    "id16": "Il y a des Marques <font color=0xff9046 strokecolor=0xcb1e11>oranges</font> parmi la sélection. Voulez-vous les réincarner ?",
+    "id17": "Dépenser {0} Diamants pour réincarner les Marques sélectionnées ?",
+    "id18": "Veuillez sélectionner les Armes à dissoudre !",
+    "id19": "Il y a des Armes <font color=0xff9046 strokecolor=0xcb1e11>oranges</font> parmi la sélection. Voulez-vous les dissoudre ?",
+    "id20": "Veuillez sélectionner les Armes à réincarner !",
+    "id21": "Il y a des Armes <font color=0xff9046 strokecolor=0xcb1e11>oranges</font> parmi la sélection. Voulez-vous les réincarner ?",
+    "id22": "Dépenser {0} Diamants pour réincarner les Armes sélectionnées ?",
+    "id23": "1. All gears, weapons and marks will be returned\n\n2. All Potara Shards, Jade of Potara and Soul of Potara cost for earring upgrade and advance will be returned\n\n3. All Exp Capsules and Breakthrough Capsules spent for hero upgrade and breakthrough will be returned\n\n4. 80% of the energy stone spent on Kiko practice will be returned\n\n5. 80% of Coins cost for growth will be returned\n\n6. Other Heroes cost for Hero Awaken will be returned by Soul Stones\n\n7.80% of Awaken Stones cost for awakening will be returned\n\n8. All Training Pass and Breakthrough Capsules spent on the Limit Breakthrough will be returned, refunding 80% of the Awaken Stones",
+    "id24": "HÉROS",
+    "id25": "MARQUE",
+    "id26": "ARME",
+    "id27": "Veuillez sélectionner le Héros à réincarner !",
+    "id28": "Après la réincarnatione, les équipements, les Pierres d’Âme de Héros, et les ressources seront retournés.",
+    "id29": "Le niveau d’étoiles sera conservé après la réincarnation",
+    "id30": "Veuillez sélectionner le Héros à dissoudre !",
+    "id31": "Trier",
+    "id32": "Retourne les Pierres d’Âme",
+    "id33": "Veuillez sélectionner la Marque à réincarner !",
+    "id34": "Après la réincarnation, les ressources de la fortification et de la promotion seront retournées.",
+    "id36": "Veuillez sélectionner la Marque à dissoudre !",
+    "id37": "Retourne les Pierres Z",
+    "id38": "Veuillez sélectionner l’Arme à réincarner !",
+    "id39": "Veuillez sélectionner l’Arme à dissoudre !",
+    "id40": "Retourne de l’Aurin",
+    "id41": "AIDER",
+    "id42": "Sélectionner les Marques",
+    "id43": "Les Marques de la catégorie exclue ne seront pas sélectionnées",
+    "id44": "Marque Kamé",
+    "id45": "Marque Shin",
+    "id46": "Marque Mo",
+    "id47": "Marque Kai",
+    "id48": "Marque Go",
+    "id49": "Marque Zen",
+    "id50": "Vert",
+    "id51": "Bleu",
+    "id52": "Violet",
+    "id53": "Sélectionner les Héros",
+    "id54": "Les Héros de la catégorie exclue ne seront pas sélectionnés",
+    "id55": "Blanc",
+    "id56": "Sélectionner les Armes",
+    "id57": "Les Armes de la catégorie exclue ne seront pas sélectionnées",
+    "id58": "Sélectionner en un clic",
+    "id59": "Dissoudre",
+    "id60": "Paramètres par défaut",
+    "id61": "Tout Annuler",
+    "id62": "OK",
+    "id63": "Annuler",
+    "id64": "Veuillez sélectionner le Héros Donataire et le Héros Cible",
+    "id65": "La Succession transmettra le Niveau d’Étoiles, le Niveau et la Percée de Limite au Héros",
+    "id66": "Veuillez sélectionner le Héros Donataire",
+    "id67": "Veuillez sélectionner le Héros Cible",
+    "id68": "1. Retourne 100% des Cristaux Z\n\n2. Retourne 80% des Pièces\n\n3. Retourne un pourcentage des Pierres Z en fonction du niveau d’étoiles",
+    "id69": "1. Retourne 100% des Alliages\n\n2. Retourne 80% des Pièces\n\n3. Retourne un pourcentage de l’Aurin en fonction du niveau d’étoiles\n\n4. Retourne 100% des Cristaux Noirs et des armes utilisées pour l’activation et l’amélioration des Auras d’Arme\n\n5. Weapon deification will return the spent Red 0-Star Weapon for the upgrade based on the star level, as well as Coahuilite at a percentage",
+    "id70": "Ce Héros peut procéder à une Succession gratuite actuellement",
+    "id71": "Héros Donataire gratuit cette fois",
+    "id72": "Après la réincarnation d’un Héros sans conserver le niveau d’étoile, les Fragments originaux ne seront pas retournés\nDépenser {0} Diamants pour réincarner les Héros sélectionnés ?",
+    "id73": "Après la réincarnation d’un Héros sans conserver le niveau d’étoile, les Fragments originaux ne seront pas retournés\nIl y a des Héros {0} parmi la sélection. Voulez-vous les réincarner ?",
+    "deid70": "1.2",
+    "id74": "Un ajout d’attribut a déjà été effectué sur la Marque actuelle, la Réincarnation ne retournera pas de Matériel. Continuer ?",
+    "frid75": "30",
+    "frid76": "19",
+    "frid77": "1",
+    "id75": "Impossible de réincarner un Héros résonnant",
+    "id76": "Héros résonnant, impossible de dissoudre",
+    "id77": "Le Héros est en position de résonance, et le statut du Héros résonnant changera après la réincarnation. Confirmer la réincarnation?",
+    "id78": "Le Héros est en position de résonance, et le statut du Héros résonnant changera après la réincarnation. Confirmer la dissolution ?",
+    "id79": "Automatically dissolve drawn purple and lower quality heroes when summoned"
+  },
+  "arenaBattleItem": {
+    "id1": "Puissance: {0}",
+    "id2": "Veuillez déployer votre Formation de Défense"
+  },
+  "arenaMain": {
+    "id1": "Puissance: {0}",
+    "id2": "Limite d’achat atteinte",
+    "id3": "1. Les récompenses du Tenka Ichi Budōkai seront calculées à 21h00 tous les jours\n2. Lorsque vous atteignez un nouveau record historique, vous pouvez collecter de superbes récompenses de phase\n 3. Les chances d’attaque seront réinitialisées à 5 à 6h00 tous les jours",
+    "id4": "Puissance",
+    "id5": "Classement",
+    "id6": "Nom du Personnage",
+    "id7": "Niveau",
+    "id8": "Chances de Défi Restantes:",
+    "deid9": "24",
+    "deid10": "20",
+    "deid11": "21"
+  },
+  "arenaMainViewData": {
+    "id1": "{0} a vaincu {1}",
+    "id2": ", et il a atteint le rang {0} du Budōkai",
+    "id4": ", se hissant à la 1ère place",
+    "id5": "Limite d’achat atteinte",
+    "id6": "Acheter <font color={0}>{1} chances de Budōkai</font> nécessite\n<font color={2}>{3}</font> Diamants. Continuer ?"
+  },
+  "arenaMyTeam": {
+    "id1": "Seulement une partie des Héros possèdent une Super Ultime\n\n\n\nLes Super Compétences Ultimes se déverrouillent et s’améliorent avec l’Affinité\n\n\n\nLors du déploiement des Héros avec une Super Ultime, leur Super Ultime sera aussi déployée dans la bataille\n\n\n\nVous pouvez faire glisser pour ajuster la séquence des Super Compétences Ultimes déclenchées dans la bataille",
+    "id2": "Ajuster la Formation"
+  },
+  "arenaRecordList": {
+    "id1": "-A l’instant-",
+    "id2": "-Il y a 10 min-",
+    "id3": "-Il y a 30 min-",
+    "id4": "-Il y a 1 heure-",
+    "id5": "-Aujourd’hui-",
+    "id6": "-Hier-",
+    "id7": "-Il y a quelques jours-",
+    "id9": "Rang"
+  },
+  "arenaRewardTips": {
+    "id1": "Rang d’Hier: Aucun",
+    "id2": "Rang d’Hier: {0}",
+    "id3": "Règlement effectué tous les jours à 22h00",
+    "id4": "Récompense de Règlement Quotidienne",
+    "id5": "Collecter",
+    "deid6": "20",
+    "krid7": "26",
+    "frid8": "20"
+  },
+  "arenaRewardTipsViewData": {
+    "id1": "Phase de Classement Actuelle {0}",
+    "id3": "Phase de Classement Actuelle {0}+",
+    "id4": "Phase de Classement Actuelle {0}-{1}"
+  },
+  "battleEnemyLineUp": {
+    "id1": "Puissance Nécessaire: {0}",
+    "id2": "-1",
+    "deid3": "0.8"
+  },
+  "battleStart": {
+    "id1": "Puissance Nécessaire: {0}",
+    "id2": "Les Héros avec le même nom ne peuvent pas être déployés en même temps\nLes Héros avec le même nom peuvent être utilisés pour l’Éveil Avancé",
+    "id3": "Déploiement complet",
+    "id4": "Seuls les Héros Niv.{0} ou supérieur peuvent être déployés",
+    "id7": "Les Héros morts ne peuvent pas participer à la bataille",
+    "id8": "Veuillez sélectionner le Héros à déployer",
+    "id9": "Veuillez suivre le guide et terminer le déploiement !",
+    "id10": "Seulement une partie des Héros possèdent une Super Ultime\n\n\n\nLes Super Compétences Ultimes se déverrouillent et s’améliorent avec l’Affinité\n\n\n\nLors du déploiement des Héros avec une Super Ultime, leur Super Ultime sera aussi déployée dans la bataille\n\n\n\nVous pouvez faire glisser pour ajuster la séquence des Super Compétences Ultimes déclenchées dans la bataille",
+    "id11": "- Seuls les Héros Niv.40 ou supérieur peuvent être déployés -",
+    "deid12": "1",
+    "frid13": "25",
+    "id12": "Un Héros résonnant ne peut être déployé qu’en un exemplaire",
+    "id13": "Il y a des Héros qui résonnent les uns avec les autres dans l'équipe. Veuillez d’abord les rappeler.",
+    "id14": "Le Héros est déjà dans une autre équipe",
+    "id15": "La formation de défense ne peut être sauvegardée qu'une fois toutes les 1 minute. Veuillez réessayer plus tard.",
+    "id16": "La formation d’équipe n'est pas encore complète. Êtes-vous sûr de vouloir la sauvegarder ?",
+    "id17": "Il y a une équipe avec une formation. Impossible de la sauvegarder.",
+    "id18": "Il y a encore une Super Compétence Ultime qui peut être déployée. Êtes-vous sûr de vouloir sauvegarder ?",
+    "id19": "OK",
+    "id20": "Annuler",
+    "id21": "Il y a une équipe avec une formation. Déploiement impossible.",
+    "id22": "La formation d’équipe n'est pas encore complète. Êtes-vous sûr de vouloir la déployer ?",
+    "id23": "Il y a encore une Super Compétence Ultime qui peut être déployée. Êtes-vous sûr de vouloir déployer la formation ?"
+  },
+  "beanToHero": {
+    "id1": "Héros sélectionnés pour la renaissance: {0}",
+    "id2": "PV du Héros déjà au max",
+    "id3": "Veuillez sélectionner le Héros à ressusciter",
+    "id4": "Senzus insuffisants",
+    "id5": "Ressusciter",
+    "id6": "Coûte",
+    "id7": "Ressusciter",
+    "deid8": "35"
+  },
+  "bossPanel": {
+    "id1": "Déverrouillé au Niv.{0}",
+    "id2": "Chance(s):",
+    "id3": "Déverrouillé {0} jours après l’ouverture du serveur",
+    "id4": "Aucun Donjon d’Équipe actuellement, restez à l’écoute",
+    "id5": "Déverrouillé au Niv.18",
+    "enid6": "26"
+  },
+  "qiangDiDamagePage": {
+    "id1": "En Ligne"
+  },
+  "qiangDiMain": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "Acheter <font color={0}>{1} chance(s) de défi de Boss</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?",
+    "id3": "En Approche",
+    "id4": "",
+    "id5": "No.1:",
+    "id6": "Mon Rang:",
+    "id7": "·3 Boss arriveront tour à tour, et tous les joueurs du serveur pourront les attaquer\n\nLes récompenses sont attribuées en fonction du classement de dégâts après que le Boss ait été vaincu\n\nUn nouveau Boss apparaîtra après que les 3 Boss aient été vaincus",
+    "id8": "·Permanent",
+    "id9": "·Aucun",
+    "id10": "·Après avoir tué chaque Boss, les récompenses seront envoyées par mail en fonction de votre classement de dégâts\n\nLe règlement des récompenses nécessite un certain temps",
+    "deid11": "29",
+    "deid12": "26",
+    "deid13": "20",
+    "krid14": "26",
+    "viid15": "30"
+  },
+  "ShaLuFastSetBattleTeam": {
+    "id1": "Formation vide, veuillez la modifier",
+    "id2": "Confirmer la Formation de Défi",
+    "id3": "- La Séquence de Combat peut être modifiée à tout moment -",
+    "id4": "Modifier la Formation",
+    "id5": "Confirmer la Formation",
+    "deid6": "36",
+    "deid7": "21",
+    "deid8": "25",
+    "id13": "Il y a des Héros qui résonnent les uns avec les autres dans l'équipe. Veuillez d’abord les rappeler."
+  },
+  "shaLuSetBattleTeam": {
+    "id2": "Les Héros du même nom ne peuvent pas être déployés en même temps !",
+    "id3": "Déploiement complet ! 10 membres maximum autorisés !",
+    "id4": "Formation vide, veuillez la modifier",
+    "id5": "Modifier la Formation",
+    "id6": "Confirmer la Formation",
+    "frid7": "32",
+    "id12": "Un Héros résonnant ne peut être déployé qu’en un exemplaire",
+    "id13": "Il y a des Héros qui résonnent les uns avec les autres dans l'équipe. Veuillez d’abord les rappeler."
+  },
+  "strongBossListItem": {
+    "id1": "Vacant",
+    "id2": "Non listé",
+    "id3": "Le Boss n’est pas encore arrivé",
+    "deid4": "Mon Rang:{0}"
+  },
+  "shaLuAwardPageViewData": {
+    "id1": "No."
+  },
+  "shaLuGameViewData": {
+    "id1": "Cell (Niv.{0})",
+    "id3": "Cell Jr No.{0} (Niv.{1})"
+  },
+  "ShaLuPassSuccessViewData": {
+    "id1": "Étape {0} du Cell Game réussie !",
+    "id2": "Vous avez terminé le Cell Game,\nrevenez demain !",
+    "id3": "Les récompenses collectables chaque jour augmentent",
+    "id4": "(Prend effet le jour suivant)",
+    "frid5": "35"
+  },
+  "bossFightingListItem": {
+    "id1": "",
+    "id2": "Aucun",
+    "id3": "(Niv.{0})",
+    "id4": "En train de participer",
+    "id8": "Déverrouillé au Niv.{0} !",
+    "id9": "Participants:",
+    "id10": "Compte à rebours de renaissance",
+    "id11": "Ouvrir",
+    "frid12": "18",
+    "viid13": "35"
+  },
+  "BossFightingPanel": {
+    "id1": "Limite d’achat atteinte",
+    "id2": "Acheter <font color={0}>{1} chance(s) de défi de Boss</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?",
+    "id3": "1. Différents Boss ont des temps de réapparition différents\n\n2. Les Boss réapparaîtront seulement entre 9h00 et 22h00 tous les jours\n\n3. Le premier joueur à participer à la Compétition de Boss deviendra automatiquement le Possesseur du Boss\n\n4. Le joueur qui bat le Possesseur original devient le nouveau possesseur\n\n5. Après avoir tué un Boss, les récompenses seront calculées en fonction du classement de dégâts et de la possession et seront envoyées par mail\n\n6. Un joueur ne peut pas défier le même joueur plus de 3 fois consécutives"
+  },
+  "BossFightMain": {
+    "id1": "Compte à rebours de renaissance:",
+    "id2": "Rafraîchissement... ({0})",
+    "id4": "Renaissance... ({0})",
+    "id5": "1. Tuez le Boss avec tous les joueurs du Serveur\n\n2. Les chances sont consommées seulement quand les joueurs confirment leur participation à la Compétition de Boss, aucune chance n’est consommée pour une bataille en attente\n\n\n3. Le premier joueur à vaincre le Boss deviendra son possesseur jusqu’à ce qu’il soit vaincu par un autre joueur\n\n\n4.Le joueur qui bat le possesseur deviendra automatiquement le nouveau possesseur\n\n 5. Après avoir tué un Boss, les récompenses seront calculées en fonction du classement de dégâts et de la possession et seront envoyées par mail.\n\n6. Vous ne pouvez pas défier le même joueur plus de 3 fois consécutives. Cependant, si la possession change, vous pouvez le défier à nouveau.",
+    "id6": "Limite d’achat atteinte",
+    "id7": "Acheter <font color={0}>{1} chance(s) de défi de Boss</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?",
+    "id10": "Participe déjà à la compétition d’un autre Boss",
+    "id11": "Veuillez d’abord participer à la Compétition de Boss",
+    "id12": "Les récompenses seront envoyées par mail au possesseur qui a tué le Boss",
+    "id13": "Personne n’est en train de défier ce Boss",
+    "id14": "Personne n’a obtenu la possession du Boss",
+    "id15": "Dégâts",
+    "id16": "Double Récompense d'Événement",
+    "id17": "Combat Auto",
+    "id18": "Impossible de défier le même joueur plus de {0} fois",
+    "id19": "Les récompenses seront envoyées par mail en fonction du Classement de Tuerie du Boss",
+    "viid20": "28"
+  },
+  "chapterMain": {
+    "id1": "Déverrouillé après avoir terminé le mode Normal !",
+    "id2": "Déverrouillé après avoir terminé le mode Difficile !",
+    "id3": "{0}",
+    "id4": "Récompenses collectées !",
+    "id5": "Déverrouillé après avoir terminé le mode Cauchemar !",
+    "viid6": "-18"
+  },
+  "chatMain": {
+    "id1": "Appuyer pour entrer...",
+    "id2": "Veuillez rejoindre un Clan",
+    "id3": "Vous parlez trop rapidement...",
+    "id4": "Le nombre de caractères ne peut pas dépasser {0}",
+    "id5": "Aucun nouveau message",
+    "id6": "Monde",
+    "id7": "Système",
+    "id8": "Clan",
+    "id9": "Envoyer",
+    "id10": "Système de chat fermé"
+  },
+  "chatMainViewData": {
+    "id1": "Annonce du Système"
+  },
+  "counterpartBuyTips": {
+    "id1": "Limite d’achat atteinte",
+    "id5": "Équipement",
+    "id6": "Percée",
+    "id7": "EXP",
+    "id8": "Marque",
+    "id9": "Alliage",
+    "id10": "Cristal Z",
+    "id11": "Acheter <font color={0}>{1} chances de Donjon {2}</font>\nnécessite <font color={3}>{4} {5}</font>. Continuer ?"
+  },
+  "counterpartChooseLevel": {
+    "id1": "Étape {0}",
+    "id2": "Nécessite Niv.",
+    "id3": "Veuillez terminer l’étape précédente",
+    "id4": "Niveau insuffisant"
+  },
+  "counterpartMain": {
+    "id1": "Déverrouillé au Niv.{0}",
+    "id2": "Rafraîchi tous les jours à 6h00",
+    "id3": "Chances de Donjon:"
+  },
+  "equipmentCounterpart": {
+    "id1": "1. Les joueurs ont 2 chances de défi par jour\n\n\n2. Réussir un défi consomme une chance, mais échouer n’en consomme pas\n\n\n3. Les joueurs avec un Niveau VIP plus élevé peuvent acheter plus chances de défi"
+  },
+  "equipmentCounterpartList": {
+    "id1": "Déverrouillé au Niv.{0}"
+  },
+  "resourceCounterpart": {
+    "id1": "1. Les joueurs ont 2 chances de défi par jour\n\n\n2. Réussir un défi consomme une chance, mais échouer n’en consomme pas\n\n\n3. Les joueurs avec un Niveau VIP plus élevé peuvent acheter plus chances de défi",
+    "id2": "Chances Restantes",
+    "id3": "-10",
+    "id4": "-11",
+    "id5": "0.5",
+    "deid6": "10",
+    "deid7": "26"
+  },
+  "signetCounterChooseLevel": {
+    "id1": "Étape {0}",
+    "id2": "Déjà à la première étape",
+    "id3": "Veuillez terminer l’étape précédente",
+    "id4": "Niveau insuffisant",
+    "id5": "Nécessite Niv.{0}",
+    "frid6": "20"
+  },
+  "signetCounterpart": {
+    "id1": "1. Les joueurs ont 2 chances de défi par jour\n\n\n2. Réussir un défi consomme une chance, mais échouer n’en consomme pas\n\n\n3. Les joueurs avec un Niveau VIP plus élevé peuvent acheter plus chances de défi",
+    "id2": "Ouverture: Lundi, Mercredi, Vendredi, Dimanche",
+    "id3": "Ouverture: Mardi, Jeudi, Samedi, Dimanche",
+    "id4": "26",
+    "deid5": "30"
+  },
+  "signetCounterpartViewData": {
+    "id1": "{0}/{1}"
+  },
+  "dragonDisplace": {
+    "id1": "1. Le remplacement des Héros permet de remplacer un Héros orange par un autre Héros orange aléatoire\n\n\n\n2. Seuls les Héros allumés peuvent être remplacés\n\n\n\n3. Certains Héros sont allumés par défaut\n\n\n\n4. Lorsque le joueur obtient un Héros, il sera allumé dans le Bassin de Remplacement"
+  },
+  "dragonPromise": {
+    "id1": "Nécessite VIP",
+    "id2": "1. En collectant 7 Dragon Balls différentes, vous pouvez faire 1 vœu\n\n\n\n2. Le vœu de Dragon Ball permet au joueur de choisir un Héros à l’intérieur du Puits à Vœu et de l’obtenir directement",
+    "id3": "There is no more Dragon Ball to add",
+    "id4": "You have placed in all dragon balls needed. You can make a wish now!"
+  },
+  "dragonPromiseEnd": {
+    "id1": "La qualité du Héros de replacement actuel est inférieure à celle du Héros remplacé. Êtes-vous sûr de vouloir le conserver ?",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Abandonner",
+    "id5": "Enregistrer"
+  },
+  "earringEvolve": {
+    "id1": "Nécessite Héros Niv.{0}",
+    "id2": "Avancer les Boucles d’Oreilles",
+    "id3": "(Restant",
+    "id4": "Avancer",
+    "deid5": "24",
+    "id5": "Requires player at Lv. {0}",
+    "deid6": "27"
+  },
+  "earringInfo": {
+    "id1": "Améliorer",
+    "id2": "Avancer",
+    "deid3": "50"
+  },
+  "EarringIntensify": {
+    "id1": "ATQ"
+  },
+  "entrustBattle": {
+    "id2": "Déploiement complet",
+    "id3": "Ne remplit pas l’exigence de qualité",
+    "id4": "Un ami ne peut en déployer qu’un seul",
+    "id5": "Vous ne pouvez aider dans une bataille qu’une fois par jour",
+    "id6": "Les Héros de votre ami ont été aidés 10 fois aujourd’hui, impossible d’offrir plus d’aide",
+    "id7": "Le Héros ne remplit pas l’exigence de niveau",
+    "id8": "Le type de Héros ne correspond pas",
+    "id9": "Difficulté de Quête",
+    "id10": "Aucun Héros correspondant aux exigences de déploiement",
+    "id11": "Déploiement en un clic",
+    "id12": "Mon Héros",
+    "id13": "Aider",
+    "deid14": "27",
+    "id15": "Complété"
+  },
+  "entrustBook": {
+    "id1": "Si les commissions des récompenses non collectées >=20, \nl’actualisation quotidienne automatique s’arrêtera. Veuillez collecter vos récompenses à temps !",
+    "id2": "Quête de Commission",
+    "id3": "Coût:",
+    "id4": "(Note: les nouvelles commissions disparaîtront le jour suivant à 6h00)"
+  },
+  "entrustChooseSupportHero": {
+    "id1": "Veuillez sélectionner un Héros",
+    "id2": "Aucun Héros matériel correspondant",
+    "id3": "Veuillez sélectionner un Héros pour aider",
+    "deid4": "26"
+  },
+  "entrustHeroListItem": {
+    "id1": "Utilisé",
+    "id2": "Déjà prêtés",
+    "id3": "l{0}/{1}"
+  },
+  "entrustListItem": {
+    "id1": "{0} h",
+    "id2": "Dépenser {0} Diamants pour accélérer\n et terminer cette commission ?",
+    "id3": "Récompense de Commission:",
+    "id4": "Voir",
+    "id5": "Accélérer",
+    "id6": "Terminer",
+    "deid7": "25",
+    "deid8": "28",
+    "frid9": "23",
+    "deid10": "30",
+    "viid9": "30",
+    "frid11": "20"
+  },
+  "entrustMain": {
+    "id1": "1. Les commissions sont rafraîchies tous les jours à 6h00\n\n2. Les commissions ajouté en utilisant une Lettre de Commission disparaîtront à 6h00 le jour suivant\n\n3. Les joueurs VIP peuvent augmenter la quantité de commissions rafraîchies quotidiennement\n\n4. La limite de Quêtes de Commission est de 20",
+    "id2": "Toutes les commissions ont été terminées aujourd’hui",
+    "id3": "Quick Dispatch",
+    "id4": "There are no commissionable quest",
+    "viid3": "1",
+    "id5": "Quick Dispatch"
+  },
+  "entrustMainViewData": {
+    "id1": "Dépenser {0}{1} pour relancer aléatoirement les commissions qui ne sont pas en progression ? ({2} au total)"
+  },
+  "entrustSupport": {
+    "id1": " 1. Vous obtiendrez une récompense chaque fois que votre Héros d’Assistance est utilisé par l’un de vos amis\n\n2. Les Récompenses d’Assistance peuvent être cumulées jusqu’à 50\n\n3. Aucune récompense supplémentaire ne sera attribuée lorsque vous en aurez 50 en stock, veuillez les collecter à temps",
+    "id2": "Collecter",
+    "frid3": "22",
+    "viid4": "164",
+    "viid5": "1"
+  },
+  "entrustSupportViewData": {
+    "id1": "Votre ami ",
+    "id2": " a utilisé votre Héros d’Assistance,",
+    "id3": ">mais vous avez déjà 50 récompenses non collectées. Impossible d’en obtenir d’autres</font>",
+    "id4": "vous recevez la récompense <font color=",
+    "id5": "Chance d’assistance quotidienne épuisée"
+  },
+  "applyForFriendListItem": {
+    "id1": "Limite de nombre d’amis atteinte, impossible d’ajouter plus d’amis !"
+  },
+  "friendFind": {
+    "id1": "Entrez le Nom ou l’ID du Joueur",
+    "id2": "Ne peut pas être vide !",
+    "id3": "Impossible de vous ajouter vous-même !",
+    "id4": "Aucun joueur trouvé !",
+    "id5": "Envoyer une demande",
+    "id6": "Demande d’Ami envoyée",
+    "deid7": "28"
+  },
+  "friendInfo": {
+    "id1": "Supprimer cet ami ?",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Infos de l’Ami",
+    "id5": "FORMATION",
+    "id6": "Duel",
+    "id7": "Envoyer un Mail",
+    "id8": "Demande d’Ami envoyée !",
+    "deid9": "Votre Ami n’a pas encore défini sa Formation d’Arène",
+    "deid10": "30",
+    "id11": "Add to Blacklist",
+    "id12": "Confirm to remove {0} from the blacklist?",
+    "id13": "Info",
+    "id14": "Added to Blacklist",
+    "id15": "Are you sure you want to blacklist {0}?",
+    "deid16": "30"
+  },
+  "friendMainListItem": {
+    "id1": "Limite quotidienne d’envoi de Cœurs de {0}",
+    "id3": "Limite quotidienne de collecte de Cœurs de {0}"
+  },
+  "attrChangeShow": {
+    "id1": "{0} augmente",
+    "id2": "{0} diminue"
+  },
+  "equipChange": {
+    "id1": "Ensemble(2)",
+    "id2": "Ensemble(3)",
+    "id3": "Ensemble(4)",
+    "id4": "- Équipé -",
+    "id5": "Changer",
+    "frid6": "16",
+    "frid7": "18"
+  },
+  "heroBagUpgrade": {
+    "id1": "Dépenser {0} Diamants pour augmenter la taille du Sac à Dos du Héros ?",
+    "id2": "Augmenter la taille du Sac à Dos ?",
+    "id3": "OK",
+    "id4": "Astuce"
+  },
+  "heroLimitEvolveSuccess": {
+    "id1": "Limite du Niv.{0} de Percée atteinte",
+    "id2": "Percée Réussie",
+    "id3": "Limite de Niveau",
+    "id4": "Evolved Successfully"
+  },
+  "heroList": {
+    "id1": "Niveau max du Sac à Dos atteint !",
+    "id2": "Rang",
+    "id3": "Niveau",
+    "id4": "Puissance",
+    "id5": "Aucun Fragment de Héros",
+    "deid6": "16",
+    "id6": "Aktuell wurde noch keine schnelle Formation eingestellt"
+  },
+  "heroMainEquip": {
+    "id1": "Emplacement d’Arme déverrouillé à Joueur Niv.{0} ",
+    "id2": "Emplacement de Boucles d’Oreilles déverrouillé à Joueur Niv.{0} ",
+    "id3": "Détails",
+    "id4": "L'équipement, les armes et les boucles d'oreilles du Héros résonnant sont les mêmes que ceux du Héros principal"
+  },
+  "heroMainInfo": {
+    "id1": "Nécessite l’Éveil du Héros !",
+    "id2": "Niveau max du Héros atteint",
+    "id4": "Amélioration impossible. Veuillez éveiller le Héros pour pouvoir le promouvoir !",
+    "id5": "Impossible de cultiver les Héros dans la Machine Dimensionnelle",
+    "id6": "Nécessite d’améliorer la Machine Dimensionnelle",
+    "id7": "PV",
+    "id8": "ATQ",
+    "id9": "DEF",
+    "id10": "VIT",
+    "id11": "Détails",
+    "id12": "Percée impossible. Veuillez éveiller le Héros pour pouvoir le promouvoir !",
+    "deid13": "0.45",
+    "deid14": "30",
+    "frid15": "1",
+    "viid16": "1"
+  },
+  "heroMainLimitEvolve": {
+    "id1": "Déverrouillé lorsque l’Éveil du Héros atteint {0} étoiles !!",
+    "id3": "Déverrouillé après avoir amélioré le Héros au Niv.{0} !!",
+    "id5": "Percée de limite au niveau max !!",
+    "id6": "ATQ de Base",
+    "id7": "PV de Base",
+    "id8": "Fragments de Héros insuffisants pour la Percée",
+    "id9": "(Restant",
+    "id10": "Coût Matériel",
+    "id11": "Détails",
+    "deid12": "0",
+    "id12": "Le niveau de Percée de Limite du Héros résonnant est le même que celui du Héros principal",
+    "id13": "Players can continue to upgrade after reaching level 200!!",
+    "deid14": "16",
+    "id14": "Confirm to cost {0} Diamonds to reset Team Training?"
+  },
+  "heroMainSkill": {
+    "id1": "Exigences non remplies, impossible d’activer le Potentiel",
+    "id2": "Nécessite que le Héros atteigne le Niv.{0} avant de pouvoir continuer à l’améliorer !",
+    "id3": "Détails"
+  },
+  "heroMainWakeUp": {
+    "id1": "Matériel d’Éveil insuffisant",
+    "id2": "Impossible d’éveiller les Héros de qualité Verte ou inférieure",
+    "id3": "Qualité augmentée",
+    "id4": "Niveau de Compétence augmenté",
+    "id5": "Coût Matériel",
+    "id6": "Détails",
+    "id7": "Limite de Niveau augmentée:",
+    "id8": "PV de Base",
+    "id9": "ATQ de Base",
+    "id10": "Attribut augmenté",
+    "id11": "Qualité",
+    "id12": "Limite de niveau d’Éveil de Héros atteinte !!",
+    "id13": "Plafond",
+    "id14": "Niveau max!",
+    "id15": "Limite de niveau atteinte:",
+    "deid16": "0.7",
+    "frid1": "30",
+    "frid2": "23",
+    "frid3": "22",
+    "deid17": "0.35"
+  },
+  "heroPotentailListItem": {
+    "id1": "Exigences non remplies, impossible d’activer le Potentiel",
+    "id2": "Nécessite que le Héros atteigne le Niv.{0} avant de pouvoir continuer à l’améliorer !"
+  },
+  "HeroSperSkillInfo": {
+    "id1": "Ce Héros n’a pas de Super Ultime !",
+    "id2": "Ce Héros n’a pas de Potentiel !",
+    "id3": "POTENTIEL",
+    "id4": "Exigences d’Activation:",
+    "id5": "Allumer",
+    "id6": "Illustration"
+  },
+  "heroStampSuitTip": {
+    "id1": "Kamé",
+    "id2": "Shin",
+    "id3": "Mo",
+    "id4": "Kai",
+    "id5": "Go",
+    "id6": "Zen",
+    "id7": "Attribut d’Ensemble de Marque",
+    "frid8": "25"
+  },
+  "heroSuperSkillListItem": {
+    "id1": "Super Ultime bientôt disponible !"
+  },
+  "HeroAttributeDetailsViewData": {
+    "id1": "PV",
+    "id2": "ATQ",
+    "id3": "DEF",
+    "id4": "VIT",
+    "id5": "Toucher",
+    "id6": "Esquive",
+    "id7": "Taux de Blocage",
+    "id8": "Effet de Blocage",
+    "id9": "Dégâts de Compétence",
+    "id10": "Dégâts de Super Ultime",
+    "id11": "TAUX CRIT",
+    "id12": "RES CRIT",
+    "id13": "Dégâts Critiques",
+    "id14": "Brise-Défense",
+    "id15": "Réduction des Dégâts",
+    "id16": "Immunité au Contrôle",
+    "id17": "Soin Reçu/Effet de Bouclier",
+    "id18": "Armure",
+    "id19": "Soin/Effet de Bouclier",
+    "id20": "Effet de Bouclier",
+    "id21": "Augmentation des Dégâts",
+    "id22": "Réduction des Dégâts",
+    "id23": "Qualité"
+  },
+  "heroLimitEvolveSuccessViewData": {
+    "id1": "Niv.{0}"
+  },
+  "heroMainAttributeViewData": {
+    "id1": "(Taux de Réduction des Dégâts grâce à la DEF {0}%)",
+    "id2": "(Taux de Réduction des Dégâts grâce à l’Armure {0}%)",
+    "deid3": "17"
+  },
+  "heroMainLimitEvolveViewData": {
+    "id1": "ATQ",
+    "id2": "PV"
+  },
+  "breakTotalAttrListItem": {
+    "krid1": 17
+  },
+  "heroMainStampViewData": {
+    "id1": "Pas d’Attribut d’Ensemble",
+    "id2": "Kamé +",
+    "id3": "Shin +",
+    "id4": "Mo +",
+    "id5": "Kai +",
+    "id6": "Go +",
+    "id7": "Zen +"
+  },
+  "heroMainWakeUpViewData": {
+    "id1": "Niv.{0}"
+  },
+  "heroStampSuitTipViewData": {
+    "id1": "Ensemble {0}",
+    "id2": "6 Marques {0} ont atteint {1} étoiles",
+    "id5": "Attributs de l’Ensemble Désactivés",
+    "id6": "Niveau de l’Ensemble +{0}",
+    "id7": "Aucun",
+    "id8": "Kamé",
+    "id9": "Shin",
+    "id10": "Mo",
+    "id11": "Kai",
+    "id12": "Go",
+    "id13": "Zen"
+  },
+  "heroWakeUpSuccessViewData": {
+    "id1": "ATQ de Base +",
+    "id2": "PV de Base +",
+    "id3": "DEF de Base +",
+    "id4": "VIT +",
+    "id5": "Niv.{0}"
+  },
+  "heroWakeUpChose": {
+    "id1": "sélectionner un Héros Voyageur",
+    "id2": "sélectionner un Fragment de Héros Matériel",
+    "id3": "sélectionner un Héros Matériel",
+    "id4": "Seuls les Héros orange peuvent effectuer un Voyage Spatio-Temporel",
+    "id5": "Nombre max de Héros Matériels atteint",
+    "id6": "Matériel de Fragment insuffisant !",
+    "id7": "Vous ne pouvez sélectionner qu’un seule type de Matériel de Fragment",
+    "id8": "Ce Héros est déployé dans la Formation de l’Histoire. Déverrouiller ?",
+    "id9": "OK",
+    "id10": "Annuler",
+    "id11": "Démanteler ce Héros pour obtenir des Fragments ?",
+    "id12": "Veuillez sélectionner un Héros",
+    "id13": "Aucun Héros correspondant",
+    "id14": "Tout le matériel d’amélioration du Héros consommé sera retourné",
+    "id15": "Exigences de Héros: 0 étoiles Niv.1, avec aucun Héros du même amélioré",
+    "id16": "Les Héros SS et SSS avec 3 étoiles peuvent procéder à la Succession, allez en cultiver !",
+    "id17": "Sélectionner le Héros Donataire",
+    "id18": "Sélectionner le Héros Cible",
+    "id19": "Vous ne pouvez sélectionner qu’un Héros Donataire à la fois",
+    "id20": "Vous ne pouvez sélectionner qu’un Héros Cible à la fois",
+    "id21": "Aucun Héros correspondant",
+    "deid22": "27",
+    "id24": "Veuillez sélectionner le Héros principal",
+    "id25": "Exigence de Héros : Héros SS de niveau supérieur à 1",
+    "id26": "Veuillez sélectionner le Héros de Résonance",
+    "id27": "Hero Requirement: The Lv. 1 Hero with the same quality as the primary hero. And there is no hero of the same name that has been upgraded",
+    "id30": "Impossible de réincarner un Héros résonnant",
+    "id31": "Le Héros est en position de résonance, et le statut du Héros résonnant changera après la réincarnation. Confirmer la réincarnation?",
+    "id32": "Le Héros est déployé dans le Cell Game et ne peut pas procéder à la Résonance.",
+    "id33": "Après la succession du Héros, son statut de Héros résonnant changera également. Confirmer ?",
+    "enid34": "19"
+  },
+  "StampWear": {
+    "id1": "Attribut: Tout",
+    "id2": "Attribut: Personnalisé",
+    "id3": "Ensemble: Tout",
+    "id4": "Ensemble: Kamé",
+    "id5": "Ensemble: Shin",
+    "id6": "Ensemble: Mo",
+    "id7": "Ensemble: Kai",
+    "id8": "Ensemble: Go",
+    "id9": "Ensemble: Zen",
+    "id10": "Trier:",
+    "id11": "Aucune marque trouvée",
+    "id12": "Sac à Dos de Marque",
+    "id13": "Niveau max !",
+    "id14": "- Équipé -",
+    "id15": "Attribut: ATQ",
+    "id16": "Équiper",
+    "id17": "Changer"
+  },
+  "suitAttrDetalListItem": {
+    "id1": "Activé",
+    "id2": "(Désactivé)",
+    "deid3": "20"
+  },
+  "home": {
+    "id1": "{0}/h",
+    "id2": "Efficacité du VIP{0} +{1}%",
+    "id4": "Nécessite Niv.{0}",
+    "id5": "Veuillez d’abord terminer l’Histoire {0} avant de continuer vers la prochaine étape !",
+    "id7": "[Histoire]",
+    "id8": "Quête déverrouillée au <font color={0}>Niv.{1}</font> !",
+    "id9": "Vous pourrez collecter la récompense à la fin du compte à rebours",
+    "id10": "Dimanche ",
+    "id11": "Lundi ",
+    "id12": "Mardi ",
+    "id13": "Mercredi ",
+    "id14": "Jeudi ",
+    "id15": "Vendredi ",
+    "id16": "Samedi ",
+    "id17": "-18",
+    "viid18": "-10",
+    "id18": "22",
+    "viid19": "60",
+    "viid20": "0"
+  },
+  "homeGainTips": {
+    "id2": "{0}/h",
+    "id3": "Améliorer à VIP{0} pour augmenter l’Efficacité du Ralenti de {1}%",
+    "id4": "Temps de Ralenti:",
+    "id5": "OK",
+    "id6": "Avantages de Bataille Inter-Serveurs",
+    "frid7": "24"
+  },
+  "homeProfitTips": {
+    "id1": "{0}/h"
+  },
+  "showChooseLevel": {
+    "id1": "{0}-{1}"
+  },
+  "jialintaMain": {
+    "id2": "Limite d'achats quotidienne atteinte !",
+    "id3": "Acheter <font color={0}>{1} Cuisse(s) de Poulet de la Tour Karin</font> nécessite <font color={2}>{3} {4}</font>. Continuer ? (Note: les Cuisses de Poulet sont réinitialisées à 10 tous les jours à 6h00)",
+    "id6": "Acheter <font color={0}>{1} chance(s) d’Escalade de la Tour</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?",
+    "id7": "Ouverture: Du lundi à 9h00 au dimanche à 21h00",
+    "id8": "Ce Tour:",
+    "id9": "+{0}%",
+    "id10": "·Chaque tour de la compétition de la Tour Karin dure 2 jours\n\n·Effectuer l’action “Escalader” ou vaincre l’adversaire permet de monter dans les étages\n\n·A la fin de chaque tour, les récompenses seront calculées et attribuées en fonction du classement du serveur",
+    "id11": "·Chaque tour dure 2 jours et ouvre de manière cyclique",
+    "id12": "·Aucun",
+    "id13": " Au moment du règlement, les récompenses seront calculées en fonction du rang des joueurs dans le classement final du serveur et envoyées par mail\n\n·Lors de la réinitialisation de chaque tour, les Cuisses de Poulet non collectées et les Coffres ne seront pas conservés",
+    "id14": "-7",
+    "id15": "-8",
+    "id16": "0.8",
+    "frid17": "25"
+  },
+  "jialintaEnemyViewData": {
+    "id1": "Étage {0}",
+    "id2": "Zone {0}"
+  },
+  "jialintaMainViewData": {
+    "id1": "Étage {0}",
+    "id3": "No.500+",
+    "id4": "No.{0}"
+  },
+  "jialintaRankPageViewData": {
+    "id1": "Étage {0}"
+  },
+  "towerAllServerRankListItem": {
+    "id1": "Étage {0}"
+  },
+  "towerSelfServerRankListItem": {
+    "id1": "Étage {0}"
+  },
+  "login": {
+    "id1": "Veuillez entrer un nom d’utilisateur",
+    "id2": "Veuillez sélectionner un serveur",
+    "id3": "",
+    "id4": "Appuyer pour entrer le nom du compte",
+    "id5": "Appuyer pour entrer le mot de passe",
+    "id6": "25",
+    "id7": "10",
+    "id8": "\n<font size = 20>审批文号 新广出审【2017】3358号 ISBN 978-7-7979-6838-6\n出版单位:杭州群游科技有限公司 运营单位：万界（上海）网络股份有限公司</font>",
+    "id9": "\n<font size = 20>审批文号 国新出审【2019】517号 \n ISBN 978-7-498-05935-2  软著登记号：2017SR651303</font>"
+  },
+  "mahaAdventure": {
+    "id1": "Le Boss a été tué",
+    "id2": "Prochaine aventure:",
+    "deid3": "116",
+    "deid4": "69"
+  },
+  "mahaAdventureSingleton": {
+    "id1": "Limite d’achat atteinte",
+    "id2": "Acheter <font color={0}>{1} chance(s) de défi de Boss</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?"
+  },
+  "mailListItem": {
+    "id1": "Aujourd’hui",
+    "id2": "{0} Jour(s)",
+    "frid3": "23"
+  },
+  "MailPanel": {
+    "id1": "Supprimer tous les mails lus ? \n",
+    "id2": "(Les mails avec des objets non collectés ne seront pas supprimés)",
+    "id3": "OK",
+    "id4": "Annuler",
+    "id5": "Aucun objet à collecter !",
+    "id6": "Système",
+    "id7": "Amis",
+    "id8": "Annonce",
+    "id9": "Aucun nouveau mail",
+    "id10": "Aucune annonce",
+    "id11": "Collecter en un clic",
+    "id12": "Envoyer un Mail",
+    "deid13": "30"
+  },
+  "marketMain": {
+    "id1": "Nécessite VIP{0}",
+    "id2": "Confirmer le rafraîchissement",
+    "id3": "Rafraîchir",
+    "id4": "Restant",
+    "deid5": "30"
+  },
+  "marketMainViewData": {
+    "id1": "Limite de rafraîchissement atteinte",
+    "id2": "Rafraîchir",
+    "frid3": "26"
+  },
+  "packMain": {
+    "id1": "Sac à Dos d’Équipement vide",
+    "id2": "Sac à Dos de Marque vide",
+    "id3": "Sac à Dos d’Arme vide",
+    "id4": "Sac à Dos de Matériel vide",
+    "id5": "Trier:",
+    "id6": "Aucune marque trouvée",
+    "id7": "Aucune arme trouvée",
+    "id8": "Trier par Ensemble de Marque",
+    "id9": "Les Marques de la catégorie sélectionnée seront affichées dans la liste (Tout Afficher par défaut)",
+    "id10": "Marque Kamé",
+    "id11": "Marque Shin",
+    "id12": "Marque Mo",
+    "id13": "Marque Kai",
+    "id14": "Marque Go",
+    "id15": "Marque Zen",
+    "id16": "Emplacement 1",
+    "id17": "Emplacement 2",
+    "id18": "Emplacement 3",
+    "id19": "Emplacement 4",
+    "id20": "Emplacement 5",
+    "id21": "Emplacement 6",
+    "id22": "Trier par Attribut de Marque",
+    "id23": "Les Marques avec l’attribut sélectionné seront affichées dans la liste (Tout Afficher par défaut)",
+    "id24": "Trier par Attribut d’Arme",
+    "id25": "Les Armes avec l’attribut sélectionné seront affichées dans la liste (Tout Afficher par défaut)",
+    "id26": "Trier par Ensemble",
+    "id27": "Trier par Attribut",
+    "id28": "Tout Sélectionner",
+    "id29": "Tout Annuler",
+    "id30": "OK",
+    "id31": "Annuler",
+    "id32": "ATQ",
+    "id33": "Pourcentage d’ATQ",
+    "id34": "PV",
+    "id35": "Pourcentage de PV",
+    "id36": "DEF",
+    "id37": "Pourcentage de DEF",
+    "id38": "TAUX CRIT",
+    "id39": "Dégâts Critiques",
+    "id40": "RES CRIT",
+    "id41": "Taux de Blocage",
+    "id42": "Toucher",
+    "id43": "VIT",
+    "deid44": "35",
+    "id45": "Type Filter",
+    "id46": "Unable to find the Material you want",
+    "id47": "Unable to find the gear you want"
+  },
+  "SignPieceCompound": {
+    "id1": "La quantité pour la synthétisation ne peut pas être inférieure à 1 !",
+    "id2": "Synthétiser"
+  },
+  "WeaponDebrisCompound": {
+    "id1": "La quantité pour la synthétisation ne peut pas être inférieure à 1 !",
+    "id2": "Synthétiser"
+  },
+  "PadipataMain": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "Acheter <font color={0}>{1} chance(s) d’entraînement</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?",
+    "id3": "Temps de Replay: {0}:{1}:{2}",
+    "id4": "Dépenser 1 point d’entraînement pour continuer la bataille ? (Vous serez complètement restauré, mais pas vos ennemis)",
+    "id5": "Abandonner",
+    "id6": "OK",
+    "id7": "Chances insuffisantes !",
+    "id8": ""
+  },
+  "FeedbackPanel": {
+    "id1": "Le contenu ne peut pas être vide !",
+    "id2": "Envoyé",
+    "id3": "OK"
+  },
+  "RechristenPanel": {
+    "id1": "Le nom ne peut pas être vide !",
+    "id2": "Contient des mots sensibles !",
+    "id3": "Appuyer pour entrer le nom",
+    "id4": "Le nom peut contenir jusqu’à {0} caractères !",
+    "id6": "Confirmer le changement de nom ?",
+    "id7": "Veuillez entrer le nouveau nom",
+    "id8": "Modifier",
+    "id9": "Modifier le Nom",
+    "id10": "Gratuit",
+    "deid11": "35"
+  },
+  "ArenaChooseMain": {
+    "id1": "Déverrouillé au Niv.{0}",
+    "id2": "Rejoignez un Clan dont le niveau est supérieur au Niv.{0}",
+    "id3": "Veuillez d’abord rejoindre un Clan",
+    "id4": "Open on the third Monday from the server launch!",
+    "id5": "Obtenez des Diamants et des effets spéciaux d’avatar !",
+    "id6": "Ouvre le 4ème lundi après le lancement du serveur",
+    "id7": "Chances:",
+    "id8": "Chances:",
+    "id9": "Chances:",
+    "id10": "Chances:",
+    "deid11": "21",
+    "id11": "Déverrouillé {0} jours après l’ouverture du serveur",
+    "id12": "Saison {0} Duel de Sommet ",
+    "id13": "Saison {0} Chances de Défi :",
+    "deid14": "22"
+  },
+  "ShopItemListItem": {
+    "id1": "Stock: {0}",
+    "id2": "Épuisé"
+  },
+  "ShopMain": {
+    "id1": "Aller au Clan",
+    "id2": "Aller à l’Autel",
+    "id3": "Aller au Chemin du Serpent",
+    "id4": "Aller au Budōkai",
+    "id5": "Rafraîchir la Boutique ?",
+    "id6": "{0} Jour(s)",
+    "id7": "{0} Heure",
+    "id8": "{0} Minute",
+    "id9": "{0} Seconde",
+    "id10": "Rafraîchissement auto dans {0}",
+    "id11": "1. La Boutique sera automatiquement rafraîchie après une certaine période de temps\n\n\n2. Le rafraîchissement auto ne consomme pas de ressource\n\n\n3. Le rafraîchissement auto réinitialisera la quantité d’objets dans la Boutique.",
+    "id12": "Rafraîchir",
+    "id13": "Aller au Donjon d’Équipe",
+    "deid13": "28"
+  },
+  "signLevelUp": {
+    "id1": "Fortification",
+    "id2": "Promotion",
+    "id3": "Remodelage",
+    "id4": "Fortification x{0}",
+    "id5": "Impossible de promouvoir. Le Niveau de Marque doit avoir atteint le Niv.{0} !",
+    "id6": "Impossible de promouvoir. Matériel insuffisant !",
+    "id7": "Nécessite Joueur Niv.{0} !",
+    "id8": "Promotion disponible à partir de la Fortification Niv.{0}",
+    "id9": "Niveau max atteint",
+    "id10": "Matériel de Raffinage:",
+    "id11": "(Restant",
+    "id12": "Niveau d’étoiles max atteint",
+    "id13": "Chaque remodelage réinitialisera toutes les entrées et les valeurs d’Attribut",
+    "id14": "Niveau max !",
+    "id15": "Fortification Rapide",
+    "deid16": "25",
+    "deid17": "30",
+    "id18": "Ajouter",
+    "frid19": "20",
+    "frid20": "26",
+    "frid21": "0",
+    "frid22": "18"
+  },
+  "signStarUpChose": {
+    "id1": "Nombre max de Marques Matérielles atteint",
+    "id2": "Doit être réincarné à l’Autel avant de pouvoir être sélectionné en tant que matériel",
+    "id3": "Aucune Marque Matérielle correspondante",
+    "id4": "Veuillez sélectionner une Marque Matérielle",
+    "id5": "La Marque Matérielle doit être de 0 étoiles Niv.1",
+    "deid6": "27"
+  },
+  "signLevelUpViewData": {
+    "id1": "Attr. d’Ens. Niv.{0} disponible",
+    "id2": "Aucun Attribut",
+    "id3": "Après avoir atteint le niveau d’étoile max de la Marque, vous pouvez effectuer des ajouts",
+    "id4": "Veuillez sélectionner les attributs de l’ajout",
+    "id5": "Chaque entrée d’attribut peut être utilisée pour effectuer un ajout\nChaque ajout réinitialisera et gardera les attributs d’ajout les plus élevés"
+  },
+  "snakeBattleLineUp": {
+    "id2": "Les Héros avec le même nom ne peuvent pas être déployés en même temps\nLes Héros avec le même nom peuvent être utilisés pour l’Éveil Avancé",
+    "id3": "Déploiement complet",
+    "id4": "Les Héros morts ne peuvent pas participer à la bataille",
+    "id5": "Seuls les Héros Niv.{0} ou supérieur peuvent être déployés",
+    "id7": "Veuillez sélectionner le Héros à déployer",
+    "id8": "Seulement une partie des Héros possèdent une Super Ultime\nLes Super Compétences Ultimes se déverrouillent et s’améliorent avec l’Affinité\nLors du déploiement des Héros avec une Super Ultime, leur Super Ultime sera aussi déployée dans la bataille\nVous pouvez faire glisser pour ajuster la séquence des Super Compétences Ultimes déclenchées dans la bataille",
+    "id9": "Super Ultime"
+  },
+  "snakeBeanToHero": {
+    "id1": "Héros sélectionnés pour la renaissance: {0}",
+    "id2": "PV du Héros déjà au max",
+    "id3": "Veuillez sélectionner le Héros à ressusciter",
+    "id4": "Senzus insuffisants",
+    "id5": "Ressusciter",
+    "id6": "Aucun Héros disponible pour le déploiement",
+    "id7": "Coûte",
+    "id8": "Ressusciter",
+    "deid9": "35"
+  },
+  "snakeMain": {
+    "id1": "Nécessite VIP{0}",
+    "id2": "Veuillez d’abord collecter la récompense de coffre !",
+    "id3": "Niveau VIP insuffisant !",
+    "id4": "Balayage disponible après avoir terminé le Chemin du Serpent !",
+    "id5": "1. L’Aventure du Chemin du Serpent sera réinitialisée tous les jours à 6h00\n\n\n2. Les récompenses de phase non collectées seront envoyées par mail\n\n\n3. Les Héros morts dans l’Aventure du Chemin du Serpent ne seront plus disponibles dans ce défi\n\n\n4. Après avoir terminé la 10ème Étape, vous pourrez utiliser le Balayage",
+    "deid6": "20",
+    "id7": "Aucune récompense à collecter"
+  },
+  "snakeMainViewData": {
+    "id1": "Pièces du Chemin du Serpent x{0}"
+  },
+  "summaryBossFailViewData": {
+    "id1": "Dégâts Totaux:",
+    "id2": "Rang Actuel:",
+    "id3": "Augmenter de rang nécessite:",
+    "id4": "Activité du Clan:",
+    "id5": "PV du Boss restants:"
+  },
+  "SummaryDefeated": {
+    "id1": "Échec de la Vérification de Bataille",
+    "id2": "Augmentez la Puissance de l’Équipe via l’une des méthodes suivantes",
+    "id3": "Dégâts Totaux:",
+    "id4": "Activité du Clan:",
+    "krid5": "736"
+  },
+  "summonMain": {
+    "id1": "Félicitations ! <font color={0}>{1}</font> a obtenu <font color={2}>{3}</font> Héros <font color={4}>{5}</font>",
+    "id2": "Gratuit dans {0}",
+    "id3": "<font color=0x9EACD2>Invocations x10 rapporte</font> <font color=0x9EACD2>un Héros</font> <font color=0xFF9900>orange</font>",
+    "id6": "Gratuit",
+    "id7": "(15% de réduction)"
+  },
+  "summonTypePage": {
+    "id1": "Dans {0} ",
+    "deid2": "32",
+    "krid3": "72.5",
+    "krid4": "54",
+    "viid1": "0",
+    "viid2": "32",
+    "viid3": "1.25"
+  },
+  "taskItem": {
+    "id1": "Progression de la Quête {0}/{1}",
+    "id2": "Déverrouillé au Niv.{0}",
+    "deid3": "18",
+    "deid4": "17",
+    "frid5": "18",
+    "frid6": "0",
+    "frid7": "17",
+    "krid2": "-4"
+  },
+  "taskMain": {
+    "id2": "{0}",
+    "id3": "{0}{1}",
+    "id4": "Horaire de Rafraîchissement",
+    "enid5": "19",
+    "frid6": "18"
+  },
+  "ApplyForTeamPanel": {
+    "id1": "Autorisation Requise",
+    "id2": "Autorisation Non Requise",
+    "id3": "Niveau≥{0}",
+    "id4": "Exigences de niveau non remplies !",
+    "id5": "Infos du Clan",
+    "id6": "Chef du Clan:",
+    "id7": "Faire une demande",
+    "id8": "Vous avez envoyé une demande",
+    "id9": "Vous avez déjà rejoint un autre Clan",
+    "id10": "Vous êtes déjà dans ce Clan"
+  },
+  "battleForTreasureMain": {
+    "id1": "·Le Niveau du Clan a atteint Niv.{0}",
+    "id2": "Ouverture: du lundi au vendredi de 9h00 à 21h00",
+    "id3": "Exigences d’ouverture:",
+    "id4": "Matériel Pillé:",
+    "id5": "Butin Disponible:",
+    "id6": "Clan Ennemi déjà pillé",
+    "id7": "Temps de Chasse au Trésor Restant:",
+    "id8": "Aucun Journal de Clan",
+    "id9": "· Le Clan doit contenir au moins 10 défenseurs avant l’appariement à 0h00",
+    "id10": "· Plus de 4 Clans remplissent les 2 exigences ci-dessus",
+    "deid11": "20"
+  },
+  "bossDetalListItem": {
+    "id1": "Le Boss a été vaincu",
+    "id2": "Boss Verrouillé",
+    "id3": "Étape",
+    "id4": "",
+    "viid5": "26"
+  },
+  "ConfirmMakeOverCaptain": {
+    "id1": "Veuillez entrer à nouveau “{0}” !",
+    "id3": "Contenu invalide !",
+    "id4": "OK",
+    "id5": "Appuyer pour entrer"
+  },
+  "CreationTeam": {
+    "id1": "Le nom du Clan ne peut pas être vide !",
+    "id2": "Contient des mots sensibles !",
+    "id3": "Veuillez entrer un nom de Clan",
+    "id4": "Le nom du Clan ne peut pas dépasser {0} caractères !",
+    "id6": "Le nom du Clan ne peut pas commencer par un nombre !",
+    "id7": "Créer un Clan nécessite VIP{0}",
+    "id8": "(Vous pouvez créer un Clan une fois par jour. Créer un Clan nécessite VIP{0})",
+    "id9": "Entrer le Nom du Clan:",
+    "id10": "Créer",
+    "id11": "Créer un Clan",
+    "deid12": "20",
+    "frid1": "23"
+  },
+  "FindTeam": {
+    "id1": "Le nom ou l’ID du Clan ne peuvent pas être vide",
+    "id2": "Aucun Clan trouvé ! !",
+    "id3": "OK",
+    "id4": "Entrer le nom ou l’ID du Clan",
+    "id5": "Rechercher",
+    "frid1": "23"
+  },
+  "JoinTeam": {
+    "id1": "Tout a été envoyé !",
+    "id2": "Aucun Clan correspondant !",
+    "id3": "Aucun Clan créé !",
+    "deid3": "Aucun Clan créé !"
+  },
+  "SaDanRedPacket": {
+    "id1": "Votre Affinité avec Mr. Satan augmentera chaque fois que vous collectez l’enveloppe rouge. Plus l’Affinité sera élevée, meilleures seront les récompenses de l’enveloppe rouge !"
+  },
+  "saDanRedPacketListItem": {
+    "id1": "Déverrouillé à Clan Niv.{0}",
+    "id2": "Déverrouillé à VIP{0}",
+    "id3": "Déverrouiller",
+    "id4": "Collecter",
+    "deid5": "26"
+  },
+  "signInListItem": {
+    "id1": "Niveau VIP inférieur au Niv.{0}, connexion impossible",
+    "id3": "Dépenser {0} Diamants pour procéder à la connexion ?",
+    "id5": "OK",
+    "id6": "Annuler",
+    "id7": "Vous ne pouvez en sélectionner qu’un pour la connexion chaque jour. Continuer ?",
+    "id8": "EXP du Clan +",
+    "id9": "Activité du Clan +",
+    "id10": "Connexion",
+    "deid11": "22"
+  },
+  "signInRecordListItem": {
+    "id1": "{1}/{0}"
+  },
+  "teamBoss": {
+    "id5": "1. Vous pouvez gagner des Récompenses de Bataille individuelles dans chaque bataille\n\n2. Lorsque le Boss est tué, les Récompenses de Tuerie seront envoyées par mail\n\n3. Les Récompenses de Tuerie sont attribuées en fonction du Classement de Dégâts\n\n4. Le prochain Boss sera déverrouillé après que le Boss précédent ait été tué\n\n5. Une fois le Boss éliminé, le classement de dégâts du Boss sera conservé pendant une journée supplémentaire\n\n6. Vous pouvez obtenir les Récompenses de Tuerie pour avoir participé au combat du BOSS même après avoir quitté l'équipe.",
+    "id6": "Étape",
+    "id7": "Étape",
+    "viid8": "1"
+  },
+  "teamItemListItem": {
+    "id1": "Autorisation Requise",
+    "id2": "Autorisation Non Requise",
+    "id3": "Niveau≥{0}",
+    "id4": "Membres:",
+    "id5": "Autorisation Non Requise",
+    "id6": "Weekly Total Engagement: {0}",
+    "frid7": "18"
+  },
+  "TeamLobby": {
+    "id2": "L’Annonce Interne du Clan ne peut pas être vide !",
+    "id3": "Contient des mots sensibles",
+    "id4": "La description du Clan ne peut pas être vide !",
+    "id5": "Cette fonction est en cours de développement !",
+    "id6": "Seuls le Chef et le Vice-Chef peuvent modifier ceci",
+    "id7": "1. L’Activité totale du Clan sera la somme des Activités hebdomadaire de tous les membres\n\n2. Si un membre quitte le Clan, l’Activité ne sera pas affectée\n\n3. L’Activité du Clan peut être utilisée pour s’inscrire à la Conquête de Dragon Ball\n\n4. Le Chef du Clan peut être empêché s’il ne se connecte pas pendant 72 heures\n\n5. Empêcher le Chef du Clan coûte 50000 Pièces, et après l’empêchement, le membre qui a initié l’empêchement deviendra le nouveau Chef",
+    "id8": "Activité Totale Hebdo: {0}",
+    "id9": "Membre:",
+    "id10": "Annonce Interne",
+    "id11": "Présentation Publique",
+    "id12": "1. Autorisation:",
+    "id13": "2. Limite de Niveau:",
+    "id14": "Niveau du joueur≥",
+    "id15": "Oui",
+    "id16": "Non",
+    "deid17": "30",
+    "deid18": "30",
+    "frid19": "22"
+  },
+  "teamLogListItem": {
+    "id1": "{1}/{0}"
+  },
+  "TeamManageMember": {
+    "id1": "Transférer le Leadership",
+    "id2": "Transférer le Clan",
+    "id3": "Clan Dissous !",
+    "id4": "Dissoudre le Clan",
+    "id5": "Rétrograder le Vice-Chef au grade de membre normal ?",
+    "id6": "OK",
+    "id7": "Annuler",
+    "id8": "Nommer ce membre Vice-Chef ?",
+    "id9": "Vous avez quitté le Clan !",
+    "id10": "Expulser ce membre ?",
+    "id11": "Demande d’Ami envoyée !",
+    "id12": "Dépenser {0} {1} pour empêcher le Chef ? Après l’empêchement, vous deviendrez le nouveau Chef de ce Clan. \n\n(Nécessite VIP{2})",
+    "id13": "Expulser des membres peut vous empêcher de participer à la Chasse au Trésor. Continuer ?",
+    "id14": "Formation",
+    "id15": "Infos de membre",
+    "id16": "Expulser du Clan",
+    "id17": "Renvoyer le Vice-Chef",
+    "id18": "Nommer Vice-Chef",
+    "id19": "Quitter le Clan",
+    "id20": "Empêcher le Chef",
+    "id21": "Envoyer un Mail",
+    "id22": "Transférer le Leadership"
+  },
+  "TeamPanel": {
+    "id1": "Bientôt Disponible !",
+    "id2": "Vous avez rejoint le Clan !",
+    "id3": "Clan créé !",
+    "id4": "Activité Totale Hebdo:",
+    "deid5": "30"
+  },
+  "teamTechnology": {
+    "id1": "ATQ",
+    "id2": "DEF",
+    "id3": "CMP",
+    "id4": "Veuillez d’abord déverrouiller cette technologie !",
+    "id5": "1. Dépensez des Pièces de Clan pour améliorer la technologie et obtenir les attributs.\n\n\n2. Vous pouvez déverrouiller la technologie suivante lorsque les points actuels remplissent les exigences.\n\n\n3. La technologie de Clan restera active même après que vous quittiez le Clan",
+    "deid6": "24"
+  },
+  "techLevelUp": {
+    "id1": "Activer",
+    "id2": "Niveau max atteint !",
+    "id3": "Coûte:",
+    "id4": "OK",
+    "deid5": "35",
+    "deid6": "26",
+    "id5": "Améliorer",
+    "id6": "Tout Améliorer",
+    "viid7": "23"
+  },
+  "techReset": {
+    "id1": ">100% des Pièces du Clan seront retournées après la réinitialisation. Réinitialiser l’arbre technologique de cette page ?(</font><font color=",
+    "id2": "Confirmer la réinitialisation",
+    "id3": "Nécessite:",
+    "id4": "Annuler",
+    "id5": "OK",
+    "frid6": "26"
+  },
+  "treasureDefendSetPage": {
+    "id1": "10 joueurs doivent être assignés pour pouvoir rejoindre la défense",
+    "id2": "Les 10 joueurs ci-dessus participeront à la défense",
+    "id3": "Confirmer l’Ajustement",
+    "frid4": "30"
+  },
+  "treasureEnemyGroupListItem": {
+    "id1": "Chances de Chasse au Trésor insuffisantes",
+    "id2": "Vous avez pillé {0}\nVous avez pillé {1} pour votre Clan",
+    "id3": "\nTous les ennemis ont été vaincus, veuillez revenir à l’étage précédent",
+    "id4": "Butin Restant:",
+    "viid5": "30"
+  },
+  "treasureEnemyListItem": {
+    "id1": "Coffre de Clan Niv.{0}"
+  },
+  "battleForTreasureEnemyViewData": {
+    "id1": "Clan 【{1}】 Niv.{0}"
+  },
+  "battleForTreasureMainViewData": {
+    "id1": "Clan 【{0}】"
+  },
+  "ConfirmMakeOverCaptainViewData": {
+    "id1": "Veuillez entrer à nouveau “{0}”"
+  },
+  "teamTechnologyViewData": {
+    "id1": "Dépensez {0} points au total pour déverrouiller le niveau de technologie suivant"
+  },
+  "techLevelUpViewData": {
+    "id1": "Niveau de technologie maximum atteint",
+    "id2": "Améliorer",
+    "id3": "Nouvelle Technologie",
+    "id4": "Nécessite Joueur Niv.{0}",
+    "id5": "Nécessite {0} - Niveau de Technologie Total Niv.{1}",
+    "id6": "ATQ",
+    "id7": "DEF",
+    "id8": "CMP"
+  },
+  "techResetViewData": {
+    "id1": "Total"
+  },
+  "treasureDefendSetPageViewData": {
+    "id1": "Défense Actuelle",
+    "id2": "Seuls 10 joueurs peuvent être assignés pour pouvoir rejoindre la défense"
+  },
+  "TempleTrial": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "Acheter <font color=",
+    "id3": "Chances d’Épreuve du Temple</font>",
+    "id4": "nécessite <font color=",
+    "id5": ". Acheter ?",
+    "id6": " Épreuve du Temple terminée !",
+    "id7": "  Ceci est la Salle de l’Esprit et du Temps, dans laquelle vous pouvez voyager dans le passé, le présent et le futur pour affronter divers ennemis",
+    "id8": "Chances Restantes",
+    "id9": "AIDER",
+    "id10": "1. Les récompenses de défi peuvent être attribuées 5 fois par jour\n\n\n2. Réussir un défi ne consomme pas de chance, mais échouer en consomme\n\n\n3. Les joueurs avec un Niveau VIP plus élevé peuvent acheter plus de chances de défi",
+    "deid11": "35",
+    "deid12": "25"
+  },
+  "TempleTrialRank": {
+    "id1": "Étage {0}",
+    "id2": "Currently no players on the board"
+  },
+  "trialRankListItem": {
+    "id1": "Étage {0}",
+    "deid2": "1",
+    "deid3": "30",
+    "viid4": "30"
+  },
+  "timeLeapChooseAdressViewData": {
+    "id1": "Déverrouillé au Niv.{0}"
+  },
+  "timeLeapMain": {
+    "id1": "Aucun Héros assigné",
+    "id2": "Affectez un Héros au Voyage Spatio-Temporel, et recevez des Fragments de ce Héros",
+    "id3": "Aucun Héros assigné",
+    "krid4": "28"
+  },
+  "timeLeapMainViewData": {
+    "id1": "Déverrouillé au Niv.{0}\nou à VIP{1}",
+    "id2": "{0}\nRetour"
+  },
+  "commonItemGetTips": {
+    "id1": ">nécessite</font> <font color=",
+    "id2": "Pièces</font> ",
+    "id3": "Diamants</font>",
+    "id4": "Activité du Clan +{0}",
+    "id5": "Appuyer sur une zone vide pour quitter"
+  },
+  "materialNotEnoughTipsViewData": {
+    "id1": "Nombre insuffisant",
+    "frid2": "25"
+  },
+  "skillTipsViewData": {
+    "id1": "Amélioration de l’Éveil {0} étoiles",
+    "id2": "Niveau Max",
+    "id3": "Percée activée à Niv.{0}",
+    "id4": "Amélioration de la Percée Niv.{0}",
+    "id5": "ATQ PHYS",
+    "id6": "Compétence Active",
+    "id7": "Compétence Passive",
+    "id8": "Super Ultime",
+    "id9": "Potentiel",
+    "id10": "Physique",
+    "id11": "Actif",
+    "id12": "Passif",
+    "id13": "{0} augmente de {1};",
+    "krid14": "22",
+    "frid15": "0"
+  },
+  "totalRank": {
+    "id1": "Mon Rang:",
+    "id2": "Non listé",
+    "id3": "No.{0}",
+    "id4": "Mon Clan:",
+    "id5": "Aucun Non listé",
+    "id6": "Non listé",
+    "id7": "No.{0}",
+    "id8": "Rang actuel:",
+    "id9": "Étage le plus élevé:",
+    "id10": "Étage {0}",
+    "id11": "Niveau du Clan:",
+    "id12": "Étape Actuelle:",
+    "id13": "Niveau Actuel:",
+    "id14": "Meilleure Puissance:",
+    "id15": "Aucune donnée de rang disponible",
+    "id16": "Puissance",
+    "id17": "Niveau",
+    "id18": "Étape",
+    "id19": "Compétition",
+    "id20": "Épreuve du Temple",
+    "id21": "Cell Game",
+    "id22": "Clan",
+    "deid23": "22",
+    "deid24": "30",
+    "frid1": "21"
+  },
+  "totalRankFirst": {
+    "id1": "Niv. du Clan: {0}",
+    "id2": "Rang de Budōkai",
+    "id3": "Rang: {0}",
+    "id4": "Étage le plus élevé",
+    "id5": "Étage {0} du Cell Game",
+    "id6": "Étape Actuelle",
+    "id7": "Niveau Actuel",
+    "id8": "Meilleure Puissance",
+    "id9": "Étage {0} ",
+    "id10": "30",
+    "id11": "26",
+    "deid12": "30",
+    "deid13": "24",
+    "frid1": "18",
+    "viid14": "4"
+  },
+  "TrialPanel": {
+    "id1": "Déverrouillé au Niv.{0}",
+    "id2": "Chances: <font color=0xF9C369>{0}/{1}</font>",
+    "id3": "Motivation: <font color=0xF9C369>{0}/{1}</font>",
+    "id4": "Missions terminées: <font color=0xF9C369>{0}</font>",
+    "id5": "Until the next Time Trial: {0} day(s)"
+  },
+  "userLevelUp": {
+    "id1": "Déverrouillé au Niv.{0}"
+  },
+  "weaponChosePage": {
+    "id1": "Attribut: Tout",
+    "id2": "Attribut: Personnalisé",
+    "id3": "Trier:",
+    "id4": "Aucune arme trouvée",
+    "id5": "Sac à Dos d’Arme",
+    "id6": "Attribut: ATQ",
+    "id7": "Équiper",
+    "id8": "Arme",
+    "enid9": "22",
+    "frid10": "28"
+  },
+  "weaponDiff": {
+    "id1": "Attribut: Tout",
+    "id2": "Attribut: Personnalisé",
+    "id3": "Trier:",
+    "id4": "Aucune arme trouvée",
+    "id5": "Sac à Dos d’Arme",
+    "id6": "- Équipé -",
+    "id7": "Attribut: ATQ",
+    "id8": "Changer",
+    "id9": "Arme",
+    "enid10": "22"
+  },
+  "weaponInfo": {
+    "id1": "Vous allez dissoudre une Arme {0} étoiles. Continuer ?",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Vous allez dissoudre une Arme violette. Continuer ?",
+    "id5": "Vous allez dissoudre une Arme orange. Continuer ?",
+    "id6": "Retirer",
+    "id7": "Changer",
+    "id8": "Raffiner",
+    "id9": "Équiper",
+    "id10": "Arme",
+    "id11": "Sélectionner",
+    "id12": "{0}: Équipe {1}",
+    "deid12": "26",
+    "deid13": "156",
+    "id13": "L’Aura d’Arme sera actif tout au long de la bataille, avec l’Aura du Héros. S’il existe une autre Aura similaire, seule l’Aura avec le niveau le plus élevée sera active",
+    "deid14": "20"
+  },
+  "weaponLevelUp": {
+    "id1": "Fortification",
+    "id2": "Promotion",
+    "id3": "Nécessite Joueur Niv.{0}",
+    "id4": "Fortification x{0}",
+    "id5": "Niveau max atteint",
+    "id6": "ATQ:",
+    "id7": "Matériel de Raffinage:",
+    "id8": "(Restant",
+    "id9": "Niveau d’étoiles max atteint",
+    "id10": "Fortification Rapide",
+    "id11": "Aura",
+    "id12": "Veuillez sélectionner un effet d’Aura parmi les 2 ci-dessous:",
+    "id13": "Veuillez sélectionner un effet d’Aura",
+    "id14": "Nombre d’Armes insuffisant pour activer l’Aura",
+    "id15": "L’Aura d’Arme ne peut pas être changée après l’activation ! Confirmer la sélection de l’effet d’Aura : \n{0}",
+    "id16": "Nombre d’Armes insuffisant pour améliorer l’Aura",
+    "id17": "Activer",
+    "id18": "Améliorer",
+    "id19": "OK",
+    "id20": "Annuler",
+    "id21": "Déverrouillé après que l’Arme actuelle ait atteint le Niv.5",
+    "id22": "(Niveau Max {0})",
+    "id23": "L’Arme Matérielle doit être de 0 étoiles Niv.1",
+    "deid11": "30",
+    "deid12": "30",
+    "deid13": "22",
+    "enid24": "Effet d’Aura après amélioration:",
+    "enid25": "16",
+    "enid26": "16",
+    "enid27": "18",
+    "enid28": "22",
+    "frid29": "0",
+    "krid29": "19",
+    "id24": "Deification",
+    "viid30": "32",
+    "frid30": "20",
+    "id26": "Deification will be unlocked when the player reaches Lv. {0} and possesses 5 Orange 5-Star Weapons",
+    "id27": "After the weapon deification, it cannot be reborn as an orange weapon again. You may gain some Coahuilites when you dissolve Red Weapon, continue?",
+    "id25": "The player's current level is not enough. The next tier of Star-up will be unlocked at Lv. {0}"
+  },
+  "BuyGoldPanel": {
+    "id1": "x{0}",
+    "id2": "Gratuit",
+    "id3": "Chances d'achat quotidiennes épuisées !",
+    "id4": "Dépenser {0} Diamants pour acheter des Pièces ?",
+    "id5": "Plus votre niveau est élevé, plus vous recevrez de Pièces lors de vos achats ! Le nombre d’achats est réinitialisé tous les jours à 6h00",
+    "id6": "Restant aujourd’hui:",
+    "id7": "Pièces que vous obtiendrez:",
+    "id8": "Acheter",
+    "id9": "-1",
+    "id10": "24",
+    "id11": "30",
+    "id12": "20",
+    "id13": "30",
+    "id14": "35"
+  },
+  "BuyLevelGiftPanel": {
+    "id1": "Offre Spéciale Niv.{0}",
+    "id3": "Coût Total:",
+    "id4": "OK",
+    "id5": "Annuler"
+  },
+  "levelGiftListItem": {
+    "id1": "Nécessite Niv.{0}",
+    "id2": "Restant:",
+    "id3": "Acheter pour {0}",
+    "id4": "{0} Off",
+    "deid5": "0.5",
+    "deid6": "195"
+  },
+  "MonthCardPanel": {
+    "id1": "EXP VIP",
+    "id2": "Restant: {0}",
+    "id3": "{0} Jour(s)",
+    "id4": "{0} h",
+    "id5": "1 heure",
+    "id6": "{0}",
+    "id7": "Voir les Privilèges VIP"
+  },
+  "rechargeListItem": {
+    "id1": "{0} Diamants",
+    "id2": "+",
+    "id3": "",
+    "id4": "￥",
+    "deid5": "0.8",
+    "deid6": "22",
+    "id5": "Prix Original {0}",
+    "id6": "Hạn mua : {0}",
+    "viid7": "1",
+    "viid8": "180",
+    "enid9": "186",
+    "enid10": "166"
+  },
+  "VIPPanel": {
+    "id1": "Avantages Exclusifs de VIP{0}",
+    "id2": "Niveau VIP insuffisant !",
+    "id4": "Recharger",
+    "id5": "pour devenir",
+    "id6": "Recharger",
+    "id7": "Collecter",
+    "id8": "VIP déja au niveau max !",
+    "id9": "25",
+    "frid10": "32",
+    "krid10": "",
+    "viid13": "391"
+  },
+  "VIPPrerogativeGiftListItem": {
+    "id1": "Nécessite VIP",
+    "id2": "Niveau VIP insuffisant !",
+    "id3": "Acheté !"
+  },
+  "WelfarePanel": {
+    "id1": "Le Code d’Activation ne peux pas être vide !",
+    "id2": "Aucun Pack Cadeau à collecter",
+    "id3": "Scan QR Code",
+    "id4": "Contact Method",
+    "id5": "{0} Purchase",
+    "id6": "You can unlock Deluxe Rewards after purchasing. You can claim {0} Gems and a set of Orange 0 Gear in total! Confirm to purchase?",
+    "id7": "Deluxe Rewards Unlocked",
+    "id8": "Niveau",
+    "id9": "Ordinary reward",
+    "id10": "Luxury Award",
+    "krid8": "28"
+  },
+  "StrongBossManager": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "Acheter <font color={0}>{1} chance(s) de défi de Boss</font> nécessite <font color={2}>{3} {4}</font>. Continuer ?"
+  },
+  "DamageMode": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "Acheter <font color={0}>{1}",
+    "id3": "Chances de défi de Boss</font> nécessite <font color={0}>{1} {2}",
+    "id4": "</font>. Continuer ?"
+  },
+  "HeroAppraiseMain": {
+    "id1": "Vous ne pourrez commenter que lorsque vous posséderez un Héros Niv.{0} ou supérieur (à l’exception des Héros résonnants)",
+    "id2": "Pas de correspondance trouvée pour ce Héros !",
+    "id3": "{0} Minute",
+    "id4": "Score Général:",
+    "id5": "Score de Héros",
+    "id6": "Correspondance",
+    "id7": "Aucun commentaire pour le moment",
+    "id8": "Correspondance d’Arme:",
+    "id9": "Correspondance de Marque:",
+    "id11": "Évaluer le Héros",
+    "id12": "Moyen d’Obtention",
+    "id13": "ou",
+    "deid14": "26",
+    "deid15": "33",
+    "frid16": "21",
+    "id16": "Hero Label",
+    "deid17": "0.55",
+    "deid18": "18"
+  },
+  "InputHeroAppraise": {
+    "id1": "Impossible de soumettre le commentaire, vous n’avez pas encore évalué ce Héros !",
+    "id2": "Le commentaire sur le Héros ne peut pas être vide !",
+    "id3": "Caractères illégaux détectés. Veuillez vérifier à nouveau avant la soumission !",
+    "id4": "Veuillez entrer votre commentaire",
+    "id5": "Envoyé !",
+    "id6": "Évaluation de Héros",
+    "id7": "Score du Héros:",
+    "id8": "Envoyer"
+  },
+  "BattleChooseSuperSkill": {
+    "id1": "Super Ultime déjà sélectionnée",
+    "id2": "Super Ultime complètement déployée",
+    "id3": "Cette Super Compétence Ultime est déjà dans une autre équipe"
+  },
+  "SuperSkillMain": {
+    "id1": "Réinitialiser la Super Ultime ?  (Retourne {0})\n\nNécessite{1} {2}",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Niveau max de Super Ultime atteint",
+    "id5": "{0}{1}",
+    "id6": "Remettre",
+    "id7": "30",
+    "enid8": "30"
+  },
+  "SummonGiftRewardActivityViewData": {
+    "id1": "Tirer {0} cartes au total"
+  },
+  "StrengthenEquipActivity": {
+    "id1": "Qualité trop élevée, impossible d’améliorer",
+    "id2": "{0} insuffisant, impossible d’améliorer",
+    "id3": "Équipement Actuel",
+    "id4": "Après Amélioration",
+    "id5": "Veuillez placer l’équipement à améliorer (Qualité orange ou supérieure)",
+    "frid6": "20",
+    "id6": "This gear cannot be upgraded"
+  },
+  "StrengthenSignActivity": {
+    "id1": "{0} insuffisant, impossible d’améliorer",
+    "id2": "Veuillez placer la Marque à remodeler",
+    "id3": "Le remodelage rafraîchira le type d’Attribut secondaire et les stats de la Marque",
+    "id4": "Chaque remodelage réinitialisera toutes les entrées et les valeurs d’Attribut",
+    "id5": "Niveau max !",
+    "id6": "18",
+    "id7": "20",
+    "id8": "Un ajout d’attributs a déjà été effectué sur la Marque actuelle. Effectuer un Remodelage réinitialisera les attributs de l’ajout et aucun Matériel d’ajout ne sera retourné. Continuer ?",
+    "id9": "OK",
+    "id10": "Annuler"
+  },
+  "EarringLevelUp": {
+    "id1": "Amélioration x{0}",
+    "id2": "Amélioration des Boucles d’Oreilles",
+    "id3": "Niveau",
+    "id4": "Avancé !",
+    "id5": "Améliorer",
+    "id6": "Tout Améliorer",
+    "deid7": "1",
+    "krid8": "-15",
+    "krid9": "45"
+  },
+  "GlobalWarMain": {
+    "id1": "Seulement pour les joueurs qui ont commencé à jouer entre {0}~{1} jours après le lancement du serveur",
+    "id2": "Seulement pour les joueurs qui ont commencé à jouer {0} jours après le lancement du serveur",
+    "id3": "Nécessite Niv.{0} ou supérieur pour pouvoir participer à la Bataille Inter-Serveurs",
+    "id4": "Compte à Rebours de Matchs de Sélection: <font color=0x35F444>{0}</font>",
+    "id5": "Impossible de participer aux Matchs de Sélection",
+    "id6": "Les 20 meilleurs joueurs de l’Arène sont inscrits d’office",
+    "deid7": "24",
+    "frid8": "18",
+    "frid9": "21"
+  },
+  "FriendShipInfoListItem": {
+    "id1": "{0} {1}"
+  },
+  "GlobalWarSeaElection": {
+    "id1": "{0} vic.",
+    "id2": "Récompense déjà collectée !",
+    "id3": "Exigences non remplies, impossible de collecter la récompense",
+    "id4": "Matchs de Sélection terminés",
+    "id5": "Mon Rang",
+    "id6": "Mes Victoires:",
+    "id7": "Aucun Journal de Bataille",
+    "id8": "Prochain tour dans:",
+    "deid9": "1",
+    "frid10": "19"
+  },
+  "RechargePanel": {
+    "id1": "Rechargez encore {0} pour devenir",
+    "id2": "Voir les Privilèges",
+    "id3": "28",
+    "id4": "VIP déja au niveau max !",
+    "id5": "25",
+    "deid6": "30",
+    "viid7": "333",
+    "enme8": "1",
+    "enme9": "0"
+  },
+  "GlobalWarCommon": {
+    "id1": "Jour {0}",
+    "id2": "1",
+    "id3": "2",
+    "id4": "3",
+    "id5": "4",
+    "id6": "5",
+    "id7": "6",
+    "id8": "7",
+    "id9": "S’inscrire",
+    "id10": "Matchs de Sélection",
+    "id11": "16èmes de Finale",
+    "id12": "Quarts de Finale",
+    "id13": "Demi-Finale",
+    "id14": "Finale",
+    "id15": "Non listé",
+    "id16": "Cote: {0}",
+    "id17": "Clan:",
+    "id18": "Formation d’Équipe",
+    "id19": "Zone {0}",
+    "id20": "14",
+    "frid21": "22"
+  },
+  "GlobarWarGuess": {
+    "id1": "·Le coût en Pièces est égal à {0} heure(s) de gain de Pièces du monde Ralenti\nSi vous réussissez votre pari, vous obtiendrez une récompense de Pièces égal à votre mise multipliée par la cote",
+    "id2": "Astuce",
+    "id3": "Utiliser des Pièces pour le soutenir ? le Pari de Match ne pourra pas être modifié",
+    "id4": "Nécessite:",
+    "id5": "OK",
+    "id6": "Annuler",
+    "id7": "16",
+    "deid8": "30"
+  },
+  "SeaElectionRanking": {
+    "id1": "Zone {0}",
+    "id2": "※Les joueurs avec le même nombre de victoires seront classés en fonction de leur Classement de Puissance",
+    "id3": "Non classé",
+    "id4": "Pas sur la liste",
+    "deid5": "24",
+    "krid7": "26"
+  },
+  "GlobalFourToOneBattle": {
+    "id1": "16èmes de Finale",
+    "id2": "Quarts de Finale",
+    "id3": "Équipe {0}",
+    "id4": "Zone {0}",
+    "id5": "Horaire du match",
+    "id6": "Votre serveur",
+    "id7": "Soi",
+    "id8": "Déverrouillé après",
+    "id9": "Équipe 1",
+    "id10": "Équipe 2",
+    "id11": "Équipe 3",
+    "id12": "Tour 1 - 12h00",
+    "id13": "Tour 2 - 18h00",
+    "frid14": "0.8"
+  },
+  "GlobalEndResoultShow": {
+    "id1": "[{0}]",
+    "id2": "Zone {0}",
+    "id3": "Votre serveur",
+    "id4": "Soi",
+    "id5": "Classement",
+    "id6": "Nom du Personnage",
+    "id7": "Niveau",
+    "id8": "Serveur Régional",
+    "id9": "Clan",
+    "id10": "Les joueurs avec le même nombre de victoires seront classés en fonction de leur Classement de Puissance"
+  },
+  "GlobalWarRankSampleInfoListItem": {
+    "id1": "Zone {0}"
+  },
+  "GlobalEndBattleRecord": {
+    "id1": "[{0}]",
+    "id2": "Zone {0}",
+    "id3": "Replay",
+    "id4": "Détails",
+    "id5": "Replay",
+    "id6": "Votre serveur",
+    "id7": "Soi"
+  },
+  "GlobalGuessWindowViewData": {
+    "id1": "Tour 1 des 16èmes de Finale",
+    "id2": "Tour 2 des 16èmes de Finale",
+    "id3": "Tour 1 des Quarts de Finale",
+    "id4": "Tour 2 des Quarts de Finale",
+    "id5": "Demi-Finale",
+    "id6": "Finale"
+  },
+  "GlobalFourToTwoBattle": {
+    "id1": "Zone {0}",
+    "id2": "Cotes: {0}",
+    "id3": "Nombre de Titres: {0}",
+    "id4": "Horaire du match",
+    "id5": "Votre serveur",
+    "id6": "Soi",
+    "id7": "Non listé"
+  },
+  "GlobalWarRecordListItem": {
+    "id1": "Zone {0}",
+    "id2": "Replay"
+  },
+  "GlobalGuessAndRecord": {
+    "id1": "Zone {0}",
+    "id2": "Cotes:{0}",
+    "id3": "Replay",
+    "id4": "Détails",
+    "id5": "Pari effectué",
+    "id6": "Clan:",
+    "id7": "Replay",
+    "deid8": "30",
+    "viid9": "30",
+    "frid9": "23"
+  },
+  "HeroEvolve": {
+    "id1": "Nécessite Niveau de Héros ≥Niv.{2} {3} étoiles ou supérieur [{0} {1} ou supérieur]",
+    "id2": "Attribut de base augmenté",
+    "id3": "PV de Base",
+    "id4": "ATQ de Base",
+    "id5": "Nouvelle Compétence déverrouillée",
+    "id6": "Niveau de Compétence augmenté",
+    "id7": "Cette Percée n’a pas augmenté le niveau"
+  },
+  "DragonBallBattleEnemyInfo": {
+    "id1": "Bonus de Défense:",
+    "id2": "Bonus d’Attaque:",
+    "id3": "Défense Retirée !",
+    "id4": "OK",
+    "id5": "Annuler",
+    "id6": "Retirer la Défense ? Les pirates s’empareront de la zone après avoir retiré la défense",
+    "id7": "Conquête de Dragon Ball Terminée !",
+    "id8": "Occupée par un membre du Clan...",
+    "id9": "Protégée. Défi impossible pendant {0} s",
+    "id10": "Rafraîchissement... {0}",
+    "id11": "Les membres qui rejoignent le Clan le vendredi après 23h59 ne pourront pas participer à la Conquête de Dragon Ball",
+    "id12": "Le Héros n’existe pas",
+    "id13": "Appuyez sur le Héros pour voir les détails !",
+    "id14": "Recherche...",
+    "id15": "Les deux prétendants au drapeau ne bénéficieront pas du Bonus",
+    "id16": "27",
+    "deid17": "20",
+    "frid18": "18"
+  },
+  "DragonBallBattleMapInfo": {
+    "id1": "Les troupes de défense ont changé, la bataille est invalidée et ne consommera pas de ressources !",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Vous avez déployé des Héros pour garder cette zone, voulez-vous changer les troupes de défense (et abandonner la zone aux pirates) ?",
+    "id5": "Défense Déployée !",
+    "id6": "Conquête de Dragon Ball Terminée !",
+    "id7": "Inconnu",
+    "id8": "Aucun",
+    "id9": "Inexploré",
+    "id10": "Exploré",
+    "id11": "1. Chaque drapeau que vous capturez vous donnera 1 bonus de bataille dans la Tour Centrale de cette zone\n\n2. Chaque bonus de bataille augmente les dégâts d’attaque et réduit les dégâts reçus de {0}%\n\n3. Le bonus de bataille n’a d’effet que dans la bataille de la Tour Central, peut importe qui capture le drapeau",
+    "id12": "Étage {0}",
+    "id13": "1. Le premier membre du Clan qui capture le drapeau pourra découvrir s’il y a une Dragon Ball dans la zone\n\n2. Si un membre de votre Clan trouve la Dragon Ball, les autres Clans ne pourront pas la voir, et vice versa\n\n3. Lors du règlement, le Clan qui a occupé la Tour Centrale obtiendra toutes les Dragon Balls de la zone, qu’il les ait trouvé en premier ou non",
+    "id14": "Occupez la Tour Centrale permet d’occuper la zone et d’obtenir toutes les Dragon Balls",
+    "id15": "Zone occupée par:",
+    "id16": "Dragon Ball trouvée dans cette zone:",
+    "id17": "Bonus de Bataille de la Tour Centrale",
+    "id18": "Tour Centrale",
+    "id19": "Occuper:",
+    "id20": "Sous protection...",
+    "id21": "15",
+    "id22": "18",
+    "id23": "22",
+    "deid24": "18",
+    "deid25": "26",
+    "frid26": "22"
+  },
+  "DragonBallBattleSignUp": {
+    "id1": "Ouvre le samedi à 9h00",
+    "id2": "(Impossible de participer sans être inscrit, les inscriptions s’arrêtent le vendredi à 23h59)",
+    "id3": "Seuls le Chef et le Vice-Chef peuvent procéder à l’inscription",
+    "id4": "Activité du Clan insuffisante",
+    "id5": "1. L’Activité totale du Clan sera la somme des Activités hebdomadaire de tous les membres\n\n2. Si un membre quitte le Clan, l’Activité ne sera pas affectée\n\n3. L’Activité du Clan peut être utilisée pour s’inscrire à la Conquête de Dragon Ball\n\n[Comment Obtenir de l’Activité]\nConnexion du Clan: 50 Activité par jour\n Boss de Clan: 10 Activité par bataille\nChasse au Trésor du Clan: 10 Activité par bataille\nEnveloppe Rouge de Mr. Satan: 5 Activité par collecte",
+    "id6": "Nécessite Clan Niv.{0} pour pouvoir s’inscrire",
+    "id7": "Mon Clan:",
+    "id8": "Score Elo:",
+    "id9": "Activité du Clan nécessaire:",
+    "id10": "Ouvre le 4ème lundi après le lancement du serveur",
+    "id11": "Ouvre le samedi à 9h00",
+    "deid12": "1.25",
+    "deid13": "22"
+  },
+  "DragonBallBattleMainViewData": {
+    "id1": "Système",
+    "id2": "Fin de la Conquête de Dragon Ball dans: {0}"
+  },
+  "DragonBallBattleRewardTips": {
+    "id1": "<font color=0xF7551B><b>·Le joueur qui occupe la Tour Centrale obtiendra toutes les Dragon Balls de la zone</b></font>\nLes autres joueurs recevront des récompenses s’ils sont arrivés deuxième ou troisième\nLes récompenses seront envoyées par mail",
+    "id2": "Pas de donnée de classement",
+    "id3": "Rang d’Honneur",
+    "id4": "Clan No.1",
+    "id5": "Clan No.2",
+    "id6": "Clan No.3",
+    "frid7": "20"
+  },
+  "DragonBallBattleMain": {
+    "id1": "Aucun",
+    "id2": "L’annonce ne peut pas être vide !",
+    "id3": "Le nombre de caractères ne peut pas dépasser {0}",
+    "id4": "Appuyer pour entrer...",
+    "id5": "",
+    "id6": "",
+    "id7": "Épinglé",
+    "id8": "Résultat",
+    "id9": "Rapport de Bataille",
+    "id10": "Canal du Clan",
+    "id11": "Envoyer",
+    "deid12": "25",
+    "deid13": "38",
+    "deid14": "18",
+    "deid15": "18",
+    "frid16": "23"
+  },
+  "DragonBallBattleHonor": {
+    "id1": "1. Vous obtiendrez 50 points de Score d’Honneur lors de chaque bataille, et 10 points supplémentaires si vous gagnez\n2. Lors du règlement, vous obtiendrez 500 points de Score d’Honneur si vous occupez la Tour Centrale où la Dragon Ball a été trouvée\n3. Lors du règlement, vous obtiendrez 100 points de Score d’Honneur si vous capturez le drapeau de la zone dans laquelle la Dragon Ball a été trouvée",
+    "deid2": "1.25"
+  },
+  "ParagraphListItem": {
+    "id1": "<font color=0xff9046>{0}%</font> de Pièces d’Honneur supplémentaire après le règlement de la Conquête de Dragon Ball",
+    "id2": "Le classement de la division est le suivant\nNo.1 <font color={3}>{0}</font>, No.2 <font color={4}>{1}</font>, No.3 <font color={5}>{2}</font>",
+    "frid3": "20"
+  },
+  "MailSend": {
+    "id1": "Veuillez entrer le titre du mail",
+    "id2": "Veuillez entrer le contenu du mail",
+    "id3": "La longueur du mail ne peut pas dépasser {0} caractères",
+    "id4": "À: {0}",
+    "id5": "OK",
+    "id6": "Annuler",
+    "id7": "Envoyer le mail ?",
+    "id8": "Supprimer ce mail et toutes les réponses ?",
+    "id9": "De:",
+    "id10": "Envoyer"
+  },
+  "BallRecordItem": {
+    "id1": "<font color=0xff9046>Boule 1 étoile</font>",
+    "id2": "<font color=0xff9046>Boule 2 étoiles</font>",
+    "id3": "<font color=0xff9046>Boule 3 étoiles</font>",
+    "id4": "<font color=0xff9046>Boule 4 étoiles</font>",
+    "id5": "<font color=0xff9046>Boule 5 étoiles</font>",
+    "id6": "<font color=0xff9046>Boule 6 étoiles</font>",
+    "id7": "<font color=0xff9046>Boule 7 étoiles</font>"
+  },
+  "HeroAppraiseItemListItem": {
+    "id1": "J’aime"
+  },
+  "HeroAppraisePanel": {
+    "id1": "J’aime",
+    "id2": "Commenter"
+  },
+  "GemChangeOrWear": {
+    "id1": "Esprit du même attribut principal déjà présent",
+    "id2": "L’Esprit n’a qu’un attribut principal",
+    "id3": "Vous pouvez obtenir des Esprits via l'Entraînement de la Planète Kaishin et la Boutique du Clan",
+    "id4": "Sac à DOs d’Esprit",
+    "id5": "Esprit",
+    "id6": "- Équipé -",
+    "id7": "Équiper",
+    "id8": "Changer",
+    "id9": "Esprit"
+  },
+  "GemResetAddPage": {
+    "id1": "Niv.{0}",
+    "id3": "Veuillez sélectionner un Esprit à forger",
+    "id4": "Aucun Esprit équipé, vous pouvez en obtenir à la Boutique d’EXP ou à la Boutique du Clan",
+    "id5": "Prix Original",
+    "id6": "Tout Placer",
+    "id7": "(Restant",
+    "id8": "Tout Annuler",
+    "id9": "Commencer la Forge",
+    "krid10": "23",
+    "frid11": "32",
+    "frid12": "28"
+  },
+  "GemResetChoseListItem": {
+    "frid1": "26",
+    "frid2": "23"
+  },
+  "friendMailListItem": {
+    "id1": "Aujourd’hui"
+  },
+  "GlobalWarWelfare": {
+    "id1": "[Champion] {0}",
+    "id2": "[Top 4] {0}",
+    "id3": "L’Efficacité de Ralenti augmente de {0}% pendant 3 jours",
+    "id4": "[{0}]",
+    "id5": "Zone {0}",
+    "id6": "Durant la dernière Bataille Inter-Serveurs, le meilleur joueur de votre serveur était:",
+    "id7": "Les joueurs de votre serveur obtiennent (cumulable avec le bonus de VIP):",
+    "id8": "OK"
+  },
+  "ServerWelfare": {
+    "id1": "<font color=0x58bde7>{0}</font> est devenu le <font color=0xf1f44d>Champion de la Bataille Inter-Serveurs, et l’efficacité de ralenti de tous les joueurs du serveur a augmenté de {1}% (dure 3 jours)</font>",
+    "id2": "<font color=0x58bde7>{0}</font> s’est classé parmi le <font color=0xf1f44d>Top 4 de la Bataille Inter-Serveurs, et l’efficacité de ralenti de tous les joueurs du serveur a augmenté de {1}% (dure 3 jours)</font>",
+    "id3": "Ferme dans {0}....",
+    "id4": "-3"
+  },
+  "FriendMailInfo": {
+    "id1": "Veuillez entrer votre contenu",
+    "id2": "Le contenu ne peut pas dépasser {0} caractères",
+    "id3": "OK",
+    "id4": "Annuler",
+    "id5": "Envoyer le mail ?",
+    "id6": "Supprimer ce mail et toutes les réponses ?",
+    "id7": "Note: ne faites confiance à personne qui essaierait de vous contacter en notre nom",
+    "id8": "Envoyer"
+  },
+  "FriendMailInfoViewData": {
+    "id1": "Aujourd’hui"
+  },
+  "MailInfoManager": {
+    "id1": "Système de Mail d’Ami déverrouillé au Niv.{0}"
+  },
+  "HighLadderListItem": {
+    "id1": "Zone {0}",
+    "id2": "1",
+    "id3": "0.8",
+    "viid4": "0"
+  },
+  "ConsumptionFeedbackItemListItem": {
+    "id1": "Consommation totale de {0}\net rang No.{1}",
+    "id2": "Consommation totale de {0}\net rang No.{1}-{2}",
+    "id3": "Consommation totale {0}: {1}",
+    "id4": "Événement Terminé !",
+    "frid5": "26"
+  },
+  "BroadcastSingleton": {
+    "id1": "<font color=0xffe61a>[Système]:</font>"
+  },
+  "GoodHarvests": {
+    "id1": "Collecté",
+    "id2": "{0} Jour(s)",
+    "id3": "Collectable dans {0} heure(s)",
+    "id4": "Heure de fin:",
+    "id5": "Total obtenu:",
+    "id6": "Retourne:",
+    "frid7": "24"
+  },
+  "ExpeditionChapterEnemy": {
+    "id1": "Chances de Défi Insuffisantes !",
+    "id2": "Récupération dans {0}",
+    "id3": "24"
+  },
+  "rechargeRebateItemListItem": {
+    "id1": "Exigences:Recharger {0}",
+    "id2": "{0}X{1}",
+    "id3": "Collecté",
+    "krid4": "16"
+  },
+  "SingleRechargeItemListItem": {
+    "id1": "Recharge Unique de plus de <font color=0xFFED78>{0}</font>",
+    "id2": "Top up <font color=0xFFED78>{0}</font> in a single order"
+  },
+  "ActivityMergeBoss": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "Acheter <font color={0}>{1} chance d’attaque</font> nécessite <font color={2}>{3}{4}</font>. Continuer ?",
+    "id3": "Contribution Totale à l’Activité du Clan:",
+    "id4": "Chances:"
+  },
+  "TodayDiscountListItem": {
+    "id1": "Acheter pour {0}",
+    "id2": "EXP VIP",
+    "id3": "{0} de réduction sur le prix original",
+    "id4": "1",
+    "deid5": "0.4"
+  },
+  "GemResetNormal": {
+    "id1": "Événement de Forge à Moitié Prix Terminé, le prix a changé. Veuillez réessayer !",
+    "id2": "Événement de Forge à Moitié Prix en cours, le prix a changé. Veuillez réessayer !",
+    "id3": "L’Événement de Forge à Moitié Prix ouvre le weekend, restez à l’écoute",
+    "id4": "Payez la moitié du prix normal pour la Forge d’Esprit durant le weekend",
+    "id5": "Bientôt Disponible",
+    "deid6": "1"
+  },
+  "SuperGiftBuyWithOtherListItem": {
+    "id1": "Pack de Valeur Chanceux",
+    "id2": "Limite d’achat: {0}"
+  },
+  "ExpeditionEventPandectListItem": {
+    "id1": "{0} Étape {1}-{2}",
+    "id2": "Normal",
+    "id3": "Difficile",
+    "id4": "Cauchemar",
+    "id5": "Terminer",
+    "id6": "En cours",
+    "id7": "Voir",
+    "id8": "Scouted",
+    "deid8": "45",
+    "deid9": "26",
+    "krid6": "-5"
+  },
+  "WeeklyHarvestGetViewData": {
+    "id1": "{0}x{1}",
+    "id2": "({0})"
+  },
+  "WeeklyHarvestSaveViewData": {
+    "id1": "Collectable dans {0}"
+  },
+  "ExpeditionMachineListItem": {
+    "id1": "Niv.{0}",
+    "id2": "Activer l’Appareil",
+    "id3": "Augmenter la Limite",
+    "id4": "Niv.0",
+    "id5": "Lv{0}",
+    "id6": "Consommer Appareil Dimensionnel x{0} pour activer",
+    "id7": "OK",
+    "id8": "Annuler",
+    "id9": "Niveau:",
+    "id10": "Augmenter la Limite",
+    "id11": "Activer l’Appareil",
+    "frid12": "35"
+  },
+  "ExpeditionMachineHeroInfo": {
+    "id1": "Impossible d’expédier un Héros avec des missions en cours",
+    "id2": "Expédier",
+    "id3": "Coûte:"
+  },
+  "ExpeditionEventMain": {
+    "id1": "Commencer la mission",
+    "id2": "Veuillez d’abord terminer la mission",
+    "id3": "Veuillez d’abord commencer la mission d’observation",
+    "id4": "En attente de la fin de la mission",
+    "id5": "Dépenser {0} Diamants pour terminer la mission ?",
+    "id6": "Maximum de missions d’observation atteint, veuillez d’abord les terminer avant d’en commencer une nouvelle",
+    "id7": "Actuellement en {0}. Dépenser {1} Diamants pour terminer la mission ? \n\n<font size=20>(Actuellement en {2}. Consommera {3} fois plus de Diamants)</font>",
+    "id8": "Vitesse max atteinte, impossible d’accélérer",
+    "id9": "Terminé",
+    "id10": "En cours...",
+    "id11": "Gain de Mission",
+    "id12": "Mission d’Observation",
+    "id13": "Aucune Mission",
+    "id14": "Voir l’Envoi",
+    "id15": "Add to Favorite",
+    "id16": "Remove",
+    "id17": "Added Favorite List",
+    "id18": "Removed",
+    "id19": "Limit of favorite events reached",
+    "deid15": "20",
+    "deid16": "35",
+    "deid17": "20"
+  },
+  "ExpeditionEventMainViewData": {
+    "id1": "Limite de Mission: {0}/{1}",
+    "id2": "<font color={0}>{1}</font> Expédition\nPuissance Z de l’Équipe +{2}"
+  },
+  "ExpeditionLineUp": {
+    "id1": "Non terminé {0}/{1}",
+    "id2": "Bonus total {0}",
+    "id3": "Le même type de Héros a déjà été déployé",
+    "id4": "Le Héros participe déjà à une autre mission",
+    "id5": "Déploiement complet",
+    "id6": "Puissance Z Insuffisante",
+    "id7": "1. La Puissance Z du Héros augmentera en même temps que son niveau\n\n2.Les Héros de meilleure qualité ont une Puissance Z plus importante\n\n3.La Puissance Z totale de l’équipe déployée est affectée par le bonus de combo des Héros\n\n4.Le bonus de Puissance Z est affecté par la Puissance Z de tous les membres de l’équipe déployée",
+    "id8": "Déployez un Héros pour voir les Infos de Combo",
+    "id9": "(Puis appuyez sur Combo pour afficher les Héros liés)",
+    "id10": "Personnage d’Histoire",
+    "id11": "Détails",
+    "deid12": "28",
+    "id12": "Un Héros résonnant ne peut être déployé qu’en un exemplaire",
+    "id13": "Please select hero then save",
+    "id14": "Team Lineup has reached maximum capacity",
+    "id15": "The current team is saved",
+    "id16": "The current team is saved in the list"
+  },
+  "ExpeditionLineUpFetterListItem": {
+    "id1": "Non terminé {0}/{1}",
+    "deid2": "20"
+  },
+  "ExpeditionChapter": {
+    "id1": "Déverrouillé après avoir terminé la difficulté Normal et atteint le Niv.{0}",
+    "id2": "Déverrouillé après avoir terminé la difficulté Difficle et atteint le Niv.{0}",
+    "id3": "Bientôt Disponible",
+    "id4": "<font size=35>Difficulté {0} déverrouillée\n\nArc de la difficulté {1} déverrouillé</font>",
+    "id5": "<font size=35>Difficulté {0} déverrouillée au Niv.{1}\n\nArc de la difficulté {2} déverrouillé</font>",
+    "id6": "Normal",
+    "id7": "Difficile",
+    "id8": "Cauchemar",
+    "id9": "1. Vous pouvez effectuer des missions d’observation dans les étapes terminées\n2. La mission a des exigences de Puissance Z. Vous pouvez gagner différentes récompense en terminant les missions\n3. La mission peut être terminée en accélérant avec des Diamants, mais vous tomberez peut-être de fatigue si elle dépasse une certaine durée. Le coût en Diamant en étant fatigué sera multiplié\n\nNiveau de Fatigue\nFatigue 1, plus de 100 heures, coût en Diamant multiplié par 1.5\nFatigue 2, plus de 180 heures, coût en Diamant multiplié par 2\nFatigue 3, plus de 260 heures, coût en Diamant multiplié par 3\nImpossible d’accélérer au-delà de 360 heures",
+    "id10": "90",
+    "id11": "50",
+    "id12": "175"
+  },
+  "ExpeditionMachineMain": {
+    "id1": "Les Héros dans la Machine Dimensionnelle peuvent être améliorés au niveau max sans éveil",
+    "id2": "Augmentez le niveau du Héros pour augmenter sa Puissance Z",
+    "id3": "Augmenter la Limite",
+    "id4": "Activer l’Appareil"
+  },
+  "HeroWakeUpGodSuccess": {
+    "id1": "Évolution Divine réussie",
+    "id2": "Éveillé",
+    "id3": "Attribut augmenté",
+    "id4": "Limite de Niveau augmentée:",
+    "id5": "Qualité",
+    "id6": "PV de Base",
+    "id7": "ATQ de Base"
+  },
+  "ExpeditionCommon": {
+    "id1": "Non terminé 0/1",
+    "id2": "[{0}/{1}] Collecter {2} {3}, Puissance Z +{4}%",
+    "deid1": "17"
+  },
+  "ExpeditionTipsViewData": {
+    "id1": "Héros Niv.{0} {1}"
+  },
+  "SnakeHeroListItem": {
+    "id1": "l{0}/{1}"
+  },
+  "HeroListItem": {
+    "id1": "l{0}/{1}"
+  },
+  "WeeklyHarvestGet": {
+    "id1": "Gain du Tour Précédent x (Taux de Retour {0})",
+    "id2": "Collectez jusqu’à"
+  },
+  "HeroMainQiGong": {
+    "id1": "PV",
+    "id2": "ATQ",
+    "id3": "DEF",
+    "id4": "VIT",
+    "id5": "Détails",
+    "id6": "L’Entraînement changera aléatoirement 3 attributs de base",
+    "id7": "La Percée du Héros peut augmenter la limite d’Entraînement d’Attribut",
+    "id8": "PV de Base",
+    "id9": "ATQ de Base",
+    "id10": "DEF de Base",
+    "id11": "Changement d’Attribut de cet Entraînement",
+    "id12": "Puissance",
+    "id13": "(Restant",
+    "id14": "Entraînement",
+    "id15": "Entraînement x10",
+    "id16": "Annuler",
+    "id17": "Enregistrer",
+    "id18": "Entraînement Rapide",
+    "id19": "Déverrouillé au Niv.{0}",
+    "deid18": "30",
+    "frid1": "40",
+    "frid2": "18",
+    "krid1": "0.45",
+    "id20": "Le pourcentage de Kiko du Héros résonnant est le même que celui du Héros principal"
+  },
+  "GetBackReource": {
+    "id1": "Récupérable dans {0} heure(s)",
+    "id2": "Récupérable <font color=0xF85F03>{0}</font> fois",
+    "id3": "Récupérer",
+    "id4": "Récupéré",
+    "id5": "Ressources",
+    "id6": "Équipement",
+    "id7": "Marque",
+    "id8": "Donjon {0} récupéré {1} fois",
+    "id9": "Disparaît dans {0}",
+    "id10": "Les Ressources et les Chances de Défi de Donjon peuvent être récupérées jusqu’à 3 jours après",
+    "id11": "Ressources de Ralenti",
+    "id12": "Donjon de Ressource",
+    "id13": "Donjon d’Équipement",
+    "id14": "Donjon de Marque",
+    "id15": "32",
+    "deid16": "23",
+    "frid1": "26",
+    "frid2": "20",
+    "krid1": "-7",
+    "krid2": "26"
+  },
+  "ExpeditionEventAwardPreview": {
+    "id1": "Aperçu de Mission",
+    "id2": "Gain de Mission",
+    "id3": "OK",
+    "id4": "25",
+    "deid5": "20"
+  },
+  "InheritTips": {
+    "id1": "1. Seuls les Héros SS et SSS at 3 étoiles ou supérieur peuvent effectuer une Succession",
+    "id2": "2. Vous pouvez choisir un Héros déjà obtenu et de la même qualité que le Héros Donataire en tant que Héros Cible",
+    "id3": "3. Le Héros Cible peut hériter du Niveau d’Étoiles, du Niveau et de la Percée de Limite du Héros Donataire",
+    "id4": "4. When Succeeding Hero's Kiko is full, they can pass this Kiko to the target hero, or it will return all Energy Stones and Coins spent on the Succeeding Hero.",
+    "id5": "5. Jade of Potara, Potara Shard, and Soul of Potara spent on Hero Succeeding will be returned",
+    "id6": "6. L’Équipement, l’Arme, Les Marques, et l’Esprit Spirit du Héros Donataire seront retournés",
+    "id7": "7. Le coût en Matériel et en Diamants de la Succession augmentera en même temps que le Niveau d’étoiles et la Qualité du Héros Donataire augmentent",
+    "id8": "8. Un Héros déjà amélioré ne peut pas être sélectionné en tant que Héros Cible\n\n9. La Succession du Héros Donataire gratuit actuelle ne consomme pas de Diamants",
+    "id9": "AIDER"
+  },
+  "IllustratedHandBook": {
+    "id1": "PV",
+    "id2": "ATQ",
+    "id3": "DEF",
+    "id4": "VIT",
+    "id5": "Détails",
+    "deid6": "0.5",
+    "id6": "Joueur Démo"
+  },
+  "SnakeFastBattle": {
+    "id1": "Complétion Rapide",
+    "id2": "Complétion Rapide en cours...",
+    "id3": "Terminé",
+    "id4": "Ajuster la Formation",
+    "id5": "Continuer la Bataille",
+    "id6": "Ressusciter",
+    "id7": "Nos Héros sont tous morts, impossible de continuer la bataille !",
+    "id8": "Étape {0}",
+    "id9": "Le Chemin du Serpent a été rafraîchi, veuillez recommencer le défi !",
+    "id10": "-25",
+    "deid11": "18",
+    "deid12": "30",
+    "krid13": "45"
+  },
+  "CombatStatistics": {
+    "id1": "Héros",
+    "id2": "Dégâts Totaux",
+    "id3": "Soin/Bouclier",
+    "id4": "Dégâts Subis",
+    "id5": "Super Ultime",
+    "deid6": "150",
+    "frid7": "20"
+  },
+  "FiltratePanel": {
+    "id1": "No.{0}",
+    "id2": "Sélectionner les Héros",
+    "id3": "Les Héros de la catégorie exclue ne seront pas sélectionnés",
+    "id4": "Sélectionner les Marques",
+    "id5": "Les Marques de la catégorie exclue ne seront pas sélectionnées",
+    "id6": "Sélectionner les Armes",
+    "id7": "Les Armes de la catégorie exclue ne seront pas sélectionnées",
+    "id8": "Trier par Ensemble de Marque",
+    "id9": "Les Marques de la catégorie sélectionnée seront affichées dans la liste (Tout Afficher par défaut)",
+    "id10": "Trier par Attribut de Marque",
+    "id11": "Les Marques avec l’attribut sélectionné seront affichées dans la liste (Tout Afficher par défaut)",
+    "id12": "Trier par Attribut d’Arme",
+    "id13": "Les Armes avec l’attribut sélectionné seront affichées dans la liste (Tout Afficher par défaut)",
+    "id14": "Tout Annuler",
+    "id15": "Tout Sélectionner",
+    "id16": "Paramètres par défaut",
+    "id17": "Blanc",
+    "id18": "Vert",
+    "id19": "Bleu",
+    "id20": "Violet",
+    "id21": "OK",
+    "id22": "Annuler",
+    "deid23": "30",
+    "deid24": "30",
+    "deid25": "28",
+    "id26": "Openable Item",
+    "id27": "Event Material",
+    "id28": "Cost Materials",
+    "id29": "Hero Red Soul",
+    "id30": "Other",
+    "id31": "The Weapons with the selected type will be displayed on the list (Display All by default)",
+    "id32": "Gear",
+    "id33": "Spirit",
+    "id34": "Gemstone",
+    "id35": "The Gears with the selected type will be displayed on the list (Display All by default)",
+    "id37": "Material Type Filter",
+    "id38": "Gear Type Filter",
+    "id39": "The Materials with the selected type will be displayed on the list (Display All by default)"
+  },
+  "ActivitySpecialOffer": {
+    "id1": "Carte d’EXP"
+  },
+  "BulmaParty": {
+    "id1": "En possession:"
+  },
+  "ConsumptionFeedbackRank": {
+    "id1": "Aucun joueur n’a dépensé de Diamants",
+    "id2": "Non listé"
+  },
+  "MergeBossDamageRank": {
+    "id1": "Aucun joueur ne défie le Boss actuellement",
+    "id2": "Non listé"
+  },
+  "TeamHonor": {
+    "id1": "Total en Possession:",
+    "id2": "DEF Restante:",
+    "id3": "Résultats du Pillage:",
+    "id4": "Plus vous pillez d’objets, plus votre Clan recevra de Pièces",
+    "id5": "Aucun membre dans une bataille actuellement",
+    "id6": "Non listé",
+    "frid7": "18",
+    "frid8": "0.8"
+  },
+  "EquipListChoseUp": {
+    "id1": "Aucune Équipement trouvé",
+    "id2": "Veuillez sélectionner l’équipement à fortifier",
+    "deid3": "30",
+    "deid4": "28"
+  },
+  "EquipListByType": {
+    "id1": "Aucune Équipement trouvé",
+    "id2": "Veuillez sélectionner l’équipement à équiper",
+    "deid3": "24"
+  },
+  "RechargeRebate": {
+    "id1": "Fin de l’Événement:"
+  },
+  "ReturnAwardActivityListItem": {
+    "id1": "Total obtenu:",
+    "id2": "Retour le plus élevé:"
+  },
+  "HeroAwardActivity": {
+    "id1": "Fin de l’Événement:"
+  },
+  "MergeBossAwardPage": {
+    "id1": "Récompense supplémentaire de No.1 du Classement de Dégâts Totaux",
+    "id2": "Récompense pour chaque Défi",
+    "id3": "Récompense de Tuerie du Boss pour les membres du Clan",
+    "frid4": "18",
+    "frid5": "18"
+  },
+  "BossDamagePage": {
+    "id1": "Aucun joueur ne défie le Boss actuellement"
+  },
+  "PowerCompetitionActivityListItem": {
+    "id1": "Envoyé par mail après la fin de l’événement"
+  },
+  "StampDetal": {
+    "id1": "Niveau max !",
+    "id2": "Retirer",
+    "id3": "Changer",
+    "id4": "Raffiner",
+    "id5": "Annuler",
+    "id6": "Sélectionner",
+    "deid1": "26",
+    "frid1": "20",
+    "viid7": "30"
+  },
+  "SignWashWindow": {
+    "id1": "Remplacer ?",
+    "id2": "Niveau max !",
+    "id3": "Annuler",
+    "id4": "Enregistrer",
+    "id5": "Confirmer le remodelage",
+    "krid6": "21",
+    "id6": "The Power Change after replacing",
+    "id7": "Power:",
+    "id8": "Only the Mark equipped on the hero can show the change of power",
+    "deid8": "35"
+  },
+  "TodayDiscount": {
+    "id1": "Rafraîchissement dans",
+    "id2": "-255",
+    "frid1": "20",
+    "deid2": "20"
+  },
+  "WeeklyHarvestSave": {
+    "id1": "Collecte en cours",
+    "id2": "Total obtenu durant ce tour:",
+    "id3": "Retournable actuellement:"
+  },
+  "CounterpartTips": {
+    "id1": "AIDER",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Astuce",
+    "id5": "(Nombre d’achats restants : {0})",
+    "deid6": "19"
+  },
+  "ExpeditionTips": {
+    "id2": "Liée à la Puissance Z",
+    "id3": "Paramètre de Qualité",
+    "id4": "Augmentez le niveau du Héros pour augmenter sa Puissance Z",
+    "id5": "Meilleure est la qualité du Héros, plus élevée sera sa Puissance Z",
+    "id6": "1. Seuls les Héros 0 étoile Niv.1 peuvent être placés dans la Machine Dimensionnelle",
+    "id7": "2. Les Héros dans la Machine Dimensionnelle peuvent être améliorés au niveau max sans éveil",
+    "id8": "3. Le Héros dans la Machine Dimensionnelle peut être utilisé pour l’amélioration ou la Percée pour augmenter la Puissance Z",
+    "id9": "AIDER",
+    "deid10": "24"
+  },
+  "SignInPanel": {
+    "id1": "Connexion",
+    "id2": "Journal"
+  },
+  "QiangDiBossDamageAndAwardInfo": {
+    "id1": "Total de Dégâts",
+    "id2": "Aucun joueur dans le classement actuellement",
+    "id3": "Participez aux défis pour obtenir des récompenses"
+  },
+  "JialintaRankPage": {
+    "id1": "Aucun joueur dans le classement actuellement",
+    "id2": "Classement du Serveur",
+    "id3": "Classement Inter-Serveurs",
+    "deid4": "20",
+    "frid5": "0.6"
+  },
+  "CommonRule": {
+    "id1": "Astuces des Règles"
+  },
+  "JialintaRule": {
+    "id1": "Astuces des Règles",
+    "id2": "Présentation du Mode de Jeu",
+    "id3": "",
+    "id4": "",
+    "id5": "",
+    "id6": "",
+    "id7": "Heure de l'Évènement",
+    "id8": "",
+    "id9": "Exigences:",
+    "id10": "",
+    "id11": "Régles du Règlement:",
+    "id12": "",
+    "id13": "",
+    "id14": ""
+  },
+  "MahaAdventureBattleRewardTips": {
+    "id1": "Récompense"
+  },
+  "ShaLuAwardPage": {
+    "id1": "Aperçu de récompense"
+  },
+  "ShaLuMyHeros": {
+    "id1": "- Faites glisser les avatars pour ajuster la séquence des membres -",
+    "id2": "DÉBUT DE LA BATAILLE",
+    "id3": "Ressusciter",
+    "deid4": "35",
+    "frid5": "19"
+  },
+  "ShaLuPassSuccess": {
+    "id1": "Les récompenses collectables chaque jour augmentent",
+    "id2": "(Prend effet le jour suivant)"
+  },
+  "ShaLuSetTeamWarn": {
+    "id1": "(Les données du Héros ne seront plus mises à jour)",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Astuce",
+    "id5": "Les Héros qui participent au Défi ne pourront plus être changés lorsque vous aurez confirmé la Formation. Continuer ?",
+    "id6": "-5",
+    "deid7": "26"
+  },
+  "ShaLuWarn": {
+    "id1": "(Vous pourrez revenir pour la collecter)",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Des récompenses quotidiennes sont disponibles ! Quitter cette interface ?"
+  },
+  "SnakeCloseWarn": {
+    "id1": "(Vous pourrez revenir pour la collecter)",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Des Coffres déverrouillés sont disponibles ! Quitter cette interface ?"
+  },
+  "BossFightingAffiliationAward": {
+    "id1": "Les récompenses sont envoyées par mail"
+  },
+  "BossFightingRankAward": {
+    "id1": "Les récompenses sont envoyées par mail"
+  },
+  "Bulletin": {
+    "id1": "Félicitations"
+  },
+  "HeroCardPoolDisplay": {
+    "id1": "Pourcentage",
+    "id2": "Appuyer sur une zone vide pour quitter",
+    "deid3": "26",
+    "enid4": "16"
+  },
+  "FindDragonBall": {
+    "id1": "Appuyer sur une zone vide pour quitter",
+    "id2": "Les découvertes de Dragon Ball sont seulement révélées aux membres du Clan"
+  },
+  "FriendHeat": {
+    "id1": "Nombre d’Amis",
+    "id2": "Rafraîchi tous les jours à 6h",
+    "id3": "Aucun ami ajouté actuellement",
+    "id4": "Collecter en un clic et envoyer",
+    "deid5": "20"
+  },
+  "SummaryBossFail": {
+    "id1": "Chances Restantes",
+    "deid2": "25"
+  },
+  "DragonBallBattleFinishTips": {
+    "id1": "Ce Clan ne participe pas à la Conquête de Dragon Ball",
+    "id2": "OK",
+    "deid3": "30"
+  },
+  "DragonBallBattleHighLadder": {
+    "id1": "Aucune donnée de rang disponible",
+    "id2": "Classement Elo",
+    "id3": "Bonus de Division",
+    "id4": "1",
+    "id5": "0.8",
+    "deid6": "28",
+    "frid7": "24"
+  },
+  "DragonBackpack": {
+    "id1": "Sac à Dos de Dragon Ball",
+    "id2": "Aucune Dragon Ball avec ce nombre d’étoiles disponible actuellement",
+    "id3": "OK",
+    "id4": "Aucune Dragon Ball actuellement"
+  },
+  "DragonPromisePool": {
+    "id1": "Puits à Vœu",
+    "id2": "Aucun Héros disponible pour une Succession Gratuite",
+    "id3": "Gratuit lorsque utilisé en tant que Héros Donataire",
+    "deid2": "30"
+  },
+  "EarringLevelFull": {
+    "id1": "Niveau de Boucles d’Oreilles maximum atteint",
+    "id2": "Niveau max atteint",
+    "id3": "OK",
+    "deid4": "36"
+  },
+  "EntrustHeroPos": {
+    "id1": "Niveau de Déploiement",
+    "frid2": "26"
+  },
+  "ExpeditionCombinationDetails": {
+    "id1": "Aucun Bonus de Combo activé"
+  },
+  "ExpeditionCombinationDetailsListItem": {
+    "id1": "Personnage d’Histoire: {0}\n\nDéployez un Personnage d’Histoire pour Puissance Z +{1}%",
+    "id2": "19",
+    "deid3": "23"
+  },
+  "ExpeditionEventLineUp": {
+    "id1": "Héros Déployé",
+    "id2": "Heure de Retour"
+  },
+  "ExpeditionEventPandect": {
+    "id1": "Les quêtes non terminées disparaîtront tous les jours à 6h00",
+    "id2": "Limite de Missions en Cours:",
+    "id3": "Aucune mission pour le moment, vous pouvez en obtenir via l’observation d’Étapes Terminées",
+    "id4": "Event List",
+    "id5": "Favorite List",
+    "id6": "There is no event in favorite",
+    "id7": "The limit of events in Favorite",
+    "deid4": "28",
+    "deid5": "30",
+    "krid6": "-5",
+    "deid8": "28",
+    "id8": "There is no event available to scout",
+    "id9": "Favorite List Fast Scout Complete",
+    "id10": "Fast Scout",
+    "deid11": "35",
+    "enid12": "24"
+  },
+  "ExpeditionMachineHeroMoveOut": {
+    "id1": "Aperçu du Retour de Ressources",
+    "id2": "Confirmer l’Expédition",
+    "id3": "Annuler",
+    "deid4": "32"
+  },
+  "ExpeditionMachinePutHeroInTip": {
+    "id1": "(Ne consomme pas de Diamants, le gain de la réincarnation entrera directement dans le pack)",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Astuce",
+    "id5": "Ce Héros a été cultivé ou a équipé un équipement. Placer le Héros dans la Machine Dimensionnelle réincarnera automatiquement le Héros au statut initial"
+  },
+  "ExpeditionMachineUpSuccess": {
+    "id1": "La Machine Dimensionnelle peut être améliorée au niveau max sans éveil",
+    "id2": "Niveau Max",
+    "id3": "-5"
+  },
+  "FindFriendPage": {
+    "id1": "Ajouter",
+    "id2": "Ajouter"
+  },
+  "FriendApply": {
+    "id1": "Aucune Demande d’Ami actuellement"
+  },
+  "SendFriendMailChosePage": {
+    "id1": "Aucun ami ajouté actuellement",
+    "id2": "Envoyer un Mail"
+  },
+  "GemBook": {
+    "id1": "Illustration d’Esprit",
+    "id2": "Seul l’attribut le plus élevé sera affiché",
+    "id3": "Bassin d’Attribut d’Esprit ATQ",
+    "id4": "Bassin d’Attribut d’Esprit DEF",
+    "id5": "Bassin d’Attribut d’Esprit CMP",
+    "deid6": "19",
+    "frid7": "22"
+  },
+  "GlobalWarFinal": {
+    "id1": "Horaire du match"
+  },
+  "GlobalWarRanking": {
+    "id1": "Non classé",
+    "id2": "La Formation actuelle n’est peut-être pas appropriée pour la Formation de la Bataille Inter-Serveurs actuelle, veuillez vous référer à la Formation actuelle",
+    "viid3": "26"
+  },
+  "GlobalWarRankingItemListItem": {
+    "id1": "Titres Totaux :",
+    "krid2": "0.8",
+    "viid3": "24"
+  },
+  "GlobalWarReward": {
+    "id1": "· Le joueur No.1 obtiendra l’effet du Champion, les joueurs No.2 à No.4 obtiendront l’effet du Top 4\nL’effet de l’avatar sera actif après le règlement. Les autres récompenses seront envoyées par mail",
+    "id2": "Effet d’Avatar de Champion (7 jours)",
+    "id3": "Effet d’Avatar de Top 4 (7 jours)",
+    "deid4": "19",
+    "deid5": "1",
+    "deid6": "1"
+  },
+  "GlobalWarSeaElectionDesListItem": {
+    "id1": "Système",
+    "frid2": "21"
+  },
+  "TreasureTeamChangeWarn": {
+    "id1": "Astuce",
+    "id2": "Abandonner et Quitter",
+    "id3": "Enregistrer et Quitter",
+    "id4": "Equipe de Défense ajustée. Enregistrer ?",
+    "deid5": "36"
+  },
+  "BuyTips": {
+    "id1": "Astuce",
+    "id2": "Confirmer l’échange ?",
+    "id3": "OK",
+    "id4": "Annuler"
+  },
+  "HeroGetWay": {
+    "id1": "Moyen d’Obtention",
+    "deid2": "24",
+    "viid3": "0.7",
+    "frid3": "0.7"
+  },
+  "HeroMainAttribute": {
+    "id1": "Détails des Attributs"
+  },
+  "HeroMainStamp": {
+    "id1": "Détails",
+    "frid2": "20",
+    "id2": "Les marques du Héros résonnant sont les mêmes que celles du Héros principal"
+  },
+  "HeroWakeUpReturn": {
+    "id1": "L’Équipement et le Matériel dépensés sur le Héros seront retournés après l’Éveil",
+    "id2": "Retourne le Matériel"
+  },
+  "HeroWakeUpSuccess": {
+    "id1": "Éveillé",
+    "id2": "Limite de Base augmentée",
+    "id3": "Qualité augmentée",
+    "id4": "Limite de Niveau augmentée",
+    "id5": "Compétence Active augmentée"
+  },
+  "JialintaRankAward": {
+    "id1": "Aperçu des Récompenses de Classement",
+    "frid2": "23"
+  },
+  "MahaAdventureBossKillTips": {
+    "id1": "Veuillez collecter les récompenses suivantes",
+    "id2": "Recevoir",
+    "deid3": "26"
+  },
+  "MahaAdventureFriendHelp": {
+    "id1": "Aucun Ami n’a eu besoin de votre aide"
+  },
+  "MahaFriendHelpListItem": {
+    "id1": "De vos Amis"
+  },
+  "MailDetails": {
+    "id1": "De:",
+    "id2": "Supprimer",
+    "id3": "Collecter"
+  },
+  "PackItemInfo": {
+    "id1": "Quantité Actuelle:",
+    "id2": "Détails",
+    "id3": "Synthétiser",
+    "id4": "Vendre",
+    "id5": "Ouvrir",
+    "id6": "Vente Impossible",
+    "id7": "-1"
+  },
+  "ItemsTips": {
+    "id1": "Quantité Actuelle:",
+    "id2": "Détails",
+    "deid3": "20"
+  },
+  "SettingMain": {
+    "id1": "Version du Serveur:",
+    "id2": "Paramètres des Messages",
+    "frid1": "30"
+  },
+  "SignAttrChose": {
+    "id1": "Trier par Attribut de Marque",
+    "id2": "Tout Afficher",
+    "id3": "Filtre Personnalisé",
+    "id4": "% ATQ",
+    "id5": "% PV",
+    "id6": "% DEF",
+    "id7": "% Esquive",
+    "id8": "Pénétration",
+    "id9": "Ténacité",
+    "id10": "TAUX CRIT",
+    "id11": "Dégâts Critiques",
+    "id12": "RES CRIT",
+    "id13": "Taux de Blocage",
+    "id14": "Toucher",
+    "id15": "VIT",
+    "deid16": "28",
+    "deid17": "26"
+  },
+  "SignPosChose": {
+    "id1": "Filtre de Partie de Marque",
+    "id2": "Tout Afficher",
+    "id3": "Filtre Personnalisé"
+  },
+  "SignSuitNameChose": {
+    "id1": "Trier par Ensemble de Marque",
+    "id2": "Tout Afficher",
+    "id3": "Kamé",
+    "id4": "Kai",
+    "id5": "Shin",
+    "id6": "Go",
+    "id7": "Mo",
+    "id8": "Zen",
+    "frid9": "30"
+  },
+  "SummaryPveSuccess": {
+    "id1": "Dégâts Totaux:",
+    "id2": "Activité du Clan:"
+  },
+  "SummaryDefeatedWithAward": {
+    "id1": "Augmentez la Puissance de l’Équipe via l’une de ces méthodes",
+    "id2": "Activité du Clan:",
+    "id3": "Dégâts Totaux:",
+    "frid4": "22"
+  },
+  "SummaryPvpSuccess": {
+    "id1": "Activité du Clan:",
+    "deid2": "1"
+  },
+  "SummonEnergyTips": {
+    "id1": "Privilège de Carte Permanente",
+    "id2": "80 Invocations Avancées rapporte un Héros SS. (Privilège de Propriétaire de Carte Permanente)",
+    "id3": "Aller Acheter",
+    "id4": "- L’Énergie n’est pas pleine -",
+    "deid5": "29.5",
+    "deid6": "40"
+  },
+  "TaskMainTips": {
+    "id1": "Exigences de Quête"
+  },
+  "BattleForTreasureEnemy": {
+    "id1": "Butin Disponible:",
+    "id2": "Butin Restant:",
+    "id3": "Butin Personnel:",
+    "id4": "Butin du Clan:",
+    "deid5": "-23",
+    "frid6": "32",
+    "viid7": "28"
+  },
+  "BossAwardPage": {
+    "id1": "Récompense de Classement de Dégâts",
+    "id2": "Récompense de Bataille",
+    "viid3": "29"
+  },
+  "MemberItemListItem": {
+    "id1": "Activité Hebdo: {0}"
+  },
+  "TeamHeadChang": {
+    "id1": "- Avatar Actuel -"
+  },
+  "TreasureDefendViewPage": {
+    "id1": "·L’Équipe de Défense ne peut pas être ajustée durant la Chasse au Trésor",
+    "id2": "·L’Équipe de Défense dans la Chasse au Trésor est votre Formation d’Arène de la Veille",
+    "id3": "Impossible de rejoindre ce tour de l’événement"
+  },
+  "TreasureGetTip": {
+    "id1": "Clan:",
+    "id2": "OK"
+  },
+  "TimeLeapChooseAdress": {
+    "id1": "Chance d’obtenir des Fragments après Tuerie:",
+    "deid2": "20",
+    "deid3": "30"
+  },
+  "TimeLeapChooseTime": {
+    "id1": "6 heures",
+    "id2": "10 heures",
+    "id3": "22 heures"
+  },
+  "DiamondTips": {
+    "id1": "Diamants insuffisants",
+    "id2": "Diamants insuffisants. Recharger ?",
+    "id3": "Recharger",
+    "id4": "Plus Tard"
+  },
+  "LoginMessage": {
+    "id1": "Annonce",
+    "id2": "OK"
+  },
+  "MaterialNotEnoughTips": {
+    "id1": "Matériel insuffisant",
+    "id2": "Quantité actuelle:",
+    "deid3": "30",
+    "deid4": "28"
+  },
+  "OpenLimitPage": {
+    "id1": "Ouvrir",
+    "id2": "Bientôt Disponible"
+  },
+  "TotalRankItem": {
+    "id1": "Chef",
+    "deid2": "26"
+  },
+  "WeaponAttrGroupChose": {
+    "id1": "Trier par Attribut d’Arme",
+    "id2": "Tout Afficher",
+    "id3": "Filtre Personnalisé",
+    "id4": "ATQ",
+    "id5": "Pourcentage d’ATQ",
+    "id6": "PV",
+    "id7": "Pourcentage de PV",
+    "id8": "DEF",
+    "id9": "Pourcentage de DEF",
+    "id10": "TAUX CRIT",
+    "id11": "Dégâts Critiques",
+    "id12": "RES CRIT",
+    "id13": "Taux de Blocage",
+    "id14": "Toucher",
+    "id15": "VIT",
+    "deid16": "26",
+    "frid17": "30"
+  },
+  "ReceiveAwardPanel": {
+    "id1": "OK",
+    "id2": "Aperçu de l’objet obtenable",
+    "deid3": "27",
+    "id3": "Return 80% Awaken Stones, the rest of the spent materials will be returned 100%"
+  },
+  "SupriseReward": {
+    "id1": "OK"
+  },
+  "MarketListItem": {
+    "id1": "Collecter",
+    "deid2": "30"
+  },
+  "ShaLuDayAward": {
+    "id1": "Collecter",
+    "frid2": "32",
+    "viid3": "270"
+  },
+  "LeaveTeamTip": {
+    "id1": "OK",
+    "id2": "Annuler",
+    "id3": "Attention",
+    "id4": "1. Vous ne pouvez pas rejoindre un autre Clan le jour où vous quittez un Clan\n\n2. Les Pièces de Clan seront réservées pour le nouveau Clan, mais le journal des dons ne sera pas conservé."
+  },
+  "CommonErrorTips": {
+    "id1": "OK",
+    "id2": "Erreur"
+  },
+  "AchievementListItem": {
+    "id1": "Collecter",
+    "id2": "Aller",
+    "id3": "Non Terminé",
+    "deid4": "50"
+  },
+  "TaskListItem": {
+    "id1": "Collecter",
+    "id2": "Aller",
+    "id3": "Non Terminé",
+    "deid4": "50",
+    "viid5": "28"
+  },
+  "ExpeditionMachineUpTip": {
+    "id1": "OK",
+    "id2": "Annuler",
+    "id3": "Astuce",
+    "id4": "   Augmenter la limite de niveau de cette Machine Dimensionnelle ?"
+  },
+  "GemDetal": {
+    "id1": "Retirer",
+    "id2": "Changer",
+    "id3": "Esprit",
+    "id4": "Annuler",
+    "id5": "OK",
+    "deid6": "22",
+    "deid7": "21"
+  },
+  "EquipDetal": {
+    "id1": "Retirer",
+    "id2": "Changer",
+    "id3": "Équiper",
+    "id4": "Vendre",
+    "deid5": "24",
+    "deid6": "50",
+    "frid7": "25",
+    "id5": "Identifier",
+    "id6": "Gemme incompatible avec le Héros. Impossible d’activer l’effet exclusif",
+    "id7": "Fortification",
+    "deid8": "20",
+    "frid9": "22",
+    "frid10": "16"
+  },
+  "GlobalWarMyGuessListItem": {
+    "id1": "Replay",
+    "id2": "En cours...",
+    "id3": "Pari désactivé",
+    "viid4": "30"
+  },
+  "SellWindow": {
+    "id1": "Vendre"
+  },
+  "HeroDebrisSummon": {
+    "id1": "Synthétiser"
+  },
+  "OpenBox": {
+    "id1": "Ouvrir"
+  },
+  "TeamNotice": {
+    "id1": "Compris",
+    "id2": "Annonce"
+  },
+  "HeroItemTips": {
+    "id1": "Détails",
+    "id2": "Bientôt Disponible",
+    "deid3": "0.55"
+  },
+  "ArenaRecordListItem": {
+    "id1": "Rang"
+  },
+  "RandomFriendListItem": {
+    "id1": "Envoyer une demande",
+    "frid1": "30"
+  },
+  "ActivityTurnTable": {
+    "id1": "Règles",
+    "id2": "Rewards Record",
+    "viid1": "158",
+    "id3": "No Rewards Record",
+    "id4": "Percentage\n{0}%"
+  },
+  "ArenaRecord": {
+    "id1": "Journal"
+  },
+  "StrongBossDamageInfoListItem": {
+    "id1": "Total de Dégâts"
+  },
+  "MyTreasureTeamListItem": {
+    "id1": "Les 10 joueurs ci-dessus participeront à la défense",
+    "krid2": "22"
+  },
+  "WhisRankAwardListItem": {
+    "id1": "Intimité de Whis totale de {0}\net rang No.{1}",
+    "id2": "Intimité de Whis totale de {0}\net rang No.{1}-{2}",
+    "id3": "Intimité de Whis Totale: {0}",
+    "id4": "Envoyé par mail après la fin de l’événement",
+    "id5": "-5",
+    "deid6": "22"
+  },
+  "SummonTenSuccess": {
+    "id1": "Gratuit",
+    "id2": "(15% de réduction)"
+  },
+  "whisBenedictionListItem": {
+    "id1": "Limite d’Achat: {0}",
+    "id2": "Échangé"
+  },
+  "WhisFeast": {
+    "id1": "Offrir de la Nourriture",
+    "id2": "Récompense de Classement",
+    "id3": "Boutique de Bénédiction",
+    "id4": "Accélérer Maintenant",
+    "id5": "Terminer",
+    "id6": "Accélérer maintenant nécessite {0}{1}. Continuer ?",
+    "id7": "Rafraîchissement: {0}",
+    "deid8": "35"
+  },
+  "WhisFeastGiveCate": {
+    "id1": "Bol de Nouilles",
+    "id2": "Assortiment de Tempura",
+    "id3": "Parfait à la Fraise Luxueux",
+    "id4": "Envoyer",
+    "id5": "Nourriture offerte !",
+    "id6": "Gratuit",
+    "id7": "Temps de recharge: {0} heure(s)",
+    "id8": "Restant: {0}",
+    "id9": "20"
+  },
+  "WhisFavorabilityRank": {
+    "id1": "Aucune Intimité obtenue",
+    "deid2": "1.25"
+  },
+  "TempleTrialEverydayAward": {
+    "id1": "Des récompenses quotidiennes sont disponibles ! Quitter cette interface ? \n\n(Vous pourrez revenir pour la collecter)",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Récompense Quotidienne",
+    "id5": "Récompense de Complétion",
+    "id6": "Collecter",
+    "deid7": "26"
+  },
+  "NewHeroRewardActivity": {
+    "id1": "Limite d’Achat:{0}",
+    "id2": "Limite d’Achat",
+    "id3": "{0}",
+    "id4": "Échangé",
+    "id5": "Les Jetons de Récompense peuvent être échangés contre des Packs cadeau"
+  },
+  "JialintaLevelMoreViewData": {
+    "id1": "Bonus de Niveau",
+    "id2": "Quand le niveau du joueur atteint Niv. {0} ou supérieur, la Super Eau Divine des Récompenses de Coffre et des Récompenses de Classement recevra un bonus:",
+    "id3": "Le Niveau atteint Niv.{0}:",
+    "id4": "+{0}%"
+  },
+  "BossDamagePageViewData": {
+    "id1": "Retrait du bannissement: demain à 6h00",
+    "id2": "(Défiez jusqu’à {0} Boss par jour)"
+  },
+  "CDKEYPanel": {
+    "id1": "Utiliser le Code d’Activation",
+    "id2": "Veuillez entre le Code d’Activation"
+  },
+  "BattleMedalPanel": {
+    "id1": "Rafraîchissement dans:",
+    "id2": "Appuyez pour déverrouiller le Pass de Bataille Avancé",
+    "id3": "Déverrouillé",
+    "id4": "Gagnez de l’EXP via les Quêtes de Pass de Bataille",
+    "id5": "Niveau d’Achat",
+    "id6": "Obtenir de l’EXP",
+    "id7": "Niveau de Pass de Bataille",
+    "id8": "Pass de Bataille Normal",
+    "id9": "Pass de Bataille Avancé",
+    "id10": "Aperçu des Prochaines Récompenses Avancées",
+    "id11": "Collecter en un clic",
+    "id12": "Récompense",
+    "id13": "Quête",
+    "id14": "Boutique",
+    "id15": "Niveau max atteint, impossible d’acheter !",
+    "id16": "Acheter <font color={0}>1 chance de Niveau de Pass de Bataille</font> nécessite <font color={0}>{1} Diamants</font>. Continuer ?",
+    "id17": "Déverrouillé !",
+    "id18": "Déverrouillé au Niv.{0}",
+    "id19": "1. Durant le temps imparti, tous les joueurs peuvent gagner de l’EXP de Pass de Bataille, augmenter le Niveau de Pass de Bataille, et collecter des Récompenses de Niveau de Pass de Bataille en terminant des Quêtes de Pass de Bataille \n\n2. Les joueurs peuvent ouvrir le Pass de Bataille Avancé, qui peut être utilisé pour collecter des Récompenses de Pass de Bataille Avancé. \n\n3. Les joueurs peuvent échanger les Médailles obtenus grâce au Niveau de Pass de Bataille contre de nombreux objets dans la Boutique de Pass de Bataille. \n\n4. Les joueurs peuvent acheter du Niveau de Pass de Bataille après avoir atteint le Niv.90. \n\n5. Le Pass de Bataille est mis à jour tous les 30 jours. Après 30 jours, il sera mis à jour automatiquement au tour suivant de Pass de Bataille. Le Pass de Bataille Avancé doit être acheté à nouveau. \n\n6. Les Héros échangés via la Boutique de l’Autel ou synthétisés via des Fragments ne comptent pas pour les Quêtes de Pass de Bataille.",
+    "id20": "Peut être collecté après avoir déverrouillé le Pass de Bataille Avancé et atteint le niveau correspondant",
+    "id21": "Aucune récompense à réclamer",
+    "id22": "Chances d'achat épuisées !",
+    "deid22": "-19",
+    "deid23": "22",
+    "deid24": "22",
+    "deid25": "24",
+    "krid26": "20",
+    "enid27": "18",
+    "frid1": "20",
+    "frid2": "22",
+    "frid28": "20",
+    "krid28": "26"
+  },
+  "BattleMedalShopListItem": {
+    "id1": "Limite d’achat: {0}",
+    "id2": "Épuisé",
+    "id3": "Échange de Boutique de Pass de Bataille",
+    "krid4": "28"
+  },
+  "BattleMedalTaskListItem": {
+    "id1": "Progression de la Quête: {0}/{1}",
+    "id2": "Collecter",
+    "id3": "26"
+  },
+  "OpenHighGradeBattleMedal": {
+    "id1": "{0}",
+    "id2": "Déverrouillez le Pass de Bataille Avancé et augmentez le Niveau de Pass de Bataille pour gagner des aperçus de récompense supplémentaires",
+    "deid3": "1.25",
+    "viid4": "1"
+  },
+  "BattleMedalAwardListItem": {
+    "id1": "Pass de Bataille Avancé verrouillé, impossible de collecter les récompenses de Pass de Bataille Avancé"
+  },
+  "TrainingPoinInfo": {
+    "id1": "Niveau d’Entraînement: {0}",
+    "id2": "Attribut au niveau suivant:",
+    "id3": "Limite de niveau d’Entraînement atteinte"
+  },
+  "TrainingMain": {
+    "id1": "Limite de niveau d’Entraînement d’Équipe atteinte",
+    "id2": "Déverrouillé après que la Percée de Limite de {0} Héros ait atteint le Niv.{1}",
+    "id3": "Niveau Total:",
+    "id4": "1. Les Attributs d’Entraînement d’Équipe sont effectifs pour toute l’équipe\n\n2. Chaque Entraînement améliore un point aléatoire\n\n3. La différence de niveau de point ne peut pas être supérieure à 1 niveau\n\n4. Limite de niveau total de point: {0}\n\n5. Reset will return all the Training Passes cost in Team Training",
+    "id5": "\n\n Lorsque la Percée de Limite de {0} Héros atteint le Niv.{1}, la limite augmente au Niv.{2}",
+    "id6": "(Les Attributs d’Entraînement d’Équipe sont effectifs pour toute l’équipe)",
+    "deid7": "22",
+    "id7": "Confirm to cost {0} Diamonds to reset Team Training? \n\nReturn Training Pass: {1}"
+  },
+  "TotalTrainAttrListItem": {
+    "id1": "Verrouillé",
+    "deid2": "20"
+  },
+  "AttrsExplainDesViewData": {
+    "id1": "[{0}]"
+  },
+  "SummonOneSuccess": {
+    "id1": "Gratuit",
+    "id2": "(15% de réduction)"
+  },
+  "HeroEquipAndStampShow": {
+    "id1": "Niv.{0}",
+    "id2": "Astuce: Les attributs réels des Héros de plusieurs modes ne sont pas affichés en tant qu’attributs actuels, veuillez vous référer aux attributs réels.",
+    "deid3": "16"
+  },
+  "ChangeHeadIcon": {
+    "id1": "Paramètres d'Avatar",
+    "id2": "Avatar",
+    "id3": "Cadre d’Avatar",
+    "id4": "OK",
+    "id5": "Exigences:",
+    "id6": "Cadre d’Avatar Verrouillé",
+    "id7": "Avatar Verrouillé",
+    "id8": "Obtenir le Héros {0}",
+    "deid1": "24",
+    "deid2": "50",
+    "deid3": "26"
+  },
+  "AdventureEnemyInfo": {
+    "id1": "Le Héros n’existe pas",
+    "id2": "Appuyez sur le Héros pour voir les détails !",
+    "id3": "Recherche..."
+  },
+  "ArenaOtherInfo": {
+    "id1": "Appuyez sur le Héros pour voir les détails !",
+    "id2": "Rang Actuel",
+    "id3": "Recherche...",
+    "deid4": "26",
+    "id4": "Budokai Formation",
+    "id5": "Spitzenkampf Formation",
+    "id6": "Spitzenweg",
+    "id7": "Team {0}",
+    "id8": "Du hast dich noch keinen Spitzenkampf  angeschlossen",
+    "enid9": "22",
+    "id9": "The lineups shown are the player's Ace Showdown battle lineups from the previous day",
+    "id10": "The display lineup is the defense lineup of the player's Tournament on the previous day",
+    "enid11": "16"
+  },
+  "SnakeChapterInfo": {
+    "id1": "Appuyez sur le Héros pour voir les détails !",
+    "id2": "Recherche..."
+  },
+  "RuleModel": {
+    "id1": "Présentation du Mode de Jeu",
+    "id2": "Heure de l'Évènement",
+    "id3": "Exigences",
+    "id4": "Régles du Règlement"
+  },
+  "JialintaEnemy": {
+    "id1": "Appuyez sur le Héros pour voir les détails !",
+    "id2": "Recherche...",
+    "id3": "-7",
+    "id4": "0.6"
+  },
+  "WeaponInfoTip": {
+    "id1": "Arme",
+    "deid2": "22"
+  },
+  "EarringLevelUpViewData": {
+    "id1": "Niv.{0}"
+  },
+  "SignetCounterpartTips": {
+    "id1": "Butins possibles"
+  },
+  "ChangeTeamName": {
+    "id1": "Seuls le Chef et le Vice-Chef peuvent modifier le nom du Clan !",
+    "id2": "Nom du Clan modifié !",
+    "id3": "Veuillez entrer le nouveau nom:",
+    "id4": "Modifier le Nom",
+    "id5": "Modifier",
+    "id6": "Appuyer pour entrer",
+    "id7": "La modification du nom du Clan vous coûtera {0} Diamants. Confirmer ?",
+    "id8": "28"
+  },
+  "JialintaLevelMore": {
+    "id1": "21",
+    "id2": "-4"
+  },
+  "SignWashTip": {
+    "id1": "Attributs Aléatoires:",
+    "viid2": "30"
+  },
+  "ThreeDaysActivityListItem": {
+    "id1": "20",
+    "id2": "24"
+  },
+  "ConsumptionFeedback": {
+    "id1": "Événement Terminé !",
+    "viid2": "133"
+  },
+  "OldUserActivity": {
+    "id1": "· In each event, <font color={0}>{1}</font>Old Players can replace dragon ball for {2} times, replace mark for {3} times, replace weapon for {4} times, replace Spirit for {5} times, and replace Mark for another {6} times",
+    "id2": "· Mark Replacement Requirement: <font color={0}>VIP {1}</font> or above. Weapon Replacement Requirement: <font color={2}>VIP {3}</font> or above. Spirit Replacement Requirement: <font color={4}>VIP {5}</font> or above. Mark Addition Replacement Requirement: <font color={6}>VIP {7}</font> or above",
+    "id3": "Merci d’avoir passé {0} jours avec Dragon Ball, vous êtes un Vétéran {1} !",
+    "id4": "\"Les Vétérans de différent niveau bénéficieront d’avantages différents dans cet événement ! Dépêchez-vous de venir tester votre niveau de Vétéran !",
+    "id5": "Il n’est pas nécessaire de re-certifier aujourd’hui !",
+    "id6": "Certifié !",
+    "id7": "Merci d’avoir passé {0} jours avec Dragon Ball, vous n’êtes pas encore un Vétéran !",
+    "id8": "8"
+  },
+  "OldPlayerExchange": {
+    "id1": "Vous êtes un Vétéran {0} , vous pouvez remplacer {1} {2} fois",
+    "id2": "Veuillez placer {0} pour le remplacement",
+    "id3": "Dragon Ball",
+    "id4": "Marque",
+    "id5": "Arme",
+    "id6": "Nécessite VIP{0}",
+    "id7": "Chances de remplacement restantes insuffisantes",
+    "id8": "({0} fois restantes)",
+    "id9": "Vous n’êtes pas encore un Vétéran, impossible de rejoindre cet événement",
+    "id10": "Placer une Dragon Ball re-générera aléatoirement une Dragon Ball avec un nombre d’étoiles différent",
+    "id11": "Placer une Marque orange 0 étoile Niv.1 réinitialisera aléatoirement une partie de cette marque. L’Attribut d’Ensemble de cette Marque sera conservé, mais son Attribut Secondaire changera",
+    "id12": "Place in a 0-Star Lv. 1 Orange or Red Weapon will randomize the type of this weapon",
+    "id13": "Gratuit",
+    "id14": "Insérez un Esprit Niv.5 pour générer un nouvel Esprit Niv.5 aléatoire du même type",
+    "id15": "Esprit",
+    "id16": "Place in an orange mark addition materials to randomly generate a mark addition material of the same quality",
+    "id17": "Mark Addition"
+  },
+  "WeaponChoseCommon": {
+    "id1": "Veuillez sélectionner une Arme Matérielle",
+    "id2": "L’Arme Matérielle doit être de 0 étoiles Niv.1",
+    "id3": "Aucune Arme Matérielle correspondante",
+    "id4": "Nombre d’Armes Matérielles insuffisant",
+    "id5": "Assez d’Armes Matérielles",
+    "deid6": "28"
+  },
+  "shaLuGame": {
+    "id1": "28",
+    "krid2": "-104",
+    "frid3": "24"
+  },
+  "ThreeDaysActivity": {
+    "id1": "24",
+    "viid3": "141"
+  },
+  "OrangeHeroActivity": {
+    "viid1": "171"
+  },
+  "TSGuideNode": {
+    "id1": "Appuyer à n’importe quel endroit de l’écran pour passer à l’étape suivante"
+  },
+  "GetWayListItem": {
+    "id1": "20"
+  },
+  "HeroSkin": {
+    "id1": "Changer d’Avatar en même temps",
+    "id2": "Activer",
+    "id3": "Activer",
+    "id4": "22",
+    "deid5": "40"
+  },
+  "OnceTrain": {
+    "id1": "Les résultats d’Entraînement de l’option sélectionnée seront enregistrées s’ils ne sont pas inférieurs à 0",
+    "id2": "Commencer l’Entraînement",
+    "id3": "Veuillez choisir un Attribut",
+    "id4": "Au début de l’Entraînement Auto, Entraînement x10 sera effectué",
+    "id5": "1. You can only select one attribute to perform Fast Train each time\n\n2. At the beginning of Auto Training, it will automatically perform 10x training until insufficient resources or the selected attributes have reached the limit. Upon selecting power, the three attributes need to reach the limit before it can stop\n\n3. Training Record only records the result of Fast Train",
+    "id6": "L’Attribut que vous avez sélectionné a atteint la limite actuelle",
+    "id7": "21",
+    "frid1": "17"
+  },
+  "OnceTrainRecordListItem": {
+    "id1": "PV de Base",
+    "id2": "ATQ de Base",
+    "id3": "DEF de Base",
+    "id4": "Puissance",
+    "id5": "Enregistrer",
+    "id6": "Annuler",
+    "frid1": "26"
+  },
+  "PublicityPanel": {
+    "id1": "Mon Frère, construisons ensemble le Clan le plus puissant !",
+    "id2": "Appuyez pour envoyer le message de recrutement dans le canal de chat mondial",
+    "id3": "Astuce",
+    "id4": "Envoyer",
+    "id5": "Limite de caractères dépassée",
+    "id6": "\"Message de recrutement envoyé, veuillez réessayer dans {0} minutes",
+    "id7": "Envoyé !",
+    "id8": "Envoyer le message de recrutement ?"
+  },
+  "OnceTrainRecord": {
+    "id1": "L’Attribut que vous avez sélectionné a atteint la limite actuelle",
+    "id2": "You have raised power by {0} in the Fast Train this time",
+    "viid3": "18"
+  },
+  "NienBeastActivity": {
+    "id1": "{0} ATQ",
+    "id2": "(Restant",
+    "id3": "：{0}）",
+    "id4": "Heure de Fin: {0}",
+    "id5": "24"
+  },
+  "KillNienBeastBossAward": {
+    "id1": "Récompense de Règlement de Classement",
+    "id2": "Récompense de Zone de Tuerie de Nian",
+    "id3": "Les récompenses sont envoyées par mail",
+    "id4": "24",
+    "id5": "24"
+  },
+  "KillNienBossDamageRank": {
+    "id1": "Aucun joueur dans le classement actuellement",
+    "id2": "Non listé"
+  },
+  "KillNienBeastBossAttackAward": {
+    "id1": "Chance de Butin lorsque vous êtes attaqué par {0}",
+    "id2": "Chance de Butin",
+    "frid3": "18"
+  },
+  "KillNienRankAwardListItem": {
+    "id1": "Récompense de Participation"
+  },
+  "WeaponCircleTeamAttr": {
+    "id1": "L’Aura d’Arme sera actif tout au long de la bataille, avec l’Aura du Héros. S’il existe une autre Aura similaire, seule l’Aura avec le niveau le plus élevée sera active",
+    "id2": "Équipe {0}",
+    "id3": "Aura du même type existe déjà",
+    "id4": "Aura d’Arme",
+    "deid5": "20",
+    "deid6": "16",
+    "enid1": "16",
+    "frid7": "16"
+  },
+  "OpenTeamworkWindow": {
+    "id1": "Identifier",
+    "id2": "Astuce",
+    "id3": "Clé de Donjon d’Équipe",
+    "id4": "Placer la Clé de Donjon d’Équipe pour ouvrir le Donjon d’Équipe",
+    "id5": "OK",
+    "id6": "Aucune Clé de Donjon d’Équipe actuellement",
+    "deid7": "22",
+    "deid8": "25"
+  },
+  "ApplyTeamworkTeam": {
+    "id1": "Choisir",
+    "id2": "Veuillez d’abord sélectionner le rôle de position de votre demande:",
+    "id3": "Demande Rapide",
+    "id4": "{0} étoile(s)",
+    "id8": "{0}/1",
+    "id9": "Limite de Demandes Simultanées: {0}/10",
+    "id10": "Veuillez d’abord sélectionner le rôle de position",
+    "id11": "Veuillez d’abord sélectionner le niveau d’étoile du Donjon d’Équipe",
+    "id12": "Veuillez d’abord sélectionner votre rôle de position:",
+    "id13": "Confirmer la Demande",
+    "id14": "Confirmer l’Ouverture",
+    "deid15": "18",
+    "deid16": "18",
+    "deid17": 13,
+    "frid17": "32"
+  },
+  "TeamworkBossPanel": {
+    "id1": "Personne n’a créé de Donjon d’Équipe",
+    "id3": "Possesseur du Donjon d’Équipe",
+    "id4": "Possesseur du Donjon d’Équipe",
+    "id5": "Heure de Fin {0}",
+    "id6": "1 étoile",
+    "id7": "2 étoiles",
+    "id8": "3 étoiles",
+    "id9": "4 étoiles",
+    "id10": "5 étoiles",
+    "id11": "Tout",
+    "id12": "Action trop fréquente, veuillez réessayer plus tard",
+    "frid13": "22",
+    "frid14": "26",
+    "frid15": "20",
+    "id13": "6 étoiles",
+    "joinWaitTips": "Cooling down, please try again later"
+  },
+  "TeamworkBossBattle": {
+    "id1": "Erreur lors de la requête de la vidéo de bataille",
+    "id2": "Erreur lors de la requête des données de bataille",
+    "id3": "Erreur lors de la requête des données de l’historique",
+    "id4": "Obtenir",
+    "frid5": "20"
+  },
+  "TeamworkBossAwardPage": {
+    "id1": "Récompense d’Exploit",
+    "id2": "Récompense de Donjon d’Équipe",
+    "id3": "Récompense d’Équipe",
+    "id4": "Récompense Supplémentaire de Chef d’Équipe",
+    "id5": "Heure de Fin {0}",
+    "deid6": "20",
+    "deid7": "50",
+    "deid8": "18"
+  },
+  "TeamworkDayAwardListItem": {
+    "id1": "Collecter",
+    "id2": "Non Terminé",
+    "deid3": "36",
+    "deid4": "20",
+    "deid8": "24"
+  },
+  "MyApplyTeamList": {
+    "id1": "En cours",
+    "id2": "Limite de Demandes {0}/{1}",
+    "id3": "Vous n’avez fait aucune demande auprès d’une équipe",
+    "id4": "Compte à rebours de fermeture",
+    "id5": "Ma Demande",
+    "deid1": "16"
+  },
+  "TeamworkBossExplainViewData": {
+    "id1": "Boss du Donjon d’Équipe, vous devez le vaincre pour passer le Donjon d’Équipe",
+    "id2": "Monstre de Donjon d’Équipe, vous devez le vaincre pour continuer",
+    "id3": "Possède différent effets spéciaux pour empêcher les joueurs de terminer le Donjon d’Équipe",
+    "id4": "Après être entré, vous serez téléporté au début de la route vers le Boss",
+    "id5": "Augmente les récompenses supplémentaires que vous pouvez obtenir lorsque vous terminez le Donjon d’Équipe",
+    "id6": "Téléportation de la Formation",
+    "id7": "Coffre"
+  },
+  "TeamDungeonApplyPage": {
+    "id1": "Heure de Fermeture du Donjon d’Équipe {0}",
+    "id2": "Chaque robot ne peut être utilisé qu’une fois par jour, et seulement pour le Donjon d’Équipe 1 étoile(s)",
+    "id3": "Liste",
+    "id4": "Liste des Membres",
+    "id5": "Demande de Joueur",
+    "id6": "Robot",
+    "id7": "Chef d’Équipe",
+    "id8": "Aucune Demande Actuellement",
+    "id9": "Aucun robot disponible aujourd’hui",
+    "id10": "Chaque robot ne peut être utilisé qu’une fois par jour, et seulement pour le Donjon d’Équipe 1 étoile(s)",
+    "id11": "Ajouter ce joueur à l’équipe ? \n(Vous ne pourrez pas expulser le joueur après l’avoir recruté)",
+    "id12": "Annuler",
+    "id13": "OK",
+    "id14": "Recrutement Publié",
+    "deid15": "18",
+    "deid16": "21"
+  },
+  "TeamworkRoomSet": {
+    "id1": "Tous les candidats doivent être vérifiés",
+    "id2": "Autoriser à rejoindre directement",
+    "id3": "Puissance≥",
+    "id4": "Avant que la position ci-dessus atteigne la quantité correspondante, les joueurs avec la Puissance requise seront autorisés à rejoindre directement",
+    "id5": "Enregistre les Paramètres",
+    "id6": "0k",
+    "deid7": "23",
+    "frid8": "26",
+    "frid9": "17"
+  },
+  "DungeonApplyUserListItem": {
+    "id1": "Attaquant",
+    "id2": "Assistant",
+    "id3": "Chasseur de Trésor",
+    "id4": "[Serveur{0}] {1}",
+    "id5": "<{0}>",
+    "id6": "Recrutement",
+    "deid7": "36",
+    "frid8": "18"
+  },
+  "TeamworkBattleRecord": {
+    "id1": "Note: Le journal ne conserve que pendant 3 jours. Après cela, les récompenses ne pourront plus être collectées !",
+    "id2": "Collecter en un clic",
+    "id3": "Aucune Journal du Donjon d’Équipe actuellement",
+    "id4": "Toutes les récompenses ont été collectées",
+    "deid5": "25"
+  },
+  "TeamworkBossInfo": {
+    "id1": "Membres insuffisants ",
+    "id2": "/{0}",
+    "id3": "Aucune Journal du Donjon d’Équipe actuellement",
+    "id4": "Heure de Fermeture du Donjon d’Équipe {0}",
+    "id5": "Le Chef d’Équipe est en train d’ajuster la Formation, en attente de commencement...",
+    "id6": "Bienvenue dans l’équipe",
+    "id7": "Demande effectuée, vous pourrez à nouveau faire une demande auprès de cette équipe dans {0} s",
+    "id8": "Impossible de faire une demande auprès d’une équipe pleine",
+    "id9": "{0}HP{1}",
+    "id10": "{0} PV {1}, mort",
+    "id11": "Donjon d’Équipe Fermé",
+    "id12": "Quelqu’un demande à rejoindre votre Donjon d’Équipe",
+    "id13": "Impossible de voir les infos détaillées du robot",
+    "deid14": 22
+  },
+  "CollectionLobby": {
+    "id1": "Horaire d'ouverture: Tous les jours de 12h00 à 00h00",
+    "id2": "Votre demande de Donjon d’Équipe Inter-Serveurs a été approuvée. Aller voir ?",
+    "id3": "Annuler",
+    "id4": "OK",
+    "id5": "1. Utilisez la Clé de Donjon d’Équipe pour ouvrir le Donjon d’Équipe\n\n2.Demander à rejoindre le Donjon d’Équipe vous coûtera un Ticket d’ID\n\n3. Le Donjon d’Équipe ne pourra commencer qu’après que vous ayez rassemblé 7 joueurs au total\n\n4. Vous ne pouvez obtenir les récompenses qu’après avoir terminé le Donjon d’Équipe\n\n5. Le contenu du niveau du Donjon d’Équipe sera réinitialisé tous les jours\n\n6. Le dépassement du temps du Donjon d’Équipe entraînera l’échec du déverrouillage \n\n7.La Clé de Donjon d’Équipe et le Ticket d’ID seront retournés par mail",
+    "id6": "[Serveur {0}]",
+    "id7": "Un coéquipier vous invite en Donjon d’Équipe. Aller voir?"
+  },
+  "TeamworkFirstKillShow": {
+    "id1": "Seul le Donjon d’Équipe avec le niveau d’étoile le plus élevé sera pris en compte",
+    "id2": "Aucun Journal de passage actuellement"
+  },
+  "TeamworkGetAwardPage": {
+    "id1": "Récompense d’Équipe",
+    "id2": "Boss non vaincu, impossible de collecter la récompense",
+    "frid3": "22"
+  },
+  "TeamworkFailTips": {
+    "id1": "Désolé, échec du défi",
+    "id2": "OK"
+  },
+  "TeamworkSuccessTips": {
+    "id1": "Félicitations, défi réussi",
+    "id2": "OK"
+  },
+  "TeamworkChatMain": {
+    "id1": "Appuyer pour entrer...",
+    "id2": "Pas dans l’équipe",
+    "id3": "Vous parlez trop rapidement... ({0}s)",
+    "id4": "Le nombre de caractères ne peut pas dépasser {0}",
+    "id5": "Aucun nouveau message",
+    "id6": "Tous",
+    "id7": "Teammate Message",
+    "id8": "Équipe",
+    "id9": "Envoyer",
+    "deid10": "Poser une Question",
+    "deid11": "Dire Bonjour",
+    "deid12": "20",
+    "deid13": "22",
+    "id10": "The above is history message",
+    "id11": "Limite de personnes du Donjon d’Équipe atteinte, impossible d’inviter un Coéquipier",
+    "id12": "Aucune Formation de Défense dans l’Arène, impossible de participer au Donjon d’Équipe Inter-Serveurs",
+    "deid14": "20",
+    "id13": "Quick Message",
+    "enid15": "22",
+    "enid16": "18"
+  },
+  "GrowPartChoseListItem": {
+    "deid1": "26"
+  },
+  "CommonActivityRewardListItem": {
+    "deid1": "24"
+  },
+  "ExpeditionCombinationBook": {
+    "deid1": "20"
+  },
+  "ExpeditionCombinationBookTagListItem": {
+    "deid1": "28"
+  },
+  "BarTypeTips": {
+    "deid1": "26"
+  },
+  "DoubleElevenPanel": {
+    "deid1": "30"
+  },
+  "PackOneKeyMerge": {
+    "id1": "Utilisez la Synthèse Rapide pour obtenir les objets suivants",
+    "id2": "Vous pouvez synthétiser jusqu’à 99 objets en une fois",
+    "id3": "OK",
+    "id4": "Annuler",
+    "id5": "Consommera <font color=0xB76107>{0}</font> pour synthétiser l’équipement suivant",
+    "deid6": "22"
+  },
+  "TeamworkBossExplain": {
+    "deid1": 20,
+    "viid2": "22"
+  },
+  "TeamworkMyTeamShow": {
+    "id1": "1. The initial default line-up used in the inter-server team instance is the current arena line-up\n2. In the inter-server team instance, the level of all heroes will be fixed at 300, and the qualification will be fixed at the highest qualification of the corresponding quality\n3. Participating line-ups and attributes are based on the line-up information when joining the team",
+    "id2": "Ajuster la Formation"
+  },
+  "ExchangeMerchant": {
+    "id1": "Échanger",
+    "id2": "Limite d’Achat:{0}",
+    "frid3": "20",
+    "frid4": "30",
+    "id3": "Possédé:{0}",
+    "deid5": "21"
+  },
+  "SignAddtionChoose": {
+    "id1": "Ajout de Marque",
+    "id2": "Attributs actuels:",
+    "id3": "Attributs d’Ajout de Marque",
+    "id4": "(Matériels Restants:",
+    "id5": ")",
+    "id6": "Veuillez choisir la méthode d’ajout",
+    "id7": "Ajouter",
+    "id8": "Attributs d’ajout cette fois-ci {0} + {1}\nAttributs d’ajout actuels {2} + {3}\nLa valeur de ces attributs d’ajout n’a pas dépassé la valeur actuelle, et ils ne seront donc pas sauvegardés",
+    "id9": "L’ajout a atteint la portée maximale, veuillez utiliser du Matériel Avancé pour continuer l’Ajout",
+    "id10": "L’ajout a atteint la portée maximale",
+    "enid11": "Coût:",
+    "id11": "Réinitialisation de l’Ajout",
+    "id12": "Résultat de l’Ajout",
+    "id13": "OK",
+    "enid1": "33",
+    "deid1": "26",
+    "deid2": "23"
+  },
+  "SearchTeamPanel": {
+    "id1": "Rechercher un Donjon d’Équipe",
+    "id2": "Entrer l’ID du Donjon d’Équipe",
+    "id3": "OK",
+    "frid4": "30",
+    "deid5": "50"
+  },
+  "WeaponCircleTip": {
+    "id1": "Illustration d’Aura d’Arme",
+    "id2": "Pour chaque type d’Arme, 1 seule Aura parmi les 2 peut être améliorée, seule la valeur des attributs les plus élevés sera affichée ci-dessous",
+    "enid1": "30",
+    "enid2": "20"
+  },
+  "WeaponCircleTipListItem": {
+    "deid1": "21",
+    "deid2": "18",
+    "enid1": "23"
+  },
+  "StampLeach": {
+    "id1": "Veuillez placer une Marque",
+    "id2": "Tous",
+    "id3": "Mo",
+    "id4": "Kamé",
+    "id5": "Shin",
+    "id6": "Kai",
+    "id7": "Go",
+    "id8": "Toutes",
+    "id9": "Choisir la Marque",
+    "id10": "Coût: ",
+    "frid10": "0",
+    "id11": "Chances Restantes:{0}",
+    "id12": "Extraktionen reichen nicht aus"
+  },
+  "LanguageList": {
+    "id1": "Après avoir modifié la langue, le jeu redémarrera automatiquement",
+    "id2": "Modifier",
+    "id3": "Paramètres de Langue",
+    "id4": "Veuillez choisir une langue",
+    "frid5": "30"
+  },
+  "GemChoseCommon": {
+    "id1": "Veuillez sélectionner un Esprit Matériel",
+    "id2": "L’Esprit Matériel doit être de 0 étoiles Niv.1",
+    "id3": "Aucun Esprit Matériel correspondant",
+    "id4": "Nombre d’Esprits Matériels insuffisant",
+    "id5": "Assez d’Esprits Matériels",
+    "frid6": "28"
+  },
+  "ExchangeMerchantAddEquip": {
+    "id1": "Ajouter un objet",
+    "id2": "Aucun objet sélectionnable dans le Sac à Dos",
+    "id4": "Vous ne pouvez sélectionner qu’un seul type d’objet",
+    "id5": "Veuillez ajouter un objet"
+  },
+  "TeamworkFriends": {
+    "id1": "Aucun message d’invitation actuellement",
+    "id2": "Aucun Coéquipier actuellement",
+    "id3": "Aucune demande actuellement",
+    "id4": "Aucun message actuellement",
+    "id5": "",
+    "id6": "Liste de Coéquipiers",
+    "id7": "MESSAGES",
+    "id8": "Message d’Invitation",
+    "id9": "Ajouter un Coéquipier",
+    "id10": "Préparation pour le Donjon d’Équipe",
+    "id11": "[Serveur{0}]",
+    "id12": "<{0}>",
+    "id13": "Limite de Coéquipiers {0}/{1}",
+    "id14": "-Aujourd’hui-",
+    "id15": "Aller",
+    "id16": "Liste",
+    "id17": "Search for known players",
+    "deid18": "22",
+    "deid19": "23",
+    "enid20": "18",
+    "deid21": "40",
+    "deid22": "20"
+  },
+  "TeamworkFriendApplyListItem": {
+    "id1": "Limite de nombre de Coéquipiers atteinte, impossible d’ajouter plus de Coéquipiers !"
+  },
+  "TeamworkRecommendFriends": {
+    "id1": "Afficher uniquement les amis de ce Serveur et les joueurs du même Clan",
+    "id2": "Aucune personne que vous connaissez actuellement",
+    "id3": "Envoyer une demande à tout le monde",
+    "id4": "Faire une demande",
+    "deid5": "22",
+    "deid6": "24",
+    "frid7": "26",
+    "krid5": "24"
+  },
+  "TeamworkFriendInfo": {
+    "id1": "Supprimer ce Coéquipier ?",
+    "id2": "OK",
+    "id3": "Annuler",
+    "id4": "Infos du Coéquipier",
+    "id5": "FORMATION",
+    "id8": "Demande de Coéquipier envoyée !",
+    "deid9": "Votre Coéquipier n’a pas encore défini sa Formation d’Arène",
+    "deid10": "40",
+    "deid11": "30",
+    "id11": "{0}를 블랙 리스트에  가입하겠어요? 가입 후 상대방의 단체 던전 메세지는 차단됩니다.",
+    "id12": "{0}를 블랙 리스트에서 제거하겠어요?",
+    "id13": "먼저 해당 유저를 블랙 리스트에서 해제하세요.",
+    "id14": "상대방은 이미 블랙 리스트에 가입되었어요"
+  },
+  "InviteTeamworkFriend": {
+    "id1": "Impossible d’inviter un Coéquipier actuellement",
+    "frid2": "31"
+  },
+  "InviteTeamworkFriendListItem": {
+    "id1": "Invitation"
+  },
+  "EquipGemIllustrated": {
+    "id1": "Héros Correspondant",
+    "id2": "Collectez l’ensemble des 4 pièces pour activer la compétence exclusive :",
+    "deid3": "26"
+  },
+  "EquipGemIllustratedViewData": {
+    "Saiya": "Saiyan",
+    "Angel": "Ange",
+    "Hakai": "Destruction",
+    "Create": "Création",
+    "Demon": "Maléfique",
+    "LegendSaiya": "SSL"
+  },
+  "AuthenticateEquipGemSuccess": {
+    "id1": "Identification réussie",
+    "id2": "Effet Exclusif (Les héros avec la même étiquette principale peuvent obtenir des bonus supplémentaires)",
+    "id3": "Activé après avoir équipé quatre Gemmes correspondant à l'étiquette principale"
+  },
+  "WearEquipGem": {
+    "id1": "Monter la Gemme",
+    "id2": "Gemme à Fortifier",
+    "id3": "Effet Exclusif ({0})",
+    "id4": "Veuillez d'abord choisir la Gemme à remplacer !",
+    "id5": "Veuillez d'abord choisir la Gemme à monter",
+    "id6": "Veuillez d'abord choisir la Gemme à fortifier",
+    "id7": "Aucune Gemme dans le Sac à Dos",
+    "id8": "Veuillez d’abord insérer une Gemme",
+    "enid8": "35",
+    "frid9": "24"
+  },
+  "EquipGemUp": {
+    "id1": "Sélectionner en un clic",
+    "id2": "Fortification",
+    "id3": "Niveau de Gemme maximum atteint",
+    "id4": "Les matériaux consommables contiennent des Gemmes de haut niveau.Continuer ?",
+    "id5": "Veuillez d’abord placer la pierre à fortifier !",
+    "id6": "Les matériaux consommables actuels peuvent améliorer la Gemme au niveau max. Inutile d’en ajouter !",
+    "id7": "OK",
+    "id8": "Annuler",
+    "id9": "Cette Gemme peut être identifiée. Consommer un Ticket d'Identification pour l'identifier ? (Tickets d’Identification restants : {0})",
+    "deid10": "28",
+    "enid8": "35",
+    "id10": "1. Les Gemmes peuvent être échangées via la Boutique de Donjon d’Équipe. \n\n2. Les Gemmes peuvent être améliorées en dépensant d’autres Gemmes. \n\n3. Après avoir amélioré un Gemme au Niv.5, vous pouvez utiliser un Ticket d’Identification pour l'identifier. Après évaluation, la Gemme obtiendra un effet exclusif, qui permet d’améliorer les attributs d’un Héros correspondant lorsqu’il la porte. \n\n4. Le Héros correspondant peut activer des compétences exclusives après avoir porté quatre Gemmes avec la même inscription.\n\n5. Les Gemmes ne peuvent être montées que sur un équipement orange ou supérieur.",
+    "id11": "Veuillez d’abord choisir le matériel à fortifier"
+  },
+  "EquipGemDetal": {
+    "id1": "Le niveau de la Gemme est inférieur au Niv.5. Fortifier ?",
+    "id2": "Aller",
+    "id3": "Cette Gemme peut être identifiée. Consommer un Ticket d'Identification pour l'identifier ? (Tickets d’Identification restants : {0})",
+    "id4": "OK",
+    "id5": "Annuler"
+  },
+  "HeroEquipAndStampShowAttrListItem": {
+    "frid1": "16"
+  },
+  "DungeonEnemyOrTrapTip": {
+    "krid1": "23"
+  },
+  "LikeReward": {
+    "id1": "",
+    "id2": ""
+  },
+  "TrialAwardListItem": {
+    "viid1": "1",
+    "viid2": "17.5"
+  },
+  "FreeInheritShow": {
+    "id1": "Ce Héros peut procéder à une Succession gratuite actuellement",
+    "id2": "Heure de Fin: {0}",
+    "id3": "{0}%Off",
+    "id4": "Free of Charge",
+    "enme1": "0.25",
+    "enme2": "25",
+    "enme3": "-230"
+  },
+  "QuestionPanelItemViewData": {
+    "type1": "{sélectionner un seul}",
+    "type2": "{sélectionner plusieurs}",
+    "id1": "Veuillez entrer le texte...",
+    "id2": "Choisissez au maximum {0}",
+    "id3": "The letters cannot exceed {0}",
+    "id4": "The letters cannot less than {0}"
+  },
+  "QuestionPanel": {
+    "id1": "Aucune réponse pour la question {0}",
+    "id2": "Envoyer"
+  },
+  "ServerList": {
+    "krid1": "30"
+  },
+  "BuggyTreasure": {
+    "id1": "Compte à rebours :",
+    "id2": "Possédé:",
+    "id3": "Cliquez la grille pour trouver des trésors",
+    "id4": "<font size=36 color=0x96FF00>Le trésor a été découvert ! </font>",
+    "id5": "<font size=32 color=0xE81E1E>L'événement est terminé, merci pour votre participation ! </font>",
+    "id6": "Aperçu de récompense",
+    "id7": "Trouvez la récompense ultime pour entrer sur la prochaine planète",
+    "id8": "Cet étage a déjà été exploré",
+    "id9": "Fin dans {0}",
+    "id10": "Événement Terminé",
+    "deid11": "15",
+    "deid12": "22",
+    "id13": "The current planet will be reset after locating the ultimate rewards"
+  },
+  "GetWay": {
+    "id1": "Moyen d’Obtention"
+  },
+  "HeroLinkSetting": {
+    "id1": "1. The left side of the resonance slot can be placed in with SS or SSS Hero at Lv. 1 or higher as primary hero\n\n2. After placing Primary Hero, the right side can be placed in a hero of different quality (SS and SSS) at Lv. 1 as resonance hero. There shouldn't be another hero with the identical name (Except for the heroes who are already deployed in Cell Game)\n\n3. The level, Kiko Stats percentage, Limit Breakthrough level, gear, stone, weapon, earrings, and marks will always be the same as the primary hero. And you cannot perform actions like upgrade breakthrough, equipping gear, stone, weapon, and marks\n\n4. The star level, affinity, Spirit, Skin, Clan Technology, and Team Training bonus will always remain as the original state and allows you to perform awakening, affinity activation, spirit change, and skin actions\n\n5. Removing the primary hero will restore the status of the resonance hero\n\n6. Removing resonance hero will restore the stats of the resonance hero that are identical to the primary hero to be completely reset. The related resonance slot will enter CD time. You can spend gems to refresh the CD time immediately\n\n7. The heroes who have resonance with each other cannot be deployed in the same battle\n\n8. Resonance Hero cannot be used as the required hero during a hero's limit breakthrough",
+    "id2": "Level Unlock Limit:",
+    "id3": "1. After 15 heroes reach the max star, the resonance system will upgrade, unlocking the team's total quality\n\n2. When reaching a specific total quality of the team, it can break through the hero's max level limit\n\n3. After the team's total quality reaches 12170, the hero's level cap will be unlocked to Lv. 340\n\n4. After the whole team's total quality reaches 13262, the hero's level cap is unlocked to Lv. 360\n\n5. The hero's level cap is kept to be the highest in the history"
+  },
+  "HeroLinkListItem": {
+    "id1": "Activé",
+    "id2": "Désactivé",
+    "id3": "Dépenser {0} Diamants permet de réinitialiser le temps de recharge immédiatement. Réinitialiser ?",
+    "id4": "Veuillez d'abord mettre le Héros principal à gauche",
+    "id5": "OK",
+    "id6": "Annuler",
+    "id7": "La qualité du Héros principal sélectionné est différente de celle du Héros résonnant. Veuillez sélectionner ce Héros principal après avoir supprimé tous les Héros résonnants.",
+    "id8": "Le Kiko, la Percée de Limite ou les Boucles d'Oreilles de ce Héros ne sont pas dans leur état initial. Résonance impossible. Veuillez d'abord procéder à une réincarnation.",
+    "id9": "Déverrouiller un nouvel emplacement de Résonance nécessite <font color=0xFC9925>{0}</font> Diamants. Déverrouiller ?"
+  },
+  "LinkToHeroListItem": {
+    "id1": "Rafraîchissement"
+  },
+  "UnfixLinkHero": {
+    "id1": "Retirer le Héros résonnant",
+    "id2": "Après avoir quitté la position de résonance, le niveau, le pourcentage d'attribut de Kiko, le niveau de Percée de Limite, l'Équipement, les Armes, les Boucles d'Oreilles et les Marques seront tous restaurés.",
+    "id3": "Vous pourrez ajouter un Héros sur la position de Résonance actuelle dans <font color=0xFA7308>{0}</font>"
+  },
+  "TopBattleStateOneMain": {
+    "id1": "Rang",
+    "id2": "Score",
+    "id3": "Récompense",
+    "id4": "Prochain Rang",
+    "id5": "Rang Actuel",
+    "id6": "Saison {0}",
+    "id7": "Meilleur Rang",
+    "id8": "{0} [Saison{1}]",
+    "id9": "Chances:",
+    "id10": "Score de Rang :{0}",
+    "id11": "Classement du Sommet de la Gloire",
+    "id12": "Palais de la Gloire",
+    "id13": "(Défier le Sommet : {0}-{1})",
+    "id14": "Pas d’Adversaire, Victoire sans Combat",
+    "id15": "Limite d'achats quotidienne atteinte !",
+    "id16": "Acheter <font color={0}>{1}</font> chances de défis pour la Bataille pour le Sommet nécessite <font color={2}>{3}{4}</font> Diamants. Confirmer ?",
+    "id17": "Veuillez déployer votre Formation de Défense pour déterminer la position de départ",
+    "enid18": "26",
+    "frid19": "20",
+    "deid20": "24",
+    "deid21": "16",
+    "viid22": "36",
+    "viid23": "28",
+    "timeDown": "(Défier le Sommet:{0} restant(s))"
+  },
+  "VsThreeBattleStart": {
+    "id1": "Ajuster"
+  },
+  "TopBattleMatch": {
+    "id1": "Restants: <font color=0xffb526 size = 26>{0}</font>",
+    "id2": "Aucun autre adversaire n'est actuellement apparié, veuillez réessayer plus tard",
+    "id3": "Acheter {0} chances de défi pour la Bataille pour le Sommet nécessite {1} Diamants. Confirmer ?",
+    "id4": "Consommer {0} Diamants pour apparier un nouveau lot d'adversaires ?",
+    "id5": "OK",
+    "id6": "Annuler",
+    "enid7": "18"
+  },
+  "TopBattleTopItemViewData": {
+    "id1": "Match {0}",
+    "id2": "V",
+    "id3": "D"
+  },
+  "SummaryTopPvpEnd": {
+    "id1": "Score de Rang :",
+    "id2": "Score Total",
+    "id3": "({0})",
+    "id4": "Tour {0}"
+  },
+  "CombatStatisticsNew": {
+    "id1": "Match {0}",
+    "id2": "Héros",
+    "id3": "Dégâts Totaux",
+    "id4": "Soin/Bouclier",
+    "id5": "Dégâts Subis",
+    "viid6": "24",
+    "viid7": "166"
+  },
+  "TopBattleRecordListItem": {
+    "id1": "Mon Score :",
+    "id2": "({0})"
+  },
+  "TopBattleRecordDetialListItem": {
+    "id1": "Tour {0}",
+    "id2": "Replay"
+  },
+  "TopBattlePlayerHeros": {
+    "deid1": "26"
+  },
+  "TopBattlePlayerHerosViewData": {
+    "id1": "Équipe 1",
+    "id2": "Équipe 2",
+    "id3": "Équipe 3"
+  },
+  "TopBattleGuessAndRecord": {
+    "id1": "Dépenser {0} Diamants pour placer un Pari de Match ?",
+    "id2": "OK",
+    "id3": "Annuler"
+  },
+  "TopBattlePlayerSimpleInfoViewData": {
+    "id1": "Clan : {0}",
+    "id2": "Serveur : {0}"
+  },
+  "TopFourToTwoBattle": {
+    "id1": "Horaire du match",
+    "id2": "18:00"
+  },
+  "TopBattleEndRecord": {
+    "id1": "Soi",
+    "id2": "Votre serveur",
+    "id3": "【{0}】",
+    "id4": "Zone {0}",
+    "id5": "Pas d’Adversaire",
+    "id6": "lv.{0}"
+  },
+  "TopBattleEndShow": {
+    "id1": "Classement",
+    "id2": "Nom du Personnage",
+    "id3": "Niveau",
+    "id4": "Serveur Régional"
+  },
+  "BuyCountNumTips": {
+    "id1": "Limite d'achats quotidienne atteinte !",
+    "id2": "L’achat actuel nécessite VIP{0}. Voir les Privilèges VIP ?",
+    "id3": "Acheter <font color={0}>{1}</font> chances de défis pour la Bataille pour le Sommet nécessite <font color={2}>{3}{4}</font> Diamants. Confirmer ?"
+  },
+  "TopBattleReward": {
+    "id0": "Récompense de Rang",
+    "id1": "Récompense de Règlement",
+    "id2": "Récompense du Duel de Sommet",
+    "id3": "Atteignez le rang correspondant durant la saison en cours pour obtenir des récompenses de rang",
+    "id4": "À la fin de la saison en cours, les joueurs qui ont participé au défi recevront des récompenses de règlement par email en fonction de leur rang final.",
+    "id5": "À la fin de la saison en cours, les récompenses de classement du Duel de Sommet seront envoyées par e-mail",
+    "enid6": "20",
+    "id6": "Champion Avatar Effect (30 days)",
+    "enid7": "20"
+  },
+  "TopBattleRank": {
+    "id1": "Aucune donnée de rang disponible",
+    "deid2": "142",
+    "deid3": "1"
+  },
+  "TopBattleRankRewardListItem": {
+    "id1": "Collecter",
+    "id2": "Disponible après avoir atteint <font color=0xb64c06>{0}</font>",
+    "enid3": "18"
+  },
+  "HeroLinkTip": {
+    "id1": "1. Building Resonance will not cost the primary hero or the resonance hero\n\n2. The level, Kiko stats percentage, limit breakthrough level, gear, weapon, earrings, and marks will be the same as the primary hero’s after the resonance\n\n3. Primary hero and the resonance hero cannot be deployed at the same time\n\n4. There is a Cooldown after hero’s resonance, the player can spend Diamond to reset time",
+    "id2": "Détails de Résonance",
+    "id3": "Annuler"
+  },
+  "TopBattleHonor": {
+    "id1": "Aucune information de classement pour la saison en cours"
+  },
+  "TopBattleRankListItem": {
+    "enid1": "0.7",
+    "viid2": "526"
+  },
+  "FastTeamUseListItem": {
+    "id1": "Le héros de la formation actuelle ou la Super Compétence Ultime ont déjà été déployés dans d'autres équipes. Impossible de les utiliser.",
+    "id2": "La formation actuelle est vide. Impossible de l’utiliser"
+  },
+  "TopHistoryRecordListItem": {
+    "id1": "Saison {0}",
+    "id2": "Top <font color=0xFFF070>{0}</font> der Saison",
+    "frid3": "16",
+    "frid4": "22"
+  },
+  "FastTeamSetting": {
+    "id1": "Aktuell wurde noch keine schnelle Formation eingestellt"
+  },
+  "ActivityEquipCast": {
+    "id1": "Coût:",
+    "id2": "Coffre Ordinaire",
+    "id3": "Coffre Supérieur",
+    "id4": "Coffre Rare",
+    "id5": "Coffre Exquis",
+    "id6": "Coffre Précieux",
+    "id7": "Obtain Rewards: {0}x{1}"
+  },
+  "ActivityDiamondShop": {
+    "enid1": "490"
+  },
+  "Blacklist": {
+    "id1": "There is no Blacklist currently",
+    "id2": "Blacklist"
+  },
+  "LayerRewardPoolShow": {
+    "id1": "Aperçu de récompense",
+    "id2": "Taux d’Obtention:",
+    "deid3": "16",
+    "deid4": "20"
+  },
+  "DownloadRewardItemViewData": {
+    "id1": "Claim in APK",
+    "id2": "Collect Rewards",
+    "id3": "Go to download",
+    "enid4": "26"
+  },
+  "ActivityKarinRich": {
+    "id1": "Event Ends till: {0}",
+    "id2": "Free Attempts: {0}",
+    "id3": "Cost of This Summon",
+    "id4": "<font color=0xf44500>{0}</font> rtune chance reset daily",
+    "id5": "Congratulations to player",
+    "id6": "for gaining",
+    "id7": "Top up <font color=0xf44500>{0}</font> more to gain <font color=0xf44500>{1}</font> Fortune Summon Attempts",
+    "id8": "Remaining Attempts: {0}",
+    "id9": "Come back tomorrow",
+    "id10": "Insufficient attempts",
+    "id11": "Insufficient Items",
+    "enid12": "16",
+    "deid13": "21"
+  },
+  "BackPackItemChoose": {
+    "id1": "Select Mark Addition Material",
+    "id2": "You don't have mark addition",
+    "id3": "OK",
+    "enid3": "32"
+  },
+  "SpaceTrail": {
+    "id1": "This period of trial ends in:",
+    "id2": "Remaining: {0}",
+    "id3": "1. In Time Trial, all heroes will be boosted to max level, their Spirit and Limit Breakthrough will be boosted to max stats. Their gear, marks, earrings, and weapons will also be boosted to Orange, Max Level, and Max Star (Non Orange Gear will also be boosted to orange)\n2. Each season of Time Trial is available on the 1st every month. The available time lasts for 3 weeks. The event is not available during the rest of the time\n3. After the time trial is reset, the related rewards will also be reset",
+    "id4": "You cannot challenge this Hero currently"
+  },
+  "SpaceTrialMain": {
+    "id1": "The trial period ends",
+    "id2": "Remaining: {0}",
+    "id3": "",
+    "id4": "Please clear the previous stage at 1-Star difficulty",
+    "id5": "Purchase Chances are used out!",
+    "id6": "Purchasing <font color={0}>{1} more Time Trial attempt(s)</font> requires <font color={2}>{3}{4}</font> gems, do you want to proceed?",
+    "id7": "Next time trial start time",
+    "viid8": "18"
+  },
+  "HeroMainTagList": {
+    "id1": "Main Label:",
+    "id2": "Positioning:",
+    "id3": "Affiliated Chapter:",
+    "id4": "There is no hero label yet.",
+    "enid5": "27",
+    "enid6": "18"
+  },
+  "SpaceTrialChooseDifficulties": {
+    "id1": "Insufficient Challenge Attempts"
+  },
+  "SpaceTrialHelpViewData": {
+    "id1": "HELP",
+    "id2": "1. In Time Trial, the player's hero will receive the following boost: \nA. Hero's level is fixed to be Lv. 300. All bonds will be activated. Their Limit Breakthrough and Kiko will be boosted to the maximum stats. \nB. The hero's outside gear, spirit, marks, earrings, gemstone, and weapons will also be boosted to Orange, Max Level, and Max Star (Non Orange Gear will also be boosted to orange)\nC. The player's technology, team training, and Super Ultimate Skills will also be boosted to maximum\nD. Gemstone Passive, Weapon Aura, and Skin Bonus are not effective in Time Trial\n2. The speed stats of the player's hero remains unchanged",
+    "id3": "\n3. Only SS or above heroes may challenge to take part in the Time Trial\n\n4. This season of Time Trial will be available on the {0} of this month. The available time lasts for {1} days. It is unavailable during the rest of the period\n\n5. After Time Trial is reset, the related rewards and ranking will also be reset"
+  },
+  "SpaceTrailListItem": {
+    "id1": "Étage {0}"
+  },
+  "SpaceTrialAwardListItem": {
+    "id1": "Collect"
+  },
+  "DifficultyListItem": {
+    "id1": "20"
+  },
+  "ActivityLuckyReel": {
+    "enid1": "15"
+  },
+  "GravityTrial": {
+    "id1": "Purchase attempts already reached limit!",
+    "id2": "Purchasing <font color=0xf76b48>{0} attempts for Gravity Training Room</font> will cost <font color=0xf76b48>{1}{2}</font>. Confirm to purchase?",
+    "id3": "Gravity Training has been cleared!",
+    "id4": "Attempts",
+    "limitDes": "Affected by Stage Effect",
+    "help": "·Challenge for 10 times daily. One attempt is restored in every half an hour \n\n·Each stage features a specific stage effect. \n\n• The player needs to change into different lineup to be free from the influence of different stages",
+    "deid5": "26"
+  },
+  "ActivityBlindBox": {
+    "id1": "Event Ends:",
+    "id2": "Tap to open the mystery box",
+    "id3": "Change",
+    "id4": "Cost This Time:",
+    "id5": "This batch of Mystery Box has been all opened",
+    "id6": "Game Rules",
+    "id7": "The rewards in the Mystery Box will be confirmed and the order will be randomized at the beginning",
+    "id8": "It will cost <font color=0xf44500>{0}*{1}</font> to spawn a new batch of items from the total prize pool to place into the blind box",
+    "id9": "Free of Charge",
+    "id10": "After refreshing, a new batch of item will be randomized from the prize pool and placed in the mystery box",
+    "deid11": "17",
+    "id12": "Acquired",
+    "id13": "Remaining Grand Prize Amount : {0}/{1}",
+    "id11": "Insufficient {0} required"
+  },
+  "SmithyItemsListItem": {
+    "id1": "Unlock at Lv.{0}"
+  },
+  "SmithyMain": {
+    "id1": "The player level needs to reach Lv. {0}"
+  },
+  "SummonWishList": {
+    "id1": "When SS Heroes are acquired from a draw, it is guaranteed to be the following selected SS Heroes. The total chance to acquire SS Heroes won't change",
+    "id2": "The wishlist is not full, unable to save",
+    "id3": "Wishlist is full, unable to add",
+    "id4": "Saved Successfully",
+    "id5": "The players can add 15 heroes in total on the wishlist\n\nWhen the 15 heroes are not fully selected, the player cannot save the list\n\nFor the SS Heroes acquired by the players, they are guaranteed to be the selected heroes of the wishlist\n\nThe total chance for the player to acquire SS heroes remain the same\n\nThe SS Hero Shards and SS Hero Random Pack acquired by the players follow the rules of wishlist\n\nThe SS Heroes acquired from Advanced Summon and Permanent Pass Privilege Summon also follow the rules of wishlist"
+  },
+  "SpaceTrialPassTeams": {
+    "id1": "There is no clearance lineup yet"
+  },
+  "SpaceTrialPassTeamListItem": {
+    "id2": "Clan: {0}",
+    "id3": "District {0}",
+    "id4": "Turns: {0}",
+    "id5": "Clearance Time: {0}",
+    "deid5": "18"
+  },
+  "RewardHistoryListItem": {
+    "id1": "{0}, you obtained {1}x{2}!"
+  },
+  "ExpeditionQuickTeam": {
+    "id1": "Saved Teams maximum capacity {0}/{1}",
+    "id2": "Team list is empty",
+    "id3": "Team Z Power",
+    "id4": "{0}",
+    "id5": "/{0}",
+    "id6": "Are you sure you want to delete this lineup?",
+    "id7": "There are heroes on the current team who are currently occupied in other events, please select another team"
+  },
+  "ActivityOverflow": {
+    "des1Label_text": "Purchase and Obtain",
+    "des2Label_text": "Purchase and Collect daily",
+    "dayDes": "Day {0}",
+    "alreadyBuyDes": "Purchased",
+    "buyTips": "Sure to spend {0} Diamond(s) on the Super Value Funds?"
+  },
+  "ActivityLanternBlessing": {
+    "id1": "Whether to consume <font color=0xf44500>{0}*{1}</font> to Reset Lantern"
+  },
+  "ActivityCrossServerRankPanel": {
+    "id1": "Final Refresh Time: {0}",
+    "deid2": "30",
+    "deid3": "24"
+  },
+  "herosOverflowListItem": {
+    "id1": "(Purchase Limit: {0}/{1})"
+  },
+  "HeroLinkSettingHelpPanel": {
+    "id1": "Resonance Rules",
+    "id2": "Hero Level Cap",
+    "viid3": "24"
+  },
+  "LuckyReelRewardShowListItem": {
+    "id1": "{0}%"
+  },
+  "WelfareAccountListItem": {
+    "id1": "Top up <font color=0xffd634>{0}</font> more to accomplish <font color=0xffd634>{1}</font> Welfare Coupon Event immediately",
+    "id2": "Dear player, you have already accomplished <font color=0xffd634>{0}</font> Welfare Coupon Event",
+    "id3": "22",
+    "id4": "20"
+  },
+  "CommonPrivilegeReward": {
+    "id1": "Clearing the first 300 Stages of Trial can earn you additional SS Hero Shard",
+    "id2": "Unlocking Temple Trial Privilege and Clear Trial Stage 1 - 300 can earn you additional Rewards Preview",
+    "id3": "Unlocking Stage Privilege and clearing stages of the first 20 chapters can earn you additional Rewards Preview",
+    "enme": "-8"
+  },
+  "YouTuberTip": {
+    "id1": "Email Address",
+    "id2": "Please enter the email address that you use frequently",
+    "id3": "Tap to enter",
+    "id4": "Please enter the correct email address format",
+    "id5": "Joined Successfully"
+  },
+  "YouTuber": {
+    "id1": "Contact Us:",
+    "id2": "<font href='event:{0}'><u>{1}</u></font>",
+    "id3": "Copied Successfully"
+  },
+  "ActGalaticAdventure": {
+    "id11": "Randomly go back 1-3 steps when reaching the trap",
+    "id12": "Randomly go forward 1-3 steps when reaching the slide",
+    "id13": "Can open the Mystic Treasure Chest to Collect rewards",
+    "id14": "Insufficient items amount required",
+    "id15": "Please examine the Treasure Chest after acquiring it",
+    "id16": "Current Lap: <font color=0x51f145>{0}</font> Lap(s)"
+  },
+  "ActGAdventureRecord": {
+    "id1": "{0}\nYou have thrown {1} point(s).",
+    "id2": "Gained {0}*{1}",
+    "id3": "{0}\nYou go back{1}Step(s),",
+    "id4": "{0}\nYou stepped on a slide, going forward {1} step(s).",
+    "id5": "Obtained 1 point of Chest EXP, chest level +1",
+    "id6": "Key Upgraded to Lv.{0}",
+    "id7": "{0}\nYou opened the Mystic Treasure Chest and received {1}*{2}.",
+    "id8": "Stepped on the trap.",
+    "id9": "Forward {0} Step(s).",
+    "id10": "Go back to the Starting Point"
+  },
+  "ActGARewardPrivewPanel": {
+    "id1": "Mystic Treasure Chest {0}",
+    "id2": "Chess Board Reward",
+    "enid3": "20"
+  },
+  "GAMysteriousBoxPanel": {
+    "id1": "Confirm to consume the key to receive the reward and <font color = 0xFF0000>reset the Mystic Treasure Chest</font>",
+    "id2": "        The first time you obtain Lv.1 key in the key area, each subsequent arrival at the key area will upgrade the key by 1 level. The higher level the key is at, the higher the level of the chest it opens. The key will be consumed upon opening of the chest, and a new Lv.1 key will be obtained when you reach the key area next",
+    "id3": "The current key can unlock Lv.{0} Chest",
+    "id4": "Chest Rewards Preview",
+    "id5": "Treasure Chest Lv.{0}",
+    "enid6": "18"
+  },
+  "CompareNumMain": {
+    "normalLabel_text": ", and complete challenge of the previous stage to unlock",
+    "difficultyLimit": "Please clear trial stage {0}",
+    "chapterIndexLabel": "Stage {0}",
+    "diffcultyName0": "Easy",
+    "diffcultyName1": "Normal",
+    "diffcultyName2": "Difficult",
+    "lessMoreDes": "Main Line",
+    "lessMoreDes2": "Clear Main Line"
+  },
+  "CompareNumGame": {},
+  "OneKeyEntrustListItem": {
+    "id1": "Commission Reward:",
+    "id2": "no hero matches the deployment condition",
+    "sizeId2": "20"
+  },
+  "OneKeyEntrustPanel": {
+    "id1": "No Commission Quest"
+  },
+  "GleaningActivtiy": {
+    "id0": "After each draw, the number of tickets consumed will increase",
+    "id1": "The {0}th lottery prize pool",
+    "id2": "Empty",
+    "id3": "To buy {0} tickets, you need to consume {1} diamonds. Do you want to buy?"
+  },
+  "ActivityCommonAwardShow": {},
+  "CommonBuyItem": {
+    "titleLabel_text": "Tip"
+  },
+  "ActNewHeroChallengeMain": {
+    "endTime_text": "Event Ends till：<font color=0x96ff48>{0}</font>"
+  },
+  "ActNewHeroChallenge": {
+    "endTime_text": "Event Ends till：<font color=0x96ff48>{0}</font>",
+    "tip1": "Open the challenge after claiming the rewards",
+    "tip2": "Open the challenge after winning No.{0}",
+    "tip3": "Open the challenge after {0}"
+  },
+  "ActNewHeroChallengeItem": {
+    "emptyLab": "Vacant",
+    "serverLab": "Zone {0}"
+  },
+  "ActNewHeroChallengeHornorListItem": {
+    "titleLab_text": "Challenge [{0}]'s lineup with highest winning rate",
+    "lab_text": "Winning Rate of Lineup",
+    "guideLab_text": "Clan: {0}",
+    "serverLab_text": "Zone {0}",
+    "timeLab_text": "Time of Clearance: {0}",
+    "lab1_text": "Vacant",
+    "lab2_text": "Vacant"
+  },
+  "ActNewHeroChangeSpeed": {
+    "tipLab_text": "Drag avatar to set order",
+    "sureBtn_label": "OK"
+  },
+  "ActNewHeroBattleStart": {
+    "tip1": "Need to deploy 5 characters",
+    "tip2": "New hero cannot be deployed"
+  },
+  "ActNewHeroChallengeTopInfo": {
+    "teamBtn_label": "Player's Lineup",
+    "rateBtn_label": "Winning Rate Ranking",
+    "tipLab_text": "The current hero attributes and gears are the configured by the system, which may not be consistent with that in-game!",
+    "emptyLab_text": "There is no lineup that has been used more than 5 times"
+  },
+  "NewHeroChallengeData": {
+    "taskTitle": "Defeat <font color=0xffe96e>{0}</font>",
+    "taskTitle1": "The No.{0} of cross-server battle does not exist. You can claim it directly"
+  },
+  "ActNewHeroChallengeTopInfoListItem": {
+    "lab_text": "Winning Rate of Lineup"
+  }
+}

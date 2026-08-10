@@ -1,0 +1,145 @@
+{
+  "100004001": [
+    {
+      "id": 100004001,
+      "triggerMode": "dragon",
+      "eventID": "musicEvent1",
+      "animationId": 100001001,
+      "music": "guild1_mp3",
+      "volume": 0.3
+    },
+    {
+      "id": 100004001,
+      "triggerMode": "dragon",
+      "eventID": "stopMusic1",
+      "animationId": 100001001,
+      "music": "guild1_mp3",
+      "stopEvent": "stop"
+    }
+  ],
+  "100004002": [
+    {
+      "id": 100004002,
+      "triggerMode": "dragon",
+      "eventID": "musicEvent2",
+      "animationId": 100001001,
+      "music": "guild2_mp3",
+      "volume": 0.3,
+      "isLoop": 1
+    },
+    {
+      "id": 100004002,
+      "triggerMode": "dragon",
+      "eventID": "stopMusic2",
+      "animationId": 100001001,
+      "music": "guild2_mp3",
+      "stopEvent": "stop"
+    }
+  ],
+  "100004003": [
+    {
+      "id": 100004003,
+      "triggerMode": "dragon",
+      "eventID": "musicEvent3",
+      "animationId": 100001001,
+      "music": "guild3_mp3",
+      "volume": 0.4
+    },
+    {
+      "id": 100004003,
+      "triggerMode": "dragon",
+      "eventID": "stopMusic3",
+      "animationId": 100001001,
+      "music": "guild3_mp3",
+      "stopEvent": "stop"
+    }
+  ],
+  "100004004": {
+    "id": 100004004,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent1",
+    "animationId": 100001001,
+    "music": "story_1_mp3",
+    "volume": 0.5
+  },
+  "100004005": {
+    "id": 100004005,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent2",
+    "animationId": 100001001,
+    "music": "story_2_mp3",
+    "volume": 0.5
+  },
+  "100004006": {
+    "id": 100004006,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent3",
+    "animationId": 100001001,
+    "music": "story_3_mp3",
+    "volume": 0.5
+  },
+  "100004007": {
+    "id": 100004007,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent4",
+    "animationId": 100001001,
+    "music": "story_11_mp3",
+    "volume": 0.5
+  },
+  "100004008": {
+    "id": 100004008,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent5",
+    "animationId": 100001001,
+    "music": "story_12_mp3",
+    "volume": 0.5
+  },
+  "100004009": {
+    "id": 100004009,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent6",
+    "animationId": 100001001,
+    "music": "story_13_mp3",
+    "volume": 0.5
+  },
+  "100004010": {
+    "id": 100004010,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent7",
+    "animationId": 100001001,
+    "music": "story_14_mp3",
+    "volume": 0.5
+  },
+  "100004011": {
+    "id": 100004011,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent8",
+    "animationId": 100001001,
+    "music": "story_15_mp3",
+    "volume": 0.5
+  },
+  "100004012": {
+    "id": 100004012,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent9",
+    "animationId": 100001001,
+    "music": "story_16_mp3",
+    "volume": 0.5
+  },
+  "100004013": {
+    "id": 100004013,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent10",
+    "animationId": 100001001,
+    "music": "story_17_mp3",
+    "volume": 0.5
+  },
+  "100004014": {
+    "id": 100004014,
+    "triggerMode": "dragon",
+    "eventID": "asideEvent11",
+    "animationId": 100001001,
+    "music": "story_18_mp3",
+    "volume": 0.5
+  }
+}

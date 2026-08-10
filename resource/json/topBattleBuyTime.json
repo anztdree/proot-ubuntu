@@ -1,0 +1,102 @@
+{
+  "1": {
+    "id": 1,
+    "price": 50,
+    "needVipLevel": 0
+  },
+  "2": {
+    "id": 2,
+    "price": 50,
+    "needVipLevel": 0
+  },
+  "3": {
+    "id": 3,
+    "price": 50,
+    "needVipLevel": 1
+  },
+  "4": {
+    "id": 4,
+    "price": 50,
+    "needVipLevel": 1
+  },
+  "5": {
+    "id": 5,
+    "price": 50,
+    "needVipLevel": 3
+  },
+  "6": {
+    "id": 6,
+    "price": 50,
+    "needVipLevel": 3
+  },
+  "7": {
+    "id": 7,
+    "price": 100,
+    "needVipLevel": 6
+  },
+  "8": {
+    "id": 8,
+    "price": 100,
+    "needVipLevel": 6
+  },
+  "9": {
+    "id": 9,
+    "price": 100,
+    "needVipLevel": 8
+  },
+  "10": {
+    "id": 10,
+    "price": 100,
+    "needVipLevel": 8
+  },
+  "11": {
+    "id": 11,
+    "price": 100,
+    "needVipLevel": 10
+  },
+  "12": {
+    "id": 12,
+    "price": 100,
+    "needVipLevel": 10
+  },
+  "13": {
+    "id": 13,
+    "price": 150,
+    "needVipLevel": 12
+  },
+  "14": {
+    "id": 14,
+    "price": 150,
+    "needVipLevel": 12
+  },
+  "15": {
+    "id": 15,
+    "price": 150,
+    "needVipLevel": 14
+  },
+  "16": {
+    "id": 16,
+    "price": 150,
+    "needVipLevel": 14
+  },
+  "17": {
+    "id": 17,
+    "price": 150,
+    "needVipLevel": 15
+  },
+  "18": {
+    "id": 18,
+    "price": 150,
+    "needVipLevel": 16
+  },
+  "19": {
+    "id": 19,
+    "price": 200,
+    "needVipLevel": 17
+  },
+  "20": {
+    "id": 20,
+    "price": 200,
+    "needVipLevel": 17
+  }
+}

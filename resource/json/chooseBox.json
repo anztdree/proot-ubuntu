@@ -1,0 +1,3712 @@
+{
+  "496": [
+    {
+      "id": 496,
+      "boxName": "流血SS英雄三选一礼包",
+      "goodsID": 1507,
+      "name": "孙悟饭（赛亚超人）",
+      "num": 1
+    },
+    {
+      "id": 496,
+      "boxName": "流血SS英雄三选一礼包",
+      "goodsID": 1541,
+      "name": "比迪丽（赛亚超人）",
+      "num": 1
+    },
+    {
+      "id": 496,
+      "boxName": "流血SS英雄三选一礼包",
+      "goodsID": 1401,
+      "name": "巴比迪",
+      "num": 1
+    }
+  ],
+  "497": [
+    {
+      "id": 497,
+      "boxName": "群体SS英雄三选一礼包",
+      "goodsID": 1533,
+      "name": "龟仙人（超）",
+      "num": 1
+    },
+    {
+      "id": 497,
+      "boxName": "群体SS英雄三选一礼包",
+      "goodsID": 1525,
+      "name": "加贝",
+      "num": 1
+    },
+    {
+      "id": 497,
+      "boxName": "群体SS英雄三选一礼包",
+      "goodsID": 1540,
+      "name": "欧布",
+      "num": 1
+    }
+  ],
+  "498": [
+    {
+      "id": 498,
+      "boxName": "单体SS英雄三选一礼包",
+      "goodsID": 1521,
+      "name": "特兰克斯（奇迹）",
+      "num": 1
+    },
+    {
+      "id": 498,
+      "boxName": "单体SS英雄三选一礼包",
+      "goodsID": 1529,
+      "name": "18号（超）",
+      "num": 1
+    },
+    {
+      "id": 498,
+      "boxName": "单体SS英雄三选一礼包",
+      "goodsID": 1539,
+      "name": "克林（超）",
+      "num": 1
+    }
+  ],
+  "500": [
+    {
+      "id": 500,
+      "boxName": "SSS强力英雄任选包",
+      "goodsID": 1648,
+      "name": "沙鲁MAX",
+      "num": 1
+    },
+    {
+      "id": 500,
+      "boxName": "SSS强力英雄任选包",
+      "goodsID": 1654,
+      "name": "龟仙人（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 500,
+      "boxName": "SSS强力英雄任选包",
+      "goodsID": 1658,
+      "name": "布尔玛（Xeno）",
+      "num": 1
+    }
+  ],
+  "502": [
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 151,
+      "name": "一星珠",
+      "num": 1
+    },
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 152,
+      "name": "二星珠",
+      "num": 1
+    },
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 153,
+      "name": "三星珠",
+      "num": 1
+    },
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 154,
+      "name": "四星珠",
+      "num": 1
+    },
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 155,
+      "name": "五星珠",
+      "num": 1
+    },
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 156,
+      "name": "六星珠",
+      "num": 1
+    },
+    {
+      "id": 502,
+      "boxName": "龙珠任选包",
+      "goodsID": 157,
+      "name": "七星珠",
+      "num": 1
+    }
+  ],
+  "503": [
+    {
+      "id": 503,
+      "boxName": "橙色武器任选包",
+      "goodsID": 4401,
+      "name": "天使法杖·破坏",
+      "num": 1
+    },
+    {
+      "id": 503,
+      "boxName": "橙色武器任选包",
+      "goodsID": 4402,
+      "name": "天使法杖·集中",
+      "num": 1
+    },
+    {
+      "id": 503,
+      "boxName": "橙色武器任选包",
+      "goodsID": 4403,
+      "name": "天使法杖·生机",
+      "num": 1
+    },
+    {
+      "id": 503,
+      "boxName": "橙色武器任选包",
+      "goodsID": 4404,
+      "name": "天使法杖·铁壁",
+      "num": 1
+    },
+    {
+      "id": 503,
+      "boxName": "橙色武器任选包",
+      "goodsID": 4405,
+      "name": "天使法杖·勇者",
+      "num": 1
+    },
+    {
+      "id": 503,
+      "boxName": "橙色武器任选包",
+      "goodsID": 4406,
+      "name": "天使法杖·迅捷",
+      "num": 1
+    }
+  ],
+  "504": [
+    {
+      "id": 504,
+      "boxName": "橙色印记任选包",
+      "goodsID": 7307,
+      "name": "橙色龟",
+      "num": 1
+    },
+    {
+      "id": 504,
+      "boxName": "橙色印记任选包",
+      "goodsID": 7317,
+      "name": "橙色神",
+      "num": 1
+    },
+    {
+      "id": 504,
+      "boxName": "橙色印记任选包",
+      "goodsID": 7327,
+      "name": "橙色魔",
+      "num": 1
+    },
+    {
+      "id": 504,
+      "boxName": "橙色印记任选包",
+      "goodsID": 7337,
+      "name": "橙色界",
+      "num": 1
+    },
+    {
+      "id": 504,
+      "boxName": "橙色印记任选包",
+      "goodsID": 7347,
+      "name": "橙色悟",
+      "num": 1
+    },
+    {
+      "id": 504,
+      "boxName": "橙色印记任选包",
+      "goodsID": 7357,
+      "name": "橙色全",
+      "num": 1
+    }
+  ],
+  "505": [
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1602,
+      "name": "维斯",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1609,
+      "name": "贝吉塔（超赛神）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1505,
+      "name": "魔人布欧(善良)",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1512,
+      "name": "悟天克斯(超三)",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1601,
+      "name": "孙悟空（超赛神）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1514,
+      "name": "孙悟空(超三)",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1600,
+      "name": "龙神",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1608,
+      "name": "弗利萨(黄金)",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1606,
+      "name": "孙悟空（超赛神蓝）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1605,
+      "name": "贝吉塔（超赛神蓝）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1607,
+      "name": "孙悟空（超四）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1610,
+      "name": "芭朵斯",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1611,
+      "name": "象帕",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1612,
+      "name": "希特",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1614,
+      "name": "朗姆西",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1613,
+      "name": "黑悟空（玫红）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1615,
+      "name": "邪念波",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1616,
+      "name": "克丝",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1617,
+      "name": "黄金古拉",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1618,
+      "name": "开尔（传超）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1620,
+      "name": "17号（超）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1621,
+      "name": "扎马斯（合体）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1622,
+      "name": "贝吉塔（超四）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1624,
+      "name": "玛卡丽塔",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1625,
+      "name": "味美得",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1623,
+      "name": "孙悟空（极意兆）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1626,
+      "name": "开芙拉",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1627,
+      "name": "蒂斯破",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1628,
+      "name": "托破",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1629,
+      "name": "海勒斯",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1630,
+      "name": "萨瓦",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1632,
+      "name": "贝比（超三）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1634,
+      "name": "超级17号",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1635,
+      "name": "三星龙",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1515,
+      "name": "孙悟饭(神秘)",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1631,
+      "name": "吉连",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1637,
+      "name": "梅尔斯",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1638,
+      "name": "一星龙",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1639,
+      "name": "四星龙",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1640,
+      "name": "扎马斯（崩坏）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1641,
+      "name": "特兰克斯（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1642,
+      "name": "托破（破坏神）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1643,
+      "name": "贝吉塔（深蓝）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1644,
+      "name": "吉连（暴走）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1649,
+      "name": "赫兹",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1650,
+      "name": "比克（橙色）",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1645,
+      "name": "奎特拉",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1646,
+      "name": "柯尼克",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1652,
+      "name": "时之界王神",
+      "num": 1
+    },
+    {
+      "id": 505,
+      "boxName": "SSS经典英雄任选包",
+      "goodsID": 1651,
+      "name": "弗",
+      "num": 1
+    }
+  ],
+  "506": [
+    {
+      "id": 506,
+      "boxName": "SS超必杀英雄任选包",
+      "goodsID": 1508,
+      "name": "孙悟饭(超二)",
+      "num": 1
+    },
+    {
+      "id": 506,
+      "boxName": "SS超必杀英雄任选包",
+      "goodsID": 1503,
+      "name": "沙鲁",
+      "num": 1
+    },
+    {
+      "id": 506,
+      "boxName": "SS超必杀英雄任选包",
+      "goodsID": 1509,
+      "name": "贝吉塔(魔化)",
+      "num": 1
+    }
+  ],
+  "507": [
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1507,
+      "name": "孙悟饭(赛亚超人)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1502,
+      "name": "达普拉",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1506,
+      "name": "悟天克斯(超一)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1504,
+      "name": "魔人布欧(纯粹)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1511,
+      "name": "孙悟空(超二)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1510,
+      "name": "贝吉塔(超二)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1501,
+      "name": "杰比特神",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1401,
+      "name": "巴比迪",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1508,
+      "name": "孙悟饭(超二)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1503,
+      "name": "沙鲁",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1509,
+      "name": "贝吉塔(魔化)",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1518,
+      "name": "索尔贝",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1519,
+      "name": "加克",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1517,
+      "name": "塔格玛",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1520,
+      "name": "黑悟空",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1521,
+      "name": "特兰克斯（奇迹）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1525,
+      "name": "加贝",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1523,
+      "name": "伯达摩",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1522,
+      "name": "弗罗斯特",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1524,
+      "name": "马盖塔",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1526,
+      "name": "扎马斯",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1527,
+      "name": "排骨饭",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1528,
+      "name": "卡莉芙拉",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1529,
+      "name": "18号（超）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1530,
+      "name": "格瓦斯",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1531,
+      "name": "布尔玛（未来）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1532,
+      "name": "比克（超）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1533,
+      "name": "龟仙人（超）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1534,
+      "name": "天津饭（超）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1536,
+      "name": "巴达克（超一）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1535,
+      "name": "卡塞拉尔",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1537,
+      "name": "萝吉",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1538,
+      "name": "贝比（超一）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1539,
+      "name": "克林（超）",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1540,
+      "name": "欧布",
+      "num": 1
+    },
+    {
+      "id": 507,
+      "boxName": "SS英雄任选包",
+      "goodsID": 1541,
+      "name": "比迪丽（赛亚超人）",
+      "num": 1
+    }
+  ],
+  "508": [
+    {
+      "id": 508,
+      "boxName": "紫色武器任选包",
+      "goodsID": 4301,
+      "name": "界王神剑·破坏",
+      "num": 1
+    },
+    {
+      "id": 508,
+      "boxName": "紫色武器任选包",
+      "goodsID": 4302,
+      "name": "界王神剑·生机",
+      "num": 1
+    },
+    {
+      "id": 508,
+      "boxName": "紫色武器任选包",
+      "goodsID": 4303,
+      "name": "界王神剑·勇者",
+      "num": 1
+    },
+    {
+      "id": 508,
+      "boxName": "紫色武器任选包",
+      "goodsID": 4304,
+      "name": "界王神剑·压迫",
+      "num": 1
+    },
+    {
+      "id": 508,
+      "boxName": "紫色武器任选包",
+      "goodsID": 4305,
+      "name": "界王神剑·铁壁",
+      "num": 1
+    },
+    {
+      "id": 508,
+      "boxName": "紫色武器任选包",
+      "goodsID": 4306,
+      "name": "界王神剑·迅捷",
+      "num": 1
+    }
+  ],
+  "509": [
+    {
+      "id": 509,
+      "boxName": "紫色印记任选包",
+      "goodsID": 7207,
+      "name": "紫色龟",
+      "num": 1
+    },
+    {
+      "id": 509,
+      "boxName": "紫色印记任选包",
+      "goodsID": 7217,
+      "name": "紫色神",
+      "num": 1
+    },
+    {
+      "id": 509,
+      "boxName": "紫色印记任选包",
+      "goodsID": 7227,
+      "name": "紫色魔",
+      "num": 1
+    },
+    {
+      "id": 509,
+      "boxName": "紫色印记任选包",
+      "goodsID": 7237,
+      "name": "紫色界",
+      "num": 1
+    },
+    {
+      "id": 509,
+      "boxName": "紫色印记任选包",
+      "goodsID": 7247,
+      "name": "紫色悟",
+      "num": 1
+    },
+    {
+      "id": 509,
+      "boxName": "紫色印记任选包",
+      "goodsID": 7257,
+      "name": "紫色全",
+      "num": 1
+    }
+  ],
+  "510": [
+    {
+      "id": 510,
+      "boxName": "蓝色印记任选包",
+      "goodsID": 7107,
+      "name": "蓝色龟",
+      "num": 1
+    },
+    {
+      "id": 510,
+      "boxName": "蓝色印记任选包",
+      "goodsID": 7117,
+      "name": "蓝色神",
+      "num": 1
+    },
+    {
+      "id": 510,
+      "boxName": "蓝色印记任选包",
+      "goodsID": 7127,
+      "name": "蓝色魔",
+      "num": 1
+    },
+    {
+      "id": 510,
+      "boxName": "蓝色印记任选包",
+      "goodsID": 7137,
+      "name": "蓝色界",
+      "num": 1
+    },
+    {
+      "id": 510,
+      "boxName": "蓝色印记任选包",
+      "goodsID": 7147,
+      "name": "蓝色悟",
+      "num": 1
+    },
+    {
+      "id": 510,
+      "boxName": "蓝色印记任选包",
+      "goodsID": 7157,
+      "name": "蓝色全",
+      "num": 1
+    }
+  ],
+  "511": [
+    {
+      "id": 511,
+      "boxName": "橙0装备任选包",
+      "goodsID": 3301,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 511,
+      "boxName": "橙0装备任选包",
+      "goodsID": 3302,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 511,
+      "boxName": "橙0装备任选包",
+      "goodsID": 3303,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 511,
+      "boxName": "橙0装备任选包",
+      "goodsID": 3304,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "512": [
+    {
+      "id": 512,
+      "boxName": "橙1装备任选包",
+      "goodsID": 3305,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 512,
+      "boxName": "橙1装备任选包",
+      "goodsID": 3306,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 512,
+      "boxName": "橙1装备任选包",
+      "goodsID": 3307,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 512,
+      "boxName": "橙1装备任选包",
+      "goodsID": 3308,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "513": [
+    {
+      "id": 513,
+      "boxName": "橙2装备任选包",
+      "goodsID": 3309,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 513,
+      "boxName": "橙2装备任选包",
+      "goodsID": 3310,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 513,
+      "boxName": "橙2装备任选包",
+      "goodsID": 3311,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 513,
+      "boxName": "橙2装备任选包",
+      "goodsID": 3312,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "514": [
+    {
+      "id": 514,
+      "boxName": "橙3装备任选包",
+      "goodsID": 3313,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 514,
+      "boxName": "橙3装备任选包",
+      "goodsID": 3314,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 514,
+      "boxName": "橙3装备任选包",
+      "goodsID": 3315,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 514,
+      "boxName": "橙3装备任选包",
+      "goodsID": 3316,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "516": [
+    {
+      "id": 516,
+      "boxName": "Xeno英雄任选包",
+      "goodsID": 1641,
+      "name": "特兰克斯（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 516,
+      "boxName": "Xeno英雄任选包",
+      "goodsID": 1654,
+      "name": "龟仙人（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 516,
+      "boxName": "Xeno英雄任选包",
+      "goodsID": 1658,
+      "name": "布尔玛（Xeno）",
+      "num": 1
+    }
+  ],
+  "517": [
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1603,
+      "name": "比鲁斯",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1619,
+      "name": "悟吉塔（超一）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1633,
+      "name": "孙悟空（自在极意）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1647,
+      "name": "悟吉塔（超四）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1636,
+      "name": "布罗利（超）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1655,
+      "name": "贝吉塔（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1657,
+      "name": "孙悟空（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1656,
+      "name": "克林（Xeno）",
+      "num": 1
+    },
+    {
+      "id": 517,
+      "boxName": "最强战士任选包",
+      "goodsID": 1653,
+      "name": "孙悟饭（Beast）",
+      "num": 1
+    }
+  ],
+  "518": [
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 587,
+      "name": "阖家欢乐皮肤碎片",
+      "num": 1
+    },
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 628,
+      "name": "布欧先生皮肤碎片",
+      "num": 1
+    },
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 658,
+      "name": "悟饭布欧皮肤碎片",
+      "num": 1
+    },
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 682,
+      "name": "睡眼惺忪皮肤碎片",
+      "num": 1
+    },
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 685,
+      "name": "棒球服皮肤碎片",
+      "num": 1
+    },
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 723,
+      "name": "超赛神皮肤碎片",
+      "num": 1
+    },
+    {
+      "id": 518,
+      "boxName": "经典皮肤任选包",
+      "goodsID": 2600,
+      "name": "龙神碎片",
+      "num": 1
+    }
+  ],
+  "519": [
+    {
+      "id": 519,
+      "boxName": "S超必杀英雄任选包",
+      "goodsID": 1403,
+      "name": "特兰克斯(未来)",
+      "num": 1
+    },
+    {
+      "id": 519,
+      "boxName": "S超必杀英雄任选包",
+      "goodsID": 1406,
+      "name": "弗利萨",
+      "num": 1
+    },
+    {
+      "id": 519,
+      "boxName": "S超必杀英雄任选包",
+      "goodsID": 1421,
+      "name": "孙悟空(超一)",
+      "num": 1
+    }
+  ],
+  "524": [
+    {
+      "id": 524,
+      "boxName": "绿色印记碎片任选包",
+      "goodsID": 241,
+      "name": "绿色印记碎片·龟",
+      "num": 1
+    },
+    {
+      "id": 524,
+      "boxName": "绿色印记碎片任选包",
+      "goodsID": 242,
+      "name": "绿色印记碎片·神",
+      "num": 1
+    },
+    {
+      "id": 524,
+      "boxName": "绿色印记碎片任选包",
+      "goodsID": 243,
+      "name": "绿色印记碎片·魔",
+      "num": 1
+    },
+    {
+      "id": 524,
+      "boxName": "绿色印记碎片任选包",
+      "goodsID": 244,
+      "name": "绿色印记碎片·界",
+      "num": 1
+    },
+    {
+      "id": 524,
+      "boxName": "绿色印记碎片任选包",
+      "goodsID": 245,
+      "name": "绿色印记碎片·悟",
+      "num": 1
+    },
+    {
+      "id": 524,
+      "boxName": "绿色印记碎片任选包",
+      "goodsID": 246,
+      "name": "绿色印记碎片·全",
+      "num": 1
+    }
+  ],
+  "525": [
+    {
+      "id": 525,
+      "boxName": "蓝色印记碎片任选包",
+      "goodsID": 251,
+      "name": "蓝色印记碎片·龟",
+      "num": 1
+    },
+    {
+      "id": 525,
+      "boxName": "蓝色印记碎片任选包",
+      "goodsID": 252,
+      "name": "蓝色印记碎片·神",
+      "num": 1
+    },
+    {
+      "id": 525,
+      "boxName": "蓝色印记碎片任选包",
+      "goodsID": 253,
+      "name": "蓝色印记碎片·魔",
+      "num": 1
+    },
+    {
+      "id": 525,
+      "boxName": "蓝色印记碎片任选包",
+      "goodsID": 254,
+      "name": "蓝色印记碎片·界",
+      "num": 1
+    },
+    {
+      "id": 525,
+      "boxName": "蓝色印记碎片任选包",
+      "goodsID": 255,
+      "name": "蓝色印记碎片·悟",
+      "num": 1
+    },
+    {
+      "id": 525,
+      "boxName": "蓝色印记碎片任选包",
+      "goodsID": 256,
+      "name": "蓝色印记碎片·全",
+      "num": 1
+    }
+  ],
+  "526": [
+    {
+      "id": 526,
+      "boxName": "紫色印记碎片任选包",
+      "goodsID": 261,
+      "name": "紫色印记碎片·龟",
+      "num": 1
+    },
+    {
+      "id": 526,
+      "boxName": "紫色印记碎片任选包",
+      "goodsID": 262,
+      "name": "紫色印记碎片·神",
+      "num": 1
+    },
+    {
+      "id": 526,
+      "boxName": "紫色印记碎片任选包",
+      "goodsID": 263,
+      "name": "紫色印记碎片·魔",
+      "num": 1
+    },
+    {
+      "id": 526,
+      "boxName": "紫色印记碎片任选包",
+      "goodsID": 264,
+      "name": "紫色印记碎片·界",
+      "num": 1
+    },
+    {
+      "id": 526,
+      "boxName": "紫色印记碎片任选包",
+      "goodsID": 265,
+      "name": "紫色印记碎片·悟",
+      "num": 1
+    },
+    {
+      "id": 526,
+      "boxName": "紫色印记碎片任选包",
+      "goodsID": 266,
+      "name": "紫色印记碎片·全",
+      "num": 1
+    }
+  ],
+  "527": [
+    {
+      "id": 527,
+      "boxName": "橙色印记碎片任选包",
+      "goodsID": 271,
+      "name": "橙色印记碎片·龟",
+      "num": 1
+    },
+    {
+      "id": 527,
+      "boxName": "橙色印记碎片任选包",
+      "goodsID": 272,
+      "name": "橙色印记碎片·神",
+      "num": 1
+    },
+    {
+      "id": 527,
+      "boxName": "橙色印记碎片任选包",
+      "goodsID": 273,
+      "name": "橙色印记碎片·魔",
+      "num": 1
+    },
+    {
+      "id": 527,
+      "boxName": "橙色印记碎片任选包",
+      "goodsID": 274,
+      "name": "橙色印记碎片·界",
+      "num": 1
+    },
+    {
+      "id": 527,
+      "boxName": "橙色印记碎片任选包",
+      "goodsID": 275,
+      "name": "橙色印记碎片·悟",
+      "num": 1
+    },
+    {
+      "id": 527,
+      "boxName": "橙色印记碎片任选包",
+      "goodsID": 276,
+      "name": "橙色印记碎片·全",
+      "num": 1
+    }
+  ],
+  "528": [
+    {
+      "id": 528,
+      "boxName": "绿色印记套装任选包",
+      "goodsID": 7061,
+      "name": "印记龟字套",
+      "num": 1
+    },
+    {
+      "id": 528,
+      "boxName": "绿色印记套装任选包",
+      "goodsID": 7062,
+      "name": "印记神字套",
+      "num": 1
+    },
+    {
+      "id": 528,
+      "boxName": "绿色印记套装任选包",
+      "goodsID": 7063,
+      "name": "印记魔字套",
+      "num": 1
+    },
+    {
+      "id": 528,
+      "boxName": "绿色印记套装任选包",
+      "goodsID": 7064,
+      "name": "印记界字套",
+      "num": 1
+    },
+    {
+      "id": 528,
+      "boxName": "绿色印记套装任选包",
+      "goodsID": 7065,
+      "name": "印记悟字套",
+      "num": 1
+    },
+    {
+      "id": 528,
+      "boxName": "绿色印记套装任选包",
+      "goodsID": 7066,
+      "name": "印记全字套",
+      "num": 1
+    }
+  ],
+  "529": [
+    {
+      "id": 529,
+      "boxName": "蓝色印记套装任选包",
+      "goodsID": 7161,
+      "name": "印记龟字套",
+      "num": 1
+    },
+    {
+      "id": 529,
+      "boxName": "蓝色印记套装任选包",
+      "goodsID": 7162,
+      "name": "印记神字套",
+      "num": 1
+    },
+    {
+      "id": 529,
+      "boxName": "蓝色印记套装任选包",
+      "goodsID": 7163,
+      "name": "印记魔字套",
+      "num": 1
+    },
+    {
+      "id": 529,
+      "boxName": "蓝色印记套装任选包",
+      "goodsID": 7164,
+      "name": "印记界字套",
+      "num": 1
+    },
+    {
+      "id": 529,
+      "boxName": "蓝色印记套装任选包",
+      "goodsID": 7165,
+      "name": "印记悟字套",
+      "num": 1
+    },
+    {
+      "id": 529,
+      "boxName": "蓝色印记套装任选包",
+      "goodsID": 7166,
+      "name": "印记全字套",
+      "num": 1
+    }
+  ],
+  "530": [
+    {
+      "id": 530,
+      "boxName": "紫色印记套装任选包",
+      "goodsID": 7261,
+      "name": "印记龟字套",
+      "num": 1
+    },
+    {
+      "id": 530,
+      "boxName": "紫色印记套装任选包",
+      "goodsID": 7262,
+      "name": "印记神字套",
+      "num": 1
+    },
+    {
+      "id": 530,
+      "boxName": "紫色印记套装任选包",
+      "goodsID": 7263,
+      "name": "印记魔字套",
+      "num": 1
+    },
+    {
+      "id": 530,
+      "boxName": "紫色印记套装任选包",
+      "goodsID": 7264,
+      "name": "印记界字套",
+      "num": 1
+    },
+    {
+      "id": 530,
+      "boxName": "紫色印记套装任选包",
+      "goodsID": 7265,
+      "name": "印记悟字套",
+      "num": 1
+    },
+    {
+      "id": 530,
+      "boxName": "紫色印记套装任选包",
+      "goodsID": 7266,
+      "name": "印记全字套",
+      "num": 1
+    }
+  ],
+  "531": [
+    {
+      "id": 531,
+      "boxName": "橙色印记套装任选包",
+      "goodsID": 7361,
+      "name": "印记龟字套",
+      "num": 1
+    },
+    {
+      "id": 531,
+      "boxName": "橙色印记套装任选包",
+      "goodsID": 7362,
+      "name": "印记神字套",
+      "num": 1
+    },
+    {
+      "id": 531,
+      "boxName": "橙色印记套装任选包",
+      "goodsID": 7363,
+      "name": "印记魔字套",
+      "num": 1
+    },
+    {
+      "id": 531,
+      "boxName": "橙色印记套装任选包",
+      "goodsID": 7364,
+      "name": "印记界字套",
+      "num": 1
+    },
+    {
+      "id": 531,
+      "boxName": "橙色印记套装任选包",
+      "goodsID": 7365,
+      "name": "印记悟字套",
+      "num": 1
+    },
+    {
+      "id": 531,
+      "boxName": "橙色印记套装任选包",
+      "goodsID": 7366,
+      "name": "印记全字套",
+      "num": 1
+    }
+  ],
+  "558": [
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8505,
+      "name": "魔人布欧(善良)红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8512,
+      "name": "悟天克斯(超三)红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8513,
+      "name": "魔人布欧(邪恶)红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8514,
+      "name": "孙悟空(超三)红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8515,
+      "name": "孙悟饭(神秘)红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8516,
+      "name": "贝吉特(超一)红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8601,
+      "name": "孙悟空（超赛神）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8602,
+      "name": "维斯红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8603,
+      "name": "比鲁斯红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8604,
+      "name": "布罗利红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8606,
+      "name": "孙悟空（超赛神蓝）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8605,
+      "name": "贝吉塔（超赛神蓝）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8607,
+      "name": "孙悟空（超四）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8608,
+      "name": "弗利萨（黄金）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8609,
+      "name": "贝吉塔（超赛神）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8610,
+      "name": "芭朵斯红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8611,
+      "name": "象帕红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8612,
+      "name": "希特红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8614,
+      "name": "朗姆西红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8613,
+      "name": "黑悟空（玫红）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8615,
+      "name": "邪念波红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8616,
+      "name": "克丝红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8617,
+      "name": "黄金古拉红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8618,
+      "name": "开尔（传超）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8619,
+      "name": "悟吉塔（超一）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8620,
+      "name": "17号（超）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8621,
+      "name": "扎马斯（合体）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8622,
+      "name": "贝吉塔（超四）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8623,
+      "name": "孙悟空（极意兆）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8624,
+      "name": "玛卡丽塔红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8625,
+      "name": "味美得红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8626,
+      "name": "开芙拉红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8627,
+      "name": "蒂斯破红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8628,
+      "name": "托破红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8629,
+      "name": "海勒斯红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8630,
+      "name": "萨瓦红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8631,
+      "name": "吉连红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8632,
+      "name": "贝比（超三）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8633,
+      "name": "孙悟空（自在极意）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8634,
+      "name": "超级17号红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8635,
+      "name": "三星龙红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8636,
+      "name": "布罗利（超）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8637,
+      "name": "梅尔斯红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8638,
+      "name": "一星龙红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8639,
+      "name": "四星龙红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8640,
+      "name": "扎马斯（崩坏）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8641,
+      "name": "特兰克斯（Xeno）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8642,
+      "name": "托破（破坏神）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8643,
+      "name": "贝吉塔（深蓝）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8644,
+      "name": "吉连（暴走）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8645,
+      "name": "奎特拉红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8646,
+      "name": "柯尼克红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8647,
+      "name": "悟吉塔（超四）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8648,
+      "name": "沙鲁MAX红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8649,
+      "name": "赫兹红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8650,
+      "name": "比克（橙色）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8651,
+      "name": "弗红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8652,
+      "name": "时之界王神红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8654,
+      "name": "龟仙人（Xeno）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8655,
+      "name": "贝吉塔（Xeno）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8658,
+      "name": "布尔玛（Xeno）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8657,
+      "name": "孙悟空（Xeno）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8656,
+      "name": "克林（Xeno）红魂",
+      "num": 1
+    },
+    {
+      "id": 558,
+      "boxName": "SSS红魂任选包",
+      "goodsID": 8653,
+      "name": "孙悟饭（Beast）红魂",
+      "num": 1
+    }
+  ],
+  "559": [
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8401,
+      "name": "巴比迪红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8501,
+      "name": "杰比特神红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8502,
+      "name": "达普拉红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8503,
+      "name": "沙鲁红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8504,
+      "name": "魔人布欧(纯粹)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8506,
+      "name": "悟天克斯(超一)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8507,
+      "name": "孙悟饭(赛亚超人)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8508,
+      "name": "孙悟饭(超二)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8509,
+      "name": "贝吉塔(魔化)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8510,
+      "name": "贝吉塔(超二)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8511,
+      "name": "孙悟空(超二)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8518,
+      "name": "索尔贝红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8519,
+      "name": "加克红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8517,
+      "name": "塔格玛红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8520,
+      "name": "黑悟空红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8521,
+      "name": "特兰克斯（奇迹）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8525,
+      "name": "伯达摩红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8523,
+      "name": "伯达摩红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8522,
+      "name": "弗罗斯特红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8524,
+      "name": "马盖塔红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8526,
+      "name": "扎马斯红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8527,
+      "name": "排骨饭红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8528,
+      "name": "卡莉芙拉红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8529,
+      "name": "18号（超）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8530,
+      "name": "格瓦斯红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8531,
+      "name": "布尔玛（未来）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8532,
+      "name": "比克（超）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8533,
+      "name": "龟仙人（超）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8534,
+      "name": "天津饭（超）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8536,
+      "name": "巴达克（超一）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8535,
+      "name": "卡塞拉尔红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8537,
+      "name": "萝吉红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8538,
+      "name": "贝比（超一）红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8539,
+      "name": "克林(超)红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8540,
+      "name": "欧布红魂",
+      "num": 1
+    },
+    {
+      "id": 559,
+      "boxName": "SS红魂任选包",
+      "goodsID": 8541,
+      "name": "比迪丽（赛亚超人）红魂",
+      "num": 1
+    }
+  ],
+  "575": [
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1318,
+      "name": "贝吉塔",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1319,
+      "name": "孙悟空",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1402,
+      "name": "老界王神",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1403,
+      "name": "特兰克斯(未来)",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1404,
+      "name": "比克",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1405,
+      "name": "弗利萨(机械)",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1406,
+      "name": "弗利萨",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1407,
+      "name": "布尔玛",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1410,
+      "name": "杰比特",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1411,
+      "name": "界王神辛",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1412,
+      "name": "孙悟天(超一)",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1413,
+      "name": "特兰克斯(超一)",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1414,
+      "name": "沙鲁(初始)",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1415,
+      "name": "20号",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1416,
+      "name": "19号",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1417,
+      "name": "18号",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1418,
+      "name": "17号",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1419,
+      "name": "16号",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1420,
+      "name": "贝吉塔(超一)",
+      "num": 1
+    },
+    {
+      "id": 575,
+      "boxName": "S英雄任选包",
+      "goodsID": 1421,
+      "name": "孙悟空(超一)",
+      "num": 1
+    }
+  ],
+  "576": [
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2401,
+      "name": "巴比迪碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2501,
+      "name": "杰比特神碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2502,
+      "name": "达普拉碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2503,
+      "name": "沙鲁碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2504,
+      "name": "魔人布欧(纯粹)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2506,
+      "name": "悟天克斯(超一)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2507,
+      "name": "孙悟饭(赛亚超人)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2508,
+      "name": "孙悟饭(超二)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2509,
+      "name": "贝吉塔(魔化)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2510,
+      "name": "贝吉塔(超二)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2511,
+      "name": "孙悟空(超二)碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2517,
+      "name": "塔格玛碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2518,
+      "name": "索尔贝碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2519,
+      "name": "加克碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2520,
+      "name": "黑悟空碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2521,
+      "name": "特兰克斯（奇迹）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2525,
+      "name": "加贝碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2523,
+      "name": "伯达摩碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2522,
+      "name": "弗罗斯特碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2524,
+      "name": "马盖塔碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2526,
+      "name": "扎马斯碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2527,
+      "name": "排骨饭碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2528,
+      "name": "卡莉芙拉碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2529,
+      "name": "18号（超）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2530,
+      "name": "格瓦斯碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2531,
+      "name": "布尔玛（未来）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2532,
+      "name": "比克（超）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2533,
+      "name": "龟仙人（超）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2534,
+      "name": "天津饭（超）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2536,
+      "name": "巴达克（超一）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2535,
+      "name": "拉塞拉尔碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2537,
+      "name": "萝吉碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2538,
+      "name": "贝比（超一）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2539,
+      "name": "克林（超）碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2540,
+      "name": "欧布碎片",
+      "num": 1
+    },
+    {
+      "id": 576,
+      "boxName": "SS英雄碎片任选包",
+      "goodsID": 2541,
+      "name": "比迪丽（赛亚超人）碎片",
+      "num": 1
+    }
+  ],
+  "612": [
+    {
+      "id": 612,
+      "boxName": "首周SSS任选包",
+      "goodsID": 1609,
+      "name": "贝吉塔（超赛神）",
+      "num": 1
+    },
+    {
+      "id": 612,
+      "boxName": "首周SSS任选包",
+      "goodsID": 1608,
+      "name": "弗利萨（黄金）",
+      "num": 1
+    }
+  ],
+  "613": [
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1419,
+      "name": "16号",
+      "num": 1
+    },
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1418,
+      "name": "17号",
+      "num": 1
+    },
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1416,
+      "name": "19号",
+      "num": 1
+    },
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1414,
+      "name": "初始沙鲁",
+      "num": 1
+    },
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1411,
+      "name": "界王神辛",
+      "num": 1
+    },
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1410,
+      "name": "杰比特",
+      "num": 1
+    },
+    {
+      "id": 613,
+      "boxName": "S英雄特选包",
+      "goodsID": 1402,
+      "name": "老界王神",
+      "num": 1
+    }
+  ],
+  "622": [
+    {
+      "id": 622,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8601,
+      "name": "孙悟空（超赛神）红魂",
+      "num": 1
+    },
+    {
+      "id": 622,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8609,
+      "name": "贝吉塔（超赛神）红魂",
+      "num": 1
+    }
+  ],
+  "623": [
+    {
+      "id": 623,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8518,
+      "name": "索尔贝红魂",
+      "num": 1
+    },
+    {
+      "id": 623,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8517,
+      "name": "塔格玛红魂",
+      "num": 1
+    }
+  ],
+  "624": [
+    {
+      "id": 624,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8606,
+      "name": "孙悟空（超赛神蓝）红魂",
+      "num": 1
+    },
+    {
+      "id": 624,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8605,
+      "name": "贝吉塔（超赛神蓝）红魂",
+      "num": 1
+    }
+  ],
+  "625": [
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 901,
+      "name": "低级追加（攻击值）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 902,
+      "name": "低级追加（生命值）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 903,
+      "name": "低级追加（护甲值）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 904,
+      "name": "低级追加（攻击百分比）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 905,
+      "name": "低级追加（生命百分比）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 906,
+      "name": "低级追加（防御百分比）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 907,
+      "name": "低级追加（暴击率）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 908,
+      "name": "低级追加（暴击伤害）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 909,
+      "name": "低级追加（免暴率）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 910,
+      "name": "低级追加（格挡率）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 911,
+      "name": "低级追加（命中率）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 912,
+      "name": "低级追加（闪避率）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 913,
+      "name": "低级追加（速度）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 914,
+      "name": "低级追加（穿透）",
+      "num": 1
+    },
+    {
+      "id": 625,
+      "boxName": "低级追加任选包",
+      "goodsID": 915,
+      "name": "低级追加（韧性）",
+      "num": 1
+    }
+  ],
+  "626": [
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 921,
+      "name": "高级追加（攻击值）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 922,
+      "name": "高级追加（生命值）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 923,
+      "name": "高级追加（护甲值）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 924,
+      "name": "高级追加（攻击百分比）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 925,
+      "name": "高级追加（生命百分比）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 926,
+      "name": "高级追加（防御百分比）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 927,
+      "name": "高级追加（暴击率）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 928,
+      "name": "高级追加（暴击伤害）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 929,
+      "name": "高级追加（免暴率）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 930,
+      "name": "高级追加（格挡率）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 931,
+      "name": "高级追加（命中率）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 932,
+      "name": "高级追加（闪避率）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 933,
+      "name": "高级追加（速度）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 934,
+      "name": "高级追加（穿透）",
+      "num": 1
+    },
+    {
+      "id": 626,
+      "boxName": "高级追加任选包",
+      "goodsID": 935,
+      "name": "高级追加（韧性）",
+      "num": 1
+    }
+  ],
+  "627": [
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1203,
+      "name": "撒旦",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1204,
+      "name": "比克大魔王",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1205,
+      "name": "孙悟空(少年)",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1301,
+      "name": "孙悟饭(幼年)",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1302,
+      "name": "比迪丽",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1305,
+      "name": "丹迪",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1307,
+      "name": "拉蒂兹",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1308,
+      "name": "那巴",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1309,
+      "name": "天津饭",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1310,
+      "name": "克林",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1311,
+      "name": "古杜",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1312,
+      "name": "巴特",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1313,
+      "name": "利库姆",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1314,
+      "name": "吉斯",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1315,
+      "name": "基纽",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1316,
+      "name": "多多利亚",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1317,
+      "name": "萨博",
+      "num": 1
+    },
+    {
+      "id": 627,
+      "boxName": "紫色英雄特选包",
+      "goodsID": 1320,
+      "name": "巴达克",
+      "num": 1
+    }
+  ],
+  "631": [
+    {
+      "id": 631,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8612,
+      "name": "希特红魂",
+      "num": 1
+    },
+    {
+      "id": 631,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8522,
+      "name": "弗罗斯特红魂",
+      "num": 1
+    }
+  ],
+  "636": [
+    {
+      "id": 636,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8524,
+      "name": "马盖塔红魂",
+      "num": 1
+    },
+    {
+      "id": 636,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8523,
+      "name": "伯达摩红魂",
+      "num": 1
+    }
+  ],
+  "637": [
+    {
+      "id": 637,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8616,
+      "name": "克丝红魂",
+      "num": 1
+    },
+    {
+      "id": 637,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8614,
+      "name": "朗姆西红魂",
+      "num": 1
+    }
+  ],
+  "638": [
+    {
+      "id": 638,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8520,
+      "name": "黑悟空红魂",
+      "num": 1
+    },
+    {
+      "id": 638,
+      "boxName": "指定红魂任选包",
+      "goodsID": 8526,
+      "name": "扎马斯红魂",
+      "num": 1
+    }
+  ],
+  "639": [
+    {
+      "id": 639,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1608,
+      "name": "弗利萨(黄金)",
+      "num": 1
+    },
+    {
+      "id": 639,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1514,
+      "name": "孙悟空(超三)",
+      "num": 1
+    }
+  ],
+  "640": [
+    {
+      "id": 640,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1601,
+      "name": "孙悟空(超赛神)",
+      "num": 1
+    },
+    {
+      "id": 640,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1609,
+      "name": "贝吉塔(超赛神)",
+      "num": 1
+    }
+  ],
+  "641": [
+    {
+      "id": 641,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1515,
+      "name": "孙悟饭(神秘)",
+      "num": 1
+    },
+    {
+      "id": 641,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1512,
+      "name": "悟天克斯(超三)",
+      "num": 1
+    }
+  ],
+  "646": [
+    {
+      "id": 646,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1505,
+      "name": "魔人布欧（善良）",
+      "num": 1
+    },
+    {
+      "id": 646,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1607,
+      "name": "孙悟空（超四）",
+      "num": 1
+    }
+  ],
+  "647": [
+    {
+      "id": 647,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1606,
+      "name": "孙悟空（超赛神蓝）",
+      "num": 1
+    },
+    {
+      "id": 647,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1605,
+      "name": "贝吉塔（超赛神蓝）",
+      "num": 1
+    }
+  ],
+  "648": [
+    {
+      "id": 648,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1603,
+      "name": "比鲁斯",
+      "num": 1
+    },
+    {
+      "id": 648,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1602,
+      "name": "维斯",
+      "num": 1
+    }
+  ],
+  "649": [
+    {
+      "id": 649,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1610,
+      "name": "芭朵斯",
+      "num": 1
+    },
+    {
+      "id": 649,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1611,
+      "name": "象帕",
+      "num": 1
+    }
+  ],
+  "650": [
+    {
+      "id": 650,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1612,
+      "name": "希特",
+      "num": 1
+    },
+    {
+      "id": 650,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1614,
+      "name": "朗姆西",
+      "num": 1
+    }
+  ],
+  "651": [
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1607,
+      "name": "孙悟空（超四）",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1603,
+      "name": "比鲁斯",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1515,
+      "name": "孙悟饭（神秘）",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1610,
+      "name": "芭朵斯",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1606,
+      "name": "孙悟空（超赛神蓝）",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1605,
+      "name": "贝吉塔（超赛神蓝）",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1611,
+      "name": "象帕",
+      "num": 1
+    },
+    {
+      "id": 651,
+      "boxName": "SSS英雄任选包",
+      "goodsID": 1600,
+      "name": "龙神",
+      "num": 1
+    }
+  ],
+  "656": [
+    {
+      "id": 656,
+      "boxName": "SSS春节英雄任选包",
+      "goodsID": 1600,
+      "name": "龙神",
+      "num": 1
+    },
+    {
+      "id": 656,
+      "boxName": "SSS春节英雄任选包",
+      "goodsID": 1603,
+      "name": "比鲁斯",
+      "num": 1
+    },
+    {
+      "id": 656,
+      "boxName": "SSS春节英雄任选包",
+      "goodsID": 1619,
+      "name": "悟吉塔（超一）",
+      "num": 1
+    }
+  ],
+  "663": [
+    {
+      "id": 663,
+      "boxName": "红色武器任选包",
+      "goodsID": 4407,
+      "name": "天使法杖·破坏",
+      "num": 1
+    },
+    {
+      "id": 663,
+      "boxName": "红色武器任选包",
+      "goodsID": 4408,
+      "name": "天使法杖·压迫",
+      "num": 1
+    },
+    {
+      "id": 663,
+      "boxName": "红色武器任选包",
+      "goodsID": 4409,
+      "name": "天使法杖·生机",
+      "num": 1
+    },
+    {
+      "id": 663,
+      "boxName": "红色武器任选包",
+      "goodsID": 4410,
+      "name": "天使法杖·铁壁",
+      "num": 1
+    },
+    {
+      "id": 663,
+      "boxName": "红色武器任选包",
+      "goodsID": 4411,
+      "name": "天使法杖·勇者",
+      "num": 1
+    },
+    {
+      "id": 663,
+      "boxName": "红色武器任选包",
+      "goodsID": 4412,
+      "name": "天使法杖·迅捷",
+      "num": 1
+    }
+  ],
+  "665": [
+    {
+      "id": 665,
+      "boxName": "红0装备任选包",
+      "goodsID": 3349,
+      "name": "破坏神护手0",
+      "num": 1
+    },
+    {
+      "id": 665,
+      "boxName": "红0装备任选包",
+      "goodsID": 3350,
+      "name": "破坏神神衣0",
+      "num": 1
+    },
+    {
+      "id": 665,
+      "boxName": "红0装备任选包",
+      "goodsID": 3351,
+      "name": "破坏神护腰0",
+      "num": 1
+    },
+    {
+      "id": 665,
+      "boxName": "红0装备任选包",
+      "goodsID": 3352,
+      "name": "破坏神之靴0",
+      "num": 1
+    }
+  ],
+  "666": [
+    {
+      "id": 666,
+      "boxName": "红1装备任选包",
+      "goodsID": 3353,
+      "name": "破坏神护手1",
+      "num": 1
+    },
+    {
+      "id": 666,
+      "boxName": "红1装备任选包",
+      "goodsID": 3354,
+      "name": "破坏神神衣1",
+      "num": 1
+    },
+    {
+      "id": 666,
+      "boxName": "红1装备任选包",
+      "goodsID": 3355,
+      "name": "破坏神护腰1",
+      "num": 1
+    },
+    {
+      "id": 666,
+      "boxName": "红1装备任选包",
+      "goodsID": 3356,
+      "name": "破坏神之靴1",
+      "num": 1
+    }
+  ],
+  "667": [
+    {
+      "id": 667,
+      "boxName": "红2装备任选包",
+      "goodsID": 3357,
+      "name": "破坏神护手2",
+      "num": 1
+    },
+    {
+      "id": 667,
+      "boxName": "红2装备任选包",
+      "goodsID": 3358,
+      "name": "破坏神神衣2",
+      "num": 1
+    },
+    {
+      "id": 667,
+      "boxName": "红2装备任选包",
+      "goodsID": 3359,
+      "name": "破坏神护腰2",
+      "num": 1
+    },
+    {
+      "id": 667,
+      "boxName": "红2装备任选包",
+      "goodsID": 3360,
+      "name": "破坏神之靴2",
+      "num": 1
+    }
+  ],
+  "668": [
+    {
+      "id": 668,
+      "boxName": "红3装备任选包",
+      "goodsID": 3361,
+      "name": "破坏神护手3",
+      "num": 1
+    },
+    {
+      "id": 668,
+      "boxName": "红3装备任选包",
+      "goodsID": 3362,
+      "name": "破坏神神衣3",
+      "num": 1
+    },
+    {
+      "id": 668,
+      "boxName": "红3装备任选包",
+      "goodsID": 3363,
+      "name": "破坏神护腰3",
+      "num": 1
+    },
+    {
+      "id": 668,
+      "boxName": "红3装备任选包",
+      "goodsID": 3364,
+      "name": "破坏神之靴3",
+      "num": 1
+    }
+  ],
+  "678": [
+    {
+      "id": 678,
+      "boxName": "红色武器任选碎片包",
+      "goodsID": 4413,
+      "name": "天使法杖·破坏碎片",
+      "num": 1
+    },
+    {
+      "id": 678,
+      "boxName": "红色武器任选碎片包",
+      "goodsID": 4414,
+      "name": "天使法杖·压迫碎片",
+      "num": 1
+    },
+    {
+      "id": 678,
+      "boxName": "红色武器任选碎片包",
+      "goodsID": 4415,
+      "name": "天使法杖·生机碎片",
+      "num": 1
+    },
+    {
+      "id": 678,
+      "boxName": "红色武器任选碎片包",
+      "goodsID": 4416,
+      "name": "天使法杖·铁壁碎片",
+      "num": 1
+    },
+    {
+      "id": 678,
+      "boxName": "红色武器任选碎片包",
+      "goodsID": 4417,
+      "name": "天使法杖·勇者碎片",
+      "num": 1
+    },
+    {
+      "id": 678,
+      "boxName": "红色武器任选碎片包",
+      "goodsID": 4418,
+      "name": "天使法杖·迅捷碎片",
+      "num": 1
+    }
+  ],
+  "683": [
+    {
+      "id": 683,
+      "boxName": "SSS周年庆英雄任选包",
+      "goodsID": 1600,
+      "name": "龙神",
+      "num": 1
+    },
+    {
+      "id": 683,
+      "boxName": "SSS周年庆英雄任选包",
+      "goodsID": 1603,
+      "name": "比鲁斯",
+      "num": 1
+    },
+    {
+      "id": 683,
+      "boxName": "SSS周年庆英雄任选包",
+      "goodsID": 1619,
+      "name": "悟吉塔（超一）",
+      "num": 1
+    }
+  ],
+  "716": [
+    {
+      "id": 716,
+      "boxName": "SSS圣诞英雄任选包",
+      "goodsID": 1600,
+      "name": "龙神",
+      "num": 1
+    },
+    {
+      "id": 716,
+      "boxName": "SSS圣诞英雄任选包",
+      "goodsID": 1603,
+      "name": "比鲁斯",
+      "num": 1
+    },
+    {
+      "id": 716,
+      "boxName": "SSS圣诞英雄任选包",
+      "goodsID": 1619,
+      "name": "悟吉塔（超一）",
+      "num": 1
+    }
+  ]
+}

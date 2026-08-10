@@ -1,0 +1,44 @@
+{
+  "1": {
+    "trapId": 1,
+    "hpChange": 10,
+    "picNum": 1,
+    "floorType": "normalTrap"
+  },
+  "2": {
+    "trapId": 2,
+    "hpChange": 10,
+    "picNum": 30,
+    "floorType": "rollTrap_L"
+  },
+  "3": {
+    "trapId": 3,
+    "hpChange": 10,
+    "picNum": 30,
+    "floorType": "rollTrap_R"
+  },
+  "4": {
+    "trapId": 4,
+    "hpChange": 10,
+    "picNum": 36,
+    "floorType": "fallTrap"
+  },
+  "5": {
+    "trapId": 5,
+    "hpChange": -40,
+    "picNum": 1,
+    "floorType": "hpTrap"
+  },
+  "6": {
+    "trapId": 6,
+    "hpChange": 10,
+    "picNum": 8,
+    "floorType": "jumpTrap"
+  },
+  "7": {
+    "trapId": 7,
+    "hpChange": 0,
+    "picNum": 1,
+    "floorType": "endTrap"
+  }
+}

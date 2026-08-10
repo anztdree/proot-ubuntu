@@ -1,0 +1,702 @@
+{
+  "0": {
+    "id": 0,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "1": {
+    "id": 1,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "2": {
+    "id": 2,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "3": {
+    "id": 3,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "4": {
+    "id": 4,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "5": {
+    "id": 5,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "6": {
+    "id": 6,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "7": {
+    "id": 7,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "8": {
+    "id": 8,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "9": {
+    "id": 9,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 1,
+    "costID": 142,
+    "costNum": 640
+  },
+  "10": {
+    "id": 10,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "11": {
+    "id": 11,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "12": {
+    "id": 12,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "13": {
+    "id": 13,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "14": {
+    "id": 14,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "15": {
+    "id": 15,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "16": {
+    "id": 16,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "17": {
+    "id": 17,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "18": {
+    "id": 18,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "19": {
+    "id": 19,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 2,
+    "costID": 142,
+    "costNum": 960
+  },
+  "20": {
+    "id": 20,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "21": {
+    "id": 21,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "22": {
+    "id": 22,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "23": {
+    "id": 23,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "24": {
+    "id": 24,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "25": {
+    "id": 25,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "26": {
+    "id": 26,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "27": {
+    "id": 27,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "28": {
+    "id": 28,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "29": {
+    "id": 29,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 3,
+    "costID": 142,
+    "costNum": 1270
+  },
+  "30": {
+    "id": 30,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "31": {
+    "id": 31,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "32": {
+    "id": 32,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "33": {
+    "id": 33,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "34": {
+    "id": 34,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "35": {
+    "id": 35,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "36": {
+    "id": 36,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "37": {
+    "id": 37,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "38": {
+    "id": 38,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "39": {
+    "id": 39,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 4,
+    "costID": 142,
+    "costNum": 1580
+  },
+  "40": {
+    "id": 40,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "41": {
+    "id": 41,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "42": {
+    "id": 42,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "43": {
+    "id": 43,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "44": {
+    "id": 44,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "45": {
+    "id": 45,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "46": {
+    "id": 46,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "47": {
+    "id": 47,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "48": {
+    "id": 48,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "49": {
+    "id": 49,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 5,
+    "costID": 142,
+    "costNum": 1980
+  },
+  "50": {
+    "id": 50,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "51": {
+    "id": 51,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "52": {
+    "id": 52,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "53": {
+    "id": 53,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "54": {
+    "id": 54,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "55": {
+    "id": 55,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "56": {
+    "id": 56,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "57": {
+    "id": 57,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "58": {
+    "id": 58,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "59": {
+    "id": 59,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 6,
+    "costID": 142,
+    "costNum": 2450
+  },
+  "60": {
+    "id": 60,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "61": {
+    "id": 61,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "62": {
+    "id": 62,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "63": {
+    "id": 63,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "64": {
+    "id": 64,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "65": {
+    "id": 65,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "66": {
+    "id": 66,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "67": {
+    "id": 67,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "68": {
+    "id": 68,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "69": {
+    "id": 69,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 7,
+    "costID": 142,
+    "costNum": 2920
+  },
+  "70": {
+    "id": 70,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "71": {
+    "id": 71,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "72": {
+    "id": 72,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "73": {
+    "id": 73,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "74": {
+    "id": 74,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "75": {
+    "id": 75,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "76": {
+    "id": 76,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "77": {
+    "id": 77,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "78": {
+    "id": 78,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "79": {
+    "id": 79,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 8,
+    "costID": 142,
+    "costNum": 3380
+  },
+  "80": {
+    "id": 80,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "81": {
+    "id": 81,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "82": {
+    "id": 82,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "83": {
+    "id": 83,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "84": {
+    "id": 84,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "85": {
+    "id": 85,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "86": {
+    "id": 86,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "87": {
+    "id": 87,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "88": {
+    "id": 88,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "89": {
+    "id": 89,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 9,
+    "costID": 142,
+    "costNum": 3940
+  },
+  "90": {
+    "id": 90,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "91": {
+    "id": 91,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "92": {
+    "id": 92,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "93": {
+    "id": 93,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "94": {
+    "id": 94,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "95": {
+    "id": 95,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "96": {
+    "id": 96,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "97": {
+    "id": 97,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "98": {
+    "id": 98,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  },
+  "99": {
+    "id": 99,
+    "selfBreakHeroNum": 5,
+    "selfBreakLevel": 10,
+    "costID": 142,
+    "costNum": 4560
+  }
+}

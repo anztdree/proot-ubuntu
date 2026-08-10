@@ -1,0 +1,702 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "green",
+    "evolveLevel": 20,
+    "costID": 133,
+    "costNum": 80
+  },
+  "2": {
+    "id": 2,
+    "quality": "green",
+    "evolveLevel": 40,
+    "costID": 133,
+    "costNum": 150
+  },
+  "3": {
+    "id": 3,
+    "quality": "green",
+    "evolveLevel": 60,
+    "costID": 133,
+    "costNum": 225
+  },
+  "4": {
+    "id": 4,
+    "quality": "green",
+    "evolveLevel": 80,
+    "costID": 133,
+    "costNum": 338
+  },
+  "5": {
+    "id": 5,
+    "quality": "green",
+    "evolveLevel": 100,
+    "costID": 133,
+    "costNum": 506
+  },
+  "6": {
+    "id": 6,
+    "quality": "green",
+    "evolveLevel": 110,
+    "costID": 133,
+    "costNum": 759
+  },
+  "7": {
+    "id": 7,
+    "quality": "green",
+    "evolveLevel": 120,
+    "costID": 133,
+    "costNum": 1139
+  },
+  "8": {
+    "id": 8,
+    "quality": "green",
+    "evolveLevel": 130,
+    "costID": 133,
+    "costNum": 1709
+  },
+  "9": {
+    "id": 9,
+    "quality": "green",
+    "evolveLevel": 140,
+    "costID": 133,
+    "costNum": 2563
+  },
+  "10": {
+    "id": 10,
+    "quality": "green",
+    "evolveLevel": 150,
+    "costID": 133,
+    "costNum": 3844
+  },
+  "11": {
+    "id": 11,
+    "quality": "green",
+    "evolveLevel": 160,
+    "costID": 133,
+    "costNum": 5767
+  },
+  "12": {
+    "id": 12,
+    "quality": "green",
+    "evolveLevel": 170,
+    "costID": 133,
+    "costNum": 9226
+  },
+  "13": {
+    "id": 13,
+    "quality": "green",
+    "evolveLevel": 180,
+    "costID": 133,
+    "costNum": 15685
+  },
+  "14": {
+    "id": 14,
+    "quality": "green",
+    "evolveLevel": 190,
+    "costID": 133,
+    "costNum": 28233
+  },
+  "15": {
+    "id": 15,
+    "quality": "green",
+    "evolveLevel": 200,
+    "costID": 133,
+    "costNum": 53642
+  },
+  "16": {
+    "id": 16,
+    "quality": "green",
+    "evolveLevel": 210,
+    "costID": 133,
+    "costNum": 75000
+  },
+  "17": {
+    "id": 17,
+    "quality": "green",
+    "evolveLevel": 220,
+    "costID": 133,
+    "costNum": 105000
+  },
+  "18": {
+    "id": 18,
+    "quality": "green",
+    "evolveLevel": 230,
+    "costID": 133,
+    "costNum": 147000
+  },
+  "19": {
+    "id": 19,
+    "quality": "green",
+    "evolveLevel": 240,
+    "costID": 133,
+    "costNum": 206000
+  },
+  "20": {
+    "id": 20,
+    "quality": "green",
+    "evolveLevel": 250,
+    "costID": 133,
+    "costNum": 288000
+  },
+  "21": {
+    "id": 21,
+    "quality": "green",
+    "evolveLevel": 260,
+    "costID": 133,
+    "costNum": 403000
+  },
+  "22": {
+    "id": 22,
+    "quality": "green",
+    "evolveLevel": 270,
+    "costID": 133,
+    "costNum": 564000
+  },
+  "23": {
+    "id": 23,
+    "quality": "green",
+    "evolveLevel": 280,
+    "costID": 133,
+    "costNum": 730000
+  },
+  "24": {
+    "id": 24,
+    "quality": "green",
+    "evolveLevel": 290,
+    "costID": 133,
+    "costNum": 950000
+  },
+  "25": {
+    "id": 25,
+    "quality": "green",
+    "evolveLevel": 300,
+    "costID": 133,
+    "costNum": 1425000
+  },
+  "26": {
+    "id": 26,
+    "quality": "blue",
+    "evolveLevel": 20,
+    "costID": 133,
+    "costNum": 80
+  },
+  "27": {
+    "id": 27,
+    "quality": "blue",
+    "evolveLevel": 40,
+    "costID": 133,
+    "costNum": 150
+  },
+  "28": {
+    "id": 28,
+    "quality": "blue",
+    "evolveLevel": 60,
+    "costID": 133,
+    "costNum": 225
+  },
+  "29": {
+    "id": 29,
+    "quality": "blue",
+    "evolveLevel": 80,
+    "costID": 133,
+    "costNum": 338
+  },
+  "30": {
+    "id": 30,
+    "quality": "blue",
+    "evolveLevel": 100,
+    "costID": 133,
+    "costNum": 506
+  },
+  "31": {
+    "id": 31,
+    "quality": "blue",
+    "evolveLevel": 110,
+    "costID": 133,
+    "costNum": 759
+  },
+  "32": {
+    "id": 32,
+    "quality": "blue",
+    "evolveLevel": 120,
+    "costID": 133,
+    "costNum": 1139
+  },
+  "33": {
+    "id": 33,
+    "quality": "blue",
+    "evolveLevel": 130,
+    "costID": 133,
+    "costNum": 1709
+  },
+  "34": {
+    "id": 34,
+    "quality": "blue",
+    "evolveLevel": 140,
+    "costID": 133,
+    "costNum": 2563
+  },
+  "35": {
+    "id": 35,
+    "quality": "blue",
+    "evolveLevel": 150,
+    "costID": 133,
+    "costNum": 3844
+  },
+  "36": {
+    "id": 36,
+    "quality": "blue",
+    "evolveLevel": 160,
+    "costID": 133,
+    "costNum": 5767
+  },
+  "37": {
+    "id": 37,
+    "quality": "blue",
+    "evolveLevel": 170,
+    "costID": 133,
+    "costNum": 9226
+  },
+  "38": {
+    "id": 38,
+    "quality": "blue",
+    "evolveLevel": 180,
+    "costID": 133,
+    "costNum": 15685
+  },
+  "39": {
+    "id": 39,
+    "quality": "blue",
+    "evolveLevel": 190,
+    "costID": 133,
+    "costNum": 28233
+  },
+  "40": {
+    "id": 40,
+    "quality": "blue",
+    "evolveLevel": 200,
+    "costID": 133,
+    "costNum": 53642
+  },
+  "41": {
+    "id": 41,
+    "quality": "blue",
+    "evolveLevel": 210,
+    "costID": 133,
+    "costNum": 75000
+  },
+  "42": {
+    "id": 42,
+    "quality": "blue",
+    "evolveLevel": 220,
+    "costID": 133,
+    "costNum": 105000
+  },
+  "43": {
+    "id": 43,
+    "quality": "blue",
+    "evolveLevel": 230,
+    "costID": 133,
+    "costNum": 147000
+  },
+  "44": {
+    "id": 44,
+    "quality": "blue",
+    "evolveLevel": 240,
+    "costID": 133,
+    "costNum": 206000
+  },
+  "45": {
+    "id": 45,
+    "quality": "blue",
+    "evolveLevel": 250,
+    "costID": 133,
+    "costNum": 288000
+  },
+  "46": {
+    "id": 46,
+    "quality": "blue",
+    "evolveLevel": 260,
+    "costID": 133,
+    "costNum": 403000
+  },
+  "47": {
+    "id": 47,
+    "quality": "blue",
+    "evolveLevel": 270,
+    "costID": 133,
+    "costNum": 564000
+  },
+  "48": {
+    "id": 48,
+    "quality": "blue",
+    "evolveLevel": 280,
+    "costID": 133,
+    "costNum": 730000
+  },
+  "49": {
+    "id": 49,
+    "quality": "blue",
+    "evolveLevel": 290,
+    "costID": 133,
+    "costNum": 950000
+  },
+  "50": {
+    "id": 50,
+    "quality": "blue",
+    "evolveLevel": 300,
+    "costID": 133,
+    "costNum": 1425000
+  },
+  "51": {
+    "id": 51,
+    "quality": "purple",
+    "evolveLevel": 20,
+    "costID": 133,
+    "costNum": 80
+  },
+  "52": {
+    "id": 52,
+    "quality": "purple",
+    "evolveLevel": 40,
+    "costID": 133,
+    "costNum": 150
+  },
+  "53": {
+    "id": 53,
+    "quality": "purple",
+    "evolveLevel": 60,
+    "costID": 133,
+    "costNum": 225
+  },
+  "54": {
+    "id": 54,
+    "quality": "purple",
+    "evolveLevel": 80,
+    "costID": 133,
+    "costNum": 338
+  },
+  "55": {
+    "id": 55,
+    "quality": "purple",
+    "evolveLevel": 100,
+    "costID": 133,
+    "costNum": 506
+  },
+  "56": {
+    "id": 56,
+    "quality": "purple",
+    "evolveLevel": 110,
+    "costID": 133,
+    "costNum": 759
+  },
+  "57": {
+    "id": 57,
+    "quality": "purple",
+    "evolveLevel": 120,
+    "costID": 133,
+    "costNum": 1139
+  },
+  "58": {
+    "id": 58,
+    "quality": "purple",
+    "evolveLevel": 130,
+    "costID": 133,
+    "costNum": 1709
+  },
+  "59": {
+    "id": 59,
+    "quality": "purple",
+    "evolveLevel": 140,
+    "costID": 133,
+    "costNum": 2563
+  },
+  "60": {
+    "id": 60,
+    "quality": "purple",
+    "evolveLevel": 150,
+    "costID": 133,
+    "costNum": 3844
+  },
+  "61": {
+    "id": 61,
+    "quality": "purple",
+    "evolveLevel": 160,
+    "costID": 133,
+    "costNum": 5767
+  },
+  "62": {
+    "id": 62,
+    "quality": "purple",
+    "evolveLevel": 170,
+    "costID": 133,
+    "costNum": 9226
+  },
+  "63": {
+    "id": 63,
+    "quality": "purple",
+    "evolveLevel": 180,
+    "costID": 133,
+    "costNum": 15685
+  },
+  "64": {
+    "id": 64,
+    "quality": "purple",
+    "evolveLevel": 190,
+    "costID": 133,
+    "costNum": 28233
+  },
+  "65": {
+    "id": 65,
+    "quality": "purple",
+    "evolveLevel": 200,
+    "costID": 133,
+    "costNum": 53642
+  },
+  "66": {
+    "id": 66,
+    "quality": "purple",
+    "evolveLevel": 210,
+    "costID": 133,
+    "costNum": 75000
+  },
+  "67": {
+    "id": 67,
+    "quality": "purple",
+    "evolveLevel": 220,
+    "costID": 133,
+    "costNum": 105000
+  },
+  "68": {
+    "id": 68,
+    "quality": "purple",
+    "evolveLevel": 230,
+    "costID": 133,
+    "costNum": 147000
+  },
+  "69": {
+    "id": 69,
+    "quality": "purple",
+    "evolveLevel": 240,
+    "costID": 133,
+    "costNum": 206000
+  },
+  "70": {
+    "id": 70,
+    "quality": "purple",
+    "evolveLevel": 250,
+    "costID": 133,
+    "costNum": 288000
+  },
+  "71": {
+    "id": 71,
+    "quality": "purple",
+    "evolveLevel": 260,
+    "costID": 133,
+    "costNum": 403000
+  },
+  "72": {
+    "id": 72,
+    "quality": "purple",
+    "evolveLevel": 270,
+    "costID": 133,
+    "costNum": 564000
+  },
+  "73": {
+    "id": 73,
+    "quality": "purple",
+    "evolveLevel": 280,
+    "costID": 133,
+    "costNum": 730000
+  },
+  "74": {
+    "id": 74,
+    "quality": "purple",
+    "evolveLevel": 290,
+    "costID": 133,
+    "costNum": 950000
+  },
+  "75": {
+    "id": 75,
+    "quality": "purple",
+    "evolveLevel": 300,
+    "costID": 133,
+    "costNum": 1425000
+  },
+  "76": {
+    "id": 76,
+    "quality": "orange",
+    "evolveLevel": 20,
+    "costID": 133,
+    "costNum": 80
+  },
+  "77": {
+    "id": 77,
+    "quality": "orange",
+    "evolveLevel": 40,
+    "costID": 133,
+    "costNum": 150
+  },
+  "78": {
+    "id": 78,
+    "quality": "orange",
+    "evolveLevel": 60,
+    "costID": 133,
+    "costNum": 225
+  },
+  "79": {
+    "id": 79,
+    "quality": "orange",
+    "evolveLevel": 80,
+    "costID": 133,
+    "costNum": 338
+  },
+  "80": {
+    "id": 80,
+    "quality": "orange",
+    "evolveLevel": 100,
+    "costID": 133,
+    "costNum": 506
+  },
+  "81": {
+    "id": 81,
+    "quality": "orange",
+    "evolveLevel": 110,
+    "costID": 133,
+    "costNum": 759
+  },
+  "82": {
+    "id": 82,
+    "quality": "orange",
+    "evolveLevel": 120,
+    "costID": 133,
+    "costNum": 1139
+  },
+  "83": {
+    "id": 83,
+    "quality": "orange",
+    "evolveLevel": 130,
+    "costID": 133,
+    "costNum": 1709
+  },
+  "84": {
+    "id": 84,
+    "quality": "orange",
+    "evolveLevel": 140,
+    "costID": 133,
+    "costNum": 2563
+  },
+  "85": {
+    "id": 85,
+    "quality": "orange",
+    "evolveLevel": 150,
+    "costID": 133,
+    "costNum": 3844
+  },
+  "86": {
+    "id": 86,
+    "quality": "orange",
+    "evolveLevel": 160,
+    "costID": 133,
+    "costNum": 5767
+  },
+  "87": {
+    "id": 87,
+    "quality": "orange",
+    "evolveLevel": 170,
+    "costID": 133,
+    "costNum": 9226
+  },
+  "88": {
+    "id": 88,
+    "quality": "orange",
+    "evolveLevel": 180,
+    "costID": 133,
+    "costNum": 15685
+  },
+  "89": {
+    "id": 89,
+    "quality": "orange",
+    "evolveLevel": 190,
+    "costID": 133,
+    "costNum": 28233
+  },
+  "90": {
+    "id": 90,
+    "quality": "orange",
+    "evolveLevel": 200,
+    "costID": 133,
+    "costNum": 53642
+  },
+  "91": {
+    "id": 91,
+    "quality": "orange",
+    "evolveLevel": 210,
+    "costID": 133,
+    "costNum": 75000
+  },
+  "92": {
+    "id": 92,
+    "quality": "orange",
+    "evolveLevel": 220,
+    "costID": 133,
+    "costNum": 105000
+  },
+  "93": {
+    "id": 93,
+    "quality": "orange",
+    "evolveLevel": 230,
+    "costID": 133,
+    "costNum": 147000
+  },
+  "94": {
+    "id": 94,
+    "quality": "orange",
+    "evolveLevel": 240,
+    "costID": 133,
+    "costNum": 206000
+  },
+  "95": {
+    "id": 95,
+    "quality": "orange",
+    "evolveLevel": 250,
+    "costID": 133,
+    "costNum": 288000
+  },
+  "96": {
+    "id": 96,
+    "quality": "orange",
+    "evolveLevel": 260,
+    "costID": 133,
+    "costNum": 403000
+  },
+  "97": {
+    "id": 97,
+    "quality": "orange",
+    "evolveLevel": 270,
+    "costID": 133,
+    "costNum": 564000
+  },
+  "98": {
+    "id": 98,
+    "quality": "orange",
+    "evolveLevel": 280,
+    "costID": 133,
+    "costNum": 730000
+  },
+  "99": {
+    "id": 99,
+    "quality": "orange",
+    "evolveLevel": 290,
+    "costID": 133,
+    "costNum": 950000
+  },
+  "100": {
+    "id": 100,
+    "quality": "orange",
+    "evolveLevel": 300,
+    "costID": 133,
+    "costNum": 1425000
+  }
+}

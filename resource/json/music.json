@@ -1,0 +1,586 @@
+{
+  "101": {
+    "id": 101,
+    "type": "bgm",
+    "use": 1,
+    "name": "战斗胜利循环",
+    "file": "bgm_battlevictoryloop_mp3",
+    "sound": 0.425
+  },
+  "102": {
+    "id": 102,
+    "type": "bgm",
+    "use": 1,
+    "name": "战斗失败循环",
+    "file": "bgm_battleloseloop_mp3",
+    "sound": 0.425
+  },
+  "103": {
+    "id": 103,
+    "type": "bgm",
+    "use": 1,
+    "name": "主界面音乐",
+    "file": "bgm_main_mp3",
+    "sound": 0.2
+  },
+  "104": {
+    "id": 104,
+    "type": "bgm",
+    "use": 1,
+    "name": "加林塔战斗音乐",
+    "file": "bgm_battle_mp3",
+    "sound": 0.425
+  },
+  "105": {
+    "id": 105,
+    "type": "bgm",
+    "use": 1,
+    "name": "蛇道战斗音乐",
+    "file": "bgm_battle_mp3",
+    "sound": 0.425
+  },
+  "106": {
+    "id": 106,
+    "type": "bgm",
+    "use": 1,
+    "name": "竞技场战斗音乐",
+    "file": "bgm_arena_mp3",
+    "sound": 0.425
+  },
+  "107": {
+    "id": 107,
+    "type": "bgm",
+    "use": 1,
+    "name": "沙鲁游戏小沙鲁战斗音乐",
+    "file": "bgm_battle_mp3",
+    "sound": 0.425
+  },
+  "108": {
+    "id": 108,
+    "type": "bgm",
+    "use": 1,
+    "name": "沙鲁游戏大沙鲁战斗音乐",
+    "file": "bgm_boss_mp3",
+    "sound": 0.425
+  },
+  "109": {
+    "id": 109,
+    "type": "bgm",
+    "use": 1,
+    "name": "战队夺宝战斗音乐",
+    "file": "bgm_battle_mp3",
+    "sound": 0.425
+  },
+  "201": {
+    "id": 201,
+    "type": "sound",
+    "use": 1,
+    "name": "点击",
+    "file": "sound_click_mp3",
+    "sound": 0.425
+  },
+  "202": {
+    "id": 202,
+    "type": "sound",
+    "use": 1,
+    "name": "点击超大招",
+    "file": "sound_superskill_mp3",
+    "sound": 0.425
+  },
+  "203": {
+    "id": 203,
+    "type": "sound",
+    "use": 1,
+    "name": "打开窗口",
+    "file": "sound_windows_mp3",
+    "sound": 0.425
+  },
+  "204": {
+    "id": 204,
+    "type": "sound",
+    "use": 1,
+    "name": "返回",
+    "file": "sound_return_mp3",
+    "sound": 0.425
+  },
+  "205": {
+    "id": 205,
+    "type": "sound",
+    "use": 1,
+    "name": "关闭",
+    "file": "sound_close_mp3",
+    "sound": 0.425
+  },
+  "206": {
+    "id": 206,
+    "type": "sound",
+    "use": 1,
+    "name": "无法点击",
+    "file": "sound_not_mp3",
+    "sound": 0.425
+  },
+  "207": {
+    "id": 207,
+    "type": "sound",
+    "use": 1,
+    "name": "点击页签",
+    "file": "sound_tabs_mp3",
+    "sound": 0.425
+  },
+  "208": {
+    "id": 208,
+    "type": "sound",
+    "use": 1,
+    "name": "升级",
+    "file": "sound_upgrade_mp3",
+    "sound": 0.425
+  },
+  "209": {
+    "id": 209,
+    "type": "sound",
+    "use": 1,
+    "name": "战斗开始",
+    "file": "sound_battlestart_mp3",
+    "sound": 0.3
+  },
+  "210": {
+    "id": 210,
+    "type": "sound",
+    "use": 1,
+    "name": "战斗胜利",
+    "file": "sound_battlevictory_mp3",
+    "sound": 0.425
+  },
+  "211": {
+    "id": 211,
+    "type": "sound",
+    "use": 1,
+    "name": "战斗失败",
+    "file": "sound_battlelose_mp3",
+    "sound": 0.425
+  },
+  "301": {
+    "id": 301,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导1配音",
+    "file": "dubbing_1_mp3",
+    "sound": 0.5
+  },
+  "302": {
+    "id": 302,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导2配音",
+    "file": "dubbing_2_mp3",
+    "sound": 0.5
+  },
+  "303": {
+    "id": 303,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导3配音",
+    "file": "dubbing_3_mp3",
+    "sound": 0.5
+  },
+  "304": {
+    "id": 304,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导4配音",
+    "file": "dubbing_4_mp3",
+    "sound": 0.5
+  },
+  "305": {
+    "id": 305,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导5配音",
+    "file": "dubbing_5_mp3",
+    "sound": 0.5
+  },
+  "306": {
+    "id": 306,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导6配音",
+    "file": "dubbing_6_mp3",
+    "sound": 0.5
+  },
+  "307": {
+    "id": 307,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导7配音",
+    "file": "dubbing_7_mp3",
+    "sound": 0.5
+  },
+  "308": {
+    "id": 308,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导8配音",
+    "file": "dubbing_8_mp3",
+    "sound": 0.5
+  },
+  "309": {
+    "id": 309,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导9配音",
+    "file": "dubbing_9_mp3",
+    "sound": 0.5
+  },
+  "310": {
+    "id": 310,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导10配音",
+    "file": "dubbing_10_mp3",
+    "sound": 0.5
+  },
+  "311": {
+    "id": 311,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导11配音",
+    "file": "dubbing_11_mp3",
+    "sound": 0.5
+  },
+  "312": {
+    "id": 312,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导12配音",
+    "file": "dubbing_12_mp3",
+    "sound": 0.5
+  },
+  "313": {
+    "id": 313,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导13配音",
+    "file": "dubbing_13_mp3",
+    "sound": 0.5
+  },
+  "314": {
+    "id": 314,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导14配音",
+    "file": "dubbing_14_mp3",
+    "sound": 0.5
+  },
+  "315": {
+    "id": 315,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导15配音",
+    "file": "dubbing_15_mp3",
+    "sound": 0.5
+  },
+  "316": {
+    "id": 316,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导16配音",
+    "file": "dubbing_16_mp3",
+    "sound": 0.5
+  },
+  "317": {
+    "id": 317,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导17配音",
+    "file": "dubbing_17_mp3",
+    "sound": 0.5
+  },
+  "318": {
+    "id": 318,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导18配音",
+    "file": "dubbing_18_mp3",
+    "sound": 0.5
+  },
+  "319": {
+    "id": 319,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导19配音",
+    "file": "dubbing_19_mp3",
+    "sound": 0.5
+  },
+  "320": {
+    "id": 320,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导20配音",
+    "file": "dubbing_20_mp3",
+    "sound": 0.5
+  },
+  "321": {
+    "id": 321,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导21配音",
+    "file": "dubbing_21_mp3",
+    "sound": 0.5
+  },
+  "322": {
+    "id": 322,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导22配音",
+    "file": "dubbing_22_mp3",
+    "sound": 0.5
+  },
+  "323": {
+    "id": 323,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导23配音",
+    "file": "dubbing_23_mp3",
+    "sound": 0.5
+  },
+  "324": {
+    "id": 324,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导24配音",
+    "file": "dubbing_24_mp3",
+    "sound": 0.5
+  },
+  "325": {
+    "id": 325,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导25配音",
+    "file": "dubbing_25_mp3",
+    "sound": 0.5
+  },
+  "326": {
+    "id": 326,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导26配音",
+    "file": "dubbing_26_mp3",
+    "sound": 0.5
+  },
+  "327": {
+    "id": 327,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导27配音",
+    "file": "dubbing_27_mp3",
+    "sound": 0.5
+  },
+  "328": {
+    "id": 328,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导28配音",
+    "file": "dubbing_28_mp3",
+    "sound": 0.5
+  },
+  "329": {
+    "id": 329,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导29配音",
+    "file": "dubbing_29_mp3",
+    "sound": 0.5
+  },
+  "330": {
+    "id": 330,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导30配音",
+    "file": "dubbing_30_mp3",
+    "sound": 0.5
+  },
+  "331": {
+    "id": 331,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导31配音",
+    "file": "dubbing_31_mp3",
+    "sound": 0.5
+  },
+  "332": {
+    "id": 332,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导32配音",
+    "file": "dubbing_32_mp3",
+    "sound": 0.5
+  },
+  "333": {
+    "id": 333,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导33配音",
+    "file": "dubbing_33_mp3",
+    "sound": 0.5
+  },
+  "334": {
+    "id": 334,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导34配音",
+    "file": "dubbing_34_mp3",
+    "sound": 0.5
+  },
+  "335": {
+    "id": 335,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导35配音",
+    "file": "dubbing_35_mp3",
+    "sound": 0.5
+  },
+  "336": {
+    "id": 336,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导36配音",
+    "file": "dubbing_36_mp3",
+    "sound": 0.5
+  },
+  "337": {
+    "id": 337,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导37配音",
+    "file": "dubbing_37_mp3",
+    "sound": 0.5
+  },
+  "338": {
+    "id": 338,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导38配音",
+    "file": "dubbing_38_mp3",
+    "sound": 0.5
+  },
+  "339": {
+    "id": 339,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导39配音",
+    "file": "dubbing_39_mp3",
+    "sound": 0.5
+  },
+  "340": {
+    "id": 340,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导40配音",
+    "file": "dubbing_40_mp3",
+    "sound": 0.5
+  },
+  "341": {
+    "id": 341,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导41配音",
+    "file": "dubbing_41_mp3",
+    "sound": 0.5
+  },
+  "342": {
+    "id": 342,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导42配音",
+    "file": "dubbing_42_mp3",
+    "sound": 0.5
+  },
+  "343": {
+    "id": 343,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导43配音",
+    "file": "dubbing_43_mp3",
+    "sound": 0.5
+  },
+  "344": {
+    "id": 344,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导44配音",
+    "file": "dubbing_44_mp3",
+    "sound": 0.5
+  },
+  "345": {
+    "id": 345,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导45配音",
+    "file": "dubbing_45_mp3",
+    "sound": 0.5
+  },
+  "346": {
+    "id": 346,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导46配音",
+    "file": "dubbing_46_mp3",
+    "sound": 0.5
+  },
+  "347": {
+    "id": 347,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导47配音",
+    "file": "dubbing_47_mp3",
+    "sound": 0.5
+  },
+  "348": {
+    "id": 348,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导48配音",
+    "file": "dubbing_48_mp3",
+    "sound": 0.5
+  },
+  "349": {
+    "id": 349,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导49配音",
+    "file": "dubbing_49_mp3",
+    "sound": 0.5
+  },
+  "350": {
+    "id": 350,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导50配音",
+    "file": "dubbing_50_mp3",
+    "sound": 0.5
+  },
+  "351": {
+    "id": 351,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导51配音",
+    "file": "dubbing_51_mp3",
+    "sound": 0.5
+  },
+  "352": {
+    "id": 352,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导52配音",
+    "file": "dubbing_52_mp3",
+    "sound": 0.5
+  },
+  "353": {
+    "id": 353,
+    "type": "dubbing",
+    "use": 1,
+    "name": "引导53配音",
+    "file": "dubbing_53_mp3",
+    "sound": 0.5
+  }
+}

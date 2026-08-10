@@ -1,0 +1,2717 @@
+{
+  "1001": [
+    {
+      "id": 1001,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 5,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1001,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 3,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1001,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 26,
+      "enemyAttack2": 5,
+      "enemyList1": 1902,
+      "enemyList2": 1902,
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1002": [
+    {
+      "id": 1002,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 5,
+      "enemyAttack2": 15,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1002,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 10,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1002,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 20,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1003": [
+    {
+      "id": 1003,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 17,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1003,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 3,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1003,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 100,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1003,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 20,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1004": [
+    {
+      "id": 1004,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 5,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 12,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 70,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 30,
+      "enemyAttack2": 5,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 150,
+      "enemyList1": 1902,
+      "enemyList2": 9001,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 8,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 8,
+      "enemyAttack2": 600,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1004,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 140,
+      "enemyAttack2": 180,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1005": [
+    {
+      "id": 1005,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 5,
+      "enemyAttack2": 27,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1005,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 22,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1005,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 5,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1005,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 5,
+      "enemyAttack2": 80,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1006": [
+    {
+      "id": 1006,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 22,
+      "enemyAttack2": 26,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1006,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 7,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1006,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 30,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1006,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 8,
+      "enemyAttack2": 120,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1006,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 80,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1007": [
+    {
+      "id": 1007,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 22,
+      "enemyAttack2": 16,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1007,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 7,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1007,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 50,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1007,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 140,
+      "enemyAttack2": 5,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1007,
+      "lesson": 2,
+      "Number": 1,
+      "enemyList1": 9002,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1008": [
+    {
+      "id": 1008,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 4,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1008,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 3,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1008,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 15,
+      "enemyList1": 1902,
+      "enemyList2": 9003,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1008,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 100,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1008,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 100,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1008,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 200,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1009": [
+    {
+      "id": 1009,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 5,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1009,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 22,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1009,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 5,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1009,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 5,
+      "enemyAttack2": 20,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1009,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": 80,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1010": [
+    {
+      "id": 1010,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": 35,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1010,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 6,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1010,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 20,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1010,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 90,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1010,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 20,
+      "enemyAttack2": 200,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1011": [
+    {
+      "id": 1011,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 16,
+      "enemyAttack2": 32,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1011,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 8,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1011,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 150,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1011,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 200,
+      "enemyAttack2": 500,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1011,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 5,
+      "enemyList1": 1902,
+      "enemyList2": 9003,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1011,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 160,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1012": [
+    {
+      "id": 1012,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 16,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 8,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 80,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 20,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 50,
+      "enemyAttack2": 120,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 3,
+      "Number": 5,
+      "enemyAttack1": 500,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 50,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 400,
+      "enemyList1": 1902,
+      "enemyList2": 9004,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 50,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1012,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 1500,
+      "enemyAttack2": 250,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1013": [
+    {
+      "id": 1013,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 16,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1013,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 20,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1013,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 300,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1013,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 20,
+      "enemyAttack2": 200,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1013,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 20,
+      "enemyList1": 1902,
+      "enemyList2": 9005,
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1014": [
+    {
+      "id": 1014,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 3,
+      "enemyAttack2": 20,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1014,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 25,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1014,
+      "lesson": 2,
+      "Number": 5,
+      "enemyAttack1": 200,
+      "enemyAttack2": 500,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1014,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 150,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1014,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 50,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1014,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 20,
+      "enemyAttack2": 20,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1014,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 200,
+      "enemyAttack2": 500,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "1015": [
+    {
+      "id": 1015,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 8,
+      "enemyAttack2": 8,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 350,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 60,
+      "enemyList1": 1902,
+      "enemyList2": 9005,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 120,
+      "enemyAttack2": 1500,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 700,
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 45,
+      "enemyAttack2": 55,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 33,
+      "enemyAttack2": 77,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 4,
+      "Number": 5,
+      "enemyList1": 8001,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 4,
+      "Number": 4,
+      "enemyAttack1": 3000,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 4,
+      "Number": 3,
+      "enemyAttack1": 4000,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 4,
+      "Number": 2,
+      "enemyAttack2": 200,
+      "enemyList1": 9006,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 1015,
+      "lesson": 4,
+      "Number": 1,
+      "enemyAttack1": 1500,
+      "enemyAttack2": 200,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2001": [
+    {
+      "id": 2001,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 15,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2001,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 13,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2001,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 36,
+      "enemyAttack2": 15,
+      "enemyList1": 1902,
+      "enemyList2": 1902,
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2002": [
+    {
+      "id": 2002,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 15,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2002,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 20,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2002,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 30,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2003": [
+    {
+      "id": 2003,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 27,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2003,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 13,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2003,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 110,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2003,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 30,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2004": [
+    {
+      "id": 2004,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 22,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 80,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": 15,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 160,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9001,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 18,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 18,
+      "enemyAttack2": 610,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2004,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 150,
+      "enemyAttack2": 190,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2005": [
+    {
+      "id": 2005,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": 37,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2005,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 32,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2005,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2005,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 15,
+      "enemyAttack2": 90,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2006": [
+    {
+      "id": 2006,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 32,
+      "enemyAttack2": 36,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2006,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 17,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2006,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 40,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2006,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 18,
+      "enemyAttack2": 130,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2006,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 90,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2007": [
+    {
+      "id": 2007,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 32,
+      "enemyAttack2": 26,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2007,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 17,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2007,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 60,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2007,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 150,
+      "enemyAttack2": 15,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2007,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": "",
+      "enemyAttack2": "",
+      "enemyList1": 9002,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2008": [
+    {
+      "id": 2008,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 14,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2008,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 13,
+      "enemyAttack2": 35,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2008,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 25,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9003,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2008,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 110,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2008,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 110,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2008,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 210,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2009": [
+    {
+      "id": 2009,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2009,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 32,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2009,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 15,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2009,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2009,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 50,
+      "enemyAttack2": 90,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2010": [
+    {
+      "id": 2010,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": 45,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2010,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 16,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2010,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 30,
+      "enemyAttack2": 35,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2010,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 100,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2010,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 30,
+      "enemyAttack2": 210,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2011": [
+    {
+      "id": 2011,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 26,
+      "enemyAttack2": 42,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2011,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 18,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2011,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 160,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2011,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 210,
+      "enemyAttack2": 510,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2011,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 15,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9003,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2011,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 170,
+      "enemyAttack2": 35,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2012": [
+    {
+      "id": 2012,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 26,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 18,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 90,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 30,
+      "enemyAttack2": 35,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 60,
+      "enemyAttack2": 130,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 3,
+      "Number": 5,
+      "enemyAttack1": 510,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 60,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 410,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9004,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 60,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2012,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 1510,
+      "enemyAttack2": 260,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2013": [
+    {
+      "id": 2013,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 26,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2013,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 30,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2013,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 310,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2013,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 30,
+      "enemyAttack2": 210,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2013,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 30,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9005,
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2014": [
+    {
+      "id": 2014,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 13,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2014,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 35,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2014,
+      "lesson": 2,
+      "Number": 5,
+      "enemyAttack1": 210,
+      "enemyAttack2": 510,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2014,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 160,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2014,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 60,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2014,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 30,
+      "enemyAttack2": 30,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2014,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 210,
+      "enemyAttack2": 510,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "2015": [
+    {
+      "id": 2015,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 35,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 18,
+      "enemyAttack2": 18,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 360,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 70,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9005,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 130,
+      "enemyAttack2": 1510,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 710,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 55,
+      "enemyAttack2": 65,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 43,
+      "enemyAttack2": 87,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 4,
+      "Number": 5,
+      "enemyAttack1": "",
+      "enemyAttack2": "",
+      "enemyList1": 8001,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 4,
+      "Number": 4,
+      "enemyAttack1": 3010,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 4,
+      "Number": 3,
+      "enemyAttack1": 4010,
+      "enemyAttack2": 60,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 4,
+      "Number": 2,
+      "enemyAttack1": "",
+      "enemyAttack2": 210,
+      "enemyList1": 9006,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 2015,
+      "lesson": 4,
+      "Number": 1,
+      "enemyAttack1": 1510,
+      "enemyAttack2": 210,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3001": [
+    {
+      "id": 3001,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 25,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3001,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 23,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3001,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 46,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": 1902,
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3002": [
+    {
+      "id": 3002,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 25,
+      "enemyAttack2": 35,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3002,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 30,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3002,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3003": [
+    {
+      "id": 3003,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 37,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3003,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 23,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3003,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 120,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3003,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3004": [
+    {
+      "id": 3004,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 32,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 90,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 50,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 170,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9001,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 28,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 28,
+      "enemyAttack2": 620,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3004,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 160,
+      "enemyAttack2": 200,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3005": [
+    {
+      "id": 3005,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": 47,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3005,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 42,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3005,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3005,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 25,
+      "enemyAttack2": 100,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3006": [
+    {
+      "id": 3006,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 42,
+      "enemyAttack2": 46,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3006,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 27,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3006,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 50,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3006,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 28,
+      "enemyAttack2": 140,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3006,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 100,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3007": [
+    {
+      "id": 3007,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 42,
+      "enemyAttack2": 36,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3007,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 27,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3007,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 70,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3007,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 160,
+      "enemyAttack2": 25,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3007,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": "",
+      "enemyAttack2": "",
+      "enemyList1": 9002,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3008": [
+    {
+      "id": 3008,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 24,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3008,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 23,
+      "enemyAttack2": 45,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3008,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 35,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9003,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3008,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 120,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3008,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 120,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3008,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 220,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3009": [
+    {
+      "id": 3009,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3009,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 42,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3009,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 25,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3009,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3009,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 60,
+      "enemyAttack2": 100,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3010": [
+    {
+      "id": 3010,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 35,
+      "enemyAttack2": 55,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3010,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 26,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3010,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 40,
+      "enemyAttack2": 45,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3010,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 110,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3010,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": 220,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3011": [
+    {
+      "id": 3011,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 36,
+      "enemyAttack2": 52,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3011,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 28,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3011,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 170,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3011,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 220,
+      "enemyAttack2": 520,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3011,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 25,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9003,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3011,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 180,
+      "enemyAttack2": 45,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3012": [
+    {
+      "id": 3012,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 36,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 28,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 100,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 40,
+      "enemyAttack2": 45,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 70,
+      "enemyAttack2": 140,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 3,
+      "Number": 5,
+      "enemyAttack1": 520,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 70,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 420,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9004,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 70,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3012,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 1520,
+      "enemyAttack2": 270,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3013": [
+    {
+      "id": 3013,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 36,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3013,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3013,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 320,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3013,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 40,
+      "enemyAttack2": 220,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3013,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 40,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9005,
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3014": [
+    {
+      "id": 3014,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 23,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3014,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 45,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3014,
+      "lesson": 2,
+      "Number": 5,
+      "enemyAttack1": 220,
+      "enemyAttack2": 520,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3014,
+      "lesson": 2,
+      "Number": 4,
+      "enemyAttack1": 170,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3014,
+      "lesson": 2,
+      "Number": 3,
+      "enemyAttack1": 70,
+      "enemyAttack2": 50,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3014,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 40,
+      "enemyAttack2": 40,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3014,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 220,
+      "enemyAttack2": 520,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ],
+  "3015": [
+    {
+      "id": 3015,
+      "lesson": 1,
+      "Number": 2,
+      "enemyAttack1": 45,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 1,
+      "Number": 1,
+      "enemyAttack1": 28,
+      "enemyAttack2": 28,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 2,
+      "Number": 2,
+      "enemyAttack1": 370,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 2,
+      "Number": 1,
+      "enemyAttack1": 80,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": 9005,
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 3,
+      "Number": 4,
+      "enemyAttack1": 140,
+      "enemyAttack2": 1520,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 3,
+      "Number": 3,
+      "enemyAttack1": 720,
+      "enemyAttack2": "",
+      "enemyList1": 1902,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 3,
+      "Number": 2,
+      "enemyAttack1": 65,
+      "enemyAttack2": 75,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 3,
+      "Number": 1,
+      "enemyAttack1": 53,
+      "enemyAttack2": 97,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 4,
+      "Number": 5,
+      "enemyAttack1": "",
+      "enemyAttack2": "",
+      "enemyList1": 8001,
+      "enemyList2": "",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 4,
+      "Number": 4,
+      "enemyAttack1": 3020,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 4,
+      "Number": 3,
+      "enemyAttack1": 4020,
+      "enemyAttack2": 70,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 4,
+      "Number": 2,
+      "enemyAttack1": "",
+      "enemyAttack2": 220,
+      "enemyList1": 9006,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    },
+    {
+      "id": 3015,
+      "lesson": 4,
+      "Number": 1,
+      "enemyAttack1": 1520,
+      "enemyAttack2": 220,
+      "enemyList1": 1902,
+      "enemyList2": "1902",
+      "battleMap": "battleMap101_jpg"
+    }
+  ]
+}

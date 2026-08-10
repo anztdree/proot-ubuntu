@@ -1,0 +1,79 @@
+{
+  "10": {
+    "id": 10,
+    "rankStart": 1,
+    "rankEnd": 1,
+    "topRankAward1": 101,
+    "num1": 1200
+  },
+  "20": {
+    "id": 20,
+    "rankStart": 2,
+    "rankEnd": 3,
+    "topRankAward1": 101,
+    "num1": 800
+  },
+  "30": {
+    "id": 30,
+    "rankStart": 4,
+    "rankEnd": 10,
+    "topRankAward1": 101,
+    "num1": 500
+  },
+  "40": {
+    "id": 40,
+    "rankStart": 11,
+    "rankEnd": 20,
+    "topRankAward1": 101,
+    "num1": 300
+  },
+  "50": {
+    "id": 50,
+    "rankStart": 21,
+    "rankEnd": 50,
+    "topRankAward1": 101,
+    "num1": 200
+  },
+  "60": {
+    "id": 60,
+    "rankStart": 51,
+    "rankEnd": 100,
+    "topRankAward1": 101,
+    "num1": 150
+  },
+  "70": {
+    "id": 70,
+    "rankStart": 101,
+    "rankEnd": 200,
+    "topRankAward1": 101,
+    "num1": 150
+  },
+  "80": {
+    "id": 80,
+    "rankStart": 201,
+    "rankEnd": 500,
+    "topRankAward1": 101,
+    "num1": 100
+  },
+  "90": {
+    "id": 90,
+    "rankStart": 501,
+    "rankEnd": 1000,
+    "topRankAward1": 101,
+    "num1": 100
+  },
+  "100": {
+    "id": 100,
+    "rankStart": 1001,
+    "rankEnd": 2000,
+    "topRankAward1": 101,
+    "num1": 50
+  },
+  "110": {
+    "id": 110,
+    "rankStart": 2001,
+    "rankEnd": 5000,
+    "topRankAward1": 101,
+    "num1": 50
+  }
+}

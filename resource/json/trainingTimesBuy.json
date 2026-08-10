@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "trainingCostID": 101,
+    "trainingPrice": 100,
+    "vipNeeded": 2
+  },
+  "2": {
+    "id": 2,
+    "trainingCostID": 101,
+    "trainingPrice": 120,
+    "vipNeeded": 4
+  },
+  "3": {
+    "id": 3,
+    "trainingCostID": 101,
+    "trainingPrice": 140,
+    "vipNeeded": 7
+  },
+  "4": {
+    "id": 4,
+    "trainingCostID": 101,
+    "trainingPrice": 160,
+    "vipNeeded": 10
+  },
+  "5": {
+    "id": 5,
+    "trainingCostID": 101,
+    "trainingPrice": 180,
+    "vipNeeded": 12
+  },
+  "6": {
+    "id": 6,
+    "trainingCostID": 101,
+    "trainingPrice": 200,
+    "vipNeeded": 14
+  },
+  "7": {
+    "id": 7,
+    "trainingCostID": 101,
+    "trainingPrice": 200,
+    "vipNeeded": 16
+  }
+}

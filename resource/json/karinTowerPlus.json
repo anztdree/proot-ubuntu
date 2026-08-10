@@ -1,0 +1,56 @@
+{
+  "1": {
+    "id": 1,
+    "playerLevelStart": 180,
+    "playerLevelEnd": 184,
+    "plus": 0.2
+  },
+  "2": {
+    "id": 2,
+    "playerLevelStart": 185,
+    "playerLevelEnd": 189,
+    "plus": 0.3
+  },
+  "3": {
+    "id": 3,
+    "playerLevelStart": 190,
+    "playerLevelEnd": 194,
+    "plus": 0.4
+  },
+  "4": {
+    "id": 4,
+    "playerLevelStart": 195,
+    "playerLevelEnd": 199,
+    "plus": 0.5
+  },
+  "5": {
+    "id": 5,
+    "playerLevelStart": 200,
+    "playerLevelEnd": 204,
+    "plus": 0.6
+  },
+  "6": {
+    "id": 6,
+    "playerLevelStart": 205,
+    "playerLevelEnd": 209,
+    "plus": 0.8
+  },
+  "7": {
+    "id": 7,
+    "playerLevelStart": 210,
+    "playerLevelEnd": 214,
+    "plus": 1
+  },
+  "8": {
+    "id": 8,
+    "playerLevelStart": 215,
+    "playerLevelEnd": 219,
+    "plus": 1.2
+  },
+  "9": {
+    "id": 9,
+    "playerLevelStart": 220,
+    "playerLevelEnd": 300,
+    "plus": 1.4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id": 1,
+    "type": "战队签到",
+    "activePoint": 50
+  },
+  "2": {
+    "id": 2,
+    "type": "战队BOSS战斗",
+    "activePoint": 10
+  },
+  "3": {
+    "id": 3,
+    "type": "战队夺宝战斗",
+    "activePoint": 10
+  },
+  "4": {
+    "id": 4,
+    "type": "撒旦红包领取",
+    "activePoint": 5
+  }
+}

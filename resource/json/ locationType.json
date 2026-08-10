@@ -1,0 +1,52 @@
+{
+  "tank": {
+    "id": "tank",
+    "number": 1,
+    "location": " locationType_location_1"
+  },
+  "support": {
+    "id": "support",
+    "number": 2,
+    "location": " locationType_location_2"
+  },
+  "carry": {
+    "id": "carry",
+    "number": 3,
+    "location": " locationType_location_3"
+  },
+  "single": {
+    "id": "single",
+    "number": 4,
+    "location": " locationType_location_4"
+  },
+  "area": {
+    "id": "area",
+    "number": 5,
+    "location": " locationType_location_5"
+  },
+  "control": {
+    "id": "control",
+    "number": 6,
+    "location": " locationType_location_6"
+  },
+  "bleed": {
+    "id": "bleed",
+    "number": 7,
+    "location": " locationType_location_7"
+  },
+  "cure": {
+    "id": "cure",
+    "number": 8,
+    "location": " locationType_location_8"
+  },
+  "buff": {
+    "id": "buff",
+    "number": 9,
+    "location": " locationType_location_9"
+  },
+  "debuff": {
+    "id": "debuff",
+    "number": 10,
+    "location": " locationType_location_10"
+  }
+}

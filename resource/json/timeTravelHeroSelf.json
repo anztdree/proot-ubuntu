@@ -1,0 +1,71 @@
+{
+  "3001": [
+    {
+      "id": 3001,
+      "name": "6h情况一",
+      "quality": "orange",
+      "num": 1,
+      "random": 4000
+    },
+    {
+      "id": 3001,
+      "name": "6h情况一",
+      "quality": "orange",
+      "num": 2,
+      "random": 6000
+    }
+  ],
+  "3101": [
+    {
+      "id": 3101,
+      "name": "12h情况一",
+      "quality": "orange",
+      "num": 2,
+      "random": 3000
+    },
+    {
+      "id": 3101,
+      "name": "12h情况一",
+      "quality": "orange",
+      "num": 3,
+      "random": 7000
+    },
+    {
+      "id": 3101,
+      "name": "12h情况一",
+      "quality": "flickerOrange",
+      "num": 1,
+      "random": 8000
+    },
+    {
+      "id": 3101,
+      "name": "12h情况一",
+      "quality": "flickerOrange",
+      "num": 2,
+      "random": 2000
+    }
+  ],
+  "3201": [
+    {
+      "id": 3201,
+      "name": "24h情况一",
+      "quality": "orange",
+      "num": 5,
+      "random": 1000
+    },
+    {
+      "id": 3201,
+      "name": "24h情况一",
+      "quality": "flickerOrange",
+      "num": 2,
+      "random": 1000
+    },
+    {
+      "id": 3201,
+      "name": "24h情况一",
+      "quality": "superOrange",
+      "num": 1,
+      "random": 1000
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "1": {
+    "id": 1,
+    "systemLink": "linkMain",
+    "systemIcon": "openIcon_linkMain_png",
+    "openName": "openName_Main_png",
+    "systemName": "link_systemName_1"
+  },
+  "2": {
+    "id": 2,
+    "systemLink": "linkMerge",
+    "systemIcon": "openIcon_linkMerge_png",
+    "openName": "openName_Merge_png",
+    "systemName": "link_systemName_2"
+  },
+  "3": {
+    "id": 3,
+    "systemLink": "linkRewardList",
+    "systemIcon": "openIcon_linkRewardList_png",
+    "openName": "openName_RewardList_png",
+    "systemName": "link_systemName_3"
+  },
+  "4": {
+    "id": 4,
+    "systemLink": "linkResourceDungeon",
+    "systemIcon": "openIcon_linkResourceDungeon_png",
+    "openName": "openName_ResourceDungeon_png",
+    "systemName": "link_systemName_4"
+  },
+  "5": {
+    "id": 5,
+    "systemLink": "linkEquipDungeon",
+    "systemIcon": "openIcon_linkEquipDungeon_png",
+    "openName": "openName_EquipDungeon_png",
+    "systemName": "link_systemName_5"
+  },
+  "6": {
+    "id": 6,
+    "systemLink": "linkSignDungeon",
+    "systemIcon": "openIcon_linkSignDungeon_png",
+    "openName": "openName_SignDungeon_png",
+    "systemName": "link_systemName_6"
+  },
+  "7": {
+    "id": 7,
+    "systemLink": "linkSnakeDungeon",
+    "systemIcon": "openIcon_linkSnakeDungeon_png",
+    "openName": "openName_SnakeDungeon_png",
+    "systemName": "link_systemName_7"
+  },
+  "8": {
+    "id": 8,
+    "systemLink": "linkGoldBuy",
+    "systemIcon": "openIcon_linkGoldBuy_png",
+    "openName": "openName_GoldBuy_png",
+    "systemName": "link_systemName_8"
+  },
+  "9": {
+    "id": 9,
+    "systemLink": "linkSummon",
+    "systemIcon": "openIcon_linkSummon_png",
+    "openName": "openName_Summon_png",
+    "systemName": "link_systemName_9"
+  },
+  "10": {
+    "id": 10,
+    "systemLink": "linkCellGame",
+    "systemIcon": "openIcon_linkCellGame_png",
+    "openName": "openName_CellGame_png",
+    "systemName": "link_systemName_10"
+  },
+  "11": {
+    "id": 11,
+    "systemLink": "linkArena",
+    "systemIcon": "openIcon_linkArena_png",
+    "openName": "openName_Arena_png",
+    "systemName": "link_systemName_11"
+  },
+  "12": {
+    "id": 12,
+    "systemLink": "linkDragonSummon",
+    "systemIcon": "openIcon_linkDragonSummon_png",
+    "openName": "openName_DragonSummon_png",
+    "systemName": "link_systemName_12"
+  },
+  "13": {
+    "id": 13,
+    "systemLink": "linkMahaAdventure",
+    "systemIcon": "openIcon_linkMahaAdventure_png",
+    "openName": "openName_MahaAdventure_png",
+    "systemName": "link_systemName_13"
+  },
+  "14": {
+    "id": 14,
+    "systemLink": "linkHeroList",
+    "systemIcon": "openIcon_linkHeroList_png",
+    "openName": "openName_HeroList_png",
+    "systemName": "link_systemName_14"
+  },
+  "15": {
+    "id": 15,
+    "systemLink": "linkKarinTower",
+    "systemIcon": "openIcon_linkKarinTower_png",
+    "openName": "openName_KarinTower_png",
+    "systemName": "link_systemName_15"
+  },
+  "16": {
+    "id": 16,
+    "systemLink": "linkTempleTest",
+    "systemIcon": "openIcon_linkTempleTest_png",
+    "openName": "openName_TempleTest_png",
+    "systemName": "link_systemName_16"
+  },
+  "17": {
+    "id": 17,
+    "systemLink": "linkDailyTask",
+    "systemIcon": "openIcon_linkDailyTask_png",
+    "openName": "openName_DailyTask_png",
+    "systemName": "link_systemName_17"
+  },
+  "18": {
+    "id": 18,
+    "systemLink": "linkAchievementTask",
+    "systemIcon": "openIcon_linkAchievementTask_png",
+    "openName": "openName_AchievementTask_png",
+    "systemName": "link_systemName_18"
+  },
+  "19": {
+    "id": 19,
+    "systemLink": "linkExpDungeon",
+    "systemIcon": "openIcon_linkExpDungeon_png",
+    "openName": "openName_ExpDungeon_png",
+    "systemName": "link_systemName_19"
+  },
+  "20": {
+    "id": 20,
+    "systemLink": "linkEvolveDungeon",
+    "systemIcon": "openIcon_linkEvolveDungeon_png",
+    "openName": "openName_EvolveDungeon_png",
+    "systemName": "link_systemName_20"
+  },
+  "21": {
+    "id": 21,
+    "systemLink": "linkRankList",
+    "systemIcon": "openIcon_linkRankList_png",
+    "openName": "openName_RankList_png",
+    "systemName": "link_systemName_21"
+  },
+  "22": {
+    "id": 22,
+    "systemLink": "linkHeroResolve",
+    "systemIcon": "openIcon_linkHeroResolve_png",
+    "openName": "openName_HeroResolve_png",
+    "systemName": "link_systemName_22"
+  },
+  "23": {
+    "id": 23,
+    "systemLink": "linkGuild",
+    "systemIcon": "openIcon_linkGuild_png",
+    "openName": "openName_Guild_png",
+    "systemName": "link_systemName_23"
+  },
+  "24": {
+    "id": 24,
+    "systemLink": "linkBossAttack",
+    "systemIcon": "openIcon_linkBossAttack_png",
+    "openName": "openName_BossAttack_png",
+    "systemName": "link_systemName_24"
+  },
+  "25": {
+    "id": 25,
+    "systemLink": "linkSummonNormal",
+    "systemIcon": "openIcon_linkSummonNormal_png",
+    "openName": "openName_SummonNormal_png",
+    "systemName": "link_systemName_25"
+  },
+  "26": {
+    "id": 26,
+    "systemLink": "linkSummonSuper",
+    "systemIcon": "openIcon_linkSummonSuper_png",
+    "openName": "openName_SummonSuper_png",
+    "systemName": "link_systemName_26"
+  },
+  "27": {
+    "id": 27,
+    "systemLink": "linkSummonFriend",
+    "systemIcon": "openIcon_linkSummonFriend_png",
+    "openName": "openName_SummonFriend_png",
+    "systemName": "link_systemName_27"
+  },
+  "28": {
+    "id": 28,
+    "systemLink": "linkRecharge",
+    "systemIcon": "openIcon_linkRecharge_png",
+    "openName": "openName_Recharge_png",
+    "systemName": "link_systemName_28"
+  },
+  "29": {
+    "id": 29,
+    "systemLink": "linkFriend",
+    "systemIcon": "openIcon_linkFriend_png",
+    "openName": "openName_Friend_png",
+    "systemName": "link_systemName_29"
+  },
+  "30": {
+    "id": 30,
+    "systemLink": "linkMarket",
+    "systemIcon": "openIcon_linkMarket_png",
+    "openName": "openName_Market_png",
+    "systemName": "link_systemName_30"
+  },
+  "31": {
+    "id": 31,
+    "systemLink": "linkEnergyDungeon",
+    "systemIcon": "openIcon_linkEnergyDungeon_png",
+    "openName": "openName_EnergyDungeon_png",
+    "systemName": "link_systemName_31"
+  },
+  "32": {
+    "id": 32,
+    "systemLink": "linkArenaShop",
+    "systemIcon": "openIcon_linkArenaShop_png",
+    "openName": "openName_ArenaShop_png",
+    "systemName": "link_systemName_32"
+  },
+  "33": {
+    "id": 33,
+    "systemLink": "linkFriendBattle",
+    "systemIcon": "openIcon_linkFriendBattle_png",
+    "openName": "openName_FriendBattle_png",
+    "systemName": "link_systemName_33"
+  },
+  "34": {
+    "id": 34,
+    "systemLink": "linkHeroPiece",
+    "systemIcon": "openIcon_linkHeroPiece_png",
+    "openName": "openName_HeroPiece_png",
+    "systemName": "link_systemName_34"
+  },
+  "35": {
+    "id": 35,
+    "systemLink": "linkLessonInfo",
+    "systemIcon": "openIcon_linkLessonInfo_png",
+    "systemName": "link_systemName_35"
+  },
+  "36": {
+    "id": 36,
+    "systemLink": "linkFriendApply",
+    "systemIcon": "openIcon_linkFriendApply_png",
+    "systemName": "link_systemName_36"
+  },
+  "37": {
+    "id": 37,
+    "systemLink": "linkMetalDungeon",
+    "systemIcon": "openIcon_linkMetalDungeon_png",
+    "systemName": "link_systemName_37"
+  },
+  "38": {
+    "id": 38,
+    "systemLink": "linkZStoneDungeon",
+    "systemIcon": "openIcon_linkZStoneDungeon_png",
+    "systemName": "link_systemName_38"
+  },
+  "39": {
+    "id": 39,
+    "systemLink": "linkMine",
+    "systemIcon": "openIcon_linkMine_png",
+    "systemName": "link_systemName_39"
+  },
+  "40": {
+    "id": 40,
+    "systemLink": "linkLessonChest",
+    "systemName": "link_systemName_40"
+  },
+  "41": {
+    "id": 41,
+    "systemLink": "linkVIPBonus",
+    "systemName": "link_systemName_41"
+  },
+  "42": {
+    "id": 42,
+    "systemLink": "linkDragonSummonVIP",
+    "systemName": "link_systemName_42"
+  },
+  "43": {
+    "id": 43,
+    "systemLink": "linkLevelBonus",
+    "systemName": "link_systemName_43"
+  },
+  "44": {
+    "id": 44,
+    "systemLink": "linkMarketVIP",
+    "systemName": "link_systemName_44"
+  },
+  "45": {
+    "id": 45,
+    "systemLink": "linkHeroExchange",
+    "systemName": "link_systemName_45"
+  },
+  "46": {
+    "id": 46,
+    "systemLink": "linkGuildShop",
+    "systemName": "link_systemName_46"
+  },
+  "47": {
+    "id": 47,
+    "systemLink": "linkSoulShop",
+    "systemName": "link_systemName_47"
+  },
+  "48": {
+    "id": 48,
+    "systemLink": "linkActivity",
+    "systemName": "link_systemName_48"
+  },
+  "49": {
+    "id": 49,
+    "systemLink": "linkSnakeShop",
+    "systemName": "link_systemName_49"
+  },
+  "50": {
+    "id": 50,
+    "systemLink": "linkDungeon",
+    "systemName": "link_systemName_50"
+  },
+  "51": {
+    "id": 51,
+    "systemLink": "linkVIPBonus1",
+    "systemName": "link_systemName_51"
+  },
+  "52": {
+    "id": 52,
+    "systemLink": "linkVIPBonus2",
+    "systemName": "link_systemName_52"
+  },
+  "53": {
+    "id": 53,
+    "systemLink": "linkVIPBonus3",
+    "systemName": "link_systemName_53"
+  },
+  "54": {
+    "id": 54,
+    "systemLink": "linkVIPBonus4",
+    "systemName": "link_systemName_54"
+  },
+  "55": {
+    "id": 55,
+    "systemLink": "linkVIPBonus5",
+    "systemName": "link_systemName_55"
+  },
+  "56": {
+    "id": 56,
+    "systemLink": "linkVIPBonus6",
+    "systemName": "link_systemName_56"
+  },
+  "57": {
+    "id": 57,
+    "systemLink": "linkVIPBonus7",
+    "systemName": "link_systemName_57"
+  },
+  "58": {
+    "id": 58,
+    "systemLink": "linkVIPBonus8",
+    "systemName": "link_systemName_58"
+  },
+  "59": {
+    "id": 59,
+    "systemLink": "linkVIPBonus9",
+    "systemName": "link_systemName_59"
+  },
+  "60": {
+    "id": 60,
+    "systemLink": "linkVIPBonus10",
+    "systemName": "link_systemName_60"
+  },
+  "61": {
+    "id": 61,
+    "systemLink": "linkVIPBonus11",
+    "systemName": "link_systemName_61"
+  },
+  "62": {
+    "id": 62,
+    "systemLink": "linkVIPBonus12",
+    "systemName": "link_systemName_62"
+  },
+  "63": {
+    "id": 63,
+    "systemLink": "linkVIPBonus13",
+    "systemName": "link_systemName_63"
+  },
+  "64": {
+    "id": 64,
+    "systemLink": "linkVIPBonus14",
+    "systemName": "link_systemName_64"
+  },
+  "65": {
+    "id": 65,
+    "systemLink": "linkVIPBonus15",
+    "systemName": "link_systemName_65"
+  },
+  "66": {
+    "id": 66,
+    "systemLink": "linkVIPBonus16",
+    "systemName": "link_systemName_66"
+  },
+  "67": {
+    "id": 67,
+    "systemLink": "linkMonthCard",
+    "systemName": "link_systemName_67"
+  },
+  "68": {
+    "id": 68,
+    "systemLink": "linkTraining",
+    "systemName": "link_systemName_68"
+  },
+  "69": {
+    "id": 69,
+    "systemLink": "linkGenkiFusion",
+    "systemName": "link_systemName_69"
+  },
+  "70": {
+    "id": 70,
+    "systemLink": "linkExpedition",
+    "systemName": "link_systemName_70"
+  },
+  "71": {
+    "id": 71,
+    "systemLink": "linkTeamDungeon",
+    "systemName": "link_systemName_71"
+  },
+  "72": {
+    "id": 72,
+    "systemLink": "linkTimeTraining",
+    "systemName": "link_systemName_72"
+  },
+  "73": {
+    "id": 73,
+    "systemLink": "linkGravityTest",
+    "systemName": "link_systemName_73"
+  },
+  "74": {
+    "id": 74,
+    "systemLink": "linkEquipmentUpgrade",
+    "systemName": "link_systemName_74"
+  },
+  "75": {
+    "id": 75,
+    "systemLink": "linkWishlist",
+    "systemName": "link_systemName_75"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "guide": {
+    "type": "guide",
+    "lessonID": 10000,
+    "triggerStart": "storyAnimation",
+    "id": 100001001,
+    "switch": 1
+  },
+  "lesson": [
+    {
+      "type": "lesson",
+      "lessonID": 10101,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 101012001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10104,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 101042001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10106,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 101062001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10205,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 102052001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10209,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 102092001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10209,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleEnd",
+      "id": 102092002
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10302,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 103022001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10307,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 103072001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10312,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleStart",
+      "id": 103122001
+    },
+    {
+      "type": "lesson",
+      "lessonID": 10312,
+      "triggerStart": "storyPlot",
+      "battleSwitch": "battleEnd",
+      "id": 103122002
+    }
+  ]
+}

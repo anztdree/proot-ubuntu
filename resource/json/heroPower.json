@@ -1,0 +1,2446 @@
+{
+  "1": {
+    "id": 1,
+    "heroType": "body",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "2": {
+    "id": 2,
+    "heroType": "body",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "3": {
+    "id": 3,
+    "heroType": "body",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "4": {
+    "id": 4,
+    "heroType": "body",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "5": {
+    "id": 5,
+    "heroType": "body",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "6": {
+    "id": 6,
+    "heroType": "body",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "7": {
+    "id": 7,
+    "heroType": "body",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "8": {
+    "id": 8,
+    "heroType": "body",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "9": {
+    "id": 9,
+    "heroType": "body",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "10": {
+    "id": 10,
+    "heroType": "body",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "11": {
+    "id": 11,
+    "heroType": "body",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "12": {
+    "id": 12,
+    "heroType": "body",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "13": {
+    "id": 13,
+    "heroType": "body",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "14": {
+    "id": 14,
+    "heroType": "body",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "15": {
+    "id": 15,
+    "heroType": "body",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "16": {
+    "id": 16,
+    "heroType": "body",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "17": {
+    "id": 17,
+    "heroType": "body",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "18": {
+    "id": 18,
+    "heroType": "body",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "19": {
+    "id": 19,
+    "heroType": "body",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "20": {
+    "id": 20,
+    "heroType": "body",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "21": {
+    "id": 21,
+    "heroType": "body",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "22": {
+    "id": 22,
+    "heroType": "body",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "23": {
+    "id": 23,
+    "heroType": "body",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "24": {
+    "id": 24,
+    "heroType": "body",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "25": {
+    "id": 25,
+    "heroType": "body",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "26": {
+    "id": 26,
+    "heroType": "body",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "27": {
+    "id": 27,
+    "heroType": "body",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "28": {
+    "id": 28,
+    "heroType": "body",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "29": {
+    "id": 29,
+    "heroType": "body",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "30": {
+    "id": 30,
+    "heroType": "body",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "31": {
+    "id": 31,
+    "heroType": "body",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "32": {
+    "id": 32,
+    "heroType": "bodyDamage",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "33": {
+    "id": 33,
+    "heroType": "bodyDamage",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "34": {
+    "id": 34,
+    "heroType": "bodyDamage",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "35": {
+    "id": 35,
+    "heroType": "bodyDamage",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "36": {
+    "id": 36,
+    "heroType": "bodyDamage",
+    "attName": "attack",
+    "powerParam": 1.6
+  },
+  "37": {
+    "id": 37,
+    "heroType": "bodyDamage",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "38": {
+    "id": 38,
+    "heroType": "bodyDamage",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "39": {
+    "id": 39,
+    "heroType": "bodyDamage",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "40": {
+    "id": 40,
+    "heroType": "bodyDamage",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "41": {
+    "id": 41,
+    "heroType": "bodyDamage",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "42": {
+    "id": 42,
+    "heroType": "bodyDamage",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "43": {
+    "id": 43,
+    "heroType": "bodyDamage",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "44": {
+    "id": 44,
+    "heroType": "bodyDamage",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "45": {
+    "id": 45,
+    "heroType": "bodyDamage",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "46": {
+    "id": 46,
+    "heroType": "bodyDamage",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "47": {
+    "id": 47,
+    "heroType": "bodyDamage",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "48": {
+    "id": 48,
+    "heroType": "bodyDamage",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "49": {
+    "id": 49,
+    "heroType": "bodyDamage",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "50": {
+    "id": 50,
+    "heroType": "bodyDamage",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "51": {
+    "id": 51,
+    "heroType": "bodyDamage",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "52": {
+    "id": 52,
+    "heroType": "bodyDamage",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "53": {
+    "id": 53,
+    "heroType": "bodyDamage",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "54": {
+    "id": 54,
+    "heroType": "bodyDamage",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "55": {
+    "id": 55,
+    "heroType": "bodyDamage",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "56": {
+    "id": 56,
+    "heroType": "bodyDamage",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "57": {
+    "id": 57,
+    "heroType": "bodyDamage",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "58": {
+    "id": 58,
+    "heroType": "bodyDamage",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "59": {
+    "id": 59,
+    "heroType": "bodyDamage",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "60": {
+    "id": 60,
+    "heroType": "bodyDamage",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "61": {
+    "id": 61,
+    "heroType": "bodyDamage",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "62": {
+    "id": 62,
+    "heroType": "bodyDamage",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "63": {
+    "id": 63,
+    "heroType": "block",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "64": {
+    "id": 64,
+    "heroType": "block",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "65": {
+    "id": 65,
+    "heroType": "block",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "66": {
+    "id": 66,
+    "heroType": "block",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "67": {
+    "id": 67,
+    "heroType": "block",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "68": {
+    "id": 68,
+    "heroType": "block",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "69": {
+    "id": 69,
+    "heroType": "block",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "70": {
+    "id": 70,
+    "heroType": "block",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "71": {
+    "id": 71,
+    "heroType": "block",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "72": {
+    "id": 72,
+    "heroType": "block",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "73": {
+    "id": 73,
+    "heroType": "block",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "74": {
+    "id": 74,
+    "heroType": "block",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "75": {
+    "id": 75,
+    "heroType": "block",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "76": {
+    "id": 76,
+    "heroType": "block",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "77": {
+    "id": 77,
+    "heroType": "block",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "78": {
+    "id": 78,
+    "heroType": "block",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "79": {
+    "id": 79,
+    "heroType": "block",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "80": {
+    "id": 80,
+    "heroType": "block",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "81": {
+    "id": 81,
+    "heroType": "block",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "82": {
+    "id": 82,
+    "heroType": "block",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "83": {
+    "id": 83,
+    "heroType": "block",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "84": {
+    "id": 84,
+    "heroType": "block",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "85": {
+    "id": 85,
+    "heroType": "block",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "86": {
+    "id": 86,
+    "heroType": "block",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "87": {
+    "id": 87,
+    "heroType": "block",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "88": {
+    "id": 88,
+    "heroType": "block",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "89": {
+    "id": 89,
+    "heroType": "block",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "90": {
+    "id": 90,
+    "heroType": "block",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "91": {
+    "id": 91,
+    "heroType": "block",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "92": {
+    "id": 92,
+    "heroType": "block",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "93": {
+    "id": 93,
+    "heroType": "block",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "94": {
+    "id": 94,
+    "heroType": "armor",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "95": {
+    "id": 95,
+    "heroType": "armor",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "96": {
+    "id": 96,
+    "heroType": "armor",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "97": {
+    "id": 97,
+    "heroType": "armor",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "98": {
+    "id": 98,
+    "heroType": "armor",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "99": {
+    "id": 99,
+    "heroType": "armor",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "100": {
+    "id": 100,
+    "heroType": "armor",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "101": {
+    "id": 101,
+    "heroType": "armor",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "102": {
+    "id": 102,
+    "heroType": "armor",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "103": {
+    "id": 103,
+    "heroType": "armor",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "104": {
+    "id": 104,
+    "heroType": "armor",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "105": {
+    "id": 105,
+    "heroType": "armor",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "106": {
+    "id": 106,
+    "heroType": "armor",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "107": {
+    "id": 107,
+    "heroType": "armor",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "108": {
+    "id": 108,
+    "heroType": "armor",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "109": {
+    "id": 109,
+    "heroType": "armor",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "110": {
+    "id": 110,
+    "heroType": "armor",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "111": {
+    "id": 111,
+    "heroType": "armor",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "112": {
+    "id": 112,
+    "heroType": "armor",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "113": {
+    "id": 113,
+    "heroType": "armor",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "114": {
+    "id": 114,
+    "heroType": "armor",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "115": {
+    "id": 115,
+    "heroType": "armor",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "116": {
+    "id": 116,
+    "heroType": "armor",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "117": {
+    "id": 117,
+    "heroType": "armor",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "118": {
+    "id": 118,
+    "heroType": "armor",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "119": {
+    "id": 119,
+    "heroType": "armor",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "120": {
+    "id": 120,
+    "heroType": "armor",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "121": {
+    "id": 121,
+    "heroType": "armor",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "122": {
+    "id": 122,
+    "heroType": "armor",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "123": {
+    "id": 123,
+    "heroType": "armor",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "124": {
+    "id": 124,
+    "heroType": "armor",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "125": {
+    "id": 125,
+    "heroType": "armorS",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "126": {
+    "id": 126,
+    "heroType": "armorS",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "127": {
+    "id": 127,
+    "heroType": "armorS",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "128": {
+    "id": 128,
+    "heroType": "armorS",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "129": {
+    "id": 129,
+    "heroType": "armorS",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "130": {
+    "id": 130,
+    "heroType": "armorS",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "131": {
+    "id": 131,
+    "heroType": "armorS",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "132": {
+    "id": 132,
+    "heroType": "armorS",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "133": {
+    "id": 133,
+    "heroType": "armorS",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "134": {
+    "id": 134,
+    "heroType": "armorS",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "135": {
+    "id": 135,
+    "heroType": "armorS",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "136": {
+    "id": 136,
+    "heroType": "armorS",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "137": {
+    "id": 137,
+    "heroType": "armorS",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "138": {
+    "id": 138,
+    "heroType": "armorS",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "139": {
+    "id": 139,
+    "heroType": "armorS",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "140": {
+    "id": 140,
+    "heroType": "armorS",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "141": {
+    "id": 141,
+    "heroType": "armorS",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "142": {
+    "id": 142,
+    "heroType": "armorS",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "143": {
+    "id": 143,
+    "heroType": "armorS",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "144": {
+    "id": 144,
+    "heroType": "armorS",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "145": {
+    "id": 145,
+    "heroType": "armorS",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "146": {
+    "id": 146,
+    "heroType": "armorS",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "147": {
+    "id": 147,
+    "heroType": "armorS",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "148": {
+    "id": 148,
+    "heroType": "armorS",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "149": {
+    "id": 149,
+    "heroType": "armorS",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "150": {
+    "id": 150,
+    "heroType": "armorS",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "151": {
+    "id": 151,
+    "heroType": "armorS",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "152": {
+    "id": 152,
+    "heroType": "armorS",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "153": {
+    "id": 153,
+    "heroType": "armorS",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "154": {
+    "id": 154,
+    "heroType": "armorS",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "155": {
+    "id": 155,
+    "heroType": "armorS",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "156": {
+    "id": 156,
+    "heroType": "armorDamage",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "157": {
+    "id": 157,
+    "heroType": "armorDamage",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "158": {
+    "id": 158,
+    "heroType": "armorDamage",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "159": {
+    "id": 159,
+    "heroType": "armorDamage",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "160": {
+    "id": 160,
+    "heroType": "armorDamage",
+    "attName": "attack",
+    "powerParam": 2
+  },
+  "161": {
+    "id": 161,
+    "heroType": "armorDamage",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "162": {
+    "id": 162,
+    "heroType": "armorDamage",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "163": {
+    "id": 163,
+    "heroType": "armorDamage",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "164": {
+    "id": 164,
+    "heroType": "armorDamage",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "165": {
+    "id": 165,
+    "heroType": "armorDamage",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "166": {
+    "id": 166,
+    "heroType": "armorDamage",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "167": {
+    "id": 167,
+    "heroType": "armorDamage",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "168": {
+    "id": 168,
+    "heroType": "armorDamage",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "169": {
+    "id": 169,
+    "heroType": "armorDamage",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "170": {
+    "id": 170,
+    "heroType": "armorDamage",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "171": {
+    "id": 171,
+    "heroType": "armorDamage",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "172": {
+    "id": 172,
+    "heroType": "armorDamage",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "173": {
+    "id": 173,
+    "heroType": "armorDamage",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "174": {
+    "id": 174,
+    "heroType": "armorDamage",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "175": {
+    "id": 175,
+    "heroType": "armorDamage",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "176": {
+    "id": 176,
+    "heroType": "armorDamage",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "177": {
+    "id": 177,
+    "heroType": "armorDamage",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "178": {
+    "id": 178,
+    "heroType": "armorDamage",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "179": {
+    "id": 179,
+    "heroType": "armorDamage",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "180": {
+    "id": 180,
+    "heroType": "armorDamage",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "181": {
+    "id": 181,
+    "heroType": "armorDamage",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "182": {
+    "id": 182,
+    "heroType": "armorDamage",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "183": {
+    "id": 183,
+    "heroType": "armorDamage",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "184": {
+    "id": 184,
+    "heroType": "armorDamage",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "185": {
+    "id": 185,
+    "heroType": "armorDamage",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "186": {
+    "id": 186,
+    "heroType": "armorDamage",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "187": {
+    "id": 187,
+    "heroType": "dodge",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "188": {
+    "id": 188,
+    "heroType": "dodge",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "189": {
+    "id": 189,
+    "heroType": "dodge",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "190": {
+    "id": 190,
+    "heroType": "dodge",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "191": {
+    "id": 191,
+    "heroType": "dodge",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "192": {
+    "id": 192,
+    "heroType": "dodge",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "193": {
+    "id": 193,
+    "heroType": "dodge",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "194": {
+    "id": 194,
+    "heroType": "dodge",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "195": {
+    "id": 195,
+    "heroType": "dodge",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "196": {
+    "id": 196,
+    "heroType": "dodge",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "197": {
+    "id": 197,
+    "heroType": "dodge",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "198": {
+    "id": 198,
+    "heroType": "dodge",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "199": {
+    "id": 199,
+    "heroType": "dodge",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "200": {
+    "id": 200,
+    "heroType": "dodge",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "201": {
+    "id": 201,
+    "heroType": "dodge",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "202": {
+    "id": 202,
+    "heroType": "dodge",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "203": {
+    "id": 203,
+    "heroType": "dodge",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "204": {
+    "id": 204,
+    "heroType": "dodge",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "205": {
+    "id": 205,
+    "heroType": "dodge",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "206": {
+    "id": 206,
+    "heroType": "dodge",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "207": {
+    "id": 207,
+    "heroType": "dodge",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "208": {
+    "id": 208,
+    "heroType": "dodge",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "209": {
+    "id": 209,
+    "heroType": "dodge",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "210": {
+    "id": 210,
+    "heroType": "dodge",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "211": {
+    "id": 211,
+    "heroType": "dodge",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "212": {
+    "id": 212,
+    "heroType": "dodge",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "213": {
+    "id": 213,
+    "heroType": "dodge",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "214": {
+    "id": 214,
+    "heroType": "dodge",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "215": {
+    "id": 215,
+    "heroType": "dodge",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "216": {
+    "id": 216,
+    "heroType": "dodge",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "217": {
+    "id": 217,
+    "heroType": "dodge",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "218": {
+    "id": 218,
+    "heroType": "strength",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "219": {
+    "id": 219,
+    "heroType": "strength",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "220": {
+    "id": 220,
+    "heroType": "strength",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "221": {
+    "id": 221,
+    "heroType": "strength",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "222": {
+    "id": 222,
+    "heroType": "strength",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "223": {
+    "id": 223,
+    "heroType": "strength",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "224": {
+    "id": 224,
+    "heroType": "strength",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "225": {
+    "id": 225,
+    "heroType": "strength",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "226": {
+    "id": 226,
+    "heroType": "strength",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "227": {
+    "id": 227,
+    "heroType": "strength",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "228": {
+    "id": 228,
+    "heroType": "strength",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "229": {
+    "id": 229,
+    "heroType": "strength",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "230": {
+    "id": 230,
+    "heroType": "strength",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "231": {
+    "id": 231,
+    "heroType": "strength",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "232": {
+    "id": 232,
+    "heroType": "strength",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "233": {
+    "id": 233,
+    "heroType": "strength",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "234": {
+    "id": 234,
+    "heroType": "strength",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "235": {
+    "id": 235,
+    "heroType": "strength",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "236": {
+    "id": 236,
+    "heroType": "strength",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "237": {
+    "id": 237,
+    "heroType": "strength",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "238": {
+    "id": 238,
+    "heroType": "strength",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "239": {
+    "id": 239,
+    "heroType": "strength",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "240": {
+    "id": 240,
+    "heroType": "strength",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "241": {
+    "id": 241,
+    "heroType": "strength",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "242": {
+    "id": 242,
+    "heroType": "strength",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "243": {
+    "id": 243,
+    "heroType": "strength",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "244": {
+    "id": 244,
+    "heroType": "strength",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "245": {
+    "id": 245,
+    "heroType": "strength",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "246": {
+    "id": 246,
+    "heroType": "strength",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "247": {
+    "id": 247,
+    "heroType": "strength",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "248": {
+    "id": 248,
+    "heroType": "strength",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "249": {
+    "id": 249,
+    "heroType": "critical",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "250": {
+    "id": 250,
+    "heroType": "critical",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "251": {
+    "id": 251,
+    "heroType": "critical",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "252": {
+    "id": 252,
+    "heroType": "critical",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "253": {
+    "id": 253,
+    "heroType": "critical",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "254": {
+    "id": 254,
+    "heroType": "critical",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "255": {
+    "id": 255,
+    "heroType": "critical",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "256": {
+    "id": 256,
+    "heroType": "critical",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "257": {
+    "id": 257,
+    "heroType": "critical",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "258": {
+    "id": 258,
+    "heroType": "critical",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "259": {
+    "id": 259,
+    "heroType": "critical",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "260": {
+    "id": 260,
+    "heroType": "critical",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "261": {
+    "id": 261,
+    "heroType": "critical",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "262": {
+    "id": 262,
+    "heroType": "critical",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "263": {
+    "id": 263,
+    "heroType": "critical",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "264": {
+    "id": 264,
+    "heroType": "critical",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "265": {
+    "id": 265,
+    "heroType": "critical",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "266": {
+    "id": 266,
+    "heroType": "critical",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "267": {
+    "id": 267,
+    "heroType": "critical",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "268": {
+    "id": 268,
+    "heroType": "critical",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "269": {
+    "id": 269,
+    "heroType": "critical",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "270": {
+    "id": 270,
+    "heroType": "critical",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "271": {
+    "id": 271,
+    "heroType": "critical",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "272": {
+    "id": 272,
+    "heroType": "critical",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "273": {
+    "id": 273,
+    "heroType": "critical",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "274": {
+    "id": 274,
+    "heroType": "critical",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "275": {
+    "id": 275,
+    "heroType": "critical",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "276": {
+    "id": 276,
+    "heroType": "critical",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "277": {
+    "id": 277,
+    "heroType": "critical",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "278": {
+    "id": 278,
+    "heroType": "critical",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "279": {
+    "id": 279,
+    "heroType": "critical",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "280": {
+    "id": 280,
+    "heroType": "criticalSingle",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "281": {
+    "id": 281,
+    "heroType": "criticalSingle",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "282": {
+    "id": 282,
+    "heroType": "criticalSingle",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "283": {
+    "id": 283,
+    "heroType": "criticalSingle",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "284": {
+    "id": 284,
+    "heroType": "criticalSingle",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "285": {
+    "id": 285,
+    "heroType": "criticalSingle",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "286": {
+    "id": 286,
+    "heroType": "criticalSingle",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "287": {
+    "id": 287,
+    "heroType": "criticalSingle",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "288": {
+    "id": 288,
+    "heroType": "criticalSingle",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "289": {
+    "id": 289,
+    "heroType": "criticalSingle",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "290": {
+    "id": 290,
+    "heroType": "criticalSingle",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "291": {
+    "id": 291,
+    "heroType": "criticalSingle",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "292": {
+    "id": 292,
+    "heroType": "criticalSingle",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "293": {
+    "id": 293,
+    "heroType": "criticalSingle",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "294": {
+    "id": 294,
+    "heroType": "criticalSingle",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "295": {
+    "id": 295,
+    "heroType": "criticalSingle",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "296": {
+    "id": 296,
+    "heroType": "criticalSingle",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "297": {
+    "id": 297,
+    "heroType": "criticalSingle",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "298": {
+    "id": 298,
+    "heroType": "criticalSingle",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "299": {
+    "id": 299,
+    "heroType": "criticalSingle",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "300": {
+    "id": 300,
+    "heroType": "criticalSingle",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "301": {
+    "id": 301,
+    "heroType": "criticalSingle",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "302": {
+    "id": 302,
+    "heroType": "criticalSingle",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "303": {
+    "id": 303,
+    "heroType": "criticalSingle",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "304": {
+    "id": 304,
+    "heroType": "criticalSingle",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "305": {
+    "id": 305,
+    "heroType": "criticalSingle",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "306": {
+    "id": 306,
+    "heroType": "criticalSingle",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "307": {
+    "id": 307,
+    "heroType": "criticalSingle",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "308": {
+    "id": 308,
+    "heroType": "criticalSingle",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "309": {
+    "id": 309,
+    "heroType": "criticalSingle",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "310": {
+    "id": 310,
+    "heroType": "criticalSingle",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "311": {
+    "id": 311,
+    "heroType": "hit",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "312": {
+    "id": 312,
+    "heroType": "hit",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "313": {
+    "id": 313,
+    "heroType": "hit",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "314": {
+    "id": 314,
+    "heroType": "hit",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "315": {
+    "id": 315,
+    "heroType": "hit",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "316": {
+    "id": 316,
+    "heroType": "hit",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "317": {
+    "id": 317,
+    "heroType": "hit",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "318": {
+    "id": 318,
+    "heroType": "hit",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "319": {
+    "id": 319,
+    "heroType": "hit",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "320": {
+    "id": 320,
+    "heroType": "hit",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "321": {
+    "id": 321,
+    "heroType": "hit",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "322": {
+    "id": 322,
+    "heroType": "hit",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "323": {
+    "id": 323,
+    "heroType": "hit",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "324": {
+    "id": 324,
+    "heroType": "hit",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "325": {
+    "id": 325,
+    "heroType": "hit",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "326": {
+    "id": 326,
+    "heroType": "hit",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "327": {
+    "id": 327,
+    "heroType": "hit",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "328": {
+    "id": 328,
+    "heroType": "hit",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "329": {
+    "id": 329,
+    "heroType": "hit",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "330": {
+    "id": 330,
+    "heroType": "hit",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "331": {
+    "id": 331,
+    "heroType": "hit",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "332": {
+    "id": 332,
+    "heroType": "hit",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "333": {
+    "id": 333,
+    "heroType": "hit",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "334": {
+    "id": 334,
+    "heroType": "hit",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "335": {
+    "id": 335,
+    "heroType": "hit",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "336": {
+    "id": 336,
+    "heroType": "hit",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "337": {
+    "id": 337,
+    "heroType": "hit",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "338": {
+    "id": 338,
+    "heroType": "hit",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "339": {
+    "id": 339,
+    "heroType": "hit",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "340": {
+    "id": 340,
+    "heroType": "hit",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "341": {
+    "id": 341,
+    "heroType": "hit",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "342": {
+    "id": 342,
+    "heroType": "skill",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "343": {
+    "id": 343,
+    "heroType": "skill",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "344": {
+    "id": 344,
+    "heroType": "skill",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "345": {
+    "id": 345,
+    "heroType": "skill",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "346": {
+    "id": 346,
+    "heroType": "skill",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "347": {
+    "id": 347,
+    "heroType": "skill",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "348": {
+    "id": 348,
+    "heroType": "skill",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "349": {
+    "id": 349,
+    "heroType": "skill",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "350": {
+    "id": 350,
+    "heroType": "skill",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "351": {
+    "id": 351,
+    "heroType": "skill",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "352": {
+    "id": 352,
+    "heroType": "skill",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "353": {
+    "id": 353,
+    "heroType": "skill",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "354": {
+    "id": 354,
+    "heroType": "skill",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "355": {
+    "id": 355,
+    "heroType": "skill",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "356": {
+    "id": 356,
+    "heroType": "skill",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "357": {
+    "id": 357,
+    "heroType": "skill",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "358": {
+    "id": 358,
+    "heroType": "skill",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "359": {
+    "id": 359,
+    "heroType": "skill",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "360": {
+    "id": 360,
+    "heroType": "skill",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "361": {
+    "id": 361,
+    "heroType": "skill",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "362": {
+    "id": 362,
+    "heroType": "skill",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "363": {
+    "id": 363,
+    "heroType": "skill",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "364": {
+    "id": 364,
+    "heroType": "skill",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "365": {
+    "id": 365,
+    "heroType": "skill",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "366": {
+    "id": 366,
+    "heroType": "skill",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "367": {
+    "id": 367,
+    "heroType": "skill",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "368": {
+    "id": 368,
+    "heroType": "skill",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "369": {
+    "id": 369,
+    "heroType": "skill",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "370": {
+    "id": 370,
+    "heroType": "skill",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "371": {
+    "id": 371,
+    "heroType": "skill",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "372": {
+    "id": 372,
+    "heroType": "skill",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  },
+  "373": {
+    "id": 373,
+    "heroType": "dot",
+    "attName": "hpPercent",
+    "powerParam": 1
+  },
+  "374": {
+    "id": 374,
+    "heroType": "dot",
+    "attName": "attackPercent",
+    "powerParam": 1
+  },
+  "375": {
+    "id": 375,
+    "heroType": "dot",
+    "attName": "armorPercent",
+    "powerParam": 0.85
+  },
+  "376": {
+    "id": 376,
+    "heroType": "dot",
+    "attName": "hp",
+    "powerParam": 1
+  },
+  "377": {
+    "id": 377,
+    "heroType": "dot",
+    "attName": "attack",
+    "powerParam": 1
+  },
+  "378": {
+    "id": 378,
+    "heroType": "dot",
+    "attName": "armor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "379": {
+    "id": 379,
+    "heroType": "dot",
+    "attName": "speed",
+    "powerParam": 1
+  },
+  "380": {
+    "id": 380,
+    "heroType": "dot",
+    "attName": "extraArmor",
+    "powerParam": 1,
+    "powerExtraParam": 1
+  },
+  "381": {
+    "id": 381,
+    "heroType": "dot",
+    "attName": "hit",
+    "powerParam": 0.5
+  },
+  "382": {
+    "id": 382,
+    "heroType": "dot",
+    "attName": "dodge",
+    "powerParam": 0.6
+  },
+  "383": {
+    "id": 383,
+    "heroType": "dot",
+    "attName": "block",
+    "powerParam": 0.75
+  },
+  "384": {
+    "id": 384,
+    "heroType": "dot",
+    "attName": "blockEffect",
+    "powerParam": 1
+  },
+  "385": {
+    "id": 385,
+    "heroType": "dot",
+    "attName": "skillDamage",
+    "powerParam": 0.6
+  },
+  "386": {
+    "id": 386,
+    "heroType": "dot",
+    "attName": "superDamage",
+    "powerParam": 1
+  },
+  "387": {
+    "id": 387,
+    "heroType": "dot",
+    "attName": "critical",
+    "powerParam": 0.75
+  },
+  "388": {
+    "id": 388,
+    "heroType": "dot",
+    "attName": "criticalResist",
+    "powerParam": 1
+  },
+  "389": {
+    "id": 389,
+    "heroType": "dot",
+    "attName": "criticalDamage",
+    "powerParam": 0.75
+  },
+  "390": {
+    "id": 390,
+    "heroType": "dot",
+    "attName": "armorBreak",
+    "powerParam": 1.75
+  },
+  "391": {
+    "id": 391,
+    "heroType": "dot",
+    "attName": "damageReduce",
+    "powerParam": 1
+  },
+  "392": {
+    "id": 392,
+    "heroType": "dot",
+    "attName": "controlResist",
+    "powerParam": 1
+  },
+  "393": {
+    "id": 393,
+    "heroType": "dot",
+    "attName": "trueDamage",
+    "powerParam": 1
+  },
+  "394": {
+    "id": 394,
+    "heroType": "dot",
+    "attName": "healPlus",
+    "powerParam": 1
+  },
+  "395": {
+    "id": 395,
+    "heroType": "dot",
+    "attName": "healerPlus",
+    "powerParam": 0.8
+  },
+  "396": {
+    "id": 396,
+    "heroType": "dot",
+    "attName": "shielderPlus",
+    "powerParam": 0.8
+  },
+  "397": {
+    "id": 397,
+    "heroType": "dot",
+    "attName": "damageUp",
+    "powerParam": 1
+  },
+  "398": {
+    "id": 398,
+    "heroType": "dot",
+    "attName": "damageDown",
+    "powerParam": 1
+  },
+  "399": {
+    "id": 399,
+    "heroType": "dot",
+    "attName": "superDamageResist",
+    "powerParam": 0.8
+  },
+  "400": {
+    "id": 400,
+    "heroType": "dot",
+    "attName": "bloodDamage",
+    "powerParam": 1
+  },
+  "401": {
+    "id": 401,
+    "heroType": "dot",
+    "attName": "normalAttack",
+    "powerParam": 1
+  },
+  "402": {
+    "id": 402,
+    "heroType": "dot",
+    "attName": "blockThrough",
+    "powerParam": 0.65
+  },
+  "403": {
+    "id": 403,
+    "heroType": "dot",
+    "attName": "criticalDamageResist",
+    "powerParam": 0.7
+  }
+}

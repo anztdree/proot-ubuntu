@@ -1,0 +1,1064 @@
+{
+  "158": [
+    {
+      "id": 158,
+      "name": "一星珠",
+      "goodsID": 151,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 158,
+      "name": "二星珠",
+      "goodsID": 152,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 158,
+      "name": "三星珠",
+      "goodsID": 153,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 158,
+      "name": "四星珠",
+      "goodsID": 154,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 158,
+      "name": "五星珠",
+      "goodsID": 155,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 158,
+      "name": "六星珠",
+      "goodsID": 156,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 158,
+      "name": "七星珠",
+      "goodsID": 157,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "161": [
+    {
+      "id": 161,
+      "name": "沙鲁宝箱·绿",
+      "goodsID": 4199,
+      "num": 1,
+      "group": 1,
+      "random": 5000
+    },
+    {
+      "id": 161,
+      "name": "沙鲁宝箱·绿",
+      "goodsID": 4199,
+      "num": 2,
+      "group": 1,
+      "random": 5000
+    }
+  ],
+  "162": [
+    {
+      "id": 162,
+      "name": "沙鲁宝箱·蓝",
+      "goodsID": 4299,
+      "num": 1,
+      "group": 1,
+      "random": 4000
+    },
+    {
+      "id": 162,
+      "name": "沙鲁宝箱·蓝",
+      "goodsID": 4299,
+      "num": 2,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 162,
+      "name": "沙鲁宝箱·蓝",
+      "goodsID": 4299,
+      "num": 3,
+      "group": 1,
+      "random": 3000
+    }
+  ],
+  "163": [
+    {
+      "id": 163,
+      "name": "沙鲁宝箱·紫",
+      "goodsID": 4399,
+      "num": 1,
+      "group": 1,
+      "random": 4000
+    },
+    {
+      "id": 163,
+      "name": "沙鲁宝箱·紫",
+      "goodsID": 4399,
+      "num": 2,
+      "group": 1,
+      "random": 4000
+    },
+    {
+      "id": 163,
+      "name": "沙鲁宝箱·紫",
+      "goodsID": 4399,
+      "num": 3,
+      "group": 1,
+      "random": 2000
+    }
+  ],
+  "164": {
+    "id": 164,
+    "name": "沙鲁宝箱·橙",
+    "goodsID": 4499,
+    "num": 1,
+    "group": 1,
+    "random": 10000
+  },
+  "171": [
+    {
+      "id": 171,
+      "name": "英雄碎片盒子",
+      "goodsID": 2841,
+      "num": 10,
+      "group": 1,
+      "random": 10000
+    },
+    {
+      "id": 171,
+      "name": "英雄碎片盒子",
+      "group": 1,
+      "random": 0
+    },
+    {
+      "id": 171,
+      "name": "英雄碎片盒子",
+      "goodsID": 2851,
+      "num": 5,
+      "group": 2,
+      "random": 4000
+    },
+    {
+      "id": 171,
+      "name": "英雄碎片盒子",
+      "group": 2,
+      "random": 6000
+    },
+    {
+      "id": 171,
+      "name": "英雄碎片盒子",
+      "goodsID": 2851,
+      "num": 10,
+      "group": 3,
+      "random": 500
+    },
+    {
+      "id": 171,
+      "name": "英雄碎片盒子",
+      "group": 3,
+      "random": 9500
+    }
+  ],
+  "172": [
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "goodsID": 2841,
+      "num": 10,
+      "group": 1,
+      "random": 10000
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "group": 1,
+      "random": 0
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "goodsID": 2851,
+      "num": 5,
+      "group": 2,
+      "random": 4000
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "group": 2,
+      "random": 6000
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "goodsID": 2851,
+      "num": 10,
+      "group": 3,
+      "random": 1000
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "group": 3,
+      "random": 9000
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "goodsID": 2861,
+      "num": 5,
+      "group": 4,
+      "random": 500
+    },
+    {
+      "id": 172,
+      "name": "英雄碎片盒子·高级",
+      "group": 4,
+      "random": 9500
+    }
+  ],
+  "173": [
+    {
+      "id": 173,
+      "name": "紫色武器盒子",
+      "goodsID": 4301,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 173,
+      "name": "紫色武器盒子",
+      "goodsID": 4302,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 173,
+      "name": "紫色武器盒子",
+      "goodsID": 4303,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "174": [
+    {
+      "id": 174,
+      "name": "橙色武器盒子",
+      "goodsID": 4401,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 174,
+      "name": "橙色武器盒子",
+      "goodsID": 4402,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 174,
+      "name": "橙色武器盒子",
+      "goodsID": 4403,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 174,
+      "name": "橙色武器盒子",
+      "goodsID": 4404,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 174,
+      "name": "橙色武器盒子",
+      "goodsID": 4405,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "175": [
+    {
+      "id": 175,
+      "name": "超必杀英雄碎片普通包",
+      "goodsID": 2205,
+      "num": 1,
+      "group": 1,
+      "random": 4000
+    },
+    {
+      "id": 175,
+      "name": "超必杀英雄碎片普通包",
+      "goodsID": 2403,
+      "num": 1,
+      "group": 1,
+      "random": 2000
+    },
+    {
+      "id": 175,
+      "name": "超必杀英雄碎片普通包",
+      "goodsID": 2406,
+      "num": 1,
+      "group": 1,
+      "random": 2000
+    },
+    {
+      "id": 175,
+      "name": "超必杀英雄碎片普通包",
+      "goodsID": 2421,
+      "num": 1,
+      "group": 1,
+      "random": 2000
+    }
+  ],
+  "176": [
+    {
+      "id": 176,
+      "name": "超必杀英雄碎片豪华包",
+      "goodsID": 2403,
+      "num": 1,
+      "group": 1,
+      "random": 2500
+    },
+    {
+      "id": 176,
+      "name": "超必杀英雄碎片豪华包",
+      "goodsID": 2406,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 176,
+      "name": "超必杀英雄碎片豪华包",
+      "goodsID": 2421,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 176,
+      "name": "超必杀英雄碎片豪华包",
+      "goodsID": 2509,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 176,
+      "name": "超必杀英雄碎片豪华包",
+      "goodsID": 2508,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 176,
+      "name": "超必杀英雄碎片豪华包",
+      "goodsID": 2503,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    }
+  ],
+  "177": [
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2403,
+      "num": 1,
+      "group": 1,
+      "random": 2500
+    },
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2406,
+      "num": 1,
+      "group": 1,
+      "random": 2500
+    },
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2421,
+      "num": 1,
+      "group": 1,
+      "random": 2700
+    },
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2509,
+      "num": 1,
+      "group": 1,
+      "random": 600
+    },
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2508,
+      "num": 1,
+      "group": 1,
+      "random": 600
+    },
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2503,
+      "num": 1,
+      "group": 1,
+      "random": 600
+    },
+    {
+      "id": 177,
+      "name": "超必杀英雄碎片巅峰包",
+      "goodsID": 2600,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    }
+  ],
+  "600": [
+    {
+      "id": 600,
+      "name": "团本钥匙",
+      "goodsID": 601,
+      "num": 1,
+      "group": 1,
+      "random": 1380
+    },
+    {
+      "id": 600,
+      "name": "团本钥匙",
+      "goodsID": 602,
+      "num": 1,
+      "group": 1,
+      "random": 3219
+    },
+    {
+      "id": 600,
+      "name": "团本钥匙",
+      "goodsID": 603,
+      "num": 1,
+      "group": 1,
+      "random": 7508
+    },
+    {
+      "id": 600,
+      "name": "团本钥匙",
+      "goodsID": 604,
+      "num": 1,
+      "group": 1,
+      "random": 2146
+    },
+    {
+      "id": 600,
+      "name": "团本钥匙",
+      "goodsID": 605,
+      "num": 1,
+      "group": 1,
+      "random": 1129
+    },
+    {
+      "id": 600,
+      "name": "团本钥匙",
+      "goodsID": 606,
+      "num": 1,
+      "group": 1,
+      "random": 748
+    }
+  ],
+  "611": [
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 600,
+      "num": 1,
+      "group": 1,
+      "random": 16130
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 591,
+      "num": 1,
+      "group": 1,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 592,
+      "num": 1,
+      "group": 1,
+      "random": 47926
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 593,
+      "num": 1,
+      "group": 1,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 600,
+      "num": 1,
+      "group": 2,
+      "random": 16130
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 591,
+      "num": 1,
+      "group": 2,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 592,
+      "num": 1,
+      "group": 2,
+      "random": 47926
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 593,
+      "num": 1,
+      "group": 2,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 600,
+      "num": 1,
+      "group": 3,
+      "random": 16130
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 591,
+      "num": 1,
+      "group": 3,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 592,
+      "num": 1,
+      "group": 3,
+      "random": 47926
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 593,
+      "num": 1,
+      "group": 3,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 600,
+      "num": 1,
+      "group": 4,
+      "random": 16130
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 591,
+      "num": 1,
+      "group": 4,
+      "random": 17972
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 592,
+      "num": 1,
+      "group": 4,
+      "random": 47926
+    },
+    {
+      "id": 611,
+      "name": "团本物资箱",
+      "goodsID": 593,
+      "num": 1,
+      "group": 4,
+      "random": 17972
+    }
+  ],
+  "615": [
+    {
+      "id": 615,
+      "name": "1星团本资源包",
+      "goodsID": 138,
+      "num": 50,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 615,
+      "name": "1星团本资源包",
+      "goodsID": 137,
+      "num": 20,
+      "group": 2,
+      "random": 1000
+    },
+    {
+      "id": 615,
+      "name": "1星团本资源包",
+      "goodsID": 102,
+      "num": 5000,
+      "group": 3,
+      "random": 1000
+    }
+  ],
+  "616": [
+    {
+      "id": 616,
+      "name": "2星团本资源包",
+      "goodsID": 138,
+      "num": 55,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 616,
+      "name": "2星团本资源包",
+      "goodsID": 137,
+      "num": 25,
+      "group": 2,
+      "random": 1000
+    },
+    {
+      "id": 616,
+      "name": "2星团本资源包",
+      "goodsID": 102,
+      "num": 6000,
+      "group": 3,
+      "random": 1000
+    },
+    {
+      "id": 616,
+      "name": "2星团本资源包",
+      "goodsID": 142,
+      "num": 30,
+      "group": 4,
+      "random": 300
+    },
+    {
+      "id": 616,
+      "name": "2星团本资源包",
+      "group": 4,
+      "random": 700
+    }
+  ],
+  "617": [
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "goodsID": 138,
+      "num": 60,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "goodsID": 137,
+      "num": 30,
+      "group": 2,
+      "random": 1000
+    },
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "goodsID": 102,
+      "num": 7000,
+      "group": 3,
+      "random": 1000
+    },
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "goodsID": 142,
+      "num": 30,
+      "group": 4,
+      "random": 300
+    },
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "group": 4,
+      "random": 700
+    },
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "goodsID": 501,
+      "num": 2,
+      "group": 5,
+      "random": 150
+    },
+    {
+      "id": 617,
+      "name": "3星团本资源包",
+      "group": 5,
+      "random": 850
+    }
+  ],
+  "618": [
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "goodsID": 138,
+      "num": 65,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "goodsID": 137,
+      "num": 35,
+      "group": 2,
+      "random": 1000
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "goodsID": 102,
+      "num": 8000,
+      "group": 3,
+      "random": 1000
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "goodsID": 142,
+      "num": 30,
+      "group": 4,
+      "random": 300
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "group": 4,
+      "random": 700
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "goodsID": 501,
+      "num": 2,
+      "group": 5,
+      "random": 150
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "group": 5,
+      "random": 850
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "goodsID": 546,
+      "num": 2,
+      "group": 6,
+      "random": 200
+    },
+    {
+      "id": 618,
+      "name": "4星团本资源包",
+      "group": 6,
+      "random": 800
+    }
+  ],
+  "619": [
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 138,
+      "num": 70,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 137,
+      "num": 40,
+      "group": 2,
+      "random": 1000
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 102,
+      "num": 9000,
+      "group": 3,
+      "random": 1000
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 142,
+      "num": 30,
+      "group": 4,
+      "random": 300
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "group": 4,
+      "random": 700
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 501,
+      "num": 2,
+      "group": 5,
+      "random": 150
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "group": 5,
+      "random": 850
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 546,
+      "num": 2,
+      "group": 6,
+      "random": 200
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "group": 6,
+      "random": 800
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "goodsID": 589,
+      "num": 5,
+      "group": 7,
+      "random": 50
+    },
+    {
+      "id": 619,
+      "name": "5星团本资源包",
+      "group": 7,
+      "random": 950
+    }
+  ],
+  "635": [
+    {
+      "id": 635,
+      "name": "神秘之石",
+      "goodsID": 3901,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 635,
+      "name": "神秘之石",
+      "goodsID": 3902,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 635,
+      "name": "神秘之石",
+      "goodsID": 3903,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 635,
+      "name": "神秘之石",
+      "goodsID": 3904,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "642": [
+    {
+      "id": 642,
+      "name": "5级神秘之石",
+      "goodsID": 3911,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 642,
+      "name": "5级神秘之石",
+      "goodsID": 3912,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 642,
+      "name": "5级神秘之石",
+      "goodsID": 3913,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 642,
+      "name": "5级神秘之石",
+      "goodsID": 3914,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "643": [
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 138,
+      "num": 70,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 137,
+      "num": 40,
+      "group": 2,
+      "random": 1000
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 102,
+      "num": 9000,
+      "group": 3,
+      "random": 1000
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 142,
+      "num": 30,
+      "group": 4,
+      "random": 300
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "group": 4,
+      "random": 700
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 501,
+      "num": 2,
+      "group": 5,
+      "random": 150
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "group": 5,
+      "random": 850
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 546,
+      "num": 2,
+      "group": 6,
+      "random": 200
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "group": 6,
+      "random": 800
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 589,
+      "num": 5,
+      "group": 7,
+      "random": 50
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "group": 7,
+      "random": 950
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "goodsID": 635,
+      "num": 1,
+      "group": 8,
+      "random": 30
+    },
+    {
+      "id": 643,
+      "name": "6星团本资源包",
+      "group": 8,
+      "random": 970
+    }
+  ]
+}

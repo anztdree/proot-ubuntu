@@ -1,0 +1,56 @@
+{
+  "2001": {
+    "id": 2001,
+    "type": "daily",
+    "listPara": 1,
+    "taskType": "teamDungeonGame",
+    "taskPara1": 3,
+    "reward": 590,
+    "num": 500,
+    "name": "teamDungeonDaily_name_1"
+  },
+  "2002": {
+    "id": 2002,
+    "type": "daily",
+    "listPara": 2,
+    "taskType": "teamDungeonGameStar",
+    "taskPara1": 1,
+    "taskPara2": 3,
+    "reward": 590,
+    "num": 250,
+    "name": "teamDungeonDaily_name_2"
+  },
+  "2003": {
+    "id": 2003,
+    "type": "daily",
+    "listPara": 3,
+    "taskType": "teamDungeonGameStar",
+    "taskPara1": 1,
+    "taskPara2": 4,
+    "reward": 590,
+    "num": 250,
+    "name": "teamDungeonDaily_name_3"
+  },
+  "2004": {
+    "id": 2004,
+    "type": "daily",
+    "listPara": 4,
+    "taskType": "teamDungeonGameStar",
+    "taskPara1": 1,
+    "taskPara2": 5,
+    "reward": 590,
+    "num": 250,
+    "name": "teamDungeonDaily_name_4"
+  },
+  "2005": {
+    "id": 2005,
+    "type": "daily",
+    "listPara": 5,
+    "taskType": "teamDungeonGameStar",
+    "taskPara1": 1,
+    "taskPara2": 6,
+    "reward": 590,
+    "num": 250,
+    "name": "teamDungeonDaily_name_5"
+  }
+}

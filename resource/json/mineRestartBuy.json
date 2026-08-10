@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 100,
+    "vipNeeded": 3
+  },
+  "2": {
+    "id": 2,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 120,
+    "vipNeeded": 6
+  },
+  "3": {
+    "id": 3,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 140,
+    "vipNeeded": 9
+  },
+  "4": {
+    "id": 4,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 160,
+    "vipNeeded": 12
+  },
+  "5": {
+    "id": 5,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 180,
+    "vipNeeded": 14
+  },
+  "6": {
+    "id": 6,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 200,
+    "vipNeeded": 16
+  },
+  "7": {
+    "id": 7,
+    "mineRestartCostID": 101,
+    "mineRestartPrice": 220,
+    "vipNeeded": 18
+  }
+}

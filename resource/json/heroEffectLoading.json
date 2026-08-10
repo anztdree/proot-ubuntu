@@ -1,0 +1,3750 @@
+{
+  "1001": {
+    "id": 1001,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1003": {
+    "id": 1003,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1008": {
+    "id": 1008,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1009": {
+    "id": 1009,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1102": {
+    "id": 1102,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1103": {
+    "id": 1103,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1104": {
+    "id": 1104,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1105": {
+    "id": 1105,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1106": {
+    "id": 1106,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1107": {
+    "id": 1107,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1201": {
+    "id": 1201,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1202": {
+    "id": 1202,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1203": {
+    "id": 1203,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1204": {
+    "id": 1204,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1205": {
+    "id": 1205,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "1206": {
+    "id": 1206,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "1207": {
+    "id": 1207,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1209": {
+    "id": 1209,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1210": {
+    "id": 1210,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1214": {
+    "id": 1214,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1215": {
+    "id": 1215,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1216": {
+    "id": 1216,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1217": {
+    "id": 1217,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1301": {
+    "id": 1301,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1302": {
+    "id": 1302,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1305": {
+    "id": 1305,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1307": {
+    "id": 1307,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1308": {
+    "id": 1308,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1309": {
+    "id": 1309,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1310": {
+    "id": 1310,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1311": {
+    "id": 1311,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1312": {
+    "id": 1312,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1313": {
+    "id": 1313,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1314": {
+    "id": 1314,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1315": {
+    "id": 1315,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1316": {
+    "id": 1316,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1317": {
+    "id": 1317,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1318": {
+    "id": 1318,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1319": {
+    "id": 1319,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1320": {
+    "id": 1320,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1401": {
+    "id": 1401,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1402": {
+    "id": 1402,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1403": {
+    "id": 1403,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1404": {
+    "id": 1404,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1405": {
+    "id": 1405,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1406": {
+    "id": 1406,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1407": {
+    "id": 1407,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1410": {
+    "id": 1410,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1411": {
+    "id": 1411,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1412": {
+    "id": 1412,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1413": {
+    "id": 1413,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1414": {
+    "id": 1414,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1415": {
+    "id": 1415,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1416": {
+    "id": 1416,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1417": {
+    "id": 1417,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1418": {
+    "id": 1418,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1419": {
+    "id": 1419,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1420": {
+    "id": 1420,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1421": {
+    "id": 1421,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1501": {
+    "id": 1501,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1502": {
+    "id": 1502,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1503": {
+    "id": 1503,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1504": {
+    "id": 1504,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1505": {
+    "id": 1505,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1506": {
+    "id": 1506,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1507": {
+    "id": 1507,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1508": {
+    "id": 1508,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1509": {
+    "id": 1509,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1510": {
+    "id": 1510,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1511": {
+    "id": 1511,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1512": {
+    "id": 1512,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1513": {
+    "id": 1513,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1514": {
+    "id": 1514,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1515": {
+    "id": 1515,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1516": {
+    "id": 1516,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1517": {
+    "id": 1517,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1518": {
+    "id": 1518,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1519": {
+    "id": 1519,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1520": {
+    "id": 1520,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "1521": {
+    "id": 1521,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1522": {
+    "id": 1522,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "1523": {
+    "id": 1523,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1524": {
+    "id": 1524,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1525": {
+    "id": 1525,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1526": {
+    "id": 1526,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "1527": {
+    "id": 1527,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1528": {
+    "id": 1528,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "1529": {
+    "id": 1529,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1530": {
+    "id": 1530,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1531": {
+    "id": 1531,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1532": {
+    "id": 1532,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1533": {
+    "id": 1533,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1534": {
+    "id": 1534,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1535": {
+    "id": 1535,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1536": {
+    "id": 1536,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1537": {
+    "id": 1537,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1538": {
+    "id": 1538,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "1539": {
+    "id": 1539,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1540": {
+    "id": 1540,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1541": {
+    "id": 1541,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1601": {
+    "id": 1601,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "1602": {
+    "id": 1602,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1603": {
+    "id": 1603,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1604": {
+    "id": 1604,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "1605": {
+    "id": 1605,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "1606": {
+    "id": 1606,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "1607": {
+    "id": 1607,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1608": {
+    "id": 1608,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "1609": {
+    "id": 1609,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "1610": {
+    "id": 1610,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1611": {
+    "id": 1611,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1612": {
+    "id": 1612,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1613": {
+    "id": 1613,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1614": {
+    "id": 1614,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1615": {
+    "id": 1615,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1616": {
+    "id": 1616,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1617": {
+    "id": 1617,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1618": {
+    "id": 1618,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "1619": {
+    "id": 1619,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1620": {
+    "id": 1620,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1621": {
+    "id": 1621,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1622": {
+    "id": 1622,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1623": {
+    "id": 1623,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,0"
+  },
+  "1624": {
+    "id": 1624,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1625": {
+    "id": 1625,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1626": {
+    "id": 1626,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "1627": {
+    "id": 1627,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1628": {
+    "id": 1628,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1629": {
+    "id": 1629,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1630": {
+    "id": 1630,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1631": {
+    "id": 1631,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1632": {
+    "id": 1632,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1633": {
+    "id": 1633,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1634": {
+    "id": 1634,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1635": {
+    "id": 1635,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "1636": {
+    "id": 1636,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "1637": {
+    "id": 1637,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1638": {
+    "id": 1638,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1639": {
+    "id": 1639,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1640": {
+    "id": 1640,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1641": {
+    "id": 1641,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1642": {
+    "id": 1642,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1643": {
+    "id": 1643,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1644": {
+    "id": 1644,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1645": {
+    "id": 1645,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1646": {
+    "id": 1646,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1647": {
+    "id": 1647,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1648": {
+    "id": 1648,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "1649": {
+    "id": 1649,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1650": {
+    "id": 1650,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1651": {
+    "id": 1651,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "1652": {
+    "id": 1652,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1653": {
+    "id": 1653,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1654": {
+    "id": 1654,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1655": {
+    "id": 1655,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1656": {
+    "id": 1656,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1657": {
+    "id": 1657,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1658": {
+    "id": 1658,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "1901": [
+    {
+      "id": 1901,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+    },
+    {
+      "id": 1901,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+    }
+  ],
+  "1902": [
+    {
+      "id": 1902,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 1902,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "1903": [
+    {
+      "id": 1903,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 1903,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "1904": [
+    {
+      "id": 1904,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 1904,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "1905": [
+    {
+      "id": 1905,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+    },
+    {
+      "id": 1905,
+      "battleEffectList": "nengliangman",
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+    }
+  ],
+  "1906": {
+    "id": 1906,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1907": {
+    "id": 1907,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1908": {
+    "id": 1908,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1909": {
+    "id": 1909,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1910": {
+    "id": 1910,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1911": {
+    "id": 1911,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1912": {
+    "id": 1912,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1913": {
+    "id": 1913,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1914": {
+    "id": 1914,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1915": {
+    "id": 1915,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1916": {
+    "id": 1916,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1917": {
+    "id": 1917,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1918": {
+    "id": 1918,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1919": {
+    "id": 1919,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1920": {
+    "id": 1920,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1921": {
+    "id": 1921,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1922": {
+    "id": 1922,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1923": {
+    "id": 1923,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1924": {
+    "id": 1924,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1925": {
+    "id": 1925,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1926": {
+    "id": 1926,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "1927": {
+    "id": 1927,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1928": {
+    "id": 1928,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1929": {
+    "id": 1929,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1930": {
+    "id": 1930,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1931": {
+    "id": 1931,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1932": {
+    "id": 1932,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1933": {
+    "id": 1933,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1934": {
+    "id": 1934,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1935": {
+    "id": 1935,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1936": {
+    "id": 1936,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1937": {
+    "id": 1937,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1938": {
+    "id": 1938,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1939": {
+    "id": 1939,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1940": {
+    "id": 1940,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1941": {
+    "id": 1941,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1942": {
+    "id": 1942,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "1943": {
+    "id": 1943,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2501": {
+    "id": 2501,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2502": {
+    "id": 2502,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2503": {
+    "id": 2503,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2504": {
+    "id": 2504,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2505": {
+    "id": 2505,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2506": {
+    "id": 2506,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2507": {
+    "id": 2507,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2601": {
+    "id": 2601,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2602": {
+    "id": 2602,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2603": {
+    "id": 2603,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2604": {
+    "id": 2604,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "2605": {
+    "id": 2605,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3001": {
+    "id": 3001,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3002": {
+    "id": 3002,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3003": {
+    "id": 3003,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3004": {
+    "id": 3004,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3005": {
+    "id": 3005,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3006": {
+    "id": 3006,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3007": {
+    "id": 3007,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3008": {
+    "id": 3008,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3009": {
+    "id": 3009,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3010": {
+    "id": 3010,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3011": {
+    "id": 3011,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3012": {
+    "id": 3012,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3013": {
+    "id": 3013,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3014": {
+    "id": 3014,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3015": {
+    "id": 3015,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3016": {
+    "id": 3016,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3017": {
+    "id": 3017,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3018": {
+    "id": 3018,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3501": {
+    "id": 3501,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3502": {
+    "id": 3502,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3503": {
+    "id": 3503,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3504": {
+    "id": 3504,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3505": {
+    "id": 3505,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3506": {
+    "id": 3506,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3507": {
+    "id": 3507,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3508": {
+    "id": 3508,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3509": {
+    "id": 3509,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3510": {
+    "id": 3510,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3511": {
+    "id": 3511,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3512": {
+    "id": 3512,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3513": {
+    "id": 3513,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3514": {
+    "id": 3514,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3515": {
+    "id": 3515,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3516": {
+    "id": 3516,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3517": {
+    "id": 3517,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3518": {
+    "id": 3518,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3519": {
+    "id": 3519,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3520": {
+    "id": 3520,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3521": {
+    "id": 3521,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3522": {
+    "id": 3522,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3523": {
+    "id": 3523,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3524": {
+    "id": 3524,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3525": {
+    "id": 3525,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3526": {
+    "id": 3526,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3527": {
+    "id": 3527,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3528": {
+    "id": 3528,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3529": {
+    "id": 3529,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3530": {
+    "id": 3530,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3531": {
+    "id": 3531,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3532": {
+    "id": 3532,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3533": {
+    "id": 3533,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3534": {
+    "id": 3534,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3535": {
+    "id": 3535,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3536": {
+    "id": 3536,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3537": {
+    "id": 3537,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3538": {
+    "id": 3538,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3539": {
+    "id": 3539,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3540": {
+    "id": 3540,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3541": {
+    "id": 3541,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3542": {
+    "id": 3542,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3543": {
+    "id": 3543,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3544": {
+    "id": 3544,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3545": {
+    "id": 3545,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3546": {
+    "id": 3546,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3547": {
+    "id": 3547,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3548": {
+    "id": 3548,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3549": {
+    "id": 3549,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3550": {
+    "id": 3550,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3551": {
+    "id": 3551,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3552": {
+    "id": 3552,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3553": {
+    "id": 3553,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3554": {
+    "id": 3554,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3555": {
+    "id": 3555,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3556": {
+    "id": 3556,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3557": {
+    "id": 3557,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3558": {
+    "id": 3558,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3559": {
+    "id": 3559,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3560": {
+    "id": 3560,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3561": {
+    "id": 3561,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3562": {
+    "id": 3562,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "3563": {
+    "id": 3563,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4001": {
+    "id": 4001,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4002": {
+    "id": 4002,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4003": {
+    "id": 4003,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4004": {
+    "id": 4004,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4005": {
+    "id": 4005,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4006": {
+    "id": 4006,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4007": {
+    "id": 4007,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4008": {
+    "id": 4008,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4009": {
+    "id": 4009,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4010": {
+    "id": 4010,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4011": {
+    "id": 4011,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4012": {
+    "id": 4012,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4013": {
+    "id": 4013,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4014": {
+    "id": 4014,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4015": {
+    "id": 4015,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4016": {
+    "id": 4016,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4017": {
+    "id": 4017,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4018": {
+    "id": 4018,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4501": {
+    "id": 4501,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4502": {
+    "id": 4502,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4503": {
+    "id": 4503,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4504": {
+    "id": 4504,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4505": {
+    "id": 4505,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4506": {
+    "id": 4506,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4507": {
+    "id": 4507,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4508": {
+    "id": 4508,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4509": {
+    "id": 4509,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4510": {
+    "id": 4510,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "5001": {
+    "id": 5001,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41001": {
+    "id": 41001,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41003": {
+    "id": 41003,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41008": {
+    "id": 41008,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41009": {
+    "id": 41009,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41102": {
+    "id": 41102,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41103": {
+    "id": 41103,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41104": {
+    "id": 41104,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41105": {
+    "id": 41105,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41106": {
+    "id": 41106,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41107": {
+    "id": 41107,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41201": {
+    "id": 41201,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41202": {
+    "id": 41202,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41203": {
+    "id": 41203,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41204": {
+    "id": 41204,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41205": {
+    "id": 41205,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "41206": {
+    "id": 41206,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "41207": {
+    "id": 41207,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41209": {
+    "id": 41209,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41210": {
+    "id": 41210,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41214": {
+    "id": 41214,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41215": {
+    "id": 41215,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41216": {
+    "id": 41216,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41217": {
+    "id": 41217,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41301": {
+    "id": 41301,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41302": {
+    "id": 41302,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41305": {
+    "id": 41305,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41307": {
+    "id": 41307,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41308": {
+    "id": 41308,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41309": {
+    "id": 41309,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41310": {
+    "id": 41310,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41311": {
+    "id": 41311,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41312": {
+    "id": 41312,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41313": {
+    "id": 41313,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41314": {
+    "id": 41314,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41315": {
+    "id": 41315,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41316": {
+    "id": 41316,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41317": {
+    "id": 41317,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41318": {
+    "id": 41318,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41319": {
+    "id": 41319,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41320": {
+    "id": 41320,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41401": {
+    "id": 41401,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41402": {
+    "id": 41402,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41403": {
+    "id": 41403,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41404": {
+    "id": 41404,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41405": {
+    "id": 41405,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41406": {
+    "id": 41406,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41407": {
+    "id": 41407,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41410": {
+    "id": 41410,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41411": {
+    "id": 41411,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41412": {
+    "id": 41412,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41413": {
+    "id": 41413,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41414": {
+    "id": 41414,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41415": {
+    "id": 41415,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41416": {
+    "id": 41416,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41417": {
+    "id": 41417,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41418": {
+    "id": 41418,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41419": {
+    "id": 41419,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41420": {
+    "id": 41420,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41421": {
+    "id": 41421,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41501": {
+    "id": 41501,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41502": {
+    "id": 41502,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41503": {
+    "id": 41503,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41504": {
+    "id": 41504,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41505": {
+    "id": 41505,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41506": {
+    "id": 41506,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41507": {
+    "id": 41507,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41508": {
+    "id": 41508,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41509": {
+    "id": 41509,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41510": {
+    "id": 41510,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41511": {
+    "id": 41511,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41512": {
+    "id": 41512,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41513": {
+    "id": 41513,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41514": {
+    "id": 41514,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41515": {
+    "id": 41515,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41516": {
+    "id": 41516,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41517": {
+    "id": 41517,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41518": {
+    "id": 41518,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41519": {
+    "id": 41519,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41520": {
+    "id": 41520,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "41521": {
+    "id": 41521,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41522": {
+    "id": 41522,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "41523": {
+    "id": 41523,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41524": {
+    "id": 41524,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41525": {
+    "id": 41525,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41526": {
+    "id": 41526,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "41527": {
+    "id": 41527,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41528": {
+    "id": 41528,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "41529": {
+    "id": 41529,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41530": {
+    "id": 41530,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41531": {
+    "id": 41531,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41532": {
+    "id": 41532,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41533": {
+    "id": 41533,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41534": {
+    "id": 41534,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41535": {
+    "id": 41535,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41536": {
+    "id": 41536,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41537": {
+    "id": 41537,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41538": {
+    "id": 41538,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "41539": {
+    "id": 41539,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41540": {
+    "id": 41540,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41541": {
+    "id": 41541,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41600": {
+    "id": 41600,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41601": {
+    "id": 41601,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "41602": {
+    "id": 41602,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41603": {
+    "id": 41603,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41604": {
+    "id": 41604,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "41605": {
+    "id": 41605,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "41606": {
+    "id": 41606,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "41607": {
+    "id": 41607,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41608": {
+    "id": 41608,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "41609": {
+    "id": 41609,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "41610": {
+    "id": 41610,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41611": {
+    "id": 41611,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41612": {
+    "id": 41612,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41613": {
+    "id": 41613,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41614": {
+    "id": 41614,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41615": {
+    "id": 41615,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41616": {
+    "id": 41616,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41617": {
+    "id": 41617,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41618": {
+    "id": 41618,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "41619": {
+    "id": 41619,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41620": {
+    "id": 41620,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41621": {
+    "id": 41621,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41622": {
+    "id": 41622,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41623": {
+    "id": 41623,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,0"
+  },
+  "41624": {
+    "id": 41624,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41625": {
+    "id": 41625,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41626": {
+    "id": 41626,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "41627": {
+    "id": 41627,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41628": {
+    "id": 41628,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41629": {
+    "id": 41629,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41630": {
+    "id": 41630,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41631": {
+    "id": 41631,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41632": {
+    "id": 41632,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41633": {
+    "id": 41633,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41634": {
+    "id": 41634,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41635": {
+    "id": 41635,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "41636": {
+    "id": 41636,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "41637": {
+    "id": 41637,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41638": {
+    "id": 41638,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41639": {
+    "id": 41639,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41640": {
+    "id": 41640,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41641": {
+    "id": 41641,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41642": {
+    "id": 41642,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41643": {
+    "id": 41643,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41644": {
+    "id": 41644,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41645": {
+    "id": 41645,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41646": {
+    "id": 41646,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41647": {
+    "id": 41647,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41648": {
+    "id": 41648,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "41649": {
+    "id": 41649,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41650": {
+    "id": 41650,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41651": {
+    "id": 41651,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "41652": {
+    "id": 41652,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41653": {
+    "id": 41653,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "41901": [
+    {
+      "id": 41901,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+    },
+    {
+      "id": 41901,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+    }
+  ],
+  "41902": [
+    {
+      "id": 41902,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 41902,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "41903": [
+    {
+      "id": 41903,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 41903,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "41904": [
+    {
+      "id": 41904,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 41904,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "41905": [
+    {
+      "id": 41905,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+    },
+    {
+      "id": 41905,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+    }
+  ],
+  "41906": [
+    {
+      "id": 41906,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 41906,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "41907": {
+    "id": 41907,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41908": {
+    "id": 41908,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41909": {
+    "id": 41909,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41910": {
+    "id": 41910,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41911": {
+    "id": 41911,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41912": {
+    "id": 41912,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41913": {
+    "id": 41913,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41914": {
+    "id": 41914,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41915": {
+    "id": 41915,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41916": {
+    "id": 41916,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41917": {
+    "id": 41917,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41918": {
+    "id": 41918,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41919": {
+    "id": 41919,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41920": {
+    "id": 41920,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41921": {
+    "id": 41921,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41922": {
+    "id": 41922,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41923": {
+    "id": 41923,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41924": {
+    "id": 41924,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "41925": {
+    "id": 41925,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "41926": {
+    "id": 41926,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51001": {
+    "id": 51001,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51003": {
+    "id": 51003,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51008": {
+    "id": 51008,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51009": {
+    "id": 51009,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51102": {
+    "id": 51102,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51103": {
+    "id": 51103,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51104": {
+    "id": 51104,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51105": {
+    "id": 51105,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51106": {
+    "id": 51106,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51107": {
+    "id": 51107,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51201": {
+    "id": 51201,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51202": {
+    "id": 51202,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51203": {
+    "id": 51203,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51204": {
+    "id": 51204,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51205": {
+    "id": 51205,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "51206": {
+    "id": 51206,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "51207": {
+    "id": 51207,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51209": {
+    "id": 51209,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51210": {
+    "id": 51210,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51214": {
+    "id": 51214,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51215": {
+    "id": 51215,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51216": {
+    "id": 51216,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51217": {
+    "id": 51217,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51301": {
+    "id": 51301,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51302": {
+    "id": 51302,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51305": {
+    "id": 51305,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51307": {
+    "id": 51307,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51308": {
+    "id": 51308,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51309": {
+    "id": 51309,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51310": {
+    "id": 51310,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51311": {
+    "id": 51311,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51312": {
+    "id": 51312,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51313": {
+    "id": 51313,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51314": {
+    "id": 51314,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51315": {
+    "id": 51315,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51316": {
+    "id": 51316,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51317": {
+    "id": 51317,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51318": {
+    "id": 51318,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51319": {
+    "id": 51319,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51320": {
+    "id": 51320,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51401": {
+    "id": 51401,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51402": {
+    "id": 51402,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51403": {
+    "id": 51403,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51404": {
+    "id": 51404,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51405": {
+    "id": 51405,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51406": {
+    "id": 51406,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51407": {
+    "id": 51407,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51410": {
+    "id": 51410,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51411": {
+    "id": 51411,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51412": {
+    "id": 51412,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51413": {
+    "id": 51413,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51414": {
+    "id": 51414,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51415": {
+    "id": 51415,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51416": {
+    "id": 51416,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51417": {
+    "id": 51417,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51418": {
+    "id": 51418,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51419": {
+    "id": 51419,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51420": {
+    "id": 51420,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51421": {
+    "id": 51421,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51501": {
+    "id": 51501,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51502": {
+    "id": 51502,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51503": {
+    "id": 51503,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51504": {
+    "id": 51504,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51505": {
+    "id": 51505,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51506": {
+    "id": 51506,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51507": {
+    "id": 51507,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51508": {
+    "id": 51508,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51509": {
+    "id": 51509,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51510": {
+    "id": 51510,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51511": {
+    "id": 51511,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51512": {
+    "id": 51512,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51513": {
+    "id": 51513,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51514": {
+    "id": 51514,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51515": {
+    "id": 51515,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51516": {
+    "id": 51516,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51517": {
+    "id": 51517,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51518": {
+    "id": 51518,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51519": {
+    "id": 51519,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51520": {
+    "id": 51520,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "51521": {
+    "id": 51521,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51522": {
+    "id": 51522,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "51523": {
+    "id": 51523,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51524": {
+    "id": 51524,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51525": {
+    "id": 51525,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51526": {
+    "id": 51526,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "51527": {
+    "id": 51527,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51528": {
+    "id": 51528,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "51529": {
+    "id": 51529,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51530": {
+    "id": 51530,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51531": {
+    "id": 51531,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51532": {
+    "id": 51532,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51533": {
+    "id": 51533,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51534": {
+    "id": 51534,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51535": {
+    "id": 51535,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51536": {
+    "id": 51536,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51537": {
+    "id": 51537,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51538": {
+    "id": 51538,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "51539": {
+    "id": 51539,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51540": {
+    "id": 51540,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51541": {
+    "id": 51541,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51600": {
+    "id": 51600,
+    "hangupEffectList": ",paobugonggong"
+  },
+  "51601": {
+    "id": 51601,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "51602": {
+    "id": 51602,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51603": {
+    "id": 51603,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51604": {
+    "id": 51604,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "51605": {
+    "id": 51605,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "51606": {
+    "id": 51606,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "51607": {
+    "id": 51607,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51608": {
+    "id": 51608,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "51609": {
+    "id": 51609,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "51610": {
+    "id": 51610,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51611": {
+    "id": 51611,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51612": {
+    "id": 51612,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51613": {
+    "id": 51613,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51614": {
+    "id": 51614,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51615": {
+    "id": 51615,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51616": {
+    "id": 51616,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51617": {
+    "id": 51617,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51618": {
+    "id": 51618,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "51619": {
+    "id": 51619,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51620": {
+    "id": 51620,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51621": {
+    "id": 51621,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "51622": {
+    "id": 51622,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51623": {
+    "id": 51623,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,0,0"
+  },
+  "51624": {
+    "id": 51624,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51625": {
+    "id": 51625,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51626": {
+    "id": 51626,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "51627": {
+    "id": 51627,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51628": {
+    "id": 51628,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51629": {
+    "id": 51629,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51630": {
+    "id": 51630,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51631": {
+    "id": 51631,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51632": {
+    "id": 51632,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51633": {
+    "id": 51633,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51634": {
+    "id": 51634,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51635": {
+    "id": 51635,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "51636": {
+    "id": 51636,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "51637": {
+    "id": 51637,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "51638": {
+    "id": 51638,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51639": {
+    "id": 51639,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51640": {
+    "id": 51640,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51641": {
+    "id": 51641,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51642": {
+    "id": 51642,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51643": {
+    "id": 51643,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51644": {
+    "id": 51644,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51645": {
+    "id": 51645,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51646": {
+    "id": 51646,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51647": {
+    "id": 51647,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51648": {
+    "id": 51648,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "51649": {
+    "id": 51649,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51650": {
+    "id": 51650,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51651": {
+    "id": 51651,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "51652": {
+    "id": 51652,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51653": {
+    "id": 51653,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51654": {
+    "id": 51654,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51655": {
+    "id": 51655,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51656": {
+    "id": 51656,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51657": {
+    "id": 51657,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "51658": {
+    "id": 51658,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55001": [
+    {
+      "id": 55001,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 55001,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "55003": [
+    {
+      "id": 55003,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 55003,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "55008": [
+    {
+      "id": 55008,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 55008,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "55009": [
+    {
+      "id": 55009,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 55009,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "55102": [
+    {
+      "id": 55102,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 55102,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "55103": [
+    {
+      "id": 55103,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    },
+    {
+      "id": 55103,
+      "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+    }
+  ],
+  "55104": {
+    "id": 55104,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55105": {
+    "id": 55105,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55106": {
+    "id": 55106,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55107": {
+    "id": 55107,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55201": {
+    "id": 55201,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55202": {
+    "id": 55202,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55203": {
+    "id": 55203,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55204": {
+    "id": 55204,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55205": {
+    "id": 55205,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "55206": {
+    "id": 55206,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingputongsuduxian"
+  },
+  "55207": {
+    "id": 55207,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55209": {
+    "id": 55209,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55210": {
+    "id": 55210,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55214": {
+    "id": 55214,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55215": {
+    "id": 55215,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55216": {
+    "id": 55216,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55217": {
+    "id": 55217,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55301": {
+    "id": 55301,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55302": {
+    "id": 55302,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55305": {
+    "id": 55305,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55307": {
+    "id": 55307,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55308": {
+    "id": 55308,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55309": {
+    "id": 55309,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55310": {
+    "id": 55310,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55311": {
+    "id": 55311,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55312": {
+    "id": 55312,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55313": {
+    "id": 55313,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55314": {
+    "id": 55314,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55315": {
+    "id": 55315,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55316": {
+    "id": 55316,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55317": {
+    "id": 55317,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55318": {
+    "id": 55318,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55319": {
+    "id": 55319,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55320": {
+    "id": 55320,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55401": {
+    "id": 55401,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55402": {
+    "id": 55402,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55403": {
+    "id": 55403,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55404": {
+    "id": 55404,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55405": {
+    "id": 55405,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55406": {
+    "id": 55406,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55407": {
+    "id": 55407,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55410": {
+    "id": 55410,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55411": {
+    "id": 55411,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55412": {
+    "id": 55412,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55413": {
+    "id": 55413,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55414": {
+    "id": 55414,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55415": {
+    "id": 55415,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55416": {
+    "id": 55416,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55417": {
+    "id": 55417,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55418": {
+    "id": 55418,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55419": {
+    "id": 55419,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55420": {
+    "id": 55420,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55421": {
+    "id": 55421,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55501": {
+    "id": 55501,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55502": {
+    "id": 55502,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55503": {
+    "id": 55503,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55504": {
+    "id": 55504,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55505": {
+    "id": 55505,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55506": {
+    "id": 55506,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55507": {
+    "id": 55507,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55508": {
+    "id": 55508,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55509": {
+    "id": 55509,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55510": {
+    "id": 55510,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55511": {
+    "id": 55511,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55512": {
+    "id": 55512,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55513": {
+    "id": 55513,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55514": {
+    "id": 55514,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55515": {
+    "id": 55515,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55516": {
+    "id": 55516,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55517": {
+    "id": 55517,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55518": {
+    "id": 55518,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55519": {
+    "id": 55519,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55520": {
+    "id": 55520,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "55521": {
+    "id": 55521,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55522": {
+    "id": 55522,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "55523": {
+    "id": 55523,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55524": {
+    "id": 55524,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55525": {
+    "id": 55525,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55526": {
+    "id": 55526,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "55527": {
+    "id": 55527,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55528": {
+    "id": 55528,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "55529": {
+    "id": 55529,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55530": {
+    "id": 55530,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55531": {
+    "id": 55531,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55532": {
+    "id": 55532,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55533": {
+    "id": 55533,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55534": {
+    "id": 55534,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55535": {
+    "id": 55535,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55536": {
+    "id": 55536,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55537": {
+    "id": 55537,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55538": {
+    "id": 55538,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "55539": {
+    "id": 55539,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55540": {
+    "id": 55540,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55541": {
+    "id": 55541,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55600": {
+    "id": 55600,
+    "hangupEffectList": ",paobugonggong"
+  },
+  "55601": {
+    "id": 55601,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "55602": {
+    "id": 55602,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55603": {
+    "id": 55603,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55604": {
+    "id": 55604,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "55605": {
+    "id": 55605,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "55606": {
+    "id": 55606,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "55607": {
+    "id": 55607,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55608": {
+    "id": 55608,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "55609": {
+    "id": 55609,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_hongse"
+  },
+  "55610": {
+    "id": 55610,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55611": {
+    "id": 55611,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55612": {
+    "id": 55612,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55613": {
+    "id": 55613,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55614": {
+    "id": 55614,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55615": {
+    "id": 55615,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55616": {
+    "id": 55616,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55617": {
+    "id": 55617,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55618": {
+    "id": 55618,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "55619": {
+    "id": 55619,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55620": {
+    "id": 55620,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55621": {
+    "id": 55621,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixinghuiseqian,feixinghuisehou"
+  },
+  "55622": {
+    "id": 55622,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55623": {
+    "id": 55623,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,0,0"
+  },
+  "55624": {
+    "id": 55624,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55625": {
+    "id": 55625,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55626": {
+    "id": 55626,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "55627": {
+    "id": 55627,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55628": {
+    "id": 55628,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55629": {
+    "id": 55629,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55630": {
+    "id": 55630,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55631": {
+    "id": 55631,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55632": {
+    "id": 55632,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55633": {
+    "id": 55633,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55634": {
+    "id": 55634,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55635": {
+    "id": 55635,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lanse"
+  },
+  "55636": {
+    "id": 55636,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_lvse"
+  },
+  "55637": {
+    "id": 55637,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "55638": {
+    "id": 55638,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55639": {
+    "id": 55639,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55640": {
+    "id": 55640,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55641": {
+    "id": 55641,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55642": {
+    "id": 55642,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55643": {
+    "id": 55643,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55644": {
+    "id": 55644,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55645": {
+    "id": 55645,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55646": {
+    "id": 55646,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55647": {
+    "id": 55647,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55648": {
+    "id": 55648,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zihongse"
+  },
+  "55649": {
+    "id": 55649,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55650": {
+    "id": 55650,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55651": {
+    "id": 55651,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,gonggongfeixing_zise"
+  },
+  "55652": {
+    "id": 55652,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55653": {
+    "id": 55653,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55654": {
+    "id": 55654,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55655": {
+    "id": 55655,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55656": {
+    "id": 55656,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55657": {
+    "id": 55657,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "55658": {
+    "id": 55658,
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,feixingqian,feixinghou"
+  },
+  "60001": {
+    "id": 60001,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "60002": {
+    "id": 60002,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "60003": {
+    "id": 60003,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "60004": {
+    "id": 60004,
+    "battleEffectList": "nengliangman",
+    "hangupEffectList": "siwangxiaoshitexiao,shuduxian,diaoluoyanchengtexiao,paobugonggong"
+  },
+  "4051530": {
+    "id": 4051530
+  },
+  "4051614": {
+    "id": 4051614
+  },
+  "4051616": {
+    "id": 4051616
+  },
+  "4051902": {
+    "id": 4051902
+  },
+  "4061915": {
+    "id": 4061915
+  }
+}

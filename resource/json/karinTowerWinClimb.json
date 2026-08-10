@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": 1,
+    "powerStart": 0,
+    "powerEnd": 1,
+    "climb": 6
+  },
+  "2": {
+    "id": 2,
+    "powerStart": 1,
+    "powerEnd": 1.1,
+    "climb": 7
+  },
+  "3": {
+    "id": 3,
+    "powerStart": 1.1,
+    "powerEnd": 1.2,
+    "climb": 8
+  },
+  "4": {
+    "id": 4,
+    "powerStart": 1.2,
+    "powerEnd": 1.3,
+    "climb": 9
+  },
+  "5": {
+    "id": 5,
+    "powerStart": 1.3,
+    "powerEnd": 999,
+    "climb": 10
+  }
+}

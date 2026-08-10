@@ -1,0 +1,2070 @@
+{
+  "536": [
+    {
+      "id": 536,
+      "name": "攻击元气LV1",
+      "goodsID": 4601,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "暴击元气LV1",
+      "goodsID": 4611,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 536,
+      "name": "暴伤元气LV1",
+      "goodsID": 4621,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 536,
+      "name": "技能伤害元气LV1",
+      "goodsID": 4631,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "破防元气LV1",
+      "goodsID": 4641,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "穿透元气LV1",
+      "goodsID": 4651,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "生命元气LV1",
+      "goodsID": 4701,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "防御元气LV1",
+      "goodsID": 4711,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "免暴元气LV1",
+      "goodsID": 4721,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "格挡元气LV1",
+      "goodsID": 4731,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 536,
+      "name": "闪避元气LV1",
+      "goodsID": 4741,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 536,
+      "name": "韧性元气LV1",
+      "goodsID": 4751,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "攻击元气LV1",
+      "goodsID": 4801,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "命中元气LV1",
+      "goodsID": 4811,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "速度元气LV1",
+      "goodsID": 4831,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 536,
+      "name": "流血伤害元气LV1",
+      "goodsID": 4841,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    }
+  ],
+  "537": [
+    {
+      "id": 537,
+      "name": "攻击元气LV1",
+      "goodsID": 4601,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "暴击元气LV1",
+      "goodsID": 4611,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "暴伤元气LV1",
+      "goodsID": 4621,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "技能伤害元气LV1",
+      "goodsID": 4631,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "破防元气LV1",
+      "goodsID": 4641,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "穿透元气LV1",
+      "goodsID": 4651,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "生命元气LV1",
+      "goodsID": 4701,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "防御元气LV1",
+      "goodsID": 4711,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "免暴元气LV1",
+      "goodsID": 4721,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "格挡元气LV1",
+      "goodsID": 4731,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "闪避元气LV1",
+      "goodsID": 4741,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "韧性元气LV1",
+      "goodsID": 4751,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "攻击元气LV1",
+      "goodsID": 4801,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "命中元气LV1",
+      "goodsID": 4811,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "速度元气LV1",
+      "goodsID": 4831,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "流血伤害元气LV1",
+      "goodsID": 4841,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "攻击元气LV2",
+      "goodsID": 4602,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "暴击元气LV2",
+      "goodsID": 4612,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "暴伤元气LV2",
+      "goodsID": 4622,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "技能伤害元气LV2",
+      "goodsID": 4632,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "破防元气LV2",
+      "goodsID": 4642,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "穿透元气LV2",
+      "goodsID": 4652,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "生命元气LV2",
+      "goodsID": 4702,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "防御元气LV2",
+      "goodsID": 4712,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "免暴元气LV2",
+      "goodsID": 4722,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "格挡元气LV2",
+      "goodsID": 4732,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "闪避元气LV2",
+      "goodsID": 4742,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 537,
+      "name": "韧性元气LV2",
+      "goodsID": 4752,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "攻击元气LV2",
+      "goodsID": 4802,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "命中元气LV2",
+      "goodsID": 4812,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "速度元气LV2",
+      "goodsID": 4832,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 537,
+      "name": "流血伤害元气LV2",
+      "goodsID": 4842,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    }
+  ],
+  "538": [
+    {
+      "id": 538,
+      "name": "攻击元气LV2",
+      "goodsID": 4602,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "暴击元气LV2",
+      "goodsID": 4612,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 538,
+      "name": "暴伤元气LV2",
+      "goodsID": 4622,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 538,
+      "name": "技能伤害元气LV2",
+      "goodsID": 4632,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "破防元气LV2",
+      "goodsID": 4642,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "穿透元气LV2",
+      "goodsID": 4652,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "生命元气LV2",
+      "goodsID": 4702,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "防御元气LV2",
+      "goodsID": 4712,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "免暴元气LV2",
+      "goodsID": 4722,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "格挡元气LV2",
+      "goodsID": 4732,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 538,
+      "name": "闪避元气LV2",
+      "goodsID": 4742,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    },
+    {
+      "id": 538,
+      "name": "韧性元气LV2",
+      "goodsID": 4752,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "攻击元气LV2",
+      "goodsID": 4802,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "命中元气LV2",
+      "goodsID": 4812,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "速度元气LV2",
+      "goodsID": 4832,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 538,
+      "name": "流血伤害元气LV2",
+      "goodsID": 4842,
+      "num": 1,
+      "group": 1,
+      "random": 500
+    }
+  ],
+  "539": [
+    {
+      "id": 539,
+      "name": "攻击元气LV1",
+      "goodsID": 4601,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "暴击元气LV1",
+      "goodsID": 4611,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "暴伤元气LV1",
+      "goodsID": 4621,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "技能伤害元气LV1",
+      "goodsID": 4631,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "破防元气LV1",
+      "goodsID": 4641,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "穿透元气LV1",
+      "goodsID": 4651,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "生命元气LV1",
+      "goodsID": 4701,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "防御元气LV1",
+      "goodsID": 4711,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "免暴元气LV1",
+      "goodsID": 4721,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "格挡元气LV1",
+      "goodsID": 4731,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "闪避元气LV1",
+      "goodsID": 4741,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "韧性元气LV1",
+      "goodsID": 4751,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "攻击元气LV1",
+      "goodsID": 4801,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "命中元气LV1",
+      "goodsID": 4811,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "速度元气LV1",
+      "goodsID": 4831,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "流血伤害元气LV1",
+      "goodsID": 4841,
+      "num": 1,
+      "group": 1,
+      "random": 6000
+    },
+    {
+      "id": 539,
+      "name": "攻击元气LV2",
+      "goodsID": 4602,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "暴击元气LV2",
+      "goodsID": 4612,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "暴伤元气LV2",
+      "goodsID": 4622,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "技能伤害元气LV2",
+      "goodsID": 4632,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "破防元气LV2",
+      "goodsID": 4642,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "穿透元气LV2",
+      "goodsID": 4652,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "生命元气LV2",
+      "goodsID": 4702,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "防御元气LV2",
+      "goodsID": 4712,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "免暴元气LV2",
+      "goodsID": 4722,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "格挡元气LV2",
+      "goodsID": 4732,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "闪避元气LV2",
+      "goodsID": 4742,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "韧性元气LV2",
+      "goodsID": 4752,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "攻击元气LV2",
+      "goodsID": 4802,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "命中元气LV2",
+      "goodsID": 4812,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "速度元气LV2",
+      "goodsID": 4832,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "流血伤害元气LV2",
+      "goodsID": 4842,
+      "num": 1,
+      "group": 1,
+      "random": 3000
+    },
+    {
+      "id": 539,
+      "name": "攻击元气LV3",
+      "goodsID": 4603,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "暴击元气LV3",
+      "goodsID": 4613,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "暴伤元气LV3",
+      "goodsID": 4623,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "技能伤害元气LV3",
+      "goodsID": 4633,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "破防元气LV3",
+      "goodsID": 4643,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "穿透元气LV3",
+      "goodsID": 4653,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "生命元气LV3",
+      "goodsID": 4703,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "防御元气LV3",
+      "goodsID": 4713,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "免暴元气LV3",
+      "goodsID": 4723,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "格挡元气LV3",
+      "goodsID": 4733,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "闪避元气LV3",
+      "goodsID": 4743,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "韧性元气LV3",
+      "goodsID": 4753,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "攻击元气LV3",
+      "goodsID": 4803,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "命中元气LV3",
+      "goodsID": 4813,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "速度元气LV3",
+      "goodsID": 4833,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 539,
+      "name": "流血伤害元气LV3",
+      "goodsID": 4843,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "540": [
+    {
+      "id": 540,
+      "name": "攻击元气LV3",
+      "goodsID": 4603,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "暴击元气LV3",
+      "goodsID": 4613,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "暴伤元气LV3",
+      "goodsID": 4623,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "技能伤害元气LV3",
+      "goodsID": 4633,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "破防元气LV3",
+      "goodsID": 4643,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "穿透元气LV3",
+      "goodsID": 4653,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "生命元气LV3",
+      "goodsID": 4703,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "防御元气LV3",
+      "goodsID": 4713,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "免暴元气LV3",
+      "goodsID": 4723,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "格挡元气LV3",
+      "goodsID": 4733,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "闪避元气LV3",
+      "goodsID": 4743,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "韧性元气LV3",
+      "goodsID": 4753,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "攻击元气LV3",
+      "goodsID": 4803,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "命中元气LV3",
+      "goodsID": 4813,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "速度元气LV3",
+      "goodsID": 4833,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "流血伤害元气LV3",
+      "goodsID": 4843,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 540,
+      "name": "攻击元气LV4",
+      "goodsID": 4604,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "暴击元气LV4",
+      "goodsID": 4614,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "暴伤元气LV4",
+      "goodsID": 4624,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "技能伤害元气LV4",
+      "goodsID": 4634,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "破防元气LV4",
+      "goodsID": 4644,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "穿透元气LV4",
+      "goodsID": 4654,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "生命元气LV4",
+      "goodsID": 4704,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "防御元气LV4",
+      "goodsID": 4714,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "免暴元气LV4",
+      "goodsID": 4724,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "格挡元气LV4",
+      "goodsID": 4734,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "闪避元气LV4",
+      "goodsID": 4744,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "韧性元气LV4",
+      "goodsID": 4754,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "攻击元气LV4",
+      "goodsID": 4804,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "命中元气LV4",
+      "goodsID": 4814,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "速度元气LV4",
+      "goodsID": 4834,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "流血伤害元气LV4",
+      "goodsID": 4844,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 540,
+      "name": "攻击元气LV5",
+      "goodsID": 4605,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "暴击元气LV5",
+      "goodsID": 4615,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "暴伤元气LV5",
+      "goodsID": 4625,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "技能伤害元气LV5",
+      "goodsID": 4635,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "破防元气LV5",
+      "goodsID": 4645,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "穿透元气LV5",
+      "goodsID": 4655,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "生命元气LV5",
+      "goodsID": 4705,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "防御元气LV5",
+      "goodsID": 4715,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "免暴元气LV5",
+      "goodsID": 4725,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "格挡元气LV5",
+      "goodsID": 4735,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "闪避元气LV5",
+      "goodsID": 4745,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "韧性元气LV5",
+      "goodsID": 4755,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "攻击元气LV5",
+      "goodsID": 4805,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "命中元气LV5",
+      "goodsID": 4815,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "速度元气LV5",
+      "goodsID": 4835,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 540,
+      "name": "流血伤害元气LV5",
+      "goodsID": 4845,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    }
+  ],
+  "542": [
+    {
+      "id": 542,
+      "name": "攻击元气LV3",
+      "goodsID": 4603,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 542,
+      "name": "暴击元气LV3",
+      "goodsID": 4613,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 542,
+      "name": "暴伤元气LV3",
+      "goodsID": 4623,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 542,
+      "name": "技能伤害元气LV3",
+      "goodsID": 4633,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 542,
+      "name": "破防元气LV3",
+      "goodsID": 4643,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 542,
+      "name": "穿透元气LV3",
+      "goodsID": 4653,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 542,
+      "name": "攻击元气LV4",
+      "goodsID": 4604,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 542,
+      "name": "暴击元气LV4",
+      "goodsID": 4614,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 542,
+      "name": "暴伤元气LV4",
+      "goodsID": 4624,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 542,
+      "name": "技能伤害元气LV4",
+      "goodsID": 4634,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 542,
+      "name": "破防元气LV4",
+      "goodsID": 4644,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 542,
+      "name": "穿透元气LV4",
+      "goodsID": 4654,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 542,
+      "name": "攻击元气LV5",
+      "goodsID": 4605,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 542,
+      "name": "暴击元气LV5",
+      "goodsID": 4615,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 542,
+      "name": "暴伤元气LV5",
+      "goodsID": 4625,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 542,
+      "name": "技能伤害元气LV5",
+      "goodsID": 4635,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 542,
+      "name": "破防元气LV5",
+      "goodsID": 4645,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 542,
+      "name": "穿透元气LV5",
+      "goodsID": 4655,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    }
+  ],
+  "543": [
+    {
+      "id": 543,
+      "name": "生命元气LV3",
+      "goodsID": 4703,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 543,
+      "name": "防御元气LV3",
+      "goodsID": 4713,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 543,
+      "name": "免暴元气LV3",
+      "goodsID": 4723,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 543,
+      "name": "格挡元气LV3",
+      "goodsID": 4733,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 543,
+      "name": "闪避元气LV3",
+      "goodsID": 4743,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 543,
+      "name": "韧性元气LV3",
+      "goodsID": 4753,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 543,
+      "name": "生命元气LV4",
+      "goodsID": 4704,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 543,
+      "name": "防御元气LV4",
+      "goodsID": 4714,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 543,
+      "name": "免暴元气LV4",
+      "goodsID": 4724,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 543,
+      "name": "格挡元气LV4",
+      "goodsID": 4734,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 543,
+      "name": "闪避元气LV4",
+      "goodsID": 4744,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 543,
+      "name": "韧性元气LV4",
+      "goodsID": 4754,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 543,
+      "name": "生命元气LV5",
+      "goodsID": 4705,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 543,
+      "name": "防御元气LV5",
+      "goodsID": 4715,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 543,
+      "name": "免暴元气LV5",
+      "goodsID": 4725,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 543,
+      "name": "格挡元气LV5",
+      "goodsID": 4735,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 543,
+      "name": "闪避元气LV5",
+      "goodsID": 4745,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 543,
+      "name": "韧性元气LV5",
+      "goodsID": 4755,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    }
+  ],
+  "544": [
+    {
+      "id": 544,
+      "name": "攻击元气LV3",
+      "goodsID": 4803,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 544,
+      "name": "命中元气LV3",
+      "goodsID": 4813,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 544,
+      "name": "速度元气LV3",
+      "goodsID": 4833,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 544,
+      "name": "流血伤害元气LV3",
+      "goodsID": 4843,
+      "num": 1,
+      "group": 1,
+      "random": 8500
+    },
+    {
+      "id": 544,
+      "name": "攻击元气LV4",
+      "goodsID": 4804,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 544,
+      "name": "命中元气LV4",
+      "goodsID": 4814,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 544,
+      "name": "速度元气LV4",
+      "goodsID": 4834,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 544,
+      "name": "流血伤害元气LV4",
+      "goodsID": 4844,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 544,
+      "name": "攻击元气LV5",
+      "goodsID": 4805,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 544,
+      "name": "命中元气LV5",
+      "goodsID": 4815,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 544,
+      "name": "速度元气LV5",
+      "goodsID": 4835,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 544,
+      "name": "流血伤害元气LV5",
+      "goodsID": 4845,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    }
+  ],
+  "545": [
+    {
+      "id": 545,
+      "name": "攻击元气LV4",
+      "goodsID": 4604,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "暴击元气LV4",
+      "goodsID": 4614,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "暴伤元气LV4",
+      "goodsID": 4624,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "技能伤害元气LV4",
+      "goodsID": 4634,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "破防元气LV4",
+      "goodsID": 4644,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "穿透元气LV4",
+      "goodsID": 4654,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "生命元气LV4",
+      "goodsID": 4704,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "防御元气LV4",
+      "goodsID": 4714,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "免暴元气LV4",
+      "goodsID": 4724,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "格挡元气LV4",
+      "goodsID": 4734,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "闪避元气LV4",
+      "goodsID": 4744,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "韧性元气LV4",
+      "goodsID": 4754,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "攻击元气LV4",
+      "goodsID": 4804,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "命中元气LV4",
+      "goodsID": 4814,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "速度元气LV4",
+      "goodsID": 4834,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "流血伤害元气LV4",
+      "goodsID": 4844,
+      "num": 1,
+      "group": 1,
+      "random": 1400
+    },
+    {
+      "id": 545,
+      "name": "攻击元气LV5",
+      "goodsID": 4605,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "暴击元气LV5",
+      "goodsID": 4615,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "暴伤元气LV5",
+      "goodsID": 4625,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "技能伤害元气LV5",
+      "goodsID": 4635,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "破防元气LV5",
+      "goodsID": 4645,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "穿透元气LV5",
+      "goodsID": 4655,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "生命元气LV5",
+      "goodsID": 4705,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "防御元气LV5",
+      "goodsID": 4715,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "免暴元气LV5",
+      "goodsID": 4725,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "格挡元气LV5",
+      "goodsID": 4735,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "闪避元气LV5",
+      "goodsID": 4745,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "韧性元气LV5",
+      "goodsID": 4755,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "攻击元气LV5",
+      "goodsID": 4805,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "命中元气LV5",
+      "goodsID": 4815,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "速度元气LV5",
+      "goodsID": 4835,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    },
+    {
+      "id": 545,
+      "name": "流血伤害元气LV5",
+      "goodsID": 4845,
+      "num": 1,
+      "group": 1,
+      "random": 100
+    }
+  ],
+  "550": [
+    {
+      "id": 550,
+      "name": "攻击元气LV5",
+      "goodsID": 4605,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "暴击元气LV5",
+      "goodsID": 4615,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "暴伤元气LV5",
+      "goodsID": 4625,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "技能伤害元气LV5",
+      "goodsID": 4635,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "破防元气LV5",
+      "goodsID": 4645,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "穿透元气LV5",
+      "goodsID": 4655,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "生命元气LV5",
+      "goodsID": 4705,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "防御元气LV5",
+      "goodsID": 4715,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "免暴元气LV5",
+      "goodsID": 4725,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "格挡元气LV5",
+      "goodsID": 4735,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "闪避元气LV5",
+      "goodsID": 4745,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "韧性元气LV5",
+      "goodsID": 4755,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "攻击元气LV5",
+      "goodsID": 4805,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "命中元气LV5",
+      "goodsID": 4815,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "速度元气LV5",
+      "goodsID": 4835,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 550,
+      "name": "流血伤害元气LV5",
+      "goodsID": 4845,
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ]
+}

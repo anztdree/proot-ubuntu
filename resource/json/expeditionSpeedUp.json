@@ -1,0 +1,23 @@
+{
+  "1": {
+    "id": 1,
+    "timeStart": 101,
+    "timeEnd": 180,
+    "diamondPara": 1.5,
+    "name": "expeditionSpeedUp_name_1"
+  },
+  "2": {
+    "id": 2,
+    "timeStart": 181,
+    "timeEnd": 260,
+    "diamondPara": 2,
+    "name": "expeditionSpeedUp_name_2"
+  },
+  "3": {
+    "id": 3,
+    "timeStart": 261,
+    "timeEnd": 360,
+    "diamondPara": 3,
+    "name": "expeditionSpeedUp_name_3"
+  }
+}

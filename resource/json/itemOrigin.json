@@ -1,0 +1,947 @@
+{
+  "99": {
+    "id": 99,
+    "origin": "GM",
+    "originName": "gm"
+  },
+  "100": {
+    "id": 100,
+    "origin": "GM_MAIL",
+    "originName": "gm邮件"
+  },
+  "101": {
+    "id": 101,
+    "origin": "RECHARGE",
+    "originName": "充值"
+  },
+  "102": {
+    "id": 102,
+    "origin": "MAIL",
+    "originName": "邮件（一键领取）"
+  },
+  "103": {
+    "id": 103,
+    "origin": "DECOMPOSE_HERO",
+    "originName": "分解英雄"
+  },
+  "104": {
+    "id": 104,
+    "origin": "GUILD_BOSS_BATTLE",
+    "originName": "战队boss战斗奖励"
+  },
+  "105": {
+    "id": 105,
+    "origin": "DECOMPOSE_IMPRINT",
+    "originName": "印记分解"
+  },
+  "106": {
+    "id": 106,
+    "origin": "STRONG_ENEMY_BATTLE",
+    "originName": "强敌来袭战斗奖励"
+  },
+  "107": {
+    "id": 107,
+    "origin": "STRONG_ENEMY_RANK",
+    "originName": "强敌来袭排行奖励"
+  },
+  "108": {
+    "id": 108,
+    "origin": "ACTIVITY",
+    "originName": "筛选未写的活动（因做白名单，不要勾选）"
+  },
+  "109": {
+    "id": 109,
+    "origin": "ARENA_BATTLE",
+    "originName": "竞技场战斗奖励"
+  },
+  "110": {
+    "id": 110,
+    "origin": "ARENA_TOP_REWARD",
+    "originName": "竞技场历史最高奖励"
+  },
+  "111": {
+    "id": 111,
+    "origin": "ARENA_BUY_TIMES",
+    "originName": "竞技场购买次数"
+  },
+  "112": {
+    "id": 112,
+    "origin": "BACKPACK_CELL",
+    "originName": "出售道具"
+  },
+  "113": {
+    "id": 113,
+    "origin": "COMPOSE_HERO",
+    "originName": "合成英雄"
+  },
+  "114": {
+    "id": 114,
+    "origin": "PLUS_BACKPACK",
+    "originName": "增加背包"
+  },
+  "115": {
+    "id": 115,
+    "origin": "CELL_GAME_RECOVER_HERO",
+    "originName": "沙鲁游戏复活英雄"
+  },
+  "116": {
+    "id": 116,
+    "origin": "CHECKIN",
+    "originName": "签到"
+  },
+  "117": {
+    "id": 117,
+    "origin": "WISH_EQUIP",
+    "originName": "神龙许愿镶嵌龙珠"
+  },
+  "118": {
+    "id": 118,
+    "origin": "WISH_EXCHANGE",
+    "originName": "神龙许愿置换"
+  },
+  "119": {
+    "id": 119,
+    "origin": "BUY_DUNGEON_TIMES",
+    "originName": "购买副本次数"
+  },
+  "120": {
+    "id": 120,
+    "origin": "ENTRUST_GET_REWARD",
+    "originName": "领取委托奖励"
+  },
+  "121": {
+    "id": 121,
+    "origin": "REFRESH_ENTRUST",
+    "originName": "刷新委托"
+  },
+  "122": {
+    "id": 122,
+    "origin": "ENTRUST_USE_BOOK",
+    "originName": "使用委托书"
+  },
+  "123": {
+    "id": 123,
+    "origin": "ENTRUST_GET_HELP_REWARD",
+    "originName": "领取委托助战奖励"
+  },
+  "124": {
+    "id": 124,
+    "origin": "EARRING_LEVEL_UP",
+    "originName": "升级耳环"
+  },
+  "125": {
+    "id": 125,
+    "origin": "EARRING_EVOLVE",
+    "originName": "突破耳环"
+  },
+  "126": {
+    "id": 126,
+    "origin": "WEAR_EQUIP",
+    "originName": "脱穿装备"
+  },
+  "127": {
+    "id": 127,
+    "origin": "MERGE_EQUIP",
+    "originName": "合成装备"
+  },
+  "128": {
+    "id": 128,
+    "origin": "GET_HEART",
+    "originName": "送收心"
+  },
+  "129": {
+    "id": 129,
+    "origin": "BUY_GOLD",
+    "originName": "购买金币"
+  },
+  "130": {
+    "id": 130,
+    "origin": "CREATE_GUILD",
+    "originName": "创建战队"
+  },
+  "131": {
+    "id": 131,
+    "origin": "GUILD_CHECKIN",
+    "originName": "战队签到"
+  },
+  "132": {
+    "id": 132,
+    "origin": "BUY_GUILD_BOSS_TIMES",
+    "originName": "购买战队boss次数"
+  },
+  "133": {
+    "id": 133,
+    "origin": "SATAN_GIFT",
+    "originName": "领取撒旦红包"
+  },
+  "134": {
+    "id": 134,
+    "origin": "TECH_UP",
+    "originName": "升级科技"
+  },
+  "135": {
+    "id": 135,
+    "origin": "TECH_RESET",
+    "originName": "重置科技"
+  },
+  "136": {
+    "id": 136,
+    "origin": "TREASURE_BATTLE_REWARD",
+    "originName": "战队夺宝战斗奖励"
+  },
+  "137": {
+    "id": 137,
+    "origin": "HANGUP",
+    "originName": "挂机收益"
+  },
+  "138": {
+    "id": 138,
+    "origin": "HANGUP_BATTLE",
+    "originName": "关卡战斗奖励"
+  },
+  "139": {
+    "id": 139,
+    "origin": "HERO_LEVEL_UP",
+    "originName": "英雄升级"
+  },
+  "140": {
+    "id": 140,
+    "origin": "HERO_EVOLVE",
+    "originName": "英雄突破"
+  },
+  "141": {
+    "id": 141,
+    "origin": "HERO_WAKE_UP",
+    "originName": "英雄觉醒"
+  },
+  "142": {
+    "id": 142,
+    "origin": "HERO_SPUER_SKILL_UP",
+    "originName": "英雄技能升级"
+  },
+  "143": {
+    "id": 143,
+    "origin": "QIGONG",
+    "originName": "气功修炼"
+  },
+  "144": {
+    "id": 144,
+    "origin": "IMPRINT_LEVEL_UP",
+    "originName": "印记强化"
+  },
+  "145": {
+    "id": 145,
+    "origin": "IMPRINT_STAR_UP",
+    "originName": "印记升星"
+  },
+  "146": {
+    "id": 146,
+    "origin": "IMPRINT_REFRESH",
+    "originName": "活动5004"
+  },
+  "147": {
+    "id": 147,
+    "origin": "KARIN_BOX",
+    "originName": "加林塔宝箱"
+  },
+  "148": {
+    "id": 148,
+    "origin": "KARIN_BUY_BATTLE_TIMES",
+    "originName": "加林塔购买鸡腿"
+  },
+  "149": {
+    "id": 149,
+    "origin": "KARIN_BUY_FEET",
+    "originName": "加林塔购买脚印"
+  },
+  "150": {
+    "id": 150,
+    "origin": "MAHA_BOX",
+    "originName": "摩诃大冒险宝箱奖励"
+  },
+  "151": {
+    "id": 151,
+    "origin": "MAHA_BATTLE_REWARD",
+    "originName": "摩诃大冒险战斗奖励"
+  },
+  "152": {
+    "id": 152,
+    "origin": "MAHA_BUY_TIMES",
+    "originName": "摩诃大冒险购买次数"
+  },
+  "153": {
+    "id": 153,
+    "origin": "MARKET_REFRESH",
+    "originName": "市场刷新"
+  },
+  "154": {
+    "id": 154,
+    "origin": "MINE_RESET",
+    "originName": "荒野探险重置本层"
+  },
+  "155": {
+    "id": 155,
+    "origin": "MINE_BUY_TIMES",
+    "originName": "荒野探险购买行动力"
+  },
+  "156": {
+    "id": 156,
+    "origin": "RANK_LIKE",
+    "originName": "排行榜点赞"
+  },
+  "157": {
+    "id": 157,
+    "origin": "REFRESH_SHOP",
+    "originName": "刷新商店"
+  },
+  "158": {
+    "id": 158,
+    "origin": "SNAKE_RECOVER",
+    "originName": "蛇道复活"
+  },
+  "159": {
+    "id": 159,
+    "origin": "SNAKE_SWEEP",
+    "originName": "蛇道扫荡"
+  },
+  "160": {
+    "id": 160,
+    "origin": "STRONG_ENEMY_BUY_TIMES",
+    "originName": "强敌来袭购买次数"
+  },
+  "161": {
+    "id": 161,
+    "origin": "SUMMON",
+    "originName": "召唤"
+  },
+  "162": {
+    "id": 162,
+    "origin": "TEMPLE",
+    "originName": "神殿试炼"
+  },
+  "163": {
+    "id": 163,
+    "origin": "TEMPLE_BUY_TIMES",
+    "originName": "神殿试炼购买次数"
+  },
+  "164": {
+    "id": 164,
+    "origin": "CHANGE_NICK",
+    "originName": "修改昵称"
+  },
+  "165": {
+    "id": 165,
+    "origin": "REFRESH_VIP_MARKET",
+    "originName": "刷新vip市场"
+  },
+  "166": {
+    "id": 166,
+    "origin": "WEAPON_STAR_UP",
+    "originName": "武器升星"
+  },
+  "167": {
+    "id": 167,
+    "origin": "WEAPON_STRENG",
+    "originName": "武器强化"
+  },
+  "168": {
+    "id": 168,
+    "origin": "WEAPON_MERGE",
+    "originName": "武器合成"
+  },
+  "169": {
+    "id": 169,
+    "origin": "WEAPON_DECOMPOSE",
+    "originName": "武器分解"
+  },
+  "170": {
+    "id": 170,
+    "origin": "WEAPON_REBORN",
+    "originName": "武器重生"
+  },
+  "171": {
+    "id": 171,
+    "origin": "DUNGEON",
+    "originName": "副本"
+  },
+  "172": {
+    "id": 172,
+    "origin": "OPEN_BOX",
+    "originName": "打开背包中的盒子"
+  },
+  "173": {
+    "id": 173,
+    "origin": "CELL_GAME_KILL_REWARD",
+    "originName": "沙鲁游戏击杀奖励"
+  },
+  "174": {
+    "id": 174,
+    "origin": "CELL_GAME_BOX",
+    "originName": "沙鲁游戏宝箱"
+  },
+  "175": {
+    "id": 175,
+    "origin": "LEVEL_GIFT",
+    "originName": "等级礼包"
+  },
+  "176": {
+    "id": 176,
+    "origin": "FIRST_RECHARGE",
+    "originName": "首充奖励"
+  },
+  "177": {
+    "id": 177,
+    "origin": "VIP_REWARD",
+    "originName": "vip等级奖励"
+  },
+  "178": {
+    "id": 178,
+    "origin": "CHAPTER_REWARD",
+    "originName": "章节奖励"
+  },
+  "179": {
+    "id": 179,
+    "origin": "IMPRINT_MERGE",
+    "originName": "印记碎片合成"
+  },
+  "180": {
+    "id": 180,
+    "origin": "MARKET",
+    "originName": "市场购买"
+  },
+  "181": {
+    "id": 181,
+    "origin": "MINE_BOX",
+    "originName": "荒野探险宝箱"
+  },
+  "182": {
+    "id": 182,
+    "origin": "MONTH_CARD_DAILY",
+    "originName": "月卡每日奖励"
+  },
+  "183": {
+    "id": 183,
+    "origin": "SHOP",
+    "originName": "商店购买"
+  },
+  "184": {
+    "id": 184,
+    "origin": "SNAKE_BATTLE",
+    "originName": "蛇道战斗奖励"
+  },
+  "185": {
+    "id": 185,
+    "origin": "SNAKE_BOX",
+    "originName": "蛇道宝箱"
+  },
+  "186": {
+    "id": 186,
+    "origin": "TASK",
+    "originName": "任务"
+  },
+  "187": {
+    "id": 187,
+    "origin": "TIME_MACHINE_BATTLE",
+    "originName": "时光穿越战斗奖励"
+  },
+  "188": {
+    "id": 188,
+    "origin": "TIME_MACHINE",
+    "originName": "时光穿越"
+  },
+  "189": {
+    "id": 189,
+    "origin": "VIP_MARKET",
+    "originName": "vip市场"
+  },
+  "190": {
+    "id": 190,
+    "origin": "GUILD_BOSS_RANK",
+    "originName": "战队boss排名奖励"
+  },
+  "191": {
+    "id": 191,
+    "origin": "MAHA_BOSS_OWNER",
+    "originName": "摩诃大冒险boss拥有者奖励"
+  },
+  "192": {
+    "id": 192,
+    "origin": "ARENA_DAILY",
+    "originName": "竞技场每日结算"
+  },
+  "193": {
+    "id": 193,
+    "origin": "KARIN",
+    "originName": "加林塔结算奖励"
+  },
+  "194": {
+    "id": 194,
+    "origin": "TREASURE",
+    "originName": "战队夺宝结算奖励"
+  },
+  "195": {
+    "id": 195,
+    "origin": "ACTIVE_CODE",
+    "originName": "激活码"
+  },
+  "196": {
+    "id": 196,
+    "origin": "TRAINING",
+    "originName": "修行"
+  },
+  "197": {
+    "id": 197,
+    "origin": "HERO_BREAK",
+    "originName": "界限突破"
+  },
+  "198": {
+    "id": 198,
+    "origin": "BOSS_COMPETITION",
+    "originName": "boss争夺战"
+  },
+  "199": {
+    "id": 199,
+    "origin": "SUPER_SKILL",
+    "originName": "超必杀（升级突破）"
+  },
+  "200": {
+    "id": 200,
+    "origin": "SUPER_SKILL_COMPENSATE",
+    "originName": "超必杀补偿"
+  },
+  "201": {
+    "id": 201,
+    "origin": "IMPEACH_CAPTAIN",
+    "originName": "弹劾队长"
+  },
+  "202": {
+    "id": 202,
+    "origin": "GLOBAL_WAR",
+    "originName": "跨服战（会有邮件）"
+  },
+  "203": {
+    "id": 203,
+    "origin": "BALL_WAR",
+    "originName": "龙珠争夺战（会有邮件）"
+  },
+  "204": {
+    "id": 204,
+    "origin": "ONLIE_GIFT",
+    "originName": "在线礼包"
+  },
+  "205": {
+    "id": 205,
+    "origin": "KILL_MERGE_BOSS",
+    "originName": "活动5008_击杀BOSS"
+  },
+  "206": {
+    "id": 206,
+    "origin": "MERGE_BOSS_RANK",
+    "originName": "活动5008_排名"
+  },
+  "207": {
+    "id": 207,
+    "origin": "GENKI",
+    "originName": "元气"
+  },
+  "208": {
+    "id": 208,
+    "origin": "ACT_GOOD_HARVEST",
+    "originName": "活动5009"
+  },
+  "209": {
+    "id": 209,
+    "origin": "ACT_HERO_REWARD",
+    "originName": "活动5013"
+  },
+  "210": {
+    "id": 210,
+    "origin": "EXPEDITION",
+    "originName": "异次元远征"
+  },
+  "211": {
+    "id": 211,
+    "origin": "RETRIEVE",
+    "originName": "资源找回"
+  },
+  "212": {
+    "id": 212,
+    "origin": "INHERIT",
+    "originName": "传承"
+  },
+  "213": {
+    "id": 213,
+    "origin": "ACT_3003",
+    "originName": "活动3003"
+  },
+  "214": {
+    "id": 214,
+    "origin": "ACT_3012",
+    "originName": "活动3012"
+  },
+  "215": {
+    "id": 215,
+    "origin": "ACT_5003",
+    "originName": "活动5003"
+  },
+  "216": {
+    "id": 216,
+    "origin": "ACT_5010",
+    "originName": "活动5010"
+  },
+  "217": {
+    "id": 217,
+    "origin": "ACT_5012",
+    "originName": "活动5012"
+  },
+  "218": {
+    "id": 218,
+    "origin": "ACT_WHIS_FEAST",
+    "originName": "活动5014"
+  },
+  "219": {
+    "id": 219,
+    "origin": "BATTLE_MEDAL",
+    "originName": "战令"
+  },
+  "220": {
+    "id": 220,
+    "origin": "ACT_DOUBLE_ELEVEN",
+    "originName": "活动5016"
+  },
+  "221": {
+    "id": 221,
+    "origin": "TEAM_TRAINING",
+    "originName": "团队修炼"
+  },
+  "222": {
+    "id": 222,
+    "origin": "CHANGE_GUILD_NAME",
+    "originName": "战队改名"
+  },
+  "223": {
+    "id": 223,
+    "origin": "ACT_TIME_LIMIT_EXCHANGR",
+    "originName": "活动5018"
+  },
+  "224": {
+    "id": 224,
+    "origin": "HERO_SKIN",
+    "originName": "英雄皮肤"
+  },
+  "225": {
+    "id": 225,
+    "origin": "ACT_KILL_NIEN_BEAST",
+    "originName": "活动5019"
+  },
+  "226": {
+    "id": 226,
+    "origin": "WEAPON_HALO",
+    "originName": "武器光环"
+  },
+  "227": {
+    "id": 227,
+    "origin": "TEAM_DUNGEON",
+    "originName": "团本（会有邮件）"
+  },
+  "228": {
+    "id": 228,
+    "origin": "IMPRINT",
+    "originName": "印记"
+  },
+  "229": {
+    "id": 229,
+    "origin": "IMPRINT_EXTRACTION",
+    "originName": "活动5022"
+  },
+  "230": {
+    "id": 230,
+    "origin": "GEMSTONE",
+    "originName": "宝石"
+  },
+  "231": {
+    "id": 231,
+    "origin": "FB_SHARE",
+    "originName": "FB分享"
+  },
+  "232": {
+    "id": 232,
+    "origin": "FB_INVITE",
+    "originName": "FB邀请"
+  },
+  "233": {
+    "id": 233,
+    "origin": "RESONANCE",
+    "originName": "共鸣"
+  },
+  "234": {
+    "id": 234,
+    "origin": "TOP_BATTLE",
+    "originName": "巅峰战"
+  },
+  "235": {
+    "id": 235,
+    "origin": "QUESTIONNAIRE",
+    "originName": "问卷调查"
+  },
+  "236": {
+    "id": 236,
+    "origin": "ACT_WEAPON_CAST",
+    "originName": "活动5028"
+  },
+  "237": {
+    "id": 237,
+    "origin": "DOWNLOAD_REWARD",
+    "originName": "下载有礼"
+  },
+  "238": {
+    "id": 238,
+    "origin": "CHANNEL_WEEKLY",
+    "originName": "渠道每周礼包"
+  },
+  "239": {
+    "id": 239,
+    "origin": "ACT_LUCKY_WHEEL",
+    "originName": "活动5030"
+  },
+  "240": {
+    "id": 240,
+    "origin": "TIME_TRIAL",
+    "originName": "时光试炼"
+  },
+  "241": {
+    "id": 241,
+    "origin": "DAILY_TASK",
+    "originName": "每日任务"
+  },
+  "242": {
+    "id": 242,
+    "origin": "ACT_1001",
+    "originName": "活动1001"
+  },
+  "243": {
+    "id": 243,
+    "origin": "ACT_1002",
+    "originName": "活动1002（会有邮件）"
+  },
+  "244": {
+    "id": 244,
+    "origin": "ACT_3008",
+    "originName": "活动3008"
+  },
+  "245": {
+    "id": 245,
+    "origin": "ACT_3016",
+    "originName": "活动3016（会有邮件）"
+  },
+  "246": {
+    "id": 246,
+    "origin": "ACT_5008",
+    "originName": "活动5008"
+  },
+  "247": {
+    "id": 247,
+    "origin": "BATTLE_MEDAL_SHOP",
+    "originName": "战令商店"
+  },
+  "248": {
+    "id": 248,
+    "origin": "GRAVITY_TRIAL",
+    "originName": "重力试炼"
+  },
+  "249": {
+    "id": 249,
+    "origin": "ACT_5001",
+    "originName": "活动5001"
+  },
+  "250": {
+    "id": 250,
+    "origin": "ACT_5002",
+    "originName": "活动5002"
+  },
+  "251": {
+    "id": 251,
+    "origin": "ACT_5034",
+    "originName": "活动5034"
+  },
+  "252": {
+    "id": 252,
+    "origin": "ACT_BLESS",
+    "originName": "活动5035"
+  },
+  "253": {
+    "id": 253,
+    "origin": "ACT_CROSS_SERVER_RANK",
+    "originName": "活动5036"
+  },
+  "254": {
+    "id": 254,
+    "origin": "ACT_HERO_SUPER_GIFT",
+    "originName": "活动5037"
+  },
+  "255": {
+    "id": 255,
+    "origin": "LESSON_FUND",
+    "originName": "关卡特权"
+  },
+  "256": {
+    "id": 256,
+    "origin": "YOUTUBER_RECRUIT",
+    "originName": " youtuber招募"
+  },
+  "257": {
+    "id": 257,
+    "origin": "ACT_GALAXY_ADVENTURE",
+    "originName": "活动5039"
+  },
+  "258": {
+    "id": 258,
+    "origin": "LITTLE_GAME",
+    "originName": "小游戏"
+  },
+  "259": {
+    "id": 259,
+    "origin": "ALTAR_DECOMPOSE_HERO",
+    "originName": "祭坛分解英雄"
+  },
+  "260": {
+    "id": 260,
+    "origin": "ACT_GLEANING",
+    "originName": "活动5040"
+  },
+  "261": {
+    "id": 261,
+    "origin": "BS_ADD_TO_HOME",
+    "originName": "黑石添加桌面快捷方式"
+  },
+  "262": {
+    "id": 262,
+    "origin": "ACT_5005",
+    "originName": "活动5005"
+  },
+  "263": {
+    "id": 263,
+    "origin": "ACT_5006",
+    "originName": "活动5006"
+  },
+  "264": {
+    "id": 264,
+    "origin": "ACT_5007",
+    "originName": "活动5007"
+  },
+  "265": {
+    "id": 265,
+    "origin": "ACT_5011",
+    "originName": "活动5011"
+  },
+  "266": {
+    "id": 266,
+    "origin": "ACT_5015",
+    "originName": "活动5015"
+  },
+  "267": {
+    "id": 267,
+    "origin": "ACT_5020",
+    "originName": "活动5020"
+  },
+  "268": {
+    "id": 268,
+    "origin": "ACT_5021",
+    "originName": "活动5021"
+  },
+  "269": {
+    "id": 269,
+    "origin": "ACT_5026",
+    "originName": "活动5026"
+  },
+  "270": {
+    "id": 270,
+    "origin": "ACT_5027",
+    "originName": "活动5027"
+  },
+  "271": {
+    "id": 271,
+    "origin": "ACT_5029",
+    "originName": "活动5029"
+  },
+  "272": {
+    "id": 272,
+    "origin": "ACT_5031",
+    "originName": "活动5031"
+  },
+  "273": {
+    "id": 273,
+    "origin": "ACT_5032",
+    "originName": "活动5032"
+  },
+  "274": {
+    "id": 274,
+    "origin": "ACT_5033",
+    "originName": "活动5033"
+  },
+  "275": {
+    "id": 275,
+    "origin": "ACT_5038",
+    "originName": "活动5038"
+  },
+  "276": {
+    "id": 276,
+    "origin": "ACT_101",
+    "originName": "活动101"
+  },
+  "277": {
+    "id": 277,
+    "origin": "ACT_1003",
+    "originName": "活动1003"
+  },
+  "278": {
+    "id": 278,
+    "origin": "ACT_3004",
+    "originName": "活动3004"
+  },
+  "279": {
+    "id": 279,
+    "origin": "ACT_3007",
+    "originName": "活动3007"
+  },
+  "280": {
+    "id": 280,
+    "origin": "ACT_3009",
+    "originName": "活动3009"
+  },
+  "281": {
+    "id": 281,
+    "origin": "ACT_3010",
+    "originName": "活动3010"
+  },
+  "282": {
+    "id": 282,
+    "origin": "ACT_3011",
+    "originName": "活动3011"
+  },
+  "283": {
+    "id": 283,
+    "origin": "ACT_3013",
+    "originName": "活动3013"
+  },
+  "284": {
+    "id": 284,
+    "origin": "ACT_3001",
+    "originName": "活动3001"
+  },
+  "285": {
+    "id": 285,
+    "origin": "ACT_3002",
+    "originName": "活动3002"
+  },
+  "286": {
+    "id": 286,
+    "origin": "ACT_2004",
+    "originName": "活动2004"
+  },
+  "5041": {
+    "id": 5041,
+    "origin": "ACT_NEW_HERO_CHALLENGE",
+    "originName": "活动5041"
+  }
+}

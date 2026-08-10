@@ -1,0 +1,586 @@
+{
+  "3901": [
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3511",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3512",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3513",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3521",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3522",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3523",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3531",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3532",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3533",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3541",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3542",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3543",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3551",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3552",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3553",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3561",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3562",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3901,
+      "name": "神秘之石（护腕）",
+      "goodsID": "3563",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "3902": [
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3611",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3612",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3613",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3621",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3622",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3623",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3631",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3632",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3633",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3641",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3642",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3643",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3651",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3652",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3653",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3661",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3662",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3902,
+      "name": "神秘之石（衣服）",
+      "goodsID": "3663",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "3903": [
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3711",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3712",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3713",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3721",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3722",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3723",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3731",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3732",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3733",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3741",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3742",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3743",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3751",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3752",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3753",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3761",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3762",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3903,
+      "name": "神秘之石（腰带）",
+      "goodsID": "3763",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ],
+  "3904": [
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3811",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3812",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3813",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3821",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3822",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3823",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3831",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3832",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3833",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3841",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3842",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3843",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3851",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3852",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3853",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3861",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3862",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    },
+    {
+      "id": 3904,
+      "name": "神秘之石（鞋子）",
+      "goodsID": "3863",
+      "num": 1,
+      "group": 1,
+      "random": 1000
+    }
+  ]
+}

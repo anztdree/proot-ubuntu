@@ -1,0 +1,53 @@
+{
+  "1": {
+    "id": 1,
+    "topRankStart": 1,
+    "topRankEnd": 1,
+    "topRankRewardId1": 550,
+    "topRankRewardNum1": 2,
+    "topRankRewardId2": 540,
+    "topRankRewardNum2": 5,
+    "topRankRewardId3": 626,
+    "topRankRewardNum3": 3
+  },
+  "2": {
+    "id": 2,
+    "topRankStart": 2,
+    "topRankEnd": 2,
+    "topRankRewardId1": 550,
+    "topRankRewardNum1": 1,
+    "topRankRewardId2": 540,
+    "topRankRewardNum2": 5,
+    "topRankRewardId3": 626,
+    "topRankRewardNum3": 2
+  },
+  "3": {
+    "id": 3,
+    "topRankStart": 3,
+    "topRankEnd": 4,
+    "topRankRewardId1": 550,
+    "topRankRewardNum1": 1,
+    "topRankRewardId2": 540,
+    "topRankRewardNum2": 3,
+    "topRankRewardId3": 625,
+    "topRankRewardNum3": 3
+  },
+  "4": {
+    "id": 4,
+    "topRankStart": 5,
+    "topRankEnd": 16,
+    "topRankRewardId1": 540,
+    "topRankRewardNum1": 3,
+    "topRankRewardId2": 625,
+    "topRankRewardNum2": 3
+  },
+  "5": {
+    "id": 5,
+    "topRankStart": 17,
+    "topRankEnd": 64,
+    "topRankRewardId1": 540,
+    "topRankRewardNum1": 2,
+    "topRankRewardId2": 625,
+    "topRankRewardNum2": 2
+  }
+}

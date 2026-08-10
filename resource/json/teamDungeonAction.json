@@ -1,0 +1,2146 @@
+{
+  "210101": {
+    "id": 210101,
+    "belongTo": "熔岩地狱",
+    "description": "获得攻坚buff（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310101
+  },
+  "210102": {
+    "id": 210102,
+    "belongTo": "熔岩地狱",
+    "description": "施加支援全队buff（5%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310102
+  },
+  "210103": {
+    "id": 210103,
+    "belongTo": "熔岩地狱",
+    "description": "破坏陷阱",
+    "actionType": "removePieceType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": "trap"
+  },
+  "210104": {
+    "id": 210104,
+    "belongTo": "熔岩地狱",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310109
+  },
+  "210105": {
+    "id": 210105,
+    "belongTo": "熔岩地狱",
+    "description": "召唤岩浆",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell1",
+    "para2": "blank",
+    "para3": 1,
+    "para4": 1014
+  },
+  "210106": {
+    "id": 210106,
+    "belongTo": "熔岩地狱",
+    "description": "召唤小怪",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell4",
+    "para2": "blank",
+    "para3": 1,
+    "para4": 1011
+  },
+  "210107": {
+    "id": 210107,
+    "belongTo": "熔岩地狱",
+    "description": "挂监听器监听小怪死亡斌触发cd减少（弃用）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310103
+  },
+  "210108": {
+    "id": 210108,
+    "belongTo": "熔岩地狱",
+    "description": "让自己的某技能CD额外减少",
+    "actionType": "cdExtraDown",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 110106,
+    "para4": 1
+  },
+  "210109": {
+    "id": 210109,
+    "belongTo": "熔岩地狱",
+    "description": "挂战场内技能-岩浆回血低级",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310104
+  },
+  "210110": {
+    "id": 210110,
+    "belongTo": "熔岩地狱",
+    "description": "挂战场内技能-岩浆回血高级",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310105
+  },
+  "210111": {
+    "id": 210111,
+    "belongTo": "熔岩地狱",
+    "description": "挂战场内技能-对流血单位增伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310106
+  },
+  "210112": {
+    "id": 210112,
+    "belongTo": "熔岩地狱",
+    "description": "对触碰者扣百分比血量（20%）",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 0.2
+  },
+  "210113": {
+    "id": 210113,
+    "belongTo": "熔岩地狱",
+    "description": "对触碰者挂战场内技能-岩浆流血低级",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310107
+  },
+  "210114": {
+    "id": 210114,
+    "belongTo": "熔岩地狱",
+    "description": "对触碰者挂战场内技能-岩浆流血高级",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310108
+  },
+  "210115": {
+    "id": 210115,
+    "belongTo": "熔岩地狱",
+    "description": "对触碰者扣百分比血量（30%）",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 0.3
+  },
+  "210201": {
+    "id": 210201,
+    "belongTo": "无限分裂",
+    "description": "获得攻坚buff（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310201
+  },
+  "210202": {
+    "id": 210202,
+    "belongTo": "无限分裂",
+    "description": "施加支援全队buff（5%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310202
+  },
+  "210203": {
+    "id": 210203,
+    "belongTo": "无限分裂",
+    "description": "破坏陷阱",
+    "actionType": "removePieceType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": "trap"
+  },
+  "210204": {
+    "id": 210204,
+    "belongTo": "无限分裂",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310206
+  },
+  "210205": {
+    "id": 210205,
+    "belongTo": "无限分裂",
+    "description": "给击杀者挂战场内技能-伤害减少",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310203
+  },
+  "210206": {
+    "id": 210206,
+    "belongTo": "无限分裂",
+    "description": "召唤先锋小队",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell4",
+    "para2": "blank",
+    "para3": 1,
+    "para4": 1021
+  },
+  "210207": {
+    "id": 210207,
+    "belongTo": "无限分裂",
+    "description": "变形精英为小怪",
+    "actionType": "changePieceFinalType",
+    "para1": "cellAll",
+    "para2": "eliteRandom1",
+    "para3": 1021
+  },
+  "210208": {
+    "id": 210208,
+    "belongTo": "无限分裂",
+    "description": "boss获得增伤低级",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310204
+  },
+  "210209": {
+    "id": 210209,
+    "belongTo": "无限分裂",
+    "description": "邪恶爆弹AOE低级",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.2,
+    "para4": "withBuffID",
+    "para5": 310205
+  },
+  "210210": {
+    "id": 210210,
+    "belongTo": "无限分裂",
+    "description": "眩晕玩家",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310205
+  },
+  "210211": {
+    "id": 210211,
+    "belongTo": "无限分裂",
+    "description": "把小怪变精英",
+    "actionType": "changePieceFinalType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 1022
+  },
+  "210212": {
+    "id": 210212,
+    "belongTo": "无限分裂",
+    "description": "召唤液化布欧",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell1",
+    "para2": "blank",
+    "para3": 1,
+    "para4": 1024
+  },
+  "210213": {
+    "id": 210213,
+    "belongTo": "无限分裂",
+    "description": "boss获得增伤高级",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310207
+  },
+  "210214": {
+    "id": 210214,
+    "belongTo": "无限分裂",
+    "description": "邪恶爆弹AOE高级",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.3,
+    "para4": "withBuffID",
+    "para5": 310205
+  },
+  "210301": {
+    "id": 210301,
+    "belongTo": "美食大作战",
+    "description": "获得攻坚buff（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310101
+  },
+  "210302": {
+    "id": 210302,
+    "belongTo": "美食大作战",
+    "description": "施加支援全队buff（5%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310102
+  },
+  "210303": {
+    "id": 210303,
+    "belongTo": "美食大作战",
+    "description": "转换陷阱",
+    "actionType": "changePieceFinalType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 1035
+  },
+  "210304": {
+    "id": 210304,
+    "belongTo": "美食大作战",
+    "description": "移除空地（非实体）上的腐烂食物",
+    "actionType": "removePieceFinalType",
+    "para1": "cellAfter",
+    "para2": "notPlayer",
+    "para3": 1037
+  },
+  "210305": {
+    "id": 210305,
+    "belongTo": "美食大作战",
+    "description": "支援者在空地（非实体）上召唤新鲜食物",
+    "actionType": "summonPieceFinalType",
+    "para1": "cellAfter",
+    "para2": "notPlayer",
+    "para3": 1,
+    "para4": 1036
+  },
+  "210306": {
+    "id": 210306,
+    "belongTo": "美食大作战",
+    "description": "移除玩家身上的腐烂食物",
+    "actionType": "removeEffect",
+    "para1": "cellAfter",
+    "para2": "allPlayer",
+    "para3": 310305
+  },
+  "210307": {
+    "id": 210307,
+    "belongTo": "美食大作战",
+    "description": "支援者在玩家身上召唤新鲜食物",
+    "actionType": "putEffect",
+    "para1": "cellAfter",
+    "para2": "allPlayer",
+    "para3": 310304
+  },
+  "210308": {
+    "id": 210308,
+    "belongTo": "美食大作战",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310109
+  },
+  "210309": {
+    "id": 210309,
+    "belongTo": "美食大作战",
+    "description": "移除距离BOSS最近玩家（携带新鲜食物）的新鲜食物",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss",
+    "para3": 310304,
+    "para4": "withEffectID",
+    "para5": 310304
+  },
+  "210310": {
+    "id": 210310,
+    "belongTo": "美食大作战",
+    "description": "给予距离BOSS最近玩家（不携带腐烂食物）腐烂食物",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss",
+    "para3": 310305,
+    "para4": "withoutEffectID",
+    "para5": 310305
+  },
+  "210311": {
+    "id": 210311,
+    "belongTo": "美食大作战",
+    "description": "击退随机1个玩家",
+    "actionType": "backoff",
+    "para1": "cellAll",
+    "para2": "playerRandom1"
+  },
+  "210312": {
+    "id": 210312,
+    "belongTo": "美食大作战",
+    "description": "移除新鲜食物BUFF集合",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310304
+  },
+  "210313": {
+    "id": 210313,
+    "belongTo": "美食大作战",
+    "description": "给予腐烂食物BUFF集合",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310305
+  },
+  "210314": {
+    "id": 210314,
+    "belongTo": "美食大作战",
+    "description": "移除腐烂食物BUFF集合",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310305
+  },
+  "210315": {
+    "id": 210315,
+    "belongTo": "美食大作战",
+    "description": "给予新鲜食物BUFF集合",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310304
+  },
+  "210316": {
+    "id": 210316,
+    "belongTo": "美食大作战",
+    "description": "回复百分比损失血量（20%）",
+    "actionType": "percentHealLostHp",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.2
+  },
+  "210317": {
+    "id": 210317,
+    "belongTo": "美食大作战",
+    "description": "挂战场内技能-BOSS战减伤",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 310301
+  },
+  "210318": {
+    "id": 210318,
+    "belongTo": "美食大作战",
+    "description": "扣百分比当前血量（20%）",
+    "actionType": "percentDamageCurHp",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.2
+  },
+  "210319": {
+    "id": 210319,
+    "belongTo": "美食大作战",
+    "description": "挂战场内技能-BOSS战受伤增加",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 310302
+  },
+  "210320": {
+    "id": 210320,
+    "belongTo": "美食大作战",
+    "description": "移除烧烤架",
+    "actionType": "removePieceFinalType",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1035
+  },
+  "210321": {
+    "id": 210321,
+    "belongTo": "美食大作战",
+    "description": "移除新鲜食物",
+    "actionType": "removePieceFinalType",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1036
+  },
+  "210322": {
+    "id": 210322,
+    "belongTo": "美食大作战",
+    "description": "移除腐烂食物",
+    "actionType": "removePieceFinalType",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1037
+  },
+  "210323": {
+    "id": 210323,
+    "belongTo": "美食大作战",
+    "description": "移除距离BOSS最近玩家（不携带腐烂食物）的新鲜食物",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss",
+    "para3": 310304,
+    "para4": "withoutEffectID",
+    "para5": 310305
+  },
+  "210324": {
+    "id": 210324,
+    "belongTo": "美食大作战",
+    "description": "自身有腐烂食物时才给予新鲜食物",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310304,
+    "para4": "withEffectID",
+    "para5": 310305
+  },
+  "210325": {
+    "id": 210325,
+    "belongTo": "美食大作战",
+    "description": "移除自身的腐烂食物",
+    "actionType": "removeEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310305
+  },
+  "210401": {
+    "id": 210401,
+    "belongTo": "帝王之怒",
+    "description": "获得攻坚buff（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310201
+  },
+  "210402": {
+    "id": 210402,
+    "belongTo": "帝王之怒",
+    "description": "施加支援全队buff（5%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310202
+  },
+  "210403": {
+    "id": 210403,
+    "belongTo": "帝王之怒",
+    "description": "破坏陷阱",
+    "actionType": "removePieceType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": "trap"
+  },
+  "210404": {
+    "id": 210404,
+    "belongTo": "帝王之怒",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310206
+  },
+  "210405": {
+    "id": 210405,
+    "belongTo": "帝王之怒",
+    "description": "夺取龙珠",
+    "actionType": "dragonBall",
+    "para1": "cell8",
+    "para2": "priority",
+    "para4": "withPieceFinalType",
+    "para5": 10410
+  },
+  "210406": {
+    "id": 210406,
+    "belongTo": "帝王之怒",
+    "description": "收集龙珠",
+    "actionType": "dragonBall",
+    "para1": "cell1",
+    "para2": "self"
+  },
+  "210407": {
+    "id": 210407,
+    "belongTo": "帝王之怒",
+    "description": "对触碰者挂战场外技能-流血（大）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 110429
+  },
+  "210408": {
+    "id": 210408,
+    "belongTo": "帝王之怒",
+    "description": "对全场玩家扣百分比血量（20%）",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.2
+  },
+  "210409": {
+    "id": 210409,
+    "belongTo": "帝王之怒",
+    "description": "对全场玩家扣百分比血量（30%）",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.3
+  },
+  "210410": {
+    "id": 210410,
+    "belongTo": "帝王之怒",
+    "description": "对触碰者挂战场外技能-流血（小）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 110428
+  },
+  "210411": {
+    "id": 210411,
+    "belongTo": "帝王之怒",
+    "description": "挂战场内技能-对流血单位增伤（小）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310404
+  },
+  "210412": {
+    "id": 210412,
+    "belongTo": "帝王之怒",
+    "description": "给予精英怪鼓舞buff-三围增加",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "monster",
+    "para3": 310401
+  },
+  "210413": {
+    "id": 210413,
+    "belongTo": "帝王之怒",
+    "description": "去除精英怪鼓舞buff",
+    "actionType": "removeEffect",
+    "para1": "cell1",
+    "para2": "monster",
+    "para3": 310401
+  },
+  "210414": {
+    "id": 210414,
+    "belongTo": "帝王之怒",
+    "description": "低级陷阱变形为低级龙珠陷阱",
+    "actionType": "changePieceID",
+    "para1": "cell1",
+    "para2": "trap",
+    "para3": 10471
+  },
+  "210415": {
+    "id": 210415,
+    "belongTo": "帝王之怒",
+    "description": "高级陷阱变形为高级龙珠陷阱",
+    "actionType": "changePieceID",
+    "para1": "cell1",
+    "para2": "trap",
+    "para3": 10481
+  },
+  "210416": {
+    "id": 210416,
+    "belongTo": "帝王之怒",
+    "description": "低级龙珠陷阱变形为低级陷阱",
+    "actionType": "changePieceID",
+    "para1": "cell1",
+    "para2": "trap",
+    "para3": 10441
+  },
+  "210417": {
+    "id": 210417,
+    "belongTo": "帝王之怒",
+    "description": "高级龙珠陷阱变形为高级陷阱",
+    "actionType": "changePieceID",
+    "para1": "cell1",
+    "para2": "trap",
+    "para3": 10451
+  },
+  "210418": {
+    "id": 210418,
+    "belongTo": "帝王之怒",
+    "description": "挂战场内技能-对流血单位增伤（中）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310407
+  },
+  "210419": {
+    "id": 210419,
+    "belongTo": "帝王之怒",
+    "description": "究极陷阱变形为究极龙珠陷阱",
+    "actionType": "changePieceID",
+    "para1": "cell1",
+    "para2": "trap",
+    "para3": 10491
+  },
+  "210420": {
+    "id": 210420,
+    "belongTo": "帝王之怒",
+    "description": "究极龙珠陷阱变形为究极陷阱",
+    "actionType": "changePieceID",
+    "para1": "cell1",
+    "para2": "trap",
+    "para3": 10461
+  },
+  "210421": {
+    "id": 210421,
+    "belongTo": "帝王之怒",
+    "description": "移除寻宝者夺取龙珠（移动）",
+    "actionType": "removeEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 110407
+  },
+  "210422": {
+    "id": 210422,
+    "belongTo": "帝王之怒",
+    "description": "每散落一颗龙珠，伤害增加20%",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310408
+  },
+  "210423": {
+    "id": 210423,
+    "belongTo": "帝王之怒",
+    "description": "每散落一颗龙珠，伤害增加80%",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310409
+  },
+  "210424": {
+    "id": 210424,
+    "belongTo": "帝王之怒",
+    "description": "每散落一颗龙珠，伤害增加120%",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310410
+  },
+  "210425": {
+    "id": 210425,
+    "belongTo": "帝王之怒",
+    "description": "全体回血20%",
+    "actionType": "percentHealMaxHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.2
+  },
+  "210426": {
+    "id": 210426,
+    "belongTo": "帝王之怒",
+    "description": "清除流血buff",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": "110428,110429"
+  },
+  "210427": {
+    "id": 210427,
+    "belongTo": "帝王之怒",
+    "description": "传送人员",
+    "actionType": "dragonBallTransmit"
+  },
+  "210428": {
+    "id": 210428,
+    "belongTo": "帝王之怒",
+    "description": "全体扣血（小）",
+    "actionType": "percentDamage",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 0.05
+  },
+  "210429": {
+    "id": 210429,
+    "belongTo": "帝王之怒",
+    "description": "全体扣血（大）",
+    "actionType": "percentDamage",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 0.075
+  },
+  "210430": {
+    "id": 210430,
+    "belongTo": "帝王之怒",
+    "description": "战斗内上鼓舞图标",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310411
+  },
+  "210431": {
+    "id": 210431,
+    "belongTo": "帝王之怒",
+    "description": "对全场玩家扣百分比血量（40%）",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.4
+  },
+  "210501": {
+    "id": 210501,
+    "belongTo": "麻痹之界",
+    "description": "获得激勇buff",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": "310501,310502"
+  },
+  "210502": {
+    "id": 210502,
+    "belongTo": "麻痹之界",
+    "description": "击杀小怪召唤陷阱",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell1",
+    "para2": "blank",
+    "para3": 1,
+    "para4": 1054
+  },
+  "210503": {
+    "id": 210503,
+    "belongTo": "麻痹之界",
+    "description": "删除一层慵懒buff（弃用）",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310503,
+    "para6": 0
+  },
+  "210504": {
+    "id": 210504,
+    "belongTo": "麻痹之界",
+    "description": "删除二层慵懒buff",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310503,
+    "para6": 2
+  },
+  "210505": {
+    "id": 210505,
+    "belongTo": "麻痹之界",
+    "description": "删除所有慵懒buff",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss",
+    "para3": 310503,
+    "para6": 999
+  },
+  "210506": {
+    "id": 210506,
+    "belongTo": "麻痹之界",
+    "description": "对寻宝者造成额外20%的伤害",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310505
+  },
+  "210507": {
+    "id": 210507,
+    "belongTo": "麻痹之界",
+    "description": "精英怪召唤陷阱",
+    "actionType": "summonPieceFinalType",
+    "para1": "cellAll",
+    "para2": "notPlayer",
+    "para3": 1,
+    "para4": 1054
+  },
+  "210508": {
+    "id": 210508,
+    "belongTo": "麻痹之界",
+    "description": "环境每回合开始时增加一层慵懒buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310503,
+    "para6": 1
+  },
+  "210509": {
+    "id": 210509,
+    "belongTo": "麻痹之界",
+    "description": "标记计数器加一",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 10001,
+    "para4": 1
+  },
+  "210510": {
+    "id": 210510,
+    "belongTo": "麻痹之界",
+    "description": "对带有激勇buff的队伍增伤20%",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310506
+  },
+  "210511": {
+    "id": 210511,
+    "belongTo": "麻痹之界",
+    "description": "对带没有激勇buff的队伍减伤20%",
+    "actionType": "removeEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310507
+  },
+  "210512": {
+    "id": 210512,
+    "belongTo": "麻痹之界",
+    "description": "标记计数器减三层",
+    "actionType": "removeTag",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 10001,
+    "para4": 3
+  },
+  "210513": {
+    "id": 210513,
+    "belongTo": "麻痹之界",
+    "description": "标记满3次施加眩晕效果",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310504
+  },
+  "210514": {
+    "id": 210514,
+    "belongTo": "麻痹之界",
+    "description": "精英怪召唤离boss最近的陷阱",
+    "actionType": "summonPieceFinalType",
+    "para1": "cellAll",
+    "para2": "blankClosestToBoss",
+    "para3": 1,
+    "para4": 1054
+  },
+  "210515": {
+    "id": 210515,
+    "belongTo": "麻痹之界",
+    "description": "BOSS对眩晕增伤（小）",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": "310517,310514"
+  },
+  "210516": {
+    "id": 210516,
+    "belongTo": "麻痹之界",
+    "description": "BOSS对眩晕增伤（大）",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": "310517,310515"
+  },
+  "210517": {
+    "id": 210517,
+    "belongTo": "麻痹之界",
+    "description": "一星陷阱根据慵懒buff造成减益效果",
+    "actionType": "percentDamageBuff",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.06,
+    "para6": 310503
+  },
+  "210518": {
+    "id": 210518,
+    "belongTo": "麻痹之界",
+    "description": "二星陷阱根据慵懒buff造成减益效果",
+    "actionType": "percentDamageBuff",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.08,
+    "para6": 310503
+  },
+  "210519": {
+    "id": 210519,
+    "belongTo": "麻痹之界",
+    "description": "三星陷阱根据慵懒buff造成减益效果",
+    "actionType": "percentDamageBuff",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.1,
+    "para6": 310503
+  },
+  "210520": {
+    "id": 210520,
+    "belongTo": "麻痹之界",
+    "description": "四星陷阱根据慵懒buff造成减益效果",
+    "actionType": "percentDamageBuff",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.12,
+    "para6": 310503
+  },
+  "210521": {
+    "id": 210521,
+    "belongTo": "麻痹之界",
+    "description": "五星陷阱根据慵懒buff造成减益效果",
+    "actionType": "percentDamageBuff",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.14,
+    "para6": 310503
+  },
+  "210522": {
+    "id": 210522,
+    "belongTo": "麻痹之界",
+    "description": "六星陷阱根据慵懒buff造成减益效果",
+    "actionType": "percentDamageBuff",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 0.17,
+    "para6": 310503
+  },
+  "210523": {
+    "id": 210523,
+    "belongTo": "麻痹之界",
+    "description": "所有人获得宝箱奖励翻倍",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310516
+  },
+  "210524": {
+    "id": 210524,
+    "belongTo": "麻痹之界",
+    "description": "boss对攻坚者增伤25%",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310518
+  },
+  "210525": {
+    "id": 210525,
+    "belongTo": "麻痹之界",
+    "description": "寻宝者、支援者对boos25%减伤",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310519
+  },
+  "210526": {
+    "id": 210526,
+    "belongTo": "麻痹之界",
+    "description": "旗子踩到陷阱后，陷阱立即消失",
+    "actionType": "removePieceFinalType",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1054
+  },
+  "210527": {
+    "id": 210527,
+    "belongTo": "麻痹之界",
+    "description": "玩家进入boss战时根据玩家慵懒buff层数眩晕玩家",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310517
+  },
+  "210528": {
+    "id": 210528,
+    "belongTo": "麻痹之界",
+    "description": "boos每三回合增加一层慵懒buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310503
+  },
+  "210529": {
+    "id": 210529,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤1星本",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310520
+  },
+  "210530": {
+    "id": 210530,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤2星本",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310521
+  },
+  "210531": {
+    "id": 210531,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤3星本",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310522
+  },
+  "210532": {
+    "id": 210532,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤4星本",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310523
+  },
+  "210533": {
+    "id": 210533,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤5星本",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310524
+  },
+  "210534": {
+    "id": 210534,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤6星本",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310525
+  },
+  "210535": {
+    "id": 210535,
+    "belongTo": "麻痹之界",
+    "description": "踩到陷阱后增加二层慵懒buff",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 310503,
+    "para6": 2
+  },
+  "210536": {
+    "id": 210536,
+    "belongTo": "麻痹之界",
+    "description": "踩陷阱特效",
+    "actionType": "blankAction"
+  },
+  "210537": {
+    "id": 210537,
+    "belongTo": "麻痹之界",
+    "description": "标记计数器加二",
+    "actionType": "putTag",
+    "para1": "cell1",
+    "para2": "allPlayer",
+    "para3": 10001,
+    "para4": 2
+  },
+  "210538": {
+    "id": 210538,
+    "belongTo": "麻痹之界",
+    "description": "自己获得寻宝能力（100%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310516
+  },
+  "210601": {
+    "id": 210601,
+    "belongTo": "怨念黄泉",
+    "description": "攻坚者对BOSS30%增伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310601
+  },
+  "210602": {
+    "id": 210602,
+    "belongTo": "怨念黄泉",
+    "description": "支援者提升所有玩家5%增伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310602
+  },
+  "210603": {
+    "id": 210603,
+    "belongTo": "怨念黄泉",
+    "description": "支援者破坏陷阱",
+    "actionType": "removePieceType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": "trap"
+  },
+  "210604": {
+    "id": 210604,
+    "belongTo": "怨念黄泉",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310603
+  },
+  "210605": {
+    "id": 210605,
+    "belongTo": "怨念黄泉",
+    "description": "读心术BOSS全场增加80%的闪避率",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310604
+  },
+  "210606": {
+    "id": 210606,
+    "belongTo": "怨念黄泉",
+    "description": "吸收伤害给玩家造成30%的伤害",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 0.3
+  },
+  "210607": {
+    "id": 210607,
+    "belongTo": "怨念黄泉",
+    "description": "精英怪死后给该玩家施加邪念附体debuff（小）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310606
+  },
+  "210608": {
+    "id": 210608,
+    "belongTo": "怨念黄泉",
+    "description": "精英怪死后给该玩家施加邪念附体debuff（大）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310607
+  },
+  "210609": {
+    "id": 210609,
+    "belongTo": "怨念黄泉",
+    "description": "标记计数器加1（遗弃）",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "self"
+  },
+  "210610": {
+    "id": 210610,
+    "belongTo": "怨念黄泉",
+    "description": "阴冥结界给精英怪提供buff减伤70%",
+    "actionType": "putEffect",
+    "para1": "cell8",
+    "para2": "allElite",
+    "para3": 310608,
+    "para4": "withoutEffectID",
+    "para5": 310608
+  },
+  "210611": {
+    "id": 210611,
+    "belongTo": "怨念黄泉",
+    "description": "踩到后召唤小怪",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell4",
+    "para2": "blank",
+    "para3": 1,
+    "para4": 1061
+  },
+  "210612": {
+    "id": 210612,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第二只BOSS   1星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10622
+  },
+  "210613": {
+    "id": 210613,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第二只BOSS   2星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10623
+  },
+  "210614": {
+    "id": 210614,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第二只BOSS   3星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10624
+  },
+  "210615": {
+    "id": 210615,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第二只BOSS   4星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10625
+  },
+  "210616": {
+    "id": 210616,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第二只BOSS   5星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10626
+  },
+  "210617": {
+    "id": 210617,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第二只BOSS   6星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10627
+  },
+  "210618": {
+    "id": 210618,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第三只BOSS   1星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10628
+  },
+  "210619": {
+    "id": 210619,
+    "belongTo": "怨念黄泉",
+    "description": "boss死后击杀者也会死亡",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 2
+  },
+  "210620": {
+    "id": 210620,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第三只BOSS   2星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10629
+  },
+  "210621": {
+    "id": 210621,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第三只BOSS   3星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10630
+  },
+  "210622": {
+    "id": 210622,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第三只BOSS   4星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10631
+  },
+  "210623": {
+    "id": 210623,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第三只BOSS   5星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10632
+  },
+  "210624": {
+    "id": 210624,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第三只BOSS   6星",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10633
+  },
+  "210625": {
+    "id": 210625,
+    "belongTo": "怨念黄泉",
+    "description": "召唤第四只BOSS",
+    "actionType": "summonPieceID",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1,
+    "para4": 10634
+  },
+  "210626": {
+    "id": 210626,
+    "belongTo": "怨念黄泉",
+    "description": "boss吸收的分身也会死亡",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "eliteRandom1",
+    "para3": 2
+  },
+  "210627": {
+    "id": 210627,
+    "belongTo": "怨念黄泉",
+    "description": "旗子踩到陷阱后，陷阱立即消失（遗弃）",
+    "actionType": "removePieceFinalType",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1064
+  },
+  "210628": {
+    "id": 210628,
+    "belongTo": "怨念黄泉",
+    "description": "攻坚者对BOSS 有80%的命中率",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310609
+  },
+  "210629": {
+    "id": 210629,
+    "belongTo": "怨念黄泉",
+    "description": "移除减伤buff",
+    "actionType": "removeEffect",
+    "para1": "cell8",
+    "para2": "allElite",
+    "para3": "310608,310610"
+  },
+  "210630": {
+    "id": 210630,
+    "belongTo": "怨念黄泉",
+    "description": "阴冥结界给精英怪提供buff减伤40%",
+    "actionType": "putEffect",
+    "para1": "cell8",
+    "para2": "allElite",
+    "para3": 310610,
+    "para4": "withoutEffectID",
+    "para5": 310610
+  },
+  "210701": {
+    "id": 210701,
+    "belongTo": "骄傲战队",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310701
+  },
+  "210702": {
+    "id": 210702,
+    "belongTo": "骄傲战队",
+    "description": "支援者破坏陷阱",
+    "actionType": "removePieceType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": "trap"
+  },
+  "210703": {
+    "id": 210703,
+    "belongTo": "骄傲战队",
+    "description": "离BOSS最近玩家扣血20%",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss",
+    "para3": 0.2
+  },
+  "210704": {
+    "id": 210704,
+    "belongTo": "骄傲战队",
+    "description": "离BOSS最近玩家扣血30%",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss",
+    "para3": 0.3
+  },
+  "210705": {
+    "id": 210705,
+    "belongTo": "骄傲战队",
+    "description": "离BOSS最近玩家强制位移到非boss路",
+    "actionType": "transmitNotBossRoad",
+    "para1": "cellAll",
+    "para2": "playerClosestToBoss"
+  },
+  "210706": {
+    "id": 210706,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加3%减伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310702
+  },
+  "210707": {
+    "id": 210707,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加6%减伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310703
+  },
+  "210708": {
+    "id": 210708,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加8%减伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310704
+  },
+  "210709": {
+    "id": 210709,
+    "belongTo": "骄傲战队",
+    "description": "精英怪被攻坚者击杀后传送到BOSS路",
+    "actionType": "transmitBossRoadUpper",
+    "para1": "cellAll",
+    "para2": "killer"
+  },
+  "210712": {
+    "id": 210712,
+    "belongTo": "骄傲战队",
+    "description": "全队增加25%增伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310707
+  },
+  "210713": {
+    "id": 210713,
+    "belongTo": "骄傲战队",
+    "description": "每过三回合在周围8格内随机召唤1个陷阱",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell8NotFirst",
+    "para2": "priorityBossRoadBlank",
+    "para3": 1,
+    "para4": 1074
+  },
+  "210714": {
+    "id": 210714,
+    "belongTo": "骄傲战队",
+    "description": "每过三回合在周围8格内随机召唤2个陷阱",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell8NotFirst",
+    "para2": "priorityBossRoadBlank",
+    "para3": 2,
+    "para4": 1074
+  },
+  "210715": {
+    "id": 210715,
+    "belongTo": "骄傲战队",
+    "description": "每过三回合在周围8格内随机召唤3个陷阱",
+    "actionType": "summonPieceFinalType",
+    "para1": "cell8NotFirst",
+    "para2": "priorityBossRoadBlank",
+    "para3": 3,
+    "para4": 1074
+  },
+  "210716": {
+    "id": 210716,
+    "belongTo": "骄傲战队",
+    "description": "给击杀者增加20%恐惧效果",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310708
+  },
+  "210717": {
+    "id": 210717,
+    "belongTo": "骄傲战队",
+    "description": "给击杀者增加40%恐惧效果",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310709
+  },
+  "210718": {
+    "id": 210718,
+    "belongTo": "骄傲战队",
+    "description": "踩到陷阱后会眩晕玩家一回合",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310710
+  },
+  "210719": {
+    "id": 210719,
+    "belongTo": "骄傲战队",
+    "description": "给击杀者增加60%恐惧效果",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310711
+  },
+  "210720": {
+    "id": 210720,
+    "belongTo": "骄傲战队",
+    "description": "蒂斯破带有20%减疗效果",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310712
+  },
+  "210721": {
+    "id": 210721,
+    "belongTo": "骄傲战队",
+    "description": "蒂斯破带有30%减疗效果",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310713
+  },
+  "210722": {
+    "id": 210722,
+    "belongTo": "骄傲战队",
+    "description": "蒂斯破带有50%减疗效果",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310714
+  },
+  "210723": {
+    "id": 210723,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加5%增伤",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310715
+  },
+  "210801": {
+    "id": 210801,
+    "belongTo": "力之大会",
+    "description": "踩陷阱增加1层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310801,
+    "para6": 1
+  },
+  "210802": {
+    "id": 210802,
+    "belongTo": "力之大会",
+    "description": "踩陷阱增加2层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310801,
+    "para6": 2
+  },
+  "210803": {
+    "id": 210803,
+    "belongTo": "力之大会",
+    "description": "踩陷阱增加4层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 310801,
+    "para6": 4
+  },
+  "210804": {
+    "id": 210804,
+    "belongTo": "力之大会",
+    "description": "踩陷阱删除5层筋疲力尽buff",
+    "actionType": "removeEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310801,
+    "para6": 5
+  },
+  "210805": {
+    "id": 210805,
+    "belongTo": "力之大会",
+    "description": "击杀者回复60%已损失血量",
+    "actionType": "percentHealLostHp",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 0.6
+  },
+  "210806": {
+    "id": 210806,
+    "belongTo": "力之大会",
+    "description": "击杀者回复50%已损失血量",
+    "actionType": "percentHealLostHp",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 0.5
+  },
+  "210807": {
+    "id": 210807,
+    "belongTo": "力之大会",
+    "description": "击杀者回复40%已损失血量",
+    "actionType": "percentHealLostHp",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 0.4
+  },
+  "210808": {
+    "id": 210808,
+    "belongTo": "力之大会",
+    "description": "对所有玩家造成30%当前生命值伤害",
+    "actionType": "percentDamageCurHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.3
+  },
+  "210809": {
+    "id": 210809,
+    "belongTo": "力之大会",
+    "description": "对所有玩家造成50%当前生命值伤害",
+    "actionType": "percentDamageCurHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.5
+  },
+  "210810": {
+    "id": 210810,
+    "belongTo": "力之大会",
+    "description": "对所有玩家造成70%当前生命值伤害",
+    "actionType": "percentDamageCurHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.7
+  },
+  "210811": {
+    "id": 210811,
+    "belongTo": "力之大会",
+    "description": "全部玩家回复70%已损失血量",
+    "actionType": "percentHealLostHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.7
+  },
+  "210812": {
+    "id": 210812,
+    "belongTo": "力之大会",
+    "description": "全部玩家回复60%已损失血量",
+    "actionType": "percentHealLostHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.6
+  },
+  "210813": {
+    "id": 210813,
+    "belongTo": "力之大会",
+    "description": "全部玩家回复50%已损失血量",
+    "actionType": "percentHealLostHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.5
+  },
+  "210814": {
+    "id": 210814,
+    "belongTo": "力之大会",
+    "description": "对全场角色造成1%最大生命值伤害",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.01
+  },
+  "210815": {
+    "id": 210815,
+    "belongTo": "力之大会",
+    "description": "对全场角色造成2%最大生命值伤害",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.02
+  },
+  "210816": {
+    "id": 210816,
+    "belongTo": "力之大会",
+    "description": "对全场角色造成3%最大生命值伤害",
+    "actionType": "percentDamage",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.03
+  },
+  "210817": {
+    "id": 210817,
+    "belongTo": "力之大会",
+    "description": "对全场角色造成30%减疗",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310810
+  },
+  "210818": {
+    "id": 210818,
+    "belongTo": "力之大会",
+    "description": "对全场角色造成50%减疗",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310811
+  },
+  "210819": {
+    "id": 210819,
+    "belongTo": "力之大会",
+    "description": "对全场角色造成99%减疗",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310812
+  },
+  "210820": {
+    "id": 210820,
+    "belongTo": "力之大会",
+    "description": "对所有非攻坚者玩家造成30%当前生命值伤害",
+    "actionType": "percentDamageCurHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.3,
+    "para4": "withoutEffectID",
+    "para5": 310899
+  },
+  "210821": {
+    "id": 210821,
+    "belongTo": "力之大会",
+    "description": "对所有非攻坚者玩家造成50%当前生命值伤害",
+    "actionType": "percentDamageCurHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.5,
+    "para4": "withoutEffectID",
+    "para5": 310899
+  },
+  "210822": {
+    "id": 210822,
+    "belongTo": "力之大会",
+    "description": "对所有非攻坚者玩家造成70%当前生命值伤害",
+    "actionType": "percentDamageCurHp",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 0.7,
+    "para4": "withoutEffectID",
+    "para5": 310899
+  },
+  "210823": {
+    "id": 210823,
+    "belongTo": "力之大会",
+    "description": "每回合恢复10%生命值",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310813
+  },
+  "210824": {
+    "id": 210824,
+    "belongTo": "力之大会",
+    "description": "每回合恢复100%生命值",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310814
+  },
+  "210825": {
+    "id": 210825,
+    "belongTo": "力之大会",
+    "description": "每回合恢复1000%生命值",
+    "actionType": "putEffect",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 310815
+  },
+  "210826": {
+    "id": 210826,
+    "belongTo": "力之大会",
+    "description": "移除30%减疗",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310810
+  },
+  "210827": {
+    "id": 210827,
+    "belongTo": "力之大会",
+    "description": "移除50%减疗",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310811
+  },
+  "210828": {
+    "id": 210828,
+    "belongTo": "力之大会",
+    "description": "移除99%减疗",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310812
+  },
+  "210829": {
+    "id": 210829,
+    "belongTo": "力之大会",
+    "description": "击杀者增加1层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310801
+  },
+  "210830": {
+    "id": 210830,
+    "belongTo": "力之大会",
+    "description": "击杀者增加2层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310801
+  },
+  "210831": {
+    "id": 210831,
+    "belongTo": "力之大会",
+    "description": "移除每回合恢复10%生命值",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "notPlayer",
+    "para3": 310813
+  },
+  "210832": {
+    "id": 210832,
+    "belongTo": "力之大会",
+    "description": "移除每回合恢复100%生命值",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "notPlayer",
+    "para3": 310814
+  },
+  "210833": {
+    "id": 210833,
+    "belongTo": "力之大会",
+    "description": "移除每回合恢复1000%生命值",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "notPlayer",
+    "para3": 310815
+  },
+  "210834": {
+    "id": 210834,
+    "belongTo": "力之大会",
+    "description": "小怪死亡，BOSS增伤+2%",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310804
+  },
+  "210835": {
+    "id": 210835,
+    "belongTo": "力之大会",
+    "description": "小怪死亡，BOSS减伤+2%",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310805
+  },
+  "210836": {
+    "id": 210836,
+    "belongTo": "力之大会",
+    "description": "小怪死亡，BOSS增伤+5%",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310806
+  },
+  "210837": {
+    "id": 210837,
+    "belongTo": "力之大会",
+    "description": "小怪死亡，BOSS减伤+5%",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310807
+  },
+  "210838": {
+    "id": 210838,
+    "belongTo": "力之大会",
+    "description": "小怪死亡，BOSS增伤+7%",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310808
+  },
+  "210839": {
+    "id": 210839,
+    "belongTo": "力之大会",
+    "description": "小怪死亡，BOSS减伤+7%",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310809
+  },
+  "210840": {
+    "id": 210840,
+    "belongTo": "力之大会",
+    "description": "击杀者增加1层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310801,
+    "para6": 1
+  },
+  "210841": {
+    "id": 210841,
+    "belongTo": "力之大会",
+    "description": "击杀者增加2层筋疲力尽buff",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 310801,
+    "para6": 2
+  },
+  "210851": {
+    "id": 210851,
+    "belongTo": "力之大会",
+    "description": "踩陷阱标记计数器加1",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 10001,
+    "para4": 1
+  },
+  "210852": {
+    "id": 210852,
+    "belongTo": "力之大会",
+    "description": "踩陷阱标记计数器加2",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 10001,
+    "para4": 2
+  },
+  "210853": {
+    "id": 210853,
+    "belongTo": "力之大会",
+    "description": "踩陷阱标记计数器加4",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": 10001,
+    "para4": 4
+  },
+  "210854": {
+    "id": 210854,
+    "belongTo": "力之大会",
+    "description": "踩陷阱标记计数器减5",
+    "actionType": "removeTag",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 10001,
+    "para4": 5
+  },
+  "210855": {
+    "id": 210855,
+    "belongTo": "力之大会",
+    "description": "标记满5次眩晕1T",
+    "actionType": "percentDamage",
+    "para1": "cell1",
+    "para2": "self",
+    "para3": 1
+  },
+  "210856": {
+    "id": 210856,
+    "belongTo": "力之大会",
+    "description": "击杀者标记计数器加1",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 10001,
+    "para4": 1
+  },
+  "210857": {
+    "id": 210857,
+    "belongTo": "力之大会",
+    "description": "击杀者标记计数器加2",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "killer",
+    "para3": 10001,
+    "para4": 2
+  },
+  "210871": {
+    "id": 210871,
+    "belongTo": "力之大会",
+    "description": "支援者破坏陷阱",
+    "actionType": "removePieceType",
+    "para1": "cellAll",
+    "para2": "toucher",
+    "para3": "trap"
+  },
+  "210872": {
+    "id": 210872,
+    "belongTo": "力之大会",
+    "description": "所有人获得寻宝能力（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 310803
+  },
+  "210873": {
+    "id": 210873,
+    "belongTo": "力之大会",
+    "description": "获得攻坚buff（50%）",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310850
+  },
+  "210874": {
+    "id": 210874,
+    "belongTo": "力之大会",
+    "description": "丢失攻坚buff（50%）",
+    "actionType": "removeEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310850
+  },
+  "210897": {
+    "id": 210897,
+    "belongTo": "力之大会",
+    "description": "小怪buff统计标记",
+    "actionType": "putTag",
+    "para1": "cellAll",
+    "para2": "allPlayer",
+    "para3": 10002,
+    "para4": 1
+  },
+  "210898": {
+    "id": 210898,
+    "belongTo": "力之大会",
+    "description": "吉连Effect",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310898
+  },
+  "210899": {
+    "id": 210899,
+    "belongTo": "力之大会",
+    "description": "攻坚者Effect",
+    "actionType": "putEffect",
+    "para1": "cellAll",
+    "para2": "self",
+    "para3": 310899
+  },
+  "299911": {
+    "id": 299911,
+    "belongTo": "所有团本",
+    "description": "玩家踩进去被传送",
+    "actionType": "transmit"
+  },
+  "299921": {
+    "id": 299921,
+    "belongTo": "所有团本",
+    "description": "开启金箱子",
+    "actionType": "openGoldenChest"
+  },
+  "299931": {
+    "id": 299931,
+    "belongTo": "所有团本",
+    "description": "开启银箱子",
+    "actionType": "openSilverChest"
+  }
+}

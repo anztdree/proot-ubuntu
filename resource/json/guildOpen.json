@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "type": "战队",
+    "nameNew": "guildOpenHall",
+    "level": 1,
+    "name": "guildOpen_name_1"
+  },
+  "2": {
+    "id": 2,
+    "type": "战队",
+    "nameNew": "guildOpenShop",
+    "level": 8,
+    "name": "guildOpen_name_2"
+  },
+  "3": {
+    "id": 3,
+    "type": "战队",
+    "nameNew": "guildOpenTech",
+    "level": 1,
+    "name": "guildOpen_name_3"
+  },
+  "4": {
+    "id": 4,
+    "type": "战队",
+    "nameNew": "guildOpenBOSS",
+    "level": 1,
+    "name": "guildOpen_name_4"
+  },
+  "5": {
+    "id": 5,
+    "type": "战队",
+    "nameNew": "guildOpenSatan",
+    "level": 3,
+    "name": "guildOpen_name_5"
+  },
+  "6": {
+    "id": 6,
+    "type": "战队",
+    "nameNew": "guildOpenGrab",
+    "level": 4,
+    "name": "guildOpen_name_6"
+  },
+  "7": {
+    "id": 7,
+    "type": "战队",
+    "nameNew": "guildOpenDragonBallFight",
+    "level": 8,
+    "name": "guildOpen_name_7"
+  }
+}

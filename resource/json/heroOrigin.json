@@ -1,0 +1,137 @@
+{
+  "0": {
+    "id": 0,
+    "origin": "UNKNOW",
+    "originName": "来源不明"
+  },
+  "1": {
+    "id": 1,
+    "origin": "    BACKPACK",
+    "originName": " 碎片合成"
+  },
+  "2": {
+    "id": 2,
+    "origin": "    SUMMON",
+    "originName": " 召唤"
+  },
+  "3": {
+    "id": 3,
+    "origin": "    WISH",
+    "originName": " 神龙许愿"
+  },
+  "4": {
+    "id": 4,
+    "origin": "    RECHARGE",
+    "originName": " 充值"
+  },
+  "5": {
+    "id": 5,
+    "origin": "    EXCHANGE",
+    "originName": " 神龙置换"
+  },
+  "6": {
+    "id": 6,
+    "origin": "    SOUL_SHOP",
+    "originName": " 祭坛商店"
+  },
+  "7": {
+    "id": 7,
+    "origin": "    REBORN",
+    "originName": " 重生（重生的时候回删除原来的英雄，然后添加对应的英雄）"
+  },
+  "8": {
+    "id": 8,
+    "origin": "    ACTIVITY",
+    "originName": " 活动"
+  },
+  "9": {
+    "id": 9,
+    "origin": "    GM",
+    "originName": " gm直接发送"
+  },
+  "10": {
+    "id": 10,
+    "origin": "    ACTIVITY_LUCK_POOL",
+    "originName": " 主题卡活动"
+  },
+  "11": {
+    "id": 11,
+    "origin": "    MONTHCARD",
+    "originName": " 购买月卡"
+  },
+  "12": {
+    "id": 12,
+    "origin": "    FIRST_RECHARGE",
+    "originName": " 首充奖励"
+  },
+  "13": {
+    "id": 13,
+    "origin": "    VIP_REWARD",
+    "originName": " vip等级奖励"
+  },
+  "14": {
+    "id": 14,
+    "origin": "    ACT_RECHARGE_GIFT",
+    "originName": " 累充豪礼"
+  },
+  "15": {
+    "id": 15,
+    "origin": "    ACT_SUMMON_GIFT",
+    "originName": " 抽卡送豪礼"
+  },
+  "16": {
+    "id": 16,
+    "origin": "    ACT_HERO_HELP",
+    "originName": " 英雄来援"
+  },
+  "17": {
+    "id": 17,
+    "origin": "    ACT_KILL_NIEN_BEAST",
+    "originName": " 驱除年兽"
+  },
+  "18": {
+    "id": 18,
+    "origin": "    TOP_BATTLE",
+    "originName": " 巅峰战"
+  },
+  "19": {
+    "id": 19,
+    "origin": "    BATTLE_MEDAL",
+    "originName": " 战令"
+  },
+  "20": {
+    "id": 20,
+    "origin": "    GIFT",
+    "originName": " 礼包系统"
+  },
+  "21": {
+    "id": 21,
+    "origin": "    ACTIVE_CODE",
+    "originName": " 激活码"
+  },
+  "22": {
+    "id": 22,
+    "origin": "    CHAPTER_REWARD",
+    "originName": " 章节奖励"
+  },
+  "23": {
+    "id": 23,
+    "origin": "    MAIL",
+    "originName": " 邮件（一键领取）"
+  },
+  "24": {
+    "id": 24,
+    "origin": "    ENERGY_SUMMON",
+    "originName": " 能量召唤"
+  },
+  "25": {
+    "id": 25,
+    "origin": "    ACT_CROSS_SERVER_RANK",
+    "originName": " 跨服排行"
+  },
+  "26": {
+    "id": 26,
+    "origin": "    ACT_HERO_SUPER_GIFT",
+    "originName": "活动英雄超值包"
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "1": [
+    {
+      "JewPosition": 1,
+      "JewLevel": 1,
+      "ValueType1": "hp",
+      "ValueNumber1": 33400,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.042,
+      "levelUpExp": 100
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 2,
+      "ValueType1": "hp",
+      "ValueNumber1": 38500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.054,
+      "levelUpExp": 200
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 3,
+      "ValueType1": "hp",
+      "ValueNumber1": 44500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.066,
+      "levelUpExp": 300
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 4,
+      "ValueType1": "hp",
+      "ValueNumber1": 51600,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.078,
+      "levelUpExp": 400
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 5,
+      "ValueType1": "hp",
+      "ValueNumber1": 59900,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.09,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 6,
+      "ValueType1": "hp",
+      "ValueNumber1": 65100,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.102,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 7,
+      "ValueType1": "hp",
+      "ValueNumber1": 70600,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.114,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 8,
+      "ValueType1": "hp",
+      "ValueNumber1": 76200,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.126,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 9,
+      "ValueType1": "hp",
+      "ValueNumber1": 82100,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.138,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 10,
+      "ValueType1": "hp",
+      "ValueNumber1": 89200,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.15,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 11,
+      "ValueType1": "hp",
+      "ValueNumber1": 96700,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.165,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 12,
+      "ValueType1": "hp",
+      "ValueNumber1": 104400,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.18,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 13,
+      "ValueType1": "hp",
+      "ValueNumber1": 112400,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.195,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 14,
+      "ValueType1": "hp",
+      "ValueNumber1": 122300,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.21,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 15,
+      "ValueType1": "hp",
+      "ValueNumber1": 132500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.225,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 16,
+      "ValueType1": "hp",
+      "ValueNumber1": 143100,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.24,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 17,
+      "ValueType1": "hp",
+      "ValueNumber1": 154200,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.255,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 18,
+      "ValueType1": "hp",
+      "ValueNumber1": 167700,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.27,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 19,
+      "ValueType1": "hp",
+      "ValueNumber1": 181800,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.285,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 1,
+      "JewLevel": 20,
+      "ValueType1": "hp",
+      "ValueNumber1": 196500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.3
+    }
+  ],
+  "2": [
+    {
+      "JewPosition": 2,
+      "JewLevel": 1,
+      "ValueType1": "attack",
+      "ValueNumber1": 2260,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.042,
+      "levelUpExp": 100
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 2,
+      "ValueType1": "attack",
+      "ValueNumber1": 2590,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.054,
+      "levelUpExp": 200
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 3,
+      "ValueType1": "attack",
+      "ValueNumber1": 2960,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.066,
+      "levelUpExp": 300
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 4,
+      "ValueType1": "attack",
+      "ValueNumber1": 3405,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.078,
+      "levelUpExp": 400
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 5,
+      "ValueType1": "attack",
+      "ValueNumber1": 3915,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.09,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 6,
+      "ValueType1": "attack",
+      "ValueNumber1": 4260,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.102,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 7,
+      "ValueType1": "attack",
+      "ValueNumber1": 4615,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.114,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 8,
+      "ValueType1": "attack",
+      "ValueNumber1": 4980,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.126,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 9,
+      "ValueType1": "attack",
+      "ValueNumber1": 5365,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.138,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 10,
+      "ValueType1": "attack",
+      "ValueNumber1": 5835,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.15,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 11,
+      "ValueType1": "attack",
+      "ValueNumber1": 6320,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.165,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 12,
+      "ValueType1": "attack",
+      "ValueNumber1": 6825,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.18,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 13,
+      "ValueType1": "attack",
+      "ValueNumber1": 7350,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.195,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 14,
+      "ValueType1": "attack",
+      "ValueNumber1": 7995,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.21,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 15,
+      "ValueType1": "attack",
+      "ValueNumber1": 8665,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.225,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 16,
+      "ValueType1": "attack",
+      "ValueNumber1": 9360,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.24,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 17,
+      "ValueType1": "attack",
+      "ValueNumber1": 10080,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.255,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 18,
+      "ValueType1": "attack",
+      "ValueNumber1": 10965,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.27,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 19,
+      "ValueType1": "attack",
+      "ValueNumber1": 11890,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.285,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 2,
+      "JewLevel": 20,
+      "ValueType1": "attack",
+      "ValueNumber1": 12845,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.3
+    }
+  ],
+  "3": [
+    {
+      "JewPosition": 3,
+      "JewLevel": 1,
+      "ValueType1": "hp",
+      "ValueNumber1": 33400,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.042,
+      "levelUpExp": 100
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 2,
+      "ValueType1": "hp",
+      "ValueNumber1": 38500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.054,
+      "levelUpExp": 200
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 3,
+      "ValueType1": "hp",
+      "ValueNumber1": 44500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.066,
+      "levelUpExp": 300
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 4,
+      "ValueType1": "hp",
+      "ValueNumber1": 51600,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.078,
+      "levelUpExp": 400
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 5,
+      "ValueType1": "hp",
+      "ValueNumber1": 59900,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.09,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 6,
+      "ValueType1": "hp",
+      "ValueNumber1": 65100,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.102,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 7,
+      "ValueType1": "hp",
+      "ValueNumber1": 70600,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.114,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 8,
+      "ValueType1": "hp",
+      "ValueNumber1": 76200,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.126,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 9,
+      "ValueType1": "hp",
+      "ValueNumber1": 82100,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.138,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 10,
+      "ValueType1": "hp",
+      "ValueNumber1": 89200,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.15,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 11,
+      "ValueType1": "hp",
+      "ValueNumber1": 96700,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.165,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 12,
+      "ValueType1": "hp",
+      "ValueNumber1": 104400,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.18,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 13,
+      "ValueType1": "hp",
+      "ValueNumber1": 112400,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.195,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 14,
+      "ValueType1": "hp",
+      "ValueNumber1": 122300,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.21,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 15,
+      "ValueType1": "hp",
+      "ValueNumber1": 132500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.225,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 16,
+      "ValueType1": "hp",
+      "ValueNumber1": 143100,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.24,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 17,
+      "ValueType1": "hp",
+      "ValueNumber1": 154200,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.255,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 18,
+      "ValueType1": "hp",
+      "ValueNumber1": 167700,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.27,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 19,
+      "ValueType1": "hp",
+      "ValueNumber1": 181800,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.285,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 3,
+      "JewLevel": 20,
+      "ValueType1": "hp",
+      "ValueNumber1": 196500,
+      "ValueType2": "attackPercent",
+      "ValueNumber2": 0.3
+    }
+  ],
+  "4": [
+    {
+      "JewPosition": 4,
+      "JewLevel": 1,
+      "ValueType1": "attack",
+      "ValueNumber1": 2260,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.042,
+      "levelUpExp": 100
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 2,
+      "ValueType1": "attack",
+      "ValueNumber1": 2590,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.054,
+      "levelUpExp": 200
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 3,
+      "ValueType1": "attack",
+      "ValueNumber1": 2960,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.066,
+      "levelUpExp": 300
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 4,
+      "ValueType1": "attack",
+      "ValueNumber1": 3405,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.078,
+      "levelUpExp": 400
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 5,
+      "ValueType1": "attack",
+      "ValueNumber1": 3915,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.09,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 6,
+      "ValueType1": "attack",
+      "ValueNumber1": 4260,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.102,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 7,
+      "ValueType1": "attack",
+      "ValueNumber1": 4615,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.114,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 8,
+      "ValueType1": "attack",
+      "ValueNumber1": 4980,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.126,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 9,
+      "ValueType1": "attack",
+      "ValueNumber1": 5365,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.138,
+      "levelUpExp": 500
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 10,
+      "ValueType1": "attack",
+      "ValueNumber1": 5835,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.15,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 11,
+      "ValueType1": "attack",
+      "ValueNumber1": 6320,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.165,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 12,
+      "ValueType1": "attack",
+      "ValueNumber1": 6825,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.18,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 13,
+      "ValueType1": "attack",
+      "ValueNumber1": 7350,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.195,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 14,
+      "ValueType1": "attack",
+      "ValueNumber1": 7995,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.21,
+      "levelUpExp": 600
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 15,
+      "ValueType1": "attack",
+      "ValueNumber1": 8665,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.225,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 16,
+      "ValueType1": "attack",
+      "ValueNumber1": 9360,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.24,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 17,
+      "ValueType1": "attack",
+      "ValueNumber1": 10080,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.255,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 18,
+      "ValueType1": "attack",
+      "ValueNumber1": 10965,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.27,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 19,
+      "ValueType1": "attack",
+      "ValueNumber1": 11890,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.285,
+      "levelUpExp": 700
+    },
+    {
+      "JewPosition": 4,
+      "JewLevel": 20,
+      "ValueType1": "attack",
+      "ValueNumber1": 12845,
+      "ValueType2": "hpPercent",
+      "ValueNumber2": 0.3
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "1011": {
+    "id": 1011,
+    "name": "熔岩地狱",
+    "awardGold1": 615,
+    "numGold1": 2,
+    "awardSilver1": 615,
+    "numSilver1": 1,
+    "awardWin1": 590,
+    "numWin1": 100,
+    "awardWin2": 6001,
+    "numWin2": 50,
+    "awardCommander1": 615,
+    "numCommander1": 1
+  },
+  "1012": {
+    "id": 1012,
+    "name": "熔岩地狱",
+    "awardGold1": 616,
+    "numGold1": 2,
+    "awardSilver1": 616,
+    "numSilver1": 1,
+    "awardWin1": 590,
+    "numWin1": 120,
+    "awardWin2": 6001,
+    "numWin2": 50,
+    "awardCommander1": 616,
+    "numCommander1": 1
+  },
+  "1013": {
+    "id": 1013,
+    "name": "熔岩地狱",
+    "awardGold1": 617,
+    "numGold1": 2,
+    "awardSilver1": 617,
+    "numSilver1": 1,
+    "awardWin1": 590,
+    "numWin1": 180,
+    "awardWin2": 6001,
+    "numWin2": 100,
+    "awardCommander1": 617,
+    "numCommander1": 1
+  },
+  "1014": {
+    "id": 1014,
+    "name": "熔岩地狱",
+    "awardGold1": 618,
+    "numGold1": 2,
+    "awardSilver1": 618,
+    "numSilver1": 1,
+    "awardWin1": 590,
+    "numWin1": 200,
+    "awardWin2": 6001,
+    "numWin2": 100,
+    "awardCommander1": 618,
+    "numCommander1": 1
+  },
+  "1015": {
+    "id": 1015,
+    "name": "熔岩地狱",
+    "awardGold1": 619,
+    "numGold1": 2,
+    "awardSilver1": 619,
+    "numSilver1": 1,
+    "awardWin1": 590,
+    "numWin1": 220,
+    "awardWin2": 6001,
+    "numWin2": 200,
+    "awardCommander1": 619,
+    "numCommander1": 1
+  }
+}

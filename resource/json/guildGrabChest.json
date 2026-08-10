@@ -1,0 +1,182 @@
+{
+  "1": {
+    "id": 1,
+    "guildLevel": 1,
+    "rewardID": 114,
+    "goldNum": 1330,
+    "silverNum": 1220,
+    "copperNum": 1040,
+    "goodsSum": 3590
+  },
+  "2": {
+    "id": 2,
+    "guildLevel": 2,
+    "rewardID": 114,
+    "goldNum": 1360,
+    "silverNum": 1240,
+    "copperNum": 1055,
+    "goodsSum": 3655
+  },
+  "3": {
+    "id": 3,
+    "guildLevel": 3,
+    "rewardID": 114,
+    "goldNum": 1390,
+    "silverNum": 1260,
+    "copperNum": 1070,
+    "goodsSum": 3720
+  },
+  "4": {
+    "id": 4,
+    "guildLevel": 4,
+    "rewardID": 114,
+    "goldNum": 1420,
+    "silverNum": 1280,
+    "copperNum": 1085,
+    "goodsSum": 3785
+  },
+  "5": {
+    "id": 5,
+    "guildLevel": 5,
+    "rewardID": 114,
+    "goldNum": 1450,
+    "silverNum": 1300,
+    "copperNum": 1100,
+    "goodsSum": 3850
+  },
+  "6": {
+    "id": 6,
+    "guildLevel": 6,
+    "rewardID": 114,
+    "goldNum": 1480,
+    "silverNum": 1320,
+    "copperNum": 1115,
+    "goodsSum": 3915
+  },
+  "7": {
+    "id": 7,
+    "guildLevel": 7,
+    "rewardID": 114,
+    "goldNum": 1510,
+    "silverNum": 1340,
+    "copperNum": 1130,
+    "goodsSum": 3980
+  },
+  "8": {
+    "id": 8,
+    "guildLevel": 8,
+    "rewardID": 114,
+    "goldNum": 1540,
+    "silverNum": 1360,
+    "copperNum": 1145,
+    "goodsSum": 4045
+  },
+  "9": {
+    "id": 9,
+    "guildLevel": 9,
+    "rewardID": 114,
+    "goldNum": 1570,
+    "silverNum": 1380,
+    "copperNum": 1160,
+    "goodsSum": 4110
+  },
+  "10": {
+    "id": 10,
+    "guildLevel": 10,
+    "rewardID": 114,
+    "goldNum": 1600,
+    "silverNum": 1400,
+    "copperNum": 1175,
+    "goodsSum": 4175
+  },
+  "11": {
+    "id": 11,
+    "guildLevel": 11,
+    "rewardID": 114,
+    "goldNum": 1630,
+    "silverNum": 1420,
+    "copperNum": 1190,
+    "goodsSum": 4240
+  },
+  "12": {
+    "id": 12,
+    "guildLevel": 12,
+    "rewardID": 114,
+    "goldNum": 1660,
+    "silverNum": 1440,
+    "copperNum": 1205,
+    "goodsSum": 4305
+  },
+  "13": {
+    "id": 13,
+    "guildLevel": 13,
+    "rewardID": 114,
+    "goldNum": 1690,
+    "silverNum": 1460,
+    "copperNum": 1220,
+    "goodsSum": 4370
+  },
+  "14": {
+    "id": 14,
+    "guildLevel": 14,
+    "rewardID": 114,
+    "goldNum": 1720,
+    "silverNum": 1480,
+    "copperNum": 1235,
+    "goodsSum": 4435
+  },
+  "15": {
+    "id": 15,
+    "guildLevel": 15,
+    "rewardID": 114,
+    "goldNum": 1750,
+    "silverNum": 1500,
+    "copperNum": 1250,
+    "goodsSum": 4500
+  },
+  "16": {
+    "id": 16,
+    "guildLevel": 16,
+    "rewardID": 114,
+    "goldNum": 1780,
+    "silverNum": 1520,
+    "copperNum": 1265,
+    "goodsSum": 4565
+  },
+  "17": {
+    "id": 17,
+    "guildLevel": 17,
+    "rewardID": 114,
+    "goldNum": 1810,
+    "silverNum": 1540,
+    "copperNum": 1280,
+    "goodsSum": 4630
+  },
+  "18": {
+    "id": 18,
+    "guildLevel": 18,
+    "rewardID": 114,
+    "goldNum": 1840,
+    "silverNum": 1560,
+    "copperNum": 1295,
+    "goodsSum": 4695
+  },
+  "19": {
+    "id": 19,
+    "guildLevel": 19,
+    "rewardID": 114,
+    "goldNum": 1870,
+    "silverNum": 1580,
+    "copperNum": 1310,
+    "goodsSum": 4760
+  },
+  "20": {
+    "id": 20,
+    "guildLevel": 20,
+    "rewardID": 114,
+    "goldNum": 1900,
+    "silverNum": 1600,
+    "copperNum": 1325,
+    "goodsSum": 4825
+  }
+}

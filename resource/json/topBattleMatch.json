@@ -1,0 +1,27 @@
+{
+  "1": {
+    "id": 1,
+    "pointParamStart": 1.08,
+    "pointParamEnd": 1.2
+  },
+  "2": {
+    "id": 2,
+    "pointParamStart": 1.03,
+    "pointParamEnd": 1.1
+  },
+  "3": {
+    "id": 3,
+    "pointParamStart": 1.01,
+    "pointParamEnd": 1.06
+  },
+  "4": {
+    "id": 4,
+    "pointParamStart": 0.95,
+    "pointParamEnd": 1.04
+  },
+  "5": {
+    "id": 5,
+    "pointParamStart": 0.9,
+    "pointParamEnd": 0.98
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "white",
+    "hpMaxPara": 0.6,
+    "attackMaxPara": 0.6,
+    "armorMaxPara": 1
+  },
+  "2": {
+    "id": 2,
+    "quality": "green",
+    "hpMaxPara": 0.6,
+    "attackMaxPara": 0.6,
+    "armorMaxPara": 1
+  },
+  "3": {
+    "id": 3,
+    "quality": "blue",
+    "hpMaxPara": 0.6,
+    "attackMaxPara": 0.6,
+    "armorMaxPara": 1
+  },
+  "4": {
+    "id": 4,
+    "quality": "purple",
+    "hpMaxPara": 0.6,
+    "attackMaxPara": 0.6,
+    "armorMaxPara": 1
+  },
+  "5": {
+    "id": 5,
+    "quality": "orange",
+    "hpMaxPara": 0.6,
+    "attackMaxPara": 0.6,
+    "armorMaxPara": 1
+  },
+  "6": {
+    "id": 6,
+    "quality": "flickerOrange",
+    "hpMaxPara": 1,
+    "attackMaxPara": 1,
+    "armorMaxPara": 1
+  },
+  "7": {
+    "id": 7,
+    "quality": "superOrange",
+    "hpMaxPara": 1.5,
+    "attackMaxPara": 1.5,
+    "armorMaxPara": 1
+  }
+}

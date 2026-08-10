@@ -1,0 +1,64 @@
+{
+  "7001": {
+    "id": 7001,
+    "name": "玩家英雄",
+    "Attack": 20,
+    "heroID": 1205
+  },
+  "7002": {
+    "id": 7002,
+    "name": "玩家英雄",
+    "Attack": 30,
+    "heroID": 1205
+  },
+  "7003": {
+    "id": 7003,
+    "name": "玩家英雄",
+    "Attack": 40,
+    "heroID": 1205
+  },
+  "8001": {
+    "id": 8001,
+    "name": "boss",
+    "Attack": 5000,
+    "heroID": 1206,
+    "attackDamage": 1000,
+    "isBoos": 1
+  },
+  "9001": {
+    "id": 9001,
+    "name": "道具",
+    "Attack": 350,
+    "icon": "icon_9001_png"
+  },
+  "9002": {
+    "id": 9002,
+    "name": "道具",
+    "Attack": 80,
+    "icon": "icon_9002_png"
+  },
+  "9003": {
+    "id": 9003,
+    "name": "道具",
+    "Attack": 100,
+    "icon": "icon_9003_png"
+  },
+  "9004": {
+    "id": 9004,
+    "name": "道具",
+    "Attack": 1000,
+    "icon": "icon_9004_png"
+  },
+  "9005": {
+    "id": 9005,
+    "name": "道具",
+    "Attack": 230,
+    "icon": "icon_9005_png"
+  },
+  "9006": {
+    "id": 9006,
+    "name": "道具",
+    "Attack": 2000,
+    "icon": "icon_9006_png"
+  }
+}

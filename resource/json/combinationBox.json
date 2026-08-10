@@ -1,0 +1,376 @@
+{
+  "159": [
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 151,
+      "name": "一星珠",
+      "num": 1
+    },
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 152,
+      "name": "二星珠",
+      "num": 1
+    },
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 153,
+      "name": "三星珠",
+      "num": 1
+    },
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 154,
+      "name": "四星珠",
+      "num": 1
+    },
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 155,
+      "name": "五星珠",
+      "num": 1
+    },
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 156,
+      "name": "六星珠",
+      "num": 1
+    },
+    {
+      "id": 159,
+      "boxName": "一套龙珠",
+      "goodsID": 157,
+      "name": "七星珠",
+      "num": 1
+    }
+  ],
+  "515": [
+    {
+      "id": 515,
+      "boxName": "橙0装备一套",
+      "goodsID": 3301,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 515,
+      "boxName": "橙0装备一套",
+      "goodsID": 3302,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 515,
+      "boxName": "橙0装备一套",
+      "goodsID": 3303,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 515,
+      "boxName": "橙0装备一套",
+      "goodsID": 3304,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "533": [
+    {
+      "id": 533,
+      "boxName": "紫0装备一套",
+      "goodsID": 3201,
+      "name": "宇宙护手",
+      "num": 1
+    },
+    {
+      "id": 533,
+      "boxName": "紫0装备一套",
+      "goodsID": 3202,
+      "name": "宇宙神衣",
+      "num": 1
+    },
+    {
+      "id": 533,
+      "boxName": "紫0装备一套",
+      "goodsID": 3203,
+      "name": "宇宙护腰",
+      "num": 1
+    },
+    {
+      "id": 533,
+      "boxName": "紫0装备一套",
+      "goodsID": 3204,
+      "name": "宇宙战靴",
+      "num": 1
+    }
+  ],
+  "541": [
+    {
+      "id": 541,
+      "boxName": "绿0装备一套",
+      "goodsID": 3001,
+      "name": "武道护腕",
+      "num": 1
+    },
+    {
+      "id": 541,
+      "boxName": "绿0装备一套",
+      "goodsID": 3002,
+      "name": "武道道服",
+      "num": 1
+    },
+    {
+      "id": 541,
+      "boxName": "绿0装备一套",
+      "goodsID": 3003,
+      "name": "武道腰带",
+      "num": 1
+    },
+    {
+      "id": 541,
+      "boxName": "绿0装备一套",
+      "goodsID": 3004,
+      "name": "武道靴子",
+      "num": 1
+    }
+  ],
+  "551": [
+    {
+      "id": 551,
+      "boxName": "橙1装备一套",
+      "goodsID": 3305,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 551,
+      "boxName": "橙1装备一套",
+      "goodsID": 3306,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 551,
+      "boxName": "橙1装备一套",
+      "goodsID": 3307,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 551,
+      "boxName": "橙1装备一套",
+      "goodsID": 3308,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "552": [
+    {
+      "id": 552,
+      "boxName": "橙2装备一套",
+      "goodsID": 3309,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 552,
+      "boxName": "橙2装备一套",
+      "goodsID": 3310,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 552,
+      "boxName": "橙2装备一套",
+      "goodsID": 3311,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 552,
+      "boxName": "橙2装备一套",
+      "goodsID": 3312,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "553": [
+    {
+      "id": 553,
+      "boxName": "橙3装备一套",
+      "goodsID": 3313,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 553,
+      "boxName": "橙3装备一套",
+      "goodsID": 3314,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 553,
+      "boxName": "橙3装备一套",
+      "goodsID": 3315,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 553,
+      "boxName": "橙3装备一套",
+      "goodsID": 3316,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "554": [
+    {
+      "id": 554,
+      "boxName": "橙4装备一套",
+      "goodsID": 3317,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 554,
+      "boxName": "橙4装备一套",
+      "goodsID": 3318,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 554,
+      "boxName": "橙4装备一套",
+      "goodsID": 3319,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 554,
+      "boxName": "橙4装备一套",
+      "goodsID": 3320,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "555": [
+    {
+      "id": 555,
+      "boxName": "橙5装备一套",
+      "goodsID": 3321,
+      "name": "界王护手",
+      "num": 1
+    },
+    {
+      "id": 555,
+      "boxName": "橙5装备一套",
+      "goodsID": 3322,
+      "name": "界王神衣",
+      "num": 1
+    },
+    {
+      "id": 555,
+      "boxName": "橙5装备一套",
+      "goodsID": 3323,
+      "name": "界王护腰",
+      "num": 1
+    },
+    {
+      "id": 555,
+      "boxName": "橙5装备一套",
+      "goodsID": 3324,
+      "name": "界王之靴",
+      "num": 1
+    }
+  ],
+  "572": [
+    {
+      "id": 572,
+      "boxName": "紫1装备一套",
+      "goodsID": 3205,
+      "name": "宇宙护手",
+      "num": 1
+    },
+    {
+      "id": 572,
+      "boxName": "紫1装备一套",
+      "goodsID": 3206,
+      "name": "宇宙神衣",
+      "num": 1
+    },
+    {
+      "id": 572,
+      "boxName": "紫1装备一套",
+      "goodsID": 3207,
+      "name": "宇宙护腰",
+      "num": 1
+    },
+    {
+      "id": 572,
+      "boxName": "紫1装备一套",
+      "goodsID": 3208,
+      "name": "宇宙战靴",
+      "num": 1
+    }
+  ],
+  "664": [
+    {
+      "id": 664,
+      "boxName": "红0装备一套",
+      "goodsID": 3349,
+      "name": "破坏神护手",
+      "num": 1
+    },
+    {
+      "id": 664,
+      "boxName": "红0装备一套",
+      "goodsID": 3350,
+      "name": "破坏神神衣",
+      "num": 1
+    },
+    {
+      "id": 664,
+      "boxName": "红0装备一套",
+      "goodsID": 3351,
+      "name": "破坏神护腰",
+      "num": 1
+    },
+    {
+      "id": 664,
+      "boxName": "红0装备一套",
+      "goodsID": 3352,
+      "name": "破坏神之靴",
+      "num": 1
+    }
+  ],
+  "712": [
+    {
+      "id": 712,
+      "boxName": "100元福利券",
+      "goodsID": 101,
+      "name": "钻石",
+      "num": 1000
+    },
+    {
+      "id": 712,
+      "boxName": "100元福利券",
+      "goodsID": 105,
+      "name": "玩家VIP经验",
+      "num": 1000
+    },
+    {
+      "id": 712,
+      "boxName": "100元福利券",
+      "goodsID": 713,
+      "name": "活动RMB经验",
+      "num": 100
+    }
+  ]
+}

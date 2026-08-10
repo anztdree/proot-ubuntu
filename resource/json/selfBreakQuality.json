@@ -1,0 +1,26 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "purple",
+    "costPara": 1,
+    "abilityPara": 1
+  },
+  "2": {
+    "id": 2,
+    "quality": "orange",
+    "costPara": 1,
+    "abilityPara": 1
+  },
+  "3": {
+    "id": 3,
+    "quality": "flickerOrange",
+    "costPara": 1,
+    "abilityPara": 1
+  },
+  "4": {
+    "id": 4,
+    "quality": "superOrange",
+    "costPara": 1,
+    "abilityPara": 1
+  }
+}

@@ -1,0 +1,1258 @@
+{
+  "190001": {
+    "id": 190001,
+    "effect": "blood",
+    "effectParam": "attack",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190002": {
+    "id": 190002,
+    "effect": "blood",
+    "effectParam": "hp",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190003": {
+    "id": 190003,
+    "effect": "blood",
+    "effectParam": "armor",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190004": {
+    "id": 190004,
+    "effect": "bloodTargetHp",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190005": {
+    "id": 190005,
+    "effect": "bloodAbsolute",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190006": {
+    "id": 190006,
+    "effect": "chocolate",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190007": {
+    "id": 190007,
+    "effect": "bomb",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190008": {
+    "id": 190008,
+    "effect": "poison",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190009": {
+    "id": 190009,
+    "effect": "burning",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190010": {
+    "id": 190010,
+    "effect": "hot",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190011": {
+    "id": 190011,
+    "effect": "buffAttrAdd",
+    "effectParam": "hp",
+    "groupID": 6
+  },
+  "190012": {
+    "id": 190012,
+    "effect": "buffAttrAdd",
+    "effectParam": "attack",
+    "groupID": 5
+  },
+  "190013": {
+    "id": 190013,
+    "effect": "buffAttrAdd",
+    "effectParam": "armor",
+    "groupID": 6
+  },
+  "190014": {
+    "id": 190014,
+    "effect": "buffAttrAdd",
+    "effectParam": "speed",
+    "groupID": 5
+  },
+  "190015": {
+    "id": 190015,
+    "effect": "buffAttrAdd",
+    "effectParam": "hit",
+    "groupID": 5
+  },
+  "190016": {
+    "id": 190016,
+    "effect": "buffAttrAdd",
+    "effectParam": "dodge",
+    "groupID": 6
+  },
+  "190017": {
+    "id": 190017,
+    "effect": "buffAttrAdd",
+    "effectParam": "block",
+    "groupID": 6
+  },
+  "190018": {
+    "id": 190018,
+    "effect": "buffAttrAdd",
+    "effectParam": "blockEffect",
+    "groupID": 6
+  },
+  "190019": {
+    "id": 190019,
+    "effect": "buffAttrAdd",
+    "effectParam": "skillDamage",
+    "groupID": 5
+  },
+  "190020": {
+    "id": 190020,
+    "effect": "buffAttrAdd",
+    "effectParam": "superDamage",
+    "groupID": 5
+  },
+  "190021": {
+    "id": 190021,
+    "effect": "buffAttrAdd",
+    "effectParam": "critical",
+    "groupID": 5
+  },
+  "190022": {
+    "id": 190022,
+    "effect": "buffAttrAdd",
+    "effectParam": "criticalResist",
+    "groupID": 6
+  },
+  "190023": {
+    "id": 190023,
+    "effect": "buffAttrAdd",
+    "effectParam": "criticalDamage",
+    "groupID": 5
+  },
+  "190024": {
+    "id": 190024,
+    "effect": "buffAttrAdd",
+    "effectParam": "armorBreak",
+    "groupID": 5
+  },
+  "190025": {
+    "id": 190025,
+    "effect": "buffAttrAdd",
+    "effectParam": "damageReduce",
+    "groupID": 6
+  },
+  "190026": {
+    "id": 190026,
+    "effect": "buffAttrAdd",
+    "effectParam": "controlResist",
+    "groupID": 6
+  },
+  "190027": {
+    "id": 190027,
+    "effect": "buffAttrAdd",
+    "effectParam": "trueDamage",
+    "groupID": 5
+  },
+  "190028": {
+    "id": 190028,
+    "effect": "buffAttrAdd",
+    "effectParam": "healPlus",
+    "groupID": 6
+  },
+  "190029": {
+    "id": 190029,
+    "effect": "buffAttrAdd",
+    "effectParam": "blockThrough",
+    "groupID": 6
+  },
+  "190030": {
+    "id": 190030,
+    "effect": "buffAttrAdd",
+    "effectParam": "normalAttack",
+    "groupID": 5
+  },
+  "190031": {
+    "id": 190031,
+    "effect": "statusImmuneTypeBuff",
+    "effectParam": "debuff",
+    "groupID": 5
+  },
+  "190032": {
+    "id": 190032,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "hp",
+    "groupID": 6
+  },
+  "190033": {
+    "id": 190033,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "attack",
+    "groupID": 5
+  },
+  "190034": {
+    "id": 190034,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "armor",
+    "groupID": 6
+  },
+  "190035": {
+    "id": 190035,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "speed",
+    "groupID": 5
+  },
+  "190036": {
+    "id": 190036,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "hit",
+    "groupID": 5
+  },
+  "190037": {
+    "id": 190037,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "dodge",
+    "groupID": 6
+  },
+  "190038": {
+    "id": 190038,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "block",
+    "groupID": 6
+  },
+  "190039": {
+    "id": 190039,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "blockEffect",
+    "groupID": 6
+  },
+  "190040": {
+    "id": 190040,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "skillDamage",
+    "groupID": 5
+  },
+  "190041": {
+    "id": 190041,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "superDamage",
+    "groupID": 5
+  },
+  "190042": {
+    "id": 190042,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "critical",
+    "groupID": 5
+  },
+  "190043": {
+    "id": 190043,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "criticalResist",
+    "groupID": 6
+  },
+  "190044": {
+    "id": 190044,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "criticalDamage",
+    "groupID": 5
+  },
+  "190045": {
+    "id": 190045,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "armorBreak",
+    "groupID": 5
+  },
+  "190046": {
+    "id": 190046,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "damageReduce",
+    "groupID": 6
+  },
+  "190047": {
+    "id": 190047,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "controlResist",
+    "groupID": 6
+  },
+  "190048": {
+    "id": 190048,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "trueDamage",
+    "groupID": 5
+  },
+  "190049": {
+    "id": 190049,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "healPlus",
+    "groupID": 6
+  },
+  "190050": {
+    "id": 190050,
+    "effect": "buffAttrAddTargetHpLose",
+    "effectParam": "blockThrough",
+    "groupID": 6
+  },
+  "190051": {
+    "id": 190051,
+    "effect": "buffAttackDamagePlus",
+    "groupID": 5
+  },
+  "190052": {
+    "id": 190052,
+    "effect": "buffAttackDamagePlusTargetHpLose",
+    "groupID": 5
+  },
+  "190053": {
+    "id": 190053,
+    "effect": "buffDefendDamageMinus",
+    "groupID": 6
+  },
+  "190054": {
+    "id": 190054,
+    "effect": "buffMustHit",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190055": {
+    "id": 190055,
+    "effect": "buffEnergyPlus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190056": {
+    "id": 190056,
+    "effect": "buffUserHealPlus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190057": {
+    "id": 190057,
+    "effect": "passiveAttrAdd",
+    "effectParam": "hp",
+    "groupID": 6
+  },
+  "190058": {
+    "id": 190058,
+    "effect": "passiveAttrAdd",
+    "effectParam": "attack",
+    "groupID": 5
+  },
+  "190059": {
+    "id": 190059,
+    "effect": "passiveAttrAdd",
+    "effectParam": "armor",
+    "groupID": 6
+  },
+  "190060": {
+    "id": 190060,
+    "effect": "passiveAttrAdd",
+    "effectParam": "speed",
+    "groupID": 5
+  },
+  "190061": {
+    "id": 190061,
+    "effect": "passiveAttrAdd",
+    "effectParam": "hit",
+    "groupID": 5
+  },
+  "190062": {
+    "id": 190062,
+    "effect": "passiveAttrAdd",
+    "effectParam": "dodge",
+    "groupID": 6
+  },
+  "190063": {
+    "id": 190063,
+    "effect": "passiveAttrAdd",
+    "effectParam": "block",
+    "groupID": 6
+  },
+  "190064": {
+    "id": 190064,
+    "effect": "passiveAttrAdd",
+    "effectParam": "blockEffect",
+    "groupID": 6
+  },
+  "190065": {
+    "id": 190065,
+    "effect": "passiveAttrAdd",
+    "effectParam": "skillDamage",
+    "groupID": 5
+  },
+  "190066": {
+    "id": 190066,
+    "effect": "passiveAttrAdd",
+    "effectParam": "superDamage",
+    "groupID": 5
+  },
+  "190067": {
+    "id": 190067,
+    "effect": "passiveAttrAdd",
+    "effectParam": "critical",
+    "groupID": 5
+  },
+  "190068": {
+    "id": 190068,
+    "effect": "passiveAttrAdd",
+    "effectParam": "criticalResist",
+    "groupID": 6
+  },
+  "190069": {
+    "id": 190069,
+    "effect": "passiveAttrAdd",
+    "effectParam": "criticalDamage",
+    "groupID": 5
+  },
+  "190070": {
+    "id": 190070,
+    "effect": "passiveAttrAdd",
+    "effectParam": "armorBreak",
+    "groupID": 5
+  },
+  "190071": {
+    "id": 190071,
+    "effect": "passiveAttrAdd",
+    "effectParam": "damageReduce",
+    "groupID": 6
+  },
+  "190072": {
+    "id": 190072,
+    "effect": "passiveAttrAdd",
+    "effectParam": "controlResist",
+    "groupID": 6
+  },
+  "190073": {
+    "id": 190073,
+    "effect": "passiveAttrAdd",
+    "effectParam": "trueDamage",
+    "groupID": 5
+  },
+  "190074": {
+    "id": 190074,
+    "effect": "passiveAttrAdd",
+    "effectParam": "healPlus",
+    "groupID": 6
+  },
+  "190075": {
+    "id": 190075,
+    "effect": "passiveAttrAdd",
+    "effectParam": "blockThrough",
+    "groupID": 6
+  },
+  "190076": {
+    "id": 190076,
+    "effect": "passiveAttrAdd",
+    "effectParam": "dragonBallWarDamageUp",
+    "groupID": 6
+  },
+  "190077": {
+    "id": 190077,
+    "effect": "passiveAttrAdd",
+    "effectParam": "teamWarDamageUp",
+    "groupID": 6
+  },
+  "190078": {
+    "id": 190078,
+    "effect": "passiveAttrAdd",
+    "effectParam": "teamWarDamageDown",
+    "groupID": 6
+  },
+  "190079": {
+    "id": 190079,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "hp",
+    "groupID": 6
+  },
+  "190080": {
+    "id": 190080,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "attack",
+    "groupID": 5
+  },
+  "190081": {
+    "id": 190081,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "armor",
+    "groupID": 6
+  },
+  "190082": {
+    "id": 190082,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "speed",
+    "groupID": 5
+  },
+  "190083": {
+    "id": 190083,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "hit",
+    "groupID": 5
+  },
+  "190084": {
+    "id": 190084,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "dodge",
+    "groupID": 6
+  },
+  "190085": {
+    "id": 190085,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "block",
+    "groupID": 6
+  },
+  "190086": {
+    "id": 190086,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "blockEffect",
+    "groupID": 6
+  },
+  "190087": {
+    "id": 190087,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "skillDamage",
+    "groupID": 5
+  },
+  "190088": {
+    "id": 190088,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "superDamage",
+    "groupID": 5
+  },
+  "190089": {
+    "id": 190089,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "critical",
+    "groupID": 5
+  },
+  "190090": {
+    "id": 190090,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "criticalResist",
+    "groupID": 6
+  },
+  "190091": {
+    "id": 190091,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "criticalDamage",
+    "groupID": 5
+  },
+  "190092": {
+    "id": 190092,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "armorBreak",
+    "groupID": 5
+  },
+  "190093": {
+    "id": 190093,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "damageReduce",
+    "groupID": 6
+  },
+  "190094": {
+    "id": 190094,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "controlResist",
+    "groupID": 6
+  },
+  "190095": {
+    "id": 190095,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "trueDamage",
+    "groupID": 5
+  },
+  "190096": {
+    "id": 190096,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "healPlus",
+    "groupID": 6
+  },
+  "190097": {
+    "id": 190097,
+    "effect": "passiveAttrAddTargetHpLose",
+    "effectParam": "blockThrough",
+    "groupID": 6
+  },
+  "190098": {
+    "id": 190098,
+    "effect": "passiveAttackDamagePlus",
+    "groupID": 5
+  },
+  "190099": {
+    "id": 190099,
+    "effect": "passiveAttackDamagePlusTargetHpLose",
+    "groupID": 5
+  },
+  "190100": {
+    "id": 190100,
+    "effect": "passiveDefendDamageMinus",
+    "groupID": 6
+  },
+  "190101": {
+    "id": 190101,
+    "effect": "debuffAttrReduce",
+    "effectParam": "hp",
+    "groupID": 4
+  },
+  "190102": {
+    "id": 190102,
+    "effect": "debuffAttrReduce",
+    "effectParam": "attack",
+    "groupID": 3
+  },
+  "190103": {
+    "id": 190103,
+    "effect": "debuffAttrReduce",
+    "effectParam": "armor",
+    "groupID": 4
+  },
+  "190104": {
+    "id": 190104,
+    "effect": "debuffAttrReduce",
+    "effectParam": "speed",
+    "groupID": 3
+  },
+  "190105": {
+    "id": 190105,
+    "effect": "debuffAttrReduce",
+    "effectParam": "hit",
+    "groupID": 3
+  },
+  "190106": {
+    "id": 190106,
+    "effect": "debuffAttrReduce",
+    "effectParam": "dodge",
+    "groupID": 4
+  },
+  "190107": {
+    "id": 190107,
+    "effect": "debuffAttrReduce",
+    "effectParam": "block",
+    "groupID": 4
+  },
+  "190108": {
+    "id": 190108,
+    "effect": "debuffAttrReduce",
+    "effectParam": "blockEffect",
+    "groupID": 4
+  },
+  "190109": {
+    "id": 190109,
+    "effect": "debuffAttrReduce",
+    "effectParam": "skillDamage",
+    "groupID": 3
+  },
+  "190110": {
+    "id": 190110,
+    "effect": "debuffAttrReduce",
+    "effectParam": "superDamage",
+    "groupID": 3
+  },
+  "190111": {
+    "id": 190111,
+    "effect": "debuffAttrReduce",
+    "effectParam": "critical",
+    "groupID": 3
+  },
+  "190112": {
+    "id": 190112,
+    "effect": "debuffAttrReduce",
+    "effectParam": "criticalResist",
+    "groupID": 4
+  },
+  "190113": {
+    "id": 190113,
+    "effect": "debuffAttrReduce",
+    "effectParam": "criticalDamage",
+    "groupID": 3
+  },
+  "190114": {
+    "id": 190114,
+    "effect": "debuffAttrReduce",
+    "effectParam": "armorBreak",
+    "groupID": 3
+  },
+  "190115": {
+    "id": 190115,
+    "effect": "debuffAttrReduce",
+    "effectParam": "damageReduce",
+    "groupID": 4
+  },
+  "190116": {
+    "id": 190116,
+    "effect": "debuffAttrReduce",
+    "effectParam": "controlResist",
+    "groupID": 4
+  },
+  "190117": {
+    "id": 190117,
+    "effect": "debuffAttrReduce",
+    "effectParam": "trueDamage",
+    "groupID": 3
+  },
+  "190118": {
+    "id": 190118,
+    "effect": "debuffAttrReduce",
+    "effectParam": "healPlus",
+    "groupID": 4
+  },
+  "190119": {
+    "id": 190119,
+    "effect": "debuffAttrReduce",
+    "effectParam": "blockThrough",
+    "groupID": 4
+  },
+  "190120": {
+    "id": 190120,
+    "effect": "debuffAttrReduce",
+    "effectParam": "normalAttack",
+    "groupID": 3
+  },
+  "190121": {
+    "id": 190121,
+    "effect": "debuffAttackDamageMinus",
+    "groupID": 3
+  },
+  "190122": {
+    "id": 190122,
+    "effect": "debuffDefendDamagePlus",
+    "groupID": 4
+  },
+  "190123": {
+    "id": 190123,
+    "effect": "debuffEnergyMinus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190124": {
+    "id": 190124,
+    "effect": "debuffHealMinus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190125": {
+    "id": 190125,
+    "effect": "statusImmuneTypeDebuff",
+    "effectParam": "buff",
+    "groupID": 3
+  },
+  "190126": {
+    "id": 190126,
+    "effect": "faint",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190127": {
+    "id": 190127,
+    "effect": "paralysis",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190128": {
+    "id": 190128,
+    "effect": "freeze",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190129": {
+    "id": 190129,
+    "effect": "stone",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190130": {
+    "id": 190130,
+    "effect": "carrot",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190131": {
+    "id": 190131,
+    "effect": "slience",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190132": {
+    "id": 190132,
+    "effect": "fear",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190133": {
+    "id": 190133,
+    "effect": "haloAttrAdd",
+    "effectParam": "hp",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190134": {
+    "id": 190134,
+    "effect": "haloAttrAdd",
+    "effectParam": "attack",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190135": {
+    "id": 190135,
+    "effect": "haloAttrAdd",
+    "effectParam": "armor",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190136": {
+    "id": 190136,
+    "effect": "haloAttrAdd",
+    "effectParam": "speed",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190137": {
+    "id": 190137,
+    "effect": "haloAttrAdd",
+    "effectParam": "hit",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190138": {
+    "id": 190138,
+    "effect": "haloAttrAdd",
+    "effectParam": "dodge",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190139": {
+    "id": 190139,
+    "effect": "haloAttrAdd",
+    "effectParam": "block",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190140": {
+    "id": 190140,
+    "effect": "haloAttrAdd",
+    "effectParam": "blockEffect",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190141": {
+    "id": 190141,
+    "effect": "haloAttrAdd",
+    "effectParam": "skillDamage",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190142": {
+    "id": 190142,
+    "effect": "haloAttrAdd",
+    "effectParam": "superDamage",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190143": {
+    "id": 190143,
+    "effect": "haloAttrAdd",
+    "effectParam": "critical",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190144": {
+    "id": 190144,
+    "effect": "haloAttrAdd",
+    "effectParam": "criticalResist",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190145": {
+    "id": 190145,
+    "effect": "haloAttrAdd",
+    "effectParam": "criticalDamage",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190146": {
+    "id": 190146,
+    "effect": "haloAttrAdd",
+    "effectParam": "armorBreak",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190147": {
+    "id": 190147,
+    "effect": "haloAttrAdd",
+    "effectParam": "damageReduce",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190148": {
+    "id": 190148,
+    "effect": "haloAttrAdd",
+    "effectParam": "controlResist",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190149": {
+    "id": 190149,
+    "effect": "haloAttrAdd",
+    "effectParam": "trueDamage",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190150": {
+    "id": 190150,
+    "effect": "haloAttrAdd",
+    "effectParam": "healPlus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190151": {
+    "id": 190151,
+    "effect": "haloMustHit",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190152": {
+    "id": 190152,
+    "effect": "haloAttackDamagePlus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190153": {
+    "id": 190153,
+    "effect": "haloDefendDamageMinus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190154": {
+    "id": 190154,
+    "effect": "mark",
+    "effectParam": 1307001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190155": {
+    "id": 190155,
+    "effect": "mark",
+    "effectParam": 1312001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190156": {
+    "id": 190156,
+    "effect": "mark",
+    "effectParam": 1317001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190157": {
+    "id": 190157,
+    "effect": "mark",
+    "effectParam": 1317002,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190158": {
+    "id": 190158,
+    "effect": "mark",
+    "effectParam": 1319001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190159": {
+    "id": 190159,
+    "effect": "mark",
+    "effectParam": 1418001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190160": {
+    "id": 190160,
+    "effect": "mark",
+    "effectParam": 1509001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190161": {
+    "id": 190161,
+    "effect": "mark",
+    "effectParam": 1515001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190162": {
+    "id": 190162,
+    "effect": "mark",
+    "effectParam": 1516001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190163": {
+    "id": 190163,
+    "effect": "mark",
+    "effectParam": 1604001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190164": {
+    "id": 190164,
+    "effect": "mark",
+    "effectParam": 1606001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190165": {
+    "id": 190165,
+    "effect": "mark",
+    "effectParam": 1607001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190166": {
+    "id": 190166,
+    "effect": "mark",
+    "effectParam": 1618001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190167": {
+    "id": 190167,
+    "effect": "mark",
+    "effectParam": 1619001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190168": {
+    "id": 190168,
+    "effect": "mark",
+    "effectParam": 1620001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190169": {
+    "id": 190169,
+    "effect": "mark",
+    "effectParam": 1622001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190170": {
+    "id": 190170,
+    "effect": "mark",
+    "effectParam": 1623001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190171": {
+    "id": 190171,
+    "effect": "mark",
+    "effectParam": 1625001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190172": {
+    "id": 190172,
+    "effect": "mark",
+    "effectParam": 1626001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190173": {
+    "id": 190173,
+    "effect": "mark",
+    "effectParam": 1626002,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190174": {
+    "id": 190174,
+    "effect": "mark",
+    "effectParam": 1644001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190175": {
+    "id": 190175,
+    "effect": "mark",
+    "effectParam": 1649001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190176": {
+    "id": 190176,
+    "effect": "mark",
+    "effectParam": 1655001,
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190177": {
+    "id": 190177,
+    "effect": "focus",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190178": {
+    "id": 190178,
+    "effect": "taunt",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190179": {
+    "id": 190179,
+    "effect": "vampire",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190180": {
+    "id": 190180,
+    "effect": "reborn",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190181": {
+    "id": 190181,
+    "effect": "invincible",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190182": {
+    "id": 190182,
+    "effect": "invisible",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190183": {
+    "id": 190183,
+    "effect": "statusImmune",
+    "effectParam": "faint",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190184": {
+    "id": 190184,
+    "effect": "statusImmune",
+    "effectParam": "slience",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190185": {
+    "id": 190185,
+    "effect": "statusImmune",
+    "effectParam": "fear",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190186": {
+    "id": 190186,
+    "effect": "statusImmune",
+    "effectParam": "taunt",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190187": {
+    "id": 190187,
+    "effect": "statusImmuneType",
+    "effectParam": "debuff",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190188": {
+    "id": 190188,
+    "effect": "statusImmuneType",
+    "effectParam": "controlStrong",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190189": {
+    "id": 190189,
+    "effect": "statusImmuneType",
+    "effectParam": "controlWeak",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190190": {
+    "id": 190190,
+    "effect": "shield",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190191": {
+    "id": 190191,
+    "effect": "extraDodge",
+    "groupID": 1
+  },
+  "190192": {
+    "id": 190192,
+    "effect": "mustDodge",
+    "groupID": 1
+  },
+  "190193": {
+    "id": 190193,
+    "effect": "healBeenHit",
+    "effectParam": "attack",
+    "groupID": 1
+  },
+  "190194": {
+    "id": 190194,
+    "effect": "lastBlood",
+    "groupID": 1
+  },
+  "190195": {
+    "id": 190195,
+    "effect": "randomControl",
+    "groupID": 1
+  },
+  "190196": {
+    "id": 190196,
+    "effect": "goDie",
+    "groupID": 1
+  },
+  "190197": {
+    "id": 190197,
+    "effect": "delayDamage",
+    "groupID": 1
+  },
+  "190198": {
+    "id": 190198,
+    "effect": "ostrich",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190199": {
+    "id": 190199,
+    "effect": "ostrichenergy",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190200": {
+    "id": 190200,
+    "effect": "protect",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190201": {
+    "id": 190201,
+    "effect": "hidden",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190202": {
+    "id": 190202,
+    "effect": "corrosion",
+    "effectParam": "hp",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  },
+  "190203": {
+    "id": 190203,
+    "effect": "solo",
+    "groupID": 1,
+    "isPlayAtSameTime": 1
+  }
+}

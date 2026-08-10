@@ -1,0 +1,72 @@
+{
+  "120561": {
+    "superID": "120561",
+    "heroID": 1205,
+    "activeHeroID1": "",
+    "superPic": "superBook_1205_png",
+    "isNewVersion": 0
+  },
+  "140361": {
+    "superID": "140361",
+    "heroID": 1403,
+    "activeHeroID1": 1405,
+    "superPic": "superBook_1403_png",
+    "isNewVersion": 0
+  },
+  "140661": {
+    "superID": "140661",
+    "heroID": 1406,
+    "activeHeroID1": 1404,
+    "superPic": "superBook_1406_png",
+    "isNewVersion": 0
+  },
+  "142161": {
+    "superID": "142161",
+    "heroID": 1421,
+    "activeHeroID1": 1420,
+    "superPic": "superBook_1421_png",
+    "isNewVersion": 0
+  },
+  "150361": {
+    "superID": "150361",
+    "heroID": 1503,
+    "activeHeroID1": 1510,
+    "superPic": "superBook_1503_png",
+    "isNewVersion": 20190402
+  },
+  "150561": {
+    "superID": "150561",
+    "heroID": 1505,
+    "activeHeroID1": 1203,
+    "superPic": "superBook_1505_png",
+    "isNewVersion": 0
+  },
+  "150861": {
+    "superID": "150861",
+    "heroID": 1508,
+    "activeHeroID1": 1511,
+    "superPic": "superBook_1508_png",
+    "isNewVersion": 0
+  },
+  "150961": {
+    "superID": "150961",
+    "heroID": 1509,
+    "activeHeroID1": 1502,
+    "superPic": "superBook_1509_png",
+    "isNewVersion": 0
+  },
+  "151461": {
+    "superID": "151461",
+    "heroID": 1514,
+    "activeHeroID1": 1412,
+    "superPic": "superBook_1514_png",
+    "isNewVersion": 20190529
+  },
+  "151661": {
+    "superID": "151661",
+    "heroID": 1516,
+    "activeHeroID1": 1504,
+    "superPic": "superBook_1516_png",
+    "isNewVersion": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "white",
+    "resolveTo": 111,
+    "num": 1
+  },
+  "2": {
+    "id": 2,
+    "quality": "green",
+    "resolveTo": 111,
+    "num": 2
+  },
+  "3": {
+    "id": 3,
+    "quality": "blue",
+    "resolveTo": 111,
+    "num": 5
+  },
+  "4": {
+    "id": 4,
+    "quality": "purple",
+    "resolveTo": 111,
+    "num": 25
+  },
+  "5": {
+    "id": 5,
+    "quality": "orange",
+    "resolveTo": 111,
+    "num": 250
+  },
+  "6": {
+    "id": 6,
+    "quality": "flickerOrange",
+    "resolveTo": 111,
+    "num": 1000
+  },
+  "7": {
+    "id": 7,
+    "quality": "superOrange",
+    "resolveTo": 111,
+    "num": 5000
+  }
+}

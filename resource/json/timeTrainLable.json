@@ -1,0 +1,1068 @@
+{
+  "1": [
+    {
+      "id": 1,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 1,
+      "star": 2,
+      "type": "body",
+      "Restrictions": 1,
+      "Limitnumber": 2
+    },
+    {
+      "id": 1,
+      "star": 3,
+      "type": "body",
+      "Restrictions": 1,
+      "Limitnumber": 2,
+      "Rounds": 15
+    }
+  ],
+  "2": [
+    {
+      "id": 2,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 2,
+      "star": 2,
+      "type": "strength",
+      "mainTag": "Saiya",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 2,
+      "star": 3,
+      "type": "strength",
+      "mainTag": "Saiya",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "3": [
+    {
+      "id": 3,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 3,
+      "star": 2,
+      "tag": "fusion,justice",
+      "Restrictions": 0
+    },
+    {
+      "id": 3,
+      "star": 3,
+      "tag": "fusion,justice",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "4": [
+    {
+      "id": 4,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 4,
+      "star": 2,
+      "mainTag": "Create",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 4,
+      "star": 3,
+      "mainTag": "Create",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "5": [
+    {
+      "id": 5,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 5,
+      "star": 2,
+      "positionTag1": "support",
+      "Restrictions": 0,
+      "Limitnumber": 0
+    },
+    {
+      "id": 5,
+      "star": 3,
+      "positionTag1": "support",
+      "Restrictions": 0,
+      "Limitnumber": 0,
+      "Rounds": 15
+    }
+  ],
+  "6": [
+    {
+      "id": 6,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 6,
+      "star": 2,
+      "positionTag1": "carry",
+      "positionTag3": "single",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 6,
+      "star": 3,
+      "positionTag1": "carry",
+      "positionTag3": "single",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "7": [
+    {
+      "id": 7,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 7,
+      "star": 2,
+      "tag": "6th_universe,10th_universe",
+      "Restrictions": 0
+    },
+    {
+      "id": 7,
+      "star": 3,
+      "tag": "6th_universe,10th_universe",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "8": [
+    {
+      "id": 8,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 8,
+      "star": 2,
+      "tag": "super_saiyan",
+      "Restrictions": 0
+    },
+    {
+      "id": 8,
+      "star": 3,
+      "tag": "super_saiyan",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "9": [
+    {
+      "id": 9,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 9,
+      "star": 2,
+      "chapterTag": "other",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 9,
+      "star": 3,
+      "chapterTag": "other",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "10": [
+    {
+      "id": 10,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 10,
+      "star": 2,
+      "tag": "7th_universe,future",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 10,
+      "star": 3,
+      "tag": "7th_universe,future",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "11": [
+    {
+      "id": 11,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 11,
+      "star": 2,
+      "tag": "evil",
+      "Restrictions": 0
+    },
+    {
+      "id": 11,
+      "star": 3,
+      "tag": "evil",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "12": [
+    {
+      "id": 12,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 12,
+      "star": 2,
+      "type": "skill",
+      "positionTag3": "area",
+      "Restrictions": 1,
+      "Limitnumber": 2
+    },
+    {
+      "id": 12,
+      "star": 3,
+      "type": "skill",
+      "positionTag3": "area",
+      "Restrictions": 1,
+      "Limitnumber": 2,
+      "Rounds": 15
+    }
+  ],
+  "13": [
+    {
+      "id": 13,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 13,
+      "star": 2,
+      "tag": "7th_universe,10th_universe",
+      "Restrictions": 0
+    },
+    {
+      "id": 13,
+      "star": 3,
+      "tag": "7th_universe,10th_universe",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "14": [
+    {
+      "id": 14,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 14,
+      "star": 2,
+      "positionTag2": "bleed,buff",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 14,
+      "star": 3,
+      "positionTag2": "bleed,buff",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "15": [
+    {
+      "id": 15,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 15,
+      "star": 2,
+      "positionTag1": "carry",
+      "positionTag3": "area",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 15,
+      "star": 3,
+      "positionTag1": "carry",
+      "positionTag3": "area",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "16": [
+    {
+      "id": 16,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 16,
+      "star": 2,
+      "type": "strength",
+      "positionTag3": "single",
+      "Restrictions": 0
+    },
+    {
+      "id": 16,
+      "star": 3,
+      "type": "strength",
+      "positionTag3": "single",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "17": [
+    {
+      "id": 17,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 17,
+      "star": 2,
+      "chapterTag": "birus,the_whole_universe",
+      "Restrictions": 0
+    },
+    {
+      "id": 17,
+      "star": 3,
+      "chapterTag": "birus,the_whole_universe",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "18": [
+    {
+      "id": 18,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 18,
+      "star": 2,
+      "type": "body",
+      "Restrictions": 1,
+      "Limitnumber": 2
+    },
+    {
+      "id": 18,
+      "star": 3,
+      "type": "body",
+      "Restrictions": 1,
+      "Limitnumber": 2,
+      "Rounds": 15
+    }
+  ],
+  "19": [
+    {
+      "id": 19,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 19,
+      "star": 2,
+      "mainTag": "Demon,Angel",
+      "Restrictions": 0
+    },
+    {
+      "id": 19,
+      "star": 3,
+      "mainTag": "Demon,Angel",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "20": [
+    {
+      "id": 20,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 20,
+      "star": 2,
+      "tag": "female,justice",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 20,
+      "star": 3,
+      "tag": "female,justice",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "21": [
+    {
+      "id": 21,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 21,
+      "star": 2,
+      "type": "skill",
+      "positionTag3": "area",
+      "Restrictions": 0
+    },
+    {
+      "id": 21,
+      "star": 3,
+      "type": "skill",
+      "positionTag3": "area",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "22": [
+    {
+      "id": 22,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 22,
+      "star": 2,
+      "mainTag": "Saiya",
+      "Restrictions": 1,
+      "Limitnumber": 2
+    },
+    {
+      "id": 22,
+      "star": 3,
+      "mainTag": "Saiya",
+      "Restrictions": 1,
+      "Limitnumber": 2,
+      "Rounds": 15
+    }
+  ],
+  "23": [
+    {
+      "id": 23,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 23,
+      "star": 2,
+      "mainTag": "Create",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 23,
+      "star": 3,
+      "mainTag": "Create",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "24": [
+    {
+      "id": 24,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 24,
+      "star": 2,
+      "tag": "7th_universe,saiyan_god",
+      "Restrictions": 0
+    },
+    {
+      "id": 24,
+      "star": 3,
+      "tag": "7th_universe,saiyan_god",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "25": [
+    {
+      "id": 25,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 25,
+      "star": 2,
+      "mainTag": "Demon,Hakai",
+      "Restrictions": 0
+    },
+    {
+      "id": 25,
+      "star": 3,
+      "mainTag": "Demon,Hakai",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "26": [
+    {
+      "id": 26,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 26,
+      "star": 2,
+      "mainTag": "Create,LegendSaiya",
+      "Restrictions": 0
+    },
+    {
+      "id": 26,
+      "star": 3,
+      "mainTag": "Create,LegendSaiya",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "27": [
+    {
+      "id": 27,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 27,
+      "star": 2,
+      "chapterTag": "birus,the_whole_universe",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 27,
+      "star": 3,
+      "chapterTag": "birus,the_whole_universe",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "28": [
+    {
+      "id": 28,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 28,
+      "star": 2,
+      "type": "skill",
+      "Restrictions": 1,
+      "Limitnumber": 3
+    },
+    {
+      "id": 28,
+      "star": 3,
+      "type": "skill",
+      "Restrictions": 1,
+      "Limitnumber": 3,
+      "Rounds": 15
+    }
+  ],
+  "29": [
+    {
+      "id": 29,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 29,
+      "star": 2,
+      "positionTag1": "support",
+      "Restrictions": 0,
+      "Limitnumber": 0
+    },
+    {
+      "id": 29,
+      "star": 3,
+      "positionTag1": "support",
+      "Restrictions": 0,
+      "Limitnumber": 0,
+      "Rounds": 15
+    }
+  ],
+  "30": [
+    {
+      "id": 30,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 30,
+      "star": 2,
+      "tag": "6th_universe,7th_universe",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 30,
+      "star": 3,
+      "tag": "6th_universe,7th_universe",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "31": [
+    {
+      "id": 31,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 31,
+      "star": 2,
+      "tag": "6th_universe,saiyan_god",
+      "Restrictions": 0
+    },
+    {
+      "id": 31,
+      "star": 3,
+      "tag": "6th_universe,saiyan_god",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "32": [
+    {
+      "id": 32,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 32,
+      "star": 2,
+      "type": "strength",
+      "mainTag": "Saiya",
+      "Restrictions": 0
+    },
+    {
+      "id": 32,
+      "star": 3,
+      "type": "strength",
+      "mainTag": "Saiya",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "33": [
+    {
+      "id": 33,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 33,
+      "star": 2,
+      "positionTag1": "carry",
+      "positionTag3": "area",
+      "Restrictions": 0
+    },
+    {
+      "id": 33,
+      "star": 3,
+      "positionTag1": "carry",
+      "positionTag3": "area",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "34": [
+    {
+      "id": 34,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 34,
+      "star": 2,
+      "tag": "evil",
+      "Restrictions": 0
+    },
+    {
+      "id": 34,
+      "star": 3,
+      "tag": "evil",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "35": [
+    {
+      "id": 35,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 35,
+      "star": 2,
+      "type": "body",
+      "positionTag3": "single",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 35,
+      "star": 3,
+      "type": "body",
+      "positionTag3": "single",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "36": [
+    {
+      "id": 36,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 36,
+      "star": 2,
+      "tag": "7th_universe,10th_universe",
+      "Restrictions": 0
+    },
+    {
+      "id": 36,
+      "star": 3,
+      "tag": "7th_universe,10th_universe",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "37": [
+    {
+      "id": 37,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 37,
+      "star": 2,
+      "tag": "6th_universe,future",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 37,
+      "star": 3,
+      "tag": "6th_universe,future",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "38": [
+    {
+      "id": 38,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 38,
+      "star": 2,
+      "chapterTag": "majin_Buu",
+      "Restrictions": 0
+    },
+    {
+      "id": 38,
+      "star": 3,
+      "chapterTag": "majin_Buu",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "39": [
+    {
+      "id": 39,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 39,
+      "star": 2,
+      "positionTag2": "debuff",
+      "Restrictions": 0
+    },
+    {
+      "id": 39,
+      "star": 3,
+      "positionTag2": "debuff",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "40": [
+    {
+      "id": 40,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 40,
+      "star": 2,
+      "type": "body",
+      "positionTag3": "single",
+      "Restrictions": 0
+    },
+    {
+      "id": 40,
+      "star": 3,
+      "type": "body",
+      "positionTag3": "single",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "41": [
+    {
+      "id": 41,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 41,
+      "star": 2,
+      "positionTag2": "bleed,buff",
+      "Restrictions": 0
+    },
+    {
+      "id": 41,
+      "star": 3,
+      "positionTag2": "bleed,buff",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "42": [
+    {
+      "id": 42,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 42,
+      "star": 2,
+      "tag": "female,fusion",
+      "Restrictions": 0
+    },
+    {
+      "id": 42,
+      "star": 3,
+      "tag": "female,fusion",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "43": [
+    {
+      "id": 43,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 43,
+      "star": 2,
+      "positionTag2": "control",
+      "Restrictions": 0
+    },
+    {
+      "id": 43,
+      "star": 3,
+      "positionTag2": "control",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "44": [
+    {
+      "id": 44,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 44,
+      "star": 2,
+      "positionTag1": "carry",
+      "positionTag3": "area",
+      "Restrictions": 1,
+      "Limitnumber": 1
+    },
+    {
+      "id": 44,
+      "star": 3,
+      "positionTag1": "carry",
+      "positionTag3": "area",
+      "Restrictions": 1,
+      "Limitnumber": 1,
+      "Rounds": 15
+    }
+  ],
+  "45": [
+    {
+      "id": 45,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 45,
+      "star": 2,
+      "tag": "super_saiyan",
+      "Restrictions": 0
+    },
+    {
+      "id": 45,
+      "star": 3,
+      "tag": "super_saiyan",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "46": [
+    {
+      "id": 46,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 46,
+      "star": 2,
+      "chapterTag": "birus,67_universe",
+      "Restrictions": 0
+    },
+    {
+      "id": 46,
+      "star": 3,
+      "chapterTag": "birus,67_universe",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "47": [
+    {
+      "id": 47,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 47,
+      "star": 2,
+      "positionTag1": "carry",
+      "positionTag3": "single",
+      "Restrictions": 0
+    },
+    {
+      "id": 47,
+      "star": 3,
+      "positionTag1": "carry",
+      "positionTag3": "single",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "48": [
+    {
+      "id": 48,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 48,
+      "star": 2,
+      "chapterTag": "other",
+      "Restrictions": 0
+    },
+    {
+      "id": 48,
+      "star": 3,
+      "chapterTag": "other",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "49": [
+    {
+      "id": 49,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 49,
+      "star": 2,
+      "tag": "fusion,justice",
+      "Restrictions": 0
+    },
+    {
+      "id": 49,
+      "star": 3,
+      "tag": "fusion,justice",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ],
+  "50": [
+    {
+      "id": 50,
+      "star": 1,
+      "Restrictions": 1
+    },
+    {
+      "id": 50,
+      "star": 2,
+      "chapterTag": "birus,the_whole_universe",
+      "Restrictions": 0
+    },
+    {
+      "id": 50,
+      "star": 3,
+      "chapterTag": "birus,the_whole_universe",
+      "Restrictions": 0,
+      "Rounds": 15
+    }
+  ]
+}

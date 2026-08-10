@@ -1,0 +1,17 @@
+{
+  "1": {
+    "id": 1,
+    "levelNeeded": 30,
+    "vipNeeded": 0
+  },
+  "2": {
+    "id": 2,
+    "levelNeeded": 60,
+    "vipNeeded": 2
+  },
+  "3": {
+    "id": 3,
+    "levelNeeded": 120,
+    "vipNeeded": 6
+  }
+}

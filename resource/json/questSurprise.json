@@ -1,0 +1,60 @@
+{
+  "1": [
+    {
+      "id": 1,
+      "awardID": 101,
+      "name": "钻石",
+      "num": 100,
+      "random": 3000
+    },
+    {
+      "id": 1,
+      "awardID": 101,
+      "name": "钻石",
+      "num": 200,
+      "random": 2000
+    },
+    {
+      "id": 1,
+      "awardID": 158,
+      "name": "随机龙珠",
+      "num": 1,
+      "random": 500
+    },
+    {
+      "id": 1,
+      "awardID": 123,
+      "name": "高级召唤珠",
+      "num": 1,
+      "random": 1500
+    },
+    {
+      "id": 1,
+      "awardID": 521,
+      "name": "神秘召唤珠",
+      "num": 1,
+      "random": 1000
+    },
+    {
+      "id": 1,
+      "awardID": 2851,
+      "name": "s碎片",
+      "num": 10,
+      "random": 1500
+    },
+    {
+      "id": 1,
+      "awardID": 2861,
+      "name": "ss碎片",
+      "num": 5,
+      "random": 500
+    },
+    {
+      "id": 1,
+      "awardID": 501,
+      "name": "觉醒石",
+      "num": 5,
+      "random": 500
+    }
+  ]
+}

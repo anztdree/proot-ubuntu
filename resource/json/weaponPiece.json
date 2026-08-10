@@ -1,0 +1,72 @@
+{
+  "4199": {
+    "id": 4199,
+    "name": "绿色武器碎片",
+    "mergeNum": 5,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20001
+  },
+  "4299": {
+    "id": 4299,
+    "name": "蓝色武器碎片",
+    "mergeNum": 10,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20002
+  },
+  "4399": {
+    "id": 4399,
+    "name": "紫色武器碎片",
+    "mergeNum": 20,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20003
+  },
+  "4413": {
+    "id": 4413,
+    "name": "天使法杖·破坏碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20005
+  },
+  "4414": {
+    "id": 4414,
+    "name": "天使法杖·压迫碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20006
+  },
+  "4415": {
+    "id": 4415,
+    "name": "天使法杖·生机碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20007
+  },
+  "4416": {
+    "id": 4416,
+    "name": "天使法杖·铁壁碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20008
+  },
+  "4417": {
+    "id": 4417,
+    "name": "天使法杖·勇者碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20009
+  },
+  "4418": {
+    "id": 4418,
+    "name": "天使法杖·迅捷碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20010
+  },
+  "4499": {
+    "id": 4499,
+    "name": "橙色武器碎片",
+    "mergeNum": 60,
+    "thingsType": "weaponPiece",
+    "mergeRandom": 20004
+  }
+}

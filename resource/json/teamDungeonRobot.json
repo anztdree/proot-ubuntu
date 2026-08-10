@@ -1,0 +1,80 @@
+{
+  "5201": {
+    "id": 5201,
+    "type": "attack",
+    "userLevel": 200,
+    "enemyList": "51309,51214,51217,51206,51207",
+    "enemyLevel": "200,200,200,200,200",
+    "monsterType": "strength,strength,strength,skill,strength",
+    "controlResist": ",,,,",
+    "difficultyHp": "1,1,1,1,1",
+    "difficultyAttack": "1,1,1,1,1",
+    "difficultyArmor": "1,1,1,1,1",
+    "name": "teamDungeonRobot_name_1"
+  },
+  "5202": {
+    "id": 5202,
+    "type": "support",
+    "userLevel": 200,
+    "enemyList": "51309,51214,51217,51206,51207",
+    "enemyLevel": "200,200,200,200,200",
+    "monsterType": "strength,strength,strength,skill,strength",
+    "controlResist": ",,,,",
+    "difficultyHp": "1,1,1,1,1",
+    "difficultyAttack": "1,1,1,1,1",
+    "difficultyArmor": "1,1,1,1,1",
+    "name": "teamDungeonRobot_name_2"
+  },
+  "5203": {
+    "id": 5203,
+    "type": "treasure",
+    "userLevel": 200,
+    "enemyList": "51309,51214,51217,51206,51207",
+    "enemyLevel": "200,200,200,200,200",
+    "monsterType": "strength,strength,strength,skill,strength",
+    "controlResist": ",,,,",
+    "difficultyHp": "1,1,1,1,1",
+    "difficultyAttack": "1,1,1,1,1",
+    "difficultyArmor": "1,1,1,1,1",
+    "name": "teamDungeonRobot_name_3"
+  },
+  "5204": {
+    "id": 5204,
+    "type": "attack",
+    "userLevel": 200,
+    "enemyList": "51309,51214,51217,51206,51207",
+    "enemyLevel": "200,200,200,200,200",
+    "monsterType": "strength,strength,strength,skill,strength",
+    "controlResist": ",,,,",
+    "difficultyHp": "1,1,1,1,1",
+    "difficultyAttack": "1,1,1,1,1",
+    "difficultyArmor": "1,1,1,1,1",
+    "name": "teamDungeonRobot_name_1"
+  },
+  "5205": {
+    "id": 5205,
+    "type": "support",
+    "userLevel": 200,
+    "enemyList": "51309,51214,51217,51206,51207",
+    "enemyLevel": "200,200,200,200,200",
+    "monsterType": "strength,strength,strength,skill,strength",
+    "controlResist": ",,,,",
+    "difficultyHp": "1,1,1,1,1",
+    "difficultyAttack": "1,1,1,1,1",
+    "difficultyArmor": "1,1,1,1,1",
+    "name": "teamDungeonRobot_name_2"
+  },
+  "5206": {
+    "id": 5206,
+    "type": "treasure",
+    "userLevel": 200,
+    "enemyList": "51309,51214,51217,51206,51207",
+    "enemyLevel": "200,200,200,200,200",
+    "monsterType": "strength,strength,strength,skill,strength",
+    "controlResist": ",,,,",
+    "difficultyHp": "1,1,1,1,1",
+    "difficultyAttack": "1,1,1,1,1",
+    "difficultyArmor": "1,1,1,1,1",
+    "name": "teamDungeonRobot_name_3"
+  }
+}

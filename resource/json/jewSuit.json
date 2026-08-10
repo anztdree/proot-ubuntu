@@ -1,0 +1,92 @@
+{
+  "10101": {
+    "id": 10101,
+    "skillID": 300111,
+    "name": "jewSuit_name_1"
+  },
+  "10102": {
+    "id": 10102,
+    "skillID": 300211,
+    "name": "jewSuit_name_2"
+  },
+  "10103": {
+    "id": 10103,
+    "skillID": 300311,
+    "name": "jewSuit_name_3"
+  },
+  "10201": {
+    "id": 10201,
+    "skillID": 300111,
+    "name": "jewSuit_name_4"
+  },
+  "10202": {
+    "id": 10202,
+    "skillID": 300211,
+    "name": "jewSuit_name_5"
+  },
+  "10203": {
+    "id": 10203,
+    "skillID": 300311,
+    "name": "jewSuit_name_6"
+  },
+  "10301": {
+    "id": 10301,
+    "skillID": 300111,
+    "name": "jewSuit_name_7"
+  },
+  "10302": {
+    "id": 10302,
+    "skillID": 300211,
+    "name": "jewSuit_name_8"
+  },
+  "10303": {
+    "id": 10303,
+    "skillID": 300311,
+    "name": "jewSuit_name_9"
+  },
+  "10401": {
+    "id": 10401,
+    "skillID": 300111,
+    "name": "jewSuit_name_10"
+  },
+  "10402": {
+    "id": 10402,
+    "skillID": 300211,
+    "name": "jewSuit_name_11"
+  },
+  "10403": {
+    "id": 10403,
+    "skillID": 300311,
+    "name": "jewSuit_name_12"
+  },
+  "10501": {
+    "id": 10501,
+    "skillID": 300111,
+    "name": "jewSuit_name_13"
+  },
+  "10502": {
+    "id": 10502,
+    "skillID": 300211,
+    "name": "jewSuit_name_14"
+  },
+  "10503": {
+    "id": 10503,
+    "skillID": 300311,
+    "name": "jewSuit_name_15"
+  },
+  "10601": {
+    "id": 10601,
+    "skillID": 300111,
+    "name": "jewSuit_name_16"
+  },
+  "10602": {
+    "id": 10602,
+    "skillID": 300211,
+    "name": "jewSuit_name_17"
+  },
+  "10603": {
+    "id": 10603,
+    "skillID": 300311,
+    "name": "jewSuit_name_18"
+  }
+}

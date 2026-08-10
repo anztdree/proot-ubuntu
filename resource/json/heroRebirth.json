@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "white",
+    "rebirthNeeded": 101,
+    "num": 0
+  },
+  "2": {
+    "id": 2,
+    "quality": "green",
+    "rebirthNeeded": 101,
+    "num": 0
+  },
+  "3": {
+    "id": 3,
+    "quality": "blue",
+    "rebirthNeeded": 101,
+    "num": 0
+  },
+  "4": {
+    "id": 4,
+    "quality": "purple",
+    "rebirthNeeded": 101,
+    "num": 5
+  },
+  "5": {
+    "id": 5,
+    "quality": "orange",
+    "rebirthNeeded": 101,
+    "num": 20
+  },
+  "6": {
+    "id": 6,
+    "quality": "flickerOrange",
+    "rebirthNeeded": 101,
+    "num": 50
+  },
+  "7": {
+    "id": 7,
+    "quality": "superOrange",
+    "rebirthNeeded": 101,
+    "num": 100
+  }
+}

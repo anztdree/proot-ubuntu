@@ -1,0 +1,553 @@
+{
+  "1": {
+    "id": 1,
+    "effectName": "damageAttack",
+    "isShow": 0
+  },
+  "2": {
+    "id": 2,
+    "effectName": "damageTargetHpCur",
+    "isShow": 0
+  },
+  "3": {
+    "id": 3,
+    "effectName": "damageTargetHp",
+    "isShow": 0
+  },
+  "4": {
+    "id": 4,
+    "effectName": "damageSelfHpCur",
+    "isShow": 0
+  },
+  "5": {
+    "id": 5,
+    "effectName": "damageTargetAttr",
+    "isShow": 0
+  },
+  "6": {
+    "id": 6,
+    "effectName": "damageSelfAttr",
+    "isShow": 0
+  },
+  "7": {
+    "id": 7,
+    "effectName": "trueDamageAttack",
+    "isShow": 0
+  },
+  "8": {
+    "id": 8,
+    "effectName": "healAttack",
+    "isShow": 0
+  },
+  "9": {
+    "id": 9,
+    "effectName": "healTargetHp",
+    "isShow": 0
+  },
+  "10": {
+    "id": 10,
+    "effectName": "energyAdd",
+    "isShow": 0
+  },
+  "11": {
+    "id": 11,
+    "effectName": "energyReduce",
+    "isShow": 0
+  },
+  "12": {
+    "id": 12,
+    "effectName": "revive",
+    "isShow": 0,
+    "effectInfo": "skillEffectTips_effectInfo_1"
+  },
+  "13": {
+    "id": 13,
+    "effectName": "statusDispelBad",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_2"
+  },
+  "14": {
+    "id": 14,
+    "effectName": "statusDispelTypeBad",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_2"
+  },
+  "15": {
+    "id": 15,
+    "effectName": "statusDispelFirstBad",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_2"
+  },
+  "16": {
+    "id": 16,
+    "effectName": "statusDispelGood",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_3"
+  },
+  "17": {
+    "id": 17,
+    "effectName": "statusDispelTypeGood",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_3"
+  },
+  "18": {
+    "id": 18,
+    "effectName": "statusDispelFirstGood",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_3"
+  },
+  "19": {
+    "id": 19,
+    "effectName": "doubleHitNormal",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_4"
+  },
+  "20": {
+    "id": 20,
+    "effectName": "doubleHitSkill",
+    "isShow": 0
+  },
+  "21": {
+    "id": 21,
+    "effectName": "counterAttack",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_5"
+  },
+  "22": {
+    "id": 22,
+    "effectName": "blowDot",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_6"
+  },
+  "23": {
+    "id": 23,
+    "effectName": "attackTogether",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_39"
+  },
+  "24": {
+    "id": 24,
+    "effectName": "normalIDChange",
+    "isShow": 0
+  },
+  "25": {
+    "id": 25,
+    "effectName": "skillIDChange",
+    "isShow": 0
+  },
+  "26": {
+    "id": 26,
+    "effectName": "markId",
+    "isShow": 0
+  },
+  "27": {
+    "id": 27,
+    "effectName": "bomb",
+    "isShow": 0
+  },
+  "28": {
+    "id": 28,
+    "effectName": "blood",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_45"
+  },
+  "29": {
+    "id": 29,
+    "effectName": "burning",
+    "isShow": 0
+  },
+  "30": {
+    "id": 30,
+    "effectName": "poison",
+    "isShow": 0
+  },
+  "31": {
+    "id": 31,
+    "effectName": "hot",
+    "isShow": 0
+  },
+  "32": {
+    "id": 32,
+    "effectName": "buffAttrAdd",
+    "isShow": 0
+  },
+  "33": {
+    "id": 33,
+    "effectName": "buffAttrAddNoMark",
+    "isShow": 0
+  },
+  "34": {
+    "id": 34,
+    "effectName": "buffAttrAddTargetHpLose",
+    "isShow": 0
+  },
+  "35": {
+    "id": 35,
+    "effectName": "buffAttackDamagePlus",
+    "isShow": 0
+  },
+  "36": {
+    "id": 36,
+    "effectName": "buffAttackDamagePlusTargetHpLose",
+    "isShow": 0
+  },
+  "37": {
+    "id": 37,
+    "effectName": "buffDefendDamageMinus",
+    "isShow": 0
+  },
+  "38": {
+    "id": 38,
+    "effectName": "buffMustHit",
+    "isShow": 0
+  },
+  "39": {
+    "id": 39,
+    "effectName": "buffEnergyPlus",
+    "isShow": 0
+  },
+  "40": {
+    "id": 40,
+    "effectName": "buffUserHealPlus",
+    "isShow": 0
+  },
+  "41": {
+    "id": 41,
+    "effectName": "buffTempAttrAdd",
+    "isShow": 0
+  },
+  "42": {
+    "id": 42,
+    "effectName": "buffTempAttrAddTargetHpLose",
+    "isShow": 0
+  },
+  "43": {
+    "id": 43,
+    "effectName": "buffTempAttrAddOwnStand",
+    "isShow": 0
+  },
+  "44": {
+    "id": 44,
+    "effectName": "buffTempAttackDamagePlus",
+    "isShow": 0
+  },
+  "45": {
+    "id": 45,
+    "effectName": "buffTempAttackDamagePlusTargetHpLose",
+    "isShow": 0
+  },
+  "46": {
+    "id": 46,
+    "effectName": "buffTempAttackDamagePlusOwnStand",
+    "isShow": 0
+  },
+  "47": {
+    "id": 47,
+    "effectName": "buffTempAttackDamagePlusHpLose",
+    "isShow": 0
+  },
+  "48": {
+    "id": 48,
+    "effectName": "buffTempMustHit",
+    "isShow": 0
+  },
+  "49": {
+    "id": 49,
+    "effectName": "passiveAttrAdd",
+    "isShow": 0
+  },
+  "50": {
+    "id": 50,
+    "effectName": "passiveAttrAddTargetHpLose",
+    "isShow": 0
+  },
+  "51": {
+    "id": 51,
+    "effectName": "passiveAttackDamagePlus",
+    "isShow": 0
+  },
+  "52": {
+    "id": 52,
+    "effectName": "passiveAttackDamagePlusTargetHpLose",
+    "isShow": 0
+  },
+  "53": {
+    "id": 53,
+    "effectName": "extraDodge",
+    "isShow": 0
+  },
+  "54": {
+    "id": 54,
+    "effectName": "mustDodge",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_53"
+  },
+  "55": {
+    "id": 55,
+    "effectName": "debuffAttrReduce",
+    "isShow": 0
+  },
+  "56": {
+    "id": 56,
+    "effectName": "debuffAttrReduceNoMark",
+    "isShow": 0
+  },
+  "57": {
+    "id": 57,
+    "effectName": "debuffAttackDamageMinus",
+    "isShow": 0
+  },
+  "58": {
+    "id": 58,
+    "effectName": "debuffDefendDamagePlus",
+    "isShow": 0
+  },
+  "59": {
+    "id": 59,
+    "effectName": "debuffEnergyMinus",
+    "isShow": 0
+  },
+  "60": {
+    "id": 60,
+    "effectName": "debuffHealMinus",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_34"
+  },
+  "61": {
+    "id": 61,
+    "effectName": "debuffTempAttrReduce",
+    "isShow": 0
+  },
+  "62": {
+    "id": 62,
+    "effectName": "debuffTempAttackDamageMinus",
+    "isShow": 0
+  },
+  "63": {
+    "id": 63,
+    "effectName": "debuffTempDefendArmorMinus",
+    "isShow": 0
+  },
+  "64": {
+    "id": 64,
+    "effectName": "debuffTempMustBeCritical",
+    "isShow": 0
+  },
+  "65": {
+    "id": 65,
+    "effectName": "carrot",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_26"
+  },
+  "66": {
+    "id": 66,
+    "effectName": "chocolate",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_27"
+  },
+  "67": {
+    "id": 67,
+    "effectName": "freeze",
+    "isShow": 0
+  },
+  "68": {
+    "id": 68,
+    "effectName": "paralysis",
+    "isShow": 0
+  },
+  "69": {
+    "id": 69,
+    "effectName": "stone",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_43"
+  },
+  "70": {
+    "id": 70,
+    "effectName": "faint",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_29"
+  },
+  "71": {
+    "id": 71,
+    "effectName": "slience",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_30"
+  },
+  "72": {
+    "id": 72,
+    "effectName": "fear",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_31"
+  },
+  "73": {
+    "id": 73,
+    "effectName": "haloAttrAdd",
+    "isShow": 0
+  },
+  "74": {
+    "id": 74,
+    "effectName": "haloMustHit",
+    "isShow": 0
+  },
+  "75": {
+    "id": 75,
+    "effectName": "haloAttackDamagePlus",
+    "isShow": 0
+  },
+  "76": {
+    "id": 76,
+    "effectName": "haloDefendDamageMinus",
+    "isShow": 0
+  },
+  "77": {
+    "id": 77,
+    "effectName": "haloVampire",
+    "isShow": 0
+  },
+  "78": {
+    "id": 78,
+    "effectName": "mark",
+    "isShow": 0
+  },
+  "79": {
+    "id": 79,
+    "effectName": "focus",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_42"
+  },
+  "80": {
+    "id": 80,
+    "effectName": "taunt",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_17"
+  },
+  "81": {
+    "id": 81,
+    "effectName": "vampire",
+    "isShow": 0
+  },
+  "82": {
+    "id": 82,
+    "effectName": "reborn",
+    "isShow": 0
+  },
+  "83": {
+    "id": 83,
+    "effectName": "invincible",
+    "isShow": 0
+  },
+  "84": {
+    "id": 84,
+    "effectName": "invincibleCount",
+    "isShow": 0
+  },
+  "85": {
+    "id": 85,
+    "effectName": "invisible",
+    "isShow": 0,
+    "effectInfo": "skillEffectTips_effectInfo_18"
+  },
+  "86": {
+    "id": 86,
+    "effectName": "statusImmune",
+    "isShow": 0
+  },
+  "87": {
+    "id": 87,
+    "effectName": "statusImmuneType",
+    "isShow": 0
+  },
+  "88": {
+    "id": 88,
+    "effectName": "shield",
+    "isShow": 0
+  },
+  "89": {
+    "id": 89,
+    "effectName": "damageRebound",
+    "isShow": 0
+  },
+  "90": {
+    "id": 90,
+    "effectName": "healBeenHit",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_52"
+  },
+  "91": {
+    "id": 91,
+    "effectName": "lastBlood",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_19"
+  },
+  "92": {
+    "id": 92,
+    "effectName": "shieldAttack",
+    "isShow": 0
+  },
+  "93": {
+    "id": 93,
+    "effectName": "statusDispelControl",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_20"
+  },
+  "94": {
+    "id": 94,
+    "effectName": "statusDispelShield",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_21"
+  },
+  "95": {
+    "id": 95,
+    "effectName": "randomControl",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_22"
+  },
+  "96": {
+    "id": 96,
+    "effectName": "goDie",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_23"
+  },
+  "97": {
+    "id": 97,
+    "effectName": "delayDamage",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_50"
+  },
+  "98": {
+    "id": 98,
+    "effectName": "ostrich",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_40"
+  },
+  "99": {
+    "id": 99,
+    "effectName": "ostrichenergy",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_41"
+  },
+  "100": {
+    "id": 100,
+    "effectName": "hidden",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_44"
+  },
+  "101": {
+    "id": 101,
+    "effectName": "corrosion",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_47"
+  },
+  "102": {
+    "id": 102,
+    "effectName": "solo",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_49"
+  },
+  "103": {
+    "id": 103,
+    "effectName": "goDieOnce",
+    "isShow": 1,
+    "effectInfo": "skillEffectTips_effectInfo_51"
+  }
+}

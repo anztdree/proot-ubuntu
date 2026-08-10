@@ -1,0 +1,122 @@
+{
+  "9011": {
+    "id": 9011,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "吾儿，卡卡罗特……",
+    "shake": "0",
+    "nextID": 9012
+  },
+  "9012": {
+    "id": 9012,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "去死吧！",
+    "shake": "0",
+    "nextID": 9013
+  },
+  "9013": {
+    "id": 9013,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "吾儿，卡卡罗特……",
+    "shake": "0",
+    "nextID": 9014
+  },
+  "9014": {
+    "id": 9014,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "我是比克大魔王！",
+    "shake": "1",
+    "replacePicture": "story_9014_png",
+    "nextID": 9015
+  },
+  "9015": {
+    "id": 9015,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "我要毁灭地球！",
+    "shake": "0",
+    "nextID": 9016
+  },
+  "9016": {
+    "id": 9016,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "吾儿，卡卡罗特……",
+    "shake": "0",
+    "nextID": 9017
+  },
+  "9017": {
+    "id": 9017,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "去死吧！",
+    "shake": "0",
+    "nextID": 9018
+  },
+  "9018": {
+    "id": 9018,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "吾儿，卡卡罗特……",
+    "shake": "0",
+    "nextID": 9019
+  },
+  "9019": {
+    "id": 9019,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "我是比克大魔王！",
+    "shake": "0",
+    "nextID": 9020
+  },
+  "9020": {
+    "id": 9020,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "我要毁灭地球！",
+    "shake": "0",
+    "nextID": 9021
+  },
+  "9021": {
+    "id": 9021,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "吾儿，卡卡罗特……",
+    "shake": "0",
+    "nextID": 9022
+  },
+  "9022": {
+    "id": 9022,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "去死吧！",
+    "shake": "1",
+    "replacePicture": "story_9022_png",
+    "nextID": 9023
+  },
+  "9023": {
+    "id": 9023,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "吾儿，卡卡罗特……",
+    "shake": "1"
+  },
+  "9031": {
+    "id": 9031,
+    "speakHero": 1201,
+    "speakName": "龟仙人",
+    "dialog": "新剧情对话内容内容内容",
+    "shake": "0",
+    "nextID": 9032
+  },
+  "9032": {
+    "id": 9032,
+    "speakHero": 1202,
+    "speakName": "雅木茶",
+    "dialog": "新剧情对话内容内容内容",
+    "shake": "0"
+  }
+}

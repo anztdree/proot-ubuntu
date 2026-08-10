@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": 1,
+    "dragonBallWarBuyCostID": 101,
+    "dragonBallWarBuyPrice": 50,
+    "vipNeeded": 4
+  },
+  "2": {
+    "id": 2,
+    "dragonBallWarBuyCostID": 101,
+    "dragonBallWarBuyPrice": 50,
+    "vipNeeded": 7
+  },
+  "3": {
+    "id": 3,
+    "dragonBallWarBuyCostID": 101,
+    "dragonBallWarBuyPrice": 50,
+    "vipNeeded": 11
+  },
+  "4": {
+    "id": 4,
+    "dragonBallWarBuyCostID": 101,
+    "dragonBallWarBuyPrice": 50,
+    "vipNeeded": 14
+  },
+  "5": {
+    "id": 5,
+    "dragonBallWarBuyCostID": 101,
+    "dragonBallWarBuyPrice": 50,
+    "vipNeeded": 14
+  }
+}

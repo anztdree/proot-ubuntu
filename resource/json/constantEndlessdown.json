@@ -1,0 +1,21 @@
+{
+  "1": {
+    "id": 1,
+    "rollSpeed1": 7,
+    "rollSpeed2": 7.700000000000001,
+    "rollSpeed3": 8.085,
+    "rollSpeed4": 8.489250000000002,
+    "rollSpeed5": 8.913712500000003,
+    "jumpSpeed": 33,
+    "fallSpeed": 26,
+    "fallTime": 10,
+    "trapSpeed": 3.3333333333333335,
+    "characterSpeed": 10,
+    "eachLayer": 100,
+    "topHp": 50,
+    "characterHp": 100,
+    "freezeFrame": 6,
+    "playerWidth": 24,
+    "modelScale": 1
+  }
+}

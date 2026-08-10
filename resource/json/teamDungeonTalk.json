@@ -1,0 +1,62 @@
+{
+  "1": {
+    "id": 1,
+    "type": "quest",
+    "text": "teamDungeonTalk_text_1"
+  },
+  "11": {
+    "id": 11,
+    "type": "quest",
+    "text": "teamDungeonTalk_text_2"
+  },
+  "21": {
+    "id": 21,
+    "type": "quest",
+    "text": "teamDungeonTalk_text_3"
+  },
+  "31": {
+    "id": 31,
+    "type": "quest",
+    "text": "teamDungeonTalk_text_4"
+  },
+  "41": {
+    "id": 41,
+    "type": "quest",
+    "text": "teamDungeonTalk_text_5"
+  },
+  "45": {
+    "id": 45,
+    "type": "quest",
+    "text": "teamDungeonTalk_text_9"
+  },
+  "51": {
+    "id": 51,
+    "type": "answer",
+    "text": "teamDungeonTalk_text_6"
+  },
+  "61": {
+    "id": 61,
+    "type": "answer",
+    "text": "teamDungeonTalk_text_7"
+  },
+  "71": {
+    "id": 71,
+    "type": "answer",
+    "text": "teamDungeonTalk_text_8"
+  },
+  "81": {
+    "id": 81,
+    "type": "teamNews",
+    "text": "teamDungeonTalk_text_10"
+  },
+  "91": {
+    "id": 91,
+    "type": "teamNews",
+    "text": "teamDungeonTalk_text_11"
+  },
+  "100": {
+    "id": 100,
+    "type": "teamNews",
+    "text": "teamDungeonTalk_text_12"
+  }
+}

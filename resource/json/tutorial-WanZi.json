@@ -1,0 +1,2170 @@
+{
+  "2104": {
+    "id": 2104,
+    "name": "挂机",
+    "tutorialLine": 2,
+    "nextID": 2105,
+    "dubbing": 303,
+    "dialogText": "tutorial-WanZi_dialogText_1"
+  },
+  "2105": {
+    "id": 2105,
+    "name": "挂机",
+    "tutorialLine": 2,
+    "nextID": 2106,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2106": {
+    "id": 2106,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "nextID": 2107,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2107": {
+    "id": 2107,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2270,
+    "nextID": 2108,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2108": {
+    "id": 2108,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "nextID": 2270,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2170": {
+    "id": 2170,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2171,
+    "dialogText": "tutorial-WanZi_dialogText_3"
+  },
+  "2171": {
+    "id": 2171,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2172,
+    "failedSave": 2174,
+    "dialogText": "tutorial-WanZi_dialogText_4"
+  },
+  "2172": {
+    "id": 2172,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2174
+  },
+  "2173": {
+    "id": 2173,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2174
+  },
+  "2174": {
+    "id": 2174,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2175,
+    "nextID": 2175
+  },
+  "2175": {
+    "id": 2175,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2176,
+    "failedSave": 2178,
+    "dialogText": "tutorial-WanZi_dialogText_5"
+  },
+  "2176": {
+    "id": 2176,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2177
+  },
+  "2177": {
+    "id": 2177,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2178
+  },
+  "2178": {
+    "id": 2178,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2179
+  },
+  "2179": {
+    "id": 2179,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2104,
+    "nextID": 2104
+  },
+  "2201": {
+    "id": 2201,
+    "name": "召唤1",
+    "tutorialLine": 2,
+    "nextID": 2202,
+    "dubbing": 304,
+    "dialogText": "tutorial-WanZi_dialogText_6"
+  },
+  "2202": {
+    "id": 2202,
+    "name": "召唤1",
+    "tutorialLine": 2,
+    "nextID": 2203,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2203": {
+    "id": 2203,
+    "name": "召唤1",
+    "tutorialLine": 2,
+    "nextID": 2204,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2204": {
+    "id": 2204,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2205,
+    "dubbing": 305,
+    "dialogText": "tutorial-WanZi_dialogText_7"
+  },
+  "2205": {
+    "id": 2205,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2206,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2206": {
+    "id": 2206,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2209,
+    "nextID": 2207,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2207": {
+    "id": 2207,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2208,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2208": {
+    "id": 2208,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2209,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2209": {
+    "id": 2209,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2210,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2210": {
+    "id": 2210,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2370,
+    "nextID": 2211,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2211": {
+    "id": 2211,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2212,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2212": {
+    "id": 2212,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2213,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2213": {
+    "id": 2213,
+    "name": "召唤2",
+    "tutorialLine": 2,
+    "nextID": 2370,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2270": {
+    "id": 2270,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2271,
+    "dialogText": "tutorial-WanZi_dialogText_8"
+  },
+  "2271": {
+    "id": 2271,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2272,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2272": {
+    "id": 2272,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2273,
+    "failedSave": 2273,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2273": {
+    "id": 2273,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2201,
+    "nextID": 2201
+  },
+  "2301": {
+    "id": 2301,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2302,
+    "dubbing": 306,
+    "dialogText": "tutorial-WanZi_dialogText_9"
+  },
+  "2302": {
+    "id": 2302,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2303,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2303": {
+    "id": 2303,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2304,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2304": {
+    "id": 2304,
+    "name": "升级",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2307,
+    "nextID": 2305,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2305": {
+    "id": 2305,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2306,
+    "dialogText": "tutorial-WanZi_dialogText_10"
+  },
+  "2306": {
+    "id": 2306,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2307,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2307": {
+    "id": 2307,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2308,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2308": {
+    "id": 2308,
+    "name": "升级",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2501,
+    "nextID": 2309,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2309": {
+    "id": 2309,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2310,
+    "dialogText": "tutorial-WanZi_dialogText_10"
+  },
+  "2310": {
+    "id": 2310,
+    "name": "升级",
+    "tutorialLine": 2,
+    "nextID": 2311,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2311": {
+    "id": 2311,
+    "name": "超必杀",
+    "tutorialLine": 2,
+    "nextID": 2501,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2370": {
+    "id": 2370,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2371,
+    "dialogText": "tutorial-WanZi_dialogText_11"
+  },
+  "2371": {
+    "id": 2371,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2372
+  },
+  "2372": {
+    "id": 2372,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2373,
+    "failedSave": 2374,
+    "dialogText": "tutorial-WanZi_dialogText_12"
+  },
+  "2373": {
+    "id": 2373,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2374
+  },
+  "2374": {
+    "id": 2374,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2375,
+    "nextID": 2375
+  },
+  "2375": {
+    "id": 2375,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2376,
+    "dialogText": "tutorial-WanZi_dialogText_13"
+  },
+  "2376": {
+    "id": 2376,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2377
+  },
+  "2377": {
+    "id": 2377,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2301,
+    "nextID": 2301
+  },
+  "2501": {
+    "id": 2501,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "nextID": 2502,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2502": {
+    "id": 2502,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "nextID": 2503,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2503": {
+    "id": 2503,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "nextID": 2504,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2504": {
+    "id": 2504,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "nextID": 2505,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2505": {
+    "id": 2505,
+    "name": "力体技上阵",
+    "tutorialLine": 2,
+    "nextID": 2506,
+    "dubbing": 307,
+    "dialogText": "tutorial-WanZi_dialogText_14"
+  },
+  "2506": {
+    "id": 2506,
+    "name": "力体技上阵",
+    "tutorialLine": 2,
+    "nextID": 2507,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2507": {
+    "id": 2507,
+    "name": "力体技上阵",
+    "tutorialLine": 2,
+    "delay": 1000,
+    "nextID": 2508,
+    "dubbing": 308,
+    "dialogText": "tutorial-WanZi_dialogText_15"
+  },
+  "2508": {
+    "id": 2508,
+    "name": "上阵",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2670,
+    "nextID": 2509,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2509": {
+    "id": 2509,
+    "name": "战斗",
+    "tutorialLine": 2,
+    "nextID": 2510,
+    "dubbing": 309,
+    "dialogText": "tutorial-WanZi_dialogText_16"
+  },
+  "2510": {
+    "id": 2510,
+    "name": "战斗",
+    "tutorialLine": 2,
+    "nextID": 2511,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2511": {
+    "id": 2511,
+    "name": "战斗",
+    "tutorialLine": 2,
+    "nextID": 2670,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2601": {
+    "id": 2601,
+    "name": "收获与升级",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2602,
+    "delay": 1000,
+    "auto": 1,
+    "nextID": 2602,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2602": {
+    "id": 2602,
+    "name": "收获与升级",
+    "tutorialLine": 2,
+    "nextID": 2603,
+    "dubbing": 310,
+    "dialogText": "tutorial-WanZi_dialogText_17"
+  },
+  "2603": {
+    "id": 2603,
+    "name": "收获与升级",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2701,
+    "nextID": 2604,
+    "dubbing": 311,
+    "dialogText": "tutorial-WanZi_dialogText_18"
+  },
+  "2604": {
+    "id": 2604,
+    "name": "收获与升级",
+    "tutorialLine": 2,
+    "nextID": 2605,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2605": {
+    "id": 2605,
+    "name": "收获与升级",
+    "tutorialLine": 2,
+    "nextID": 2701,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2670": {
+    "id": 2670,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2671,
+    "dialogText": "tutorial-WanZi_dialogText_19"
+  },
+  "2671": {
+    "id": 2671,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2672
+  },
+  "2672": {
+    "id": 2672,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "nextID": 2673,
+    "failedSave": 2673
+  },
+  "2673": {
+    "id": 2673,
+    "name": "小游戏",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2601,
+    "nextID": 2601
+  },
+  "2701": {
+    "id": 2701,
+    "name": "装备",
+    "tutorialLine": 2,
+    "nextID": 2702,
+    "dubbing": 312,
+    "dialogText": "tutorial-WanZi_dialogText_20"
+  },
+  "2702": {
+    "id": 2702,
+    "name": "装备",
+    "tutorialLine": 2,
+    "nextID": 2703,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2703": {
+    "id": 2703,
+    "name": "装备",
+    "tutorialLine": 2,
+    "nextID": 2704,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2704": {
+    "id": 2704,
+    "name": "装备",
+    "tutorialLine": 2,
+    "nextID": 2708,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2708": {
+    "id": 2708,
+    "name": "装备",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 2717,
+    "nextID": 2717,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2717": {
+    "id": 2717,
+    "name": "装备",
+    "tutorialLine": 2,
+    "isSave": 1,
+    "jumpTo": 3170,
+    "nextID": 2718,
+    "dubbing": 313,
+    "dialogText": "tutorial-WanZi_dialogText_21"
+  },
+  "2718": {
+    "id": 2718,
+    "name": "装备",
+    "tutorialLine": 2,
+    "nextID": 2719,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "2719": {
+    "id": 2719,
+    "name": "装备",
+    "tutorialLine": 2,
+    "nextID": 3170,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "3101": {
+    "id": 3101,
+    "name": "任务",
+    "tutorialLine": 3,
+    "nextID": 3102,
+    "dubbing": 314,
+    "dialogText": "tutorial-WanZi_dialogText_22"
+  },
+  "3102": {
+    "id": 3102,
+    "name": "任务",
+    "tutorialLine": 3,
+    "isSave": 1,
+    "jumpTo": 4101,
+    "nextID": 4101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "3170": {
+    "id": 3170,
+    "name": "小游戏",
+    "tutorialLine": 3,
+    "nextID": 3171,
+    "dialogText": "tutorial-WanZi_dialogText_23"
+  },
+  "3171": {
+    "id": 3171,
+    "name": "小游戏",
+    "tutorialLine": 3,
+    "nextID": 3172
+  },
+  "3172": {
+    "id": 3172,
+    "name": "小游戏",
+    "tutorialLine": 3,
+    "nextID": 3173,
+    "failedSave": 3173
+  },
+  "3173": {
+    "id": 3173,
+    "name": "小游戏",
+    "tutorialLine": 3,
+    "isSave": 1,
+    "jumpTo": 3101,
+    "nextID": 3101
+  },
+  "4101": {
+    "id": 4101,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "nextID": 4102,
+    "tutorialEnd": 4301,
+    "dependOn": 1,
+    "dependOnPara": 18,
+    "dubbing": 315,
+    "failedSave": 4104,
+    "dialogText": "tutorial-WanZi_dialogText_24"
+  },
+  "4102": {
+    "id": 4102,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "nextID": 4103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "4103": {
+    "id": 4103,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "isSave": 1,
+    "jumpTo": 4201,
+    "nextID": 4104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "4104": {
+    "id": 4104,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "nextID": 4201,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "4201": {
+    "id": 4201,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "isSave": 1,
+    "jumpTo": 4201,
+    "nextID": 4202,
+    "dubbing": 316,
+    "dialogText": "tutorial-WanZi_dialogText_25"
+  },
+  "4202": {
+    "id": 4202,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "nextID": 4203,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "4203": {
+    "id": 4203,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "nextID": 4204,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "4204": {
+    "id": 4204,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "nextID": 4301,
+    "dubbing": 317,
+    "dialogText": "tutorial-WanZi_dialogText_26"
+  },
+  "4301": {
+    "id": 4301,
+    "name": "武道会",
+    "tutorialLine": 4,
+    "isSave": 1,
+    "nextID": 5101,
+    "dubbing": 318,
+    "dialogText": "tutorial-WanZi_dialogText_27"
+  },
+  "5101": {
+    "id": 5101,
+    "name": "资源副本",
+    "tutorialLine": 5,
+    "nextID": 5102,
+    "tutorialEnd": 5105,
+    "dependOn": 1,
+    "dependOnPara": 16,
+    "dubbing": 319,
+    "dialogText": "tutorial-WanZi_dialogText_28"
+  },
+  "5102": {
+    "id": 5102,
+    "name": "资源副本",
+    "tutorialLine": 5,
+    "nextID": 5103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "5103": {
+    "id": 5103,
+    "name": "资源副本",
+    "tutorialLine": 5,
+    "nextID": 5104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "5104": {
+    "id": 5104,
+    "name": "资源副本",
+    "tutorialLine": 5,
+    "nextID": 5105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "5105": {
+    "id": 5105,
+    "name": "资源副本",
+    "tutorialLine": 5,
+    "isSave": 1,
+    "nextID": 6101,
+    "dubbing": 320,
+    "dialogText": "tutorial-WanZi_dialogText_29"
+  },
+  "6101": {
+    "id": 6101,
+    "name": "神殿试炼",
+    "tutorialLine": 6,
+    "nextID": 6102,
+    "tutorialEnd": 6104,
+    "dependOn": 1,
+    "dependOnPara": 23,
+    "dubbing": 321,
+    "dialogText": "tutorial-WanZi_dialogText_30"
+  },
+  "6102": {
+    "id": 6102,
+    "name": "神殿试炼",
+    "tutorialLine": 6,
+    "nextID": 6103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "6103": {
+    "id": 6103,
+    "name": "神殿试炼",
+    "tutorialLine": 6,
+    "nextID": 6104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "6104": {
+    "id": 6104,
+    "name": "神殿试炼",
+    "tutorialLine": 6,
+    "isSave": 1,
+    "nextID": 7101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "7101": {
+    "id": 7101,
+    "name": "装备副本",
+    "tutorialLine": 7,
+    "nextID": 7102,
+    "tutorialEnd": 7104,
+    "dependOn": 1,
+    "dependOnPara": 38,
+    "dubbing": 322,
+    "dialogText": "tutorial-WanZi_dialogText_31"
+  },
+  "7102": {
+    "id": 7102,
+    "name": "装备副本",
+    "tutorialLine": 7,
+    "nextID": 7103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "7103": {
+    "id": 7103,
+    "name": "装备副本",
+    "tutorialLine": 7,
+    "nextID": 7104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "7104": {
+    "id": 7104,
+    "name": "装备副本",
+    "tutorialLine": 7,
+    "isSave": 1,
+    "nextID": 8101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "8101": {
+    "id": 8101,
+    "name": "战队",
+    "tutorialLine": 8,
+    "nextID": 8102,
+    "tutorialEnd": 8102,
+    "dependOn": 1,
+    "dependOnPara": 28,
+    "dubbing": 323,
+    "dialogText": "tutorial-WanZi_dialogText_32"
+  },
+  "8102": {
+    "id": 8102,
+    "name": "战队",
+    "tutorialLine": 8,
+    "isSave": 1,
+    "nextID": 9101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "9101": {
+    "id": 9101,
+    "name": "蛇道",
+    "tutorialLine": 9,
+    "nextID": 9102,
+    "tutorialEnd": 9104,
+    "dependOn": 1,
+    "dependOnPara": 27,
+    "dubbing": 324,
+    "dialogText": "tutorial-WanZi_dialogText_33"
+  },
+  "9102": {
+    "id": 9102,
+    "name": "蛇道",
+    "tutorialLine": 9,
+    "nextID": 9103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "9103": {
+    "id": 9103,
+    "name": "蛇道",
+    "tutorialLine": 9,
+    "nextID": 9104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "9104": {
+    "id": 9104,
+    "name": "蛇道",
+    "tutorialLine": 9,
+    "isSave": 1,
+    "nextID": 10101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "10101": {
+    "id": 10101,
+    "name": "强敌来袭",
+    "tutorialLine": 10,
+    "nextID": 10102,
+    "tutorialEnd": 10104,
+    "dependOn": 1,
+    "dependOnPara": 62,
+    "dubbing": 325,
+    "dialogText": "tutorial-WanZi_dialogText_34"
+  },
+  "10102": {
+    "id": 10102,
+    "name": "强敌来袭",
+    "tutorialLine": 10,
+    "nextID": 10103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "10103": {
+    "id": 10103,
+    "name": "强敌来袭",
+    "tutorialLine": 10,
+    "nextID": 10104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "10104": {
+    "id": 10104,
+    "name": "强敌来袭",
+    "tutorialLine": 10,
+    "isSave": 1,
+    "nextID": 11101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "11101": {
+    "id": 11101,
+    "name": "加林塔",
+    "tutorialLine": 11,
+    "nextID": 11102,
+    "tutorialEnd": 11104,
+    "dependOn": 1,
+    "dependOnPara": 46,
+    "dubbing": 326,
+    "dialogText": "tutorial-WanZi_dialogText_35"
+  },
+  "11102": {
+    "id": 11102,
+    "name": "加林塔",
+    "tutorialLine": 11,
+    "nextID": 11103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "11103": {
+    "id": 11103,
+    "name": "加林塔",
+    "tutorialLine": 11,
+    "nextID": 11104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "11104": {
+    "id": 11104,
+    "name": "加林塔",
+    "tutorialLine": 11,
+    "isSave": 1,
+    "nextID": 12101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "12101": {
+    "id": 12101,
+    "name": "神龙",
+    "tutorialLine": 12,
+    "nextID": 12102,
+    "tutorialEnd": 12103,
+    "dependOn": 1,
+    "dependOnPara": 48,
+    "dubbing": 327,
+    "dialogText": "tutorial-WanZi_dialogText_36"
+  },
+  "12102": {
+    "id": 12102,
+    "name": "神龙",
+    "tutorialLine": 12,
+    "nextID": 12103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "12103": {
+    "id": 12103,
+    "name": "神龙",
+    "tutorialLine": 12,
+    "isSave": 1,
+    "nextID": 13101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "13101": {
+    "id": 13101,
+    "name": "委托",
+    "tutorialLine": 13,
+    "nextID": 13102,
+    "tutorialEnd": 13104,
+    "dependOn": 1,
+    "dependOnPara": 65,
+    "dubbing": 328,
+    "dialogText": "tutorial-WanZi_dialogText_37"
+  },
+  "13102": {
+    "id": 13102,
+    "name": "委托",
+    "tutorialLine": 13,
+    "nextID": 13103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "13103": {
+    "id": 13103,
+    "name": "委托",
+    "tutorialLine": 13,
+    "nextID": 13104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "13104": {
+    "id": 13104,
+    "name": "委托",
+    "tutorialLine": 13,
+    "isSave": 1,
+    "nextID": 14101,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "14101": {
+    "id": 14101,
+    "name": "摩诃大冒险",
+    "tutorialLine": 14,
+    "nextID": 14102,
+    "tutorialEnd": 14104,
+    "dependOn": 1,
+    "dependOnPara": 40,
+    "dubbing": 329,
+    "dialogText": "tutorial-WanZi_dialogText_38"
+  },
+  "14102": {
+    "id": 14102,
+    "name": "摩诃大冒险",
+    "tutorialLine": 14,
+    "nextID": 14103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "14103": {
+    "id": 14103,
+    "name": "摩诃大冒险",
+    "tutorialLine": 14,
+    "nextID": 14104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "14104": {
+    "id": 14104,
+    "name": "摩诃大冒险",
+    "tutorialLine": 14,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "15101": {
+    "id": 15101,
+    "name": "印记",
+    "tutorialLine": 15,
+    "nextID": 15102,
+    "tutorialEnd": 15105,
+    "dependOn": 1,
+    "dependOnPara": 50,
+    "dubbing": 330,
+    "dialogText": "tutorial-WanZi_dialogText_39"
+  },
+  "15102": {
+    "id": 15102,
+    "name": "印记",
+    "tutorialLine": 15,
+    "nextID": 15103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "15103": {
+    "id": 15103,
+    "name": "印记",
+    "tutorialLine": 15,
+    "nextID": 15104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "15104": {
+    "id": 15104,
+    "name": "印记",
+    "tutorialLine": 15,
+    "nextID": 15105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "15105": {
+    "id": 15105,
+    "name": "印记",
+    "tutorialLine": 15,
+    "isSave": 1,
+    "nextID": 16101,
+    "dubbing": 331,
+    "dialogText": "tutorial-WanZi_dialogText_40"
+  },
+  "16101": {
+    "id": 16101,
+    "name": "沙鲁游戏",
+    "tutorialLine": 16,
+    "nextID": 16102,
+    "tutorialEnd": 16104,
+    "dependOn": 1,
+    "dependOnPara": 32,
+    "dubbing": 332,
+    "dialogText": "tutorial-WanZi_dialogText_41"
+  },
+  "16102": {
+    "id": 16102,
+    "name": "沙鲁游戏",
+    "tutorialLine": 16,
+    "nextID": 16103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "16103": {
+    "id": 16103,
+    "name": "沙鲁游戏",
+    "tutorialLine": 16,
+    "nextID": 16104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "16104": {
+    "id": 16104,
+    "name": "沙鲁游戏",
+    "tutorialLine": 16,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "18101": {
+    "id": 18101,
+    "name": "气功引导",
+    "tutorialLine": 18,
+    "nextID": 18102,
+    "tutorialEnd": 18105,
+    "dependOn": 1,
+    "dependOnPara": 25,
+    "dubbing": 333,
+    "dialogText": "tutorial-WanZi_dialogText_42"
+  },
+  "18102": {
+    "id": 18102,
+    "name": "气功引导",
+    "tutorialLine": 18,
+    "nextID": 18103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "18103": {
+    "id": 18103,
+    "name": "气功引导",
+    "tutorialLine": 18,
+    "nextID": 18104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "18104": {
+    "id": 18104,
+    "name": "气功引导",
+    "tutorialLine": 18,
+    "nextID": 18105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "18105": {
+    "id": 18105,
+    "name": "气功引导",
+    "tutorialLine": 18,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "19101": {
+    "id": 19101,
+    "name": "武器引导",
+    "tutorialLine": 19,
+    "nextID": 19102,
+    "tutorialEnd": 19105,
+    "dependOn": 2,
+    "dependOnPara": 6037,
+    "dubbing": 334,
+    "dialogText": "tutorial-WanZi_dialogText_43"
+  },
+  "19102": {
+    "id": 19102,
+    "name": "武器引导",
+    "tutorialLine": 19,
+    "nextID": 19103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "19103": {
+    "id": 19103,
+    "name": "武器引导",
+    "tutorialLine": 19,
+    "nextID": 19104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "19104": {
+    "id": 19104,
+    "name": "武器引导",
+    "tutorialLine": 19,
+    "nextID": 19105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "19105": {
+    "id": 19105,
+    "name": "武器引导",
+    "tutorialLine": 19,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "20101": {
+    "id": 20101,
+    "name": "耳环引导",
+    "tutorialLine": 20,
+    "nextID": 20102,
+    "tutorialEnd": 20105,
+    "dependOn": 1,
+    "dependOnPara": 40,
+    "dubbing": 335,
+    "dialogText": "tutorial-WanZi_dialogText_44"
+  },
+  "20102": {
+    "id": 20102,
+    "name": "耳环引导",
+    "tutorialLine": 20,
+    "nextID": 20103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "20103": {
+    "id": 20103,
+    "name": "耳环引导",
+    "tutorialLine": 20,
+    "nextID": 20104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "20104": {
+    "id": 20104,
+    "name": "耳环引导",
+    "tutorialLine": 20,
+    "nextID": 20105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "20105": {
+    "id": 20105,
+    "name": "耳环引导",
+    "tutorialLine": 20,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "21101": {
+    "id": 21101,
+    "name": "觉醒引导",
+    "tutorialLine": 21,
+    "nextID": 21102,
+    "tutorialEnd": 21105,
+    "dependOn": 2,
+    "dependOnPara": 6014,
+    "dubbing": 336,
+    "dialogText": "tutorial-WanZi_dialogText_45"
+  },
+  "21102": {
+    "id": 21102,
+    "name": "觉醒引导",
+    "tutorialLine": 21,
+    "nextID": 21103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "21103": {
+    "id": 21103,
+    "name": "觉醒引导",
+    "tutorialLine": 21,
+    "nextID": 21104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "21104": {
+    "id": 21104,
+    "name": "觉醒引导",
+    "tutorialLine": 21,
+    "isSave": 1,
+    "nextID": 21105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "21105": {
+    "id": 21105,
+    "name": "觉醒引导",
+    "tutorialLine": 21,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "22101": {
+    "id": 22101,
+    "name": "英雄碎片合成",
+    "tutorialLine": 22,
+    "nextID": 22102,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "22102": {
+    "id": 22102,
+    "name": "英雄碎片合成",
+    "tutorialLine": 22,
+    "nextID": 22103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "22103": {
+    "id": 22103,
+    "name": "英雄碎片合成",
+    "tutorialLine": 22,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "23101": {
+    "id": 23101,
+    "name": "铁匠铺",
+    "tutorialLine": 23,
+    "nextID": 23102,
+    "tutorialEnd": 23102,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "23102": {
+    "id": 23102,
+    "name": "铁匠铺",
+    "tutorialLine": 23,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "24101": {
+    "id": 24101,
+    "name": "荒野探险",
+    "tutorialLine": 24,
+    "nextID": 24102,
+    "tutorialEnd": 24104,
+    "dependOn": 1,
+    "dependOnPara": 25,
+    "dubbing": 337,
+    "dialogText": "tutorial-WanZi_dialogText_46"
+  },
+  "24102": {
+    "id": 24102,
+    "name": "荒野探险",
+    "tutorialLine": 24,
+    "nextID": 24103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "24103": {
+    "id": 24103,
+    "name": "荒野探险",
+    "tutorialLine": 24,
+    "nextID": 24104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "24104": {
+    "id": 24104,
+    "name": "荒野探险",
+    "tutorialLine": 24,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "25101": {
+    "id": 25101,
+    "name": "时空穿越",
+    "tutorialLine": 25,
+    "nextID": 25102,
+    "tutorialEnd": 25104,
+    "dependOn": 1,
+    "dependOnPara": 44,
+    "dubbing": 338,
+    "dialogText": "tutorial-WanZi_dialogText_47"
+  },
+  "25102": {
+    "id": 25102,
+    "name": "时空穿越",
+    "tutorialLine": 25,
+    "nextID": 25103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "25103": {
+    "id": 25103,
+    "name": "时空穿越",
+    "tutorialLine": 25,
+    "nextID": 25104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "25104": {
+    "id": 25104,
+    "name": "时空穿越",
+    "tutorialLine": 25,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "26101": {
+    "id": 26101,
+    "name": "蛇道仙豆引导",
+    "tutorialLine": 26,
+    "nextID": 26102,
+    "tutorialEnd": 26102,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "26102": {
+    "id": 26102,
+    "name": "蛇道仙豆引导",
+    "tutorialLine": 26,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "27101": {
+    "id": 27101,
+    "name": "祭坛分解",
+    "tutorialLine": 27,
+    "nextID": 27102,
+    "tutorialEnd": 27102,
+    "dubbing": 339,
+    "dialogText": "tutorial-WanZi_dialogText_48"
+  },
+  "27102": {
+    "id": 27102,
+    "name": "祭坛分解",
+    "tutorialLine": 27,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "28101": {
+    "id": 28101,
+    "name": "界王星修行",
+    "tutorialLine": 28,
+    "nextID": 28102,
+    "tutorialEnd": 28104,
+    "dependOn": 1,
+    "dependOnPara": 72,
+    "dubbing": 340,
+    "dialogText": "tutorial-WanZi_dialogText_49"
+  },
+  "28102": {
+    "id": 28102,
+    "name": "界王星修行",
+    "tutorialLine": 28,
+    "nextID": 28103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "28103": {
+    "id": 28103,
+    "name": "界王星修行",
+    "tutorialLine": 28,
+    "nextID": 28104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "28104": {
+    "id": 28104,
+    "name": "界王星修行",
+    "tutorialLine": 28,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "29101": {
+    "id": 29101,
+    "name": "BOSS争夺战",
+    "tutorialLine": 29,
+    "nextID": 29102,
+    "tutorialEnd": 29104,
+    "dependOn": 1,
+    "dependOnPara": 58,
+    "dubbing": 341,
+    "dialogText": "tutorial-WanZi_dialogText_50"
+  },
+  "29102": {
+    "id": 29102,
+    "name": "BOSS争夺战",
+    "tutorialLine": 29,
+    "nextID": 29103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "29103": {
+    "id": 29103,
+    "name": "BOSS争夺战",
+    "tutorialLine": 29,
+    "nextID": 29104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "29104": {
+    "id": 29104,
+    "name": "BOSS争夺战",
+    "tutorialLine": 29,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "30101": {
+    "id": 30101,
+    "name": "元气引导",
+    "tutorialLine": 30,
+    "nextID": 30102,
+    "tutorialEnd": 30105,
+    "dependOn": 1,
+    "dependOnPara": 110,
+    "dubbing": 342,
+    "dialogText": "tutorial-WanZi_dialogText_51"
+  },
+  "30102": {
+    "id": 30102,
+    "name": "元气引导",
+    "tutorialLine": 30,
+    "nextID": 30103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "30103": {
+    "id": 30103,
+    "name": "元气引导",
+    "tutorialLine": 30,
+    "nextID": 30104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "30104": {
+    "id": 30104,
+    "name": "元气引导",
+    "tutorialLine": 30,
+    "nextID": 30105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "30105": {
+    "id": 30105,
+    "name": "元气引导",
+    "tutorialLine": 30,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "31101": {
+    "id": 31101,
+    "name": "异次元远征",
+    "tutorialLine": 31,
+    "nextID": 31102,
+    "tutorialEnd": 31104,
+    "dependOn": 1,
+    "dependOnPara": 140,
+    "dubbing": 343,
+    "dialogText": "tutorial-WanZi_dialogText_52"
+  },
+  "31102": {
+    "id": 31102,
+    "name": "异次元远征",
+    "tutorialLine": 31,
+    "nextID": 31103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "31103": {
+    "id": 31103,
+    "name": "异次元远征",
+    "tutorialLine": 31,
+    "nextID": 31104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "31104": {
+    "id": 31104,
+    "name": "异次元远征",
+    "tutorialLine": 31,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "32101": {
+    "id": 32101,
+    "name": "异次元远征侦查",
+    "tutorialLine": 32,
+    "nextID": 32102,
+    "tutorialEnd": 32103,
+    "dubbing": 344,
+    "dialogText": "tutorial-WanZi_dialogText_53"
+  },
+  "32102": {
+    "id": 32102,
+    "name": "异次元远征侦查",
+    "tutorialLine": 32,
+    "nextID": 32103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "32103": {
+    "id": 32103,
+    "name": "异次元远征侦查",
+    "tutorialLine": 32,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "33101": {
+    "id": 33101,
+    "name": "英雄置换",
+    "tutorialLine": 33,
+    "nextID": 33102,
+    "tutorialEnd": 33104,
+    "dependOn": 1,
+    "dependOnPara": 120,
+    "dubbing": 345,
+    "dialogText": "tutorial-WanZi_dialogText_54"
+  },
+  "33102": {
+    "id": 33102,
+    "name": "英雄置换",
+    "tutorialLine": 33,
+    "nextID": 33103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "33103": {
+    "id": 33103,
+    "name": "英雄置换",
+    "tutorialLine": 33,
+    "nextID": 33104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "33104": {
+    "id": 33104,
+    "name": "英雄置换",
+    "tutorialLine": 33,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "34101": {
+    "id": 34101,
+    "name": "团队修炼",
+    "tutorialLine": 34,
+    "nextID": 34102,
+    "tutorialEnd": 34103,
+    "dependOn": 1,
+    "dependOnPara": 160,
+    "dubbing": 346,
+    "dialogText": "tutorial-WanZi_dialogText_55"
+  },
+  "34102": {
+    "id": 34102,
+    "name": "团队修炼",
+    "tutorialLine": 34,
+    "nextID": 34103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "34103": {
+    "id": 34103,
+    "name": "团队修炼",
+    "tutorialLine": 34,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "35101": {
+    "id": 35101,
+    "name": "引导评价",
+    "tutorialLine": 35,
+    "nextID": 35102,
+    "tutorialEnd": 35103,
+    "dubbing": 347,
+    "dialogText": "tutorial-WanZi_dialogText_56"
+  },
+  "35102": {
+    "id": 35102,
+    "name": "引导评价",
+    "tutorialLine": 35,
+    "nextID": 35103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "35103": {
+    "id": 35103,
+    "name": "引导评价",
+    "tutorialLine": 35,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "36101": {
+    "id": 36101,
+    "name": "低级灵魂石商店",
+    "tutorialLine": 36,
+    "nextID": 36102,
+    "tutorialEnd": 36103,
+    "dubbing": 348,
+    "dialogText": "tutorial-WanZi_dialogText_57"
+  },
+  "36102": {
+    "id": 36102,
+    "name": "低级灵魂石商店",
+    "tutorialLine": 36,
+    "nextID": 36103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "36103": {
+    "id": 36103,
+    "name": "低级灵魂石商店",
+    "tutorialLine": 36,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "37101": {
+    "id": 37101,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "nextID": 37102,
+    "tutorialEnd": 37107,
+    "dubbing": 349,
+    "dialogText": "tutorial-WanZi_dialogText_58"
+  },
+  "37102": {
+    "id": 37102,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "nextID": 37103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "37103": {
+    "id": 37103,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "nextID": 37104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "37104": {
+    "id": 37104,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "nextID": 37105
+  },
+  "37105": {
+    "id": 37105,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "nextID": 37106
+  },
+  "37106": {
+    "id": 37106,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "nextID": 37107
+  },
+  "37107": {
+    "id": 37107,
+    "name": "武器光环",
+    "tutorialLine": 37,
+    "isSave": 1
+  },
+  "38101": {
+    "id": 38101,
+    "name": "跨服团本",
+    "tutorialLine": 38,
+    "nextID": 38102,
+    "tutorialEnd": 38105,
+    "dubbing": 350,
+    "dialogText": "tutorial-WanZi_dialogText_59"
+  },
+  "38102": {
+    "id": 38102,
+    "name": "跨服团本",
+    "tutorialLine": 38,
+    "nextID": 38103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "38103": {
+    "id": 38103,
+    "name": "跨服团本",
+    "tutorialLine": 38,
+    "nextID": 38104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "38104": {
+    "id": 38104,
+    "name": "跨服团本",
+    "tutorialLine": 38,
+    "nextID": 38105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "38105": {
+    "id": 38105,
+    "name": "跨服团本",
+    "tutorialLine": 38,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "39101": {
+    "id": 39101,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "nextID": 39102,
+    "tutorialEnd": 39107,
+    "dubbing": 351,
+    "dialogText": "tutorial-WanZi_dialogText_60"
+  },
+  "39102": {
+    "id": 39102,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "nextID": 39103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "39103": {
+    "id": 39103,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "nextID": 39104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "39104": {
+    "id": 39104,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "nextID": 39105
+  },
+  "39105": {
+    "id": 39105,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "nextID": 39106
+  },
+  "39106": {
+    "id": 39106,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "nextID": 39107
+  },
+  "39107": {
+    "id": 39107,
+    "name": "印记追加",
+    "tutorialLine": 39,
+    "isSave": 1
+  },
+  "40101": {
+    "id": 40101,
+    "name": "专属宝石",
+    "tutorialLine": 40,
+    "nextID": 40102,
+    "tutorialEnd": 40106,
+    "dubbing": 352,
+    "dialogText": "tutorial-WanZi_dialogText_61"
+  },
+  "40102": {
+    "id": 40102,
+    "name": "专属宝石",
+    "tutorialLine": 40,
+    "nextID": 40103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "40103": {
+    "id": 40103,
+    "name": "专属宝石",
+    "tutorialLine": 40,
+    "nextID": 40104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "40104": {
+    "id": 40104,
+    "name": "专属宝石",
+    "tutorialLine": 40,
+    "nextID": 40105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "40105": {
+    "id": 40105,
+    "name": "专属宝石",
+    "tutorialLine": 40,
+    "nextID": 40106,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "40106": {
+    "id": 40106,
+    "name": "专属宝石",
+    "tutorialLine": 40,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "41101": {
+    "id": 41101,
+    "name": "英雄共鸣",
+    "tutorialLine": 41,
+    "nextID": 41102,
+    "tutorialEnd": 41104,
+    "dependOn": 1,
+    "dependOnPara": 180,
+    "dubbing": 353,
+    "dialogText": "tutorial-WanZi_dialogText_62"
+  },
+  "41102": {
+    "id": 41102,
+    "name": "英雄共鸣",
+    "tutorialLine": 41,
+    "nextID": 41103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "41103": {
+    "id": 41103,
+    "name": "英雄共鸣",
+    "tutorialLine": 41,
+    "nextID": 41104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "41104": {
+    "id": 41104,
+    "name": "英雄共鸣",
+    "tutorialLine": 41,
+    "isSave": 1
+  },
+  "42101": {
+    "id": 42101,
+    "name": "巅峰之战",
+    "tutorialLine": 42,
+    "nextID": 42102,
+    "tutorialEnd": 42106,
+    "dialogText": "tutorial-WanZi_dialogText_63"
+  },
+  "42102": {
+    "id": 42102,
+    "name": "巅峰之战",
+    "tutorialLine": 42,
+    "nextID": 42103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "42103": {
+    "id": 42103,
+    "name": "巅峰之战",
+    "tutorialLine": 42,
+    "nextID": 42104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "42104": {
+    "id": 42104,
+    "name": "巅峰之战",
+    "tutorialLine": 42,
+    "nextID": 42105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "42105": {
+    "id": 42105,
+    "name": "巅峰之战",
+    "tutorialLine": 42,
+    "nextID": 42106,
+    "dialogText": "tutorial-WanZi_dialogText_64"
+  },
+  "42106": {
+    "id": 42106,
+    "name": "巅峰之战",
+    "tutorialLine": 42,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "43101": {
+    "id": 43101,
+    "name": "界限突破",
+    "tutorialLine": 43,
+    "nextID": 43102,
+    "tutorialEnd": 43106,
+    "dialogText": "tutorial-WanZi_dialogText_65"
+  },
+  "43102": {
+    "id": 43102,
+    "name": "界限突破",
+    "tutorialLine": 43,
+    "nextID": 43103,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "43103": {
+    "id": 43103,
+    "name": "界限突破",
+    "tutorialLine": 43,
+    "nextID": 43104,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "43104": {
+    "id": 43104,
+    "name": "界限突破",
+    "tutorialLine": 43,
+    "nextID": 43105,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "43105": {
+    "id": 43105,
+    "name": "界限突破",
+    "tutorialLine": 43,
+    "nextID": 43106,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "43106": {
+    "id": 43106,
+    "name": "界限突破",
+    "tutorialLine": 43,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_2"
+  },
+  "44101": {
+    "id": 44101,
+    "name": "时光试炼",
+    "tutorialLine": 44,
+    "nextID": 44102,
+    "tutorialEnd": 44104,
+    "dependOn": 1,
+    "dependOnPara": 220,
+    "dialogText": "tutorial-WanZi_dialogText_66"
+  },
+  "44102": {
+    "id": 44102,
+    "name": "时光试炼",
+    "tutorialLine": 44,
+    "nextID": 44103
+  },
+  "44103": {
+    "id": 44103,
+    "name": "时光试炼",
+    "tutorialLine": 44,
+    "nextID": 44104
+  },
+  "44104": {
+    "id": 44104,
+    "name": "时光试炼",
+    "tutorialLine": 44,
+    "isSave": 1
+  },
+  "45101": {
+    "id": 45101,
+    "name": "重力训练室",
+    "tutorialLine": 45,
+    "nextID": 45102,
+    "tutorialEnd": 45105,
+    "dependOn": 1,
+    "dependOnPara": 225,
+    "dialogText": "tutorial-WanZi_dialogText_67"
+  },
+  "45102": {
+    "id": 45102,
+    "name": "重力训练室",
+    "tutorialLine": 45,
+    "nextID": 45103
+  },
+  "45103": {
+    "id": 45103,
+    "name": "重力训练室",
+    "tutorialLine": 45,
+    "nextID": 45104
+  },
+  "45104": {
+    "id": 45104,
+    "name": "重力训练室",
+    "tutorialLine": 45,
+    "nextID": 45105
+  },
+  "45105": {
+    "id": 45105,
+    "name": "重力训练室",
+    "tutorialLine": 45,
+    "isSave": 1
+  },
+  "46101": {
+    "id": 46101,
+    "name": "装备升红",
+    "tutorialLine": 46,
+    "nextID": 46102,
+    "tutorialEnd": 46105,
+    "dependOn": 1,
+    "dependOnPara": 200,
+    "dialogText": "tutorial-WanZi_dialogText_68"
+  },
+  "46102": {
+    "id": 46102,
+    "name": "装备升红",
+    "tutorialLine": 46,
+    "nextID": 46103
+  },
+  "46103": {
+    "id": 46103,
+    "name": "装备升红",
+    "tutorialLine": 46,
+    "nextID": 46104
+  },
+  "46104": {
+    "id": 46104,
+    "name": "装备升红",
+    "tutorialLine": 46,
+    "nextID": 46105
+  },
+  "46105": {
+    "id": 46105,
+    "name": "装备升红",
+    "tutorialLine": 46,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_69"
+  },
+  "47101": {
+    "id": 47101,
+    "name": "心愿单",
+    "tutorialLine": 47,
+    "nextID": 47102,
+    "tutorialEnd": 47105,
+    "dependOn": 1,
+    "dependOnPara": 10,
+    "dialogText": "tutorial-WanZi_dialogText_70"
+  },
+  "47102": {
+    "id": 47102,
+    "name": "心愿单",
+    "tutorialLine": 47,
+    "nextID": 47103
+  },
+  "47103": {
+    "id": 47103,
+    "name": "心愿单",
+    "tutorialLine": 47,
+    "nextID": 47104
+  },
+  "47104": {
+    "id": 47104,
+    "name": "心愿单",
+    "tutorialLine": 47,
+    "nextID": 47105
+  },
+  "47105": {
+    "id": 47105,
+    "name": "心愿单",
+    "tutorialLine": 47,
+    "isSave": 1
+  },
+  "48101": {
+    "id": 48101,
+    "name": "战队签到",
+    "tutorialLine": 48,
+    "nextID": 48102,
+    "tutorialEnd": 48104,
+    "dependOn": 3,
+    "dialogText": "tutorial-WanZi_dialogText_71"
+  },
+  "48102": {
+    "id": 48102,
+    "name": "战队签到",
+    "tutorialLine": 48,
+    "nextID": 48103
+  },
+  "48103": {
+    "id": 48103,
+    "name": "战队签到",
+    "tutorialLine": 48,
+    "nextID": 48104
+  },
+  "48104": {
+    "id": 48104,
+    "name": "战队签到",
+    "tutorialLine": 48,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_72"
+  },
+  "49101": {
+    "id": 49101,
+    "name": "战队科技",
+    "tutorialLine": 49,
+    "nextID": 49102,
+    "tutorialEnd": 49102,
+    "dependOn": 3,
+    "dialogText": "tutorial-WanZi_dialogText_73"
+  },
+  "49102": {
+    "id": 49102,
+    "name": "战队科技",
+    "tutorialLine": 49,
+    "isSave": 1
+  },
+  "50101": {
+    "id": 50101,
+    "name": "新共鸣位开放",
+    "tutorialLine": 50,
+    "nextID": 50102,
+    "tutorialEnd": 50104,
+    "dependOn": 4,
+    "dialogText": "tutorial-WanZi_dialogText_74"
+  },
+  "50102": {
+    "id": 50102,
+    "name": "新共鸣位开放",
+    "tutorialLine": 50,
+    "nextID": 50103
+  },
+  "50103": {
+    "id": 50103,
+    "name": "新共鸣位开放",
+    "tutorialLine": 50,
+    "nextID": 50104
+  },
+  "50104": {
+    "id": 50104,
+    "name": "新共鸣位开放",
+    "tutorialLine": 50,
+    "isSave": 1,
+    "dialogText": "tutorial-WanZi_dialogText_75"
+  },
+  "51101": {
+    "id": 51101,
+    "name": "引导返回主线",
+    "tutorialLine": 51,
+    "nextID": 51102,
+    "tutorialEnd": 51104,
+    "dependOn": 4,
+    "dialogText": "tutorial-WanZi_dialogText_76"
+  },
+  "51102": {
+    "id": 51102,
+    "name": "引导返回主线",
+    "tutorialLine": 51,
+    "nextID": 51103
+  },
+  "51103": {
+    "id": 51103,
+    "name": "引导返回主线",
+    "tutorialLine": 51,
+    "nextID": 51104,
+    "dialogText": "tutorial-WanZi_dialogText_77"
+  },
+  "51104": {
+    "id": 51104,
+    "name": "引导返回主线",
+    "tutorialLine": 51,
+    "isSave": 1
+  }
+}

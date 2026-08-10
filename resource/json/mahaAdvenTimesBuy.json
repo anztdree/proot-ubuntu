@@ -1,0 +1,74 @@
+{
+  "1": {
+    "id": 1,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 75,
+    "vipNeeded": 2
+  },
+  "2": {
+    "id": 2,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 75,
+    "vipNeeded": 4
+  },
+  "3": {
+    "id": 3,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 75,
+    "vipNeeded": 7
+  },
+  "4": {
+    "id": 4,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 100,
+    "vipNeeded": 9
+  },
+  "5": {
+    "id": 5,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 100,
+    "vipNeeded": 11
+  },
+  "6": {
+    "id": 6,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 100,
+    "vipNeeded": 11
+  },
+  "7": {
+    "id": 7,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 125,
+    "vipNeeded": 13
+  },
+  "8": {
+    "id": 8,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 125,
+    "vipNeeded": 13
+  },
+  "9": {
+    "id": 9,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 125,
+    "vipNeeded": 15
+  },
+  "10": {
+    "id": 10,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 150,
+    "vipNeeded": 15
+  },
+  "11": {
+    "id": 11,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 150,
+    "vipNeeded": 17
+  },
+  "12": {
+    "id": 12,
+    "mahaAdventureCostID": 101,
+    "mahaAdventureRefreshPrice": 150,
+    "vipNeeded": 17
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "210106": {
+    "id": 210106,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_zhaohuan",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210112": {
+    "id": 210112,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_yanjiang_baozha",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210115": {
+    "id": 210115,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_yanjiang_baozha",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210205": {
+    "id": 210205,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_jianyi",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210206": {
+    "id": 210206,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_zhaohuan",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210207": [
+    {
+      "id": 210207,
+      "eventID": "startEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_jiangdi",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210207,
+      "eventID": "2ndEvent",
+      "actionTarget": "targetToOwner",
+      "actionName": "tuanti_BOSS_dandao",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210208": {
+    "id": 210208,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti_BOSS_xishou",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210209": {
+    "id": 210209,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti_BOSS_xieebaozha",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210211": {
+    "id": 210211,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_tisheng",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210213": {
+    "id": 210213,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti_BOSS_xishou",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210214": {
+    "id": 210214,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti_BOSS_xieebaozha",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210303": {
+    "id": 210303,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_bbq",
+    "Animation": "arise",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210305": {
+    "id": 210305,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_freshFood1",
+    "Animation": "newAnimation",
+    "effectLayer": "groundFloor",
+    "nextID": "finish"
+  },
+  "210307": {
+    "id": 210307,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_freshFood2",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210309": [
+    {
+      "id": 210309,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "tuanti_eliteSkill",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210309,
+      "eventID": "2ndEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_eliteBoom",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210310": [
+    {
+      "id": 210310,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "tuanti_eliteSkill",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210310,
+      "eventID": "2ndEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_eliteBoom",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210311": [
+    {
+      "id": 210311,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "tuanti_bossSkill",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210311,
+      "eventID": "2ndEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_bossBoom",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210313": {
+    "id": 210313,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_skillPollute",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210315": {
+    "id": 210315,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_skillPurify",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210323": [
+    {
+      "id": 210323,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "tuanti_eliteSkill",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    },
+    {
+      "id": 210323,
+      "eventID": "2ndEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_eliteBoom",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "2ndEvent"
+    }
+  ],
+  "210324": {
+    "id": 210324,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_skillPurify",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210408": [
+    {
+      "id": 210408,
+      "eventID": "startEvent",
+      "actionTarget": "self",
+      "actionName": "tuanti_yanjiang_baozha",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210408,
+      "eventID": "2ndEvent",
+      "actionTarget": "center",
+      "actionName": "tuanti_xianjing",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "3rdEvent"
+    },
+    {
+      "id": 210408,
+      "eventID": "3rdEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_xianjing2",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210409": [
+    {
+      "id": 210409,
+      "eventID": "startEvent",
+      "actionTarget": "self",
+      "actionName": "tuanti_yanjiang_baozha",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210409,
+      "eventID": "2ndEvent",
+      "actionTarget": "center",
+      "actionName": "tuanti_xianjing",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "3rdEvent"
+    },
+    {
+      "id": 210409,
+      "eventID": "3rdEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_xianjing2",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210425": [
+    {
+      "id": 210425,
+      "eventID": "startEvent",
+      "actionTarget": "center",
+      "actionName": "tuanti_xuyuan",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210425,
+      "eventID": "2ndEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_zhiliao",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210427": {
+    "id": 210427,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_zhaohuan",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210431": [
+    {
+      "id": 210431,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "tuanti_yanjiang_baozha",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210431,
+      "eventID": "2ndEvent",
+      "actionTarget": "center",
+      "actionName": "tuanti_xianjing",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "3rdEvent"
+    },
+    {
+      "id": 210431,
+      "eventID": "3rdEvent",
+      "actionTarget": "target",
+      "actionName": "tuanti_xianjing2",
+      "Animation": "newAnimation",
+      "effectLayer": "boxFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210502": {
+    "id": 210502,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_jinghua2",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210503": {
+    "id": 210503,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti4_jinghua1",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210504": {
+    "id": 210504,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti4_jinghua2",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210505": {
+    "id": 210505,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti4_iconeffect",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210507": {
+    "id": 210507,
+    "eventID": "startEvent",
+    "actionTarget": "ownerToTarget",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210508": {
+    "id": 210508,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "tuanti4_sceneeffect",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210517": {
+    "id": 210517,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210518": {
+    "id": 210518,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210519": {
+    "id": 210519,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210520": {
+    "id": 210520,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210521": {
+    "id": 210521,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210522": {
+    "id": 210522,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_xianjing",
+    "Animation": "newAnimation_1",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210526": {
+    "id": 210526,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_boss",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210536": {
+    "id": 210536,
+    "eventID": "startEvent",
+    "actionTarget": "owner",
+    "actionName": "tuanti4_hudun",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210606": {
+    "id": 210606,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "ynhq_sandianshoushang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210611": [
+    {
+      "id": 210611,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "ynhq_baozha",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210611,
+      "eventID": "2ndEvent",
+      "actionTarget": "target",
+      "actionName": "ynhq_csfh",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210619": {
+    "id": 210619,
+    "eventID": "startEvent",
+    "actionTarget": "self",
+    "actionName": "ynhq_siwang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210626": [
+    {
+      "id": 210626,
+      "eventID": "startEvent",
+      "actionTarget": "owner",
+      "actionName": "ynhq_xsfuhuo",
+      "Animation": "newAnimationxiaoshi",
+      "effectLayer": "itemFloor",
+      "nextID": "2ndEvent"
+    },
+    {
+      "id": 210626,
+      "eventID": "2ndEvent",
+      "actionTarget": "targetToOwner",
+      "actionName": "tuanti_BOSS_dandao",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "3ndEvent"
+    },
+    {
+      "id": 210626,
+      "eventID": "3ndEvent",
+      "actionTarget": "owner",
+      "actionName": "ynhq_xsfuhuo",
+      "Animation": "newAnimation",
+      "effectLayer": "itemFloor",
+      "nextID": "finish"
+    }
+  ],
+  "210703": {
+    "id": 210703,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "ynhq_sandianshoushang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210704": {
+    "id": 210704,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "ynhq_sandianshoushang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210706": {
+    "id": 210706,
+    "eventID": "startEvent",
+    "actionTarget": "self",
+    "actionName": "tuanti5_shengguang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210707": {
+    "id": 210707,
+    "eventID": "startEvent",
+    "actionTarget": "self",
+    "actionName": "tuanti5_shengguang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210708": {
+    "id": 210708,
+    "eventID": "startEvent",
+    "actionTarget": "self",
+    "actionName": "tuanti5_shengguang",
+    "Animation": "newAnimation",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210713": {
+    "id": 210713,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_yanjiang_baozha",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210714": {
+    "id": 210714,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_yanjiang_baozha",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210715": {
+    "id": 210715,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_yanjiang_baozha",
+    "Animation": "newAnimation",
+    "effectLayer": "boxFloor",
+    "nextID": "finish"
+  },
+  "210808": {
+    "id": 210808,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "uiEffect_TB_3",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210809": {
+    "id": 210809,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "uiEffect_TB_3",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210810": {
+    "id": 210810,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "uiEffect_TB_3",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210814": {
+    "id": 210814,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "uiEffect_TB_2",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210815": {
+    "id": 210815,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "uiEffect_TB_2",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210816": {
+    "id": 210816,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "uiEffect_TB_2",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210820": {
+    "id": 210820,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "uiEffect_TB_3",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210821": {
+    "id": 210821,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "uiEffect_TB_3",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "210822": {
+    "id": 210822,
+    "eventID": "startEvent",
+    "actionTarget": "center",
+    "actionName": "uiEffect_TB_3",
+    "Animation": "newAnimation1",
+    "effectLayer": "itemFloor",
+    "nextID": "finish"
+  },
+  "299921": {
+    "id": 299921,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_baoxiang_baokai",
+    "Animation": "newAnimation",
+    "effectLayer": "groundFloor",
+    "nextID": "finish"
+  },
+  "299931": {
+    "id": 299931,
+    "eventID": "startEvent",
+    "actionTarget": "target",
+    "actionName": "tuanti_baoxiang_baokai",
+    "Animation": "newAnimation",
+    "effectLayer": "groundFloor",
+    "nextID": "finish"
+  }
+}

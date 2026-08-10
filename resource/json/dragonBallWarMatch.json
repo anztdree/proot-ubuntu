@@ -1,0 +1,37 @@
+{
+  "1": {
+    "id": 1,
+    "powerRankStart": 0,
+    "powerRankEnd": 0.1,
+    "startRange": 20,
+    "broadStep": 2
+  },
+  "2": {
+    "id": 2,
+    "powerRankStart": 0.1,
+    "powerRankEnd": 0.2,
+    "startRange": 50,
+    "broadStep": 5
+  },
+  "3": {
+    "id": 3,
+    "powerRankStart": 0.2,
+    "powerRankEnd": 0.4,
+    "startRange": 100,
+    "broadStep": 10
+  },
+  "4": {
+    "id": 4,
+    "powerRankStart": 0.4,
+    "powerRankEnd": 0.8,
+    "startRange": 200,
+    "broadStep": 20
+  },
+  "5": {
+    "id": 5,
+    "powerRankStart": 0.8,
+    "powerRankEnd": 1,
+    "startRange": 300,
+    "broadStep": 30
+  }
+}

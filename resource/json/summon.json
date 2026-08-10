@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "type": "summonSuper",
+    "name": "高级召唤",
+    "costID1": 123,
+    "cost1": 1,
+    "costID2": 123,
+    "cost2": 10,
+    "free": 86400,
+    "summonEnergy": 10
+  },
+  "2": {
+    "id": 2,
+    "type": "summonSuperDiamond",
+    "name": "高级召唤·钻石",
+    "costID1": 101,
+    "cost1": 250,
+    "costID2": 101,
+    "cost2": 2200,
+    "summonEnergy": 10
+  },
+  "3": {
+    "id": 3,
+    "type": "summonNormal",
+    "name": "普通召唤",
+    "costID1": 122,
+    "cost1": 1,
+    "costID2": 122,
+    "cost2": 10,
+    "free": 21600,
+    "summonEnergy": 0
+  },
+  "4": {
+    "id": 4,
+    "type": "summonFriend",
+    "name": "友情召唤",
+    "costID1": 121,
+    "cost1": 10,
+    "costID2": 121,
+    "cost2": 100,
+    "summonEnergy": 0
+  }
+}

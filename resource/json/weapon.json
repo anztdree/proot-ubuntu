@@ -1,0 +1,178 @@
+{
+  "4101": {
+    "id": 4101,
+    "name": "金箍棒",
+    "quality": "green",
+    "thingsType": "weapon",
+    "version": 202009162139
+  },
+  "4201": {
+    "id": 4201,
+    "name": "勇者之剑",
+    "quality": "blue",
+    "thingsType": "weapon",
+    "version": 202009162139
+  },
+  "4301": {
+    "id": 4301,
+    "name": "界王神剑·破坏",
+    "quality": "purple",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "pohuai_png"
+  },
+  "4302": {
+    "id": 4302,
+    "name": "界王神剑·生机",
+    "quality": "purple",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "shengji_png"
+  },
+  "4303": {
+    "id": 4303,
+    "name": "界王神剑·勇者",
+    "quality": "purple",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "yongzhe_png"
+  },
+  "4304": {
+    "id": 4304,
+    "name": "界王神剑·压迫",
+    "quality": "purple",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "yapo_png"
+  },
+  "4305": {
+    "id": 4305,
+    "name": "界王神剑·铁壁",
+    "quality": "purple",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "tiebi_png"
+  },
+  "4306": {
+    "id": 4306,
+    "name": "界王神剑·迅捷",
+    "quality": "purple",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "xunjie_png"
+  },
+  "4401": {
+    "id": 4401,
+    "name": "天使法杖·破坏",
+    "quality": "orange",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "pohuai_png",
+    "halo": "101,102",
+    "Deification": 4407
+  },
+  "4402": {
+    "id": 4402,
+    "name": "天使法杖·压迫",
+    "quality": "orange",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "yapo_png",
+    "halo": "101,102",
+    "Deification": 4408
+  },
+  "4403": {
+    "id": 4403,
+    "name": "天使法杖·生机",
+    "quality": "orange",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "shengji_png",
+    "halo": "103,104",
+    "Deification": 4409
+  },
+  "4404": {
+    "id": 4404,
+    "name": "天使法杖·铁壁",
+    "quality": "orange",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "tiebi_png",
+    "halo": "105,104",
+    "Deification": 4410
+  },
+  "4405": {
+    "id": 4405,
+    "name": "天使法杖·勇者",
+    "quality": "orange",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "yongzhe_png",
+    "halo": "106,107",
+    "Deification": 4411
+  },
+  "4406": {
+    "id": 4406,
+    "name": "天使法杖·迅捷",
+    "quality": "orange",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "xunjie_png",
+    "halo": "108,109",
+    "Deification": 4412
+  },
+  "4407": {
+    "id": 4407,
+    "name": "神话天使法杖·破坏",
+    "quality": "red",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "pohuai_png",
+    "halo": "101,102"
+  },
+  "4408": {
+    "id": 4408,
+    "name": "神话天使法杖·压迫",
+    "quality": "red",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "yapo_png",
+    "halo": "101,102"
+  },
+  "4409": {
+    "id": 4409,
+    "name": "神话天使法杖·生机",
+    "quality": "red",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "shengji_png",
+    "halo": "103,104"
+  },
+  "4410": {
+    "id": 4410,
+    "name": "神话天使法杖·铁壁",
+    "quality": "red",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "tiebi_png",
+    "halo": "105,104"
+  },
+  "4411": {
+    "id": 4411,
+    "name": "神话天使法杖·勇者",
+    "quality": "red",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "yongzhe_png",
+    "halo": "106,107"
+  },
+  "4412": {
+    "id": 4412,
+    "name": "神话天使法杖·迅捷",
+    "quality": "red",
+    "thingsType": "weapon",
+    "version": 202009162139,
+    "secondName": "xunjie_png",
+    "halo": "108,109"
+  }
+}

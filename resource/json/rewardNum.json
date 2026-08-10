@@ -1,0 +1,97 @@
+{
+  "1": {
+    "id": 1,
+    "vip": 0,
+    "normalRewardNum": 5
+  },
+  "2": {
+    "id": 2,
+    "vip": 1,
+    "normalRewardNum": 5
+  },
+  "3": {
+    "id": 3,
+    "vip": 2,
+    "normalRewardNum": 6
+  },
+  "4": {
+    "id": 4,
+    "vip": 3,
+    "normalRewardNum": 6
+  },
+  "5": {
+    "id": 5,
+    "vip": 4,
+    "normalRewardNum": 7
+  },
+  "6": {
+    "id": 6,
+    "vip": 5,
+    "normalRewardNum": 7
+  },
+  "7": {
+    "id": 7,
+    "vip": 6,
+    "normalRewardNum": 7
+  },
+  "8": {
+    "id": 8,
+    "vip": 7,
+    "normalRewardNum": 8
+  },
+  "9": {
+    "id": 9,
+    "vip": 8,
+    "normalRewardNum": 8
+  },
+  "10": {
+    "id": 10,
+    "vip": 9,
+    "normalRewardNum": 8
+  },
+  "11": {
+    "id": 11,
+    "vip": 10,
+    "normalRewardNum": 9
+  },
+  "12": {
+    "id": 12,
+    "vip": 11,
+    "normalRewardNum": 9
+  },
+  "13": {
+    "id": 13,
+    "vip": 12,
+    "normalRewardNum": 9
+  },
+  "14": {
+    "id": 14,
+    "vip": 13,
+    "normalRewardNum": 10
+  },
+  "15": {
+    "id": 15,
+    "vip": 14,
+    "normalRewardNum": 10
+  },
+  "16": {
+    "id": 16,
+    "vip": 15,
+    "normalRewardNum": 10
+  },
+  "17": {
+    "id": 17,
+    "vip": 16,
+    "normalRewardNum": 10
+  },
+  "18": {
+    "id": 18,
+    "vip": 17,
+    "normalRewardNum": 10
+  },
+  "19": {
+    "id": 19,
+    "vip": 18,
+    "normalRewardNum": 10
+  }
+}

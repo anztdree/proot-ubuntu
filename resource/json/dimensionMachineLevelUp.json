@@ -1,0 +1,60 @@
+{
+  "1": {
+    "id": 1,
+    "levelMax": 110,
+    "cost1ID": 547,
+    "cost1Num": 500
+  },
+  "2": {
+    "id": 2,
+    "levelMax": 120,
+    "cost1ID": 547,
+    "cost1Num": 500
+  },
+  "3": {
+    "id": 3,
+    "levelMax": 130,
+    "cost1ID": 547,
+    "cost1Num": 1000
+  },
+  "4": {
+    "id": 4,
+    "levelMax": 140,
+    "cost1ID": 547,
+    "cost1Num": 1000
+  },
+  "5": {
+    "id": 5,
+    "levelMax": 150,
+    "cost1ID": 547,
+    "cost1Num": 1500
+  },
+  "6": {
+    "id": 6,
+    "levelMax": 160,
+    "cost1ID": 547,
+    "cost1Num": 1500
+  },
+  "7": {
+    "id": 7,
+    "levelMax": 170,
+    "cost1ID": 547,
+    "cost1Num": 2000
+  },
+  "8": {
+    "id": 8,
+    "levelMax": 180,
+    "cost1ID": 547,
+    "cost1Num": 2000
+  },
+  "9": {
+    "id": 9,
+    "levelMax": 190,
+    "cost1ID": 547,
+    "cost1Num": 2500
+  },
+  "10": {
+    "id": 10,
+    "levelMax": 200
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "green",
+    "rebirthNeeded": 101,
+    "num": 0
+  },
+  "2": {
+    "id": 2,
+    "quality": "blue",
+    "rebirthNeeded": 101,
+    "num": 5
+  },
+  "3": {
+    "id": 3,
+    "quality": "purple",
+    "rebirthNeeded": 101,
+    "num": 10
+  },
+  "4": {
+    "id": 4,
+    "quality": "orange",
+    "rebirthNeeded": 101,
+    "num": 50
+  }
+}

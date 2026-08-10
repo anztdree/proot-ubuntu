@@ -1,0 +1,9 @@
+{
+  "1": {
+    "id": 1,
+    "ability1": "dragonBallWarDamageUp",
+    "value1": 0.1,
+    "ability2": "dragonBallWarDamageDown",
+    "value2": 0.1
+  }
+}

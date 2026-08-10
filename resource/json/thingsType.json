@@ -1,0 +1,125 @@
+{
+  "1": {
+    "id": 1,
+    "thingsType": "basis",
+    "isBag": 1
+  },
+  "2": {
+    "id": 2,
+    "thingsType": "exp"
+  },
+  "3": {
+    "id": 3,
+    "thingsType": "level"
+  },
+  "4": {
+    "id": 4,
+    "thingsType": "special"
+  },
+  "5": {
+    "id": 5,
+    "thingsType": "other"
+  },
+  "6": {
+    "id": 6,
+    "thingsType": "dragonBall",
+    "isBag": 1
+  },
+  "7": {
+    "id": 7,
+    "thingsType": "randomBox",
+    "isBag": 1
+  },
+  "8": {
+    "id": 8,
+    "thingsType": "combinationBox",
+    "isBag": 1
+  },
+  "9": {
+    "id": 9,
+    "thingsType": "activityItem",
+    "isBag": 1
+  },
+  "10": {
+    "id": 10,
+    "thingsType": "signPiece"
+  },
+  "11": {
+    "id": 11,
+    "thingsType": "chooseBox",
+    "isBag": 1
+  },
+  "12": {
+    "id": 12,
+    "thingsType": "buff"
+  },
+  "13": {
+    "id": 13,
+    "thingsType": "usable",
+    "isBag": 1
+  },
+  "14": {
+    "id": 14,
+    "thingsType": "skinPiece",
+    "isBag": 1
+  },
+  "15": {
+    "id": 15,
+    "thingsType": "hero"
+  },
+  "16": {
+    "id": 16,
+    "thingsType": "heroPiece"
+  },
+  "17": {
+    "id": 17,
+    "thingsType": "randomHeroPiece"
+  },
+  "18": {
+    "id": 18,
+    "thingsType": "equip"
+  },
+  "19": {
+    "id": 19,
+    "thingsType": "weapon"
+  },
+  "20": {
+    "id": 20,
+    "thingsType": "weaponPiece"
+  },
+  "21": {
+    "id": 21,
+    "thingsType": "ring"
+  },
+  "22": {
+    "id": 22,
+    "thingsType": "genki"
+  },
+  "23": {
+    "id": 23,
+    "thingsType": "sign"
+  },
+  "24": {
+    "id": 24,
+    "thingsType": "heroRedSoul",
+    "isBag": 1
+  },
+  "25": {
+    "id": 25,
+    "thingsType": "playerHeadIcon"
+  },
+  "26": {
+    "id": 26,
+    "thingsType": "monster"
+  },
+  "27": {
+    "id": 27,
+    "thingsType": "teamDungeonKey",
+    "isBag": 1
+  },
+  "28": {
+    "id": 28,
+    "thingsType": "signAddItem",
+    "isBag": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "expNeeded": 1500,
+    "memberNum": 20
+  },
+  "2": {
+    "id": 2,
+    "expNeeded": 1800,
+    "memberNum": 21
+  },
+  "3": {
+    "id": 3,
+    "expNeeded": 2100,
+    "memberNum": 22
+  },
+  "4": {
+    "id": 4,
+    "expNeeded": 2400,
+    "memberNum": 23
+  },
+  "5": {
+    "id": 5,
+    "expNeeded": 5400,
+    "memberNum": 24
+  },
+  "6": {
+    "id": 6,
+    "expNeeded": 9000,
+    "memberNum": 25
+  },
+  "7": {
+    "id": 7,
+    "expNeeded": 13200,
+    "memberNum": 26
+  },
+  "8": {
+    "id": 8,
+    "expNeeded": 18000,
+    "memberNum": 27
+  },
+  "9": {
+    "id": 9,
+    "expNeeded": 19500,
+    "memberNum": 28
+  },
+  "10": {
+    "id": 10,
+    "memberNum": 30
+  }
+}

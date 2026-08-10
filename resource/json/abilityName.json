@@ -1,0 +1,369 @@
+{
+  "0": {
+    "id": 0,
+    "englishName": "hp",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_1",
+    "showName": "abilityName_chineseName_1",
+    "description": "abilityName_description_2"
+  },
+  "1": {
+    "id": 1,
+    "englishName": "attack",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_3",
+    "showName": "abilityName_chineseName_3",
+    "description": "abilityName_description_4"
+  },
+  "2": {
+    "id": 2,
+    "englishName": "armor",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_5",
+    "showName": "abilityName_chineseName_5",
+    "description": "abilityName_description_6"
+  },
+  "3": {
+    "id": 3,
+    "englishName": "speed",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_7",
+    "showName": "abilityName_chineseName_7",
+    "description": "abilityName_description_8"
+  },
+  "4": {
+    "id": 4,
+    "englishName": "hit",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_9",
+    "showName": "abilityName_chineseName_9",
+    "description": "abilityName_description_10"
+  },
+  "5": {
+    "id": 5,
+    "englishName": "dodge",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_11",
+    "showName": "abilityName_chineseName_11",
+    "description": "abilityName_description_12"
+  },
+  "6": {
+    "id": 6,
+    "englishName": "block",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_13",
+    "showName": "abilityName_chineseName_13",
+    "description": "abilityName_description_14"
+  },
+  "7": {
+    "id": 7,
+    "englishName": "blockEffect",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_71",
+    "showName": "abilityName_chineseName_71",
+    "description": "abilityName_description_16"
+  },
+  "8": {
+    "id": 8,
+    "englishName": "skillDamage",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_17",
+    "showName": "abilityName_chineseName_17",
+    "description": "abilityName_description_18"
+  },
+  "9": {
+    "id": 9,
+    "englishName": "critical",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_19",
+    "showName": "abilityName_chineseName_19",
+    "description": "abilityName_description_20"
+  },
+  "10": {
+    "id": 10,
+    "englishName": "criticalResist",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_21",
+    "showName": "abilityName_chineseName_21",
+    "description": "abilityName_description_22"
+  },
+  "11": {
+    "id": 11,
+    "englishName": "criticalDamage",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_23",
+    "showName": "abilityName_chineseName_23",
+    "description": "abilityName_description_24"
+  },
+  "12": {
+    "id": 12,
+    "englishName": "armorBreak",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_25",
+    "showName": "abilityName_chineseName_25",
+    "description": "abilityName_description_26"
+  },
+  "13": {
+    "id": 13,
+    "englishName": "damageReduce",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_27",
+    "showName": "abilityName_chineseName_27",
+    "description": "abilityName_description_28"
+  },
+  "14": {
+    "id": 14,
+    "englishName": "controlResist",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_29",
+    "showName": "abilityName_chineseName_29",
+    "description": "abilityName_description_30"
+  },
+  "15": {
+    "id": 15,
+    "englishName": "trueDamage",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_31",
+    "showName": "abilityName_chineseName_31",
+    "description": "abilityName_description_32"
+  },
+  "16": {
+    "id": 16,
+    "englishName": "energy",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_33",
+    "showName": "abilityName_chineseName_33",
+    "description": "abilityName_description_32"
+  },
+  "17": {
+    "id": 17,
+    "englishName": "hpPercent",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_34",
+    "showName": "abilityName_showName_35",
+    "description": "abilityName_description_32"
+  },
+  "18": {
+    "id": 18,
+    "englishName": "armorPercent",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_36",
+    "showName": "abilityName_showName_37",
+    "description": "abilityName_description_32"
+  },
+  "19": {
+    "id": 19,
+    "englishName": "attackPercent",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_38",
+    "showName": "abilityName_showName_39",
+    "description": "abilityName_description_32"
+  },
+  "20": {
+    "id": 20,
+    "englishName": "speedPercent",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_40",
+    "showName": "abilityName_chineseName_40",
+    "description": "abilityName_description_32"
+  },
+  "21": {
+    "id": 21,
+    "englishName": "power",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_41",
+    "showName": "abilityName_chineseName_41",
+    "description": "abilityName_description_32"
+  },
+  "22": {
+    "id": 22,
+    "englishName": "orghp",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_42",
+    "showName": "abilityName_chineseName_42",
+    "description": "abilityName_description_32"
+  },
+  "23": {
+    "id": 23,
+    "englishName": "superDamage",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_43",
+    "showName": "abilityName_chineseName_43",
+    "description": "abilityName_description_32"
+  },
+  "24": {
+    "id": 24,
+    "englishName": "healPlus",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_44",
+    "showName": "abilityName_chineseName_44",
+    "description": "abilityName_description_45"
+  },
+  "25": {
+    "id": 25,
+    "englishName": "healerPlus",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_46",
+    "showName": "abilityName_chineseName_46",
+    "description": "abilityName_description_47"
+  },
+  "26": {
+    "id": 26,
+    "englishName": "extraArmor",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_48",
+    "showName": "abilityName_chineseName_48",
+    "description": "abilityName_description_49"
+  },
+  "27": {
+    "id": 27,
+    "englishName": "shielderPlus",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_50",
+    "showName": "abilityName_chineseName_50",
+    "description": "abilityName_description_32"
+  },
+  "28": {
+    "id": 28,
+    "englishName": "damageUp",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_51",
+    "showName": "abilityName_chineseName_51",
+    "description": "abilityName_description_52"
+  },
+  "29": {
+    "id": 29,
+    "englishName": "damageDown",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_53",
+    "showName": "abilityName_chineseName_53",
+    "description": "abilityName_description_54"
+  },
+  "30": {
+    "id": 30,
+    "englishName": "talent",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_55",
+    "showName": "abilityName_chineseName_55",
+    "description": "abilityName_description_56"
+  },
+  "31": {
+    "id": 31,
+    "englishName": "superDamageResist",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_57",
+    "showName": "abilityName_chineseName_57",
+    "description": "abilityName_description_58"
+  },
+  "32": {
+    "id": 32,
+    "englishName": "dragonBallWarDamageUp",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_59",
+    "showName": "abilityName_chineseName_59",
+    "description": "abilityName_description_32"
+  },
+  "33": {
+    "id": 33,
+    "englishName": "dragonBallWarDamageDown",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_60",
+    "showName": "abilityName_chineseName_60",
+    "description": "abilityName_description_32"
+  },
+  "34": {
+    "id": 34,
+    "englishName": "bloodDamage",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_61",
+    "showName": "abilityName_chineseName_61",
+    "description": "abilityName_description_62"
+  },
+  "35": {
+    "id": 35,
+    "englishName": "normalAttack",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_63",
+    "showName": "abilityName_chineseName_63",
+    "description": "abilityName_description_32"
+  },
+  "36": {
+    "id": 36,
+    "englishName": "criticalDamageResist",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_64",
+    "showName": "abilityName_chineseName_64",
+    "description": "abilityName_description_65"
+  },
+  "37": {
+    "id": 37,
+    "englishName": "blockThrough",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_66",
+    "showName": "abilityName_chineseName_66",
+    "description": "abilityName_description_67"
+  },
+  "38": {
+    "id": 38,
+    "englishName": "controlAdd",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_68",
+    "showName": "abilityName_chineseName_68",
+    "description": "abilityName_description_32"
+  },
+  "39": {
+    "id": 39,
+    "englishName": "bloodResist",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_69",
+    "showName": "abilityName_chineseName_69",
+    "description": "abilityName_description_32"
+  },
+  "40": {
+    "id": 40,
+    "englishName": "extraArmorBreak",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_70",
+    "showName": "abilityName_chineseName_70",
+    "description": "abilityName_description_32"
+  },
+  "41": {
+    "id": 41,
+    "englishName": "energyMax",
+    "percentOrNot": 0,
+    "chineseName": "abilityName_chineseName_72",
+    "showName": "abilityName_chineseName_72",
+    "description": "abilityName_description_32"
+  },
+  "42": {
+    "id": 42,
+    "englishName": "attackPercentInBattle",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_showName_39",
+    "showName": "abilityName_showName_73",
+    "description": "abilityName_description_32"
+  },
+  "43": {
+    "id": 43,
+    "englishName": "teamWarDamageUp",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_74",
+    "showName": "abilityName_chineseName_74",
+    "description": "abilityName_chineseName_74"
+  },
+  "44": {
+    "id": 44,
+    "englishName": "teamWarDamageDown",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_75",
+    "showName": "abilityName_chineseName_75",
+    "description": "abilityName_chineseName_75"
+  },
+  "45": {
+    "id": 45,
+    "englishName": "additionalArmor",
+    "percentOrNot": 1,
+    "chineseName": "abilityName_chineseName_76",
+    "showName": "abilityName_chineseName_76"
+  }
+}

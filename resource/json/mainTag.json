@@ -1,0 +1,32 @@
+{
+  "Demon": {
+    "id": "Demon",
+    "backPic": "mainTag_Demon_png",
+    "name": "mainTag_name_1"
+  },
+  "LegendSaiya": {
+    "id": "LegendSaiya",
+    "backPic": "mainTag_LegendSaiya_png",
+    "name": "mainTag_name_2"
+  },
+  "Create": {
+    "id": "Create",
+    "backPic": "mainTag_Create_png",
+    "name": "mainTag_name_3"
+  },
+  "Hakai": {
+    "id": "Hakai",
+    "backPic": "mainTag_Hakai_png",
+    "name": "mainTag_name_4"
+  },
+  "Angel": {
+    "id": "Angel",
+    "backPic": "mainTag_Angel_png",
+    "name": "mainTag_name_5"
+  },
+  "Saiya": {
+    "id": "Saiya",
+    "backPic": "mainTag_Saiya_png",
+    "name": "mainTag_name_6"
+  }
+}

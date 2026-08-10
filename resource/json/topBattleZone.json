@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "dayStart": 180,
+    "dayEnd": 360,
+    "name": "topBattleZone_name_20"
+  },
+  "2": {
+    "id": 2,
+    "dayStart": 361,
+    "dayEnd": 510,
+    "name": "topBattleZone_name_21"
+  },
+  "3": {
+    "id": 3,
+    "dayStart": 511,
+    "dayEnd": 660,
+    "name": "topBattleZone_name_22"
+  },
+  "4": {
+    "id": 4,
+    "dayStart": 661,
+    "dayEnd": 810,
+    "name": "topBattleZone_name_23"
+  },
+  "5": {
+    "id": 5,
+    "dayStart": 811,
+    "dayEnd": 960,
+    "name": "topBattleZone_name_24"
+  },
+  "6": {
+    "id": 6,
+    "dayStart": 961,
+    "dayEnd": 1044,
+    "name": "topBattleZone_name_25"
+  },
+  "7": {
+    "id": 7,
+    "dayStart": 1045,
+    "dayEnd": 99999999,
+    "name": "topBattleZone_name_26"
+  }
+}

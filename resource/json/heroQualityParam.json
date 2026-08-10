@@ -1,0 +1,44 @@
+{
+  "white": {
+    "quality": "white",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  },
+  "green": {
+    "quality": "green",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  },
+  "blue": {
+    "quality": "blue",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  },
+  "purple": {
+    "quality": "purple",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  },
+  "orange": {
+    "quality": "orange",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  },
+  "flickerOrange": {
+    "quality": "flickerOrange",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  },
+  "superOrange": {
+    "quality": "superOrange",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1
+  }
+}

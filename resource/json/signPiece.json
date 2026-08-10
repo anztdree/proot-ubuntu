@@ -1,0 +1,194 @@
+{
+  "208": {
+    "id": 208,
+    "name": "印记碎片·绿",
+    "belongTo": 1208,
+    "mergeNum": 5
+  },
+  "218": {
+    "id": 218,
+    "name": "印记碎片·蓝",
+    "belongTo": 1218,
+    "mergeNum": 10
+  },
+  "228": {
+    "id": 228,
+    "name": "印记碎片·紫",
+    "belongTo": 1228,
+    "mergeNum": 20
+  },
+  "238": {
+    "id": 238,
+    "name": "印记碎片·橙",
+    "belongTo": 1238,
+    "mergeNum": 60
+  },
+  "241": {
+    "id": 241,
+    "name": "绿色印记碎片·龟",
+    "belongTo": 1241,
+    "mergeNum": 5,
+    "type": "turtle"
+  },
+  "242": {
+    "id": 242,
+    "name": "绿色印记碎片·神",
+    "belongTo": 1242,
+    "mergeNum": 5,
+    "type": "god"
+  },
+  "243": {
+    "id": 243,
+    "name": "绿色印记碎片·魔",
+    "belongTo": 1243,
+    "mergeNum": 5,
+    "type": "demon"
+  },
+  "244": {
+    "id": 244,
+    "name": "绿色印记碎片·界",
+    "belongTo": 1244,
+    "mergeNum": 5,
+    "type": "world"
+  },
+  "245": {
+    "id": 245,
+    "name": "绿色印记碎片·悟",
+    "belongTo": 1245,
+    "mergeNum": 5,
+    "type": "wu"
+  },
+  "246": {
+    "id": 246,
+    "name": "绿色印记碎片·全",
+    "belongTo": 1246,
+    "mergeNum": 5,
+    "type": "all"
+  },
+  "251": {
+    "id": 251,
+    "name": "蓝色印记碎片·龟",
+    "belongTo": 1251,
+    "mergeNum": 10,
+    "type": "turtle"
+  },
+  "252": {
+    "id": 252,
+    "name": "蓝色印记碎片·神",
+    "belongTo": 1252,
+    "mergeNum": 10,
+    "type": "god"
+  },
+  "253": {
+    "id": 253,
+    "name": "蓝色印记碎片·魔",
+    "belongTo": 1253,
+    "mergeNum": 10,
+    "type": "demon"
+  },
+  "254": {
+    "id": 254,
+    "name": "蓝色印记碎片·界",
+    "belongTo": 1254,
+    "mergeNum": 10,
+    "type": "world"
+  },
+  "255": {
+    "id": 255,
+    "name": "蓝色印记碎片·悟",
+    "belongTo": 1255,
+    "mergeNum": 10,
+    "type": "wu"
+  },
+  "256": {
+    "id": 256,
+    "name": "蓝色印记碎片·全",
+    "belongTo": 1256,
+    "mergeNum": 10,
+    "type": "all"
+  },
+  "261": {
+    "id": 261,
+    "name": "紫色印记碎片·龟",
+    "belongTo": 1261,
+    "mergeNum": 20,
+    "type": "turtle"
+  },
+  "262": {
+    "id": 262,
+    "name": "紫色印记碎片·神",
+    "belongTo": 1262,
+    "mergeNum": 20,
+    "type": "god"
+  },
+  "263": {
+    "id": 263,
+    "name": "紫色印记碎片·魔",
+    "belongTo": 1263,
+    "mergeNum": 20,
+    "type": "demon"
+  },
+  "264": {
+    "id": 264,
+    "name": "紫色印记碎片·界",
+    "belongTo": 1264,
+    "mergeNum": 20,
+    "type": "world"
+  },
+  "265": {
+    "id": 265,
+    "name": "紫色印记碎片·悟",
+    "belongTo": 1265,
+    "mergeNum": 20,
+    "type": "wu"
+  },
+  "266": {
+    "id": 266,
+    "name": "紫色印记碎片·全",
+    "belongTo": 1266,
+    "mergeNum": 20,
+    "type": "all"
+  },
+  "271": {
+    "id": 271,
+    "name": "橙色印记碎片·龟",
+    "belongTo": 1271,
+    "mergeNum": 60,
+    "type": "turtle"
+  },
+  "272": {
+    "id": 272,
+    "name": "橙色印记碎片·神",
+    "belongTo": 1272,
+    "mergeNum": 60,
+    "type": "god"
+  },
+  "273": {
+    "id": 273,
+    "name": "橙色印记碎片·魔",
+    "belongTo": 1273,
+    "mergeNum": 60,
+    "type": "demon"
+  },
+  "274": {
+    "id": 274,
+    "name": "橙色印记碎片·界",
+    "belongTo": 1274,
+    "mergeNum": 60,
+    "type": "world"
+  },
+  "275": {
+    "id": 275,
+    "name": "橙色印记碎片·悟",
+    "belongTo": 1275,
+    "mergeNum": 60,
+    "type": "wu"
+  },
+  "276": {
+    "id": 276,
+    "name": "橙色印记碎片·全",
+    "belongTo": 1276,
+    "mergeNum": 60,
+    "type": "all"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "1": {
+    "id": 1,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 20
+  },
+  "2": {
+    "id": 2,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 150
+  },
+  "3": {
+    "id": 3,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 350
+  },
+  "4": {
+    "id": 4,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 600
+  },
+  "5": {
+    "id": 5,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 800
+  },
+  "6": {
+    "id": 6,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 900
+  },
+  "7": {
+    "id": 7,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 1000
+  },
+  "8": {
+    "id": 8,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 1100
+  },
+  "9": {
+    "id": 9,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 1200
+  },
+  "10": {
+    "id": 10,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 1500
+  },
+  "11": {
+    "id": 11,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 1800
+  },
+  "12": {
+    "id": 12,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 2200
+  },
+  "13": {
+    "id": 13,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 2600
+  },
+  "14": {
+    "id": 14,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 3000
+  },
+  "15": {
+    "id": 15,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 3500
+  },
+  "16": {
+    "id": 16,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 4000
+  },
+  "17": {
+    "id": 17,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 4500
+  },
+  "18": {
+    "id": 18,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 5000
+  },
+  "19": {
+    "id": 19,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 5500
+  },
+  "20": {
+    "id": 20,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 6000
+  },
+  "21": {
+    "id": 21,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 6500
+  },
+  "22": {
+    "id": 22,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 7000
+  },
+  "23": {
+    "id": 23,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 8000
+  },
+  "24": {
+    "id": 24,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 8600
+  },
+  "25": {
+    "id": 25,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 9300
+  },
+  "26": {
+    "id": 26,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 10000
+  },
+  "27": {
+    "id": 27,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 11000
+  },
+  "28": {
+    "id": 28,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 12000
+  },
+  "29": {
+    "id": 29,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 13000
+  },
+  "30": {
+    "id": 30,
+    "unlockNeededID": 548,
+    "unlockNeededNum": 15000
+  }
+}

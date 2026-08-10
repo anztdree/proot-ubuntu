@@ -1,0 +1,352 @@
+{
+  "1": {
+    "Levelid": 1,
+    "name": "第1关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "2": {
+    "Levelid": 2,
+    "name": "第2关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "3": {
+    "Levelid": 3,
+    "name": "第3关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "4": {
+    "Levelid": 4,
+    "name": "第4关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_6",
+    "threeStar": "timeTrainDescribe1_threeStar_7"
+  },
+  "5": {
+    "Levelid": 5,
+    "name": "第5关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_6",
+    "threeStar": "timeTrainDescribe1_threeStar_7"
+  },
+  "6": {
+    "Levelid": 6,
+    "name": "第6关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_6",
+    "threeStar": "timeTrainDescribe1_threeStar_7"
+  },
+  "7": {
+    "Levelid": 7,
+    "name": "第7关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "8": {
+    "Levelid": 8,
+    "name": "第8关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "9": {
+    "Levelid": 9,
+    "name": "第9关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "10": {
+    "Levelid": 10,
+    "name": "第10关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "11": {
+    "Levelid": 11,
+    "name": "第11关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "12": {
+    "Levelid": 12,
+    "name": "第12关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "13": {
+    "Levelid": 13,
+    "name": "第13关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_10",
+    "threeStar": "timeTrainDescribe1_threeStar_11"
+  },
+  "14": {
+    "Levelid": 14,
+    "name": "第14关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "15": {
+    "Levelid": 15,
+    "name": "第15关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "16": {
+    "Levelid": 16,
+    "name": "第16关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "17": {
+    "Levelid": 17,
+    "name": "第17关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "18": {
+    "Levelid": 18,
+    "name": "第18关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "19": {
+    "Levelid": 19,
+    "name": "第19关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "20": {
+    "Levelid": 20,
+    "name": "第20关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_6",
+    "threeStar": "timeTrainDescribe1_threeStar_7"
+  },
+  "21": {
+    "Levelid": 21,
+    "name": "第21关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "22": {
+    "Levelid": 22,
+    "name": "第22关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "23": {
+    "Levelid": 23,
+    "name": "第23关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "24": {
+    "Levelid": 24,
+    "name": "第24关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "25": {
+    "Levelid": 25,
+    "name": "第25关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_12"
+  },
+  "26": {
+    "Levelid": 26,
+    "name": "第26关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "27": {
+    "Levelid": 27,
+    "name": "第27关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "28": {
+    "Levelid": 28,
+    "name": "第28关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_13"
+  },
+  "29": {
+    "Levelid": 29,
+    "name": "第29关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_10",
+    "threeStar": "timeTrainDescribe1_threeStar_11"
+  },
+  "30": {
+    "Levelid": 30,
+    "name": "第30关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_10",
+    "threeStar": "timeTrainDescribe1_threeStar_11"
+  },
+  "31": {
+    "Levelid": 31,
+    "name": "第31关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_6",
+    "threeStar": "timeTrainDescribe1_threeStar_7"
+  },
+  "32": {
+    "Levelid": 32,
+    "name": "第32关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_8",
+    "threeStar": "timeTrainDescribe1_threeStar_9"
+  },
+  "33": {
+    "Levelid": 33,
+    "name": "第33关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_10",
+    "threeStar": "timeTrainDescribe1_threeStar_11"
+  },
+  "34": {
+    "Levelid": 34,
+    "name": "第34关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_10",
+    "threeStar": "timeTrainDescribe1_threeStar_11"
+  },
+  "35": {
+    "Levelid": 35,
+    "name": "第35关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "36": {
+    "Levelid": 36,
+    "name": "第36关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_14",
+    "threeStar": "timeTrainDescribe1_threeStar_15"
+  },
+  "37": {
+    "Levelid": 37,
+    "name": "第37关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "38": {
+    "Levelid": 38,
+    "name": "第38关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_14",
+    "threeStar": "timeTrainDescribe1_threeStar_15"
+  },
+  "39": {
+    "Levelid": 39,
+    "name": "第39关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_14",
+    "threeStar": "timeTrainDescribe1_threeStar_15"
+  },
+  "40": {
+    "Levelid": 40,
+    "name": "第40关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_14",
+    "threeStar": "timeTrainDescribe1_threeStar_15"
+  },
+  "41": {
+    "Levelid": 41,
+    "name": "第41关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_14",
+    "threeStar": "timeTrainDescribe1_threeStar_15"
+  },
+  "42": {
+    "Levelid": 42,
+    "name": "第42关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_14",
+    "threeStar": "timeTrainDescribe1_threeStar_15"
+  },
+  "43": {
+    "Levelid": 43,
+    "name": "第43关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "44": {
+    "Levelid": 44,
+    "name": "第44关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "45": {
+    "Levelid": 45,
+    "name": "第45关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  },
+  "46": {
+    "Levelid": 46,
+    "name": "第46关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "47": {
+    "Levelid": 47,
+    "name": "第47关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_10",
+    "threeStar": "timeTrainDescribe1_threeStar_11"
+  },
+  "48": {
+    "Levelid": 48,
+    "name": "第48关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_6",
+    "threeStar": "timeTrainDescribe1_threeStar_7"
+  },
+  "49": {
+    "Levelid": 49,
+    "name": "第49关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_4",
+    "threeStar": "timeTrainDescribe1_threeStar_5"
+  },
+  "50": {
+    "Levelid": 50,
+    "name": "第50关",
+    "oneStar": "timeTrainDescribe1_oneStar_1",
+    "twoStar": "timeTrainDescribe1_twoStar_2",
+    "threeStar": "timeTrainDescribe1_threeStar_3"
+  }
+}

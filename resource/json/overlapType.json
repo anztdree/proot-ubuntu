@@ -1,0 +1,566 @@
+{
+  "1": {
+    "id": 1,
+    "effectType": "dotBefore",
+    "effect": "bomb",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "2": {
+    "id": 2,
+    "effectType": "dotAfter",
+    "effect": "poison",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "3": {
+    "id": 3,
+    "effectType": "dotAfter",
+    "effect": "blood",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "4": {
+    "id": 4,
+    "effectType": "dotAfter",
+    "effect": "bloodAbsolute",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "5": {
+    "id": 5,
+    "effectType": "dotAfter",
+    "effect": "burning",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "6": {
+    "id": 6,
+    "effectType": "dotAfter",
+    "effect": "bloodTargetHp",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "7": {
+    "id": 7,
+    "effectType": "hot",
+    "effect": "hot",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "8": {
+    "id": 8,
+    "effectType": "buff",
+    "effect": "buffAttrAdd",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "9": {
+    "id": 9,
+    "effectType": "buff",
+    "effect": "buffAttrAddTargetHpLose",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "10": {
+    "id": 10,
+    "effectType": "buff",
+    "effect": "buffAttackDamagePlus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "11": {
+    "id": 11,
+    "effectType": "buff",
+    "effect": "buffAttackDamagePlusTargetHpLose",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "12": {
+    "id": 12,
+    "effectType": "buff",
+    "effect": "buffDefendDamageMinus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "13": {
+    "id": 13,
+    "effectType": "buff",
+    "effect": "buffEnergyPlus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "14": {
+    "id": 14,
+    "effectType": "buff",
+    "effect": "buffUserHealPlus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "15": {
+    "id": 15,
+    "effectType": "buff",
+    "effect": "buffMustHit",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "16": {
+    "id": 16,
+    "effectType": "buff",
+    "effect": "statusImmuneTypeBuff",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "17": {
+    "id": 17,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttrAdd",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "18": {
+    "id": 18,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttrAddTargetHpLose",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "19": {
+    "id": 19,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttrAddOwnStand",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "20": {
+    "id": 20,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttackDamagePlus",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "21": {
+    "id": 21,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttackDamagePlusTargetHpLose",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "22": {
+    "id": 22,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttackDamagePlusOwnStand",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "23": {
+    "id": 23,
+    "effectType": "buffTemp",
+    "effect": "buffTempAttackDamagePlusHpLose",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "24": {
+    "id": 24,
+    "effectType": "buffTemp",
+    "effect": "buffTempMustHit",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "25": {
+    "id": 25,
+    "effectType": "passive",
+    "effect": "passiveAttrAdd",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "26": {
+    "id": 26,
+    "effectType": "passive",
+    "effect": "passiveAttrAddTargetHpLose",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "27": {
+    "id": 27,
+    "effectType": "passive",
+    "effect": "passiveAttackDamagePlus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "28": {
+    "id": 28,
+    "effectType": "passive",
+    "effect": "passiveAttackDamagePlusTargetHpLose",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "29": {
+    "id": 29,
+    "effectType": "passive",
+    "effect": "passiveDefendDamageMinus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "30": {
+    "id": 30,
+    "effectType": "debuff",
+    "effect": "debuffAttrReduce",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "31": {
+    "id": 31,
+    "effectType": "debuff",
+    "effect": "debuffAttackDamageMinus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "32": {
+    "id": 32,
+    "effectType": "debuff",
+    "effect": "debuffDefendDamagePlus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "33": {
+    "id": 33,
+    "effectType": "debuff",
+    "effect": "debuffEnergyMinus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "34": {
+    "id": 34,
+    "effectType": "debuff",
+    "effect": "debuffHealMinus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "35": {
+    "id": 35,
+    "effectType": "debuff",
+    "effect": "statusImmuneTypeDebuff",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "36": {
+    "id": 36,
+    "effectType": "debuffTemp",
+    "effect": "debuffTempAttrReduce",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "37": {
+    "id": 37,
+    "effectType": "debuffTemp",
+    "effect": "debuffTempAttackDamageMinus",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "38": {
+    "id": 38,
+    "effectType": "debuffTemp",
+    "effect": "debuffTempDefendArmorMinus",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "39": {
+    "id": 39,
+    "effectType": "debuffTemp",
+    "effect": "debuffTempDefendDamagePlus",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "40": {
+    "id": 40,
+    "effectType": "controlStrong",
+    "effect": "faint",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "41": {
+    "id": 41,
+    "effectType": "controlStrong",
+    "effect": "paralysis",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "42": {
+    "id": 42,
+    "effectType": "controlStrong",
+    "effect": "freeze",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "43": {
+    "id": 43,
+    "effectType": "controlStrong",
+    "effect": "stone",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "44": {
+    "id": 44,
+    "effectType": "controlStrong",
+    "effect": "chocolate",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "45": {
+    "id": 45,
+    "effectType": "controlStrong",
+    "effect": "carrot",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "46": {
+    "id": 46,
+    "effectType": "controlWeak",
+    "effect": "slience",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "47": {
+    "id": 47,
+    "effectType": "controlWeak",
+    "effect": "fear",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "48": {
+    "id": 48,
+    "effectType": "halo",
+    "effect": "haloAttrAdd",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "49": {
+    "id": 49,
+    "effectType": "halo",
+    "effect": "haloAttackDamagePlus",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "50": {
+    "id": 50,
+    "effectType": "halo",
+    "effect": "haloDefendDamageMinus",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "51": {
+    "id": 51,
+    "effectType": "halo",
+    "effect": "haloVampire",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "52": {
+    "id": 52,
+    "effectType": "halo",
+    "effect": "haloMustHit",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "53": {
+    "id": 53,
+    "effectType": "other",
+    "effect": "mark",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "54": {
+    "id": 54,
+    "effectType": "other",
+    "effect": "focus",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "55": {
+    "id": 55,
+    "effectType": "other",
+    "effect": "taunt",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "56": {
+    "id": 56,
+    "effectType": "other",
+    "effect": "vampire",
+    "isOverlapSame": 1,
+    "isCoexistOther": 1
+  },
+  "57": {
+    "id": 57,
+    "effectType": "other",
+    "effect": "reborn",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "58": {
+    "id": 58,
+    "effectType": "other",
+    "effect": "invincible",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "59": {
+    "id": 59,
+    "effectType": "other",
+    "effect": "invisible",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "60": {
+    "id": 60,
+    "effectType": "other",
+    "effect": "statusImmune",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "61": {
+    "id": 61,
+    "effectType": "other",
+    "effect": "statusImmuneType",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "62": {
+    "id": 62,
+    "effectType": "other",
+    "effect": "shield",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "63": {
+    "id": 63,
+    "effectType": "other",
+    "effect": "healBeenHit",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "64": {
+    "id": 64,
+    "effectType": "other",
+    "effect": "lastBlood",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "65": {
+    "id": 65,
+    "effectType": "other",
+    "effect": "goDie",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "66": {
+    "id": 66,
+    "effectType": "other",
+    "effect": "delayDamage",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "67": {
+    "id": 67,
+    "effectType": "other",
+    "effect": "ostrich",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "68": {
+    "id": 68,
+    "effectType": "other",
+    "effect": "ostrichenergy",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "newest"
+  },
+  "69": {
+    "id": 69,
+    "effectType": "other",
+    "effect": "protect",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "70": {
+    "id": 70,
+    "effectType": "other",
+    "effect": "hidden",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  },
+  "71": {
+    "id": 71,
+    "effectType": "dotAfter",
+    "effect": "corrosion",
+    "isOverlapSame": 1,
+    "isCoexistOther": 0,
+    "replaceType": "highest"
+  },
+  "72": {
+    "id": 72,
+    "effectType": "other",
+    "effect": "solo",
+    "isOverlapSame": 0,
+    "isCoexistOther": 0,
+    "replaceType": "oldest"
+  }
+}

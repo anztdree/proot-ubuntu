@@ -1,0 +1,128 @@
+{
+  "1": {
+    "id": 1,
+    "type": "normal",
+    "award": 4601,
+    "name": "元气（红）LV1",
+    "random": 1000
+  },
+  "2": {
+    "id": 2,
+    "type": "normal",
+    "award": 4602,
+    "name": "元气（红）LV2",
+    "random": 500
+  },
+  "3": {
+    "id": 3,
+    "type": "normal",
+    "award": 4603,
+    "name": "元气（红）LV3",
+    "random": 100
+  },
+  "4": {
+    "id": 4,
+    "type": "normal",
+    "award": 4611,
+    "name": "元气（黄）LV1",
+    "random": 1000
+  },
+  "5": {
+    "id": 5,
+    "type": "normal",
+    "award": 4612,
+    "name": "元气（黄）LV2",
+    "random": 500
+  },
+  "6": {
+    "id": 6,
+    "type": "normal",
+    "award": 4613,
+    "name": "元气（黄）LV3",
+    "random": 100
+  },
+  "7": {
+    "id": 7,
+    "type": "normal",
+    "award": 4621,
+    "name": "元气（紫）LV1",
+    "random": 1000
+  },
+  "8": {
+    "id": 8,
+    "type": "normal",
+    "award": 4622,
+    "name": "元气（紫）LV2",
+    "random": 500
+  },
+  "9": {
+    "id": 9,
+    "type": "normal",
+    "award": 4623,
+    "name": "元气（紫）LV3",
+    "random": 100
+  },
+  "10": {
+    "id": 10,
+    "type": "super",
+    "award": 4603,
+    "name": "元气（红）LV3",
+    "random": 1000
+  },
+  "11": {
+    "id": 11,
+    "type": "super",
+    "award": 4604,
+    "name": "元气（红）LV4",
+    "random": 300
+  },
+  "12": {
+    "id": 12,
+    "type": "super",
+    "award": 4605,
+    "name": "元气（红）LV5",
+    "random": 50
+  },
+  "13": {
+    "id": 13,
+    "type": "super",
+    "award": 4613,
+    "name": "元气（黄）LV3",
+    "random": 1000
+  },
+  "14": {
+    "id": 14,
+    "type": "super",
+    "award": 4614,
+    "name": "元气（黄）LV4",
+    "random": 300
+  },
+  "15": {
+    "id": 15,
+    "type": "super",
+    "award": 4615,
+    "name": "元气（黄）LV5",
+    "random": 50
+  },
+  "16": {
+    "id": 16,
+    "type": "super",
+    "award": 4623,
+    "name": "元气（紫）LV3",
+    "random": 1000
+  },
+  "17": {
+    "id": 17,
+    "type": "super",
+    "award": 4624,
+    "name": "元气（紫）LV4",
+    "random": 300
+  },
+  "18": {
+    "id": 18,
+    "type": "super",
+    "award": 4625,
+    "name": "元气（紫）LV5",
+    "random": 50
+  }
+}

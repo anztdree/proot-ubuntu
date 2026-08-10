@@ -1,0 +1,30 @@
+{
+  "white": {
+    "quality": "white",
+    "powerParam": 1
+  },
+  "green": {
+    "quality": "green",
+    "powerParam": 1
+  },
+  "blue": {
+    "quality": "blue",
+    "powerParam": 1
+  },
+  "purple": {
+    "quality": "purple",
+    "powerParam": 1
+  },
+  "orange": {
+    "quality": "orange",
+    "powerParam": 1
+  },
+  "flickerOrange": {
+    "quality": "flickerOrange",
+    "powerParam": 1
+  },
+  "superOrange": {
+    "quality": "superOrange",
+    "powerParam": 1
+  }
+}

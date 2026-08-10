@@ -1,0 +1,8402 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "green",
+    "superLevel": 1,
+    "costID": 134,
+    "costNum": 10
+  },
+  "2": {
+    "id": 2,
+    "quality": "green",
+    "superLevel": 2,
+    "costID": 134,
+    "costNum": 10
+  },
+  "3": {
+    "id": 3,
+    "quality": "green",
+    "superLevel": 3,
+    "costID": 134,
+    "costNum": 10
+  },
+  "4": {
+    "id": 4,
+    "quality": "green",
+    "superLevel": 4,
+    "costID": 134,
+    "costNum": 10
+  },
+  "5": {
+    "id": 5,
+    "quality": "green",
+    "superLevel": 5,
+    "costID": 134,
+    "costNum": 10
+  },
+  "6": {
+    "id": 6,
+    "quality": "green",
+    "superLevel": 6,
+    "costID": 134,
+    "costNum": 10
+  },
+  "7": {
+    "id": 7,
+    "quality": "green",
+    "superLevel": 7,
+    "costID": 134,
+    "costNum": 10
+  },
+  "8": {
+    "id": 8,
+    "quality": "green",
+    "superLevel": 8,
+    "costID": 134,
+    "costNum": 10
+  },
+  "9": {
+    "id": 9,
+    "quality": "green",
+    "superLevel": 9,
+    "costID": 134,
+    "costNum": 10
+  },
+  "10": {
+    "id": 10,
+    "quality": "green",
+    "superLevel": 10,
+    "costID": 134,
+    "costNum": 10
+  },
+  "11": {
+    "id": 11,
+    "quality": "green",
+    "superLevel": 11,
+    "costID": 134,
+    "costNum": 10
+  },
+  "12": {
+    "id": 12,
+    "quality": "green",
+    "superLevel": 12,
+    "costID": 134,
+    "costNum": 10
+  },
+  "13": {
+    "id": 13,
+    "quality": "green",
+    "superLevel": 13,
+    "costID": 134,
+    "costNum": 10
+  },
+  "14": {
+    "id": 14,
+    "quality": "green",
+    "superLevel": 14,
+    "costID": 134,
+    "costNum": 10
+  },
+  "15": {
+    "id": 15,
+    "quality": "green",
+    "superLevel": 15,
+    "costID": 134,
+    "costNum": 10
+  },
+  "16": {
+    "id": 16,
+    "quality": "green",
+    "superLevel": 16,
+    "costID": 134,
+    "costNum": 10
+  },
+  "17": {
+    "id": 17,
+    "quality": "green",
+    "superLevel": 17,
+    "costID": 134,
+    "costNum": 10
+  },
+  "18": {
+    "id": 18,
+    "quality": "green",
+    "superLevel": 18,
+    "costID": 134,
+    "costNum": 10
+  },
+  "19": {
+    "id": 19,
+    "quality": "green",
+    "superLevel": 19,
+    "costID": 134,
+    "costNum": 10
+  },
+  "20": {
+    "id": 20,
+    "quality": "green",
+    "superLevel": 20,
+    "costID": 134,
+    "costNum": 10
+  },
+  "21": {
+    "id": 21,
+    "quality": "green",
+    "superLevel": 21,
+    "costID": 134,
+    "costNum": 10
+  },
+  "22": {
+    "id": 22,
+    "quality": "green",
+    "superLevel": 22,
+    "costID": 134,
+    "costNum": 10
+  },
+  "23": {
+    "id": 23,
+    "quality": "green",
+    "superLevel": 23,
+    "costID": 134,
+    "costNum": 10
+  },
+  "24": {
+    "id": 24,
+    "quality": "green",
+    "superLevel": 24,
+    "costID": 134,
+    "costNum": 10
+  },
+  "25": {
+    "id": 25,
+    "quality": "green",
+    "superLevel": 25,
+    "costID": 134,
+    "costNum": 10
+  },
+  "26": {
+    "id": 26,
+    "quality": "green",
+    "superLevel": 26,
+    "costID": 134,
+    "costNum": 10
+  },
+  "27": {
+    "id": 27,
+    "quality": "green",
+    "superLevel": 27,
+    "costID": 134,
+    "costNum": 10
+  },
+  "28": {
+    "id": 28,
+    "quality": "green",
+    "superLevel": 28,
+    "costID": 134,
+    "costNum": 10
+  },
+  "29": {
+    "id": 29,
+    "quality": "green",
+    "superLevel": 29,
+    "costID": 134,
+    "costNum": 10
+  },
+  "30": {
+    "id": 30,
+    "quality": "green",
+    "superLevel": 30,
+    "costID": 134,
+    "costNum": 10
+  },
+  "31": {
+    "id": 31,
+    "quality": "green",
+    "superLevel": 31,
+    "costID": 134,
+    "costNum": 20
+  },
+  "32": {
+    "id": 32,
+    "quality": "green",
+    "superLevel": 32,
+    "costID": 134,
+    "costNum": 20
+  },
+  "33": {
+    "id": 33,
+    "quality": "green",
+    "superLevel": 33,
+    "costID": 134,
+    "costNum": 20
+  },
+  "34": {
+    "id": 34,
+    "quality": "green",
+    "superLevel": 34,
+    "costID": 134,
+    "costNum": 20
+  },
+  "35": {
+    "id": 35,
+    "quality": "green",
+    "superLevel": 35,
+    "costID": 134,
+    "costNum": 20
+  },
+  "36": {
+    "id": 36,
+    "quality": "green",
+    "superLevel": 36,
+    "costID": 134,
+    "costNum": 20
+  },
+  "37": {
+    "id": 37,
+    "quality": "green",
+    "superLevel": 37,
+    "costID": 134,
+    "costNum": 20
+  },
+  "38": {
+    "id": 38,
+    "quality": "green",
+    "superLevel": 38,
+    "costID": 134,
+    "costNum": 20
+  },
+  "39": {
+    "id": 39,
+    "quality": "green",
+    "superLevel": 39,
+    "costID": 134,
+    "costNum": 20
+  },
+  "40": {
+    "id": 40,
+    "quality": "green",
+    "superLevel": 40,
+    "costID": 134,
+    "costNum": 20
+  },
+  "41": {
+    "id": 41,
+    "quality": "green",
+    "superLevel": 41,
+    "costID": 134,
+    "costNum": 20
+  },
+  "42": {
+    "id": 42,
+    "quality": "green",
+    "superLevel": 42,
+    "costID": 134,
+    "costNum": 20
+  },
+  "43": {
+    "id": 43,
+    "quality": "green",
+    "superLevel": 43,
+    "costID": 134,
+    "costNum": 20
+  },
+  "44": {
+    "id": 44,
+    "quality": "green",
+    "superLevel": 44,
+    "costID": 134,
+    "costNum": 20
+  },
+  "45": {
+    "id": 45,
+    "quality": "green",
+    "superLevel": 45,
+    "costID": 134,
+    "costNum": 20
+  },
+  "46": {
+    "id": 46,
+    "quality": "green",
+    "superLevel": 46,
+    "costID": 134,
+    "costNum": 20
+  },
+  "47": {
+    "id": 47,
+    "quality": "green",
+    "superLevel": 47,
+    "costID": 134,
+    "costNum": 20
+  },
+  "48": {
+    "id": 48,
+    "quality": "green",
+    "superLevel": 48,
+    "costID": 134,
+    "costNum": 20
+  },
+  "49": {
+    "id": 49,
+    "quality": "green",
+    "superLevel": 49,
+    "costID": 134,
+    "costNum": 20
+  },
+  "50": {
+    "id": 50,
+    "quality": "green",
+    "superLevel": 50,
+    "costID": 134,
+    "costNum": 20
+  },
+  "51": {
+    "id": 51,
+    "quality": "green",
+    "superLevel": 51,
+    "costID": 134,
+    "costNum": 30
+  },
+  "52": {
+    "id": 52,
+    "quality": "green",
+    "superLevel": 52,
+    "costID": 134,
+    "costNum": 30
+  },
+  "53": {
+    "id": 53,
+    "quality": "green",
+    "superLevel": 53,
+    "costID": 134,
+    "costNum": 30
+  },
+  "54": {
+    "id": 54,
+    "quality": "green",
+    "superLevel": 54,
+    "costID": 134,
+    "costNum": 30
+  },
+  "55": {
+    "id": 55,
+    "quality": "green",
+    "superLevel": 55,
+    "costID": 134,
+    "costNum": 30
+  },
+  "56": {
+    "id": 56,
+    "quality": "green",
+    "superLevel": 56,
+    "costID": 134,
+    "costNum": 30
+  },
+  "57": {
+    "id": 57,
+    "quality": "green",
+    "superLevel": 57,
+    "costID": 134,
+    "costNum": 30
+  },
+  "58": {
+    "id": 58,
+    "quality": "green",
+    "superLevel": 58,
+    "costID": 134,
+    "costNum": 30
+  },
+  "59": {
+    "id": 59,
+    "quality": "green",
+    "superLevel": 59,
+    "costID": 134,
+    "costNum": 30
+  },
+  "60": {
+    "id": 60,
+    "quality": "green",
+    "superLevel": 60,
+    "costID": 134,
+    "costNum": 30
+  },
+  "61": {
+    "id": 61,
+    "quality": "green",
+    "superLevel": 61,
+    "costID": 134,
+    "costNum": 30
+  },
+  "62": {
+    "id": 62,
+    "quality": "green",
+    "superLevel": 62,
+    "costID": 134,
+    "costNum": 30
+  },
+  "63": {
+    "id": 63,
+    "quality": "green",
+    "superLevel": 63,
+    "costID": 134,
+    "costNum": 30
+  },
+  "64": {
+    "id": 64,
+    "quality": "green",
+    "superLevel": 64,
+    "costID": 134,
+    "costNum": 30
+  },
+  "65": {
+    "id": 65,
+    "quality": "green",
+    "superLevel": 65,
+    "costID": 134,
+    "costNum": 30
+  },
+  "66": {
+    "id": 66,
+    "quality": "green",
+    "superLevel": 66,
+    "costID": 134,
+    "costNum": 30
+  },
+  "67": {
+    "id": 67,
+    "quality": "green",
+    "superLevel": 67,
+    "costID": 134,
+    "costNum": 30
+  },
+  "68": {
+    "id": 68,
+    "quality": "green",
+    "superLevel": 68,
+    "costID": 134,
+    "costNum": 30
+  },
+  "69": {
+    "id": 69,
+    "quality": "green",
+    "superLevel": 69,
+    "costID": 134,
+    "costNum": 30
+  },
+  "70": {
+    "id": 70,
+    "quality": "green",
+    "superLevel": 70,
+    "costID": 134,
+    "costNum": 30
+  },
+  "71": {
+    "id": 71,
+    "quality": "green",
+    "superLevel": 71,
+    "costID": 134,
+    "costNum": 30
+  },
+  "72": {
+    "id": 72,
+    "quality": "green",
+    "superLevel": 72,
+    "costID": 134,
+    "costNum": 30
+  },
+  "73": {
+    "id": 73,
+    "quality": "green",
+    "superLevel": 73,
+    "costID": 134,
+    "costNum": 30
+  },
+  "74": {
+    "id": 74,
+    "quality": "green",
+    "superLevel": 74,
+    "costID": 134,
+    "costNum": 30
+  },
+  "75": {
+    "id": 75,
+    "quality": "green",
+    "superLevel": 75,
+    "costID": 134,
+    "costNum": 30
+  },
+  "76": {
+    "id": 76,
+    "quality": "green",
+    "superLevel": 76,
+    "costID": 134,
+    "costNum": 30
+  },
+  "77": {
+    "id": 77,
+    "quality": "green",
+    "superLevel": 77,
+    "costID": 134,
+    "costNum": 30
+  },
+  "78": {
+    "id": 78,
+    "quality": "green",
+    "superLevel": 78,
+    "costID": 134,
+    "costNum": 30
+  },
+  "79": {
+    "id": 79,
+    "quality": "green",
+    "superLevel": 79,
+    "costID": 134,
+    "costNum": 30
+  },
+  "80": {
+    "id": 80,
+    "quality": "green",
+    "superLevel": 80,
+    "costID": 134,
+    "costNum": 30
+  },
+  "81": {
+    "id": 81,
+    "quality": "green",
+    "superLevel": 81,
+    "costID": 134,
+    "costNum": 30
+  },
+  "82": {
+    "id": 82,
+    "quality": "green",
+    "superLevel": 82,
+    "costID": 134,
+    "costNum": 30
+  },
+  "83": {
+    "id": 83,
+    "quality": "green",
+    "superLevel": 83,
+    "costID": 134,
+    "costNum": 30
+  },
+  "84": {
+    "id": 84,
+    "quality": "green",
+    "superLevel": 84,
+    "costID": 134,
+    "costNum": 30
+  },
+  "85": {
+    "id": 85,
+    "quality": "green",
+    "superLevel": 85,
+    "costID": 134,
+    "costNum": 30
+  },
+  "86": {
+    "id": 86,
+    "quality": "green",
+    "superLevel": 86,
+    "costID": 134,
+    "costNum": 30
+  },
+  "87": {
+    "id": 87,
+    "quality": "green",
+    "superLevel": 87,
+    "costID": 134,
+    "costNum": 30
+  },
+  "88": {
+    "id": 88,
+    "quality": "green",
+    "superLevel": 88,
+    "costID": 134,
+    "costNum": 30
+  },
+  "89": {
+    "id": 89,
+    "quality": "green",
+    "superLevel": 89,
+    "costID": 134,
+    "costNum": 30
+  },
+  "90": {
+    "id": 90,
+    "quality": "green",
+    "superLevel": 90,
+    "costID": 134,
+    "costNum": 30
+  },
+  "91": {
+    "id": 91,
+    "quality": "green",
+    "superLevel": 91,
+    "costID": 134,
+    "costNum": 30
+  },
+  "92": {
+    "id": 92,
+    "quality": "green",
+    "superLevel": 92,
+    "costID": 134,
+    "costNum": 30
+  },
+  "93": {
+    "id": 93,
+    "quality": "green",
+    "superLevel": 93,
+    "costID": 134,
+    "costNum": 30
+  },
+  "94": {
+    "id": 94,
+    "quality": "green",
+    "superLevel": 94,
+    "costID": 134,
+    "costNum": 30
+  },
+  "95": {
+    "id": 95,
+    "quality": "green",
+    "superLevel": 95,
+    "costID": 134,
+    "costNum": 30
+  },
+  "96": {
+    "id": 96,
+    "quality": "green",
+    "superLevel": 96,
+    "costID": 134,
+    "costNum": 30
+  },
+  "97": {
+    "id": 97,
+    "quality": "green",
+    "superLevel": 97,
+    "costID": 134,
+    "costNum": 30
+  },
+  "98": {
+    "id": 98,
+    "quality": "green",
+    "superLevel": 98,
+    "costID": 134,
+    "costNum": 30
+  },
+  "99": {
+    "id": 99,
+    "quality": "green",
+    "superLevel": 99,
+    "costID": 134,
+    "costNum": 30
+  },
+  "100": {
+    "id": 100,
+    "quality": "green",
+    "superLevel": 100,
+    "costID": 134,
+    "costNum": 30
+  },
+  "101": {
+    "id": 101,
+    "quality": "green",
+    "superLevel": 101,
+    "costID": 134,
+    "costNum": 55
+  },
+  "102": {
+    "id": 102,
+    "quality": "green",
+    "superLevel": 102,
+    "costID": 134,
+    "costNum": 55
+  },
+  "103": {
+    "id": 103,
+    "quality": "green",
+    "superLevel": 103,
+    "costID": 134,
+    "costNum": 55
+  },
+  "104": {
+    "id": 104,
+    "quality": "green",
+    "superLevel": 104,
+    "costID": 134,
+    "costNum": 55
+  },
+  "105": {
+    "id": 105,
+    "quality": "green",
+    "superLevel": 105,
+    "costID": 134,
+    "costNum": 55
+  },
+  "106": {
+    "id": 106,
+    "quality": "green",
+    "superLevel": 106,
+    "costID": 134,
+    "costNum": 55
+  },
+  "107": {
+    "id": 107,
+    "quality": "green",
+    "superLevel": 107,
+    "costID": 134,
+    "costNum": 55
+  },
+  "108": {
+    "id": 108,
+    "quality": "green",
+    "superLevel": 108,
+    "costID": 134,
+    "costNum": 55
+  },
+  "109": {
+    "id": 109,
+    "quality": "green",
+    "superLevel": 109,
+    "costID": 134,
+    "costNum": 55
+  },
+  "110": {
+    "id": 110,
+    "quality": "green",
+    "superLevel": 110,
+    "costID": 134,
+    "costNum": 55
+  },
+  "111": {
+    "id": 111,
+    "quality": "green",
+    "superLevel": 111,
+    "costID": 134,
+    "costNum": 55
+  },
+  "112": {
+    "id": 112,
+    "quality": "green",
+    "superLevel": 112,
+    "costID": 134,
+    "costNum": 55
+  },
+  "113": {
+    "id": 113,
+    "quality": "green",
+    "superLevel": 113,
+    "costID": 134,
+    "costNum": 55
+  },
+  "114": {
+    "id": 114,
+    "quality": "green",
+    "superLevel": 114,
+    "costID": 134,
+    "costNum": 55
+  },
+  "115": {
+    "id": 115,
+    "quality": "green",
+    "superLevel": 115,
+    "costID": 134,
+    "costNum": 55
+  },
+  "116": {
+    "id": 116,
+    "quality": "green",
+    "superLevel": 116,
+    "costID": 134,
+    "costNum": 55
+  },
+  "117": {
+    "id": 117,
+    "quality": "green",
+    "superLevel": 117,
+    "costID": 134,
+    "costNum": 55
+  },
+  "118": {
+    "id": 118,
+    "quality": "green",
+    "superLevel": 118,
+    "costID": 134,
+    "costNum": 55
+  },
+  "119": {
+    "id": 119,
+    "quality": "green",
+    "superLevel": 119,
+    "costID": 134,
+    "costNum": 55
+  },
+  "120": {
+    "id": 120,
+    "quality": "green",
+    "superLevel": 120,
+    "costID": 134,
+    "costNum": 55
+  },
+  "121": {
+    "id": 121,
+    "quality": "green",
+    "superLevel": 121,
+    "costID": 134,
+    "costNum": 165
+  },
+  "122": {
+    "id": 122,
+    "quality": "green",
+    "superLevel": 122,
+    "costID": 134,
+    "costNum": 165
+  },
+  "123": {
+    "id": 123,
+    "quality": "green",
+    "superLevel": 123,
+    "costID": 134,
+    "costNum": 165
+  },
+  "124": {
+    "id": 124,
+    "quality": "green",
+    "superLevel": 124,
+    "costID": 134,
+    "costNum": 165
+  },
+  "125": {
+    "id": 125,
+    "quality": "green",
+    "superLevel": 125,
+    "costID": 134,
+    "costNum": 165
+  },
+  "126": {
+    "id": 126,
+    "quality": "green",
+    "superLevel": 126,
+    "costID": 134,
+    "costNum": 165
+  },
+  "127": {
+    "id": 127,
+    "quality": "green",
+    "superLevel": 127,
+    "costID": 134,
+    "costNum": 165
+  },
+  "128": {
+    "id": 128,
+    "quality": "green",
+    "superLevel": 128,
+    "costID": 134,
+    "costNum": 165
+  },
+  "129": {
+    "id": 129,
+    "quality": "green",
+    "superLevel": 129,
+    "costID": 134,
+    "costNum": 165
+  },
+  "130": {
+    "id": 130,
+    "quality": "green",
+    "superLevel": 130,
+    "costID": 134,
+    "costNum": 165
+  },
+  "131": {
+    "id": 131,
+    "quality": "green",
+    "superLevel": 131,
+    "costID": 134,
+    "costNum": 200
+  },
+  "132": {
+    "id": 132,
+    "quality": "green",
+    "superLevel": 132,
+    "costID": 134,
+    "costNum": 200
+  },
+  "133": {
+    "id": 133,
+    "quality": "green",
+    "superLevel": 133,
+    "costID": 134,
+    "costNum": 200
+  },
+  "134": {
+    "id": 134,
+    "quality": "green",
+    "superLevel": 134,
+    "costID": 134,
+    "costNum": 200
+  },
+  "135": {
+    "id": 135,
+    "quality": "green",
+    "superLevel": 135,
+    "costID": 134,
+    "costNum": 200
+  },
+  "136": {
+    "id": 136,
+    "quality": "green",
+    "superLevel": 136,
+    "costID": 134,
+    "costNum": 200
+  },
+  "137": {
+    "id": 137,
+    "quality": "green",
+    "superLevel": 137,
+    "costID": 134,
+    "costNum": 200
+  },
+  "138": {
+    "id": 138,
+    "quality": "green",
+    "superLevel": 138,
+    "costID": 134,
+    "costNum": 200
+  },
+  "139": {
+    "id": 139,
+    "quality": "green",
+    "superLevel": 139,
+    "costID": 134,
+    "costNum": 200
+  },
+  "140": {
+    "id": 140,
+    "quality": "green",
+    "superLevel": 140,
+    "costID": 134,
+    "costNum": 200
+  },
+  "141": {
+    "id": 141,
+    "quality": "green",
+    "superLevel": 141,
+    "costID": 134,
+    "costNum": 280
+  },
+  "142": {
+    "id": 142,
+    "quality": "green",
+    "superLevel": 142,
+    "costID": 134,
+    "costNum": 280
+  },
+  "143": {
+    "id": 143,
+    "quality": "green",
+    "superLevel": 143,
+    "costID": 134,
+    "costNum": 280
+  },
+  "144": {
+    "id": 144,
+    "quality": "green",
+    "superLevel": 144,
+    "costID": 134,
+    "costNum": 280
+  },
+  "145": {
+    "id": 145,
+    "quality": "green",
+    "superLevel": 145,
+    "costID": 134,
+    "costNum": 280
+  },
+  "146": {
+    "id": 146,
+    "quality": "green",
+    "superLevel": 146,
+    "costID": 134,
+    "costNum": 280
+  },
+  "147": {
+    "id": 147,
+    "quality": "green",
+    "superLevel": 147,
+    "costID": 134,
+    "costNum": 280
+  },
+  "148": {
+    "id": 148,
+    "quality": "green",
+    "superLevel": 148,
+    "costID": 134,
+    "costNum": 280
+  },
+  "149": {
+    "id": 149,
+    "quality": "green",
+    "superLevel": 149,
+    "costID": 134,
+    "costNum": 280
+  },
+  "150": {
+    "id": 150,
+    "quality": "green",
+    "superLevel": 150,
+    "costID": 134,
+    "costNum": 280
+  },
+  "151": {
+    "id": 151,
+    "quality": "green",
+    "superLevel": 151,
+    "costID": 134,
+    "costNum": 325
+  },
+  "152": {
+    "id": 152,
+    "quality": "green",
+    "superLevel": 152,
+    "costID": 134,
+    "costNum": 325
+  },
+  "153": {
+    "id": 153,
+    "quality": "green",
+    "superLevel": 153,
+    "costID": 134,
+    "costNum": 325
+  },
+  "154": {
+    "id": 154,
+    "quality": "green",
+    "superLevel": 154,
+    "costID": 134,
+    "costNum": 325
+  },
+  "155": {
+    "id": 155,
+    "quality": "green",
+    "superLevel": 155,
+    "costID": 134,
+    "costNum": 325
+  },
+  "156": {
+    "id": 156,
+    "quality": "green",
+    "superLevel": 156,
+    "costID": 134,
+    "costNum": 325
+  },
+  "157": {
+    "id": 157,
+    "quality": "green",
+    "superLevel": 157,
+    "costID": 134,
+    "costNum": 325
+  },
+  "158": {
+    "id": 158,
+    "quality": "green",
+    "superLevel": 158,
+    "costID": 134,
+    "costNum": 325
+  },
+  "159": {
+    "id": 159,
+    "quality": "green",
+    "superLevel": 159,
+    "costID": 134,
+    "costNum": 325
+  },
+  "160": {
+    "id": 160,
+    "quality": "green",
+    "superLevel": 160,
+    "costID": 134,
+    "costNum": 325
+  },
+  "161": {
+    "id": 161,
+    "quality": "green",
+    "superLevel": 161,
+    "costID": 134,
+    "costNum": 435
+  },
+  "162": {
+    "id": 162,
+    "quality": "green",
+    "superLevel": 162,
+    "costID": 134,
+    "costNum": 435
+  },
+  "163": {
+    "id": 163,
+    "quality": "green",
+    "superLevel": 163,
+    "costID": 134,
+    "costNum": 435
+  },
+  "164": {
+    "id": 164,
+    "quality": "green",
+    "superLevel": 164,
+    "costID": 134,
+    "costNum": 435
+  },
+  "165": {
+    "id": 165,
+    "quality": "green",
+    "superLevel": 165,
+    "costID": 134,
+    "costNum": 435
+  },
+  "166": {
+    "id": 166,
+    "quality": "green",
+    "superLevel": 166,
+    "costID": 134,
+    "costNum": 435
+  },
+  "167": {
+    "id": 167,
+    "quality": "green",
+    "superLevel": 167,
+    "costID": 134,
+    "costNum": 435
+  },
+  "168": {
+    "id": 168,
+    "quality": "green",
+    "superLevel": 168,
+    "costID": 134,
+    "costNum": 435
+  },
+  "169": {
+    "id": 169,
+    "quality": "green",
+    "superLevel": 169,
+    "costID": 134,
+    "costNum": 435
+  },
+  "170": {
+    "id": 170,
+    "quality": "green",
+    "superLevel": 170,
+    "costID": 134,
+    "costNum": 435
+  },
+  "171": {
+    "id": 171,
+    "quality": "green",
+    "superLevel": 171,
+    "costID": 134,
+    "costNum": 550
+  },
+  "172": {
+    "id": 172,
+    "quality": "green",
+    "superLevel": 172,
+    "costID": 134,
+    "costNum": 550
+  },
+  "173": {
+    "id": 173,
+    "quality": "green",
+    "superLevel": 173,
+    "costID": 134,
+    "costNum": 550
+  },
+  "174": {
+    "id": 174,
+    "quality": "green",
+    "superLevel": 174,
+    "costID": 134,
+    "costNum": 550
+  },
+  "175": {
+    "id": 175,
+    "quality": "green",
+    "superLevel": 175,
+    "costID": 134,
+    "costNum": 550
+  },
+  "176": {
+    "id": 176,
+    "quality": "green",
+    "superLevel": 176,
+    "costID": 134,
+    "costNum": 550
+  },
+  "177": {
+    "id": 177,
+    "quality": "green",
+    "superLevel": 177,
+    "costID": 134,
+    "costNum": 550
+  },
+  "178": {
+    "id": 178,
+    "quality": "green",
+    "superLevel": 178,
+    "costID": 134,
+    "costNum": 550
+  },
+  "179": {
+    "id": 179,
+    "quality": "green",
+    "superLevel": 179,
+    "costID": 134,
+    "costNum": 550
+  },
+  "180": {
+    "id": 180,
+    "quality": "green",
+    "superLevel": 180,
+    "costID": 134,
+    "costNum": 550
+  },
+  "181": {
+    "id": 181,
+    "quality": "green",
+    "superLevel": 181,
+    "costID": 134,
+    "costNum": 660
+  },
+  "182": {
+    "id": 182,
+    "quality": "green",
+    "superLevel": 182,
+    "costID": 134,
+    "costNum": 660
+  },
+  "183": {
+    "id": 183,
+    "quality": "green",
+    "superLevel": 183,
+    "costID": 134,
+    "costNum": 660
+  },
+  "184": {
+    "id": 184,
+    "quality": "green",
+    "superLevel": 184,
+    "costID": 134,
+    "costNum": 660
+  },
+  "185": {
+    "id": 185,
+    "quality": "green",
+    "superLevel": 185,
+    "costID": 134,
+    "costNum": 660
+  },
+  "186": {
+    "id": 186,
+    "quality": "green",
+    "superLevel": 186,
+    "costID": 134,
+    "costNum": 660
+  },
+  "187": {
+    "id": 187,
+    "quality": "green",
+    "superLevel": 187,
+    "costID": 134,
+    "costNum": 660
+  },
+  "188": {
+    "id": 188,
+    "quality": "green",
+    "superLevel": 188,
+    "costID": 134,
+    "costNum": 660
+  },
+  "189": {
+    "id": 189,
+    "quality": "green",
+    "superLevel": 189,
+    "costID": 134,
+    "costNum": 660
+  },
+  "190": {
+    "id": 190,
+    "quality": "green",
+    "superLevel": 190,
+    "costID": 134,
+    "costNum": 660
+  },
+  "191": {
+    "id": 191,
+    "quality": "green",
+    "superLevel": 191,
+    "costID": 134,
+    "costNum": 900
+  },
+  "192": {
+    "id": 192,
+    "quality": "green",
+    "superLevel": 192,
+    "costID": 134,
+    "costNum": 900
+  },
+  "193": {
+    "id": 193,
+    "quality": "green",
+    "superLevel": 193,
+    "costID": 134,
+    "costNum": 900
+  },
+  "194": {
+    "id": 194,
+    "quality": "green",
+    "superLevel": 194,
+    "costID": 134,
+    "costNum": 900
+  },
+  "195": {
+    "id": 195,
+    "quality": "green",
+    "superLevel": 195,
+    "costID": 134,
+    "costNum": 900
+  },
+  "196": {
+    "id": 196,
+    "quality": "green",
+    "superLevel": 196,
+    "costID": 134,
+    "costNum": 900
+  },
+  "197": {
+    "id": 197,
+    "quality": "green",
+    "superLevel": 197,
+    "costID": 134,
+    "costNum": 900
+  },
+  "198": {
+    "id": 198,
+    "quality": "green",
+    "superLevel": 198,
+    "costID": 134,
+    "costNum": 900
+  },
+  "199": {
+    "id": 199,
+    "quality": "green",
+    "superLevel": 199,
+    "costID": 134,
+    "costNum": 900
+  },
+  "200": {
+    "id": 200,
+    "quality": "green",
+    "superLevel": 200,
+    "costID": 134,
+    "costNum": 900
+  },
+  "201": {
+    "id": 201,
+    "quality": "green",
+    "superLevel": 201,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "202": {
+    "id": 202,
+    "quality": "green",
+    "superLevel": 202,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "203": {
+    "id": 203,
+    "quality": "green",
+    "superLevel": 203,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "204": {
+    "id": 204,
+    "quality": "green",
+    "superLevel": 204,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "205": {
+    "id": 205,
+    "quality": "green",
+    "superLevel": 205,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "206": {
+    "id": 206,
+    "quality": "green",
+    "superLevel": 206,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "207": {
+    "id": 207,
+    "quality": "green",
+    "superLevel": 207,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "208": {
+    "id": 208,
+    "quality": "green",
+    "superLevel": 208,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "209": {
+    "id": 209,
+    "quality": "green",
+    "superLevel": 209,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "210": {
+    "id": 210,
+    "quality": "green",
+    "superLevel": 210,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "211": {
+    "id": 211,
+    "quality": "green",
+    "superLevel": 211,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "212": {
+    "id": 212,
+    "quality": "green",
+    "superLevel": 212,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "213": {
+    "id": 213,
+    "quality": "green",
+    "superLevel": 213,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "214": {
+    "id": 214,
+    "quality": "green",
+    "superLevel": 214,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "215": {
+    "id": 215,
+    "quality": "green",
+    "superLevel": 215,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "216": {
+    "id": 216,
+    "quality": "green",
+    "superLevel": 216,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "217": {
+    "id": 217,
+    "quality": "green",
+    "superLevel": 217,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "218": {
+    "id": 218,
+    "quality": "green",
+    "superLevel": 218,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "219": {
+    "id": 219,
+    "quality": "green",
+    "superLevel": 219,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "220": {
+    "id": 220,
+    "quality": "green",
+    "superLevel": 220,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "221": {
+    "id": 221,
+    "quality": "green",
+    "superLevel": 221,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "222": {
+    "id": 222,
+    "quality": "green",
+    "superLevel": 222,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "223": {
+    "id": 223,
+    "quality": "green",
+    "superLevel": 223,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "224": {
+    "id": 224,
+    "quality": "green",
+    "superLevel": 224,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "225": {
+    "id": 225,
+    "quality": "green",
+    "superLevel": 225,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "226": {
+    "id": 226,
+    "quality": "green",
+    "superLevel": 226,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "227": {
+    "id": 227,
+    "quality": "green",
+    "superLevel": 227,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "228": {
+    "id": 228,
+    "quality": "green",
+    "superLevel": 228,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "229": {
+    "id": 229,
+    "quality": "green",
+    "superLevel": 229,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "230": {
+    "id": 230,
+    "quality": "green",
+    "superLevel": 230,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "231": {
+    "id": 231,
+    "quality": "green",
+    "superLevel": 231,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "232": {
+    "id": 232,
+    "quality": "green",
+    "superLevel": 232,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "233": {
+    "id": 233,
+    "quality": "green",
+    "superLevel": 233,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "234": {
+    "id": 234,
+    "quality": "green",
+    "superLevel": 234,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "235": {
+    "id": 235,
+    "quality": "green",
+    "superLevel": 235,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "236": {
+    "id": 236,
+    "quality": "green",
+    "superLevel": 236,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "237": {
+    "id": 237,
+    "quality": "green",
+    "superLevel": 237,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "238": {
+    "id": 238,
+    "quality": "green",
+    "superLevel": 238,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "239": {
+    "id": 239,
+    "quality": "green",
+    "superLevel": 239,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "240": {
+    "id": 240,
+    "quality": "green",
+    "superLevel": 240,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "241": {
+    "id": 241,
+    "quality": "green",
+    "superLevel": 241,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "242": {
+    "id": 242,
+    "quality": "green",
+    "superLevel": 242,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "243": {
+    "id": 243,
+    "quality": "green",
+    "superLevel": 243,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "244": {
+    "id": 244,
+    "quality": "green",
+    "superLevel": 244,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "245": {
+    "id": 245,
+    "quality": "green",
+    "superLevel": 245,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "246": {
+    "id": 246,
+    "quality": "green",
+    "superLevel": 246,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "247": {
+    "id": 247,
+    "quality": "green",
+    "superLevel": 247,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "248": {
+    "id": 248,
+    "quality": "green",
+    "superLevel": 248,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "249": {
+    "id": 249,
+    "quality": "green",
+    "superLevel": 249,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "250": {
+    "id": 250,
+    "quality": "green",
+    "superLevel": 250,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "251": {
+    "id": 251,
+    "quality": "green",
+    "superLevel": 251,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "252": {
+    "id": 252,
+    "quality": "green",
+    "superLevel": 252,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "253": {
+    "id": 253,
+    "quality": "green",
+    "superLevel": 253,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "254": {
+    "id": 254,
+    "quality": "green",
+    "superLevel": 254,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "255": {
+    "id": 255,
+    "quality": "green",
+    "superLevel": 255,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "256": {
+    "id": 256,
+    "quality": "green",
+    "superLevel": 256,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "257": {
+    "id": 257,
+    "quality": "green",
+    "superLevel": 257,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "258": {
+    "id": 258,
+    "quality": "green",
+    "superLevel": 258,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "259": {
+    "id": 259,
+    "quality": "green",
+    "superLevel": 259,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "260": {
+    "id": 260,
+    "quality": "green",
+    "superLevel": 260,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "261": {
+    "id": 261,
+    "quality": "green",
+    "superLevel": 261,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "262": {
+    "id": 262,
+    "quality": "green",
+    "superLevel": 262,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "263": {
+    "id": 263,
+    "quality": "green",
+    "superLevel": 263,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "264": {
+    "id": 264,
+    "quality": "green",
+    "superLevel": 264,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "265": {
+    "id": 265,
+    "quality": "green",
+    "superLevel": 265,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "266": {
+    "id": 266,
+    "quality": "green",
+    "superLevel": 266,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "267": {
+    "id": 267,
+    "quality": "green",
+    "superLevel": 267,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "268": {
+    "id": 268,
+    "quality": "green",
+    "superLevel": 268,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "269": {
+    "id": 269,
+    "quality": "green",
+    "superLevel": 269,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "270": {
+    "id": 270,
+    "quality": "green",
+    "superLevel": 270,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "271": {
+    "id": 271,
+    "quality": "green",
+    "superLevel": 271,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "272": {
+    "id": 272,
+    "quality": "green",
+    "superLevel": 272,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "273": {
+    "id": 273,
+    "quality": "green",
+    "superLevel": 273,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "274": {
+    "id": 274,
+    "quality": "green",
+    "superLevel": 274,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "275": {
+    "id": 275,
+    "quality": "green",
+    "superLevel": 275,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "276": {
+    "id": 276,
+    "quality": "green",
+    "superLevel": 276,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "277": {
+    "id": 277,
+    "quality": "green",
+    "superLevel": 277,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "278": {
+    "id": 278,
+    "quality": "green",
+    "superLevel": 278,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "279": {
+    "id": 279,
+    "quality": "green",
+    "superLevel": 279,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "280": {
+    "id": 280,
+    "quality": "green",
+    "superLevel": 280,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "281": {
+    "id": 281,
+    "quality": "green",
+    "superLevel": 281,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "282": {
+    "id": 282,
+    "quality": "green",
+    "superLevel": 282,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "283": {
+    "id": 283,
+    "quality": "green",
+    "superLevel": 283,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "284": {
+    "id": 284,
+    "quality": "green",
+    "superLevel": 284,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "285": {
+    "id": 285,
+    "quality": "green",
+    "superLevel": 285,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "286": {
+    "id": 286,
+    "quality": "green",
+    "superLevel": 286,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "287": {
+    "id": 287,
+    "quality": "green",
+    "superLevel": 287,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "288": {
+    "id": 288,
+    "quality": "green",
+    "superLevel": 288,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "289": {
+    "id": 289,
+    "quality": "green",
+    "superLevel": 289,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "290": {
+    "id": 290,
+    "quality": "green",
+    "superLevel": 290,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "291": {
+    "id": 291,
+    "quality": "green",
+    "superLevel": 291,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "292": {
+    "id": 292,
+    "quality": "green",
+    "superLevel": 292,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "293": {
+    "id": 293,
+    "quality": "green",
+    "superLevel": 293,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "294": {
+    "id": 294,
+    "quality": "green",
+    "superLevel": 294,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "295": {
+    "id": 295,
+    "quality": "green",
+    "superLevel": 295,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "296": {
+    "id": 296,
+    "quality": "green",
+    "superLevel": 296,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "297": {
+    "id": 297,
+    "quality": "green",
+    "superLevel": 297,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "298": {
+    "id": 298,
+    "quality": "green",
+    "superLevel": 298,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "299": {
+    "id": 299,
+    "quality": "green",
+    "superLevel": 299,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "300": {
+    "id": 300,
+    "quality": "green",
+    "superLevel": 300,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "301": {
+    "id": 301,
+    "quality": "blue",
+    "superLevel": 1,
+    "costID": 134,
+    "costNum": 10
+  },
+  "302": {
+    "id": 302,
+    "quality": "blue",
+    "superLevel": 2,
+    "costID": 134,
+    "costNum": 10
+  },
+  "303": {
+    "id": 303,
+    "quality": "blue",
+    "superLevel": 3,
+    "costID": 134,
+    "costNum": 10
+  },
+  "304": {
+    "id": 304,
+    "quality": "blue",
+    "superLevel": 4,
+    "costID": 134,
+    "costNum": 10
+  },
+  "305": {
+    "id": 305,
+    "quality": "blue",
+    "superLevel": 5,
+    "costID": 134,
+    "costNum": 10
+  },
+  "306": {
+    "id": 306,
+    "quality": "blue",
+    "superLevel": 6,
+    "costID": 134,
+    "costNum": 10
+  },
+  "307": {
+    "id": 307,
+    "quality": "blue",
+    "superLevel": 7,
+    "costID": 134,
+    "costNum": 10
+  },
+  "308": {
+    "id": 308,
+    "quality": "blue",
+    "superLevel": 8,
+    "costID": 134,
+    "costNum": 10
+  },
+  "309": {
+    "id": 309,
+    "quality": "blue",
+    "superLevel": 9,
+    "costID": 134,
+    "costNum": 10
+  },
+  "310": {
+    "id": 310,
+    "quality": "blue",
+    "superLevel": 10,
+    "costID": 134,
+    "costNum": 10
+  },
+  "311": {
+    "id": 311,
+    "quality": "blue",
+    "superLevel": 11,
+    "costID": 134,
+    "costNum": 10
+  },
+  "312": {
+    "id": 312,
+    "quality": "blue",
+    "superLevel": 12,
+    "costID": 134,
+    "costNum": 10
+  },
+  "313": {
+    "id": 313,
+    "quality": "blue",
+    "superLevel": 13,
+    "costID": 134,
+    "costNum": 10
+  },
+  "314": {
+    "id": 314,
+    "quality": "blue",
+    "superLevel": 14,
+    "costID": 134,
+    "costNum": 10
+  },
+  "315": {
+    "id": 315,
+    "quality": "blue",
+    "superLevel": 15,
+    "costID": 134,
+    "costNum": 10
+  },
+  "316": {
+    "id": 316,
+    "quality": "blue",
+    "superLevel": 16,
+    "costID": 134,
+    "costNum": 10
+  },
+  "317": {
+    "id": 317,
+    "quality": "blue",
+    "superLevel": 17,
+    "costID": 134,
+    "costNum": 10
+  },
+  "318": {
+    "id": 318,
+    "quality": "blue",
+    "superLevel": 18,
+    "costID": 134,
+    "costNum": 10
+  },
+  "319": {
+    "id": 319,
+    "quality": "blue",
+    "superLevel": 19,
+    "costID": 134,
+    "costNum": 10
+  },
+  "320": {
+    "id": 320,
+    "quality": "blue",
+    "superLevel": 20,
+    "costID": 134,
+    "costNum": 10
+  },
+  "321": {
+    "id": 321,
+    "quality": "blue",
+    "superLevel": 21,
+    "costID": 134,
+    "costNum": 10
+  },
+  "322": {
+    "id": 322,
+    "quality": "blue",
+    "superLevel": 22,
+    "costID": 134,
+    "costNum": 10
+  },
+  "323": {
+    "id": 323,
+    "quality": "blue",
+    "superLevel": 23,
+    "costID": 134,
+    "costNum": 10
+  },
+  "324": {
+    "id": 324,
+    "quality": "blue",
+    "superLevel": 24,
+    "costID": 134,
+    "costNum": 10
+  },
+  "325": {
+    "id": 325,
+    "quality": "blue",
+    "superLevel": 25,
+    "costID": 134,
+    "costNum": 10
+  },
+  "326": {
+    "id": 326,
+    "quality": "blue",
+    "superLevel": 26,
+    "costID": 134,
+    "costNum": 10
+  },
+  "327": {
+    "id": 327,
+    "quality": "blue",
+    "superLevel": 27,
+    "costID": 134,
+    "costNum": 10
+  },
+  "328": {
+    "id": 328,
+    "quality": "blue",
+    "superLevel": 28,
+    "costID": 134,
+    "costNum": 10
+  },
+  "329": {
+    "id": 329,
+    "quality": "blue",
+    "superLevel": 29,
+    "costID": 134,
+    "costNum": 10
+  },
+  "330": {
+    "id": 330,
+    "quality": "blue",
+    "superLevel": 30,
+    "costID": 134,
+    "costNum": 10
+  },
+  "331": {
+    "id": 331,
+    "quality": "blue",
+    "superLevel": 31,
+    "costID": 134,
+    "costNum": 20
+  },
+  "332": {
+    "id": 332,
+    "quality": "blue",
+    "superLevel": 32,
+    "costID": 134,
+    "costNum": 20
+  },
+  "333": {
+    "id": 333,
+    "quality": "blue",
+    "superLevel": 33,
+    "costID": 134,
+    "costNum": 20
+  },
+  "334": {
+    "id": 334,
+    "quality": "blue",
+    "superLevel": 34,
+    "costID": 134,
+    "costNum": 20
+  },
+  "335": {
+    "id": 335,
+    "quality": "blue",
+    "superLevel": 35,
+    "costID": 134,
+    "costNum": 20
+  },
+  "336": {
+    "id": 336,
+    "quality": "blue",
+    "superLevel": 36,
+    "costID": 134,
+    "costNum": 20
+  },
+  "337": {
+    "id": 337,
+    "quality": "blue",
+    "superLevel": 37,
+    "costID": 134,
+    "costNum": 20
+  },
+  "338": {
+    "id": 338,
+    "quality": "blue",
+    "superLevel": 38,
+    "costID": 134,
+    "costNum": 20
+  },
+  "339": {
+    "id": 339,
+    "quality": "blue",
+    "superLevel": 39,
+    "costID": 134,
+    "costNum": 20
+  },
+  "340": {
+    "id": 340,
+    "quality": "blue",
+    "superLevel": 40,
+    "costID": 134,
+    "costNum": 20
+  },
+  "341": {
+    "id": 341,
+    "quality": "blue",
+    "superLevel": 41,
+    "costID": 134,
+    "costNum": 20
+  },
+  "342": {
+    "id": 342,
+    "quality": "blue",
+    "superLevel": 42,
+    "costID": 134,
+    "costNum": 20
+  },
+  "343": {
+    "id": 343,
+    "quality": "blue",
+    "superLevel": 43,
+    "costID": 134,
+    "costNum": 20
+  },
+  "344": {
+    "id": 344,
+    "quality": "blue",
+    "superLevel": 44,
+    "costID": 134,
+    "costNum": 20
+  },
+  "345": {
+    "id": 345,
+    "quality": "blue",
+    "superLevel": 45,
+    "costID": 134,
+    "costNum": 20
+  },
+  "346": {
+    "id": 346,
+    "quality": "blue",
+    "superLevel": 46,
+    "costID": 134,
+    "costNum": 20
+  },
+  "347": {
+    "id": 347,
+    "quality": "blue",
+    "superLevel": 47,
+    "costID": 134,
+    "costNum": 20
+  },
+  "348": {
+    "id": 348,
+    "quality": "blue",
+    "superLevel": 48,
+    "costID": 134,
+    "costNum": 20
+  },
+  "349": {
+    "id": 349,
+    "quality": "blue",
+    "superLevel": 49,
+    "costID": 134,
+    "costNum": 20
+  },
+  "350": {
+    "id": 350,
+    "quality": "blue",
+    "superLevel": 50,
+    "costID": 134,
+    "costNum": 20
+  },
+  "351": {
+    "id": 351,
+    "quality": "blue",
+    "superLevel": 51,
+    "costID": 134,
+    "costNum": 30
+  },
+  "352": {
+    "id": 352,
+    "quality": "blue",
+    "superLevel": 52,
+    "costID": 134,
+    "costNum": 30
+  },
+  "353": {
+    "id": 353,
+    "quality": "blue",
+    "superLevel": 53,
+    "costID": 134,
+    "costNum": 30
+  },
+  "354": {
+    "id": 354,
+    "quality": "blue",
+    "superLevel": 54,
+    "costID": 134,
+    "costNum": 30
+  },
+  "355": {
+    "id": 355,
+    "quality": "blue",
+    "superLevel": 55,
+    "costID": 134,
+    "costNum": 30
+  },
+  "356": {
+    "id": 356,
+    "quality": "blue",
+    "superLevel": 56,
+    "costID": 134,
+    "costNum": 30
+  },
+  "357": {
+    "id": 357,
+    "quality": "blue",
+    "superLevel": 57,
+    "costID": 134,
+    "costNum": 30
+  },
+  "358": {
+    "id": 358,
+    "quality": "blue",
+    "superLevel": 58,
+    "costID": 134,
+    "costNum": 30
+  },
+  "359": {
+    "id": 359,
+    "quality": "blue",
+    "superLevel": 59,
+    "costID": 134,
+    "costNum": 30
+  },
+  "360": {
+    "id": 360,
+    "quality": "blue",
+    "superLevel": 60,
+    "costID": 134,
+    "costNum": 30
+  },
+  "361": {
+    "id": 361,
+    "quality": "blue",
+    "superLevel": 61,
+    "costID": 134,
+    "costNum": 30
+  },
+  "362": {
+    "id": 362,
+    "quality": "blue",
+    "superLevel": 62,
+    "costID": 134,
+    "costNum": 30
+  },
+  "363": {
+    "id": 363,
+    "quality": "blue",
+    "superLevel": 63,
+    "costID": 134,
+    "costNum": 30
+  },
+  "364": {
+    "id": 364,
+    "quality": "blue",
+    "superLevel": 64,
+    "costID": 134,
+    "costNum": 30
+  },
+  "365": {
+    "id": 365,
+    "quality": "blue",
+    "superLevel": 65,
+    "costID": 134,
+    "costNum": 30
+  },
+  "366": {
+    "id": 366,
+    "quality": "blue",
+    "superLevel": 66,
+    "costID": 134,
+    "costNum": 30
+  },
+  "367": {
+    "id": 367,
+    "quality": "blue",
+    "superLevel": 67,
+    "costID": 134,
+    "costNum": 30
+  },
+  "368": {
+    "id": 368,
+    "quality": "blue",
+    "superLevel": 68,
+    "costID": 134,
+    "costNum": 30
+  },
+  "369": {
+    "id": 369,
+    "quality": "blue",
+    "superLevel": 69,
+    "costID": 134,
+    "costNum": 30
+  },
+  "370": {
+    "id": 370,
+    "quality": "blue",
+    "superLevel": 70,
+    "costID": 134,
+    "costNum": 30
+  },
+  "371": {
+    "id": 371,
+    "quality": "blue",
+    "superLevel": 71,
+    "costID": 134,
+    "costNum": 30
+  },
+  "372": {
+    "id": 372,
+    "quality": "blue",
+    "superLevel": 72,
+    "costID": 134,
+    "costNum": 30
+  },
+  "373": {
+    "id": 373,
+    "quality": "blue",
+    "superLevel": 73,
+    "costID": 134,
+    "costNum": 30
+  },
+  "374": {
+    "id": 374,
+    "quality": "blue",
+    "superLevel": 74,
+    "costID": 134,
+    "costNum": 30
+  },
+  "375": {
+    "id": 375,
+    "quality": "blue",
+    "superLevel": 75,
+    "costID": 134,
+    "costNum": 30
+  },
+  "376": {
+    "id": 376,
+    "quality": "blue",
+    "superLevel": 76,
+    "costID": 134,
+    "costNum": 30
+  },
+  "377": {
+    "id": 377,
+    "quality": "blue",
+    "superLevel": 77,
+    "costID": 134,
+    "costNum": 30
+  },
+  "378": {
+    "id": 378,
+    "quality": "blue",
+    "superLevel": 78,
+    "costID": 134,
+    "costNum": 30
+  },
+  "379": {
+    "id": 379,
+    "quality": "blue",
+    "superLevel": 79,
+    "costID": 134,
+    "costNum": 30
+  },
+  "380": {
+    "id": 380,
+    "quality": "blue",
+    "superLevel": 80,
+    "costID": 134,
+    "costNum": 30
+  },
+  "381": {
+    "id": 381,
+    "quality": "blue",
+    "superLevel": 81,
+    "costID": 134,
+    "costNum": 30
+  },
+  "382": {
+    "id": 382,
+    "quality": "blue",
+    "superLevel": 82,
+    "costID": 134,
+    "costNum": 30
+  },
+  "383": {
+    "id": 383,
+    "quality": "blue",
+    "superLevel": 83,
+    "costID": 134,
+    "costNum": 30
+  },
+  "384": {
+    "id": 384,
+    "quality": "blue",
+    "superLevel": 84,
+    "costID": 134,
+    "costNum": 30
+  },
+  "385": {
+    "id": 385,
+    "quality": "blue",
+    "superLevel": 85,
+    "costID": 134,
+    "costNum": 30
+  },
+  "386": {
+    "id": 386,
+    "quality": "blue",
+    "superLevel": 86,
+    "costID": 134,
+    "costNum": 30
+  },
+  "387": {
+    "id": 387,
+    "quality": "blue",
+    "superLevel": 87,
+    "costID": 134,
+    "costNum": 30
+  },
+  "388": {
+    "id": 388,
+    "quality": "blue",
+    "superLevel": 88,
+    "costID": 134,
+    "costNum": 30
+  },
+  "389": {
+    "id": 389,
+    "quality": "blue",
+    "superLevel": 89,
+    "costID": 134,
+    "costNum": 30
+  },
+  "390": {
+    "id": 390,
+    "quality": "blue",
+    "superLevel": 90,
+    "costID": 134,
+    "costNum": 30
+  },
+  "391": {
+    "id": 391,
+    "quality": "blue",
+    "superLevel": 91,
+    "costID": 134,
+    "costNum": 30
+  },
+  "392": {
+    "id": 392,
+    "quality": "blue",
+    "superLevel": 92,
+    "costID": 134,
+    "costNum": 30
+  },
+  "393": {
+    "id": 393,
+    "quality": "blue",
+    "superLevel": 93,
+    "costID": 134,
+    "costNum": 30
+  },
+  "394": {
+    "id": 394,
+    "quality": "blue",
+    "superLevel": 94,
+    "costID": 134,
+    "costNum": 30
+  },
+  "395": {
+    "id": 395,
+    "quality": "blue",
+    "superLevel": 95,
+    "costID": 134,
+    "costNum": 30
+  },
+  "396": {
+    "id": 396,
+    "quality": "blue",
+    "superLevel": 96,
+    "costID": 134,
+    "costNum": 30
+  },
+  "397": {
+    "id": 397,
+    "quality": "blue",
+    "superLevel": 97,
+    "costID": 134,
+    "costNum": 30
+  },
+  "398": {
+    "id": 398,
+    "quality": "blue",
+    "superLevel": 98,
+    "costID": 134,
+    "costNum": 30
+  },
+  "399": {
+    "id": 399,
+    "quality": "blue",
+    "superLevel": 99,
+    "costID": 134,
+    "costNum": 30
+  },
+  "400": {
+    "id": 400,
+    "quality": "blue",
+    "superLevel": 100,
+    "costID": 134,
+    "costNum": 30
+  },
+  "401": {
+    "id": 401,
+    "quality": "blue",
+    "superLevel": 101,
+    "costID": 134,
+    "costNum": 55
+  },
+  "402": {
+    "id": 402,
+    "quality": "blue",
+    "superLevel": 102,
+    "costID": 134,
+    "costNum": 55
+  },
+  "403": {
+    "id": 403,
+    "quality": "blue",
+    "superLevel": 103,
+    "costID": 134,
+    "costNum": 55
+  },
+  "404": {
+    "id": 404,
+    "quality": "blue",
+    "superLevel": 104,
+    "costID": 134,
+    "costNum": 55
+  },
+  "405": {
+    "id": 405,
+    "quality": "blue",
+    "superLevel": 105,
+    "costID": 134,
+    "costNum": 55
+  },
+  "406": {
+    "id": 406,
+    "quality": "blue",
+    "superLevel": 106,
+    "costID": 134,
+    "costNum": 55
+  },
+  "407": {
+    "id": 407,
+    "quality": "blue",
+    "superLevel": 107,
+    "costID": 134,
+    "costNum": 55
+  },
+  "408": {
+    "id": 408,
+    "quality": "blue",
+    "superLevel": 108,
+    "costID": 134,
+    "costNum": 55
+  },
+  "409": {
+    "id": 409,
+    "quality": "blue",
+    "superLevel": 109,
+    "costID": 134,
+    "costNum": 55
+  },
+  "410": {
+    "id": 410,
+    "quality": "blue",
+    "superLevel": 110,
+    "costID": 134,
+    "costNum": 55
+  },
+  "411": {
+    "id": 411,
+    "quality": "blue",
+    "superLevel": 111,
+    "costID": 134,
+    "costNum": 55
+  },
+  "412": {
+    "id": 412,
+    "quality": "blue",
+    "superLevel": 112,
+    "costID": 134,
+    "costNum": 55
+  },
+  "413": {
+    "id": 413,
+    "quality": "blue",
+    "superLevel": 113,
+    "costID": 134,
+    "costNum": 55
+  },
+  "414": {
+    "id": 414,
+    "quality": "blue",
+    "superLevel": 114,
+    "costID": 134,
+    "costNum": 55
+  },
+  "415": {
+    "id": 415,
+    "quality": "blue",
+    "superLevel": 115,
+    "costID": 134,
+    "costNum": 55
+  },
+  "416": {
+    "id": 416,
+    "quality": "blue",
+    "superLevel": 116,
+    "costID": 134,
+    "costNum": 55
+  },
+  "417": {
+    "id": 417,
+    "quality": "blue",
+    "superLevel": 117,
+    "costID": 134,
+    "costNum": 55
+  },
+  "418": {
+    "id": 418,
+    "quality": "blue",
+    "superLevel": 118,
+    "costID": 134,
+    "costNum": 55
+  },
+  "419": {
+    "id": 419,
+    "quality": "blue",
+    "superLevel": 119,
+    "costID": 134,
+    "costNum": 55
+  },
+  "420": {
+    "id": 420,
+    "quality": "blue",
+    "superLevel": 120,
+    "costID": 134,
+    "costNum": 55
+  },
+  "421": {
+    "id": 421,
+    "quality": "blue",
+    "superLevel": 121,
+    "costID": 134,
+    "costNum": 165
+  },
+  "422": {
+    "id": 422,
+    "quality": "blue",
+    "superLevel": 122,
+    "costID": 134,
+    "costNum": 165
+  },
+  "423": {
+    "id": 423,
+    "quality": "blue",
+    "superLevel": 123,
+    "costID": 134,
+    "costNum": 165
+  },
+  "424": {
+    "id": 424,
+    "quality": "blue",
+    "superLevel": 124,
+    "costID": 134,
+    "costNum": 165
+  },
+  "425": {
+    "id": 425,
+    "quality": "blue",
+    "superLevel": 125,
+    "costID": 134,
+    "costNum": 165
+  },
+  "426": {
+    "id": 426,
+    "quality": "blue",
+    "superLevel": 126,
+    "costID": 134,
+    "costNum": 165
+  },
+  "427": {
+    "id": 427,
+    "quality": "blue",
+    "superLevel": 127,
+    "costID": 134,
+    "costNum": 165
+  },
+  "428": {
+    "id": 428,
+    "quality": "blue",
+    "superLevel": 128,
+    "costID": 134,
+    "costNum": 165
+  },
+  "429": {
+    "id": 429,
+    "quality": "blue",
+    "superLevel": 129,
+    "costID": 134,
+    "costNum": 165
+  },
+  "430": {
+    "id": 430,
+    "quality": "blue",
+    "superLevel": 130,
+    "costID": 134,
+    "costNum": 165
+  },
+  "431": {
+    "id": 431,
+    "quality": "blue",
+    "superLevel": 131,
+    "costID": 134,
+    "costNum": 200
+  },
+  "432": {
+    "id": 432,
+    "quality": "blue",
+    "superLevel": 132,
+    "costID": 134,
+    "costNum": 200
+  },
+  "433": {
+    "id": 433,
+    "quality": "blue",
+    "superLevel": 133,
+    "costID": 134,
+    "costNum": 200
+  },
+  "434": {
+    "id": 434,
+    "quality": "blue",
+    "superLevel": 134,
+    "costID": 134,
+    "costNum": 200
+  },
+  "435": {
+    "id": 435,
+    "quality": "blue",
+    "superLevel": 135,
+    "costID": 134,
+    "costNum": 200
+  },
+  "436": {
+    "id": 436,
+    "quality": "blue",
+    "superLevel": 136,
+    "costID": 134,
+    "costNum": 200
+  },
+  "437": {
+    "id": 437,
+    "quality": "blue",
+    "superLevel": 137,
+    "costID": 134,
+    "costNum": 200
+  },
+  "438": {
+    "id": 438,
+    "quality": "blue",
+    "superLevel": 138,
+    "costID": 134,
+    "costNum": 200
+  },
+  "439": {
+    "id": 439,
+    "quality": "blue",
+    "superLevel": 139,
+    "costID": 134,
+    "costNum": 200
+  },
+  "440": {
+    "id": 440,
+    "quality": "blue",
+    "superLevel": 140,
+    "costID": 134,
+    "costNum": 200
+  },
+  "441": {
+    "id": 441,
+    "quality": "blue",
+    "superLevel": 141,
+    "costID": 134,
+    "costNum": 280
+  },
+  "442": {
+    "id": 442,
+    "quality": "blue",
+    "superLevel": 142,
+    "costID": 134,
+    "costNum": 280
+  },
+  "443": {
+    "id": 443,
+    "quality": "blue",
+    "superLevel": 143,
+    "costID": 134,
+    "costNum": 280
+  },
+  "444": {
+    "id": 444,
+    "quality": "blue",
+    "superLevel": 144,
+    "costID": 134,
+    "costNum": 280
+  },
+  "445": {
+    "id": 445,
+    "quality": "blue",
+    "superLevel": 145,
+    "costID": 134,
+    "costNum": 280
+  },
+  "446": {
+    "id": 446,
+    "quality": "blue",
+    "superLevel": 146,
+    "costID": 134,
+    "costNum": 280
+  },
+  "447": {
+    "id": 447,
+    "quality": "blue",
+    "superLevel": 147,
+    "costID": 134,
+    "costNum": 280
+  },
+  "448": {
+    "id": 448,
+    "quality": "blue",
+    "superLevel": 148,
+    "costID": 134,
+    "costNum": 280
+  },
+  "449": {
+    "id": 449,
+    "quality": "blue",
+    "superLevel": 149,
+    "costID": 134,
+    "costNum": 280
+  },
+  "450": {
+    "id": 450,
+    "quality": "blue",
+    "superLevel": 150,
+    "costID": 134,
+    "costNum": 280
+  },
+  "451": {
+    "id": 451,
+    "quality": "blue",
+    "superLevel": 151,
+    "costID": 134,
+    "costNum": 325
+  },
+  "452": {
+    "id": 452,
+    "quality": "blue",
+    "superLevel": 152,
+    "costID": 134,
+    "costNum": 325
+  },
+  "453": {
+    "id": 453,
+    "quality": "blue",
+    "superLevel": 153,
+    "costID": 134,
+    "costNum": 325
+  },
+  "454": {
+    "id": 454,
+    "quality": "blue",
+    "superLevel": 154,
+    "costID": 134,
+    "costNum": 325
+  },
+  "455": {
+    "id": 455,
+    "quality": "blue",
+    "superLevel": 155,
+    "costID": 134,
+    "costNum": 325
+  },
+  "456": {
+    "id": 456,
+    "quality": "blue",
+    "superLevel": 156,
+    "costID": 134,
+    "costNum": 325
+  },
+  "457": {
+    "id": 457,
+    "quality": "blue",
+    "superLevel": 157,
+    "costID": 134,
+    "costNum": 325
+  },
+  "458": {
+    "id": 458,
+    "quality": "blue",
+    "superLevel": 158,
+    "costID": 134,
+    "costNum": 325
+  },
+  "459": {
+    "id": 459,
+    "quality": "blue",
+    "superLevel": 159,
+    "costID": 134,
+    "costNum": 325
+  },
+  "460": {
+    "id": 460,
+    "quality": "blue",
+    "superLevel": 160,
+    "costID": 134,
+    "costNum": 325
+  },
+  "461": {
+    "id": 461,
+    "quality": "blue",
+    "superLevel": 161,
+    "costID": 134,
+    "costNum": 435
+  },
+  "462": {
+    "id": 462,
+    "quality": "blue",
+    "superLevel": 162,
+    "costID": 134,
+    "costNum": 435
+  },
+  "463": {
+    "id": 463,
+    "quality": "blue",
+    "superLevel": 163,
+    "costID": 134,
+    "costNum": 435
+  },
+  "464": {
+    "id": 464,
+    "quality": "blue",
+    "superLevel": 164,
+    "costID": 134,
+    "costNum": 435
+  },
+  "465": {
+    "id": 465,
+    "quality": "blue",
+    "superLevel": 165,
+    "costID": 134,
+    "costNum": 435
+  },
+  "466": {
+    "id": 466,
+    "quality": "blue",
+    "superLevel": 166,
+    "costID": 134,
+    "costNum": 435
+  },
+  "467": {
+    "id": 467,
+    "quality": "blue",
+    "superLevel": 167,
+    "costID": 134,
+    "costNum": 435
+  },
+  "468": {
+    "id": 468,
+    "quality": "blue",
+    "superLevel": 168,
+    "costID": 134,
+    "costNum": 435
+  },
+  "469": {
+    "id": 469,
+    "quality": "blue",
+    "superLevel": 169,
+    "costID": 134,
+    "costNum": 435
+  },
+  "470": {
+    "id": 470,
+    "quality": "blue",
+    "superLevel": 170,
+    "costID": 134,
+    "costNum": 435
+  },
+  "471": {
+    "id": 471,
+    "quality": "blue",
+    "superLevel": 171,
+    "costID": 134,
+    "costNum": 550
+  },
+  "472": {
+    "id": 472,
+    "quality": "blue",
+    "superLevel": 172,
+    "costID": 134,
+    "costNum": 550
+  },
+  "473": {
+    "id": 473,
+    "quality": "blue",
+    "superLevel": 173,
+    "costID": 134,
+    "costNum": 550
+  },
+  "474": {
+    "id": 474,
+    "quality": "blue",
+    "superLevel": 174,
+    "costID": 134,
+    "costNum": 550
+  },
+  "475": {
+    "id": 475,
+    "quality": "blue",
+    "superLevel": 175,
+    "costID": 134,
+    "costNum": 550
+  },
+  "476": {
+    "id": 476,
+    "quality": "blue",
+    "superLevel": 176,
+    "costID": 134,
+    "costNum": 550
+  },
+  "477": {
+    "id": 477,
+    "quality": "blue",
+    "superLevel": 177,
+    "costID": 134,
+    "costNum": 550
+  },
+  "478": {
+    "id": 478,
+    "quality": "blue",
+    "superLevel": 178,
+    "costID": 134,
+    "costNum": 550
+  },
+  "479": {
+    "id": 479,
+    "quality": "blue",
+    "superLevel": 179,
+    "costID": 134,
+    "costNum": 550
+  },
+  "480": {
+    "id": 480,
+    "quality": "blue",
+    "superLevel": 180,
+    "costID": 134,
+    "costNum": 550
+  },
+  "481": {
+    "id": 481,
+    "quality": "blue",
+    "superLevel": 181,
+    "costID": 134,
+    "costNum": 660
+  },
+  "482": {
+    "id": 482,
+    "quality": "blue",
+    "superLevel": 182,
+    "costID": 134,
+    "costNum": 660
+  },
+  "483": {
+    "id": 483,
+    "quality": "blue",
+    "superLevel": 183,
+    "costID": 134,
+    "costNum": 660
+  },
+  "484": {
+    "id": 484,
+    "quality": "blue",
+    "superLevel": 184,
+    "costID": 134,
+    "costNum": 660
+  },
+  "485": {
+    "id": 485,
+    "quality": "blue",
+    "superLevel": 185,
+    "costID": 134,
+    "costNum": 660
+  },
+  "486": {
+    "id": 486,
+    "quality": "blue",
+    "superLevel": 186,
+    "costID": 134,
+    "costNum": 660
+  },
+  "487": {
+    "id": 487,
+    "quality": "blue",
+    "superLevel": 187,
+    "costID": 134,
+    "costNum": 660
+  },
+  "488": {
+    "id": 488,
+    "quality": "blue",
+    "superLevel": 188,
+    "costID": 134,
+    "costNum": 660
+  },
+  "489": {
+    "id": 489,
+    "quality": "blue",
+    "superLevel": 189,
+    "costID": 134,
+    "costNum": 660
+  },
+  "490": {
+    "id": 490,
+    "quality": "blue",
+    "superLevel": 190,
+    "costID": 134,
+    "costNum": 660
+  },
+  "491": {
+    "id": 491,
+    "quality": "blue",
+    "superLevel": 191,
+    "costID": 134,
+    "costNum": 900
+  },
+  "492": {
+    "id": 492,
+    "quality": "blue",
+    "superLevel": 192,
+    "costID": 134,
+    "costNum": 900
+  },
+  "493": {
+    "id": 493,
+    "quality": "blue",
+    "superLevel": 193,
+    "costID": 134,
+    "costNum": 900
+  },
+  "494": {
+    "id": 494,
+    "quality": "blue",
+    "superLevel": 194,
+    "costID": 134,
+    "costNum": 900
+  },
+  "495": {
+    "id": 495,
+    "quality": "blue",
+    "superLevel": 195,
+    "costID": 134,
+    "costNum": 900
+  },
+  "496": {
+    "id": 496,
+    "quality": "blue",
+    "superLevel": 196,
+    "costID": 134,
+    "costNum": 900
+  },
+  "497": {
+    "id": 497,
+    "quality": "blue",
+    "superLevel": 197,
+    "costID": 134,
+    "costNum": 900
+  },
+  "498": {
+    "id": 498,
+    "quality": "blue",
+    "superLevel": 198,
+    "costID": 134,
+    "costNum": 900
+  },
+  "499": {
+    "id": 499,
+    "quality": "blue",
+    "superLevel": 199,
+    "costID": 134,
+    "costNum": 900
+  },
+  "500": {
+    "id": 500,
+    "quality": "blue",
+    "superLevel": 200,
+    "costID": 134,
+    "costNum": 900
+  },
+  "501": {
+    "id": 501,
+    "quality": "blue",
+    "superLevel": 201,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "502": {
+    "id": 502,
+    "quality": "blue",
+    "superLevel": 202,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "503": {
+    "id": 503,
+    "quality": "blue",
+    "superLevel": 203,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "504": {
+    "id": 504,
+    "quality": "blue",
+    "superLevel": 204,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "505": {
+    "id": 505,
+    "quality": "blue",
+    "superLevel": 205,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "506": {
+    "id": 506,
+    "quality": "blue",
+    "superLevel": 206,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "507": {
+    "id": 507,
+    "quality": "blue",
+    "superLevel": 207,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "508": {
+    "id": 508,
+    "quality": "blue",
+    "superLevel": 208,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "509": {
+    "id": 509,
+    "quality": "blue",
+    "superLevel": 209,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "510": {
+    "id": 510,
+    "quality": "blue",
+    "superLevel": 210,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "511": {
+    "id": 511,
+    "quality": "blue",
+    "superLevel": 211,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "512": {
+    "id": 512,
+    "quality": "blue",
+    "superLevel": 212,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "513": {
+    "id": 513,
+    "quality": "blue",
+    "superLevel": 213,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "514": {
+    "id": 514,
+    "quality": "blue",
+    "superLevel": 214,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "515": {
+    "id": 515,
+    "quality": "blue",
+    "superLevel": 215,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "516": {
+    "id": 516,
+    "quality": "blue",
+    "superLevel": 216,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "517": {
+    "id": 517,
+    "quality": "blue",
+    "superLevel": 217,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "518": {
+    "id": 518,
+    "quality": "blue",
+    "superLevel": 218,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "519": {
+    "id": 519,
+    "quality": "blue",
+    "superLevel": 219,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "520": {
+    "id": 520,
+    "quality": "blue",
+    "superLevel": 220,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "521": {
+    "id": 521,
+    "quality": "blue",
+    "superLevel": 221,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "522": {
+    "id": 522,
+    "quality": "blue",
+    "superLevel": 222,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "523": {
+    "id": 523,
+    "quality": "blue",
+    "superLevel": 223,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "524": {
+    "id": 524,
+    "quality": "blue",
+    "superLevel": 224,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "525": {
+    "id": 525,
+    "quality": "blue",
+    "superLevel": 225,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "526": {
+    "id": 526,
+    "quality": "blue",
+    "superLevel": 226,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "527": {
+    "id": 527,
+    "quality": "blue",
+    "superLevel": 227,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "528": {
+    "id": 528,
+    "quality": "blue",
+    "superLevel": 228,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "529": {
+    "id": 529,
+    "quality": "blue",
+    "superLevel": 229,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "530": {
+    "id": 530,
+    "quality": "blue",
+    "superLevel": 230,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "531": {
+    "id": 531,
+    "quality": "blue",
+    "superLevel": 231,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "532": {
+    "id": 532,
+    "quality": "blue",
+    "superLevel": 232,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "533": {
+    "id": 533,
+    "quality": "blue",
+    "superLevel": 233,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "534": {
+    "id": 534,
+    "quality": "blue",
+    "superLevel": 234,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "535": {
+    "id": 535,
+    "quality": "blue",
+    "superLevel": 235,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "536": {
+    "id": 536,
+    "quality": "blue",
+    "superLevel": 236,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "537": {
+    "id": 537,
+    "quality": "blue",
+    "superLevel": 237,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "538": {
+    "id": 538,
+    "quality": "blue",
+    "superLevel": 238,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "539": {
+    "id": 539,
+    "quality": "blue",
+    "superLevel": 239,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "540": {
+    "id": 540,
+    "quality": "blue",
+    "superLevel": 240,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "541": {
+    "id": 541,
+    "quality": "blue",
+    "superLevel": 241,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "542": {
+    "id": 542,
+    "quality": "blue",
+    "superLevel": 242,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "543": {
+    "id": 543,
+    "quality": "blue",
+    "superLevel": 243,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "544": {
+    "id": 544,
+    "quality": "blue",
+    "superLevel": 244,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "545": {
+    "id": 545,
+    "quality": "blue",
+    "superLevel": 245,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "546": {
+    "id": 546,
+    "quality": "blue",
+    "superLevel": 246,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "547": {
+    "id": 547,
+    "quality": "blue",
+    "superLevel": 247,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "548": {
+    "id": 548,
+    "quality": "blue",
+    "superLevel": 248,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "549": {
+    "id": 549,
+    "quality": "blue",
+    "superLevel": 249,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "550": {
+    "id": 550,
+    "quality": "blue",
+    "superLevel": 250,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "551": {
+    "id": 551,
+    "quality": "blue",
+    "superLevel": 251,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "552": {
+    "id": 552,
+    "quality": "blue",
+    "superLevel": 252,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "553": {
+    "id": 553,
+    "quality": "blue",
+    "superLevel": 253,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "554": {
+    "id": 554,
+    "quality": "blue",
+    "superLevel": 254,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "555": {
+    "id": 555,
+    "quality": "blue",
+    "superLevel": 255,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "556": {
+    "id": 556,
+    "quality": "blue",
+    "superLevel": 256,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "557": {
+    "id": 557,
+    "quality": "blue",
+    "superLevel": 257,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "558": {
+    "id": 558,
+    "quality": "blue",
+    "superLevel": 258,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "559": {
+    "id": 559,
+    "quality": "blue",
+    "superLevel": 259,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "560": {
+    "id": 560,
+    "quality": "blue",
+    "superLevel": 260,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "561": {
+    "id": 561,
+    "quality": "blue",
+    "superLevel": 261,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "562": {
+    "id": 562,
+    "quality": "blue",
+    "superLevel": 262,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "563": {
+    "id": 563,
+    "quality": "blue",
+    "superLevel": 263,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "564": {
+    "id": 564,
+    "quality": "blue",
+    "superLevel": 264,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "565": {
+    "id": 565,
+    "quality": "blue",
+    "superLevel": 265,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "566": {
+    "id": 566,
+    "quality": "blue",
+    "superLevel": 266,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "567": {
+    "id": 567,
+    "quality": "blue",
+    "superLevel": 267,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "568": {
+    "id": 568,
+    "quality": "blue",
+    "superLevel": 268,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "569": {
+    "id": 569,
+    "quality": "blue",
+    "superLevel": 269,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "570": {
+    "id": 570,
+    "quality": "blue",
+    "superLevel": 270,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "571": {
+    "id": 571,
+    "quality": "blue",
+    "superLevel": 271,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "572": {
+    "id": 572,
+    "quality": "blue",
+    "superLevel": 272,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "573": {
+    "id": 573,
+    "quality": "blue",
+    "superLevel": 273,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "574": {
+    "id": 574,
+    "quality": "blue",
+    "superLevel": 274,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "575": {
+    "id": 575,
+    "quality": "blue",
+    "superLevel": 275,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "576": {
+    "id": 576,
+    "quality": "blue",
+    "superLevel": 276,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "577": {
+    "id": 577,
+    "quality": "blue",
+    "superLevel": 277,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "578": {
+    "id": 578,
+    "quality": "blue",
+    "superLevel": 278,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "579": {
+    "id": 579,
+    "quality": "blue",
+    "superLevel": 279,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "580": {
+    "id": 580,
+    "quality": "blue",
+    "superLevel": 280,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "581": {
+    "id": 581,
+    "quality": "blue",
+    "superLevel": 281,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "582": {
+    "id": 582,
+    "quality": "blue",
+    "superLevel": 282,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "583": {
+    "id": 583,
+    "quality": "blue",
+    "superLevel": 283,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "584": {
+    "id": 584,
+    "quality": "blue",
+    "superLevel": 284,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "585": {
+    "id": 585,
+    "quality": "blue",
+    "superLevel": 285,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "586": {
+    "id": 586,
+    "quality": "blue",
+    "superLevel": 286,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "587": {
+    "id": 587,
+    "quality": "blue",
+    "superLevel": 287,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "588": {
+    "id": 588,
+    "quality": "blue",
+    "superLevel": 288,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "589": {
+    "id": 589,
+    "quality": "blue",
+    "superLevel": 289,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "590": {
+    "id": 590,
+    "quality": "blue",
+    "superLevel": 290,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "591": {
+    "id": 591,
+    "quality": "blue",
+    "superLevel": 291,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "592": {
+    "id": 592,
+    "quality": "blue",
+    "superLevel": 292,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "593": {
+    "id": 593,
+    "quality": "blue",
+    "superLevel": 293,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "594": {
+    "id": 594,
+    "quality": "blue",
+    "superLevel": 294,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "595": {
+    "id": 595,
+    "quality": "blue",
+    "superLevel": 295,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "596": {
+    "id": 596,
+    "quality": "blue",
+    "superLevel": 296,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "597": {
+    "id": 597,
+    "quality": "blue",
+    "superLevel": 297,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "598": {
+    "id": 598,
+    "quality": "blue",
+    "superLevel": 298,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "599": {
+    "id": 599,
+    "quality": "blue",
+    "superLevel": 299,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "600": {
+    "id": 600,
+    "quality": "blue",
+    "superLevel": 300,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "601": {
+    "id": 601,
+    "quality": "purple",
+    "superLevel": 1,
+    "costID": 134,
+    "costNum": 10
+  },
+  "602": {
+    "id": 602,
+    "quality": "purple",
+    "superLevel": 2,
+    "costID": 134,
+    "costNum": 10
+  },
+  "603": {
+    "id": 603,
+    "quality": "purple",
+    "superLevel": 3,
+    "costID": 134,
+    "costNum": 10
+  },
+  "604": {
+    "id": 604,
+    "quality": "purple",
+    "superLevel": 4,
+    "costID": 134,
+    "costNum": 10
+  },
+  "605": {
+    "id": 605,
+    "quality": "purple",
+    "superLevel": 5,
+    "costID": 134,
+    "costNum": 10
+  },
+  "606": {
+    "id": 606,
+    "quality": "purple",
+    "superLevel": 6,
+    "costID": 134,
+    "costNum": 10
+  },
+  "607": {
+    "id": 607,
+    "quality": "purple",
+    "superLevel": 7,
+    "costID": 134,
+    "costNum": 10
+  },
+  "608": {
+    "id": 608,
+    "quality": "purple",
+    "superLevel": 8,
+    "costID": 134,
+    "costNum": 10
+  },
+  "609": {
+    "id": 609,
+    "quality": "purple",
+    "superLevel": 9,
+    "costID": 134,
+    "costNum": 10
+  },
+  "610": {
+    "id": 610,
+    "quality": "purple",
+    "superLevel": 10,
+    "costID": 134,
+    "costNum": 10
+  },
+  "611": {
+    "id": 611,
+    "quality": "purple",
+    "superLevel": 11,
+    "costID": 134,
+    "costNum": 10
+  },
+  "612": {
+    "id": 612,
+    "quality": "purple",
+    "superLevel": 12,
+    "costID": 134,
+    "costNum": 10
+  },
+  "613": {
+    "id": 613,
+    "quality": "purple",
+    "superLevel": 13,
+    "costID": 134,
+    "costNum": 10
+  },
+  "614": {
+    "id": 614,
+    "quality": "purple",
+    "superLevel": 14,
+    "costID": 134,
+    "costNum": 10
+  },
+  "615": {
+    "id": 615,
+    "quality": "purple",
+    "superLevel": 15,
+    "costID": 134,
+    "costNum": 10
+  },
+  "616": {
+    "id": 616,
+    "quality": "purple",
+    "superLevel": 16,
+    "costID": 134,
+    "costNum": 10
+  },
+  "617": {
+    "id": 617,
+    "quality": "purple",
+    "superLevel": 17,
+    "costID": 134,
+    "costNum": 10
+  },
+  "618": {
+    "id": 618,
+    "quality": "purple",
+    "superLevel": 18,
+    "costID": 134,
+    "costNum": 10
+  },
+  "619": {
+    "id": 619,
+    "quality": "purple",
+    "superLevel": 19,
+    "costID": 134,
+    "costNum": 10
+  },
+  "620": {
+    "id": 620,
+    "quality": "purple",
+    "superLevel": 20,
+    "costID": 134,
+    "costNum": 10
+  },
+  "621": {
+    "id": 621,
+    "quality": "purple",
+    "superLevel": 21,
+    "costID": 134,
+    "costNum": 10
+  },
+  "622": {
+    "id": 622,
+    "quality": "purple",
+    "superLevel": 22,
+    "costID": 134,
+    "costNum": 10
+  },
+  "623": {
+    "id": 623,
+    "quality": "purple",
+    "superLevel": 23,
+    "costID": 134,
+    "costNum": 10
+  },
+  "624": {
+    "id": 624,
+    "quality": "purple",
+    "superLevel": 24,
+    "costID": 134,
+    "costNum": 10
+  },
+  "625": {
+    "id": 625,
+    "quality": "purple",
+    "superLevel": 25,
+    "costID": 134,
+    "costNum": 10
+  },
+  "626": {
+    "id": 626,
+    "quality": "purple",
+    "superLevel": 26,
+    "costID": 134,
+    "costNum": 10
+  },
+  "627": {
+    "id": 627,
+    "quality": "purple",
+    "superLevel": 27,
+    "costID": 134,
+    "costNum": 10
+  },
+  "628": {
+    "id": 628,
+    "quality": "purple",
+    "superLevel": 28,
+    "costID": 134,
+    "costNum": 10
+  },
+  "629": {
+    "id": 629,
+    "quality": "purple",
+    "superLevel": 29,
+    "costID": 134,
+    "costNum": 10
+  },
+  "630": {
+    "id": 630,
+    "quality": "purple",
+    "superLevel": 30,
+    "costID": 134,
+    "costNum": 10
+  },
+  "631": {
+    "id": 631,
+    "quality": "purple",
+    "superLevel": 31,
+    "costID": 134,
+    "costNum": 20
+  },
+  "632": {
+    "id": 632,
+    "quality": "purple",
+    "superLevel": 32,
+    "costID": 134,
+    "costNum": 20
+  },
+  "633": {
+    "id": 633,
+    "quality": "purple",
+    "superLevel": 33,
+    "costID": 134,
+    "costNum": 20
+  },
+  "634": {
+    "id": 634,
+    "quality": "purple",
+    "superLevel": 34,
+    "costID": 134,
+    "costNum": 20
+  },
+  "635": {
+    "id": 635,
+    "quality": "purple",
+    "superLevel": 35,
+    "costID": 134,
+    "costNum": 20
+  },
+  "636": {
+    "id": 636,
+    "quality": "purple",
+    "superLevel": 36,
+    "costID": 134,
+    "costNum": 20
+  },
+  "637": {
+    "id": 637,
+    "quality": "purple",
+    "superLevel": 37,
+    "costID": 134,
+    "costNum": 20
+  },
+  "638": {
+    "id": 638,
+    "quality": "purple",
+    "superLevel": 38,
+    "costID": 134,
+    "costNum": 20
+  },
+  "639": {
+    "id": 639,
+    "quality": "purple",
+    "superLevel": 39,
+    "costID": 134,
+    "costNum": 20
+  },
+  "640": {
+    "id": 640,
+    "quality": "purple",
+    "superLevel": 40,
+    "costID": 134,
+    "costNum": 20
+  },
+  "641": {
+    "id": 641,
+    "quality": "purple",
+    "superLevel": 41,
+    "costID": 134,
+    "costNum": 20
+  },
+  "642": {
+    "id": 642,
+    "quality": "purple",
+    "superLevel": 42,
+    "costID": 134,
+    "costNum": 20
+  },
+  "643": {
+    "id": 643,
+    "quality": "purple",
+    "superLevel": 43,
+    "costID": 134,
+    "costNum": 20
+  },
+  "644": {
+    "id": 644,
+    "quality": "purple",
+    "superLevel": 44,
+    "costID": 134,
+    "costNum": 20
+  },
+  "645": {
+    "id": 645,
+    "quality": "purple",
+    "superLevel": 45,
+    "costID": 134,
+    "costNum": 20
+  },
+  "646": {
+    "id": 646,
+    "quality": "purple",
+    "superLevel": 46,
+    "costID": 134,
+    "costNum": 20
+  },
+  "647": {
+    "id": 647,
+    "quality": "purple",
+    "superLevel": 47,
+    "costID": 134,
+    "costNum": 20
+  },
+  "648": {
+    "id": 648,
+    "quality": "purple",
+    "superLevel": 48,
+    "costID": 134,
+    "costNum": 20
+  },
+  "649": {
+    "id": 649,
+    "quality": "purple",
+    "superLevel": 49,
+    "costID": 134,
+    "costNum": 20
+  },
+  "650": {
+    "id": 650,
+    "quality": "purple",
+    "superLevel": 50,
+    "costID": 134,
+    "costNum": 20
+  },
+  "651": {
+    "id": 651,
+    "quality": "purple",
+    "superLevel": 51,
+    "costID": 134,
+    "costNum": 30
+  },
+  "652": {
+    "id": 652,
+    "quality": "purple",
+    "superLevel": 52,
+    "costID": 134,
+    "costNum": 30
+  },
+  "653": {
+    "id": 653,
+    "quality": "purple",
+    "superLevel": 53,
+    "costID": 134,
+    "costNum": 30
+  },
+  "654": {
+    "id": 654,
+    "quality": "purple",
+    "superLevel": 54,
+    "costID": 134,
+    "costNum": 30
+  },
+  "655": {
+    "id": 655,
+    "quality": "purple",
+    "superLevel": 55,
+    "costID": 134,
+    "costNum": 30
+  },
+  "656": {
+    "id": 656,
+    "quality": "purple",
+    "superLevel": 56,
+    "costID": 134,
+    "costNum": 30
+  },
+  "657": {
+    "id": 657,
+    "quality": "purple",
+    "superLevel": 57,
+    "costID": 134,
+    "costNum": 30
+  },
+  "658": {
+    "id": 658,
+    "quality": "purple",
+    "superLevel": 58,
+    "costID": 134,
+    "costNum": 30
+  },
+  "659": {
+    "id": 659,
+    "quality": "purple",
+    "superLevel": 59,
+    "costID": 134,
+    "costNum": 30
+  },
+  "660": {
+    "id": 660,
+    "quality": "purple",
+    "superLevel": 60,
+    "costID": 134,
+    "costNum": 30
+  },
+  "661": {
+    "id": 661,
+    "quality": "purple",
+    "superLevel": 61,
+    "costID": 134,
+    "costNum": 30
+  },
+  "662": {
+    "id": 662,
+    "quality": "purple",
+    "superLevel": 62,
+    "costID": 134,
+    "costNum": 30
+  },
+  "663": {
+    "id": 663,
+    "quality": "purple",
+    "superLevel": 63,
+    "costID": 134,
+    "costNum": 30
+  },
+  "664": {
+    "id": 664,
+    "quality": "purple",
+    "superLevel": 64,
+    "costID": 134,
+    "costNum": 30
+  },
+  "665": {
+    "id": 665,
+    "quality": "purple",
+    "superLevel": 65,
+    "costID": 134,
+    "costNum": 30
+  },
+  "666": {
+    "id": 666,
+    "quality": "purple",
+    "superLevel": 66,
+    "costID": 134,
+    "costNum": 30
+  },
+  "667": {
+    "id": 667,
+    "quality": "purple",
+    "superLevel": 67,
+    "costID": 134,
+    "costNum": 30
+  },
+  "668": {
+    "id": 668,
+    "quality": "purple",
+    "superLevel": 68,
+    "costID": 134,
+    "costNum": 30
+  },
+  "669": {
+    "id": 669,
+    "quality": "purple",
+    "superLevel": 69,
+    "costID": 134,
+    "costNum": 30
+  },
+  "670": {
+    "id": 670,
+    "quality": "purple",
+    "superLevel": 70,
+    "costID": 134,
+    "costNum": 30
+  },
+  "671": {
+    "id": 671,
+    "quality": "purple",
+    "superLevel": 71,
+    "costID": 134,
+    "costNum": 30
+  },
+  "672": {
+    "id": 672,
+    "quality": "purple",
+    "superLevel": 72,
+    "costID": 134,
+    "costNum": 30
+  },
+  "673": {
+    "id": 673,
+    "quality": "purple",
+    "superLevel": 73,
+    "costID": 134,
+    "costNum": 30
+  },
+  "674": {
+    "id": 674,
+    "quality": "purple",
+    "superLevel": 74,
+    "costID": 134,
+    "costNum": 30
+  },
+  "675": {
+    "id": 675,
+    "quality": "purple",
+    "superLevel": 75,
+    "costID": 134,
+    "costNum": 30
+  },
+  "676": {
+    "id": 676,
+    "quality": "purple",
+    "superLevel": 76,
+    "costID": 134,
+    "costNum": 30
+  },
+  "677": {
+    "id": 677,
+    "quality": "purple",
+    "superLevel": 77,
+    "costID": 134,
+    "costNum": 30
+  },
+  "678": {
+    "id": 678,
+    "quality": "purple",
+    "superLevel": 78,
+    "costID": 134,
+    "costNum": 30
+  },
+  "679": {
+    "id": 679,
+    "quality": "purple",
+    "superLevel": 79,
+    "costID": 134,
+    "costNum": 30
+  },
+  "680": {
+    "id": 680,
+    "quality": "purple",
+    "superLevel": 80,
+    "costID": 134,
+    "costNum": 30
+  },
+  "681": {
+    "id": 681,
+    "quality": "purple",
+    "superLevel": 81,
+    "costID": 134,
+    "costNum": 30
+  },
+  "682": {
+    "id": 682,
+    "quality": "purple",
+    "superLevel": 82,
+    "costID": 134,
+    "costNum": 30
+  },
+  "683": {
+    "id": 683,
+    "quality": "purple",
+    "superLevel": 83,
+    "costID": 134,
+    "costNum": 30
+  },
+  "684": {
+    "id": 684,
+    "quality": "purple",
+    "superLevel": 84,
+    "costID": 134,
+    "costNum": 30
+  },
+  "685": {
+    "id": 685,
+    "quality": "purple",
+    "superLevel": 85,
+    "costID": 134,
+    "costNum": 30
+  },
+  "686": {
+    "id": 686,
+    "quality": "purple",
+    "superLevel": 86,
+    "costID": 134,
+    "costNum": 30
+  },
+  "687": {
+    "id": 687,
+    "quality": "purple",
+    "superLevel": 87,
+    "costID": 134,
+    "costNum": 30
+  },
+  "688": {
+    "id": 688,
+    "quality": "purple",
+    "superLevel": 88,
+    "costID": 134,
+    "costNum": 30
+  },
+  "689": {
+    "id": 689,
+    "quality": "purple",
+    "superLevel": 89,
+    "costID": 134,
+    "costNum": 30
+  },
+  "690": {
+    "id": 690,
+    "quality": "purple",
+    "superLevel": 90,
+    "costID": 134,
+    "costNum": 30
+  },
+  "691": {
+    "id": 691,
+    "quality": "purple",
+    "superLevel": 91,
+    "costID": 134,
+    "costNum": 30
+  },
+  "692": {
+    "id": 692,
+    "quality": "purple",
+    "superLevel": 92,
+    "costID": 134,
+    "costNum": 30
+  },
+  "693": {
+    "id": 693,
+    "quality": "purple",
+    "superLevel": 93,
+    "costID": 134,
+    "costNum": 30
+  },
+  "694": {
+    "id": 694,
+    "quality": "purple",
+    "superLevel": 94,
+    "costID": 134,
+    "costNum": 30
+  },
+  "695": {
+    "id": 695,
+    "quality": "purple",
+    "superLevel": 95,
+    "costID": 134,
+    "costNum": 30
+  },
+  "696": {
+    "id": 696,
+    "quality": "purple",
+    "superLevel": 96,
+    "costID": 134,
+    "costNum": 30
+  },
+  "697": {
+    "id": 697,
+    "quality": "purple",
+    "superLevel": 97,
+    "costID": 134,
+    "costNum": 30
+  },
+  "698": {
+    "id": 698,
+    "quality": "purple",
+    "superLevel": 98,
+    "costID": 134,
+    "costNum": 30
+  },
+  "699": {
+    "id": 699,
+    "quality": "purple",
+    "superLevel": 99,
+    "costID": 134,
+    "costNum": 30
+  },
+  "700": {
+    "id": 700,
+    "quality": "purple",
+    "superLevel": 100,
+    "costID": 134,
+    "costNum": 30
+  },
+  "701": {
+    "id": 701,
+    "quality": "purple",
+    "superLevel": 101,
+    "costID": 134,
+    "costNum": 55
+  },
+  "702": {
+    "id": 702,
+    "quality": "purple",
+    "superLevel": 102,
+    "costID": 134,
+    "costNum": 55
+  },
+  "703": {
+    "id": 703,
+    "quality": "purple",
+    "superLevel": 103,
+    "costID": 134,
+    "costNum": 55
+  },
+  "704": {
+    "id": 704,
+    "quality": "purple",
+    "superLevel": 104,
+    "costID": 134,
+    "costNum": 55
+  },
+  "705": {
+    "id": 705,
+    "quality": "purple",
+    "superLevel": 105,
+    "costID": 134,
+    "costNum": 55
+  },
+  "706": {
+    "id": 706,
+    "quality": "purple",
+    "superLevel": 106,
+    "costID": 134,
+    "costNum": 55
+  },
+  "707": {
+    "id": 707,
+    "quality": "purple",
+    "superLevel": 107,
+    "costID": 134,
+    "costNum": 55
+  },
+  "708": {
+    "id": 708,
+    "quality": "purple",
+    "superLevel": 108,
+    "costID": 134,
+    "costNum": 55
+  },
+  "709": {
+    "id": 709,
+    "quality": "purple",
+    "superLevel": 109,
+    "costID": 134,
+    "costNum": 55
+  },
+  "710": {
+    "id": 710,
+    "quality": "purple",
+    "superLevel": 110,
+    "costID": 134,
+    "costNum": 55
+  },
+  "711": {
+    "id": 711,
+    "quality": "purple",
+    "superLevel": 111,
+    "costID": 134,
+    "costNum": 55
+  },
+  "712": {
+    "id": 712,
+    "quality": "purple",
+    "superLevel": 112,
+    "costID": 134,
+    "costNum": 55
+  },
+  "713": {
+    "id": 713,
+    "quality": "purple",
+    "superLevel": 113,
+    "costID": 134,
+    "costNum": 55
+  },
+  "714": {
+    "id": 714,
+    "quality": "purple",
+    "superLevel": 114,
+    "costID": 134,
+    "costNum": 55
+  },
+  "715": {
+    "id": 715,
+    "quality": "purple",
+    "superLevel": 115,
+    "costID": 134,
+    "costNum": 55
+  },
+  "716": {
+    "id": 716,
+    "quality": "purple",
+    "superLevel": 116,
+    "costID": 134,
+    "costNum": 55
+  },
+  "717": {
+    "id": 717,
+    "quality": "purple",
+    "superLevel": 117,
+    "costID": 134,
+    "costNum": 55
+  },
+  "718": {
+    "id": 718,
+    "quality": "purple",
+    "superLevel": 118,
+    "costID": 134,
+    "costNum": 55
+  },
+  "719": {
+    "id": 719,
+    "quality": "purple",
+    "superLevel": 119,
+    "costID": 134,
+    "costNum": 55
+  },
+  "720": {
+    "id": 720,
+    "quality": "purple",
+    "superLevel": 120,
+    "costID": 134,
+    "costNum": 55
+  },
+  "721": {
+    "id": 721,
+    "quality": "purple",
+    "superLevel": 121,
+    "costID": 134,
+    "costNum": 165
+  },
+  "722": {
+    "id": 722,
+    "quality": "purple",
+    "superLevel": 122,
+    "costID": 134,
+    "costNum": 165
+  },
+  "723": {
+    "id": 723,
+    "quality": "purple",
+    "superLevel": 123,
+    "costID": 134,
+    "costNum": 165
+  },
+  "724": {
+    "id": 724,
+    "quality": "purple",
+    "superLevel": 124,
+    "costID": 134,
+    "costNum": 165
+  },
+  "725": {
+    "id": 725,
+    "quality": "purple",
+    "superLevel": 125,
+    "costID": 134,
+    "costNum": 165
+  },
+  "726": {
+    "id": 726,
+    "quality": "purple",
+    "superLevel": 126,
+    "costID": 134,
+    "costNum": 165
+  },
+  "727": {
+    "id": 727,
+    "quality": "purple",
+    "superLevel": 127,
+    "costID": 134,
+    "costNum": 165
+  },
+  "728": {
+    "id": 728,
+    "quality": "purple",
+    "superLevel": 128,
+    "costID": 134,
+    "costNum": 165
+  },
+  "729": {
+    "id": 729,
+    "quality": "purple",
+    "superLevel": 129,
+    "costID": 134,
+    "costNum": 165
+  },
+  "730": {
+    "id": 730,
+    "quality": "purple",
+    "superLevel": 130,
+    "costID": 134,
+    "costNum": 165
+  },
+  "731": {
+    "id": 731,
+    "quality": "purple",
+    "superLevel": 131,
+    "costID": 134,
+    "costNum": 200
+  },
+  "732": {
+    "id": 732,
+    "quality": "purple",
+    "superLevel": 132,
+    "costID": 134,
+    "costNum": 200
+  },
+  "733": {
+    "id": 733,
+    "quality": "purple",
+    "superLevel": 133,
+    "costID": 134,
+    "costNum": 200
+  },
+  "734": {
+    "id": 734,
+    "quality": "purple",
+    "superLevel": 134,
+    "costID": 134,
+    "costNum": 200
+  },
+  "735": {
+    "id": 735,
+    "quality": "purple",
+    "superLevel": 135,
+    "costID": 134,
+    "costNum": 200
+  },
+  "736": {
+    "id": 736,
+    "quality": "purple",
+    "superLevel": 136,
+    "costID": 134,
+    "costNum": 200
+  },
+  "737": {
+    "id": 737,
+    "quality": "purple",
+    "superLevel": 137,
+    "costID": 134,
+    "costNum": 200
+  },
+  "738": {
+    "id": 738,
+    "quality": "purple",
+    "superLevel": 138,
+    "costID": 134,
+    "costNum": 200
+  },
+  "739": {
+    "id": 739,
+    "quality": "purple",
+    "superLevel": 139,
+    "costID": 134,
+    "costNum": 200
+  },
+  "740": {
+    "id": 740,
+    "quality": "purple",
+    "superLevel": 140,
+    "costID": 134,
+    "costNum": 200
+  },
+  "741": {
+    "id": 741,
+    "quality": "purple",
+    "superLevel": 141,
+    "costID": 134,
+    "costNum": 280
+  },
+  "742": {
+    "id": 742,
+    "quality": "purple",
+    "superLevel": 142,
+    "costID": 134,
+    "costNum": 280
+  },
+  "743": {
+    "id": 743,
+    "quality": "purple",
+    "superLevel": 143,
+    "costID": 134,
+    "costNum": 280
+  },
+  "744": {
+    "id": 744,
+    "quality": "purple",
+    "superLevel": 144,
+    "costID": 134,
+    "costNum": 280
+  },
+  "745": {
+    "id": 745,
+    "quality": "purple",
+    "superLevel": 145,
+    "costID": 134,
+    "costNum": 280
+  },
+  "746": {
+    "id": 746,
+    "quality": "purple",
+    "superLevel": 146,
+    "costID": 134,
+    "costNum": 280
+  },
+  "747": {
+    "id": 747,
+    "quality": "purple",
+    "superLevel": 147,
+    "costID": 134,
+    "costNum": 280
+  },
+  "748": {
+    "id": 748,
+    "quality": "purple",
+    "superLevel": 148,
+    "costID": 134,
+    "costNum": 280
+  },
+  "749": {
+    "id": 749,
+    "quality": "purple",
+    "superLevel": 149,
+    "costID": 134,
+    "costNum": 280
+  },
+  "750": {
+    "id": 750,
+    "quality": "purple",
+    "superLevel": 150,
+    "costID": 134,
+    "costNum": 280
+  },
+  "751": {
+    "id": 751,
+    "quality": "purple",
+    "superLevel": 151,
+    "costID": 134,
+    "costNum": 325
+  },
+  "752": {
+    "id": 752,
+    "quality": "purple",
+    "superLevel": 152,
+    "costID": 134,
+    "costNum": 325
+  },
+  "753": {
+    "id": 753,
+    "quality": "purple",
+    "superLevel": 153,
+    "costID": 134,
+    "costNum": 325
+  },
+  "754": {
+    "id": 754,
+    "quality": "purple",
+    "superLevel": 154,
+    "costID": 134,
+    "costNum": 325
+  },
+  "755": {
+    "id": 755,
+    "quality": "purple",
+    "superLevel": 155,
+    "costID": 134,
+    "costNum": 325
+  },
+  "756": {
+    "id": 756,
+    "quality": "purple",
+    "superLevel": 156,
+    "costID": 134,
+    "costNum": 325
+  },
+  "757": {
+    "id": 757,
+    "quality": "purple",
+    "superLevel": 157,
+    "costID": 134,
+    "costNum": 325
+  },
+  "758": {
+    "id": 758,
+    "quality": "purple",
+    "superLevel": 158,
+    "costID": 134,
+    "costNum": 325
+  },
+  "759": {
+    "id": 759,
+    "quality": "purple",
+    "superLevel": 159,
+    "costID": 134,
+    "costNum": 325
+  },
+  "760": {
+    "id": 760,
+    "quality": "purple",
+    "superLevel": 160,
+    "costID": 134,
+    "costNum": 325
+  },
+  "761": {
+    "id": 761,
+    "quality": "purple",
+    "superLevel": 161,
+    "costID": 134,
+    "costNum": 435
+  },
+  "762": {
+    "id": 762,
+    "quality": "purple",
+    "superLevel": 162,
+    "costID": 134,
+    "costNum": 435
+  },
+  "763": {
+    "id": 763,
+    "quality": "purple",
+    "superLevel": 163,
+    "costID": 134,
+    "costNum": 435
+  },
+  "764": {
+    "id": 764,
+    "quality": "purple",
+    "superLevel": 164,
+    "costID": 134,
+    "costNum": 435
+  },
+  "765": {
+    "id": 765,
+    "quality": "purple",
+    "superLevel": 165,
+    "costID": 134,
+    "costNum": 435
+  },
+  "766": {
+    "id": 766,
+    "quality": "purple",
+    "superLevel": 166,
+    "costID": 134,
+    "costNum": 435
+  },
+  "767": {
+    "id": 767,
+    "quality": "purple",
+    "superLevel": 167,
+    "costID": 134,
+    "costNum": 435
+  },
+  "768": {
+    "id": 768,
+    "quality": "purple",
+    "superLevel": 168,
+    "costID": 134,
+    "costNum": 435
+  },
+  "769": {
+    "id": 769,
+    "quality": "purple",
+    "superLevel": 169,
+    "costID": 134,
+    "costNum": 435
+  },
+  "770": {
+    "id": 770,
+    "quality": "purple",
+    "superLevel": 170,
+    "costID": 134,
+    "costNum": 435
+  },
+  "771": {
+    "id": 771,
+    "quality": "purple",
+    "superLevel": 171,
+    "costID": 134,
+    "costNum": 550
+  },
+  "772": {
+    "id": 772,
+    "quality": "purple",
+    "superLevel": 172,
+    "costID": 134,
+    "costNum": 550
+  },
+  "773": {
+    "id": 773,
+    "quality": "purple",
+    "superLevel": 173,
+    "costID": 134,
+    "costNum": 550
+  },
+  "774": {
+    "id": 774,
+    "quality": "purple",
+    "superLevel": 174,
+    "costID": 134,
+    "costNum": 550
+  },
+  "775": {
+    "id": 775,
+    "quality": "purple",
+    "superLevel": 175,
+    "costID": 134,
+    "costNum": 550
+  },
+  "776": {
+    "id": 776,
+    "quality": "purple",
+    "superLevel": 176,
+    "costID": 134,
+    "costNum": 550
+  },
+  "777": {
+    "id": 777,
+    "quality": "purple",
+    "superLevel": 177,
+    "costID": 134,
+    "costNum": 550
+  },
+  "778": {
+    "id": 778,
+    "quality": "purple",
+    "superLevel": 178,
+    "costID": 134,
+    "costNum": 550
+  },
+  "779": {
+    "id": 779,
+    "quality": "purple",
+    "superLevel": 179,
+    "costID": 134,
+    "costNum": 550
+  },
+  "780": {
+    "id": 780,
+    "quality": "purple",
+    "superLevel": 180,
+    "costID": 134,
+    "costNum": 550
+  },
+  "781": {
+    "id": 781,
+    "quality": "purple",
+    "superLevel": 181,
+    "costID": 134,
+    "costNum": 660
+  },
+  "782": {
+    "id": 782,
+    "quality": "purple",
+    "superLevel": 182,
+    "costID": 134,
+    "costNum": 660
+  },
+  "783": {
+    "id": 783,
+    "quality": "purple",
+    "superLevel": 183,
+    "costID": 134,
+    "costNum": 660
+  },
+  "784": {
+    "id": 784,
+    "quality": "purple",
+    "superLevel": 184,
+    "costID": 134,
+    "costNum": 660
+  },
+  "785": {
+    "id": 785,
+    "quality": "purple",
+    "superLevel": 185,
+    "costID": 134,
+    "costNum": 660
+  },
+  "786": {
+    "id": 786,
+    "quality": "purple",
+    "superLevel": 186,
+    "costID": 134,
+    "costNum": 660
+  },
+  "787": {
+    "id": 787,
+    "quality": "purple",
+    "superLevel": 187,
+    "costID": 134,
+    "costNum": 660
+  },
+  "788": {
+    "id": 788,
+    "quality": "purple",
+    "superLevel": 188,
+    "costID": 134,
+    "costNum": 660
+  },
+  "789": {
+    "id": 789,
+    "quality": "purple",
+    "superLevel": 189,
+    "costID": 134,
+    "costNum": 660
+  },
+  "790": {
+    "id": 790,
+    "quality": "purple",
+    "superLevel": 190,
+    "costID": 134,
+    "costNum": 660
+  },
+  "791": {
+    "id": 791,
+    "quality": "purple",
+    "superLevel": 191,
+    "costID": 134,
+    "costNum": 900
+  },
+  "792": {
+    "id": 792,
+    "quality": "purple",
+    "superLevel": 192,
+    "costID": 134,
+    "costNum": 900
+  },
+  "793": {
+    "id": 793,
+    "quality": "purple",
+    "superLevel": 193,
+    "costID": 134,
+    "costNum": 900
+  },
+  "794": {
+    "id": 794,
+    "quality": "purple",
+    "superLevel": 194,
+    "costID": 134,
+    "costNum": 900
+  },
+  "795": {
+    "id": 795,
+    "quality": "purple",
+    "superLevel": 195,
+    "costID": 134,
+    "costNum": 900
+  },
+  "796": {
+    "id": 796,
+    "quality": "purple",
+    "superLevel": 196,
+    "costID": 134,
+    "costNum": 900
+  },
+  "797": {
+    "id": 797,
+    "quality": "purple",
+    "superLevel": 197,
+    "costID": 134,
+    "costNum": 900
+  },
+  "798": {
+    "id": 798,
+    "quality": "purple",
+    "superLevel": 198,
+    "costID": 134,
+    "costNum": 900
+  },
+  "799": {
+    "id": 799,
+    "quality": "purple",
+    "superLevel": 199,
+    "costID": 134,
+    "costNum": 900
+  },
+  "800": {
+    "id": 800,
+    "quality": "purple",
+    "superLevel": 200,
+    "costID": 134,
+    "costNum": 900
+  },
+  "801": {
+    "id": 801,
+    "quality": "purple",
+    "superLevel": 201,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "802": {
+    "id": 802,
+    "quality": "purple",
+    "superLevel": 202,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "803": {
+    "id": 803,
+    "quality": "purple",
+    "superLevel": 203,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "804": {
+    "id": 804,
+    "quality": "purple",
+    "superLevel": 204,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "805": {
+    "id": 805,
+    "quality": "purple",
+    "superLevel": 205,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "806": {
+    "id": 806,
+    "quality": "purple",
+    "superLevel": 206,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "807": {
+    "id": 807,
+    "quality": "purple",
+    "superLevel": 207,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "808": {
+    "id": 808,
+    "quality": "purple",
+    "superLevel": 208,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "809": {
+    "id": 809,
+    "quality": "purple",
+    "superLevel": 209,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "810": {
+    "id": 810,
+    "quality": "purple",
+    "superLevel": 210,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "811": {
+    "id": 811,
+    "quality": "purple",
+    "superLevel": 211,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "812": {
+    "id": 812,
+    "quality": "purple",
+    "superLevel": 212,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "813": {
+    "id": 813,
+    "quality": "purple",
+    "superLevel": 213,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "814": {
+    "id": 814,
+    "quality": "purple",
+    "superLevel": 214,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "815": {
+    "id": 815,
+    "quality": "purple",
+    "superLevel": 215,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "816": {
+    "id": 816,
+    "quality": "purple",
+    "superLevel": 216,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "817": {
+    "id": 817,
+    "quality": "purple",
+    "superLevel": 217,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "818": {
+    "id": 818,
+    "quality": "purple",
+    "superLevel": 218,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "819": {
+    "id": 819,
+    "quality": "purple",
+    "superLevel": 219,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "820": {
+    "id": 820,
+    "quality": "purple",
+    "superLevel": 220,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "821": {
+    "id": 821,
+    "quality": "purple",
+    "superLevel": 221,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "822": {
+    "id": 822,
+    "quality": "purple",
+    "superLevel": 222,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "823": {
+    "id": 823,
+    "quality": "purple",
+    "superLevel": 223,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "824": {
+    "id": 824,
+    "quality": "purple",
+    "superLevel": 224,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "825": {
+    "id": 825,
+    "quality": "purple",
+    "superLevel": 225,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "826": {
+    "id": 826,
+    "quality": "purple",
+    "superLevel": 226,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "827": {
+    "id": 827,
+    "quality": "purple",
+    "superLevel": 227,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "828": {
+    "id": 828,
+    "quality": "purple",
+    "superLevel": 228,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "829": {
+    "id": 829,
+    "quality": "purple",
+    "superLevel": 229,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "830": {
+    "id": 830,
+    "quality": "purple",
+    "superLevel": 230,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "831": {
+    "id": 831,
+    "quality": "purple",
+    "superLevel": 231,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "832": {
+    "id": 832,
+    "quality": "purple",
+    "superLevel": 232,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "833": {
+    "id": 833,
+    "quality": "purple",
+    "superLevel": 233,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "834": {
+    "id": 834,
+    "quality": "purple",
+    "superLevel": 234,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "835": {
+    "id": 835,
+    "quality": "purple",
+    "superLevel": 235,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "836": {
+    "id": 836,
+    "quality": "purple",
+    "superLevel": 236,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "837": {
+    "id": 837,
+    "quality": "purple",
+    "superLevel": 237,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "838": {
+    "id": 838,
+    "quality": "purple",
+    "superLevel": 238,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "839": {
+    "id": 839,
+    "quality": "purple",
+    "superLevel": 239,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "840": {
+    "id": 840,
+    "quality": "purple",
+    "superLevel": 240,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "841": {
+    "id": 841,
+    "quality": "purple",
+    "superLevel": 241,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "842": {
+    "id": 842,
+    "quality": "purple",
+    "superLevel": 242,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "843": {
+    "id": 843,
+    "quality": "purple",
+    "superLevel": 243,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "844": {
+    "id": 844,
+    "quality": "purple",
+    "superLevel": 244,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "845": {
+    "id": 845,
+    "quality": "purple",
+    "superLevel": 245,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "846": {
+    "id": 846,
+    "quality": "purple",
+    "superLevel": 246,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "847": {
+    "id": 847,
+    "quality": "purple",
+    "superLevel": 247,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "848": {
+    "id": 848,
+    "quality": "purple",
+    "superLevel": 248,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "849": {
+    "id": 849,
+    "quality": "purple",
+    "superLevel": 249,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "850": {
+    "id": 850,
+    "quality": "purple",
+    "superLevel": 250,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "851": {
+    "id": 851,
+    "quality": "purple",
+    "superLevel": 251,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "852": {
+    "id": 852,
+    "quality": "purple",
+    "superLevel": 252,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "853": {
+    "id": 853,
+    "quality": "purple",
+    "superLevel": 253,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "854": {
+    "id": 854,
+    "quality": "purple",
+    "superLevel": 254,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "855": {
+    "id": 855,
+    "quality": "purple",
+    "superLevel": 255,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "856": {
+    "id": 856,
+    "quality": "purple",
+    "superLevel": 256,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "857": {
+    "id": 857,
+    "quality": "purple",
+    "superLevel": 257,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "858": {
+    "id": 858,
+    "quality": "purple",
+    "superLevel": 258,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "859": {
+    "id": 859,
+    "quality": "purple",
+    "superLevel": 259,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "860": {
+    "id": 860,
+    "quality": "purple",
+    "superLevel": 260,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "861": {
+    "id": 861,
+    "quality": "purple",
+    "superLevel": 261,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "862": {
+    "id": 862,
+    "quality": "purple",
+    "superLevel": 262,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "863": {
+    "id": 863,
+    "quality": "purple",
+    "superLevel": 263,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "864": {
+    "id": 864,
+    "quality": "purple",
+    "superLevel": 264,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "865": {
+    "id": 865,
+    "quality": "purple",
+    "superLevel": 265,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "866": {
+    "id": 866,
+    "quality": "purple",
+    "superLevel": 266,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "867": {
+    "id": 867,
+    "quality": "purple",
+    "superLevel": 267,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "868": {
+    "id": 868,
+    "quality": "purple",
+    "superLevel": 268,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "869": {
+    "id": 869,
+    "quality": "purple",
+    "superLevel": 269,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "870": {
+    "id": 870,
+    "quality": "purple",
+    "superLevel": 270,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "871": {
+    "id": 871,
+    "quality": "purple",
+    "superLevel": 271,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "872": {
+    "id": 872,
+    "quality": "purple",
+    "superLevel": 272,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "873": {
+    "id": 873,
+    "quality": "purple",
+    "superLevel": 273,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "874": {
+    "id": 874,
+    "quality": "purple",
+    "superLevel": 274,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "875": {
+    "id": 875,
+    "quality": "purple",
+    "superLevel": 275,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "876": {
+    "id": 876,
+    "quality": "purple",
+    "superLevel": 276,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "877": {
+    "id": 877,
+    "quality": "purple",
+    "superLevel": 277,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "878": {
+    "id": 878,
+    "quality": "purple",
+    "superLevel": 278,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "879": {
+    "id": 879,
+    "quality": "purple",
+    "superLevel": 279,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "880": {
+    "id": 880,
+    "quality": "purple",
+    "superLevel": 280,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "881": {
+    "id": 881,
+    "quality": "purple",
+    "superLevel": 281,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "882": {
+    "id": 882,
+    "quality": "purple",
+    "superLevel": 282,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "883": {
+    "id": 883,
+    "quality": "purple",
+    "superLevel": 283,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "884": {
+    "id": 884,
+    "quality": "purple",
+    "superLevel": 284,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "885": {
+    "id": 885,
+    "quality": "purple",
+    "superLevel": 285,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "886": {
+    "id": 886,
+    "quality": "purple",
+    "superLevel": 286,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "887": {
+    "id": 887,
+    "quality": "purple",
+    "superLevel": 287,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "888": {
+    "id": 888,
+    "quality": "purple",
+    "superLevel": 288,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "889": {
+    "id": 889,
+    "quality": "purple",
+    "superLevel": 289,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "890": {
+    "id": 890,
+    "quality": "purple",
+    "superLevel": 290,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "891": {
+    "id": 891,
+    "quality": "purple",
+    "superLevel": 291,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "892": {
+    "id": 892,
+    "quality": "purple",
+    "superLevel": 292,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "893": {
+    "id": 893,
+    "quality": "purple",
+    "superLevel": 293,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "894": {
+    "id": 894,
+    "quality": "purple",
+    "superLevel": 294,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "895": {
+    "id": 895,
+    "quality": "purple",
+    "superLevel": 295,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "896": {
+    "id": 896,
+    "quality": "purple",
+    "superLevel": 296,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "897": {
+    "id": 897,
+    "quality": "purple",
+    "superLevel": 297,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "898": {
+    "id": 898,
+    "quality": "purple",
+    "superLevel": 298,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "899": {
+    "id": 899,
+    "quality": "purple",
+    "superLevel": 299,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "900": {
+    "id": 900,
+    "quality": "purple",
+    "superLevel": 300,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "901": {
+    "id": 901,
+    "quality": "orange",
+    "superLevel": 1,
+    "costID": 134,
+    "costNum": 10
+  },
+  "902": {
+    "id": 902,
+    "quality": "orange",
+    "superLevel": 2,
+    "costID": 134,
+    "costNum": 10
+  },
+  "903": {
+    "id": 903,
+    "quality": "orange",
+    "superLevel": 3,
+    "costID": 134,
+    "costNum": 10
+  },
+  "904": {
+    "id": 904,
+    "quality": "orange",
+    "superLevel": 4,
+    "costID": 134,
+    "costNum": 10
+  },
+  "905": {
+    "id": 905,
+    "quality": "orange",
+    "superLevel": 5,
+    "costID": 134,
+    "costNum": 10
+  },
+  "906": {
+    "id": 906,
+    "quality": "orange",
+    "superLevel": 6,
+    "costID": 134,
+    "costNum": 10
+  },
+  "907": {
+    "id": 907,
+    "quality": "orange",
+    "superLevel": 7,
+    "costID": 134,
+    "costNum": 10
+  },
+  "908": {
+    "id": 908,
+    "quality": "orange",
+    "superLevel": 8,
+    "costID": 134,
+    "costNum": 10
+  },
+  "909": {
+    "id": 909,
+    "quality": "orange",
+    "superLevel": 9,
+    "costID": 134,
+    "costNum": 10
+  },
+  "910": {
+    "id": 910,
+    "quality": "orange",
+    "superLevel": 10,
+    "costID": 134,
+    "costNum": 10
+  },
+  "911": {
+    "id": 911,
+    "quality": "orange",
+    "superLevel": 11,
+    "costID": 134,
+    "costNum": 10
+  },
+  "912": {
+    "id": 912,
+    "quality": "orange",
+    "superLevel": 12,
+    "costID": 134,
+    "costNum": 10
+  },
+  "913": {
+    "id": 913,
+    "quality": "orange",
+    "superLevel": 13,
+    "costID": 134,
+    "costNum": 10
+  },
+  "914": {
+    "id": 914,
+    "quality": "orange",
+    "superLevel": 14,
+    "costID": 134,
+    "costNum": 10
+  },
+  "915": {
+    "id": 915,
+    "quality": "orange",
+    "superLevel": 15,
+    "costID": 134,
+    "costNum": 10
+  },
+  "916": {
+    "id": 916,
+    "quality": "orange",
+    "superLevel": 16,
+    "costID": 134,
+    "costNum": 10
+  },
+  "917": {
+    "id": 917,
+    "quality": "orange",
+    "superLevel": 17,
+    "costID": 134,
+    "costNum": 10
+  },
+  "918": {
+    "id": 918,
+    "quality": "orange",
+    "superLevel": 18,
+    "costID": 134,
+    "costNum": 10
+  },
+  "919": {
+    "id": 919,
+    "quality": "orange",
+    "superLevel": 19,
+    "costID": 134,
+    "costNum": 10
+  },
+  "920": {
+    "id": 920,
+    "quality": "orange",
+    "superLevel": 20,
+    "costID": 134,
+    "costNum": 10
+  },
+  "921": {
+    "id": 921,
+    "quality": "orange",
+    "superLevel": 21,
+    "costID": 134,
+    "costNum": 10
+  },
+  "922": {
+    "id": 922,
+    "quality": "orange",
+    "superLevel": 22,
+    "costID": 134,
+    "costNum": 10
+  },
+  "923": {
+    "id": 923,
+    "quality": "orange",
+    "superLevel": 23,
+    "costID": 134,
+    "costNum": 10
+  },
+  "924": {
+    "id": 924,
+    "quality": "orange",
+    "superLevel": 24,
+    "costID": 134,
+    "costNum": 10
+  },
+  "925": {
+    "id": 925,
+    "quality": "orange",
+    "superLevel": 25,
+    "costID": 134,
+    "costNum": 10
+  },
+  "926": {
+    "id": 926,
+    "quality": "orange",
+    "superLevel": 26,
+    "costID": 134,
+    "costNum": 10
+  },
+  "927": {
+    "id": 927,
+    "quality": "orange",
+    "superLevel": 27,
+    "costID": 134,
+    "costNum": 10
+  },
+  "928": {
+    "id": 928,
+    "quality": "orange",
+    "superLevel": 28,
+    "costID": 134,
+    "costNum": 10
+  },
+  "929": {
+    "id": 929,
+    "quality": "orange",
+    "superLevel": 29,
+    "costID": 134,
+    "costNum": 10
+  },
+  "930": {
+    "id": 930,
+    "quality": "orange",
+    "superLevel": 30,
+    "costID": 134,
+    "costNum": 10
+  },
+  "931": {
+    "id": 931,
+    "quality": "orange",
+    "superLevel": 31,
+    "costID": 134,
+    "costNum": 20
+  },
+  "932": {
+    "id": 932,
+    "quality": "orange",
+    "superLevel": 32,
+    "costID": 134,
+    "costNum": 20
+  },
+  "933": {
+    "id": 933,
+    "quality": "orange",
+    "superLevel": 33,
+    "costID": 134,
+    "costNum": 20
+  },
+  "934": {
+    "id": 934,
+    "quality": "orange",
+    "superLevel": 34,
+    "costID": 134,
+    "costNum": 20
+  },
+  "935": {
+    "id": 935,
+    "quality": "orange",
+    "superLevel": 35,
+    "costID": 134,
+    "costNum": 20
+  },
+  "936": {
+    "id": 936,
+    "quality": "orange",
+    "superLevel": 36,
+    "costID": 134,
+    "costNum": 20
+  },
+  "937": {
+    "id": 937,
+    "quality": "orange",
+    "superLevel": 37,
+    "costID": 134,
+    "costNum": 20
+  },
+  "938": {
+    "id": 938,
+    "quality": "orange",
+    "superLevel": 38,
+    "costID": 134,
+    "costNum": 20
+  },
+  "939": {
+    "id": 939,
+    "quality": "orange",
+    "superLevel": 39,
+    "costID": 134,
+    "costNum": 20
+  },
+  "940": {
+    "id": 940,
+    "quality": "orange",
+    "superLevel": 40,
+    "costID": 134,
+    "costNum": 20
+  },
+  "941": {
+    "id": 941,
+    "quality": "orange",
+    "superLevel": 41,
+    "costID": 134,
+    "costNum": 20
+  },
+  "942": {
+    "id": 942,
+    "quality": "orange",
+    "superLevel": 42,
+    "costID": 134,
+    "costNum": 20
+  },
+  "943": {
+    "id": 943,
+    "quality": "orange",
+    "superLevel": 43,
+    "costID": 134,
+    "costNum": 20
+  },
+  "944": {
+    "id": 944,
+    "quality": "orange",
+    "superLevel": 44,
+    "costID": 134,
+    "costNum": 20
+  },
+  "945": {
+    "id": 945,
+    "quality": "orange",
+    "superLevel": 45,
+    "costID": 134,
+    "costNum": 20
+  },
+  "946": {
+    "id": 946,
+    "quality": "orange",
+    "superLevel": 46,
+    "costID": 134,
+    "costNum": 20
+  },
+  "947": {
+    "id": 947,
+    "quality": "orange",
+    "superLevel": 47,
+    "costID": 134,
+    "costNum": 20
+  },
+  "948": {
+    "id": 948,
+    "quality": "orange",
+    "superLevel": 48,
+    "costID": 134,
+    "costNum": 20
+  },
+  "949": {
+    "id": 949,
+    "quality": "orange",
+    "superLevel": 49,
+    "costID": 134,
+    "costNum": 20
+  },
+  "950": {
+    "id": 950,
+    "quality": "orange",
+    "superLevel": 50,
+    "costID": 134,
+    "costNum": 20
+  },
+  "951": {
+    "id": 951,
+    "quality": "orange",
+    "superLevel": 51,
+    "costID": 134,
+    "costNum": 30
+  },
+  "952": {
+    "id": 952,
+    "quality": "orange",
+    "superLevel": 52,
+    "costID": 134,
+    "costNum": 30
+  },
+  "953": {
+    "id": 953,
+    "quality": "orange",
+    "superLevel": 53,
+    "costID": 134,
+    "costNum": 30
+  },
+  "954": {
+    "id": 954,
+    "quality": "orange",
+    "superLevel": 54,
+    "costID": 134,
+    "costNum": 30
+  },
+  "955": {
+    "id": 955,
+    "quality": "orange",
+    "superLevel": 55,
+    "costID": 134,
+    "costNum": 30
+  },
+  "956": {
+    "id": 956,
+    "quality": "orange",
+    "superLevel": 56,
+    "costID": 134,
+    "costNum": 30
+  },
+  "957": {
+    "id": 957,
+    "quality": "orange",
+    "superLevel": 57,
+    "costID": 134,
+    "costNum": 30
+  },
+  "958": {
+    "id": 958,
+    "quality": "orange",
+    "superLevel": 58,
+    "costID": 134,
+    "costNum": 30
+  },
+  "959": {
+    "id": 959,
+    "quality": "orange",
+    "superLevel": 59,
+    "costID": 134,
+    "costNum": 30
+  },
+  "960": {
+    "id": 960,
+    "quality": "orange",
+    "superLevel": 60,
+    "costID": 134,
+    "costNum": 30
+  },
+  "961": {
+    "id": 961,
+    "quality": "orange",
+    "superLevel": 61,
+    "costID": 134,
+    "costNum": 30
+  },
+  "962": {
+    "id": 962,
+    "quality": "orange",
+    "superLevel": 62,
+    "costID": 134,
+    "costNum": 30
+  },
+  "963": {
+    "id": 963,
+    "quality": "orange",
+    "superLevel": 63,
+    "costID": 134,
+    "costNum": 30
+  },
+  "964": {
+    "id": 964,
+    "quality": "orange",
+    "superLevel": 64,
+    "costID": 134,
+    "costNum": 30
+  },
+  "965": {
+    "id": 965,
+    "quality": "orange",
+    "superLevel": 65,
+    "costID": 134,
+    "costNum": 30
+  },
+  "966": {
+    "id": 966,
+    "quality": "orange",
+    "superLevel": 66,
+    "costID": 134,
+    "costNum": 30
+  },
+  "967": {
+    "id": 967,
+    "quality": "orange",
+    "superLevel": 67,
+    "costID": 134,
+    "costNum": 30
+  },
+  "968": {
+    "id": 968,
+    "quality": "orange",
+    "superLevel": 68,
+    "costID": 134,
+    "costNum": 30
+  },
+  "969": {
+    "id": 969,
+    "quality": "orange",
+    "superLevel": 69,
+    "costID": 134,
+    "costNum": 30
+  },
+  "970": {
+    "id": 970,
+    "quality": "orange",
+    "superLevel": 70,
+    "costID": 134,
+    "costNum": 30
+  },
+  "971": {
+    "id": 971,
+    "quality": "orange",
+    "superLevel": 71,
+    "costID": 134,
+    "costNum": 30
+  },
+  "972": {
+    "id": 972,
+    "quality": "orange",
+    "superLevel": 72,
+    "costID": 134,
+    "costNum": 30
+  },
+  "973": {
+    "id": 973,
+    "quality": "orange",
+    "superLevel": 73,
+    "costID": 134,
+    "costNum": 30
+  },
+  "974": {
+    "id": 974,
+    "quality": "orange",
+    "superLevel": 74,
+    "costID": 134,
+    "costNum": 30
+  },
+  "975": {
+    "id": 975,
+    "quality": "orange",
+    "superLevel": 75,
+    "costID": 134,
+    "costNum": 30
+  },
+  "976": {
+    "id": 976,
+    "quality": "orange",
+    "superLevel": 76,
+    "costID": 134,
+    "costNum": 30
+  },
+  "977": {
+    "id": 977,
+    "quality": "orange",
+    "superLevel": 77,
+    "costID": 134,
+    "costNum": 30
+  },
+  "978": {
+    "id": 978,
+    "quality": "orange",
+    "superLevel": 78,
+    "costID": 134,
+    "costNum": 30
+  },
+  "979": {
+    "id": 979,
+    "quality": "orange",
+    "superLevel": 79,
+    "costID": 134,
+    "costNum": 30
+  },
+  "980": {
+    "id": 980,
+    "quality": "orange",
+    "superLevel": 80,
+    "costID": 134,
+    "costNum": 30
+  },
+  "981": {
+    "id": 981,
+    "quality": "orange",
+    "superLevel": 81,
+    "costID": 134,
+    "costNum": 30
+  },
+  "982": {
+    "id": 982,
+    "quality": "orange",
+    "superLevel": 82,
+    "costID": 134,
+    "costNum": 30
+  },
+  "983": {
+    "id": 983,
+    "quality": "orange",
+    "superLevel": 83,
+    "costID": 134,
+    "costNum": 30
+  },
+  "984": {
+    "id": 984,
+    "quality": "orange",
+    "superLevel": 84,
+    "costID": 134,
+    "costNum": 30
+  },
+  "985": {
+    "id": 985,
+    "quality": "orange",
+    "superLevel": 85,
+    "costID": 134,
+    "costNum": 30
+  },
+  "986": {
+    "id": 986,
+    "quality": "orange",
+    "superLevel": 86,
+    "costID": 134,
+    "costNum": 30
+  },
+  "987": {
+    "id": 987,
+    "quality": "orange",
+    "superLevel": 87,
+    "costID": 134,
+    "costNum": 30
+  },
+  "988": {
+    "id": 988,
+    "quality": "orange",
+    "superLevel": 88,
+    "costID": 134,
+    "costNum": 30
+  },
+  "989": {
+    "id": 989,
+    "quality": "orange",
+    "superLevel": 89,
+    "costID": 134,
+    "costNum": 30
+  },
+  "990": {
+    "id": 990,
+    "quality": "orange",
+    "superLevel": 90,
+    "costID": 134,
+    "costNum": 30
+  },
+  "991": {
+    "id": 991,
+    "quality": "orange",
+    "superLevel": 91,
+    "costID": 134,
+    "costNum": 30
+  },
+  "992": {
+    "id": 992,
+    "quality": "orange",
+    "superLevel": 92,
+    "costID": 134,
+    "costNum": 30
+  },
+  "993": {
+    "id": 993,
+    "quality": "orange",
+    "superLevel": 93,
+    "costID": 134,
+    "costNum": 30
+  },
+  "994": {
+    "id": 994,
+    "quality": "orange",
+    "superLevel": 94,
+    "costID": 134,
+    "costNum": 30
+  },
+  "995": {
+    "id": 995,
+    "quality": "orange",
+    "superLevel": 95,
+    "costID": 134,
+    "costNum": 30
+  },
+  "996": {
+    "id": 996,
+    "quality": "orange",
+    "superLevel": 96,
+    "costID": 134,
+    "costNum": 30
+  },
+  "997": {
+    "id": 997,
+    "quality": "orange",
+    "superLevel": 97,
+    "costID": 134,
+    "costNum": 30
+  },
+  "998": {
+    "id": 998,
+    "quality": "orange",
+    "superLevel": 98,
+    "costID": 134,
+    "costNum": 30
+  },
+  "999": {
+    "id": 999,
+    "quality": "orange",
+    "superLevel": 99,
+    "costID": 134,
+    "costNum": 30
+  },
+  "1000": {
+    "id": 1000,
+    "quality": "orange",
+    "superLevel": 100,
+    "costID": 134,
+    "costNum": 30
+  },
+  "1001": {
+    "id": 1001,
+    "quality": "orange",
+    "superLevel": 101,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1002": {
+    "id": 1002,
+    "quality": "orange",
+    "superLevel": 102,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1003": {
+    "id": 1003,
+    "quality": "orange",
+    "superLevel": 103,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1004": {
+    "id": 1004,
+    "quality": "orange",
+    "superLevel": 104,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1005": {
+    "id": 1005,
+    "quality": "orange",
+    "superLevel": 105,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1006": {
+    "id": 1006,
+    "quality": "orange",
+    "superLevel": 106,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1007": {
+    "id": 1007,
+    "quality": "orange",
+    "superLevel": 107,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1008": {
+    "id": 1008,
+    "quality": "orange",
+    "superLevel": 108,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1009": {
+    "id": 1009,
+    "quality": "orange",
+    "superLevel": 109,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1010": {
+    "id": 1010,
+    "quality": "orange",
+    "superLevel": 110,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1011": {
+    "id": 1011,
+    "quality": "orange",
+    "superLevel": 111,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1012": {
+    "id": 1012,
+    "quality": "orange",
+    "superLevel": 112,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1013": {
+    "id": 1013,
+    "quality": "orange",
+    "superLevel": 113,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1014": {
+    "id": 1014,
+    "quality": "orange",
+    "superLevel": 114,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1015": {
+    "id": 1015,
+    "quality": "orange",
+    "superLevel": 115,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1016": {
+    "id": 1016,
+    "quality": "orange",
+    "superLevel": 116,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1017": {
+    "id": 1017,
+    "quality": "orange",
+    "superLevel": 117,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1018": {
+    "id": 1018,
+    "quality": "orange",
+    "superLevel": 118,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1019": {
+    "id": 1019,
+    "quality": "orange",
+    "superLevel": 119,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1020": {
+    "id": 1020,
+    "quality": "orange",
+    "superLevel": 120,
+    "costID": 134,
+    "costNum": 55
+  },
+  "1021": {
+    "id": 1021,
+    "quality": "orange",
+    "superLevel": 121,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1022": {
+    "id": 1022,
+    "quality": "orange",
+    "superLevel": 122,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1023": {
+    "id": 1023,
+    "quality": "orange",
+    "superLevel": 123,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1024": {
+    "id": 1024,
+    "quality": "orange",
+    "superLevel": 124,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1025": {
+    "id": 1025,
+    "quality": "orange",
+    "superLevel": 125,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1026": {
+    "id": 1026,
+    "quality": "orange",
+    "superLevel": 126,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1027": {
+    "id": 1027,
+    "quality": "orange",
+    "superLevel": 127,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1028": {
+    "id": 1028,
+    "quality": "orange",
+    "superLevel": 128,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1029": {
+    "id": 1029,
+    "quality": "orange",
+    "superLevel": 129,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1030": {
+    "id": 1030,
+    "quality": "orange",
+    "superLevel": 130,
+    "costID": 134,
+    "costNum": 165
+  },
+  "1031": {
+    "id": 1031,
+    "quality": "orange",
+    "superLevel": 131,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1032": {
+    "id": 1032,
+    "quality": "orange",
+    "superLevel": 132,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1033": {
+    "id": 1033,
+    "quality": "orange",
+    "superLevel": 133,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1034": {
+    "id": 1034,
+    "quality": "orange",
+    "superLevel": 134,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1035": {
+    "id": 1035,
+    "quality": "orange",
+    "superLevel": 135,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1036": {
+    "id": 1036,
+    "quality": "orange",
+    "superLevel": 136,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1037": {
+    "id": 1037,
+    "quality": "orange",
+    "superLevel": 137,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1038": {
+    "id": 1038,
+    "quality": "orange",
+    "superLevel": 138,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1039": {
+    "id": 1039,
+    "quality": "orange",
+    "superLevel": 139,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1040": {
+    "id": 1040,
+    "quality": "orange",
+    "superLevel": 140,
+    "costID": 134,
+    "costNum": 200
+  },
+  "1041": {
+    "id": 1041,
+    "quality": "orange",
+    "superLevel": 141,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1042": {
+    "id": 1042,
+    "quality": "orange",
+    "superLevel": 142,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1043": {
+    "id": 1043,
+    "quality": "orange",
+    "superLevel": 143,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1044": {
+    "id": 1044,
+    "quality": "orange",
+    "superLevel": 144,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1045": {
+    "id": 1045,
+    "quality": "orange",
+    "superLevel": 145,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1046": {
+    "id": 1046,
+    "quality": "orange",
+    "superLevel": 146,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1047": {
+    "id": 1047,
+    "quality": "orange",
+    "superLevel": 147,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1048": {
+    "id": 1048,
+    "quality": "orange",
+    "superLevel": 148,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1049": {
+    "id": 1049,
+    "quality": "orange",
+    "superLevel": 149,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1050": {
+    "id": 1050,
+    "quality": "orange",
+    "superLevel": 150,
+    "costID": 134,
+    "costNum": 280
+  },
+  "1051": {
+    "id": 1051,
+    "quality": "orange",
+    "superLevel": 151,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1052": {
+    "id": 1052,
+    "quality": "orange",
+    "superLevel": 152,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1053": {
+    "id": 1053,
+    "quality": "orange",
+    "superLevel": 153,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1054": {
+    "id": 1054,
+    "quality": "orange",
+    "superLevel": 154,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1055": {
+    "id": 1055,
+    "quality": "orange",
+    "superLevel": 155,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1056": {
+    "id": 1056,
+    "quality": "orange",
+    "superLevel": 156,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1057": {
+    "id": 1057,
+    "quality": "orange",
+    "superLevel": 157,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1058": {
+    "id": 1058,
+    "quality": "orange",
+    "superLevel": 158,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1059": {
+    "id": 1059,
+    "quality": "orange",
+    "superLevel": 159,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1060": {
+    "id": 1060,
+    "quality": "orange",
+    "superLevel": 160,
+    "costID": 134,
+    "costNum": 325
+  },
+  "1061": {
+    "id": 1061,
+    "quality": "orange",
+    "superLevel": 161,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1062": {
+    "id": 1062,
+    "quality": "orange",
+    "superLevel": 162,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1063": {
+    "id": 1063,
+    "quality": "orange",
+    "superLevel": 163,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1064": {
+    "id": 1064,
+    "quality": "orange",
+    "superLevel": 164,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1065": {
+    "id": 1065,
+    "quality": "orange",
+    "superLevel": 165,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1066": {
+    "id": 1066,
+    "quality": "orange",
+    "superLevel": 166,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1067": {
+    "id": 1067,
+    "quality": "orange",
+    "superLevel": 167,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1068": {
+    "id": 1068,
+    "quality": "orange",
+    "superLevel": 168,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1069": {
+    "id": 1069,
+    "quality": "orange",
+    "superLevel": 169,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1070": {
+    "id": 1070,
+    "quality": "orange",
+    "superLevel": 170,
+    "costID": 134,
+    "costNum": 435
+  },
+  "1071": {
+    "id": 1071,
+    "quality": "orange",
+    "superLevel": 171,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1072": {
+    "id": 1072,
+    "quality": "orange",
+    "superLevel": 172,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1073": {
+    "id": 1073,
+    "quality": "orange",
+    "superLevel": 173,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1074": {
+    "id": 1074,
+    "quality": "orange",
+    "superLevel": 174,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1075": {
+    "id": 1075,
+    "quality": "orange",
+    "superLevel": 175,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1076": {
+    "id": 1076,
+    "quality": "orange",
+    "superLevel": 176,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1077": {
+    "id": 1077,
+    "quality": "orange",
+    "superLevel": 177,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1078": {
+    "id": 1078,
+    "quality": "orange",
+    "superLevel": 178,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1079": {
+    "id": 1079,
+    "quality": "orange",
+    "superLevel": 179,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1080": {
+    "id": 1080,
+    "quality": "orange",
+    "superLevel": 180,
+    "costID": 134,
+    "costNum": 550
+  },
+  "1081": {
+    "id": 1081,
+    "quality": "orange",
+    "superLevel": 181,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1082": {
+    "id": 1082,
+    "quality": "orange",
+    "superLevel": 182,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1083": {
+    "id": 1083,
+    "quality": "orange",
+    "superLevel": 183,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1084": {
+    "id": 1084,
+    "quality": "orange",
+    "superLevel": 184,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1085": {
+    "id": 1085,
+    "quality": "orange",
+    "superLevel": 185,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1086": {
+    "id": 1086,
+    "quality": "orange",
+    "superLevel": 186,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1087": {
+    "id": 1087,
+    "quality": "orange",
+    "superLevel": 187,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1088": {
+    "id": 1088,
+    "quality": "orange",
+    "superLevel": 188,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1089": {
+    "id": 1089,
+    "quality": "orange",
+    "superLevel": 189,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1090": {
+    "id": 1090,
+    "quality": "orange",
+    "superLevel": 190,
+    "costID": 134,
+    "costNum": 660
+  },
+  "1091": {
+    "id": 1091,
+    "quality": "orange",
+    "superLevel": 191,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1092": {
+    "id": 1092,
+    "quality": "orange",
+    "superLevel": 192,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1093": {
+    "id": 1093,
+    "quality": "orange",
+    "superLevel": 193,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1094": {
+    "id": 1094,
+    "quality": "orange",
+    "superLevel": 194,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1095": {
+    "id": 1095,
+    "quality": "orange",
+    "superLevel": 195,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1096": {
+    "id": 1096,
+    "quality": "orange",
+    "superLevel": 196,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1097": {
+    "id": 1097,
+    "quality": "orange",
+    "superLevel": 197,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1098": {
+    "id": 1098,
+    "quality": "orange",
+    "superLevel": 198,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1099": {
+    "id": 1099,
+    "quality": "orange",
+    "superLevel": 199,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1100": {
+    "id": 1100,
+    "quality": "orange",
+    "superLevel": 200,
+    "costID": 134,
+    "costNum": 900
+  },
+  "1101": {
+    "id": 1101,
+    "quality": "orange",
+    "superLevel": 201,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1102": {
+    "id": 1102,
+    "quality": "orange",
+    "superLevel": 202,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1103": {
+    "id": 1103,
+    "quality": "orange",
+    "superLevel": 203,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1104": {
+    "id": 1104,
+    "quality": "orange",
+    "superLevel": 204,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1105": {
+    "id": 1105,
+    "quality": "orange",
+    "superLevel": 205,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1106": {
+    "id": 1106,
+    "quality": "orange",
+    "superLevel": 206,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1107": {
+    "id": 1107,
+    "quality": "orange",
+    "superLevel": 207,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1108": {
+    "id": 1108,
+    "quality": "orange",
+    "superLevel": 208,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1109": {
+    "id": 1109,
+    "quality": "orange",
+    "superLevel": 209,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1110": {
+    "id": 1110,
+    "quality": "orange",
+    "superLevel": 210,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1111": {
+    "id": 1111,
+    "quality": "orange",
+    "superLevel": 211,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1112": {
+    "id": 1112,
+    "quality": "orange",
+    "superLevel": 212,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1113": {
+    "id": 1113,
+    "quality": "orange",
+    "superLevel": 213,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1114": {
+    "id": 1114,
+    "quality": "orange",
+    "superLevel": 214,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1115": {
+    "id": 1115,
+    "quality": "orange",
+    "superLevel": 215,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1116": {
+    "id": 1116,
+    "quality": "orange",
+    "superLevel": 216,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1117": {
+    "id": 1117,
+    "quality": "orange",
+    "superLevel": 217,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1118": {
+    "id": 1118,
+    "quality": "orange",
+    "superLevel": 218,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1119": {
+    "id": 1119,
+    "quality": "orange",
+    "superLevel": 219,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1120": {
+    "id": 1120,
+    "quality": "orange",
+    "superLevel": 220,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1121": {
+    "id": 1121,
+    "quality": "orange",
+    "superLevel": 221,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1122": {
+    "id": 1122,
+    "quality": "orange",
+    "superLevel": 222,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1123": {
+    "id": 1123,
+    "quality": "orange",
+    "superLevel": 223,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1124": {
+    "id": 1124,
+    "quality": "orange",
+    "superLevel": 224,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1125": {
+    "id": 1125,
+    "quality": "orange",
+    "superLevel": 225,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1126": {
+    "id": 1126,
+    "quality": "orange",
+    "superLevel": 226,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1127": {
+    "id": 1127,
+    "quality": "orange",
+    "superLevel": 227,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1128": {
+    "id": 1128,
+    "quality": "orange",
+    "superLevel": 228,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1129": {
+    "id": 1129,
+    "quality": "orange",
+    "superLevel": 229,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1130": {
+    "id": 1130,
+    "quality": "orange",
+    "superLevel": 230,
+    "costID": 134,
+    "costNum": 1305
+  },
+  "1131": {
+    "id": 1131,
+    "quality": "orange",
+    "superLevel": 231,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1132": {
+    "id": 1132,
+    "quality": "orange",
+    "superLevel": 232,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1133": {
+    "id": 1133,
+    "quality": "orange",
+    "superLevel": 233,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1134": {
+    "id": 1134,
+    "quality": "orange",
+    "superLevel": 234,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1135": {
+    "id": 1135,
+    "quality": "orange",
+    "superLevel": 235,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1136": {
+    "id": 1136,
+    "quality": "orange",
+    "superLevel": 236,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1137": {
+    "id": 1137,
+    "quality": "orange",
+    "superLevel": 237,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1138": {
+    "id": 1138,
+    "quality": "orange",
+    "superLevel": 238,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1139": {
+    "id": 1139,
+    "quality": "orange",
+    "superLevel": 239,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1140": {
+    "id": 1140,
+    "quality": "orange",
+    "superLevel": 240,
+    "costID": 134,
+    "costNum": 2100
+  },
+  "1141": {
+    "id": 1141,
+    "quality": "orange",
+    "superLevel": 241,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1142": {
+    "id": 1142,
+    "quality": "orange",
+    "superLevel": 242,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1143": {
+    "id": 1143,
+    "quality": "orange",
+    "superLevel": 243,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1144": {
+    "id": 1144,
+    "quality": "orange",
+    "superLevel": 244,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1145": {
+    "id": 1145,
+    "quality": "orange",
+    "superLevel": 245,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1146": {
+    "id": 1146,
+    "quality": "orange",
+    "superLevel": 246,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1147": {
+    "id": 1147,
+    "quality": "orange",
+    "superLevel": 247,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1148": {
+    "id": 1148,
+    "quality": "orange",
+    "superLevel": 248,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1149": {
+    "id": 1149,
+    "quality": "orange",
+    "superLevel": 249,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1150": {
+    "id": 1150,
+    "quality": "orange",
+    "superLevel": 250,
+    "costID": 134,
+    "costNum": 2590
+  },
+  "1151": {
+    "id": 1151,
+    "quality": "orange",
+    "superLevel": 251,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1152": {
+    "id": 1152,
+    "quality": "orange",
+    "superLevel": 252,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1153": {
+    "id": 1153,
+    "quality": "orange",
+    "superLevel": 253,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1154": {
+    "id": 1154,
+    "quality": "orange",
+    "superLevel": 254,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1155": {
+    "id": 1155,
+    "quality": "orange",
+    "superLevel": 255,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1156": {
+    "id": 1156,
+    "quality": "orange",
+    "superLevel": 256,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1157": {
+    "id": 1157,
+    "quality": "orange",
+    "superLevel": 257,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1158": {
+    "id": 1158,
+    "quality": "orange",
+    "superLevel": 258,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1159": {
+    "id": 1159,
+    "quality": "orange",
+    "superLevel": 259,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1160": {
+    "id": 1160,
+    "quality": "orange",
+    "superLevel": 260,
+    "costID": 134,
+    "costNum": 3435
+  },
+  "1161": {
+    "id": 1161,
+    "quality": "orange",
+    "superLevel": 261,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1162": {
+    "id": 1162,
+    "quality": "orange",
+    "superLevel": 262,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1163": {
+    "id": 1163,
+    "quality": "orange",
+    "superLevel": 263,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1164": {
+    "id": 1164,
+    "quality": "orange",
+    "superLevel": 264,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1165": {
+    "id": 1165,
+    "quality": "orange",
+    "superLevel": 265,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1166": {
+    "id": 1166,
+    "quality": "orange",
+    "superLevel": 266,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1167": {
+    "id": 1167,
+    "quality": "orange",
+    "superLevel": 267,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1168": {
+    "id": 1168,
+    "quality": "orange",
+    "superLevel": 268,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1169": {
+    "id": 1169,
+    "quality": "orange",
+    "superLevel": 269,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1170": {
+    "id": 1170,
+    "quality": "orange",
+    "superLevel": 270,
+    "costID": 134,
+    "costNum": 4540
+  },
+  "1171": {
+    "id": 1171,
+    "quality": "orange",
+    "superLevel": 271,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1172": {
+    "id": 1172,
+    "quality": "orange",
+    "superLevel": 272,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1173": {
+    "id": 1173,
+    "quality": "orange",
+    "superLevel": 273,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1174": {
+    "id": 1174,
+    "quality": "orange",
+    "superLevel": 274,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1175": {
+    "id": 1175,
+    "quality": "orange",
+    "superLevel": 275,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1176": {
+    "id": 1176,
+    "quality": "orange",
+    "superLevel": 276,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1177": {
+    "id": 1177,
+    "quality": "orange",
+    "superLevel": 277,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1178": {
+    "id": 1178,
+    "quality": "orange",
+    "superLevel": 278,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1179": {
+    "id": 1179,
+    "quality": "orange",
+    "superLevel": 279,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1180": {
+    "id": 1180,
+    "quality": "orange",
+    "superLevel": 280,
+    "costID": 134,
+    "costNum": 5565
+  },
+  "1181": {
+    "id": 1181,
+    "quality": "orange",
+    "superLevel": 281,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1182": {
+    "id": 1182,
+    "quality": "orange",
+    "superLevel": 282,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1183": {
+    "id": 1183,
+    "quality": "orange",
+    "superLevel": 283,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1184": {
+    "id": 1184,
+    "quality": "orange",
+    "superLevel": 284,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1185": {
+    "id": 1185,
+    "quality": "orange",
+    "superLevel": 285,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1186": {
+    "id": 1186,
+    "quality": "orange",
+    "superLevel": 286,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1187": {
+    "id": 1187,
+    "quality": "orange",
+    "superLevel": 287,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1188": {
+    "id": 1188,
+    "quality": "orange",
+    "superLevel": 288,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1189": {
+    "id": 1189,
+    "quality": "orange",
+    "superLevel": 289,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1190": {
+    "id": 1190,
+    "quality": "orange",
+    "superLevel": 290,
+    "costID": 134,
+    "costNum": 6725
+  },
+  "1191": {
+    "id": 1191,
+    "quality": "orange",
+    "superLevel": 291,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1192": {
+    "id": 1192,
+    "quality": "orange",
+    "superLevel": 292,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1193": {
+    "id": 1193,
+    "quality": "orange",
+    "superLevel": 293,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1194": {
+    "id": 1194,
+    "quality": "orange",
+    "superLevel": 294,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1195": {
+    "id": 1195,
+    "quality": "orange",
+    "superLevel": 295,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1196": {
+    "id": 1196,
+    "quality": "orange",
+    "superLevel": 296,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1197": {
+    "id": 1197,
+    "quality": "orange",
+    "superLevel": 297,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1198": {
+    "id": 1198,
+    "quality": "orange",
+    "superLevel": 298,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1199": {
+    "id": 1199,
+    "quality": "orange",
+    "superLevel": 299,
+    "costID": 134,
+    "costNum": 8145
+  },
+  "1200": {
+    "id": 1200,
+    "quality": "orange",
+    "superLevel": 300,
+    "costID": 134,
+    "costNum": 8145
+  }
+}

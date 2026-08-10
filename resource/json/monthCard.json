@@ -1,0 +1,62 @@
+{
+  "1": {
+    "id": 1,
+    "CNY": 30,
+    "USD": 4.99,
+    "KRW": 5900,
+    "VND": 129000,
+    "IRR": 1499900,
+    "diamond": 300,
+    "buyAwardID1": 4304,
+    "buyNum1": 1,
+    "time": 30,
+    "award1ID": 101,
+    "num1": 100,
+    "name": "monthCard_name_1"
+  },
+  "2": {
+    "id": 2,
+    "CNY": 82,
+    "USD": 14.99,
+    "KRW": 19000,
+    "VND": 329000,
+    "IRR": 4499900,
+    "diamond": 820,
+    "time": 30,
+    "award1ID": 101,
+    "num1": 300,
+    "name": "monthCard_name_2"
+  },
+  "3": {
+    "id": 3,
+    "CNY": 98,
+    "USD": 14.99,
+    "KRW": 19000,
+    "VND": 329000,
+    "IRR": 4499900,
+    "diamond": 980,
+    "buyAwardID1": 1420,
+    "buyNum1": 1,
+    "time": 999999,
+    "award1ID": 101,
+    "num1": 200,
+    "name": "monthCard_name_3"
+  },
+  "4": {
+    "id": 4,
+    "CNY": 30,
+    "USD": 4.99,
+    "KRW": 5900,
+    "VND": 129000,
+    "IRR": 1499900,
+    "diamond": 0,
+    "buyAwardID1": 101,
+    "buyNum1": 2200,
+    "buyAwardID2": 499,
+    "buyNum2": 3,
+    "time": 30,
+    "award1ID": 499,
+    "num1": 1,
+    "name": "monthCard_name_4"
+  }
+}

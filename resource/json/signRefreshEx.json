@@ -1,0 +1,42 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "green",
+    "refreshCostID1": 207,
+    "num1": 10,
+    "refreshCostID2": 240,
+    "num2": 5,
+    "randomAbilityNum": 1,
+    "randomAbilityMax": 1
+  },
+  "2": {
+    "id": 2,
+    "quality": "blue",
+    "refreshCostID1": 217,
+    "num1": 10,
+    "refreshCostID2": 240,
+    "num2": 10,
+    "randomAbilityNum": 2,
+    "randomAbilityMax": 3
+  },
+  "3": {
+    "id": 3,
+    "quality": "purple",
+    "refreshCostID1": 227,
+    "num1": 10,
+    "refreshCostID2": 240,
+    "num2": 20,
+    "randomAbilityNum": 3,
+    "randomAbilityMax": 5
+  },
+  "4": {
+    "id": 4,
+    "quality": "orange",
+    "refreshCostID1": 237,
+    "num1": 10,
+    "refreshCostID2": 240,
+    "num2": 40,
+    "randomAbilityNum": 4,
+    "randomAbilityMax": 7
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "赛亚·力": {
+    "name": "赛亚·力",
+    "suitNumber": 10101,
+    "skillID": 300111
+  },
+  "赛亚·体": {
+    "name": "赛亚·体",
+    "suitNumber": 10102,
+    "skillID": 300211
+  },
+  "赛亚·技": {
+    "name": "赛亚·技",
+    "suitNumber": 10103,
+    "skillID": 300311
+  },
+  "天使·力": {
+    "name": "天使·力",
+    "suitNumber": 10201,
+    "skillID": 300111
+  },
+  "天使·体": {
+    "name": "天使·体",
+    "suitNumber": 10202,
+    "skillID": 300211
+  },
+  "天使·技": {
+    "name": "天使·技",
+    "suitNumber": 10203,
+    "skillID": 300311
+  },
+  "破坏·力": {
+    "name": "破坏·力",
+    "suitNumber": 10301,
+    "skillID": 300111
+  },
+  "破坏·体": {
+    "name": "破坏·体",
+    "suitNumber": 10302,
+    "skillID": 300211
+  },
+  "破坏·技": {
+    "name": "破坏·技",
+    "suitNumber": 10303,
+    "skillID": 300311
+  },
+  "创造·力": {
+    "name": "创造·力",
+    "suitNumber": 10401,
+    "skillID": 300111
+  },
+  "创造·体": {
+    "name": "创造·体",
+    "suitNumber": 10402,
+    "skillID": 300211
+  },
+  "创造·技": {
+    "name": "创造·技",
+    "suitNumber": 10403,
+    "skillID": 300311
+  },
+  "恶魔·力": {
+    "name": "恶魔·力",
+    "suitNumber": 10501,
+    "skillID": 300111
+  },
+  "恶魔·体": {
+    "name": "恶魔·体",
+    "suitNumber": 10502,
+    "skillID": 300211
+  },
+  "恶魔·技": {
+    "name": "恶魔·技",
+    "suitNumber": 10503,
+    "skillID": 300311
+  },
+  "传超·力": {
+    "name": "传超·力",
+    "suitNumber": 10601,
+    "skillID": 300111
+  },
+  "传超·体": {
+    "name": "传超·体",
+    "suitNumber": 10602,
+    "skillID": 300211
+  },
+  "传超·技": {
+    "name": "传超·技",
+    "suitNumber": 10603,
+    "skillID": 300311
+  }
+}

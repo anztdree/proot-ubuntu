@@ -1,0 +1,47 @@
+{
+  "1": {
+    "id": 1,
+    "pic": "globalWar1_png",
+    "dayStart": 7,
+    "dayEnd": 35,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15,
+    "name": "globalWar_name_1"
+  },
+  "2": {
+    "id": 2,
+    "pic": "globalWar2_png",
+    "dayStart": 36,
+    "dayEnd": 77,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15,
+    "name": "globalWar_name_2"
+  },
+  "3": {
+    "id": 3,
+    "pic": "globalWar3_png",
+    "dayStart": 78,
+    "dayEnd": 180,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15,
+    "name": "globalWar_name_3"
+  },
+  "4": {
+    "id": 4,
+    "pic": "globalWar4_png",
+    "dayStart": 181,
+    "dayEnd": 360,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15,
+    "name": "globalWar_name_4"
+  },
+  "5": {
+    "id": 5,
+    "pic": "globalWar5_png",
+    "dayStart": 361,
+    "dayEnd": 999999,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15,
+    "name": "globalWar_name_5"
+  }
+}

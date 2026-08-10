@@ -1,0 +1,10 @@
+{
+  "1": {
+    "id": 1,
+    "name": "终身卡",
+    "icon": "vipShowIcon_1420_png",
+    "bigShow": "vipShowIconBig_1420_png",
+    "startLevel": 10,
+    "endLevel": 75
+  }
+}

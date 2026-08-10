@@ -1,0 +1,152 @@
+{
+  "901": {
+    "id": 901,
+    "type": "low",
+    "ability": "attack"
+  },
+  "902": {
+    "id": 902,
+    "type": "low",
+    "ability": "hp"
+  },
+  "903": {
+    "id": 903,
+    "type": "low",
+    "ability": "extraArmor"
+  },
+  "904": {
+    "id": 904,
+    "type": "low",
+    "ability": "attackPercent"
+  },
+  "905": {
+    "id": 905,
+    "type": "low",
+    "ability": "hpPercent"
+  },
+  "906": {
+    "id": 906,
+    "type": "low",
+    "ability": "armorPercent"
+  },
+  "907": {
+    "id": 907,
+    "type": "low",
+    "ability": "critical"
+  },
+  "908": {
+    "id": 908,
+    "type": "low",
+    "ability": "criticalDamage"
+  },
+  "909": {
+    "id": 909,
+    "type": "low",
+    "ability": "criticalResist"
+  },
+  "910": {
+    "id": 910,
+    "type": "low",
+    "ability": "block"
+  },
+  "911": {
+    "id": 911,
+    "type": "low",
+    "ability": "hit"
+  },
+  "912": {
+    "id": 912,
+    "type": "low",
+    "ability": "dodge"
+  },
+  "913": {
+    "id": 913,
+    "type": "low",
+    "ability": "speed"
+  },
+  "914": {
+    "id": 914,
+    "type": "low",
+    "ability": "blockThrough"
+  },
+  "915": {
+    "id": 915,
+    "type": "low",
+    "ability": "criticalDamageResist"
+  },
+  "921": {
+    "id": 921,
+    "type": "high",
+    "ability": "attack"
+  },
+  "922": {
+    "id": 922,
+    "type": "high",
+    "ability": "hp"
+  },
+  "923": {
+    "id": 923,
+    "type": "high",
+    "ability": "extraArmor"
+  },
+  "924": {
+    "id": 924,
+    "type": "high",
+    "ability": "attackPercent"
+  },
+  "925": {
+    "id": 925,
+    "type": "high",
+    "ability": "hpPercent"
+  },
+  "926": {
+    "id": 926,
+    "type": "high",
+    "ability": "armorPercent"
+  },
+  "927": {
+    "id": 927,
+    "type": "high",
+    "ability": "critical"
+  },
+  "928": {
+    "id": 928,
+    "type": "high",
+    "ability": "criticalDamage"
+  },
+  "929": {
+    "id": 929,
+    "type": "high",
+    "ability": "criticalResist"
+  },
+  "930": {
+    "id": 930,
+    "type": "high",
+    "ability": "block"
+  },
+  "931": {
+    "id": 931,
+    "type": "high",
+    "ability": "hit"
+  },
+  "932": {
+    "id": 932,
+    "type": "high",
+    "ability": "dodge"
+  },
+  "933": {
+    "id": 933,
+    "type": "high",
+    "ability": "speed"
+  },
+  "934": {
+    "id": 934,
+    "type": "high",
+    "ability": "blockThrough"
+  },
+  "935": {
+    "id": 935,
+    "type": "high",
+    "ability": "criticalDamageResist"
+  }
+}

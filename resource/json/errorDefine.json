@@ -1,0 +1,2922 @@
+{
+  "1": {
+    "id": 1,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_UNKNOWN",
+    "errorDescription": "errorDefine_errorDescription_1"
+  },
+  "2": {
+    "id": 2,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_STATE_ERROR",
+    "errorDescription": "errorDefine_errorDescription_2"
+  },
+  "3": {
+    "id": 3,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DATA_ERROR",
+    "errorDescription": "errorDefine_errorDescription_3"
+  },
+  "4": {
+    "id": 4,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_INVALID",
+    "errorDescription": "errorDefine_errorDescription_4"
+  },
+  "5": {
+    "id": 5,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_INVALID_COMMAND",
+    "errorDescription": "errorDefine_errorDescription_5"
+  },
+  "6": {
+    "id": 6,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_LACK_HERO_POS",
+    "errorDescription": "errorDefine_errorDescription_6"
+  },
+  "7": {
+    "id": 7,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_LACK_ITEM",
+    "errorDescription": "errorDefine_errorDescription_7"
+  },
+  "8": {
+    "id": 8,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_LACK_PARAM",
+    "errorDescription": "errorDefine_errorDescription_8"
+  },
+  "9": {
+    "id": 9,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_VIP_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_9"
+  },
+  "10": {
+    "id": 10,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_LEVEL_MAX",
+    "errorDescription": "errorDefine_errorDescription_10"
+  },
+  "11": {
+    "id": 11,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_USER_LEVEL_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_11"
+  },
+  "12": {
+    "id": 12,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_USER_LOGIN_BEFORE",
+    "errorDescription": "errorDefine_errorDescription_12"
+  },
+  "13": {
+    "id": 13,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_USER_NOT_LOGIN_BEFORE",
+    "errorDescription": "errorDefine_errorDescription_13"
+  },
+  "14": {
+    "id": 14,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_USER_NOT_LOGOUT",
+    "errorDescription": "errorDefine_errorDescription_14"
+  },
+  "15": {
+    "id": 15,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_ID_ERR",
+    "errorDescription": "errorDefine_errorDescription_15"
+  },
+  "16": {
+    "id": 16,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TIMES_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_16"
+  },
+  "17": {
+    "id": 17,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "GM_IP_ERR",
+    "errorDescription": "errorDefine_errorDescription_17"
+  },
+  "18": {
+    "id": 18,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TASK_REFRESHING",
+    "errorDescription": "errorDefine_errorDescription_18"
+  },
+  "19": {
+    "id": 19,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GUILD_REFRESHING",
+    "errorDescription": "errorDefine_errorDescription_19"
+  },
+  "20": {
+    "id": 20,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "CONFIG_ERROR",
+    "errorDescription": "errorDefine_errorDescription_20"
+  },
+  "21": {
+    "id": 21,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "THINGS_TYPE_ERR",
+    "errorDescription": "errorDefine_errorDescription_21"
+  },
+  "22": {
+    "id": 22,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_CHECK_ERR",
+    "errorDescription": "errorDefine_errorDescription_22"
+  },
+  "23": {
+    "id": 23,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BUY_TIMES_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_23"
+  },
+  "24": {
+    "id": 24,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ID_NOT_FOUND",
+    "errorDescription": "errorDefine_errorDescription_24"
+  },
+  "25": {
+    "id": 25,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HAVE_GOT_REWARD",
+    "errorDescription": "errorDefine_errorDescription_25"
+  },
+  "26": {
+    "id": 26,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "USER_OFFLINE",
+    "errorDescription": "errorDefine_errorDescription_26"
+  },
+  "27": {
+    "id": 27,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "REWARD_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_27"
+  },
+  "28": {
+    "id": 28,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "REWARD_CONDITION_ERR",
+    "errorDescription": "errorDefine_errorDescription_28"
+  },
+  "29": {
+    "id": 29,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "IP_NOT_IN_WHITE_LIST",
+    "errorDescription": "errorDefine_errorDescription_29"
+  },
+  "30": {
+    "id": 30,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SYS_NOT_OPEN",
+    "errorDescription": "errorDefine_errorDescription_30"
+  },
+  "31": {
+    "id": 31,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "NOT_IN_ACT_TIME",
+    "errorDescription": "errorDefine_errorDescription_31"
+  },
+  "32": {
+    "id": 32,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "LEVEL_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_11"
+  },
+  "33": {
+    "id": 33,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "MAX_LESS",
+    "errorDescription": "errorDefine_errorDescription_32"
+  },
+  "34": {
+    "id": 34,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "REPEAT_MSG",
+    "errorDescription": "errorDefine_errorDescription_33"
+  },
+  "35": {
+    "id": 35,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TYPE",
+    "errorDescription": "errorDefine_errorDescription_34"
+  },
+  "36": {
+    "id": 36,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "NUM_TO_MATCH",
+    "errorDescription": "errorDefine_errorDescription_35"
+  },
+  "37": {
+    "id": 37,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NO_LOGIN_CLIENT",
+    "errorDescription": "errorDefine_errorDescription_36"
+  },
+  "38": {
+    "id": 38,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_LOGIN_CHECK_FAILED",
+    "errorDescription": "errorDefine_errorDescription_37"
+  },
+  "39": {
+    "id": 39,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BUY_TIMES_FULL",
+    "errorDescription": "errorDefine_errorDescription_38"
+  },
+  "40": {
+    "id": 40,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_LEVEL_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_39"
+  },
+  "41": {
+    "id": 41,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "PARAM_ERR",
+    "errorDescription": "errorDefine_errorDescription_40"
+  },
+  "42": {
+    "id": 42,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "PAY_SERVER_NOT_CONNECT",
+    "errorDescription": "errorDefine_errorDescription_41"
+  },
+  "43": {
+    "id": 43,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "CONDITION_ERR",
+    "errorDescription": "errorDefine_errorDescription_42"
+  },
+  "44": {
+    "id": 44,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ROLE_MAX",
+    "errorDescription": "errorDefine_errorDescription_43"
+  },
+  "45": {
+    "id": 45,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "FORBIDDEN_LOGIN",
+    "errorDescription": "errorDefine_errorDescription_44"
+  },
+  "46": {
+    "id": 46,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GM_NOT_CONNECT",
+    "errorDescription": "errorDefine_errorDescription_45"
+  },
+  "47": {
+    "id": 47,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "NOT_ENABLE_REGIST",
+    "errorDescription": "errorDefine_errorDescription_46"
+  },
+  "48": {
+    "id": 48,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TARGET_SERVER_NOT_CONNECT",
+    "errorDescription": "errorDefine_errorDescription_47"
+  },
+  "49": {
+    "id": 49,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ITEM_NOT_FOUND",
+    "errorDescription": "errorDefine_errorDescription_48"
+  },
+  "50": {
+    "id": 50,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SYS_LOCKED",
+    "errorDescription": "errorDefine_errorDescription_288"
+  },
+  "51": {
+    "id": 51,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GAME_SERVER_OFFLINE",
+    "errorDescription": "errorDefine_errorDescription_289"
+  },
+  "52": {
+    "id": 52,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TIME_OUT",
+    "errorDescription": "errorDefine_errorDescription_290"
+  },
+  "53": {
+    "id": 53,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "CD",
+    "errorDescription": "errorDefine_errorDescription_300"
+  },
+  "54": {
+    "id": 54,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ZK_NOT_CONNECT",
+    "errorDescription": "errorDefine_errorDescription_301"
+  },
+  "55": {
+    "id": 55,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SIGN_ERROR",
+    "errorDescription": "errorDefine_errorDescription_302"
+  },
+  "56": {
+    "id": 56,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "OFFLINE_COST_ITEM_ID_ERR",
+    "errorDescription": "errorDefine_errorDescription_303"
+  },
+  "57": {
+    "id": 57,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "NO_PERMISSION",
+    "errorDescription": "errorDefine_errorDescription_304"
+  },
+  "58": {
+    "id": 58,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "NO_REWARD",
+    "errorDescription": "errorDefine_errorDescription_305"
+  },
+  "61": {
+    "id": 61,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ONLINE_USER_MAX",
+    "errorDescription": "errorDefine_errorDescription_343"
+  },
+  "62": {
+    "id": 62,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "CLIENT_VERSION_ERR",
+    "errorDescription": "errorDefine_errorDescription_345"
+  },
+  "63": {
+    "id": 63,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "FIND_DATA_ERR",
+    "errorDescription": "errorDefine_errorDescription_346"
+  },
+  "64": {
+    "id": 64,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ITEM_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_359"
+  },
+  "65": {
+    "id": 65,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "MAINTAIN",
+    "errorDescription": "errorDefine_errorDescription_351"
+  },
+  "10001": {
+    "id": 10001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_UP_LACK_EXP",
+    "errorDescription": "errorDefine_errorDescription_49"
+  },
+  "10002": {
+    "id": 10002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_UP_LACK_GOLD",
+    "errorDescription": "errorDefine_errorDescription_50"
+  },
+  "10003": {
+    "id": 10003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_UP_LACK_EVOLVE",
+    "errorDescription": "errorDefine_errorDescription_51"
+  },
+  "10004": {
+    "id": 10004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_UP_STATE_ERROR",
+    "errorDescription": "errorDefine_errorDescription_52"
+  },
+  "10010": {
+    "id": 10010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EVOLVE_STATE_ERROR",
+    "errorDescription": "errorDefine_errorDescription_362"
+  },
+  "10030": {
+    "id": 10030,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_WAKEUP_STATE_ERROR",
+    "errorDescription": "errorDefine_errorDescription_54"
+  },
+  "10031": {
+    "id": 10031,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_WAKEUP_MATERIAL_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_55"
+  },
+  "10032": {
+    "id": 10032,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NO_QIGONG_TO_SAVE",
+    "errorDescription": "errorDefine_errorDescription_56"
+  },
+  "10033": {
+    "id": 10033,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_SKILL_ALREADY_ACTIVED",
+    "errorDescription": "errorDefine_errorDescription_57"
+  },
+  "10040": {
+    "id": 10040,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SUPER_STATE_ERROR",
+    "errorDescription": "errorDefine_errorDescription_58"
+  },
+  "10041": {
+    "id": 10041,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SUPER_LACK_GOLD_WATER",
+    "errorDescription": "errorDefine_errorDescription_59"
+  },
+  "10042": {
+    "id": 10042,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SUPER_LACK_HOLY_WATER",
+    "errorDescription": "errorDefine_errorDescription_60"
+  },
+  "10050": {
+    "id": 10050,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SUMMON_LACK_ITEM",
+    "errorDescription": "errorDefine_errorDescription_61"
+  },
+  "10051": {
+    "id": 10051,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SUMMON_FREE_TIME_NOT_USED",
+    "errorDescription": "errorDefine_errorDescription_62"
+  },
+  "10052": {
+    "id": 10052,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "ERROR_SUMMON_REPEAT_GUIDE",
+    "errorDescription": "errorDefine_errorDescription_63"
+  },
+  "10060": {
+    "id": 10060,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_BACKPACK_LACK_ITEM",
+    "errorDescription": "errorDefine_errorDescription_7"
+  },
+  "10061": {
+    "id": 10061,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_BACKPACK_PLUS_EXCEED",
+    "errorDescription": "errorDefine_errorDescription_64"
+  },
+  "20001": {
+    "id": 20001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DATA_SAVE",
+    "errorDescription": "errorDefine_errorDescription_65"
+  },
+  "20002": {
+    "id": 20002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DATA_NO_FIND",
+    "errorDescription": "errorDefine_errorDescription_66"
+  },
+  "21001": {
+    "id": 21001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SIGN_STAR_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_67"
+  },
+  "21002": {
+    "id": 21002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SIGN_UPGRADE_LACK",
+    "errorDescription": "errorDefine_errorDescription_68"
+  },
+  "21003": {
+    "id": 21003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SIGN_WEARED",
+    "errorDescription": "errorDefine_errorDescription_69"
+  },
+  "21004": {
+    "id": 21004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_IMPRINT_ID_ERR",
+    "errorDescription": "errorDefine_errorDescription_70"
+  },
+  "21005": {
+    "id": 21005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_IMPRINT_ID_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_71"
+  },
+  "21006": {
+    "id": 21006,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_IMPRINT_NO_TMP_ATTR",
+    "errorDescription": "errorDefine_errorDescription_72"
+  },
+  "21007": {
+    "id": 21007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_IMPRINT_NOT_FULL_STAR",
+    "errorDescription": "errorDefine_errorDescription_306"
+  },
+  "22001": {
+    "id": 22001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_COUNT_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_73"
+  },
+  "22002": {
+    "id": 22002,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_USER_LEVEL_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_74"
+  },
+  "22003": {
+    "id": 22003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_PRE_LEVEL_LOCK",
+    "errorDescription": "errorDefine_errorDescription_75"
+  },
+  "22004": {
+    "id": 22004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_DID_ERR",
+    "errorDescription": "errorDefine_errorDescription_76"
+  },
+  "22005": {
+    "id": 22005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_TYPE_ERR",
+    "errorDescription": "errorDefine_errorDescription_77"
+  },
+  "22006": {
+    "id": 22006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_BATTLE_ID_ERR",
+    "errorDescription": "errorDefine_errorDescription_78"
+  },
+  "22007": {
+    "id": 22007,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_BUY_TIMES_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_23"
+  },
+  "22008": {
+    "id": 22008,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_BUY_TIMES_VIP_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_79"
+  },
+  "22009": {
+    "id": 22009,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_SWEEP_LEVEL_NOT_PASSED",
+    "errorDescription": "errorDefine_errorDescription_80"
+  },
+  "22010": {
+    "id": 22010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DUNGEON_TIMES_MAX",
+    "errorDescription": "errorDefine_errorDescription_347"
+  },
+  "23001": {
+    "id": 23001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TRIAL_NOT_STARTED",
+    "errorDescription": "errorDefine_errorDescription_81"
+  },
+  "24001": {
+    "id": 24001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_REFRESH_TIMES_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_82"
+  },
+  "24002": {
+    "id": 24002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_NO_ITEM_REFRESH",
+    "errorDescription": "errorDefine_errorDescription_83"
+  },
+  "24003": {
+    "id": 24003,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_REFRESH_VIP_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_84"
+  },
+  "24004": {
+    "id": 24004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_85"
+  },
+  "24005": {
+    "id": 24005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_STATE_ERR",
+    "errorDescription": "errorDefine_errorDescription_86"
+  },
+  "24006": {
+    "id": 24006,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_FRIEND_HERO_FULL",
+    "errorDescription": "errorDefine_errorDescription_87"
+  },
+  "24007": {
+    "id": 24007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_NOT_MATCH",
+    "errorDescription": "errorDefine_errorDescription_88"
+  },
+  "24008": {
+    "id": 24008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_FRIEND_HELPED",
+    "errorDescription": "errorDefine_errorDescription_89"
+  },
+  "24009": {
+    "id": 24009,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_HERO_USED",
+    "errorDescription": "errorDefine_errorDescription_90"
+  },
+  "24010": {
+    "id": 24010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_TIME_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_91"
+  },
+  "24011": {
+    "id": 24011,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_HERO_ID_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_92"
+  },
+  "24012": {
+    "id": 24012,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_HELP_REWARD_MAX",
+    "errorDescription": "errorDefine_errorDescription_93"
+  },
+  "24013": {
+    "id": 24013,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_HELP_REWARD_EMPTY",
+    "errorDescription": "errorDefine_errorDescription_94"
+  },
+  "24014": {
+    "id": 24014,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_NUM_MAX",
+    "errorDescription": "errorDefine_errorDescription_95"
+  },
+  "24015": {
+    "id": 24015,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ENTRUST_FRIEND_HELP_MAX",
+    "errorDescription": "errorDefine_errorDescription_96"
+  },
+  "25001": {
+    "id": 25001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NAME_ERR",
+    "errorDescription": "errorDefine_errorDescription_97"
+  },
+  "25002": {
+    "id": 25002,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NAME_REPEAT",
+    "errorDescription": "errorDefine_errorDescription_98"
+  },
+  "25003": {
+    "id": 25003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_HAVE_JOIN",
+    "errorDescription": "errorDefine_errorDescription_99"
+  },
+  "25004": {
+    "id": 25004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HAVE_NO_GUILD",
+    "errorDescription": "errorDefine_errorDescription_100"
+  },
+  "25005": {
+    "id": 25005,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_HAVE_SIGNED",
+    "errorDescription": "errorDefine_errorDescription_101"
+  },
+  "25006": {
+    "id": 25006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NOT_IN_GUILD",
+    "errorDescription": "errorDefine_errorDescription_102"
+  },
+  "25007": {
+    "id": 25007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NO_PERMISSION",
+    "errorDescription": "errorDefine_errorDescription_103"
+  },
+  "25008": {
+    "id": 25008,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_VICE_CAPTAIN_MAX",
+    "errorDescription": "errorDefine_errorDescription_104"
+  },
+  "25009": {
+    "id": 25009,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TARGET_TITLE_ERR",
+    "errorDescription": "errorDefine_errorDescription_105"
+  },
+  "25010": {
+    "id": 25010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_CAPTAIN_CANNOT_QUIT",
+    "errorDescription": "errorDefine_errorDescription_106"
+  },
+  "25011": {
+    "id": 25011,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_JOIN_COINDITION_NOT_MATCH",
+    "errorDescription": "errorDefine_errorDescription_107"
+  },
+  "25012": {
+    "id": 25012,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_MEMBER_MAX",
+    "errorDescription": "errorDefine_errorDescription_108"
+  },
+  "25013": {
+    "id": 25013,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_JOIN_GUILD_CD",
+    "errorDescription": "errorDefine_errorDescription_109"
+  },
+  "25014": {
+    "id": 25014,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NOT_IN_REQUEST_LIST",
+    "errorDescription": "errorDefine_errorDescription_110"
+  },
+  "25015": {
+    "id": 25015,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_BOSS_DEAD",
+    "errorDescription": "errorDefine_errorDescription_111"
+  },
+  "25016": {
+    "id": 25016,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_BOSS_NOT_START_OR_DEAD",
+    "errorDescription": "errorDefine_errorDescription_112"
+  },
+  "25017": {
+    "id": 25017,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SATAN_GIFT_CD",
+    "errorDescription": "errorDefine_errorDescription_113"
+  },
+  "25018": {
+    "id": 25018,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_LEVEL_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_114"
+  },
+  "25019": {
+    "id": 25019,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TECH_PARENT_LEVEL_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_115"
+  },
+  "25020": {
+    "id": 25020,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TREASURE_ENEMY_DEAD",
+    "errorDescription": "errorDefine_errorDescription_116"
+  },
+  "25021": {
+    "id": 25021,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TREASURE_TIMES_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_117"
+  },
+  "25022": {
+    "id": 25022,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TREASURE_DEFENCE_NOT_IN_GUILD",
+    "errorDescription": "errorDefine_errorDescription_118"
+  },
+  "25023": {
+    "id": 25023,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TREASURE_DEFENCE_COUNT_ERR",
+    "errorDescription": "errorDefine_errorDescription_119"
+  },
+  "25024": {
+    "id": 25024,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TREASURE_DEFENCE_ARENA_ERR",
+    "errorDescription": "errorDefine_errorDescription_120"
+  },
+  "25025": {
+    "id": 25025,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NAME_START_WITH_NUMBER",
+    "errorDescription": "errorDefine_errorDescription_121"
+  },
+  "25026": {
+    "id": 25026,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NAME_LENGTH_MAX",
+    "errorDescription": "errorDefine_errorDescription_122"
+  },
+  "25027": {
+    "id": 25027,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NAME_HAVE_SPECIAL_CHAR",
+    "errorDescription": "errorDefine_errorDescription_123"
+  },
+  "25028": {
+    "id": 25028,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_124"
+  },
+  "25029": {
+    "id": 25029,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CREATE_GUILD_CD",
+    "errorDescription": "errorDefine_errorDescription_125"
+  },
+  "25030": {
+    "id": 25030,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_CAPTAIN_CHANGED",
+    "errorDescription": "errorDefine_errorDescription_126"
+  },
+  "25031": {
+    "id": 25031,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_TREASURE_CHANGED",
+    "errorDescription": "errorDefine_errorDescription_127"
+  },
+  "25032": {
+    "id": 25032,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_BALL_WAR_FIGHTING",
+    "errorDescription": "errorDefine_errorDescription_128"
+  },
+  "25033": {
+    "id": 25033,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_BOSS_KILL_TIMES_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_291"
+  },
+  "25034": {
+    "id": 25034,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_BALL_WAR_JOIN",
+    "errorDescription": "errorDefine_errorDescription_292"
+  },
+  "25035": {
+    "id": 25035,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_NO_PERMISSION_PROPAGANDA",
+    "errorDescription": "errorDefine_errorDescription_307"
+  },
+  "25036": {
+    "id": 25036,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUILD_BOSS_TIMES_MAX",
+    "errorDescription": "errorDefine_errorDescription_358"
+  },
+  "26000": {
+    "id": 26000,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_RANK_CHANGE",
+    "errorDescription": "errorDefine_errorDescription_129"
+  },
+  "26001": {
+    "id": 26001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_ATTACK_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_130"
+  },
+  "26002": {
+    "id": 26002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_DEFENCE_NOT_FIND",
+    "errorDescription": "errorDefine_errorDescription_131"
+  },
+  "26003": {
+    "id": 26003,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_BUY_EXCEED",
+    "errorDescription": "errorDefine_errorDescription_23"
+  },
+  "26004": {
+    "id": 26004,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_BUY_VIP_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_132"
+  },
+  "26005": {
+    "id": 26005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_GOT_TOP_AWARD_ERR",
+    "errorDescription": "errorDefine_errorDescription_133"
+  },
+  "26006": {
+    "id": 26006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_FIGHTING",
+    "errorDescription": "errorDefine_errorDescription_352"
+  },
+  "26007": {
+    "id": 26007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ARENA_HERO_EQUIP_NOT_FOUND",
+    "errorDescription": "errorDefine_errorDescription_354"
+  },
+  "27001": {
+    "id": 27001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HAVE_FRIEND",
+    "errorDescription": "errorDefine_errorDescription_134"
+  },
+  "27002": {
+    "id": 27002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_FRIEND_NOT_IN_APPLY_LIST",
+    "errorDescription": "errorDefine_errorDescription_135"
+  },
+  "27003": {
+    "id": 27003,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_FRIEND_MAX",
+    "errorDescription": "errorDefine_errorDescription_136"
+  },
+  "27004": {
+    "id": 27004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NOT_FRIEND",
+    "errorDescription": "errorDefine_errorDescription_137"
+  },
+  "27005": {
+    "id": 27005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HAVE_GIVE_FRIEND_HEART",
+    "errorDescription": "errorDefine_errorDescription_138"
+  },
+  "27006": {
+    "id": 27006,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NO_FRIEND_HEART",
+    "errorDescription": "errorDefine_errorDescription_139"
+  },
+  "27007": {
+    "id": 27007,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GIVE_HEART_COUNT_MAX",
+    "errorDescription": "errorDefine_errorDescription_140"
+  },
+  "27008": {
+    "id": 27008,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GET_HEART_COUNT_MAX",
+    "errorDescription": "errorDefine_errorDescription_141"
+  },
+  "27009": {
+    "id": 27009,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NICK_NAME_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_142"
+  },
+  "27010": {
+    "id": 27010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NO_HEART_GIVE_OR_GET",
+    "errorDescription": "errorDefine_errorDescription_143"
+  },
+  "27011": {
+    "id": 27011,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_APPLY_LIST_FULL",
+    "errorDescription": "errorDefine_errorDescription_144"
+  },
+  "27012": {
+    "id": 27012,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NICK_NAME_REPEAT",
+    "errorDescription": "errorDefine_errorDescription_145"
+  },
+  "27013": {
+    "id": 27013,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_FRIEND_FRIEND_MAX",
+    "errorDescription": "errorDefine_errorDescription_146"
+  },
+  "27014": {
+    "id": 27014,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_BLACKLIST",
+    "errorDescription": "errorDefine_errorDescription_344"
+  },
+  "28001": {
+    "id": 28001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TASK_STATE_ERR",
+    "errorDescription": "errorDefine_errorDescription_147"
+  },
+  "29001": {
+    "id": 29001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MAIL_HAVE_GET_REWARD",
+    "errorDescription": "errorDefine_errorDescription_148"
+  },
+  "29002": {
+    "id": 29002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DEL_MAIL_HAVE_REWARD",
+    "errorDescription": "errorDefine_errorDescription_149"
+  },
+  "29003": {
+    "id": 29003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MAIL_REMOVED",
+    "errorDescription": "errorDefine_errorDescription_150"
+  },
+  "30001": {
+    "id": 30001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CHECKIN_NOT_ACTIVE",
+    "errorDescription": "errorDefine_errorDescription_151"
+  },
+  "31001": {
+    "id": 31001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_NOT_FIND_DEFENCE_TEAM",
+    "errorDescription": "errorDefine_errorDescription_152"
+  },
+  "31002": {
+    "id": 31002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_NOT_FIND_BATTLE_TEAM",
+    "errorDescription": "errorDefine_errorDescription_153"
+  },
+  "31003": {
+    "id": 31003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_NO_LEVEL_HERO",
+    "errorDescription": "errorDefine_errorDescription_154"
+  },
+  "31004": {
+    "id": 31004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_REPEAT_MATCH",
+    "errorDescription": "errorDefine_errorDescription_155"
+  },
+  "31005": {
+    "id": 31005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_DONNOT_HAVE_ENOUGH_ENEMY",
+    "errorDescription": "errorDefine_errorDescription_156"
+  },
+  "31006": {
+    "id": 31006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_PASSED",
+    "errorDescription": "errorDefine_errorDescription_157"
+  },
+  "31007": {
+    "id": 31007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SNAKE_HAVE_GOT_BOX_REWARD",
+    "errorDescription": "errorDefine_errorDescription_158"
+  },
+  "32001": {
+    "id": 32001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EQUIP_RING_NEED_EVOLVE",
+    "errorDescription": "errorDefine_errorDescription_159"
+  },
+  "32002": {
+    "id": 32002,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EQUIP_RING_EVOLVE_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_160"
+  },
+  "32003": {
+    "id": 32003,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EQUIP_RING_LEVEL_IS_FULL",
+    "errorDescription": "errorDefine_errorDescription_161"
+  },
+  "32004": {
+    "id": 32004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EARRING_LOCK",
+    "errorDescription": "errorDefine_errorDescription_162"
+  },
+  "32005": {
+    "id": 32005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EARRING_NO_NEED_EVOLVE",
+    "errorDescription": "errorDefine_errorDescription_163"
+  },
+  "32006": {
+    "id": 32006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EARRING_UNLOCK",
+    "errorDescription": "errorDefine_errorDescription_164"
+  },
+  "33001": {
+    "id": 33001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_EQUIP_WEAPON_STAT_IS_FULL",
+    "errorDescription": "errorDefine_errorDescription_165"
+  },
+  "33002": {
+    "id": 33002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_RESOLVE_WEAPON_HAVE_HERO",
+    "errorDescription": "errorDefine_errorDescription_166"
+  },
+  "34001": {
+    "id": 34001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GIFT_GET_COUNT_MAX",
+    "errorDescription": "errorDefine_errorDescription_167"
+  },
+  "34002": {
+    "id": 34002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GIFT_EXPIRE",
+    "errorDescription": "errorDefine_errorDescription_168"
+  },
+  "35001": {
+    "id": 35001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_HAVE_TEAM",
+    "errorDescription": "errorDefine_errorDescription_169"
+  },
+  "35002": {
+    "id": 35002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_HERO_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_170"
+  },
+  "35003": {
+    "id": 35003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_NOT_IN_TEAM",
+    "errorDescription": "errorDefine_errorDescription_171"
+  },
+  "35004": {
+    "id": 35004,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_TIMES_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_130"
+  },
+  "35005": {
+    "id": 35005,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_HAVE_GET_CHEST_REWARD",
+    "errorDescription": "errorDefine_errorDescription_172"
+  },
+  "35006": {
+    "id": 35006,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_TEAM_HERO_TO_MATCH",
+    "errorDescription": "errorDefine_errorDescription_173"
+  },
+  "35007": {
+    "id": 35007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_CELL_GAME_MAX_LESSON_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_174"
+  },
+  "36001": {
+    "id": 36001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MESSAGE_SPEAK_TOO_FAST",
+    "errorDescription": "errorDefine_errorDescription_175"
+  },
+  "36002": {
+    "id": 36002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MESSAGE_CONTENT_LEN_ERROR",
+    "errorDescription": "errorDefine_errorDescription_308"
+  },
+  "36003": {
+    "id": 36003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_FORBIDDEN_CHAT",
+    "errorDescription": "errorDefine_errorDescription_177"
+  },
+  "37001": {
+    "id": 37001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_STRONG_ENEMY_UUID_ERR",
+    "errorDescription": "errorDefine_errorDescription_178"
+  },
+  "37002": {
+    "id": 37002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_STRONG_ENEMY_BOSS_DEAD",
+    "errorDescription": "errorDefine_errorDescription_179"
+  },
+  "37003": {
+    "id": 37003,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_STRONG_ENEMY_TIMES_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_130"
+  },
+  "37004": {
+    "id": 37004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_STRONG_ENEMY_NOT_COME",
+    "errorDescription": "errorDefine_errorDescription_180"
+  },
+  "37005": {
+    "id": 37005,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_STRONG_ENEMY_BUY_TIMES_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_23"
+  },
+  "38001": {
+    "id": 38001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TOWER_BATTLE_TIME_INVLIAD",
+    "errorDescription": "errorDefine_errorDescription_181"
+  },
+  "39001": {
+    "id": 39001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SCHEDULE_SEND_MAIL_REWARD_ERR",
+    "errorDescription": "errorDefine_errorDescription_182"
+  },
+  "40001": {
+    "id": 40001,
+    "hintType": "window",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "ERROR_GUIDE_LESSON_ERR",
+    "errorDescription": "errorDefine_errorDescription_183"
+  },
+  "41001": {
+    "id": 41001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_MATCH_LACK_USER",
+    "errorDescription": "errorDefine_errorDescription_184"
+  },
+  "41002": {
+    "id": 41002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_WAITID_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_185"
+  },
+  "41003": {
+    "id": 41003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_REFRESH_ENEMY_TIME_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_186"
+  },
+  "41004": {
+    "id": 41004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_CAN_NOT_FOUND_CUR_GRADE",
+    "errorDescription": "errorDefine_errorDescription_187"
+  },
+  "41005": {
+    "id": 41005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_EVENT_NOT_FOUND",
+    "errorDescription": "errorDefine_errorDescription_188"
+  },
+  "41006": {
+    "id": 41006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_NOT_OPEN",
+    "errorDescription": "errorDefine_errorDescription_189"
+  },
+  "41007": {
+    "id": 41007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_FEET_FULL",
+    "errorDescription": "errorDefine_errorDescription_190"
+  },
+  "41008": {
+    "id": 41008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_KARIN_MATCH_USER_ERR",
+    "errorDescription": "errorDefine_errorDescription_191"
+  },
+  "42001": {
+    "id": 42001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NICK_NAME_LENGTH_ERR",
+    "errorDescription": "errorDefine_errorDescription_342"
+  },
+  "42002": {
+    "id": 42002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_NICK_NAME_HANVE_SPECIAL_CHAR",
+    "errorDescription": "errorDefine_errorDescription_193"
+  },
+  "43001": {
+    "id": 43001,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_RANK_REPEAT_LIKE",
+    "errorDescription": "errorDefine_errorDescription_194"
+  },
+  "44001": {
+    "id": 44001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_LEVEL_ERR",
+    "errorDescription": "errorDefine_errorDescription_195"
+  },
+  "44002": {
+    "id": 44002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_SIGN_ATTR_ERR",
+    "errorDescription": "errorDefine_errorDescription_196"
+  },
+  "44003": {
+    "id": 44003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_USER_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_197"
+  },
+  "44004": {
+    "id": 44004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SINGID_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_198"
+  },
+  "44005": {
+    "id": 44005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_WEAPONID_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_199"
+  },
+  "44006": {
+    "id": 44006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HEROID_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_170"
+  },
+  "44007": {
+    "id": 44007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_EARRING_LEVEL_ERR",
+    "errorDescription": "errorDefine_errorDescription_201"
+  },
+  "44008": {
+    "id": 44008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_GUILD_LEVEL_ERR",
+    "errorDescription": "errorDefine_errorDescription_202"
+  },
+  "44009": {
+    "id": 44009,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_GUILD_DISPLAYID_ERR",
+    "errorDescription": "errorDefine_errorDescription_203"
+  },
+  "44010": {
+    "id": 44010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_TASK_ONLY_ONLINE",
+    "errorDescription": "errorDefine_errorDescription_204"
+  },
+  "44011": {
+    "id": 44011,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_TASK_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_205"
+  },
+  "44012": {
+    "id": 44012,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_ACTIVITY_DATA_ERR",
+    "errorDescription": "errorDefine_errorDescription_206"
+  },
+  "44013": {
+    "id": 44013,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_MAIL_SENDDING",
+    "errorDescription": "errorDefine_errorDescription_207"
+  },
+  "44014": {
+    "id": 44014,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_GM_REPEAT_ACTIVITY",
+    "errorDescription": "errorDefine_errorDescription_208"
+  },
+  "45001": {
+    "id": 45001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HEROID_QUALITY_ERR",
+    "errorDescription": "errorDefine_errorDescription_209"
+  },
+  "45002": {
+    "id": 45002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MAHA_BOSS_DEAD",
+    "errorDescription": "errorDefine_errorDescription_210"
+  },
+  "45003": {
+    "id": 45003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DRAGON_BALL_HAVE_EQUIPED",
+    "errorDescription": "errorDefine_errorDescription_211"
+  },
+  "45004": {
+    "id": 45004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_212"
+  },
+  "45005": {
+    "id": 45005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_PICK_REDWAD_NOT_PICK",
+    "errorDescription": "errorDefine_errorDescription_213"
+  },
+  "45006": {
+    "id": 45006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_PICK_REDWAD_PICK_ERR",
+    "errorDescription": "errorDefine_errorDescription_214"
+  },
+  "45007": {
+    "id": 45007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_NOT_FINISH",
+    "errorDescription": "errorDefine_errorDescription_28"
+  },
+  "45008": {
+    "id": 45008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_EXPIRED",
+    "errorDescription": "errorDefine_errorDescription_215"
+  },
+  "45010": {
+    "id": 45010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MARKET_POS",
+    "errorDescription": "errorDefine_errorDescription_216"
+  },
+  "45011": {
+    "id": 45011,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MARKET_HAVE_BOUGHT",
+    "errorDescription": "errorDefine_errorDescription_217"
+  },
+  "45012": {
+    "id": 45012,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_CHANGED",
+    "errorDescription": "errorDefine_errorDescription_218"
+  },
+  "45013": {
+    "id": 45013,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TASK_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_219"
+  },
+  "45014": {
+    "id": 45014,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HERO_CLASS_ERR",
+    "errorDescription": "errorDefine_errorDescription_220"
+  },
+  "45015": {
+    "id": 45015,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MONTH_CARD_ENABLE",
+    "errorDescription": "errorDefine_errorDescription_221"
+  },
+  "45016": {
+    "id": 45016,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_TIME_TYPE_ERR",
+    "errorDescription": "errorDefine_errorDescription_222"
+  },
+  "45017": {
+    "id": 45017,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_223"
+  },
+  "45018": {
+    "id": 45018,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_LOCK",
+    "errorDescription": "errorDefine_errorDescription_224"
+  },
+  "45019": {
+    "id": 45019,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_LEVEL_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_225"
+  },
+  "45020": {
+    "id": 45020,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_LEVEL_LOCK",
+    "errorDescription": "errorDefine_errorDescription_226"
+  },
+  "45021": {
+    "id": 45021,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_USING",
+    "errorDescription": "errorDefine_errorDescription_227"
+  },
+  "45022": {
+    "id": 45022,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_HERO_USING",
+    "errorDescription": "errorDefine_errorDescription_228"
+  },
+  "45023": {
+    "id": 45023,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_BOSS_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_229"
+  },
+  "45024": {
+    "id": 45024,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_TIME_MACHINE_BOSS_HAVE_FIGHT",
+    "errorDescription": "errorDefine_errorDescription_230"
+  },
+  "45025": {
+    "id": 45025,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MINE_INVALID_POS",
+    "errorDescription": "errorDefine_errorDescription_231"
+  },
+  "45026": {
+    "id": 45026,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MINE_INVALID_MOVE",
+    "errorDescription": "errorDefine_errorDescription_232"
+  },
+  "45027": {
+    "id": 45027,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MINE_DOOR_LOCK",
+    "errorDescription": "errorDefine_errorDescription_233"
+  },
+  "45028": {
+    "id": 45028,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MINE_BATTLE_MEMBER_ERR",
+    "errorDescription": "errorDefine_errorDescription_234"
+  },
+  "45029": {
+    "id": 45029,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MONTH_CARD_EXPIRE",
+    "errorDescription": "errorDefine_errorDescription_235"
+  },
+  "45030": {
+    "id": 45030,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_MAHA_BOSS_FIGHTING",
+    "errorDescription": "errorDefine_errorDescription_236"
+  },
+  "45031": {
+    "id": 45031,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_HERO_NEED_EVOLVE",
+    "errorDescription": "errorDefine_errorDescription_237"
+  },
+  "45032": {
+    "id": 45032,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVE_HERO_SKILL_ERROR",
+    "errorDescription": "errorDefine_errorDescription_238"
+  },
+  "45033": {
+    "id": 45033,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_UP_HERO_SKILL_ERROR",
+    "errorDescription": "errorDefine_errorDescription_239"
+  },
+  "45034": {
+    "id": 45034,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_WEAPON_WEARD",
+    "errorDescription": "errorDefine_errorDescription_240"
+  },
+  "45035": {
+    "id": 45035,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_RUNNING",
+    "errorDescription": "errorDefine_errorDescription_241"
+  },
+  "45036": {
+    "id": 45036,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SWEEP_SNAKE_LESS_NOT_PASS",
+    "errorDescription": "errorDefine_errorDescription_242"
+  },
+  "45037": {
+    "id": 45037,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_SWEEP_SNAKE_LESS_HAVE_BOX",
+    "errorDescription": "errorDefine_errorDescription_243"
+  },
+  "45038": {
+    "id": 45038,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_DRAGON_EXCHANGE_NO_TMP_INFO",
+    "errorDescription": "errorDefine_errorDescription_244"
+  },
+  "45039": {
+    "id": 45039,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ACTIVITY_TYPE_ERR",
+    "errorDescription": "errorDefine_errorDescription_245"
+  },
+  "45040": {
+    "id": 45040,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_OPERAT_COMPETITION_ATTACK_CD",
+    "errorDescription": "errorDefine_errorDescription_246"
+  },
+  "45041": {
+    "id": 45041,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_EXCHANGE_NUMBER_OF_LESS_THAN",
+    "errorDescription": "errorDefine_errorDescription_247"
+  },
+  "45042": {
+    "id": 45042,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_USER_NOT_OPERTION",
+    "errorDescription": "errorDefine_errorDescription_248"
+  },
+  "45043": {
+    "id": 45043,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_BOSS_DEAD",
+    "errorDescription": "errorDefine_errorDescription_299"
+  },
+  "45044": {
+    "id": 45044,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_COST_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_309"
+  },
+  "45045": {
+    "id": 45045,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_ACTIVITY_NEW_HERO_CHALLENGE_NOT_OPEN",
+    "errorDescription": "errorDefine_errorDescription_360"
+  },
+  "46001": {
+    "id": 46001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TRAINING_STATE_ERR",
+    "errorDescription": "errorDefine_errorDescription_249"
+  },
+  "47001": {
+    "id": 47001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_COMMENT_REPEAT_LIKE",
+    "errorDescription": "errorDefine_errorDescription_250"
+  },
+  "47002": {
+    "id": 47002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_COMMENT_LEN_ERR",
+    "errorDescription": "errorDefine_errorDescription_251"
+  },
+  "47003": {
+    "id": 47003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_COMMENT_REPEAT",
+    "errorDescription": "errorDefine_errorDescription_252"
+  },
+  "48001": {
+    "id": 48001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BOSS_COMPETITION_FIGHTING",
+    "errorDescription": "errorDefine_errorDescription_253"
+  },
+  "48002": {
+    "id": 48002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BOSS_COMPETITION_REPEAT_BOSS",
+    "errorDescription": "errorDefine_errorDescription_254"
+  },
+  "48003": {
+    "id": 48003,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BOSS_COMPETITION_ATTACK_CD",
+    "errorDescription": "errorDefine_errorDescription_255"
+  },
+  "48004": {
+    "id": 48004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BOSS_COMPETITION_BOSS_DEAD",
+    "errorDescription": "errorDefine_errorDescription_256"
+  },
+  "48005": {
+    "id": 48005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BOSS_COMPETITION_OWNER_CHANGED",
+    "errorDescription": "errorDefine_errorDescription_257"
+  },
+  "48006": {
+    "id": 48006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BOSS_COMPETITION_ATTACK_TO_MATCH",
+    "errorDescription": "errorDefine_errorDescription_293"
+  },
+  "49001": {
+    "id": 49001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "WAR_REPEAT_SIGNUP",
+    "errorDescription": "errorDefine_errorDescription_258"
+  },
+  "49002": {
+    "id": 49002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "WAR_NO_AREA",
+    "errorDescription": "errorDefine_errorDescription_259"
+  },
+  "49003": {
+    "id": 49003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "WAR_BET_NO_ATTACKER_OR_DEFENCER",
+    "errorDescription": "errorDefine_errorDescription_260"
+  },
+  "49004": {
+    "id": 49004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "WAR_BET_FINISH",
+    "errorDescription": "errorDefine_errorDescription_261"
+  },
+  "49005": {
+    "id": 49005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "WAR_REPEAT_BET",
+    "errorDescription": "errorDefine_errorDescription_262"
+  },
+  "49006": {
+    "id": 49006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "WAR_REPEAT_LIKE",
+    "errorDescription": "errorDefine_errorDescription_263"
+  },
+  "50001": {
+    "id": 50001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_COUPON_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_264"
+  },
+  "50002": {
+    "id": 50002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_COUPON_BEFORE_OPEN",
+    "errorDescription": "errorDefine_errorDescription_265"
+  },
+  "50003": {
+    "id": 50003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_COUPON_OUT_OF_DATE",
+    "errorDescription": "errorDefine_errorDescription_266"
+  },
+  "50004": {
+    "id": 50004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_COUPON_BE_USED",
+    "errorDescription": "errorDefine_errorDescription_267"
+  },
+  "50005": {
+    "id": 50005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ERROR_COUPON_LIMIT_USER",
+    "errorDescription": "errorDefine_errorDescription_268"
+  },
+  "51001": {
+    "id": 51001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_OWNER_CHANGED",
+    "errorDescription": "errorDefine_errorDescription_269"
+  },
+  "51002": {
+    "id": 51002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_SAME_GUILD",
+    "errorDescription": "errorDefine_errorDescription_270"
+  },
+  "51003": {
+    "id": 51003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_FIGHTING",
+    "errorDescription": "errorDefine_errorDescription_271"
+  },
+  "51004": {
+    "id": 51004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_REPEAT_SIGN_UP",
+    "errorDescription": "errorDefine_errorDescription_272"
+  },
+  "51005": {
+    "id": 51005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_FINISH",
+    "errorDescription": "errorDefine_errorDescription_273"
+  },
+  "51006": {
+    "id": 51006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_FIGHT_CD",
+    "errorDescription": "errorDefine_errorDescription_274"
+  },
+  "51007": {
+    "id": 51007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_SELF_FIGHT_CD",
+    "errorDescription": "errorDefine_errorDescription_275"
+  },
+  "51008": {
+    "id": 51008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BALL_NOT_IN_SING_UP_STAGE",
+    "errorDescription": "errorDefine_errorDescription_361"
+  },
+  "52001": {
+    "id": 52001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GENKI_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_276"
+  },
+  "52002": {
+    "id": 52002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GENKI_LEVEL_ERROR",
+    "errorDescription": "errorDefine_errorDescription_277"
+  },
+  "52003": {
+    "id": 52003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GENKI_WEARED",
+    "errorDescription": "errorDefine_errorDescription_278"
+  },
+  "52004": {
+    "id": 52004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "GENKI_REPEAT_MAIN",
+    "errorDescription": "errorDefine_errorDescription_279"
+  },
+  "53001": {
+    "id": 53001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "USER_MESSAGE_LEN_ERR",
+    "errorDescription": "errorDefine_errorDescription_280"
+  },
+  "54001": {
+    "id": 54001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_EVENT_MAX",
+    "errorDescription": "errorDefine_errorDescription_281"
+  },
+  "54002": {
+    "id": 54002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_REPEAT_EVENT",
+    "errorDescription": "errorDefine_errorDescription_282"
+  },
+  "54003": {
+    "id": 54003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_REPEAT_HERO",
+    "errorDescription": "errorDefine_errorDescription_283"
+  },
+  "54004": {
+    "id": 54004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_MACHINE_HAVE_HERO",
+    "errorDescription": "errorDefine_errorDescription_284"
+  },
+  "54005": {
+    "id": 54005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_MACHINE_LOCKED",
+    "errorDescription": "errorDefine_errorDescription_285"
+  },
+  "54006": {
+    "id": 54006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_IN_EXPEDITION_MACHINE",
+    "errorDescription": "errorDefine_errorDescription_286"
+  },
+  "54007": {
+    "id": 54007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_SPEED_UP_MAX",
+    "errorDescription": "errorDefine_errorDescription_287"
+  },
+  "54008": {
+    "id": 54008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "EXPEDITION_TEAM_MAX",
+    "errorDescription": "errorDefine_errorDescription_353"
+  },
+  "55001": {
+    "id": 55001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_MEDAL_REFRESHED",
+    "errorDescription": "errorDefine_errorDescription_294"
+  },
+  "55002": {
+    "id": 55002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_MEDAL_REPEAT_SUPER",
+    "errorDescription": "errorDefine_errorDescription_295"
+  },
+  "55003": {
+    "id": 55003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_MEDAL_EMPTY_REWARD",
+    "errorDescription": "errorDefine_errorDescription_296"
+  },
+  "55004": {
+    "id": 55004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_MEDAL_SUPER_NOT_OPEN",
+    "errorDescription": "errorDefine_errorDescription_297"
+  },
+  "56001": {
+    "id": 56001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "DONT_HAVE_HERO_SKIN",
+    "errorDescription": "errorDefine_errorDescription_298"
+  },
+  "57001": {
+    "id": 57001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "ROOM_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_310"
+  },
+  "57002": {
+    "id": 57002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "NOT_IN_ROOM",
+    "errorDescription": "errorDefine_errorDescription_311"
+  },
+  "57003": {
+    "id": 57003,
+    "hintType": "float",
+    "isKick": 1,
+    "isNotShow": 0,
+    "errorType": "USER_NOT_REGIST",
+    "errorDescription": "errorDefine_errorDescription_312"
+  },
+  "58001": {
+    "id": 58001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TEAM_SERVER_NOT_FOUND",
+    "errorDescription": "errorDefine_errorDescription_313"
+  },
+  "58002": {
+    "id": 58002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TEAM_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_314"
+  },
+  "58003": {
+    "id": 58003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "USER_NOT_IN_TEAM",
+    "errorDescription": "errorDefine_errorDescription_315"
+  },
+  "58004": {
+    "id": 58004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "USER_HAVE_JOIN_TEAM",
+    "errorDescription": "errorDefine_errorDescription_316"
+  },
+  "58005": {
+    "id": 58005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TEAM_FULL",
+    "errorDescription": "errorDefine_errorDescription_317"
+  },
+  "58006": {
+    "id": 58006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "USER_IN_TEAM",
+    "errorDescription": "errorDefine_errorDescription_318"
+  },
+  "58007": {
+    "id": 58007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_MY_APPLY_LIMIT",
+    "errorDescription": "errorDefine_errorDescription_319"
+  },
+  "58008": {
+    "id": 58008,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TEAM_MEMBER_NOT_ENOUGH",
+    "errorDescription": "errorDefine_errorDescription_320"
+  },
+  "58009": {
+    "id": 58009,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_APPLAY_CD",
+    "errorDescription": "errorDefine_errorDescription_321"
+  },
+  "58010": {
+    "id": 58010,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_ROBOT_USED",
+    "errorDescription": "errorDefine_errorDescription_322"
+  },
+  "58011": {
+    "id": 58011,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_ROBOT_DUNGEON_STAR_ERR",
+    "errorDescription": "errorDefine_errorDescription_323"
+  },
+  "58012": {
+    "id": 58012,
+    "hintType": "float",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_CREATE_TEAM_CD",
+    "errorDescription": "errorDefine_errorDescription_324"
+  },
+  "58013": {
+    "id": 58013,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_NO_TEAM_CAN_APPLY",
+    "errorDescription": "errorDefine_errorDescription_325"
+  },
+  "58014": {
+    "id": 58014,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_NO_RECORD",
+    "errorDescription": "errorDefine_errorDescription_326"
+  },
+  "58015": {
+    "id": 58015,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TD_TEAM_HERO_CHANGE",
+    "errorDescription": "errorDefine_errorDescription_350"
+  },
+  "59001": {
+    "id": 59001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_BE_CONNECTED",
+    "errorDescription": "errorDefine_errorDescription_333"
+  },
+  "59002": {
+    "id": 59002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "HERO_CONNECTED",
+    "errorDescription": "errorDefine_errorDescription_334"
+  },
+  "59003": {
+    "id": 59003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "SAME_CONNECT_HERO",
+    "errorDescription": "errorDefine_errorDescription_335"
+  },
+  "59004": {
+    "id": 59004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "CONNECT_SEAT_MAX",
+    "errorDescription": "errorDefine_errorDescription_336"
+  },
+  "60001": {
+    "id": 60001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_USER_NOT_REGIST",
+    "errorDescription": "errorDefine_errorDescription_337"
+  },
+  "60002": {
+    "id": 60002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_NOT_IN_MATCH_LIST",
+    "errorDescription": "errorDefine_errorDescription_338"
+  },
+  "60003": {
+    "id": 60003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_ENEMY_TEAM_CHANGED",
+    "errorDescription": "errorDefine_errorDescription_339"
+  },
+  "60004": {
+    "id": 60004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_USER_FIGHTING",
+    "errorDescription": "errorDefine_errorDescription_340"
+  },
+  "60005": {
+    "id": 60005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_SELF_POINT_CHANGE",
+    "errorDescription": "errorDefine_errorDescription_341"
+  },
+  "60006": {
+    "id": 60006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_NOT_FOUND_BACKUP_TEAM",
+    "errorDescription": "errorDefine_errorDescription_356"
+  },
+  "60007": {
+    "id": 60007,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "TOP_BATTLE_MATCH_SERVER_OFFLINE",
+    "errorDescription": "errorDefine_errorDescription_357"
+  },
+  "63001": {
+    "id": 63001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "QUESTIONNAIRE_REPEAT_SUBMIT",
+    "errorDescription": "errorDefine_errorDescription_327"
+  },
+  "63002": {
+    "id": 63002,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "QUESTIONNAIRE_NOT_EXIST",
+    "errorDescription": "errorDefine_errorDescription_328"
+  },
+  "63003": {
+    "id": 63003,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "QUESTIONNAIRE_HAVE_NOT_BEGUN",
+    "errorDescription": "errorDefine_errorDescription_329"
+  },
+  "63004": {
+    "id": 63004,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "QUESTIONNAIRE_IS_OVER",
+    "errorDescription": "errorDefine_errorDescription_330"
+  },
+  "63005": {
+    "id": 63005,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "QUESTIONNAIRE_REQUISITE_IS_UNDEFINED",
+    "errorDescription": "errorDefine_errorDescription_331"
+  },
+  "63006": {
+    "id": 63006,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "QUESTIONNAIRE_CONDITION_ERR",
+    "errorDescription": "errorDefine_errorDescription_332"
+  },
+  "70001": {
+    "id": 70001,
+    "hintType": "window",
+    "isKick": 0,
+    "isNotShow": 0,
+    "errorType": "BATTLE_RECORD_CHECK_ERROR",
+    "errorDescription": "errorDefine_errorDescription_348"
+  }
+}

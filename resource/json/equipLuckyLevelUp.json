@@ -1,0 +1,398 @@
+{
+  "3001": {
+    "id": 3001,
+    "name": "武道护腕0",
+    "changeTo": 3005,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 20000
+  },
+  "3002": {
+    "id": 3002,
+    "name": "武道道服0",
+    "changeTo": 3006,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 20000
+  },
+  "3003": {
+    "id": 3003,
+    "name": "武道腰带0",
+    "changeTo": 3007,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 20000
+  },
+  "3004": {
+    "id": 3004,
+    "name": "武道靴子0",
+    "changeTo": 3008,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 20000
+  },
+  "3005": {
+    "id": 3005,
+    "name": "武道护腕1",
+    "changeTo": 3101,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 30000
+  },
+  "3006": {
+    "id": 3006,
+    "name": "武道道服1",
+    "changeTo": 3102,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 30000
+  },
+  "3007": {
+    "id": 3007,
+    "name": "武道腰带1",
+    "changeTo": 3103,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 30000
+  },
+  "3008": {
+    "id": 3008,
+    "name": "武道靴子1",
+    "changeTo": 3104,
+    "randomStart": 1,
+    "randomPlus": 0.5,
+    "costID": 102,
+    "costNum": 30000
+  },
+  "3101": {
+    "id": 3101,
+    "name": "龟仙流护腕0",
+    "changeTo": 3105,
+    "randomStart": 0.8,
+    "randomPlus": 0.2,
+    "costID": 102,
+    "costNum": 40000
+  },
+  "3102": {
+    "id": 3102,
+    "name": "龟仙流战衣0",
+    "changeTo": 3106,
+    "randomStart": 0.8,
+    "randomPlus": 0.2,
+    "costID": 102,
+    "costNum": 40000
+  },
+  "3103": {
+    "id": 3103,
+    "name": "龟仙流护腰0",
+    "changeTo": 3107,
+    "randomStart": 0.8,
+    "randomPlus": 0.2,
+    "costID": 102,
+    "costNum": 40000
+  },
+  "3104": {
+    "id": 3104,
+    "name": "龟仙流战靴0",
+    "changeTo": 3108,
+    "randomStart": 0.8,
+    "randomPlus": 0.2,
+    "costID": 102,
+    "costNum": 40000
+  },
+  "3105": {
+    "id": 3105,
+    "name": "龟仙流护腕1",
+    "changeTo": 3109,
+    "randomStart": 0.6,
+    "randomPlus": 0.15,
+    "costID": 102,
+    "costNum": 50000
+  },
+  "3106": {
+    "id": 3106,
+    "name": "龟仙流战衣1",
+    "changeTo": 3110,
+    "randomStart": 0.6,
+    "randomPlus": 0.15,
+    "costID": 102,
+    "costNum": 50000
+  },
+  "3107": {
+    "id": 3107,
+    "name": "龟仙流护腰1",
+    "changeTo": 3111,
+    "randomStart": 0.6,
+    "randomPlus": 0.15,
+    "costID": 102,
+    "costNum": 50000
+  },
+  "3108": {
+    "id": 3108,
+    "name": "龟仙流战靴1",
+    "changeTo": 3112,
+    "randomStart": 0.6,
+    "randomPlus": 0.15,
+    "costID": 102,
+    "costNum": 50000
+  },
+  "3109": {
+    "id": 3109,
+    "name": "龟仙流护腕2",
+    "changeTo": 3201,
+    "randomStart": 0.45,
+    "randomPlus": 0.1,
+    "costID": 101,
+    "costNum": 15
+  },
+  "3110": {
+    "id": 3110,
+    "name": "龟仙流战衣2",
+    "changeTo": 3202,
+    "randomStart": 0.45,
+    "randomPlus": 0.1,
+    "costID": 101,
+    "costNum": 15
+  },
+  "3111": {
+    "id": 3111,
+    "name": "龟仙流护腰2",
+    "changeTo": 3203,
+    "randomStart": 0.45,
+    "randomPlus": 0.1,
+    "costID": 101,
+    "costNum": 15
+  },
+  "3112": {
+    "id": 3112,
+    "name": "龟仙流战靴2",
+    "changeTo": 3204,
+    "randomStart": 0.45,
+    "randomPlus": 0.1,
+    "costID": 101,
+    "costNum": 15
+  },
+  "3201": {
+    "id": 3201,
+    "name": "宇宙护手0",
+    "changeTo": 3205,
+    "randomStart": 0.4,
+    "randomPlus": 0.09,
+    "costID": 101,
+    "costNum": 20
+  },
+  "3202": {
+    "id": 3202,
+    "name": "宇宙神衣0",
+    "changeTo": 3206,
+    "randomStart": 0.4,
+    "randomPlus": 0.09,
+    "costID": 101,
+    "costNum": 20
+  },
+  "3203": {
+    "id": 3203,
+    "name": "宇宙护腰0",
+    "changeTo": 3207,
+    "randomStart": 0.4,
+    "randomPlus": 0.09,
+    "costID": 101,
+    "costNum": 20
+  },
+  "3204": {
+    "id": 3204,
+    "name": "宇宙战靴0",
+    "changeTo": 3208,
+    "randomStart": 0.4,
+    "randomPlus": 0.09,
+    "costID": 101,
+    "costNum": 20
+  },
+  "3205": {
+    "id": 3205,
+    "name": "宇宙护手1",
+    "changeTo": 3209,
+    "randomStart": 0.35,
+    "randomPlus": 0.08,
+    "costID": 101,
+    "costNum": 25
+  },
+  "3206": {
+    "id": 3206,
+    "name": "宇宙神衣1",
+    "changeTo": 3210,
+    "randomStart": 0.35,
+    "randomPlus": 0.08,
+    "costID": 101,
+    "costNum": 25
+  },
+  "3207": {
+    "id": 3207,
+    "name": "宇宙护腰1",
+    "changeTo": 3211,
+    "randomStart": 0.35,
+    "randomPlus": 0.08,
+    "costID": 101,
+    "costNum": 25
+  },
+  "3208": {
+    "id": 3208,
+    "name": "宇宙战靴1",
+    "changeTo": 3212,
+    "randomStart": 0.35,
+    "randomPlus": 0.08,
+    "costID": 101,
+    "costNum": 25
+  },
+  "3209": {
+    "id": 3209,
+    "name": "宇宙护手2",
+    "changeTo": 3213,
+    "randomStart": 0.3,
+    "randomPlus": 0.07,
+    "costID": 101,
+    "costNum": 35
+  },
+  "3210": {
+    "id": 3210,
+    "name": "宇宙神衣2",
+    "changeTo": 3214,
+    "randomStart": 0.3,
+    "randomPlus": 0.07,
+    "costID": 101,
+    "costNum": 35
+  },
+  "3211": {
+    "id": 3211,
+    "name": "宇宙护腰2",
+    "changeTo": 3215,
+    "randomStart": 0.3,
+    "randomPlus": 0.07,
+    "costID": 101,
+    "costNum": 35
+  },
+  "3212": {
+    "id": 3212,
+    "name": "宇宙战靴2",
+    "changeTo": 3216,
+    "randomStart": 0.3,
+    "randomPlus": 0.07,
+    "costID": 101,
+    "costNum": 35
+  },
+  "3213": {
+    "id": 3213,
+    "name": "宇宙护手3",
+    "changeTo": 3301,
+    "randomStart": 0.2,
+    "randomPlus": 0.04,
+    "costID": 101,
+    "costNum": 60
+  },
+  "3214": {
+    "id": 3214,
+    "name": "宇宙神衣3",
+    "changeTo": 3302,
+    "randomStart": 0.2,
+    "randomPlus": 0.04,
+    "costID": 101,
+    "costNum": 60
+  },
+  "3215": {
+    "id": 3215,
+    "name": "宇宙护腰3",
+    "changeTo": 3303,
+    "randomStart": 0.2,
+    "randomPlus": 0.04,
+    "costID": 101,
+    "costNum": 60
+  },
+  "3216": {
+    "id": 3216,
+    "name": "宇宙战靴3",
+    "changeTo": 3304,
+    "randomStart": 0.2,
+    "randomPlus": 0.04,
+    "costID": 101,
+    "costNum": 60
+  },
+  "3301": {
+    "id": 3301,
+    "name": "界王护手0",
+    "changeTo": 3305,
+    "randomStart": 0.15,
+    "randomPlus": 0.015,
+    "costID": 101,
+    "costNum": 90
+  },
+  "3302": {
+    "id": 3302,
+    "name": "界王神衣0",
+    "changeTo": 3306,
+    "randomStart": 0.15,
+    "randomPlus": 0.015,
+    "costID": 101,
+    "costNum": 90
+  },
+  "3303": {
+    "id": 3303,
+    "name": "界王护腰0",
+    "changeTo": 3307,
+    "randomStart": 0.15,
+    "randomPlus": 0.015,
+    "costID": 101,
+    "costNum": 90
+  },
+  "3304": {
+    "id": 3304,
+    "name": "界王之靴0",
+    "changeTo": 3308,
+    "randomStart": 0.15,
+    "randomPlus": 0.015,
+    "costID": 101,
+    "costNum": 90
+  },
+  "3305": {
+    "id": 3305,
+    "name": "界王护手1",
+    "changeTo": 3309,
+    "randomStart": 0.1,
+    "randomPlus": 0.01,
+    "costID": 101,
+    "costNum": 180
+  },
+  "3306": {
+    "id": 3306,
+    "name": "界王神衣1",
+    "changeTo": 3310,
+    "randomStart": 0.1,
+    "randomPlus": 0.01,
+    "costID": 101,
+    "costNum": 180
+  },
+  "3307": {
+    "id": 3307,
+    "name": "界王护腰1",
+    "changeTo": 3311,
+    "randomStart": 0.1,
+    "randomPlus": 0.01,
+    "costID": 101,
+    "costNum": 180
+  },
+  "3308": {
+    "id": 3308,
+    "name": "界王之靴1",
+    "changeTo": 3312,
+    "randomStart": 0.1,
+    "randomPlus": 0.01,
+    "costID": 101,
+    "costNum": 180
+  }
+}

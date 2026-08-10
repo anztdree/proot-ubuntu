@@ -1,0 +1,81 @@
+{
+  "1": {
+    "id": 1,
+    "friendshipNeeded": 600
+  },
+  "2": {
+    "id": 2,
+    "friendshipNeeded": 700
+  },
+  "3": {
+    "id": 3,
+    "friendshipNeeded": 1600
+  },
+  "4": {
+    "id": 4,
+    "friendshipNeeded": 2700
+  },
+  "5": {
+    "id": 5,
+    "friendshipNeeded": 3000
+  },
+  "6": {
+    "id": 6,
+    "friendshipNeeded": 3300
+  },
+  "7": {
+    "id": 7,
+    "friendshipNeeded": 3600
+  },
+  "8": {
+    "id": 8,
+    "friendshipNeeded": 3900
+  },
+  "9": {
+    "id": 9,
+    "friendshipNeeded": 4200
+  },
+  "10": {
+    "id": 10,
+    "friendshipNeeded": 4500
+  },
+  "11": {
+    "id": 11,
+    "friendshipNeeded": 4800
+  },
+  "12": {
+    "id": 12,
+    "friendshipNeeded": 5100
+  },
+  "13": {
+    "id": 13,
+    "friendshipNeeded": 5400
+  },
+  "14": {
+    "id": 14,
+    "friendshipNeeded": 5700
+  },
+  "15": {
+    "id": 15,
+    "friendshipNeeded": 6000
+  },
+  "16": {
+    "id": 16,
+    "friendshipNeeded": 6300
+  },
+  "17": {
+    "id": 17,
+    "friendshipNeeded": 6600
+  },
+  "18": {
+    "id": 18,
+    "friendshipNeeded": 6900
+  },
+  "19": {
+    "id": 19,
+    "friendshipNeeded": 7200
+  },
+  "20": {
+    "id": 20
+  }
+}

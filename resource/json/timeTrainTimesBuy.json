@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": 1,
+    "timeTrainCostID": 101,
+    "timeTrainPrice": 50,
+    "vipNeeded": 0
+  },
+  "2": {
+    "id": 2,
+    "timeTrainCostID": 101,
+    "timeTrainPrice": 50,
+    "vipNeeded": 3
+  },
+  "3": {
+    "id": 3,
+    "timeTrainCostID": 101,
+    "timeTrainPrice": 50,
+    "vipNeeded": 5
+  },
+  "4": {
+    "id": 4,
+    "timeTrainCostID": 101,
+    "timeTrainPrice": 100,
+    "vipNeeded": 7
+  },
+  "5": {
+    "id": 5,
+    "timeTrainCostID": 101,
+    "timeTrainPrice": 100,
+    "vipNeeded": 9
+  }
+}

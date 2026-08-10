@@ -1,0 +1,903 @@
+{
+  "310101": {
+    "id": 310101,
+    "belongTo": "熔岩地狱",
+    "description": "攻坚者对BOSS增伤",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.5,
+    "para3": 0,
+    "para4": "boss"
+  },
+  "310102": {
+    "id": 310102,
+    "belongTo": "熔岩地狱",
+    "description": "支援者全队buff",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.05,
+    "para3": 1
+  },
+  "310103": {
+    "id": 310103,
+    "belongTo": "熔岩地狱",
+    "description": "监听触发-小怪死亡触发额外减cd（弃用）"
+  },
+  "310104": {
+    "id": 310104,
+    "belongTo": "熔岩地狱",
+    "description": "战场内技能-岩浆回血低级",
+    "effectType": "battleEffect",
+    "para1": 91010101,
+    "para2": 0,
+    "para3": "lavaNum"
+  },
+  "310105": {
+    "id": 310105,
+    "belongTo": "熔岩地狱",
+    "description": "战场内技能-岩浆回血高级",
+    "effectType": "battleEffect",
+    "para1": 91010102,
+    "para2": 0,
+    "para3": "lavaNum"
+  },
+  "310106": {
+    "id": 310106,
+    "belongTo": "熔岩地狱",
+    "description": "战场内技能-对流血单位增伤",
+    "effectType": "battleEffect",
+    "para1": 91010201,
+    "para2": 0
+  },
+  "310107": {
+    "id": 310107,
+    "belongTo": "熔岩地狱",
+    "description": "战场内技能-岩浆流血低级",
+    "effectType": "battleEffect",
+    "para1": 91010301,
+    "para2": 0
+  },
+  "310108": {
+    "id": 310108,
+    "belongTo": "熔岩地狱",
+    "description": "战场内技能-岩浆流血高级",
+    "effectType": "battleEffect",
+    "para1": 91010302,
+    "para2": 0
+  },
+  "310109": {
+    "id": 310109,
+    "belongTo": "熔岩地狱",
+    "description": "寻宝者50%增加概率buff",
+    "effectType": "treasureUp",
+    "para1": 0.5
+  },
+  "310201": {
+    "id": 310201,
+    "belongTo": "无限分裂",
+    "description": "攻坚者对BOSS增伤",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.5,
+    "para3": 0,
+    "para4": "boss"
+  },
+  "310202": {
+    "id": 310202,
+    "belongTo": "无限分裂",
+    "description": "支援者全队buff",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.07,
+    "para3": 1
+  },
+  "310203": {
+    "id": 310203,
+    "belongTo": "无限分裂",
+    "description": "战场内技能-伤害减少",
+    "icon": "TD_damageMinus_png",
+    "effectType": "battleEffect",
+    "para1": 91020101,
+    "para2": 1
+  },
+  "310204": {
+    "id": 310204,
+    "belongTo": "无限分裂",
+    "description": "boss吸收精英后的增伤buff低级",
+    "icon": "TD_damagePlus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.4,
+    "para3": 1
+  },
+  "310205": {
+    "id": 310205,
+    "belongTo": "无限分裂",
+    "description": "液化布欧眩晕效果",
+    "showEffect": "tuanti_xuanyun",
+    "showAnimation": "newAnimation",
+    "effectType": "control",
+    "para1": "stun",
+    "para2": 1
+  },
+  "310206": {
+    "id": 310206,
+    "belongTo": "无限分裂",
+    "description": "寻宝者50%增加概率buff",
+    "effectType": "treasureUp",
+    "para1": 0.5
+  },
+  "310207": {
+    "id": 310207,
+    "belongTo": "无限分裂",
+    "description": "boss吸收精英后的增伤buff高级",
+    "icon": "TD_damagePlus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.5,
+    "para3": 1
+  },
+  "310208": {
+    "id": 310208,
+    "belongTo": "无限分裂",
+    "description": "战场内技能-真实伤害低级",
+    "effectType": "battleEffect",
+    "para1": 91020201,
+    "para2": 1
+  },
+  "310209": {
+    "id": 310209,
+    "belongTo": "无限分裂",
+    "description": "战场内技能-真实伤害高级",
+    "effectType": "battleEffect",
+    "para1": 91020202,
+    "para2": 1
+  },
+  "310301": {
+    "id": 310301,
+    "belongTo": "美食大作战",
+    "description": "战场内技能-BOSS战减伤",
+    "effectType": "battleEffect",
+    "para1": 91030101,
+    "para2": 0
+  },
+  "310302": {
+    "id": 310302,
+    "belongTo": "美食大作战",
+    "description": "战场内技能-BOSS战受伤增加",
+    "effectType": "battleEffect",
+    "para1": 91030102,
+    "para2": 0
+  },
+  "310303": {
+    "id": 310303,
+    "belongTo": "美食大作战",
+    "description": "BOSS眩晕效果",
+    "effectType": "control",
+    "para1": "stun",
+    "para2": 1
+  },
+  "310304": {
+    "id": 310304,
+    "belongTo": "美食大作战",
+    "description": "新鲜食物BUFF集合",
+    "icon": "small_icon_item_1036_png",
+    "effectType": "multiEffect",
+    "para1": "110314,310301"
+  },
+  "310305": {
+    "id": 310305,
+    "belongTo": "美食大作战",
+    "description": "腐烂食物BUFF集合",
+    "icon": "small_icon_item_1037_png",
+    "effectType": "multiEffect",
+    "para1": "110316,310302"
+  },
+  "310306": {
+    "id": 310306,
+    "belongTo": "美食大作战",
+    "description": "战场内技能-BOSS战受伤增加（6星）",
+    "effectType": "battleEffect",
+    "para1": 91030103,
+    "para2": 0
+  },
+  "310307": {
+    "id": 310307,
+    "belongTo": "美食大作战",
+    "description": "新鲜食物BUFF集合（6星）",
+    "icon": "small_icon_item_1036_png",
+    "effectType": "multiEffect",
+    "para1": 110314
+  },
+  "310308": {
+    "id": 310308,
+    "belongTo": "美食大作战",
+    "description": "腐烂食物BUFF集合（6星）",
+    "icon": "small_icon_item_1037_png",
+    "effectType": "multiEffect",
+    "para1": "110316,310306"
+  },
+  "310401": {
+    "id": 310401,
+    "belongTo": "帝王之怒",
+    "description": "属性提升",
+    "showEffect": "tuanti_skillPurify",
+    "showAnimation": "newAnimation",
+    "effectType": "multiEffect",
+    "para1": "310402,310405,340411"
+  },
+  "310402": {
+    "id": 310402,
+    "belongTo": "帝王之怒",
+    "description": "攻击提升",
+    "effectType": "buff",
+    "para1": "attackPercent",
+    "para2": 0.3,
+    "para3": 0
+  },
+  "310404": {
+    "id": 310404,
+    "belongTo": "帝王之怒",
+    "description": "战场内技能-对流血单位增伤（小）",
+    "effectType": "battleEffect",
+    "para1": 91040201,
+    "para2": 0
+  },
+  "310405": {
+    "id": 310405,
+    "belongTo": "帝王之怒",
+    "description": "血量提升",
+    "effectType": "buff",
+    "para1": "hpPercent",
+    "para2": 0.3,
+    "para3": 0
+  },
+  "310407": {
+    "id": 310407,
+    "belongTo": "帝王之怒",
+    "description": "战场内技能-对流血单位增伤（大）",
+    "effectType": "battleEffect",
+    "para1": 91040202,
+    "para2": 0
+  },
+  "310408": {
+    "id": 310408,
+    "belongTo": "帝王之怒",
+    "description": "战场内技能-增伤20%",
+    "effectType": "battleEffect",
+    "para1": 91040301,
+    "para2": 0,
+    "para3": "ballNum"
+  },
+  "310409": {
+    "id": 310409,
+    "belongTo": "帝王之怒",
+    "description": "战场内技能-增伤80%",
+    "effectType": "battleEffect",
+    "para1": 91040302,
+    "para2": 0,
+    "para3": "ballNum"
+  },
+  "310410": {
+    "id": 310410,
+    "belongTo": "帝王之怒",
+    "description": "战场内技能-增伤120%",
+    "effectType": "battleEffect",
+    "para1": 91040303,
+    "para2": 0,
+    "para3": "ballNum"
+  },
+  "310501": {
+    "id": 310501,
+    "belongTo": "麻痹之界",
+    "description": "增伤8%,只对boss生效",
+    "icon": "small_icon_item_1038_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.08,
+    "para3": 1,
+    "para4": "boss"
+  },
+  "310502": {
+    "id": 310502,
+    "belongTo": "麻痹之界",
+    "description": "能量恢复速度增加100%,只对boss生效",
+    "effectType": "battleEffect",
+    "para1": 91050101,
+    "para2": 1,
+    "para4": "boss"
+  },
+  "310503": {
+    "id": 310503,
+    "belongTo": "麻痹之界",
+    "description": "慵懒buff",
+    "icon": "small_icon_item_1039_png",
+    "effectType": "buff",
+    "para3": 1
+  },
+  "310504": {
+    "id": 310504,
+    "belongTo": "麻痹之界",
+    "description": "眩晕",
+    "icon": "small_icon_item_1040_png",
+    "effectType": "control",
+    "para1": "stun",
+    "para2": 0
+  },
+  "310505": {
+    "id": 310505,
+    "belongTo": "麻痹之界",
+    "description": "boss对寻宝者20%增伤",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.2,
+    "para3": 0
+  },
+  "310506": {
+    "id": 310506,
+    "belongTo": "麻痹之界",
+    "description": "BOSS对有激勇buff的队伍增伤20%",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.2,
+    "para3": 0
+  },
+  "310507": {
+    "id": 310507,
+    "belongTo": "麻痹之界",
+    "description": "BOSS对没有激勇buff的队伍减伤20%",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.2,
+    "para3": 0
+  },
+  "310508": {
+    "id": 310508,
+    "belongTo": "麻痹之界",
+    "description": "一星慵懒buff实际效果（弃用）",
+    "icon": "small_icon_item_1041_png",
+    "effectType": "buffEffect",
+    "para1": "teamWarDamageUp,teamWarDamageDown",
+    "para2": 310503,
+    "para3": -0.06,
+    "para4": 1
+  },
+  "310509": {
+    "id": 310509,
+    "belongTo": "麻痹之界",
+    "description": "二星慵懒buff实际效果（弃用）",
+    "icon": "small_icon_item_1041_png",
+    "effectType": "buffEffect",
+    "para1": "hpPercent,attackPercent,armorPercent",
+    "para2": 310503,
+    "para3": -0.08,
+    "para4": 1
+  },
+  "310510": {
+    "id": 310510,
+    "belongTo": "麻痹之界",
+    "description": "三星慵懒buff实际效果（弃用）",
+    "icon": "small_icon_item_1041_png",
+    "effectType": "buffEffect",
+    "para1": "hpPercent,attackPercent,armorPercent",
+    "para2": 310503,
+    "para3": -0.1,
+    "para4": 1
+  },
+  "310511": {
+    "id": 310511,
+    "belongTo": "麻痹之界",
+    "description": "四星慵懒buff实际效果（弃用）",
+    "icon": "small_icon_item_1041_png",
+    "effectType": "buffEffect",
+    "para1": "hpPercent,attackPercent,armorPercent",
+    "para2": 310503,
+    "para3": -0.12,
+    "para4": 1
+  },
+  "310512": {
+    "id": 310512,
+    "belongTo": "麻痹之界",
+    "description": "五星慵懒buff实际效果（弃用）",
+    "icon": "small_icon_item_1041_png",
+    "effectType": "buffEffect",
+    "para1": "hpPercent,attackPercent,armorPercent",
+    "para2": 310503,
+    "para3": -0.14,
+    "para4": 1
+  },
+  "310513": {
+    "id": 310513,
+    "belongTo": "麻痹之界",
+    "description": "六星慵懒buff实际效果（弃用）",
+    "icon": "small_icon_item_1041_png",
+    "effectType": "buffEffect",
+    "para1": "hpPercent,attackPercent,armorPercent",
+    "para2": 310503,
+    "para3": -0.17,
+    "para4": 1
+  },
+  "310514": {
+    "id": 310514,
+    "belongTo": "麻痹之界",
+    "description": "BOSS对眩晕增伤（小）",
+    "effectType": "battleEffect",
+    "para1": 91050301,
+    "para2": 0
+  },
+  "310515": {
+    "id": 310515,
+    "belongTo": "麻痹之界",
+    "description": "BOSS对眩晕增伤（大）",
+    "effectType": "battleEffect",
+    "para1": 91050401,
+    "para2": 0
+  },
+  "310516": {
+    "id": 310516,
+    "belongTo": "麻痹之界",
+    "description": "寻宝者拿到宝箱后获得的宝箱奖励翻倍",
+    "effectType": "treasureUp",
+    "para1": 1
+  },
+  "310517": {
+    "id": 310517,
+    "belongTo": "麻痹之界",
+    "description": "BOSS根据麻痹buff层数，眩晕玩家",
+    "effectType": "battleEffect",
+    "para1": 91050212,
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310518": {
+    "id": 310518,
+    "belongTo": "麻痹之界",
+    "description": "boss对攻坚者增伤25%",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.25,
+    "para3": 0,
+    "para4": "stormer"
+  },
+  "310519": {
+    "id": 310519,
+    "belongTo": "麻痹之界",
+    "description": "寻宝者、支援者对boos25%减伤",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.25,
+    "para3": 0,
+    "para4": "boss"
+  },
+  "310520": {
+    "id": 310520,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤1星本",
+    "effectType": "battleEffect",
+    "para1": "91050550",
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310521": {
+    "id": 310521,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤2星本",
+    "effectType": "battleEffect",
+    "para1": "91050650",
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310522": {
+    "id": 310522,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤3星本",
+    "effectType": "battleEffect",
+    "para1": "91050750",
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310523": {
+    "id": 310523,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤4星本",
+    "effectType": "battleEffect",
+    "para1": "91050850",
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310524": {
+    "id": 310524,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤5星本",
+    "effectType": "battleEffect",
+    "para1": "91050950",
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310525": {
+    "id": 310525,
+    "belongTo": "麻痹之界",
+    "description": "进入战斗后对玩家的增伤减伤6星本",
+    "effectType": "battleEffect",
+    "para1": "91051050",
+    "para2": 0,
+    "para3": "targetLazyBuffNum"
+  },
+  "310601": {
+    "id": 310601,
+    "belongTo": "怨念黄泉",
+    "description": "攻坚者对BOSS30%增伤",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.3,
+    "para3": 0,
+    "para4": "boss"
+  },
+  "310602": {
+    "id": 310602,
+    "belongTo": "怨念黄泉",
+    "description": "支援者提升所有玩家5%增伤",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.05
+  },
+  "310603": {
+    "id": 310603,
+    "belongTo": "怨念黄泉",
+    "description": "寻宝者50%增加概率buff",
+    "effectType": "treasureUp",
+    "para1": 0.5
+  },
+  "310604": {
+    "id": 310604,
+    "belongTo": "怨念黄泉",
+    "description": "读心术BOSS全场增加80%的闪避率",
+    "effectType": "buff",
+    "para1": "dodge",
+    "para2": 0.8,
+    "para3": 0
+  },
+  "310606": {
+    "id": 310606,
+    "belongTo": "怨念黄泉",
+    "description": "施加【恐惧】，【恐惧】持续40回合。",
+    "effectType": "battleEffect",
+    "para1": 91060101,
+    "para2": 1
+  },
+  "310607": {
+    "id": 310607,
+    "belongTo": "怨念黄泉",
+    "description": "施加【恐惧】，【恐惧】持续60回合。",
+    "effectType": "battleEffect",
+    "para1": 91060102,
+    "para2": 1
+  },
+  "310608": {
+    "id": 310608,
+    "belongTo": "怨念黄泉",
+    "description": "阴冥结界给精英怪提供buff减伤70%",
+    "showEffect": "ynhq_dunposui",
+    "showEffectRemove": "ynhq_dunposui",
+    "showAnimation": "chixu",
+    "showAnimationRemove": "baokai",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.7,
+    "para3": 0
+  },
+  "310609": {
+    "id": 310609,
+    "belongTo": "怨念黄泉",
+    "description": "攻坚者对BOSS 有80%的命中率",
+    "effectType": "buff",
+    "para1": "hit",
+    "para2": 1,
+    "para3": 0,
+    "para4": "boss"
+  },
+  "310610": {
+    "id": 310610,
+    "belongTo": "怨念黄泉",
+    "description": "阴冥结界给精英怪提供buff减伤40%",
+    "showEffect": "ynhq_dunposui",
+    "showEffectRemove": "ynhq_dunposui",
+    "showAnimation": "chixu",
+    "showAnimationRemove": "baokai",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.4,
+    "para3": 0
+  },
+  "310701": {
+    "id": 310701,
+    "belongTo": "骄傲战队",
+    "description": "寻宝者50%增加概率buff",
+    "effectType": "treasureUp",
+    "para1": 0.5
+  },
+  "310702": {
+    "id": 310702,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加3%减伤",
+    "icon": "TD_damageMinus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.03,
+    "para3": 1
+  },
+  "310703": {
+    "id": 310703,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加6%减伤",
+    "icon": "TD_damageMinus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.06,
+    "para3": 1
+  },
+  "310704": {
+    "id": 310704,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加8%减伤",
+    "icon": "TD_damageMinus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.08,
+    "para3": 1
+  },
+  "310707": {
+    "id": 310707,
+    "belongTo": "骄傲战队",
+    "description": "全队增加25%增伤",
+    "icon": "TD_damagePlus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.25,
+    "para3": 1
+  },
+  "310708": {
+    "id": 310708,
+    "belongTo": "骄傲战队",
+    "description": "施加【恐惧】，【恐惧】持续20回合。",
+    "effectType": "battleEffect",
+    "para1": 91070201,
+    "para2": 1
+  },
+  "310709": {
+    "id": 310709,
+    "belongTo": "骄傲战队",
+    "description": "施加【恐惧】，【恐惧】持续40回合。",
+    "effectType": "battleEffect",
+    "para1": 91070202,
+    "para2": 1
+  },
+  "310710": {
+    "id": 310710,
+    "belongTo": "骄傲战队",
+    "description": "踩到陷阱后会眩晕玩家一回合",
+    "showEffect": "tuanti_xuanyun",
+    "showAnimation": "newAnimation",
+    "effectType": "control",
+    "para1": "stun",
+    "para2": 1
+  },
+  "310711": {
+    "id": 310711,
+    "belongTo": "骄傲战队",
+    "description": "施加【恐惧】，【恐惧】持续60回合。",
+    "effectType": "battleEffect",
+    "para1": 91070203,
+    "para2": 1
+  },
+  "310712": {
+    "id": 310712,
+    "belongTo": "骄傲战队",
+    "description": "蒂斯破带有20%减疗效果",
+    "effectType": "battleEffect",
+    "para1": 91070101,
+    "para2": 1
+  },
+  "310713": {
+    "id": 310713,
+    "belongTo": "骄傲战队",
+    "description": "蒂斯破带有30%减疗效果",
+    "effectType": "battleEffect",
+    "para1": 91070102,
+    "para2": 1
+  },
+  "310714": {
+    "id": 310714,
+    "belongTo": "骄傲战队",
+    "description": "蒂斯破带有50%减疗效果",
+    "effectType": "battleEffect",
+    "para1": 91070103,
+    "para2": 1
+  },
+  "310715": {
+    "id": 310715,
+    "belongTo": "骄傲战队",
+    "description": "BOSS每回合增加5%增伤",
+    "icon": "TD_damagePlus_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.05,
+    "para3": 1
+  },
+  "310801": {
+    "id": 310801,
+    "belongTo": "力之大会",
+    "description": "筋疲力尽buff",
+    "icon": "small_icon_item_1081_png",
+    "effectType": "buff",
+    "para3": 1
+  },
+  "310802": {
+    "id": 310802,
+    "belongTo": "力之大会",
+    "description": "眩晕",
+    "icon": "small_icon_item_1040_png",
+    "showEffect": "tuanti_xuanyun",
+    "showAnimation": "newAnimation",
+    "effectType": "control",
+    "para1": "stun",
+    "para2": 1
+  },
+  "310803": {
+    "id": 310803,
+    "belongTo": "力之大会",
+    "description": "寻宝者拿到宝箱后获得的宝箱奖励翻倍",
+    "effectType": "treasureUp",
+    "para1": 0.5
+  },
+  "310804": {
+    "id": 310804,
+    "belongTo": "力之大会",
+    "description": "BOSS增伤+2%",
+    "icon": "small_icon_item_1082_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.02,
+    "para3": 1
+  },
+  "310805": {
+    "id": 310805,
+    "belongTo": "力之大会",
+    "description": "BOSS减伤+2%",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.02,
+    "para3": 1
+  },
+  "310806": {
+    "id": 310806,
+    "belongTo": "力之大会",
+    "description": "BOSS增伤+6%",
+    "icon": "small_icon_item_1082_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.05,
+    "para3": 1
+  },
+  "310807": {
+    "id": 310807,
+    "belongTo": "力之大会",
+    "description": "BOSS减伤+6%",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.05,
+    "para3": 1
+  },
+  "310808": {
+    "id": 310808,
+    "belongTo": "力之大会",
+    "description": "BOSS增伤+12%",
+    "icon": "small_icon_item_1082_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.07,
+    "para3": 1
+  },
+  "310809": {
+    "id": 310809,
+    "belongTo": "力之大会",
+    "description": "BOSS减伤+12%",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageDown",
+    "para2": 0.07,
+    "para3": 1
+  },
+  "310810": {
+    "id": 310810,
+    "belongTo": "力之大会",
+    "description": "战场内技能-我方受到30%减疗",
+    "icon": "small_icon_item_1083_png",
+    "effectType": "battleEffect",
+    "para1": 91080201,
+    "para2": 0
+  },
+  "310811": {
+    "id": 310811,
+    "belongTo": "力之大会",
+    "description": "战场内技能-我方受到50%减疗",
+    "icon": "small_icon_item_1083_png",
+    "effectType": "battleEffect",
+    "para1": 91080202,
+    "para2": 0
+  },
+  "310812": {
+    "id": 310812,
+    "belongTo": "力之大会",
+    "description": "战场内技能-我方受到99%减疗",
+    "icon": "small_icon_item_1083_png",
+    "effectType": "battleEffect",
+    "para1": 91080203,
+    "para2": 0
+  },
+  "310813": {
+    "id": 310813,
+    "belongTo": "力之大会",
+    "description": "战场内技能-每回合恢复10%生命值",
+    "icon": "small_icon_item_1084_png",
+    "showEffect": "uiEffect_TB_1",
+    "showAnimation": "newAnimation2",
+    "effectType": "battleEffect",
+    "para1": 91080101,
+    "para2": 0
+  },
+  "310814": {
+    "id": 310814,
+    "belongTo": "力之大会",
+    "description": "战场内技能-每回合恢复100%生命值",
+    "icon": "small_icon_item_1084_png",
+    "showEffect": "uiEffect_TB_1",
+    "showAnimation": "newAnimation2",
+    "effectType": "battleEffect",
+    "para1": 91080102,
+    "para2": 0
+  },
+  "310815": {
+    "id": 310815,
+    "belongTo": "力之大会",
+    "description": "战场内技能-每回合恢复1000%生命值",
+    "icon": "small_icon_item_1084_png",
+    "showEffect": "uiEffect_TB_1",
+    "showAnimation": "newAnimation2",
+    "effectType": "battleEffect",
+    "para1": 91080103,
+    "para2": 0
+  },
+  "310850": {
+    "id": 310850,
+    "belongTo": "力之大会",
+    "description": "攻坚者对BOSS增伤",
+    "icon": "small_icon_item_1082_png",
+    "effectType": "buff",
+    "para1": "dragonBallWarDamageUp",
+    "para2": 0.5,
+    "para3": 0,
+    "para4": "boss"
+  },
+  "310898": {
+    "id": 310898,
+    "belongTo": "力之大会",
+    "description": "吉连标记",
+    "effectType": "buff",
+    "para3": 1
+  },
+  "310899": {
+    "id": 310899,
+    "belongTo": "力之大会",
+    "description": "攻坚者标记",
+    "effectType": "buff",
+    "para3": 1
+  },
+  "340411": {
+    "id": 340411,
+    "belongTo": "帝王之怒",
+    "description": "鼓舞图标",
+    "effectType": "battleEffect",
+    "para1": 91040401,
+    "para2": 0
+  }
+}

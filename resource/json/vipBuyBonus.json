@@ -1,0 +1,99 @@
+{
+  "1": {
+    "id": 1,
+    "bonusName": "S英雄\\n比克",
+    "sort": 1,
+    "vip": 1,
+    "buyTimes": 1,
+    "rmb": 12,
+    "discount": 1,
+    "goodsID1": 1404,
+    "num1": 1
+  },
+  "2": {
+    "id": 2,
+    "bonusName": "SS英雄\\n孙悟空(超二)",
+    "vip": 2,
+    "buyTimes": 1,
+    "rmb": 68,
+    "discount": 1,
+    "goodsID1": 1511,
+    "num1": 1
+  },
+  "3": {
+    "id": 3,
+    "bonusName": "波塔拉之玉",
+    "sort": 3,
+    "vip": 3,
+    "buyTimes": 1,
+    "rmb": 18,
+    "discount": 3,
+    "goodsID1": 139,
+    "num1": 600
+  },
+  "4": {
+    "id": 4,
+    "bonusName": "Z神石",
+    "vip": 4,
+    "buyTimes": 1,
+    "rmb": 12,
+    "discount": 3,
+    "goodsID1": 240,
+    "num1": 400
+  },
+  "5": {
+    "id": 5,
+    "bonusName": "橙0装备一套",
+    "sort": 6,
+    "vip": 5,
+    "buyTimes": 1,
+    "rmb": 68,
+    "discount": 4,
+    "goodsID1": 515,
+    "num1": 1
+  },
+  "6": {
+    "id": 6,
+    "bonusName": "紫色印记魔字套",
+    "sort": 7,
+    "vip": 5,
+    "buyTimes": 1,
+    "rmb": 68,
+    "discount": 4,
+    "goodsID1": 7263,
+    "num1": 1
+  },
+  "7": {
+    "id": 7,
+    "bonusName": "S超必杀英雄\\n弗利萨",
+    "sort": 2,
+    "vip": 2,
+    "buyTimes": 1,
+    "rmb": 68,
+    "discount": 3,
+    "goodsID1": 1406,
+    "num1": 1
+  },
+  "8": {
+    "id": 8,
+    "bonusName": "S英雄\\n弗利萨（机械）",
+    "sort": 4,
+    "vip": 4,
+    "buyTimes": 1,
+    "rmb": 38,
+    "discount": 3,
+    "goodsID1": 1405,
+    "num1": 1
+  },
+  "9": {
+    "id": 9,
+    "bonusName": "SS英雄\\n孙悟空(超二)",
+    "sort": 5,
+    "vip": 4,
+    "buyTimes": 1,
+    "rmb": 128,
+    "discount": 2,
+    "goodsID1": 1511,
+    "num1": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "1": {
+    "id": 1,
+    "time": 300,
+    "awardID": 122,
+    "num": 3,
+    "nextID": 2
+  },
+  "2": {
+    "id": 2,
+    "time": 600,
+    "awardID": 541,
+    "num": 1,
+    "nextID": 3
+  },
+  "3": {
+    "id": 3,
+    "time": 1800,
+    "awardID": 1310,
+    "num": 1,
+    "nextID": 4
+  },
+  "4": {
+    "id": 4,
+    "time": 3600,
+    "awardID": 123,
+    "num": 1,
+    "nextID": 5
+  },
+  "5": {
+    "id": 5,
+    "time": 7200,
+    "awardID": 101,
+    "num": 100,
+    "nextID": 6
+  },
+  "6": {
+    "id": 6,
+    "time": 18000,
+    "awardID": 4201,
+    "num": 1,
+    "nextID": 7
+  },
+  "7": {
+    "id": 7,
+    "time": 43200,
+    "awardID": 132,
+    "num": 3000
+  }
+}

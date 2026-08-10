@@ -1,0 +1,11 @@
+{
+  "1": {
+    "id": 1,
+    "timeTrainOpen": 1,
+    "timeTrainContinue": 21,
+    "timeTrainTimes": 5,
+    "timeTrainTimesBuy": 1,
+    "timeTrainTimesEvery": 7200,
+    "timeTrainTimesCanBuy": 0
+  }
+}

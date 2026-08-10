@@ -1,0 +1,2895 @@
+{
+  "120561": [
+    {
+      "id": 120561,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 27,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 120561,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 45,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 120561,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 63,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 120561,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 90,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 120561,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 135,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 120561,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 185,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 120561,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 239,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 120561,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 297,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 120561,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 360,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 120561,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 428,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 120561,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 500,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 120561,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 576,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 120561,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 657,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 120561,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 743,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 120561,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 833,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 120561,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 927,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 120561,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1026,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 120561,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1130,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 120561,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1238,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 120561,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1350,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 120561,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1467,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 120561,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 1589,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 120561,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 1715,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 120561,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 1845,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 120561,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 1980,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 120561,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2120,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 120561,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2264,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 120561,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 2412,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 120561,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 2565,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "140361": [
+    {
+      "id": 140361,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 30,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 140361,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 50,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 140361,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 70,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 140361,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 100,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 140361,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 150,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 140361,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 205,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 140361,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 265,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 140361,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 330,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 140361,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 400,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 140361,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 475,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 140361,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 555,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 140361,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 640,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 140361,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 730,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 140361,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 825,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 140361,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 925,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 140361,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 140361,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1140,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 140361,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1255,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 140361,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1375,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 140361,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1500,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 140361,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1630,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 140361,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 1765,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 140361,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 1905,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 140361,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2050,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 140361,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2200,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 140361,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2355,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 140361,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2515,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 140361,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 2680,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 140361,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 2850,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "140661": [
+    {
+      "id": 140661,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 30,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 140661,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 50,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 140661,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 70,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 140661,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 100,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 140661,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 150,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 140661,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 205,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 140661,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 265,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 140661,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 330,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 140661,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 400,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 140661,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 475,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 140661,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 555,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 140661,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 640,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 140661,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 730,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 140661,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 825,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 140661,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 925,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 140661,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 140661,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1140,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 140661,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1255,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 140661,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1375,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 140661,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1500,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 140661,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1630,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 140661,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 1765,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 140661,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 1905,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 140661,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2050,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 140661,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2200,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 140661,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2355,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 140661,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2515,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 140661,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 2680,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 140661,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 2850,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "142161": [
+    {
+      "id": 142161,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 30,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 142161,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 50,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 142161,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 70,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 142161,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 100,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 142161,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 150,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 142161,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 205,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 142161,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 265,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 142161,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 330,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 142161,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 400,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 142161,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 475,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 142161,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 555,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 142161,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 640,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 142161,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 730,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 142161,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 825,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 142161,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 925,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 142161,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 142161,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1140,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 142161,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1255,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 142161,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1375,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 142161,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1500,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 142161,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1630,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 142161,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 1765,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 142161,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 1905,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 142161,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2050,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 142161,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2200,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 142161,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2355,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 142161,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2515,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 142161,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 2680,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 142161,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 2850,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "150361": [
+    {
+      "id": 150361,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 35,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 150361,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 58,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 150361,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 81,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 150361,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 115,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 150361,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 173,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 150361,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 236,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 150361,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 305,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 150361,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 380,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 150361,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 460,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 150361,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 546,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 150361,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 638,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 150361,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 736,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 150361,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 840,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 150361,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 150361,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1064,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 150361,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1185,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 150361,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1311,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 150361,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1443,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 150361,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1581,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 150361,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1725,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 150361,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1875,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 150361,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 150361,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2191,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 150361,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2358,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 150361,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2530,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 150361,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2708,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 150361,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2892,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 150361,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3082,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 150361,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3278,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "150561": [
+    {
+      "id": 150561,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 39,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 150561,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 65,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 150561,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 91,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 150561,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 130,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 150561,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 195,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 150561,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 267,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 150561,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 345,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 150561,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 429,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 150561,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 520,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 150561,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 618,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 150561,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 722,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 150561,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 832,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 150561,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 150561,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 1073,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 150561,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1203,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 150561,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1339,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 150561,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1482,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 150561,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1632,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 150561,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1788,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 150561,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1950,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 150561,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 2119,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 150561,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2295,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 150561,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2477,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 150561,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2665,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 150561,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2860,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 150561,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 3062,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 150561,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 3270,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 150561,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3484,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 150561,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3705,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "150861": [
+    {
+      "id": 150861,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 35,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 150861,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 58,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 150861,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 81,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 150861,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 115,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 150861,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 173,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 150861,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 236,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 150861,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 305,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 150861,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 380,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 150861,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 460,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 150861,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 546,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 150861,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 638,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 150861,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 736,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 150861,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 840,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 150861,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 150861,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1064,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 150861,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1185,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 150861,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1311,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 150861,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1443,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 150861,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1581,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 150861,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1725,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 150861,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1875,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 150861,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 150861,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2191,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 150861,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2358,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 150861,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2530,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 150861,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2708,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 150861,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2892,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 150861,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3082,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 150861,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3278,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "150961": [
+    {
+      "id": 150961,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 35,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 150961,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 58,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 150961,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 81,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 150961,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 115,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 150961,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 173,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 150961,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 236,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 150961,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 305,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 150961,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 380,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 150961,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 460,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 150961,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 546,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 150961,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 638,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 150961,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 736,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 150961,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 840,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 150961,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 150961,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1064,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 150961,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1185,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 150961,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1311,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 150961,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1443,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 150961,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1581,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 150961,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1725,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 150961,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1875,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 150961,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 150961,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2191,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 150961,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2358,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 150961,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2530,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 150961,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 2708,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 150961,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 2892,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 150961,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3082,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 150961,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3278,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "151461": [
+    {
+      "id": 151461,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 39,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 151461,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 65,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 151461,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 91,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 151461,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 130,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 151461,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 195,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 151461,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 267,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 151461,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 345,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 151461,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 429,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 151461,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 520,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 151461,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 618,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 151461,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 722,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 151461,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 832,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 151461,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 151461,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 1073,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 151461,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1203,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 151461,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1339,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 151461,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1482,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 151461,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1632,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 151461,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1788,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 151461,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1950,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 151461,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 2119,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 151461,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2295,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 151461,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2477,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 151461,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2665,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 151461,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2860,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 151461,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 3062,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 151461,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 3270,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 151461,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3484,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 151461,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3705,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "151661": [
+    {
+      "id": 151661,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 39,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 151661,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 65,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 151661,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 91,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 151661,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 130,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 151661,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 195,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 151661,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 267,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 151661,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 345,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 151661,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 429,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 151661,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 520,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 151661,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 618,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 151661,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 722,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 151661,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 832,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 151661,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 151661,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 1073,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 151661,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1203,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 151661,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1339,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 151661,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1482,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 151661,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1632,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 151661,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1788,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 151661,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1950,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 151661,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 2119,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 151661,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2295,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 151661,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2477,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 151661,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2665,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 151661,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2860,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 151661,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 3062,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 151661,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 3270,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 151661,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3484,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 151661,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3705,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ],
+  "999761": [
+    {
+      "id": 999761,
+      "level": 1,
+      "expID1": 134,
+      "expNum1": 30,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 0
+    },
+    {
+      "id": 999761,
+      "level": 2,
+      "expID1": 134,
+      "expNum1": 50,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 5
+    },
+    {
+      "id": 999761,
+      "level": 3,
+      "expID1": 134,
+      "expNum1": 70,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 10
+    },
+    {
+      "id": 999761,
+      "level": 4,
+      "expID1": 134,
+      "expNum1": 100,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 15
+    },
+    {
+      "id": 999761,
+      "level": 5,
+      "expID1": 134,
+      "expNum1": 150,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 20
+    },
+    {
+      "id": 999761,
+      "level": 6,
+      "expID1": 134,
+      "expNum1": 205,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 25
+    },
+    {
+      "id": 999761,
+      "level": 7,
+      "expID1": 134,
+      "expNum1": 265,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 30
+    },
+    {
+      "id": 999761,
+      "level": 8,
+      "expID1": 134,
+      "expNum1": 330,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 35
+    },
+    {
+      "id": 999761,
+      "level": 9,
+      "expID1": 134,
+      "expNum1": 400,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 40
+    },
+    {
+      "id": 999761,
+      "level": 10,
+      "expID1": 134,
+      "expNum1": 475,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 45
+    },
+    {
+      "id": 999761,
+      "level": 11,
+      "expID1": 134,
+      "expNum1": 555,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 50
+    },
+    {
+      "id": 999761,
+      "level": 12,
+      "expID1": 134,
+      "expNum1": 640,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 55
+    },
+    {
+      "id": 999761,
+      "level": 13,
+      "expID1": 134,
+      "expNum1": 840,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 60
+    },
+    {
+      "id": 999761,
+      "level": 14,
+      "expID1": 134,
+      "expNum1": 949,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 65
+    },
+    {
+      "id": 999761,
+      "level": 15,
+      "expID1": 134,
+      "expNum1": 1064,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 70
+    },
+    {
+      "id": 999761,
+      "level": 16,
+      "expID1": 134,
+      "expNum1": 1185,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 75
+    },
+    {
+      "id": 999761,
+      "level": 17,
+      "expID1": 134,
+      "expNum1": 1482,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 80
+    },
+    {
+      "id": 999761,
+      "level": 18,
+      "expID1": 134,
+      "expNum1": 1443,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 85
+    },
+    {
+      "id": 999761,
+      "level": 19,
+      "expID1": 134,
+      "expNum1": 1581,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 90
+    },
+    {
+      "id": 999761,
+      "level": 20,
+      "expID1": 134,
+      "expNum1": 1725,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 95
+    },
+    {
+      "id": 999761,
+      "level": 21,
+      "expID1": 134,
+      "expNum1": 1875,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 100
+    },
+    {
+      "id": 999761,
+      "level": 22,
+      "expID1": 134,
+      "expNum1": 2030,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 105
+    },
+    {
+      "id": 999761,
+      "level": 23,
+      "expID1": 134,
+      "expNum1": 2191,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 110
+    },
+    {
+      "id": 999761,
+      "level": 24,
+      "expID1": 134,
+      "expNum1": 2665,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 115
+    },
+    {
+      "id": 999761,
+      "level": 25,
+      "expID1": 134,
+      "expNum1": 2860,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 120
+    },
+    {
+      "id": 999761,
+      "level": 26,
+      "expID1": 134,
+      "expNum1": 3062,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 125
+    },
+    {
+      "id": 999761,
+      "level": 27,
+      "expID1": 134,
+      "expNum1": 3270,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 130
+    },
+    {
+      "id": 999761,
+      "level": 28,
+      "expID1": 134,
+      "expNum1": 3484,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 135
+    },
+    {
+      "id": 999761,
+      "level": 29,
+      "expID1": 134,
+      "expNum1": 3705,
+      "goldID": 102,
+      "goldNum": 0,
+      "heroLevel": 140
+    }
+  ]
+}

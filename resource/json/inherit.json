@@ -1,0 +1,98 @@
+{
+  "1": {
+    "id": 1,
+    "quality": "flickerOrange",
+    "star": 3,
+    "diamond": 3000
+  },
+  "2": {
+    "id": 2,
+    "quality": "flickerOrange",
+    "star": 4,
+    "diamond": 3500
+  },
+  "3": {
+    "id": 3,
+    "quality": "flickerOrange",
+    "star": 5,
+    "diamond": 4000
+  },
+  "4": {
+    "id": 4,
+    "quality": "flickerOrange",
+    "star": 6,
+    "diamond": 4500
+  },
+  "5": {
+    "id": 5,
+    "quality": "flickerOrange",
+    "star": 7,
+    "diamond": 5000
+  },
+  "6": {
+    "id": 6,
+    "quality": "flickerOrange",
+    "star": 8,
+    "diamond": 5500
+  },
+  "7": {
+    "id": 7,
+    "quality": "flickerOrange",
+    "star": 9,
+    "diamond": 6000
+  },
+  "8": {
+    "id": 8,
+    "quality": "flickerOrange",
+    "star": 10,
+    "diamond": 6500
+  },
+  "9": {
+    "id": 9,
+    "quality": "superOrange",
+    "star": 3,
+    "diamond": 5000
+  },
+  "10": {
+    "id": 10,
+    "quality": "superOrange",
+    "star": 4,
+    "diamond": 6000
+  },
+  "11": {
+    "id": 11,
+    "quality": "superOrange",
+    "star": 5,
+    "diamond": 7000
+  },
+  "12": {
+    "id": 12,
+    "quality": "superOrange",
+    "star": 6,
+    "diamond": 8000
+  },
+  "13": {
+    "id": 13,
+    "quality": "superOrange",
+    "star": 7,
+    "diamond": 9000
+  },
+  "14": {
+    "id": 14,
+    "quality": "superOrange",
+    "star": 8,
+    "diamond": 10000
+  },
+  "15": {
+    "id": 15,
+    "quality": "superOrange",
+    "star": 9,
+    "diamond": 11000
+  },
+  "16": {
+    "id": 16,
+    "quality": "superOrange",
+    "star": 10,
+    "diamond": 12000
+  }
+}

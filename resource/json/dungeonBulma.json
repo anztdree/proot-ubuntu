@@ -1,0 +1,42 @@
+{
+  "1": {
+    "id": 1,
+    "award": 522,
+    "name": "粽子",
+    "num": 1,
+    "group": 1,
+    "random": 1000
+  },
+  "2": {
+    "id": 2,
+    "award": 522,
+    "name": "粽子",
+    "num": 2,
+    "group": 1,
+    "random": 2000
+  },
+  "3": {
+    "id": 3,
+    "award": 522,
+    "name": "粽子",
+    "num": 3,
+    "group": 1,
+    "random": 4000
+  },
+  "4": {
+    "id": 4,
+    "award": 522,
+    "name": "粽子",
+    "num": 4,
+    "group": 1,
+    "random": 2000
+  },
+  "5": {
+    "id": 5,
+    "award": 522,
+    "name": "粽子",
+    "num": 5,
+    "group": 1,
+    "random": 1000
+  }
+}

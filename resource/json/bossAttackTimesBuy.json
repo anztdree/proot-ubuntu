@@ -1,0 +1,74 @@
+{
+  "1": {
+    "id": 1,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 20,
+    "vipNeeded": 0
+  },
+  "2": {
+    "id": 2,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 20,
+    "vipNeeded": 2
+  },
+  "3": {
+    "id": 3,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 40,
+    "vipNeeded": 4
+  },
+  "4": {
+    "id": 4,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 40,
+    "vipNeeded": 6
+  },
+  "5": {
+    "id": 5,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 60,
+    "vipNeeded": 8
+  },
+  "6": {
+    "id": 6,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 60,
+    "vipNeeded": 10
+  },
+  "7": {
+    "id": 7,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 80,
+    "vipNeeded": 12
+  },
+  "8": {
+    "id": 8,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 80,
+    "vipNeeded": 14
+  },
+  "9": {
+    "id": 9,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 100,
+    "vipNeeded": 15
+  },
+  "10": {
+    "id": 10,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 100,
+    "vipNeeded": 16
+  },
+  "11": {
+    "id": 11,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 120,
+    "vipNeeded": 17
+  },
+  "12": {
+    "id": 12,
+    "bossAttackCostID": 101,
+    "bossAttackRefreshPrice": 120,
+    "vipNeeded": 18
+  }
+}

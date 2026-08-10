@@ -1,0 +1,32 @@
+{
+  "other": {
+    "id": "other",
+    "number": 1,
+    "chapter": "chapterType_chapter_1"
+  },
+  "future_Xidu": {
+    "id": "future_Xidu",
+    "number": 2,
+    "chapter": "chapterType_chapter_2"
+  },
+  "the_whole_universe": {
+    "id": "the_whole_universe",
+    "number": 3,
+    "chapter": "chapterType_chapter_3"
+  },
+  "67_universe": {
+    "id": "67_universe",
+    "number": 4,
+    "chapter": "chapterType_chapter_4"
+  },
+  "birus": {
+    "id": "birus",
+    "number": 5,
+    "chapter": "chapterType_chapter_5"
+  },
+  "majin_Buu": {
+    "id": "majin_Buu",
+    "number": 6,
+    "chapter": "chapterType_chapter_6"
+  }
+}

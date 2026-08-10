@@ -1,0 +1,116 @@
+{
+  "1120561": {
+    "id": "1120561",
+    "quality": "green",
+    "superPic": "superBook_1205_png",
+    "superNamePic": "super_name_1205_png",
+    "isNewVersion": 0,
+    "oldSuperID": 120561
+  },
+  "1140361": {
+    "id": "1140361",
+    "heroNeeded1": 1403,
+    "heroNeeded2": 1405,
+    "quality": "blue",
+    "superPic": "superBook_1403_png",
+    "superNamePic": "super_name_1403_png",
+    "isNewVersion": 0,
+    "oldSuperID": 140361
+  },
+  "1140661": {
+    "id": "1140661",
+    "heroNeeded1": 1406,
+    "heroNeeded2": 1404,
+    "quality": "blue",
+    "superPic": "superBook_1406_png",
+    "superNamePic": "super_name_1406_png",
+    "isNewVersion": 0,
+    "oldSuperID": 140661
+  },
+  "1142161": {
+    "id": "1142161",
+    "heroNeeded1": 1421,
+    "heroNeeded2": 1420,
+    "quality": "blue",
+    "superPic": "superBook_1421_png",
+    "superNamePic": "super_name_1421_png",
+    "isNewVersion": 0,
+    "oldSuperID": 142161
+  },
+  "1150361": {
+    "id": "1150361",
+    "heroNeeded1": 1503,
+    "heroNeeded2": 1511,
+    "heroNeeded3": 1510,
+    "quality": "purple",
+    "superPic": "superBook_1503_png",
+    "superNamePic": "super_name_1503_png",
+    "isNewVersion": 0,
+    "oldSuperID": 150361
+  },
+  "1150561": {
+    "id": "1150561",
+    "heroNeeded1": 1505,
+    "heroNeeded2": 1513,
+    "heroNeeded3": 1203,
+    "quality": "orange",
+    "superPic": "superBook_1505_png",
+    "superNamePic": "super_name_1505_png",
+    "isNewVersion": 0,
+    "oldSuperID": 150561
+  },
+  "1150861": {
+    "id": "1150861",
+    "heroNeeded1": 1508,
+    "heroNeeded2": 1511,
+    "heroNeeded3": 1503,
+    "quality": "purple",
+    "superPic": "superBook_1508_png",
+    "superNamePic": "super_name_1508_png",
+    "isNewVersion": 0,
+    "oldSuperID": 150861
+  },
+  "1150961": {
+    "id": "1150961",
+    "heroNeeded1": 1509,
+    "heroNeeded2": 1401,
+    "heroNeeded3": 1502,
+    "quality": "purple",
+    "superPic": "superBook_1509_png",
+    "superNamePic": "super_name_1509_png",
+    "isNewVersion": 0,
+    "oldSuperID": 150961
+  },
+  "1151461": {
+    "id": "1151461",
+    "heroNeeded1": 1514,
+    "heroNeeded2": 1505,
+    "heroNeeded3": 1512,
+    "quality": "orange",
+    "superPic": "superBook_1514_png",
+    "superNamePic": "super_name_1514_png",
+    "isNewVersion": 0,
+    "oldSuperID": 151461
+  },
+  "1151661": {
+    "id": "1151661",
+    "heroNeeded1": 1516,
+    "heroNeeded2": 1515,
+    "heroNeeded3": 1513,
+    "quality": "orange",
+    "superPic": "superBook_1516_png",
+    "superNamePic": "super_name_1516_png",
+    "isNewVersion": 0,
+    "oldSuperID": 151661
+  },
+  "1160361": {
+    "id": 1160361,
+    "heroNeeded1": 1603,
+    "heroNeeded2": 1602,
+    "heroNeeded3": 1526,
+    "quality": "orange",
+    "superPic": "superBook_1603_png",
+    "superNamePic": "super_name_1603_png",
+    "isNewVersion": 20200924
+  }
+}

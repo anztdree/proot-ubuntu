@@ -1,0 +1,62 @@
+{
+  "1": {
+    "id": 1,
+    "name": "头像一",
+    "icon": "guild_1_png",
+    "iconBig": "guild_1_big_png"
+  },
+  "2": {
+    "id": 2,
+    "name": "头像二",
+    "icon": "guild_2_png",
+    "iconBig": "guild_2_big_png"
+  },
+  "3": {
+    "id": 3,
+    "name": "头像三",
+    "icon": "guild_3_png",
+    "iconBig": "guild_3_big_png"
+  },
+  "4": {
+    "id": 4,
+    "name": "头像四",
+    "icon": "guild_4_png",
+    "iconBig": "guild_4_big_png"
+  },
+  "5": {
+    "id": 5,
+    "name": "头像五",
+    "icon": "guild_5_png",
+    "iconBig": "guild_5_big_png"
+  },
+  "6": {
+    "id": 6,
+    "name": "头像四",
+    "icon": "guild_6_png",
+    "iconBig": "guild_6_big_png"
+  },
+  "7": {
+    "id": 7,
+    "name": "头像五",
+    "icon": "guild_7_png",
+    "iconBig": "guild_7_big_png"
+  },
+  "8": {
+    "id": 8,
+    "name": "头像四",
+    "icon": "guild_8_png",
+    "iconBig": "guild_8_big_png"
+  },
+  "9": {
+    "id": 9,
+    "name": "头像五",
+    "icon": "guild_9_png",
+    "iconBig": "guild_9_big_png"
+  },
+  "10": {
+    "id": 10,
+    "name": "头像四",
+    "icon": "guild_10_png",
+    "iconBig": "guild_10_big_png"
+  }
+}

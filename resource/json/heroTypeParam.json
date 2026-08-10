@@ -1,0 +1,119 @@
+{
+  "body": {
+    "heroType": "body",
+    "hpParam": 1.4,
+    "attackParam": 0.75,
+    "armorParam": 0.75,
+    "hpBais": 1400,
+    "attackBais": 0,
+    "armorBais": 0
+  },
+  "bodyDamage": {
+    "heroType": "bodyDamage",
+    "hpParam": 1.2,
+    "attackParam": 0.6,
+    "armorParam": 0.8,
+    "hpBais": 600,
+    "attackBais": 45,
+    "armorBais": 0
+  },
+  "block": {
+    "heroType": "block",
+    "hpParam": 1.1,
+    "attackParam": 0.8,
+    "armorParam": 0.75,
+    "hpBais": 1100,
+    "attackBais": 0,
+    "armorBais": 0
+  },
+  "armor": {
+    "heroType": "armor",
+    "hpParam": 0.85,
+    "attackParam": 0.75,
+    "armorParam": 1.33333,
+    "hpBais": 850,
+    "attackBais": 0,
+    "armorBais": 0
+  },
+  "armorS": {
+    "heroType": "armorS",
+    "hpParam": 0.9,
+    "attackParam": 0.6,
+    "armorParam": 1.7,
+    "hpBais": 900,
+    "attackBais": 0,
+    "armorBais": 0
+  },
+  "armorDamage": {
+    "heroType": "armorDamage",
+    "hpParam": 0.9,
+    "attackParam": 0.75,
+    "armorParam": 1.2,
+    "hpBais": 450,
+    "attackBais": 56,
+    "armorBais": 0
+  },
+  "dodge": {
+    "heroType": "dodge",
+    "hpParam": 1.2,
+    "attackParam": 0.8,
+    "armorParam": 0.8,
+    "hpBais": 1200,
+    "attackBais": 0,
+    "armorBais": 0
+  },
+  "strength": {
+    "heroType": "strength",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1,
+    "hpBais": 0,
+    "attackBais": 150,
+    "armorBais": 0
+  },
+  "critical": {
+    "heroType": "critical",
+    "hpParam": 0.8,
+    "attackParam": 1.5,
+    "armorParam": 0.7,
+    "hpBais": 0,
+    "attackBais": 225,
+    "armorBais": 0
+  },
+  "criticalSingle": {
+    "heroType": "criticalSingle",
+    "hpParam": 0.85,
+    "attackParam": 1.5,
+    "armorParam": 0.7,
+    "hpBais": 0,
+    "attackBais": 225,
+    "armorBais": 0
+  },
+  "hit": {
+    "heroType": "hit",
+    "hpParam": 0.8,
+    "attackParam": 1.5,
+    "armorParam": 0.7,
+    "hpBais": 0,
+    "attackBais": 225,
+    "armorBais": 0
+  },
+  "skill": {
+    "heroType": "skill",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1,
+    "hpBais": 0,
+    "attackBais": 150,
+    "armorBais": 0
+  },
+  "dot": {
+    "heroType": "dot",
+    "hpParam": 1,
+    "attackParam": 1,
+    "armorParam": 1,
+    "hpBais": 0,
+    "attackBais": 150,
+    "armorBais": 0
+  }
+}

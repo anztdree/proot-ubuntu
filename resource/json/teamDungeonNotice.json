@@ -1,0 +1,20 @@
+{
+  "1": {
+    "id": 1,
+    "name": "首杀（仅最高星本）",
+    "type": "special",
+    "content": "teamDungeonNotice_content_1"
+  },
+  "2": {
+    "id": 2,
+    "name": "通关（最高星）",
+    "type": "special",
+    "content": "teamDungeonNotice_content_2"
+  },
+  "3": {
+    "id": 3,
+    "name": "通关",
+    "type": "normal",
+    "content": "teamDungeonNotice_content_2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "1": {
+    "id": 1,
+    "dayStart": 7,
+    "dayEnd": 35,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15
+  },
+  "2": {
+    "id": 2,
+    "dayStart": 36,
+    "dayEnd": 77,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15
+  },
+  "3": {
+    "id": 3,
+    "dayStart": 78,
+    "dayEnd": 180,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15
+  },
+  "4": {
+    "id": 4,
+    "dayStart": 181,
+    "dayEnd": 360,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15
+  },
+  "5": {
+    "id": 5,
+    "dayStart": 361,
+    "dayEnd": 999999,
+    "serverNumPerDivisionMin": 10,
+    "serverNumPerDivisionMax": 15
+  }
+}

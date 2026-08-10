@@ -1,0 +1,32 @@
+{
+  "1": {
+    "id": 1,
+    "snakeWipeCostID": 101,
+    "snakeWipePrice": 200,
+    "vipNeeded": 7
+  },
+  "2": {
+    "id": 2,
+    "snakeWipeCostID": 101,
+    "snakeWipePrice": 300,
+    "vipNeeded": 10
+  },
+  "3": {
+    "id": 3,
+    "snakeWipeCostID": 101,
+    "snakeWipePrice": 400,
+    "vipNeeded": 13
+  },
+  "4": {
+    "id": 4,
+    "snakeWipeCostID": 101,
+    "snakeWipePrice": 500,
+    "vipNeeded": 15
+  },
+  "5": {
+    "id": 5,
+    "snakeWipeCostID": 101,
+    "snakeWipePrice": 600,
+    "vipNeeded": 16
+  }
+}

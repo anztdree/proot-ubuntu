@@ -1,0 +1,19 @@
+{
+  "1": {
+    "id": 1,
+    "openLevel": 180,
+    "freeCount": 5,
+    "refreshPrice": 100,
+    "pointK": 32,
+    "winPointTimes": 4,
+    "winPointTimesHigh": 2,
+    "gamblingPrice": 100,
+    "oddsPara": 4,
+    "oddsParaP": 0.7,
+    "oddsParaMin": 0.225,
+    "likeRewardID": 101,
+    "likeRewardNum": 50,
+    "teamDefendCD": 60,
+    "championHeadEffectID": 103
+  }
+}
