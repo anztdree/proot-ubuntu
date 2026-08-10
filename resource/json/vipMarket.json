@@ -2,47 +2,47 @@
   "1": {
     "id": 1,
     "goodsID": 2509,
-    "num": 50,
+    "num": 5,
     "coinID": 101,
     "smallIcon": "diamond_png",
-    "price": 2500,
+    "price": 660,
     "pos": 1,
     "random": 100000
   },
   "2": {
     "id": 2,
     "goodsID": 2503,
-    "num": 50,
+    "num": 5,
     "coinID": 101,
     "smallIcon": "diamond_png",
-    "price": 2500,
+    "price": 660,
     "pos": 1,
     "random": 100000
   },
   "3": {
     "id": 3,
     "goodsID": 2508,
-    "num": 50,
+    "num": 5,
     "coinID": 101,
     "smallIcon": "diamond_png",
-    "price": 2500,
+    "price": 660,
     "pos": 1,
     "random": 100000
   },
   "4": {
     "id": 4,
     "goodsID": 2600,
-    "num": 50,
+    "num": 5,
     "coinID": 101,
     "smallIcon": "diamond_png",
-    "price": 5000,
+    "price": 2200,
     "pos": 2,
     "random": 100000
   },
   "5": {
     "id": 5,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 20,
@@ -52,7 +52,7 @@
   "6": {
     "id": 6,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 14,
@@ -63,7 +63,7 @@
   "7": {
     "id": 7,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 10,
@@ -240,7 +240,7 @@
   "24": {
     "id": 24,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 20,
@@ -251,7 +251,7 @@
   "25": {
     "id": 25,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 14,
@@ -262,7 +262,7 @@
   "26": {
     "id": 26,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 10,
@@ -460,7 +460,7 @@
   "44": {
     "id": 44,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 14,
@@ -471,7 +471,7 @@
   "45": {
     "id": 45,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 10,
@@ -669,7 +669,7 @@
   "63": {
     "id": 63,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 14,
@@ -680,7 +680,7 @@
   "64": {
     "id": 64,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 10,
@@ -867,7 +867,7 @@
   "81": {
     "id": 81,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 20,
@@ -878,7 +878,7 @@
   "82": {
     "id": 82,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 14,
@@ -889,7 +889,7 @@
   "83": {
     "id": 83,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 10,
@@ -1076,7 +1076,7 @@
   "100": {
     "id": 100,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 20,
@@ -1087,7 +1087,7 @@
   "101": {
     "id": 101,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 14,
@@ -1098,7 +1098,7 @@
   "102": {
     "id": 102,
     "goodsID": 131,
-    "num": 10000000,
+    "num": 1,
     "coinID": 101,
     "smallIcon": "diamond_png",
     "price": 10,
@@ -1281,28 +1281,5 @@
     "pos": 8,
     "random": 250,
     "discount": "vipMarket_discount_5"
-  },
-  
-    "119": {
-    "id": 119,
-    "goodsID": 136,
-    "num": 10000,
-    "coinID": 101,
-    "smallIcon": "diamond_png",
-    "price": 50,
-    "pos": 6,
-    "random": 500
-  },
-  "120": {
-    "id": 120,
-    "goodsID": 501,
-    "num": 100,
-    "coinID": 101,
-    "smallIcon": "diamond_png",
-    "price": 50,
-    "pos": 5,
-    "random": 500
   }
-
-  
 }
