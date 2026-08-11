@@ -2,193 +2,244 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>超赛传说</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="full-screen" content="true" />
-    <meta name="screen-orientation" content="auto" />
-    <meta name="x5-fullscreen" content="true" />
-    <meta name="360-fullscreen" content="true" />
-    <style>
-        html,
-        body {
-            -ms-touch-action: none;
-            background: #000;
-            padding: 0;
-            border: 0;
-            margin: 0;
-            height: 100%;
-        }
-    </style>
-    
-    
-    <script type="text/javascript" src="jszip-utils.min.js"></script>
-    <script type="text/javascript" src="jszip.min.js"></scrip
-    t>
-    
-              <script type="text/javascript" src="server/login-server/index.js"></script>
+        <meta charset="utf-8">
+        <title>超级战士Z</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="full-screen" content="true" />
+        <meta name="screen-orientation" content="auto" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="360-fullscreen" content="true" />
+        <style>
+                html,
+                body {
+                        -ms-touch-action: none;
+                        background: #000;
+                        padding: 0;
+                        border: 0;
+                        margin: 0;
+                        height: 100%;
+                }
+        </style>
+        
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>  
+        
+        <script type="text/javascript" src="jszip-utils.min.js"></script>
+        <script type="text/javascript" src="jszip.min.js"></script>
+        
+        <script type="text/javascript" src="sdk.js"></script>
+
+        
+        <script type="text/javascript" src="server/login-server/index.js"></script>
         <script type="text/javascript" src="server/chat-server/index.js"></script>
         <script type="text/javascript" src="server/main-server/index.js"></script>
         <script type="text/javascript" src="server/dungeon-server/index.js"></script>
 
-    
-    
-    
+
 </head>
 
 <body style="overflow: hidden">
-    <div style="position: absolute; margin: auto; width: 100%; height:100%;z-index: 999;" id="maskloading">
-        <div style="overflow: hidden;margin: auto; width:750px; height:1334px;" id="maskloadinglayer"> <img src="background.jpg" alt="" style="width: 100%;" /><img src="animate.gif" id="animateloading" alt="" style="width: 280px; position: absolute;" /> </div>
-    </div>
-    <div style="margin: auto;width: 100%;height: 100%;" id="egret-player-layer" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30" data-content-width="750" data-content-height="1334" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div>
-    <script>
-        window["clientver"] = "2026-05-11160536";
+        <div style="position: absolute; margin: auto; width: 100%; height:100%;z-index: 999;" id="maskloading">
+                <div style="overflow: hidden;margin: auto; width:750px; height:1334px;" id="maskloadinglayer"> <img src="background.jpg" alt="" style="width: 100%;" /><img src="animate.gif" id="animateloading" alt="" style="width: 280px; position: absolute;" /> </div>
+        </div>
+        <div style="margin: auto;width: 100%;height: 100%;" id="egret-player-layer" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30" data-content-width="750" data-content-height="1334" data-show-paint-rect="false" data-multi-fingered="2" data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9"></div>
+        <script>
+                function getQueryStringByName(name) {
+                        var a = location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+                        if(a == null || a.length < 1) {
+                                return "";
+                        }
+                        return a[1];
+                }
+        </script>
+        <script>             
         window["Log_Clean"] = false;
-        window["debug"] = true;
-        window["sdkChannel"] = "";
-        window["debugLanguage"] = "en";
-        var resizeMask = function() {
-            var e = document.getElementById("maskloadinglayer");
-            var c = document.getElementById("animateloading");
-            var h = document.documentElement.clientWidth;
-            var d = document.documentElement.clientHeight;
-            var b = 750 / h;
-            var g = 1334 / d;
-            var f = Math.max(b, g);
-            if (f < 1) {
-                f = 1
-            }
-            var a = window.devicePixelRatio;
-            var f = f / a;
-            e.style.width = 750 / a / f + "px";
-            e.style.height = 1334 / a / f + "px";
-            c.style.width = 280 / a + "px";
-            c.style.top = 1334 / a / f / 2 + "px";
-            c.style.left = (h - 280 / a) / 2 + "px"
-        };
-        resizeMask();
-        var loadScript = function(c, e) {
-            var a = 0;
-            var b = c.length;
-            var d = function() {
-                var f = c[a];
-                loadSingleScript(f, function() {
-                    f = null;
-                    a++;
-                    if (a >= b) {
-                        e()
-                    } else {
+                window["debug"] = true;
+                window["sdkChannel"] = "ppgame";
+                window["gameIcon"] = "";
+                window["debugLanguage"] = "en";
+                
+                
+                var resizeMask = function() {
+                        var e = document.getElementById("maskloadinglayer");
+                        var c = document.getElementById("animateloading");
+                        var h = document.documentElement.clientWidth;
+                        var d = document.documentElement.clientHeight;
+                        var b = 750 / h;
+                        var g = 1334 / d;
+                        var f = Math.max(b, g);
+                        if(f < 1) {
+                                f = 1
+                        }
+                        var a = window.devicePixelRatio;
+                        var f = f / a;
+                        e.style.width = 750 / a / f + "px";
+                        e.style.height = 1334 / a / f + "px";
+                        c.style.width = 280 / a + "px";
+                        c.style.top = 1334 / a / f / 2 + "px";
+                        c.style.left = (h - 280 / a) / 2 + "px"
+                };
+                resizeMask();
+                var loadScript = function(c, e) {
+                        var a = 0;
+                        var b = c.length;
+                        var d = function() {
+                                var f = c[a];
+                                loadSingleScript(f, function() {
+                                        f = null;
+                                        a++;
+                                        if(a >= b) {
+                                                e()
+                                        } else {
+                                                d()
+                                        }
+                                })
+                        };
                         d()
-                    }
-                })
-            };
-            d()
-        };
-        var loadSingleScript = function(b, c) {
-            var a = document.createElement("script");
-            a.async = false;
-            a.src = b;
-            a.addEventListener("load", function() {
-                a.parentNode.removeChild(a);
-                a.removeEventListener("load", arguments.callee, false);
-                c();
-                c = null
-            }, false);
-            document.body.appendChild(a)
-        };
-        var getNetwork = function() {
-            var a = navigator && navigator.connection;
-            return a
-        };
-        var clearMaskLayer = function() {
-            var b = document.getElementById("maskloading");
-            var a = document.getElementById("egret-player-layer");
-            if (b) {
-                b.style.display = "none"
-            }
-            if (a) {
-                a.style.display = ""
-            }
-        };
-        var onLoadScript = function() {
-            window["maskLayerClear"] = function() {
-                clearMaskLayer()
-            };
-            window["loadJsonFunc"] = function(b) {
-                var a = b.substr(0, b.length - 5) + ".json";
-                return window[a + ""]
-            };
-            window["refreshPage"] = function() {
-                window.document.location.reload()
-            };
-            egret.runEgret({
-                renderMode: "webgl",
-                audioType: 0,
-                calculateCanvasScaleFactor: function(a) {
-                    var b = a.backingStorePixelRatio || a.webkitBackingStorePixelRatio || a.mozBackingStorePixelRatio || a.msBackingStorePixelRatio || a.oBackingStorePixelRatio || a.backingStorePixelRatio || 1;
-                    return (window.devicePixelRatio || 1) / b
-                }
-            })
-        };
-        var loadSingleJson = function(f, d, a, e, c) {
-            var b = f[d];
-            e.file(b).async("text").then(function(g) {
-                window[b] = JSON.parse(g);
-                d++;
-                if (d < f.length) {
-                    loadSingleJson(f, d, a, e, c)
-                } else {
-                    c()
-                }
-            })
-        };
-        var loadMainJson = function(a, b) {
-            var d = new JSZip.external.Promise(function(f, e) {
-                JSZipUtils.getBinaryContent("resource/json.zp?ver=" + a, function(g, h) {
-                    if (g) {
-                        e(g)
-                    } else {
-                        f(h)
-                    }
-                })
-            });
-            d.then(JSZip.loadAsync).then(function(f) {
-                var e = Object.keys(f.files);
-                loadSingleJson(e, 0, a, f, b)
-            }, function c(f) {
-                console.log("load json error", f.message)
-            })
-        };
-        var loadMainCodeAsync = function(ver) {
-            var promise = new JSZip.external.Promise(function(resolve, reject) {
-                JSZipUtils.getBinaryContent("main.min.js.zp?ver=" + ver, function(err, data) {
-                    if (err) {
-                        reject(err)
-                    } else {
-                        resolve(data)
-                    }
-                })
-            });
-            promise.then(JSZip.loadAsync).then(function(zip) {
-                return zip.file("main.min.js").async("string")
-            }).then(function success(text) {
-                eval.call(window, text);
-                onLoadScript()
-            }, function error(e) {})
-        };
-        var startMain = function() {
-            var a = "2026-05-11160536";
-            loadMainJson(a, function() {
-                loadMainCodeAsync(a)
-            })
-        };
-        startMain();
-    </script>
-    
-
-    
-    
+                };
+                var loadSingleScript = function(b, c) {
+                        var a = document.createElement("script");
+                        a.async = false;
+                        a.src = b;
+                        a.addEventListener("load", function() {
+                                a.parentNode.removeChild(a);
+                                a.removeEventListener("load", arguments.callee, false);
+                                c();
+                                c = null
+                        }, false);
+                        document.body.appendChild(a)
+                };
+                var getNetwork = function() {
+                        var a = navigator && navigator.connection;
+                        return a
+                };
+                var clearMaskLayer = function() {
+                        var b = document.getElementById("maskloading");
+                        var a = document.getElementById("egret-player-layer");
+                        if(b) {
+                                b.style.display = "none"
+                        }
+                        if(a) {
+                                a.style.display = ""
+                        }
+                };
+                var onLoadScript = function() {
+                        window["maskLayerClear"] = function() {
+                                clearMaskLayer()
+                        };
+                        window["loadJsonFunc"] = function(b) {
+                                var a = b.substr(0, b.length - 5) + ".json";
+                                return window[a + ""]
+                        };
+                        window["refreshPage"] = function() {
+                                window.document.location.reload()
+                        };
+                        egret.runEgret({
+                                renderMode: "webgl",
+                                audioType: 0,
+                                calculateCanvasScaleFactor: function(a) {
+                                        var b = a.backingStorePixelRatio || a.webkitBackingStorePixelRatio || a.mozBackingStorePixelRatio || a.msBackingStorePixelRatio || a.oBackingStorePixelRatio || a.backingStorePixelRatio || 1;
+                                        return (window.devicePixelRatio || 1) / b
+                                }
+                        })
+                };
+                var loadSingleJson = function(f, d, a, e, c) {
+                        var b = f[d];
+                        e.file(b).async("text").then(function(g) {
+                                window[b] = JSON.parse(g);
+                                d++;
+                                if(d < f.length) {
+                                        loadSingleJson(f, d, a, e, c)
+                                } else {
+                                        c()
+                                }
+                        })
+                };
+                var loadMainJson = function(a, b) {
+                        var d = new JSZip.external.Promise(function(f, e) {
+                                JSZipUtils.getBinaryContent("resource/json.zp?ver=" + a, function(g, h) {
+                                        if(g) {
+                                                e(g)
+                                        } else {
+                                                f(h)
+                                        }
+                                })
+                        });
+                        d.then(JSZip.loadAsync).then(function(f) {
+                                var e = Object.keys(f.files);
+                                loadSingleJson(e, 0, a, f, b)
+                        }, function c(f) {
+                                console.log("load json error", f.message)
+                        })
+                };
+                var loadMainCodeAsync = function(ver) {
+                        var promise = new JSZip.external.Promise(function(resolve, reject) {
+                                JSZipUtils.getBinaryContent("main.min.js.zp?ver=" + ver, function(err, data) {
+                                        if(err) {
+                                                reject(err)
+                                        } else {
+                                                resolve(data)
+                                        }
+                                })
+                        });
+                        promise.then(JSZip.loadAsync).then(function(zip) {
+                                return zip.file("main.min.js").async("string")
+                        }).then(function success(text) {
+                                eval.call(window, text);
+                                onLoadScript()
+                        }, function error(e) {})
+                };
+                var startMain = function() {
+                        var a = "2026-03-02143147";
+                        loadMainJson(a, function() {
+                                loadMainCodeAsync(a)
+                        })
+                };
+                startMain();
+        </script>
+        <script>
+                /* checkSDK, getSdkLoginInfo, getParams — now provided by sdk.js (6 fields: sdk, loginToken, nickName, userId, sign, security) */
+                if(window.PPGAME) {
+                        var paySdk = function(a) {
+                                window.PPGAME.createPaymentOrder(a)
+                        };
+                        var gameReady = function() {
+                                window.PPGAME.gameReady()
+                        };
+                        var report2Sdk = function(a) {
+                                if(a.dataType == 3) {
+                                        window.PPGAME.playerEnterServer({
+                                                "characterName": a.roleName,
+                                                "characterId": a.roleID,
+                                                "serverId": a.serverID,
+                                                "serverName": a.serverName
+                                        })
+                                } else {
+                                        if(a.dataType == 2) {
+                                                window.PPGAME.submitEvent("game_create_role", {
+                                                        "characterName": a.roleName,
+                                                        "characterId": a.roleID,
+                                                        "serverId": a.serverID,
+                                                        "serverName": a.serverName
+                                                })
+                                        }
+                                }
+                        };
+                        var gameChapterFinish = function(a) {
+                                window.PPGAME.gameChapterFinish(a)
+                        };
+                        var openShopPage = function() {
+                                window.PPGAME.openShopPage()
+                        };
+                        var gameLevelUp = function(a) {
+                                window.PPGAME.gameLevelUp(a)
+                        };
+                        var tutorialFinish = function() {
+                                window.PPGAME.submitEvent("game_tutorial_finish")
+                        }
+                };
+        </script>
 </body>
 
 </html>
