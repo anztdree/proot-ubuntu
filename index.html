@@ -27,10 +27,7 @@
         
         <script type="text/javascript" src="jszip-utils.min.js"></script>
         <script type="text/javascript" src="jszip.min.js"></script>
-        
-        <script type="text/javascript" src="sdk.js"></script>
 
-        
         <script type="text/javascript" src="server/login-server/index.js"></script>
         <script type="text/javascript" src="server/chat-server/index.js"></script>
         <script type="text/javascript" src="server/main-server/index.js"></script>
@@ -197,48 +194,6 @@
                         })
                 };
                 startMain();
-        </script>
-        <script>
-                /* checkSDK, getSdkLoginInfo, getParams — now provided by sdk.js (6 fields: sdk, loginToken, nickName, userId, sign, security) */
-                if(window.PPGAME) {
-                        var paySdk = function(a) {
-                                window.PPGAME.createPaymentOrder(a)
-                        };
-                        var gameReady = function() {
-                                window.PPGAME.gameReady()
-                        };
-                        var report2Sdk = function(a) {
-                                if(a.dataType == 3) {
-                                        window.PPGAME.playerEnterServer({
-                                                "characterName": a.roleName,
-                                                "characterId": a.roleID,
-                                                "serverId": a.serverID,
-                                                "serverName": a.serverName
-                                        })
-                                } else {
-                                        if(a.dataType == 2) {
-                                                window.PPGAME.submitEvent("game_create_role", {
-                                                        "characterName": a.roleName,
-                                                        "characterId": a.roleID,
-                                                        "serverId": a.serverID,
-                                                        "serverName": a.serverName
-                                                })
-                                        }
-                                }
-                        };
-                        var gameChapterFinish = function(a) {
-                                window.PPGAME.gameChapterFinish(a)
-                        };
-                        var openShopPage = function() {
-                                window.PPGAME.openShopPage()
-                        };
-                        var gameLevelUp = function(a) {
-                                window.PPGAME.gameLevelUp(a)
-                        };
-                        var tutorialFinish = function() {
-                                window.PPGAME.submitEvent("game_tutorial_finish")
-                        }
-                };
         </script>
 </body>
 
