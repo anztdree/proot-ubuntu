@@ -195,6 +195,124 @@
                 };
                 startMain();
         </script>
+        
+        
+        <!-- Floating Draggable Icon Button ke UI IndexedDB -->
+<style>
+  #btn-idb-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #00897B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.3);
+    touch-action: none; /* Mencegah scroll layar saat tombol digeser di HP */
+    user-select: none;  /* Mencegah seleksi teks saat digeser */
+    cursor: grab;
+    transition: background 0.2s, transform 0.1s;
+    border: 2px solid #004D40;
+  }
+  #btn-idb-float:active {
+    cursor: grabbing;
+    background: #00695C;
+    transform: scale(0.95);
+  }
+  #btn-idb-float img {
+    width: 26px;
+    height: 26px;
+    pointer-events: none; /* Mencegah drag-image bawaan browser */
+  }
+</style>
+
+<a href="./db.html" target="_blank" id="btn-idb-float" title="Open DB Manager">
+  <!-- Ikon Database SVG / Gambar -->
+  <img src="https://api.iconify.design/mdi:database-cog.svg?color=%23ffffff" alt="DB Manager" />
+</a>
+
+<script>
+  (function () {
+    const btn = document.getElementById('btn-idb-float');
+    let isDragging = false;
+    let hasMoved = false;
+    let startX, startY, initialLeft, initialTop;
+
+    function getCoords(e) {
+      return e.touches ? e.touches[0] : e;
+    }
+
+    function onStart(e) {
+      isDragging = true;
+      hasMoved = false;
+      const coords = getCoords(e);
+      startX = coords.clientX;
+      startY = coords.clientY;
+
+      const rect = btn.getBoundingClientRect();
+      initialLeft = rect.left;
+      initialTop = rect.top;
+
+      // Ubah dari fixed bottom/right ke top/left agar posisi presisi saat digeser
+      btn.style.bottom = 'auto';
+      btn.style.right = 'auto';
+      btn.style.left = initialLeft + 'px';
+      btn.style.top = initialTop + 'px';
+    }
+
+    function onMove(e) {
+      if (!isDragging) return;
+
+      const coords = getCoords(e);
+      const deltaX = coords.clientX - startX;
+      const deltaY = coords.clientY - startY;
+
+      // Toleransi 5px agar tap/klik biasa tidak dianggap geser
+      if (Math.abs(deltaX) > 5 || Math.abs(deltaY) > 5) {
+        hasMoved = true;
+      }
+
+      if (hasMoved) {
+        e.preventDefault(); // Mencegah scrolling browser di HP
+        btn.style.left = (initialLeft + deltaX) + 'px';
+        btn.style.top = (initialTop + deltaY) + 'px';
+      }
+    }
+
+    function onEnd(e) {
+      if (hasMoved) {
+        e.preventDefault();
+      }
+      isDragging = false;
+    }
+
+    // Event Mouse (Desktop PC)
+    btn.addEventListener('mousedown', onStart);
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('mouseup', onEnd);
+
+    // Event Touch (Mobile HP / Tablet)
+    btn.addEventListener('touchstart', onStart, { passive: false });
+    window.addEventListener('touchmove', onMove, { passive: false });
+    window.addEventListener('touchend', onEnd);
+
+    // Mencegah navigasi tak sengaja saat tombol dilepas setelah digeser
+    btn.addEventListener('click', function (e) {
+      if (hasMoved) {
+        e.preventDefault();
+        hasMoved = false;
+      }
+    });
+  })();
+</script>
+
+        
+        
+        
 </body>
 
 </html>
