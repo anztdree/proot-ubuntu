@@ -1,18 +1,22 @@
 /**
  * actions/saveHistory.js — Handle SaveHistory action
- * Super Warrior Z — LOGIN SERVER (100% IndexedDB)
+ * Super Warrior Z — LOGIN SERVER
  *
  * Evidence: main.min.js L137904-137925 (startBtnTap)
- *   request = { type:'User', action:'SaveHistory',
- *     accountToken, channelCode, serverId, securityCode, subChannel, version }
+ *   request = {
+ *     type: 'User', action: 'SaveHistory',
+ *     accountToken: ts.loginInfo.userInfo.userId,
+ *     channelCode: ts.loginInfo.userInfo.channelCode,
+ *     serverId: ts.loginInfo.serverItem.serverId,
+ *     securityCode: ts.loginInfo.userInfo.securityCode,
+ *     subChannel: getAppId() || '',
+ *     version: '1.0'
+ *   }
  *
- * Response (L137913-137919):
- *   e.loginToken      → ts.loginInfo.userInfo.loginToken
- *   e.todayLoginCount → cek: 4/6 → ReportToSdk
+ * Response: { loginToken, todayLoginCount }
  *
- * TOKEN PERMANEN:
- *   1 user = 1 permanent token di users store.
- *   Generated sekali, reused selamanya.
+ * Token permanen: 1 user = 1 token, generated ONCE, reused FOREVER.
+ * Data source: IndexedDB (proot_login / loginInfo)
  */
 
 (function () {
@@ -21,6 +25,18 @@
     var LoginServer = window.LoginServer;
     var log = LoginServer.log;
     var db = LoginServer.db;
+
+    function getTodayStr() {
+        var d = new Date();
+        var y = d.getFullYear();
+        var m = String(d.getMonth() + 1).padStart(2, '0');
+        var day = String(d.getDate()).padStart(2, '0');
+        return y + '-' + m + '-' + day;
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HANDLER: SaveHistory
+    // ═══════════════════════════════════════════════════════════════════
 
     function handleSaveHistory(request, callback) {
         log.info('ACTION', '═══════════════ SaveHistory ══════════════');
@@ -38,95 +54,101 @@
         var channelCode = request.channelCode || 'ppgame';
         var serverId = request.serverId || '';
         var securityCode = request.securityCode || '';
-        var now = LoginServer.nowSeconds();
-        var today = new Date().toISOString().slice(0, 10);
 
         log.details([
             ['parsedUserId', userId],
+            ['parsedChannelCode', channelCode],
             ['parsedServerId', serverId],
-            ['parsedSecurityCode', securityCode.length > 32 ? securityCode.substring(0, 32) + '...' : securityCode]
+            ['parsedSecurityCode', securityCode.length > 32 ? securityCode.substring(0, 32) + '...' : securityCode],
+            ['source', 'IndexedDB (proot_login/loginInfo)'],
+            ['tokenPolicy', '1 user = 1 permanent token']
         ]);
 
-        // Step 1: Get or create permanent token
-        db.get('users', userId).then(function (user) {
-            var loginToken;
+        db.get(userId).then(function (acc) {
+            var now = LoginServer.nowSeconds();
+            var today = getTodayStr();
 
-            if (user && user.loginToken) {
-                loginToken = user.loginToken;
-                log.info('TOKEN', 'Reusing PERMANENT token from DB');
+            if (!acc) {
+                // User belum ada (langka — seharusnya sudah dari loginGame)
+                acc = {
+                    userId: userId,
+                    password: '',
+                    channelCode: channelCode,
+                    nickName: '',
+                    securityCode: securityCode,
+                    loginToken: LoginServer.generateToken(),
+                    createTime: now,
+                    lastLoginTime: now,
+                    todayLoginCount: 1,
+                    loginDate: today,
+                    language: 'en',
+                    history: [serverId]
+                };
+                log.info('STORAGE', 'User not found — creating record with token');
             } else {
-                loginToken = LoginServer.generateToken(64);
-                log.info('TOKEN', 'Generated NEW permanent token');
-
-                if (user) {
-                    user.loginToken = loginToken;
-                    if (securityCode && !user.securityCode) user.securityCode = securityCode;
-                    user.lastLoginAt = now;
-                } else {
-                    user = {
-                        userId: userId,
-                        nickName: userId,
-                        channelCode: channelCode,
-                        loginToken: loginToken,
-                        securityCode: securityCode || LoginServer.generateToken(32),
-                        sign: LoginServer.generateToken(32),
-                        security: LoginServer.generateToken(32),
-                        createdAt: now,
-                        lastLoginAt: now
-                    };
+                // Token permanen: generate sekali jika belum ada
+                if (!acc.loginToken) {
+                    acc.loginToken = LoginServer.generateToken();
+                    log.info('TOKEN', 'Generated permanent token for existing user');
                 }
-                return db.put('users', user);
+
+                // todayLoginCount: reset jika hari berganti
+                if (acc.loginDate !== today) {
+                    acc.todayLoginCount = 1;
+                    acc.loginDate = today;
+                } else {
+                    acc.todayLoginCount = (acc.todayLoginCount || 0) + 1;
+                }
+
+                acc.lastLoginTime = now;
+
+                // Update history: tambah serverId ke depan, dedup
+                if (serverId) {
+                    acc.history = acc.history || [];
+                    var idx = acc.history.indexOf(serverId);
+                    if (idx !== -1) acc.history.splice(idx, 1);
+                    acc.history.unshift(serverId);
+                    if (acc.history.length > 10) acc.history = acc.history.slice(0, 10);
+                }
             }
 
-            // Update lastLoginAt
-            user.lastLoginAt = now;
-            return db.put('users', user);
-        }).then(function (user) {
-            // Step 2: Upsert history (userId + serverId + loginDate)
-            return db.getByIndex('history', 'idx_user_date', [userId, serverId, today]).then(function (existing) {
-                if (existing && existing.length > 0) {
-                    var row = existing[0];
-                    row.loginCount = (row.loginCount || 0) + 1;
-                    row.lastLoginAt = now;
-                    return db.put('history', row).then(function () { return row.loginCount; });
-                } else {
-                    var newRow = {
-                        userId: userId,
-                        channelCode: channelCode,
-                        serverId: serverId,
-                        loginDate: today,
-                        loginCount: 1,
-                        lastLoginAt: now
-                    };
-                    return db.put('history', newRow).then(function () { return 1; });
-                }
+            return db.put(acc).then(function () {
+                return acc;
             });
-        }).then(function (todayLoginCount) {
-            log.info('RESP', 'Sending response to client');
+        }).then(function (acc) {
+            log.info('ACTION', 'SaveHistory → SUCCESS (permanent token from IndexedDB)');
             log.details([
-                ['loginToken', loginToken.substring(0, 16) + '...'],
-                ['loginTokenLength', String(loginToken.length) + ' chars'],
-                ['todayLoginCount', String(todayLoginCount)],
-                ['tokenStorage', 'IndexedDB (users store)']
+                ['loginToken', acc.loginToken],
+                ['loginTokenLength', String(acc.loginToken.length) + ' chars'],
+                ['todayLoginCount', String(acc.todayLoginCount)],
+                ['tokenPersistence', 'PERMANENT (same token every time for this user)']
             ]);
 
+            log.info('RESP', 'Sending response to client');
+
             callback({
-                loginToken: loginToken,
-                todayLoginCount: todayLoginCount
+                loginToken: acc.loginToken,
+                todayLoginCount: acc.todayLoginCount
             });
-        }).catch(function (err) {
-            log.warn('ACTION', 'SaveHistory → DB error, using FALLBACK');
+        }).catch(function (e) {
+            log.error('STORAGE', 'IndexedDB error in SaveHistory');
             log.alwaysDetails([
-                ['reason', err.message || 'unknown'],
-                ['fallback', 'Generate client-side token']
+                ['errorName', e.name || '(unknown)'],
+                ['errorMessage', e.message || String(e)]
             ]);
 
+            var fallbackToken = LoginServer.generateToken();
+            log.warn('ACTION', 'SaveHistory → DB error, using FALLBACK');
             callback({
-                loginToken: LoginServer.generateToken(64),
+                loginToken: fallbackToken,
                 todayLoginCount: 1
             });
         });
     }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // REGISTER
+    // ═══════════════════════════════════════════════════════════════════
 
     LoginServer.handlers['SaveHistory'] = handleSaveHistory;
     if (LoginServer._handlerNames.indexOf('SaveHistory') === -1) {

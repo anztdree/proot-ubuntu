@@ -1,12 +1,18 @@
 /**
  * actions/getServerList.js — Handle GetServerList action
- * Super Warrior Z — LOGIN SERVER (100% IndexedDB)
+ * Super Warrior Z — LOGIN SERVER
  *
  * Evidence: main.min.js L114402-114410
- *   clientRequestServerList(userId, channel, callback)
  *   request = { type:'User', action:'GetServerList', userId, subChannel, channel }
  *
- * Response: { serverList: [...], history: [...], offlineReason: '' }
+ * Response fields yang client BACA:
+ *   serverList: Array of { serverId, name, url, online, hot, new }
+ *   history: Array of serverId strings (distinct, ordered by lastLoginAt DESC)
+ *   offlineReason: string
+ *
+ * Data source: IndexedDB (proot_login / loginInfo)
+ *   servers → __config__ record
+ *   history → user record.history array
  */
 
 (function () {
@@ -15,6 +21,10 @@
     var LoginServer = window.LoginServer;
     var log = LoginServer.log;
     var db = LoginServer.db;
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HANDLER: GetServerList
+    // ═══════════════════════════════════════════════════════════════════
 
     function handleGetServerList(request, callback) {
         log.info('ACTION', '═══════════════ GetServerList ══════════════');
@@ -33,75 +43,79 @@
         log.details([
             ['parsedUserId', userId],
             ['subChannel', request.subChannel || '(empty)'],
-            ['channel', request.channel || '(empty)']
+            ['channel', request.channel || '(empty)'],
+            ['source', 'IndexedDB (__config__ + user record)']
         ]);
 
-        // Ambil servers dari IndexedDB
-        db.getAll('servers').then(function (servers) {
-            // Sort by sortOrder, then serverId
-            servers.sort(function (a, b) {
-                var sa = a.sortOrder || 0, sb = b.sortOrder || 0;
-                if (sa !== sb) return sa - sb;
-                return (a.serverId || '').localeCompare(b.serverId || '');
-            });
+        // Read servers from __config__ and history from user record
+        var configPromise = db.get('__config__');
+        var userPromise = userId ? db.get(userId) : Promise.resolve(null);
 
-            log.info('DB', 'Servers loaded: ' + servers.length);
+        Promise.all([configPromise, userPromise]).then(function (results) {
+            var config = results[0];
+            var user = results[1];
+
+            var servers = (config && config.servers) ? config.servers : [];
+            var history = (user && user.history) ? user.history : [];
+
+            // Ensure at least 1 server exists
+            if (servers.length === 0) {
+                log.warn('ACTION', 'No servers in __config__, using hardcoded fallback');
+                servers = [
+                    {
+                        serverId: '1',
+                        name: 'Local 1',
+                        url: LoginServer.config.mainServerUrl,
+                        online: true,
+                        hot: false,
+                        'new': true
+                    }
+                ];
+            }
+
+            log.info('ACTION', 'GetServerList → SUCCESS (from IndexedDB)');
+            log.details([
+                ['serverCount', String(servers.length)],
+                ['historyLength', String(history.length)],
+                ['offlineReason', '']
+            ]);
+
+            // Log DETAIL setiap server
             for (var s = 0; s < servers.length; s++) {
+                var srv = servers[s];
                 log.details([
-                    ['server[' + s + '].serverId', servers[s].serverId],
-                    ['server[' + s + '].name', servers[s].name],
-                    ['server[' + s + '].url', servers[s].url],
-                    ['server[' + s + '].online', String(servers[s].online)]
+                    ['server[' + s + '].serverId', srv.serverId],
+                    ['server[' + s + '].name', srv.name],
+                    ['server[' + s + '].url', srv.url],
+                    ['server[' + s + '].online', String(srv.online)],
+                    ['server[' + s + '].hot', String(srv.hot)],
+                    ['server[' + s + '].new', String(srv['new'])]
                 ]);
             }
 
-            // Ambil history user — server terakhir dimainkan
-            var history = [];
-            if (userId) {
-                return db.getByIndex('history', 'idx_userId', userId).then(function (histRows) {
-                    // Dedup per serverId, sort by lastLoginAt DESC
-                    var seen = {};
-                    for (var h = 0; h < histRows.length; h++) {
-                        var sid = histRows[h].serverId;
-                        if (!seen[sid]) {
-                            seen[sid] = histRows[h];
-                        } else if (histRows[h].lastLoginAt > seen[sid].lastLoginAt) {
-                            seen[sid] = histRows[h];
-                        }
-                    }
-
-                    var sorted = Object.values(seen).sort(function (a, b) {
-                        return (b.lastLoginAt || 0) - (a.lastLoginAt || 0);
-                    });
-
-                    for (var j = 0; j < Math.min(sorted.length, 10); j++) {
-                        history.push(sorted[j].serverId);
-                    }
-
-                    log.details([
-                        ['historyCount', String(history.length)]
-                    ]);
-
-                    return { serverList: servers, history: history, offlineReason: '' };
-                });
+            // Log DETAIL history
+            if (history.length > 0) {
+                log.info('RESP', 'History detail (' + history.length + ' entries)');
+                for (var h = 0; h < history.length; h++) {
+                    log.detail('history[' + h + ']', String(history[h]));
+                }
             }
 
-            return { serverList: servers, history: history, offlineReason: '' };
-        }).then(function (result) {
             log.info('RESP', 'Sending response to client');
-            log.details([
-                ['serverList', 'Array(' + result.serverList.length + ')'],
-                ['history', 'Array(' + result.history.length + ')']
-            ]);
 
-            callback(result);
-        }).catch(function (err) {
-            log.warn('ACTION', 'GetServerList → DB error, using FALLBACK');
+            callback({
+                serverList: servers,
+                history: history,
+                offlineReason: ''
+            });
+        }).catch(function (e) {
+            log.error('STORAGE', 'IndexedDB error in GetServerList');
             log.alwaysDetails([
-                ['reason', err.message || 'unknown'],
-                ['fallback', 'Return hardcoded local server']
+                ['errorName', e.name || '(unknown)'],
+                ['errorMessage', e.message || String(e)]
             ]);
 
+            // Fallback
             callback({
                 serverList: [
                     {
@@ -110,7 +124,7 @@
                         url: LoginServer.config.mainServerUrl,
                         online: true,
                         hot: false,
-                        new: true
+                        'new': true
                     }
                 ],
                 history: [],
@@ -118,6 +132,10 @@
             });
         });
     }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // REGISTER
+    // ═══════════════════════════════════════════════════════════════════
 
     LoginServer.handlers['GetServerList'] = handleGetServerList;
     if (LoginServer._handlerNames.indexOf('GetServerList') === -1) {

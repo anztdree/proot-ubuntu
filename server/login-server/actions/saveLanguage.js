@@ -1,10 +1,16 @@
 /**
  * actions/saveLanguage.js — Handle SaveLanguage action
- * Super Warrior Z — LOGIN SERVER (100% IndexedDB)
+ * Super Warrior Z — LOGIN SERVER
  *
  * Evidence: main.min.js L114279-114296 (saveLanguage)
  *   request = { type:'User', action:'SaveLanguage', userid, sdk, appid, language }
- *   Response: { errorCode: 0 }
+ *
+ *   Success: 0 === t.errorCode → close LanguageList, apply language
+ *   Error: close LanguageList anyway, apply language
+ *
+ * Response: { errorCode: 0 }
+ *
+ * Data source: IndexedDB (proot_login / loginInfo)
  */
 
 (function () {
@@ -13,6 +19,10 @@
     var LoginServer = window.LoginServer;
     var log = LoginServer.log;
     var db = LoginServer.db;
+
+    // ═══════════════════════════════════════════════════════════════════
+    // HANDLER: SaveLanguage
+    // ═══════════════════════════════════════════════════════════════════
 
     function handleSaveLanguage(request, callback) {
         log.info('ACTION', '═══════════════ SaveLanguage ══════════════');
@@ -31,28 +41,41 @@
 
         log.details([
             ['parsedUserId', userId || '(empty)'],
-            ['parsedLanguage', language]
+            ['parsedLanguage', language],
+            ['source', 'IndexedDB (proot_login/loginInfo)']
         ]);
 
-        db.put('languages', {
-            userId: userId,
-            language: language,
-            updatedAt: LoginServer.nowSeconds()
+        db.get(userId).then(function (acc) {
+            if (acc) {
+                acc.language = language;
+                return db.put(acc);
+            }
+            return acc;
         }).then(function () {
-            log.info('RESP', 'Sending response to client');
+            log.info('ACTION', 'SaveLanguage → SUCCESS');
             log.details([
-                ['errorCode', '0'],
-                ['language', language],
-                ['storage', 'IndexedDB (languages store)']
+                ['savedLanguage', language],
+                ['note', 'client will close LanguageList and apply language change']
             ]);
 
+            log.info('RESP', 'Sending response to client');
             callback({ errorCode: 0 });
-        }).catch(function () {
-            // Non-critical — client akan changeLanguage anyway
-            log.warn('ACTION', 'SaveLanguage → DB error, SILENT SUCCESS');
+        }).catch(function (e) {
+            log.error('STORAGE', 'IndexedDB error in SaveLanguage');
+            log.alwaysDetails([
+                ['errorName', e.name || '(unknown)'],
+                ['errorMessage', e.message || String(e)],
+                ['fallback', 'Return errorCode:0 anyway (language non-critical)']
+            ]);
+
+            // Non-critical — always succeed
             callback({ errorCode: 0 });
         });
     }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // REGISTER
+    // ═══════════════════════════════════════════════════════════════════
 
     LoginServer.handlers['SaveLanguage'] = handleSaveLanguage;
     if (LoginServer._handlerNames.indexOf('SaveLanguage') === -1) {

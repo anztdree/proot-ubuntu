@@ -1,18 +1,15 @@
 /**
  * index.js — Login Server Entry Point
- * Super Warrior Z — LOGIN SERVER (100% IndexedDB, NO PHP/MySQL)
+ * Super Warrior Z — LOGIN SERVER
  *
  * Titik masuk tunggal. Berisi:
  *   1. Logger (inline, self-contained)
- *   2. IndexedDB Layer (openDB, get, put, getAll, delete, getByIndex)
- *   3. Schema + Default Data (auto-seed on first run)
- *   4. SDK Bridge (checkSDK, getSdkLoginInfo, PPGAME stubs, auto-login)
- *   5. Config
- *   6. Action loader (actions/*.js)
- *   7. Router/Dispatcher
- *   8. LoginSocket class (mock socket, verifyEnable=false)
- *   9. io.connect() patch
- *  10. getLoginServer() override
+ *   2. Config
+ *   3. Action loader (actions/*.js)
+ *   4. Router/Dispatcher
+ *   5. LoginSocket class (verifyEnable=false)
+ *   6. io.connect() patch
+ *   7. getLoginServer() override
  *
  * Semua infrastructure di sini. Actions di folder actions/.
  * TIDAK menyentuh file main-server.
@@ -78,6 +75,7 @@
             return h + ':' + m + ':' + s + '.' + ms;
         }
 
+        // Level colors
         var COLORS = {
             INFO:  '#2196F3',
             WARN:  '#FF9800',
@@ -85,17 +83,48 @@
             DEBUG: '#78909C'
         };
 
+        // Emoji per context (bukan per level)
         var CTX_EMOJI = {
-            BOOT:      '🚀', SOCK:      '🔌', IO:        '🌐', ROUTE:     '🔀',
-            EMIT:      '📨', REQ:       '📥', API:       '📡', RESP:      '📤',
-            ENV:       '📦', FALLBACK:  '🛡️', TIMER:     '⏳', CONFIG:    '⚙️',
-            DELAY:     '⏱️', TOKEN:     '🔑', STORAGE:   '💾', ACTION:    '🎯',
-            SUCCESS:   '✅', FAIL:      '❌', WARN_EMOJI:'⚠️', HINT:      '💡',
-            LINK:      '🔗', DATA:      '📊', ID:        '🆔', EVENT:     '📡',
-            LOAD:      '📂', REGISTRY:  '📋', PATCH:     '🔧', POLL:      '⏳',
-            DB:        '🗄️', SDK:       '⚡', SEED:      '🌱', USER:      '👤'
+            BOOT:      '🚀',
+            SOCK:      '🔌',
+            IO:        '🌐',
+            ROUTE:     '🔀',
+            EMIT:      '📨',
+            REQ:       '📥',
+            API:       '📡',
+            RESP:      '📤',
+            ENV:       '📦',
+            FALLBACK:  '🛡️',
+            TIMER:     '⏳',
+            CONFIG:    '⚙️',
+            DELAY:     '⏱️',
+            TOKEN:     '🔑',
+            STORAGE:   '💾',
+            ACTION:    '🎯',
+            SUCCESS:   '✅',
+            FAIL:      '❌',
+            WARN_EMOJI:'⚠️',
+            HINT:      '💡',
+            LINK:      '🔗',
+            DATA:      '📊',
+            ID:        '🆔',
+            EVENT:     '📡',
+            LOAD:      '📂',
+            REGISTRY:  '📋',
+            PATCH:     '🔧',
+            POLL:      '⏳'
         };
 
+        // ═══════════════════════════════════════════════════════════════
+        // Emit functions
+        // ═══════════════════════════════════════════════════════════════
+
+        /**
+         * @param {string} level   — INFO, WARN, ERROR, DEBUG
+         * @param {string} context — BOOT, SOCK, ROUTE, API, ENV, FALLBACK, dll
+         * @param {string} emoji   — emoji override (opsional, pakai CTX_EMOJI[context] jika kosong)
+         * @param {string} message — pesan utama
+         */
         function emit(level, context, emoji, message) {
             if (!shouldLog(level)) return;
             var em = emoji || CTX_EMOJI[context] || '⚪';
@@ -109,10 +138,26 @@
             );
         }
 
-        function info(context, message) { emit('INFO', context, null, message); }
-        function warn(context, message) { emit('WARN', context, null, message); }
-        function error(context, message) { emit('ERROR', context, null, message); }
-        function debug(context, message) { emit('DEBUG', context, null, message); }
+        // info(context, message) — default emoji dari CTX_EMOJI
+        function info(context, message) {
+            emit('INFO', context, null, message);
+        }
+
+        function warn(context, message) {
+            emit('WARN', context, null, message);
+        }
+
+        function error(context, message) {
+            emit('ERROR', context, null, message);
+        }
+
+        function debug(context, message) {
+            emit('DEBUG', context, null, message);
+        }
+
+        // ═══════════════════════════════════════════════════════════════
+        // Detail lines — pakai ├ └ box drawing
+        // ═══════════════════════════════════════════════════════════════
 
         var DETAIL_COLOR = 'color:#004D40;opacity:0.85;padding-left:8px;';
 
@@ -124,16 +169,28 @@
             );
         }
 
+        /**
+         * detail(key, value) — single line, pakai emoji dari key
+         * Dipanggil: log.detail('userId', 'user_001')
+         */
         function detail(key, value) {
             var em = CTX_EMOJI[key] || '📋';
             detailLine('└', em, key, value);
         }
 
+        /**
+         * openDetail() — buka block detail (connector = ├)
+         * Return helper untuk chain detail()
+         */
         function openDetail(key, value) {
             var em = CTX_EMOJI[key] || '📋';
             detailLine('├', em, key, value);
         }
 
+        /**
+         * details(pairs[]) — multi-line, otomatis ├ / └
+         * Dipanggil: log.details([['userId', 'user_001'], ['channel', 'ppgame']])
+         */
         function details(pairs) {
             if (!shouldLog('DEBUG')) return;
             for (var i = 0; i < pairs.length; i++) {
@@ -145,11 +202,20 @@
             }
         }
 
+        /**
+         * table(title, data) — console.table native
+         * Dipanggil: log.table('CONFIG', { loginUrl: '...' })
+         * Atau: log.table('ACTIONS', [{name:'loginGame',status:'OK'},...])
+         */
         function table(title, data) {
             if (!shouldLog('DEBUG')) return;
             console.log('%c  📋 ' + title, DETAIL_COLOR);
             console.table(data);
         }
+
+        // ═══════════════════════════════════════════════════════════════
+        // Always-visible (tidak terpengaruh logLevel)
+        // ═══════════════════════════════════════════════════════════════
 
         var ALWAYS_COLOR = 'color:#616161;padding-left:8px;';
 
@@ -170,6 +236,10 @@
             }
         }
 
+        // ═══════════════════════════════════════════════════════════════
+        // setLevel
+        // ═══════════════════════════════════════════════════════════════
+
         function setLevel(level) {
             var p = PRIORITY[level];
             if (p !== undefined) {
@@ -180,458 +250,38 @@
             }
         }
 
+        // ═══════════════════════════════════════════════════════════════
+        // Export
+        // ═══════════════════════════════════════════════════════════════
+
         return {
-            info: info, warn: warn, error: error, debug: debug,
-            detail: detail, openDetail: openDetail, details: details,
-            table: table, alwaysDetails: alwaysDetails,
-            level: currentLevel, setLevel: setLevel
+            info: info,
+            warn: warn,
+            error: error,
+            debug: debug,
+            detail: detail,
+            openDetail: openDetail,
+            details: details,
+            table: table,
+            alwaysDetails: alwaysDetails,
+            level: currentLevel,
+            setLevel: setLevel
         };
     })();
 
     window.LoginServerLogger = LoginServerLogger;
 
     // ═══════════════════════════════════════════════════════════════════
-    // 2. IndexedDB LAYER
+    // 2. CONFIG
     // ═══════════════════════════════════════════════════════════════════
     var log = LoginServerLogger;
 
-    var DB_NAME = 'ksweb_login';
-    var DB_VERSION = 1;
-    var _db = null;
-    var _dbReady = false;
-
-    var STORES = {
-        users:     { keyPath: 'userId' },
-        servers:   { keyPath: 'serverId' },
-        history:   { keyPath: 'id', autoIncrement: true, indexes: [
-            { name: 'idx_userId',       keyPath: 'userId',            options: {} },
-            { name: 'idx_user_date',   keyPath: ['userId','serverId','loginDate'], options: { unique: true } }
-        ]},
-        notices:   { keyPath: 'noticeId', autoIncrement: true },
-        languages: { keyPath: 'userId' },
-        analytics: { keyPath: 'id', autoIncrement: true, indexes: [
-            { name: 'idx_analytics_userId', keyPath: 'userId', options: {} }
-        ]}
-    };
-
-    /**
-     * openDB() — Buka/upgrade IndexedDB. Returns Promise<db>.
-     * Dipanggil sekali saat init, lalu _db di-reuse.
-     */
-    function openDB() {
-        return new Promise(function (resolve, reject) {
-            if (_db) { resolve(_db); return; }
-
-            log.info('DB', 'Opening IndexedDB: ' + DB_NAME + ' v' + DB_VERSION);
-
-            var request = indexedDB.open(DB_NAME, DB_VERSION);
-
-            request.onupgradeneeded = function (e) {
-                var db = e.target.result;
-                var storeNames = Object.keys(STORES);
-                log.info('DB', 'onupgradeneeded — creating/upgrading ' + storeNames.length + ' stores');
-
-                for (var i = 0; i < storeNames.length; i++) {
-                    var storeName = storeNames[i];
-                    var cfg = STORES[storeName];
-
-                    if (!db.objectStoreNames.contains(storeName)) {
-                        var store;
-                        if (cfg.autoIncrement) {
-                            store = db.createObjectStore(storeName, { keyPath: cfg.keyPath, autoIncrement: true });
-                        } else {
-                            store = db.createObjectStore(storeName, { keyPath: cfg.keyPath });
-                        }
-
-                        if (cfg.indexes) {
-                            for (var j = 0; j < cfg.indexes.length; j++) {
-                                var idx = cfg.indexes[j];
-                                store.createIndex(idx.name, idx.keyPath, idx.options || {});
-                            }
-                        }
-
-                        log.debug('DB', 'Created store: ' + storeName + (cfg.indexes ? ' (' + cfg.indexes.length + ' indexes)' : ''));
-                    }
-                }
-            };
-
-            request.onsuccess = function (e) {
-                _db = e.target.result;
-                _dbReady = true;
-                log.info('DB', 'IndexedDB READY');
-                log.details([
-                    ['name', _db.name],
-                    ['version', String(_db.version)],
-                    ['stores', Object.keys(STORES).join(', ')]
-                ]);
-                resolve(_db);
-            };
-
-            request.onerror = function (e) {
-                log.error('DB', 'IndexedDB OPEN FAILED');
-                log.alwaysDetails([
-                    ['error', e.target.error ? e.target.error.message : 'unknown']
-                ]);
-                reject(e.target.error);
-            };
-        });
-    }
-
-    /** get(storeName, key) → Promise<data|null> */
-    function dbGet(storeName, key) {
-        var t0 = Date.now();
-        return openDB().then(function (db) {
-            return new Promise(function (resolve, reject) {
-                var tx = db.transaction(storeName, 'readonly');
-                var store = tx.objectStore(storeName);
-                var req = store.get(key);
-                req.onsuccess = function () {
-                    var elapsed = Date.now() - t0;
-                    log.debug('DB', 'get(' + storeName + ', ' + key + ') → ' + (req.result ? 'found' : 'not found') + ' ' + elapsed + 'ms');
-                    resolve(req.result);
-                };
-                req.onerror = function () { reject(req.error); };
-            });
-        });
-    }
-
-    /** put(storeName, data) → Promise<data> */
-    function dbPut(storeName, data) {
-        var t0 = Date.now();
-        return openDB().then(function (db) {
-            return new Promise(function (resolve, reject) {
-                var tx = db.transaction(storeName, 'readwrite');
-                var store = tx.objectStore(storeName);
-                var req = store.put(data);
-                req.onsuccess = function () {
-                    var elapsed = Date.now() - t0;
-                    log.debug('DB', 'put(' + storeName + ', ' + (data[STORES[storeName].keyPath] || 'auto') + ') → ok ' + elapsed + 'ms');
-                    resolve(data);
-                };
-                req.onerror = function () { reject(req.error); };
-            });
-        });
-    }
-
-    /** getAll(storeName) → Promise<Array> */
-    function dbGetAll(storeName) {
-        var t0 = Date.now();
-        return openDB().then(function (db) {
-            return new Promise(function (resolve, reject) {
-                var tx = db.transaction(storeName, 'readonly');
-                var store = tx.objectStore(storeName);
-                var req = store.getAll();
-                req.onsuccess = function () {
-                    var elapsed = Date.now() - t0;
-                    log.debug('DB', 'getAll(' + storeName + ') → ' + req.result.length + ' rows ' + elapsed + 'ms');
-                    resolve(req.result);
-                };
-                req.onerror = function () { reject(req.error); };
-            });
-        });
-    }
-
-    /** getByIndex(storeName, indexName, value) → Promise<Array> */
-    function dbGetByIndex(storeName, indexName, value) {
-        var t0 = Date.now();
-        return openDB().then(function (db) {
-            return new Promise(function (resolve, reject) {
-                var tx = db.transaction(storeName, 'readonly');
-                var store = tx.objectStore(storeName);
-                var idx = store.index(indexName);
-                var req = idx.getAll(value);
-                req.onsuccess = function () {
-                    var elapsed = Date.now() - t0;
-                    log.debug('DB', 'getByIndex(' + storeName + '.' + indexName + ', ' + JSON.stringify(value) + ') → ' + req.result.length + ' rows ' + elapsed + 'ms');
-                    resolve(req.result);
-                };
-                req.onerror = function () { reject(req.error); };
-            });
-        });
-    }
-
-    /** count(storeName) → Promise<number> */
-    function dbCount(storeName) {
-        return openDB().then(function (db) {
-            return new Promise(function (resolve, reject) {
-                var tx = db.transaction(storeName, 'readonly');
-                var store = tx.objectStore(storeName);
-                var req = store.count();
-                req.onsuccess = function () { resolve(req.result); };
-                req.onerror = function () { reject(req.error); };
-            });
-        });
-    }
-
-    // ═══════════════════════════════════════════════════════════════════
-    // 3. SCHEMA — Default Data (seeded on first run)
-    // ═══════════════════════════════════════════════════════════════════
-
-    var DEFAULT_SERVERS = [
-        {
-            serverId: '1',
-            name: 'Local 1',
-            url: 'http://127.0.0.1:8001',
-            chaturl: 'http://127.0.0.1:8002',
-            dungeonurl: 'http://127.0.0.1:8004',
-            online: true,
-            hot: false,
-            "new": true,
-            sortOrder: 1
-        }
-    ];
-
-    var DEFAULT_NOTICES = [
-        {
-            title: { en: 'Welcome', cn: '欢迎' },
-            content: { en: 'Welcome to Super Warrior Z!', cn: '欢迎来到超级战士Z！' },
-            orderNo: 1,
-            alwaysPopup: false,
-            active: true
-        }
-    ];
-
-    var _seeded = false;
-
-    /**
-     * seedDatabase() — Insert default servers + notices if stores are empty.
-     * Returns Promise<void>.
-     */
-    function seedDatabase() {
-        if (_seeded) return Promise.resolve();
-        return openDB().then(function (db) {
-            return dbCount('servers').then(function (serverCount) {
-                if (serverCount > 0) {
-                    log.debug('SEED', 'Servers already exist (' + serverCount + ') — skip seed');
-                    _seeded = true;
-                    return;
-                }
-
-                log.info('SEED', 'First run — seeding default data...');
-
-                var promises = [];
-
-                // Seed servers
-                for (var i = 0; i < DEFAULT_SERVERS.length; i++) {
-                    promises.push(dbPut('servers', DEFAULT_SERVERS[i]));
-                }
-
-                // Seed notices
-                for (var j = 0; j < DEFAULT_NOTICES.length; j++) {
-                    promises.push(dbPut('notices', DEFAULT_NOTICES[j]));
-                }
-
-                return Promise.all(promises).then(function () {
-                    _seeded = true;
-                    log.info('SEED', 'Default data seeded OK');
-                    log.details([
-                        ['servers', String(DEFAULT_SERVERS.length)],
-                        ['notices', String(DEFAULT_NOTICES.length)]
-                    ]);
-                });
-            });
-        });
-    }
-
-    // ═══════════════════════════════════════════════════════════════════
-    // 4. SDK BRIDGE — checkSDK, getSdkLoginInfo, PPGAME stubs
-    // ═══════════════════════════════════════════════════════════════════
-    //
-    // Kontrak yang main.min.js butuhkan:
-    //   window.checkSDK()         → true (setelah IndexedDB siap + user aktif)
-    //   window.getSdkLoginInfo()  → {sdk, loginToken, nickName, userId, sign, security}
-    //   window.PPGAME            → {createPaymentOrder, playerEnterServer, submitEvent, ...}
-    //   window.paySdk()           → no-op
-    //   window.gameReady()        → no-op
-    //   window.report2Sdk()       → no-op
-    //   dll (semua window.* functions dari sdk.js)
-    //
-    // Alur: game init → polling checkSDK() → true → getSdkLoginInfo() → sdkLoginSuccess()
-
-    var _sdkReady = false;
-    var _loginInfo = null;
-    var STORAGE_KEY = 'active_user_id';
-
-    /**
-     * autoLogin() — Cek localStorage, load user dari IndexedDB, atau auto-create guest.
-     * Dipanggil saat DB siap. Sets _loginInfo + _sdkReady = true.
-     */
-    function autoLogin() {
-        log.info('SDK', 'Auto-login starting...');
-
-        var activeUserId = '';
-        try { activeUserId = localStorage.getItem(STORAGE_KEY) || ''; } catch (e) {}
-
-        if (activeUserId) {
-            log.debug('SDK', 'Found active_user_id in localStorage');
-            log.detail('USER', activeUserId);
-
-            dbGet('users', activeUserId).then(function (user) {
-                if (user) {
-                    setLoginInfo(user);
-                } else {
-                    log.warn('SDK', 'active_user_id not found in DB — creating new guest');
-                    createGuestUser();
-                }
-            }).catch(function (err) {
-                log.error('SDK', 'DB error reading user — creating new guest');
-                log.alwaysDetails([['error', err.message || String(err)]]);
-                createGuestUser();
-            });
-        } else {
-            log.debug('SDK', 'No active_user_id — creating new guest');
-            createGuestUser();
-        }
-    }
-
-    /**
-     * createGuestUser() — Generate new guest user, save to IndexedDB, set login.
-     */
-    function createGuestUser() {
-        var userId = 'guest_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6);
-        var loginToken = generateToken(64);
-        var securityCode = generateToken(32);
-        var sign = generateToken(32);
-        var security = generateToken(32);
-        var now = Math.floor(Date.now() / 1000);
-
-        var user = {
-            userId: userId,
-            nickName: userId,
-            channelCode: 'ppgame',
-            loginToken: loginToken,
-            securityCode: securityCode,
-            sign: sign,
-            security: security,
-            createdAt: now,
-            lastLoginAt: now
-        };
-
-        dbPut('users', user).then(function () {
-            log.info('SDK', 'Guest user created');
-            log.details([
-                ['userId', userId],
-                ['loginToken', loginToken.substring(0, 16) + '...'],
-                ['securityCode', securityCode.substring(0, 16) + '...']
-            ]);
-
-            // Simpan ke localStorage agar next reload bisa auto-login
-            try { localStorage.setItem(STORAGE_KEY, userId); } catch (e) {}
-
-            setLoginInfo(user);
-        }).catch(function (err) {
-            log.error('SDK', 'Failed to create guest user');
-            log.alwaysDetails([['error', err.message || String(err)]]);
-        });
-    }
-
-    /**
-     * setLoginInfo(user) — Set _loginInfo dari DB user object + unblock game.
-     *
-     * Evidence: main.min.js sdkLoginSuccess(e)
-     *   ts.loginInfo.userInfo = {
-     *     loginToken: e.loginToken,
-     *     userId: e.userId,
-     *     nickName: e.nickName,
-     *     channelCode: e.sdk,   ← dari getSdkLoginInfo().sdk
-     *     securityCode: e.security ← dari getSdkLoginInfo().security
-    *   }
-     *
-     * Jadi getSdkLoginInfo() harus return:
-     *   { sdk: channelCode, loginToken, nickName, userId, sign, security: securityCode }
-     */
-    function setLoginInfo(user) {
-        _loginInfo = {
-            sdk: user.channelCode || 'ppgame',
-            loginToken: user.loginToken || '',
-            nickName: user.nickName || user.userId,
-            userId: user.userId,
-            sign: user.sign || '',
-            security: user.securityCode || ''
-        };
-
-        _sdkReady = true;
-
-        log.info('SDK', 'SDK Ready — game init unblocked');
-        log.details([
-            ['userId', _loginInfo.userId],
-            ['nickName', _loginInfo.nickName],
-            ['sdk', _loginInfo.sdk],
-            ['loginToken', _loginInfo.loginToken.substring(0, 16) + '...'],
-            ['securityCode', _loginInfo.security.substring(0, 16) + '...'],
-            ['checkSDK', 'true']
-        ]);
-    }
-
-    // ─── Window contract functions (dibutuhkan main.min.js) ───
-
-    window.checkSDK = function () {
-        return _sdkReady;
-    };
-
-    window.getSdkLoginInfo = function () {
-        if (!_loginInfo) return null;
-        return {
-            sdk: _loginInfo.sdk,
-            loginToken: _loginInfo.loginToken,
-            nickName: _loginInfo.nickName,
-            userId: _loginInfo.userId,
-            sign: _loginInfo.sign,
-            security: _loginInfo.security
-        };
-    };
-
-    window.getAppId = function () { return ''; };
-    window.getLoginServer = function () { return ''; };
-    window.checkFromNative = function () { return false; };
-    window.contactSdk = function () {};
-    window.userCenterSdk = function () {};
-    window.switchUser = function () {};
-    window.openURL = function (url) { window.open(url, '_blank'); };
-    window.changeLanguage = function (lang) {
-        log.debug('SDK', 'changeLanguage(' + lang + ')');
-    };
-    window.switchAccount = function () {
-        log.debug('SDK', 'switchAccount() — reload');
-        window.location.reload();
-    };
-    window.accountLoginCallback = function (fn) {};
-    window.reload = function () { window.location.reload(); };
-    window.report2Sdk350CreateRole = function () {};
-    window.report2Sdk350LoginUser = function () {};
-    window.fbq = function () {};
-    window.gtag = function () {};
-    window.reportLogToPP = function () {};
-    window.reportToCpapiCreaterole = function () {};
-    window.sendCustomEvent = function () {};
-
-    window.PPGAME = {
-        createPaymentOrder: function () { log.debug('SDK', 'PPGAME.createPaymentOrder — no-op'); },
-        playerEnterServer: function () { log.debug('SDK', 'PPGAME.playerEnterServer — no-op'); },
-        submitEvent: function () { log.debug('SDK', 'PPGAME.submitEvent — no-op'); },
-        gameReady: function () { log.debug('SDK', 'PPGAME.gameReady — no-op'); },
-        gameChapterFinish: function () {},
-        openShopPage: function () {},
-        gameLevelUp: function () {}
-    };
-
-    window.paySdk = function () { log.debug('SDK', 'paySdk — no-op'); };
-    window.gameReady = function () { log.debug('SDK', 'gameReady — no-op'); };
-    window.report2Sdk = function () {};
-    window.gameChapterFinish = function () {};
-    window.openShopPage = function () {};
-    window.gameLevelUp = function () {};
-    window.tutorialFinish = function () {};
-
-    // ═══════════════════════════════════════════════════════════════════
-    // 5. CONFIG
-    // ═══════════════════════════════════════════════════════════════════
     var LoginServer = {
         config: {
             loginServerUrl: 'http://127.0.0.1:8000',
             mainServerUrl: 'http://127.0.0.1:8001',
             chatServerUrl: 'http://127.0.0.1:8002',
-            dungeonServerUrl: 'http://127.0.0.1:8004',
+            dungeonServerUrl: 'http://127.0.0.1:8003',
             delayMin:      30,
             delayMax:      120,
             loginTokenLength: 64,
@@ -640,21 +290,115 @@
         handlers: {},
         _handlerNames: [],
         _handlerCount: 0,
-        log: log,
+        log: log
+    };
 
-        // Expose IndexedDB functions for actions
-        db: {
-            open: openDB,
-            get: dbGet,
-            put: dbPut,
-            getAll: dbGetAll,
-            getByIndex: dbGetByIndex,
-            count: dbCount
-        }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // INDEXEDDB HELPER
+    // ═══════════════════════════════════════════════════════════════════
+    // Database: proot_login (versi 2 — upgrade dari versi 1 lama)
+    // Store: loginInfo (keyPath: userId)
+    //
+    // Record types:
+    //   User   — userId = "player1" (data login user)
+    //   System — userId = "__config__" (servers, notices)
+
+    var DB_NAME = 'last_game_server';
+    var DB_VERSION = 2;
+    var STORE_NAME = 'loginInfo';
+    var _idb = null;
+
+    function openDB() {
+        return new Promise(function (ok, fail) {
+            if (_idb) { ok(_idb); return; }
+            var r = indexedDB.open(DB_NAME, DB_VERSION);
+            r.onupgradeneeded = function (e) {
+                var db = e.target.result;
+                if (!db.objectStoreNames.contains(STORE_NAME)) {
+                    db.createObjectStore(STORE_NAME, { keyPath: 'userId' });
+                }
+            };
+            r.onsuccess = function (e) {
+                _idb = e.target.result;
+                log.info('STORAGE', 'IndexedDB opened: ' + DB_NAME + ' v' + DB_VERSION);
+                ok(_idb);
+            };
+            r.onerror = function (e) {
+                log.error('STORAGE', 'IndexedDB open FAILED: ' + DB_NAME);
+                fail(e);
+            };
+        });
+    }
+
+    function idbGet(key) {
+        return openDB().then(function (db) {
+            return new Promise(function (ok, fail) {
+                var tx = db.transaction(STORE_NAME, 'readonly');
+                var req = tx.objectStore(STORE_NAME).get(key);
+                req.onsuccess = function () { ok(req.result || null); };
+                req.onerror = function () { fail(req.error); };
+            });
+        });
+    }
+
+    function idbPut(data) {
+        return openDB().then(function (db) {
+            return new Promise(function (ok, fail) {
+                var tx = db.transaction(STORE_NAME, 'readwrite');
+                var req = tx.objectStore(STORE_NAME).put(data);
+                req.onsuccess = function () { ok(data); };
+                req.onerror = function () { fail(req.error); };
+            });
+        });
+    }
+
+    function seedConfig() {
+        var defaultConfig = {
+            userId: '__config__',
+            servers: [
+                {
+                    serverId: '1',
+                    name: 'Local 1',
+                    url: LoginServer.config.mainServerUrl,
+                    chaturl: LoginServer.config.chatServerUrl,
+                    dungeonurl: LoginServer.config.dungeonServerUrl,
+                    online: true,
+                    hot: false,
+                    'new': true,
+                    sortOrder: 1
+                }
+            ],
+            notices: [
+                {
+                    title: { en: 'Welcome', cn: '欢迎' },
+                    text: { en: 'Welcome to Super Warrior Z!', cn: '欢迎来到超级战士Z！' },
+                    version: '1.0',
+                    orderNo: 1,
+                    alwaysPopup: false
+                }
+            ]
+        };
+
+        return idbGet('__config__').then(function (existing) {
+            if (existing) {
+                log.info('STORAGE', '__config__ already exists, skip seed');
+                return existing;
+            }
+            log.info('STORAGE', 'Seeding __config__ with defaults');
+            return idbPut(defaultConfig).then(function () { return defaultConfig; });
+        });
+    }
+
+    LoginServer.db = {
+        open: openDB,
+        get: idbGet,
+        put: idbPut,
+        seedConfig: seedConfig
     };
 
     // ═══════════════════════════════════════════════════════════════════
-    // 6. HELPERS (pure infra)
+    // HELPERS (pure infra)
     // ═══════════════════════════════════════════════════════════════════
 
     LoginServer.randomDelay = function () {
@@ -671,20 +415,23 @@
         return token;
     };
 
-    /** generateToken standalone (used before LoginServer exists) */
-    function generateToken(length) {
-        var chars = 'abcdef0123456789';
-        var token = '';
-        for (var i = 0; i < (length || 64); i++) {
-            token += chars.charAt(Math.floor(Math.random() * chars.length));
-        }
-        return token;
-    }
-
     LoginServer.nowSeconds = function () {
         return Math.floor(Date.now() / 1000);
     };
 
+    /**
+     * buildEnvelope(responseData, retCode) — Build response envelope
+     *
+     * Evidence: main.min.js L113902-113905
+     *   0 === e.ret  → sukses
+     *   e.data        → JSON.stringify(responseData)
+     *   e.compress    → false
+     *   e.serverTime  → unix timestamp (seconds)
+     *   e.server0Time → timezone offset (ms)
+     *
+     * ServerTime.updateServerTime(e.serverTime, e.server0Time) at L113853
+     *   _offTime = 60 * timezoneOffset * 1000 - n  (n = server0Time)
+     */
     LoginServer.buildEnvelope = function (responseData, retCode) {
         var ret = (typeof retCode === 'number' && retCode !== 0) ? retCode : 0;
         var dataStr;
@@ -706,7 +453,7 @@
     window.LoginServer = LoginServer;
 
     // ═══════════════════════════════════════════════════════════════════
-    // 7. LOAD ACTIONS (actions/*.js)
+    // 3. LOAD ACTIONS (actions/*.js)
     // ═══════════════════════════════════════════════════════════════════
     var actionFiles = [
         'actions/loginGame.js',
@@ -767,7 +514,7 @@
     }
 
     // ═══════════════════════════════════════════════════════════════════
-    // 8. ROUTER / DISPATCHER
+    // 4. ROUTER / DISPATCHER
     // ═══════════════════════════════════════════════════════════════════
 
     var _routeStats = {
@@ -778,6 +525,19 @@
         lastAction: null
     };
 
+    /**
+     * dispatch(request, callback) — Route ke handler berdasarkan request.action
+     *
+     * Evidence: main.min.js L113900-113917 processHandlerWithLogin
+     *   callback signature: callback(envelope)
+     *   envelope = { ret, data (JSON string), compress, serverTime, server0Time }
+     *
+     * Handler signature: handler(request, callback)
+     *   callback(responseData, retCode) — retCode optional, default 0 (sukses)
+     *
+     * Login-server routing: 1-level (action only)
+     *   Semua action punya type='User' dari client, tapi login-server ignore type.
+     */
     function dispatch(request, callback) {
         var action = request.action || '';
         _routeStats.totalRouted++;
@@ -847,8 +607,17 @@
     };
 
     // ═══════════════════════════════════════════════════════════════════
-    // 9. LOGINSOCKET CLASS (mock socket)
+    // 5. LOGINSOCKET CLASS
     // ═══════════════════════════════════════════════════════════════════
+    //
+    // Evidence:
+    //   main.min.js L82535: connectWithSocket(url, callback, errorCallback)
+    //   main.min.js L82537: io.connect(url, { reconnectionAttempts: 10 })
+    //   main.min.js L82539: verifyEnable ? socketOnVerify(callback) : callback()
+    //   Login-server: verifyEnable = FALSE → callback langsung setelah connect
+    //
+    //   main.min.js L82528: sendToServer(data, callback) → socket.emit('handler.process', data, callback)
+    //   main.min.js L82522: socket.on('Notify', handler) — login-server TIDAK pakai Notify
 
     var _socketCounter = 0;
 
@@ -947,6 +716,7 @@
             ['emitCount', String(emitNum)]
         ]);
 
+        // ── handler.process — action routing ──
         if (event === 'handler.process') {
             var self = this;
             var delay = LoginServer.randomDelay();
@@ -965,9 +735,29 @@
                     return;
                 }
 
-                // Socket.IO serialization simulation
+                // ═══════════════════════════════════════════════════════════════
+                // Socket.IO Serialization Simulation
+                // ═══════════════════════════════════════════════════════════════
+                // Evidence: main.min.js L138128-138130
+                //   getNotice: ts.processHandlerWithLogin(t, true, ...)
+                //   "t" di sini = Login constructor function (bukan request object!)
+                //   L138073: var t = this  →  t = Login instance
+                //   L138130: ts.processHandlerWithLogin(t, true, callback)
+                //     → "t" masih merujuk ke Login constructor dari IIFE scope
+                //
+                // Real Socket.IO: socket.emit() serialize data → function stripped
+                //   → server receives null / undefined / {}
+                // Socket.IO simulation: receives RAW data (no network, no serialization)
+                //   → must simulate Socket.IO behavior manually
+                // ═══════════════════════════════════════════════════════════════
                 if (data === null || data === undefined || typeof data === 'function') {
                     log.info('EMIT', 'Socket.IO serialization simulation: type=' + typeof data + ' → {}');
+                    log.details([
+                        ['evidence', 'L138128: getNotice sends Login constructor (function) as request'],
+                        ['evidence2', 'Real Socket.IO strips functions → server receives empty'],
+                        ['originalType', typeof data],
+                        ['normalizedTo', '{} (empty object)']
+                    ]);
                     data = {};
                 }
 
@@ -981,19 +771,36 @@
                     return;
                 }
 
-                // Auto-route empty-action → LoginAnnounce
+                // ═══════════════════════════════════════════════════════════════
+                // Auto-route empty-action requests → LoginAnnounce
+                // ═══════════════════════════════════════════════════════════════
+                // Evidence: grep "LoginAnnounce" in main.min.js → 0 results
+                // Client NEVER sets action:'LoginAnnounce' explicitly!
+                // getNotice (L138128) sends request without action field.
+                // All other 5 login actions have explicit action names:
+                //   loginGame (L114373), GetServerList (L114405),
+                //   SaveHistory (L137906), SaveUserEnterInfo (L114451),
+                //   SaveLanguage (L114284)
+                // Only getNotice sends empty request → must route to LoginAnnounce
+                // ═══════════════════════════════════════════════════════════════
                 if (!data.action) {
                     log.info('ROUTE', 'No action field → auto-routing to LoginAnnounce');
+                    log.details([
+                        ['evidence', 'grep "LoginAnnounce" → 0 results — client never sends this action name'],
+                        ['evidence2', 'L138128-138130: getNotice sends Login constructor (no action field)'],
+                        ['evidence3', 'Only 1 of 6 login actions lacks explicit action name → getNotice'],
+                        ['autoRoute', 'LoginAnnounce (getNotice handler)']
+                    ]);
                     data.action = 'LoginAnnounce';
                 }
 
-                // Log semua field
+                // Log semua field dalam request
                 log.info('EMIT', 'Request fields for ' + actionName);
                 var reqKeys = Object.keys(data);
                 for (var k = 0; k < reqKeys.length; k++) {
                     var rk = reqKeys[k];
                     var rv = String(data[rk]);
-                    if (rv.length > 80) rv = rv.substring(0, 80) + '... (truncated)';
+                    if (rv.length > 80) rv = rv.substring(0, 80) + '... (truncated, total ' + String(data[rk]).length + ' chars)';
                     log.detail(rk, rv);
                 }
 
@@ -1005,6 +812,7 @@
                     var routeDuration = Date.now() - routeStart;
                     var totalDuration = Date.now() - emitStartTime;
 
+                    // Build envelope
                     var envelope = LoginServer.buildEnvelope(responseData, retCode);
 
                     log.info('ENV', 'emit #' + emitNum + ' → envelope ready');
@@ -1048,6 +856,7 @@
             return;
         }
 
+        // ── Unknown event ──
         log.warn('EMIT', 'emit #' + emitNum + ' — unhandled event: "' + event + '"');
         log.alwaysDetails([
             ['event', event],
@@ -1092,6 +901,8 @@
             return;
         }
 
+        log.debug('SOCK', '_fire: "' + event + '" → ' + list.length + ' listener(s) on socket #' + this._counter);
+
         for (var i = 0; i < list.length; i++) {
             try {
                 list[i].apply(null, args);
@@ -1111,15 +922,27 @@
     window.LoginServer = LoginServer;
 
     // ═══════════════════════════════════════════════════════════════════
-    // 10. INIT — IndexedDB seed → auto-login → patch io.connect
+    // 6. INIT — patch io.connect + override getLoginServer
     // ═══════════════════════════════════════════════════════════════════
 
     function init() {
         var loginServerUrl = LoginServer.config.loginServerUrl;
         var patched = false;
 
+        // ── Seed default config to IndexedDB ──
+        LoginServer.db.seedConfig().then(function () {
+            log.info('BOOT', 'IndexedDB config ready');
+        }).catch(function (e) {
+            log.error('BOOT', 'IndexedDB seedConfig FAILED');
+            log.alwaysDetails([
+                ['errorName', e.name || '(unknown)'],
+                ['errorMessage', e.message || String(e)]
+            ]);
+        });
+
         // ── Boot summary ──
-        log.info('BOOT', '═════════════════ BOOT COMPLETE ════════════════');
+        log.info('BOOT', '══════════════════ BOOT COMPLETE ════════════════');
+
         log.table('CONFIG', LoginServer.config);
 
         var handlerInfo = [];
@@ -1130,24 +953,17 @@
             log.table('HANDLER REGISTRY (' + LoginServer._handlerNames.length + ')', handlerInfo);
         }
 
-        // ── Step 1: Seed DB + Auto-login (before io.connect patch) ──
-        log.info('BOOT', 'Initializing IndexedDB + auto-login...');
-
-        seedDatabase().then(function () {
-            autoLogin();
-        }).catch(function (err) {
-            log.error('BOOT', 'Seed failed — attempting auto-login anyway');
-            log.alwaysDetails([['error', err.message || String(err)]]);
-            autoLogin();
-        });
-
-        // ── Step 2: Override getLoginServer() ──
+        // ── Override getLoginServer() ──
+        // Evidence: main.min.js L81719-81724
+        //   TSBrowser.executeFunction('getLoginServer') → window['getLoginServer']()
+        // Evidence: main.min.js L114509-114512
+        //   connectToLogin → TSBrowser.executeFunction('getLoginServer') → io.connect(n)
         window.getLoginServer = function () {
             log.info('IO', 'getLoginServer() called → ' + loginServerUrl);
             return loginServerUrl;
         };
 
-        // ── Step 3: Patch io.connect() ──
+        // ── Patch io.connect() ──
         function patchIoConnect() {
             if (patched) return;
             if (!window.io || typeof window.io.connect !== 'function') return false;
@@ -1163,12 +979,12 @@
                 ]);
 
                 if (url && url.indexOf(loginServerUrl) !== -1) {
-                    log.info('IO', 'INTERCEPTED → LOGIN SERVER (LoginSocket)');
-                    log.table('INTERCEPT', {
+                    log.info('IO', 'CONNECTED → LOGIN SERVER (LoginSocket)');
+                    log.table('CONNECT', {
                         url: url,
                         verifyEnable: 'false',
                         routing: '1-level (action only)',
-                        returnType: 'LoginSocket (mock)'
+                        returnType: 'LoginSocket'
                     });
                     return new LoginServer.LoginSocket();
                 }
@@ -1179,10 +995,9 @@
 
             log.info('IO', 'io.connect() PATCHED — LOGIN SERVER READY');
             log.details([
-                ['interceptUrl', loginServerUrl],
+                ['serverUrl', loginServerUrl],
                 ['verifyEnable', 'false (no TEA handshake)'],
-                ['routing', '1-level (action only)'],
-                ['storage', '100% IndexedDB (no PHP/MySQL)']
+                ['routing', '1-level (action only)']
             ]);
             return true;
         }
@@ -1195,6 +1010,12 @@
             if (++pollCount > 300) {
                 clearInterval(pollTimer);
                 log.error('TIMER', 'window.io NOT found after 30s (300 polls)');
+                log.alwaysDetails([
+                    ['hint', 'main.min.js may not have loaded'],
+                    ['hint2', 'io not exposed on window'],
+                    ['pollAttempts', '300'],
+                    ['pollInterval', '100ms']
+                ]);
                 return;
             }
             if (pollCount % 50 === 0) {
@@ -1214,6 +1035,8 @@
             });
             observer.observe(document.documentElement, { childList: true, subtree: true });
             setTimeout(function () { observer.disconnect(); }, 60000);
+        } else {
+            log.warn('TIMER', 'MutationObserver not available — poll only');
         }
     }
 
