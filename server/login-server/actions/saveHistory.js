@@ -16,7 +16,7 @@
  * Response: { loginToken, todayLoginCount }
  *
  * Token permanen: 1 user = 1 token, generated ONCE, reused FOREVER.
- * Data source: IndexedDB (proot_login / loginInfo)
+ * Data source: IndexedDB (last_game_server / loginInfo)
  */
 
 (function () {
@@ -60,7 +60,7 @@
             ['parsedChannelCode', channelCode],
             ['parsedServerId', serverId],
             ['parsedSecurityCode', securityCode.length > 32 ? securityCode.substring(0, 32) + '...' : securityCode],
-            ['source', 'IndexedDB (proot_login/loginInfo)'],
+            ['source', 'IndexedDB (last_game_server/loginInfo)'],
             ['tokenPolicy', '1 user = 1 permanent token']
         ]);
 

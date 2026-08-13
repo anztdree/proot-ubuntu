@@ -8,7 +8,7 @@
  *
  * Response: { data: Array of notice objects }
  *
- * Data source: IndexedDB (proot_login / loginInfo → __config__.notices)
+ * Data source: IndexedDB (last_game_server / loginInfo → __config__.notices)
  */
 
 (function () {

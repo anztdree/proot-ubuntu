@@ -8,7 +8,7 @@
  *   3. Action loader (actions/*.js)
  *   4. Router/Dispatcher
  *   5. LoginSocket class (verifyEnable=false)
- *   6. io.connect() patch
+ *   6. io.connect() override
  *   7. getLoginServer() override
  *
  * Semua infrastructure di sini. Actions di folder actions/.
@@ -29,9 +29,7 @@
         console.log('%c[LOGIN-SERVER] ' + msg, 'color:#F44336;font-weight:bold;');
     }
 
-    preLog('Login server loading...');
-
-    // ═══════════════════════════════════════════════════════════════════
+    // ═══════════════════════════════════════════════════════
     // AUTO-DETECT BASE PATH
     // ═══════════════════════════════════════════════════════════════════
     var basePath = (function () {
@@ -45,7 +43,7 @@
         return './server/login-server/';
     })();
 
-    preLog('basePath = ' + basePath);
+
 
     // ═══════════════════════════════════════════════════════════════════
     // 1. LOGGER
@@ -85,34 +83,33 @@
 
         // Emoji per context (bukan per level)
         var CTX_EMOJI = {
-            BOOT:      '🚀',
-            SOCK:      '🔌',
-            IO:        '🌐',
-            ROUTE:     '🔀',
-            EMIT:      '📨',
-            REQ:       '📥',
-            API:       '📡',
-            RESP:      '📤',
-            ENV:       '📦',
-            FALLBACK:  '🛡️',
-            TIMER:     '⏳',
-            CONFIG:    '⚙️',
-            DELAY:     '⏱️',
-            TOKEN:     '🔑',
-            STORAGE:   '💾',
-            ACTION:    '🎯',
-            SUCCESS:   '✅',
-            FAIL:      '❌',
-            WARN_EMOJI:'⚠️',
-            HINT:      '💡',
-            LINK:      '🔗',
-            DATA:      '📊',
-            ID:        '🆔',
-            EVENT:     '📡',
-            LOAD:      '📂',
-            REGISTRY:  '📋',
-            PATCH:     '🔧',
-            POLL:      '⏳'
+            BOOT:      '\uD83D\uDCC2',
+            SOCK:      '\uD83D\uDD0C',
+            IO:        '\uD83C\uDF10',
+            ROUTE:     '\uD83D\uDD00',
+            EMIT:      '\uD83D\uDCE8',
+            REQ:       '\uD83D\uDCE5',
+            API:       '\uD83D\uDCE1',
+            RESP:      '\uD83D\uDCE4',
+            ENV:       '\uD83D\uDCE6',
+            FALLBACK:  '\uD83D\uDEE1\uFE0F',
+            TIMER:     '\u23F3',
+            CONFIG:    '\u2699\uFE0F',
+            DELAY:     '\u23F1\uFE0F',
+            TOKEN:     '\uD83D\uDD11',
+            STORAGE:   '\uD83D\uDCBE',
+            ACTION:    '\uD83C\uDFAF',
+            SUCCESS:   '\u2705',
+            FAIL:      '\u274C',
+            WARN_EMOJI:'\u26A0\uFE0F',
+            HINT:      '\uD83D\uDCA1',
+            LINK:      '\uD83D\uDD17',
+            DATA:      '\uD83D\uDCCA',
+            ID:        '\uD83C\uDD94',
+            EVENT:     '\uD83D\uDCE1',
+            LOAD:      '\uD83D\uDCC2',
+            REGISTRY:  '\uD83D\uDCCB',
+            POLL:      '\u23F3'
         };
 
         // ═══════════════════════════════════════════════════════════════
@@ -121,17 +118,17 @@
 
         /**
          * @param {string} level   — INFO, WARN, ERROR, DEBUG
-         * @param {string} context — BOOT, SOCK, ROUTE, API, ENV, FALLBACK, dll
+         * @param {string} context — BOOT, SOCK, ROUTE, API, ENV, dll
          * @param {string} emoji   — emoji override (opsional, pakai CTX_EMOJI[context] jika kosong)
          * @param {string} message — pesan utama
          */
         function emit(level, context, emoji, message) {
             if (!shouldLog(level)) return;
-            var em = emoji || CTX_EMOJI[context] || '⚪';
+            var em = emoji || CTX_EMOJI[context] || '\u26AA';
             var color = COLORS[level] || '#78909C';
             var pad = (context + '          ').slice(0, 10);
             console.log(
-                '%c' + em + ' ' + ts() + ' %c' + SERVER_TAG + ' %c' + pad + '▸ ' + message,
+                '%c' + em + ' ' + ts() + ' %c' + SERVER_TAG + ' %c' + pad + '\u25b8 ' + message,
                 'color:#616161;',
                 'color:#00897B;font-weight:bold;',
                 'color:' + color + ';font-weight:bold;'
@@ -169,47 +166,33 @@
             );
         }
 
-        /**
-         * detail(key, value) — single line, pakai emoji dari key
-         * Dipanggil: log.detail('userId', 'user_001')
-         */
         function detail(key, value) {
-            var em = CTX_EMOJI[key] || '📋';
-            detailLine('└', em, key, value);
+            var em = CTX_EMOJI[key] || CTX_EMOJI[value] || '\uD83D\uDCCB';
+            detailLine('\u2514', em, key, value);
         }
 
-        /**
-         * openDetail() — buka block detail (connector = ├)
-         * Return helper untuk chain detail()
-         */
         function openDetail(key, value) {
-            var em = CTX_EMOJI[key] || '📋';
-            detailLine('├', em, key, value);
+            var em = CTX_EMOJI[key] || CTX_EMOJI[value] || '\uD83D\uDCCB';
+            detailLine('\u251C', em, key, value);
         }
 
-        /**
-         * details(pairs[]) — multi-line, otomatis ├ / └
-         * Dipanggil: log.details([['userId', 'user_001'], ['channel', 'ppgame']])
-         */
         function details(pairs) {
             if (!shouldLog('DEBUG')) return;
             for (var i = 0; i < pairs.length; i++) {
                 var key = pairs[i][0];
                 var val = pairs[i][1];
-                var em = CTX_EMOJI[key] || CTX_EMOJI[val] || '📋';
-                var conn = i < pairs.length - 1 ? '├' : '└';
+                var em = CTX_EMOJI[key] || CTX_EMOJI[val] || '\uD83D\uDCCB';
+                var conn = i < pairs.length - 1 ? '\u251C' : '\u2514';
                 detailLine(conn, em, key, val);
             }
         }
 
         /**
          * table(title, data) — console.table native
-         * Dipanggil: log.table('CONFIG', { loginUrl: '...' })
-         * Atau: log.table('ACTIONS', [{name:'loginGame',status:'OK'},...])
          */
         function table(title, data) {
             if (!shouldLog('DEBUG')) return;
-            console.log('%c  📋 ' + title, DETAIL_COLOR);
+            console.log('%c  \uD83D\uDCCB ' + title, DETAIL_COLOR);
             console.table(data);
         }
 
@@ -230,8 +213,8 @@
             for (var i = 0; i < pairs.length; i++) {
                 var key = pairs[i][0];
                 var val = pairs[i][1];
-                var em = CTX_EMOJI[key] || CTX_EMOJI[val] || '📋';
-                var conn = i < pairs.length - 1 ? '├' : '└';
+                var em = CTX_EMOJI[key] || CTX_EMOJI[val] || '\uD83D\uDCCB';
+                var conn = i < pairs.length - 1 ? '\u251C' : '\u2514';
                 alwaysLine(conn, em, key, val);
             }
         }
@@ -246,7 +229,7 @@
                 currentLevel = level;
                 minPriority = p;
                 try { localStorage.setItem(LEVEL_KEY, level); } catch (e) {}
-                console.log('%c' + SERVER_TAG + ' Log level → ' + level, 'color:#00897B;font-weight:bold;');
+                console.log('%c' + SERVER_TAG + ' Log level \u2192 ' + level, 'color:#00897B;font-weight:bold;');
             }
         }
 
@@ -293,11 +276,10 @@
         log: log
     };
 
-
     // ═══════════════════════════════════════════════════════════════════
     // INDEXEDDB HELPER
     // ═══════════════════════════════════════════════════════════════════
-    // Database: proot_login (versi 2 — upgrade dari versi 1 lama)
+    // Database: last_game_server
     // Store: loginInfo (keyPath: userId)
     //
     // Record types:
@@ -321,7 +303,6 @@
             };
             r.onsuccess = function (e) {
                 _idb = e.target.result;
-                log.info('STORAGE', 'IndexedDB opened: ' + DB_NAME + ' v' + DB_VERSION);
                 ok(_idb);
             };
             r.onerror = function (e) {
@@ -371,8 +352,8 @@
             ],
             notices: [
                 {
-                    title: { en: 'Welcome', cn: '欢迎' },
-                    text: { en: 'Welcome to Super Warrior Z!', cn: '欢迎来到超级战士Z！' },
+                    title: { en: 'Welcome', cn: '\u6b22\u8fce' },
+                    text: { en: 'Welcome to Super Warrior Z!', cn: '\u6b22\u8fce\u6765\u5230\u8d85\u7ea7\u6218\u58ebZ\uff01' },
                     version: '1.0',
                     orderNo: 1,
                     alwaysPopup: false
@@ -382,10 +363,8 @@
 
         return idbGet('__config__').then(function (existing) {
             if (existing) {
-                log.info('STORAGE', '__config__ already exists, skip seed');
                 return existing;
             }
-            log.info('STORAGE', 'Seeding __config__ with defaults');
             return idbPut(defaultConfig).then(function () { return defaultConfig; });
         });
     }
@@ -428,9 +407,6 @@
      *   e.compress    → false
      *   e.serverTime  → unix timestamp (seconds)
      *   e.server0Time → timezone offset (ms)
-     *
-     * ServerTime.updateServerTime(e.serverTime, e.server0Time) at L113853
-     *   _offTime = 60 * timezoneOffset * 1000 - n  (n = server0Time)
      */
     LoginServer.buildEnvelope = function (responseData, retCode) {
         var ret = (typeof retCode === 'number' && retCode !== 0) ? retCode : 0;
@@ -473,8 +449,54 @@
 
         if (loadedCount >= actionFiles.length) {
             var totalLoadTime = Date.now() - loadStart;
-            log.info('LOAD', 'All ' + actionFiles.length + ' actions loaded (' + totalLoadTime + 'ms)');
-            log.table('LOAD RESULTS', loadResults);
+            var bootOk = loadResults.every(function (r) { return r.status.indexOf('OK') !== -1; });
+            var now = new Date();
+            var hh = String(now.getHours()).padStart(2, '0');
+            var mm = String(now.getMinutes()).padStart(2, '0');
+            var mark = bootOk ? '\u2705' : '\u274c';
+            // ── Boot: judul + summary selalu terlihat, detail tabel di collapsed group ──
+            console.log(
+                '\uD83D\uDCC2 %c' + hh + ':' + mm + ' %c[LOGIN-SERVER] %cBOOT \u25b8 ' + mark + ' Ready',
+                'color:#616161;',
+                'color:#00897B;font-weight:bold;',
+                'color:#2196F3;font-weight:bold;'
+            );
+            var SC = 'color:#004D40;opacity:0.85;';
+            console.log('%c  \u00b7 \uD83D\uDCE6 ' + actionFiles.length + ' actions', SC);
+            console.log('%c  \u00b7 \u23f1\uFE0F ' + totalLoadTime + 'ms', SC);
+            console.log('%c  \u00b7 \uD83D\uDCBE ' + DB_NAME, SC);
+            console.log('%c  \u00b7 \uD83D\uDCCB ' + LoginServer._handlerNames.length + ' handlers', SC);
+            console.log('%c  \u00b7 \uD83D\uDD17 ' + LoginServer.config.loginServerUrl, SC);
+
+            // ── Detail tabel (collapsed) ──
+            console.groupCollapsed('%c  \u2022 Load Details', 'color:#004D40;opacity:0.7;');
+            console.table(loadResults);
+            console.log('%c  \u254c\u2500\u2500\u2500 \u2699\uFE0F CONFIG \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+
+            var configRows = [];
+            var cfg = LoginServer.config;
+            configRows.push({ key: 'loginServerUrl', value: cfg.loginServerUrl });
+            configRows.push({ key: 'mainServerUrl', value: cfg.mainServerUrl });
+            configRows.push({ key: 'chatServerUrl', value: cfg.chatServerUrl });
+            configRows.push({ key: 'dungeonServerUrl', value: cfg.dungeonServerUrl });
+            configRows.push({ key: 'delayMin', value: String(cfg.delayMin) + 'ms' });
+            configRows.push({ key: 'delayMax', value: String(cfg.delayMax) + 'ms' });
+            configRows.push({ key: 'loginTokenLength', value: String(cfg.loginTokenLength) });
+            configRows.push({ key: 'verifyEnable', value: String(cfg.verifyEnable) });
+            console.table(configRows);
+            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCCB HANDLERS \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+
+            var handlerRows = [];
+            for (var hi = 0; hi < LoginServer._handlerNames.length; hi++) {
+                handlerRows.push({ index: '[' + hi + ']', action: LoginServer._handlerNames[hi], status: '\u2705' });
+            }
+            if (handlerRows.length > 0) {
+                console.table(handlerRows);
+            }
+            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCBE STORAGE \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+            console.log('%c  DB: ' + DB_NAME + ' | Store: ' + STORE_NAME + ' | basePath: ' + basePath, 'color:#004D40;opacity:0.7;');
+            console.groupEnd();
+
             init();
             return;
         }
@@ -483,16 +505,13 @@
         var filePath = basePath + fileName;
         var fileStart = Date.now();
 
-        log.info('LOAD', 'Loading [' + (loadedCount + 1) + '/' + actionFiles.length + ']: ' + fileName);
-
         var script = document.createElement('script');
         script.src = filePath;
         script.async = false;
 
         script.onload = function () {
             var fileTime = Date.now() - fileStart;
-            log.info('LOAD', '  ✅ ' + fileName + ' (' + fileTime + 'ms)');
-            loadResults.push({ file: fileName, status: '✅ OK', loadTime: fileTime + 'ms' });
+            loadResults.push({ file: fileName, status: '\u2705 OK', loadTime: fileTime + 'ms' });
             script.parentNode.removeChild(script);
             loadedCount++;
             loadNextAction();
@@ -507,7 +526,7 @@
                 ['loadedSoFar', '[' + actionFiles.slice(0, loadedCount).join(', ') + ']'],
                 ['hint', 'Check file exists in ' + basePath]
             ]);
-            loadResults.push({ file: fileName, status: '❌ FAILED', loadTime: 'N/A' });
+            loadResults.push({ file: fileName, status: '\u274c FAILED', loadTime: 'N/A' });
         };
 
         (document.head || document.documentElement).appendChild(script);
@@ -534,21 +553,11 @@
      *
      * Handler signature: handler(request, callback)
      *   callback(responseData, retCode) — retCode optional, default 0 (sukses)
-     *
-     * Login-server routing: 1-level (action only)
-     *   Semua action punya type='User' dari client, tapi login-server ignore type.
      */
     function dispatch(request, callback) {
         var action = request.action || '';
         _routeStats.totalRouted++;
         _routeStats.lastAction = action;
-
-        log.info('ROUTE', 'Incoming request #' + _routeStats.totalRouted);
-        log.details([
-            ['action', action || '(EMPTY)'],
-            ['type', request.type || '(none)'],
-            ['totalSoFar', String(_routeStats.totalRouted)]
-        ]);
 
         if (!action) {
             _routeStats.totalNoAction++;
@@ -556,7 +565,6 @@
             log.alwaysDetails([
                 ['requestKeys', Object.keys(request || {}).join(', ')],
                 ['requestDump', JSON.stringify(request || {}).substring(0, 300)],
-                ['totalNoAction', String(_routeStats.totalNoAction)],
                 ['retCode', '1 (no_action)']
             ]);
             callback(LoginServer.buildEnvelope({ error: 'no_action' }, 1));
@@ -566,12 +574,6 @@
         var handler = LoginServer.handlers[action];
 
         if (typeof handler === 'function') {
-            log.info('ROUTE', 'Dispatching → ' + action);
-            log.details([
-                ['handler', action],
-                ['source', 'actions/' + action + '.js']
-            ]);
-
             try {
                 handler(request, callback);
             } catch (handlerErr) {
@@ -630,20 +632,10 @@
         this._listeners = {};
         this._emitCount = 0;
 
-        log.info('SOCK', 'LoginSocket #' + this._counter + ' created');
-        log.table('SOCK #' + this._counter, {
-            socketId: this.id,
-            target: LoginServer.config.loginServerUrl,
-            verifyEnable: String(LoginServer.config.verifyEnable),
-            status: 'connecting...',
-            delay: 'pending...'
-        });
-
         var self = this;
         var delay = LoginServer.randomDelay();
 
-        log.debug('SOCK', 'Simulating connection delay');
-        log.detail('DELAY', delay + 'ms (randomized ' + LoginServer.config.delayMin + '~' + LoginServer.config.delayMax + 'ms)');
+        log.info('SOCK', 'LoginSocket #' + this._counter + ' connecting...');
 
         setTimeout(function () {
             if (self.disconnected) {
@@ -652,13 +644,39 @@
             }
             self.connected = true;
             self._fire('connect');
-            log.info('SOCK', 'LoginSocket #' + self._counter + ' CONNECTED (' + delay + 'ms)');
-            log.details([
-                ['socketId', self.id],
-                ['status', 'CONNECTED'],
-                ['listeners', Object.keys(self._listeners).join(', ') || 'none yet'],
-                ['emitCount', String(self._emitCount)]
-            ]);
+
+            // ── Socket: judul + summary selalu terlihat, detail tabel di collapsed group ──
+            var listenerNames = Object.keys(self._listeners);
+            var sockNow = new Date();
+            var sockHH = String(sockNow.getHours()).padStart(2, '0');
+            var sockMM = String(sockNow.getMinutes()).padStart(2, '0');
+            var verifyLabel = LoginServer.config.verifyEnable ? 'on' : 'off';
+            console.log(
+                '\uD83D\uDD0C %c' + sockHH + ':' + sockMM + ' %c[LOGIN-SERVER] %cSOCK \u25b8 Socket #' + self._counter + ' \u2705 CONNECTED',
+                'color:#616161;',
+                'color:#00897B;font-weight:bold;',
+                'color:#4CAF50;font-weight:bold;'
+            );
+            var SC = 'color:#004D40;opacity:0.85;';
+            console.log('%c  \u00b7 \u23f1\uFE0F ' + delay + 'ms', SC);
+            console.log('%c  \u00b7 \uD83C\uDD94 ' + self.id, SC);
+            console.log('%c  \u00b7 \uD83D\uDD12 verify: ' + verifyLabel, SC);
+            console.log('%c  \u00b7 \uD83D\uDD0A ' + listenerNames.length + ' listeners', SC);
+
+            // ── Detail tabel (collapsed) ──
+            console.groupCollapsed('%c  \u2022 Socket Details', 'color:#004D40;opacity:0.7;');
+            var socketRows = [
+                { key: 'socketId', value: self.id },
+                { key: 'target', value: LoginServer.config.loginServerUrl },
+                { key: 'verifyEnable', value: String(LoginServer.config.verifyEnable) },
+                { key: 'delay', value: delay + 'ms' },
+                { key: 'emitCount', value: String(self._emitCount) }
+            ];
+            console.table(socketRows);
+            if (listenerNames.length > 0) {
+                console.log('%c  listeners: ' + listenerNames.join(', '), 'color:#004D40;opacity:0.85;');
+            }
+            console.groupEnd();
         }, delay);
     }
 
@@ -676,12 +694,11 @@
             this._listeners[event] = [];
         }
         this._listeners[event].push(handler);
-        log.debug('SOCK', 'Listener registered: "' + event + '" (' + this._listeners[event].length + ' total on socket #' + this._counter + ')');
     };
 
     LoginSocket.prototype.off = function (event, handler) {
         if (!this._listeners[event]) {
-            log.debug('SOCK', 'off() — no listeners for "' + event + '" on socket #' + this._counter);
+            log.debug('SOCK', 'off() \u2014 no listeners for "' + event + '" on socket #' + this._counter);
             return;
         }
         if (handler) {
@@ -690,11 +707,11 @@
             for (var i = list.length - 1; i >= 0; i--) {
                 if (list[i] === handler) list.splice(i, 1);
             }
-            log.debug('SOCK', 'off() — removed ' + (before - list.length) + ' listener(s) from "' + event + '" on socket #' + this._counter);
+            log.debug('SOCK', 'off() \u2014 removed ' + (before - list.length) + ' listener(s) from "' + event + '" on socket #' + this._counter);
         } else {
             var count = this._listeners[event].length;
             delete this._listeners[event];
-            log.debug('SOCK', 'off() — removed ALL ' + count + ' listener(s) from "' + event + '" on socket #' + this._counter);
+            log.debug('SOCK', 'off() \u2014 removed ALL ' + count + ' listener(s) from "' + event + '" on socket #' + this._counter);
         }
     };
 
@@ -705,28 +722,14 @@
         var typeName = (data && data.type) ? data.type : '-';
         var emitStartTime = Date.now();
 
-        log.info('EMIT', 'emit #' + emitNum + ': "' + event + '"');
-        log.details([
-            ['action', actionName],
-            ['type', typeName],
-            ['userId', (data && (data.userId || data.accountToken)) ? (data.userId || data.accountToken) : '-'],
-            ['hasCallback', String(typeof callback === 'function')],
-            ['socketId', this.id],
-            ['socket', '#' + this._counter],
-            ['emitCount', String(emitNum)]
-        ]);
-
         // ── handler.process — action routing ──
         if (event === 'handler.process') {
             var self = this;
             var delay = LoginServer.randomDelay();
 
-            log.debug('EMIT', 'Scheduling handler.process dispatch');
-            log.detail('DELAY', delay + 'ms');
-
             setTimeout(function () {
                 if (!self.connected) {
-                    log.error('EMIT', 'emit #' + emitNum + ' FAILED — socket disconnected');
+                    log.error('EMIT', 'emit #' + emitNum + ' FAILED \u2014 socket disconnected');
                     log.alwaysDetails([
                         ['action', actionName],
                         ['socketId', self.id],
@@ -735,34 +738,13 @@
                     return;
                 }
 
-                // ═══════════════════════════════════════════════════════════════
-                // Socket.IO Serialization Simulation
-                // ═══════════════════════════════════════════════════════════════
-                // Evidence: main.min.js L138128-138130
-                //   getNotice: ts.processHandlerWithLogin(t, true, ...)
-                //   "t" di sini = Login constructor function (bukan request object!)
-                //   L138073: var t = this  →  t = Login instance
-                //   L138130: ts.processHandlerWithLogin(t, true, callback)
-                //     → "t" masih merujuk ke Login constructor dari IIFE scope
-                //
-                // Real Socket.IO: socket.emit() serialize data → function stripped
-                //   → server receives null / undefined / {}
-                // Socket.IO simulation: receives RAW data (no network, no serialization)
-                //   → must simulate Socket.IO behavior manually
-                // ═══════════════════════════════════════════════════════════════
+                // Socket.IO serialization simulation
                 if (data === null || data === undefined || typeof data === 'function') {
-                    log.info('EMIT', 'Socket.IO serialization simulation: type=' + typeof data + ' → {}');
-                    log.details([
-                        ['evidence', 'L138128: getNotice sends Login constructor (function) as request'],
-                        ['evidence2', 'Real Socket.IO strips functions → server receives empty'],
-                        ['originalType', typeof data],
-                        ['normalizedTo', '{} (empty object)']
-                    ]);
                     data = {};
                 }
 
                 if (!data || typeof data !== 'object') {
-                    log.error('EMIT', 'emit #' + emitNum + ' — invalid data');
+                    log.error('EMIT', 'emit #' + emitNum + ' \u2014 invalid data');
                     log.alwaysDetails([
                         ['dataType', typeof data],
                         ['action', actionName],
@@ -771,72 +753,68 @@
                     return;
                 }
 
-                // ═══════════════════════════════════════════════════════════════
-                // Auto-route empty-action requests → LoginAnnounce
-                // ═══════════════════════════════════════════════════════════════
-                // Evidence: grep "LoginAnnounce" in main.min.js → 0 results
-                // Client NEVER sets action:'LoginAnnounce' explicitly!
-                // getNotice (L138128) sends request without action field.
-                // All other 5 login actions have explicit action names:
-                //   loginGame (L114373), GetServerList (L114405),
-                //   SaveHistory (L137906), SaveUserEnterInfo (L114451),
-                //   SaveLanguage (L114284)
-                // Only getNotice sends empty request → must route to LoginAnnounce
-                // ═══════════════════════════════════════════════════════════════
+                // Auto-route empty-action → LoginAnnounce
                 if (!data.action) {
-                    log.info('ROUTE', 'No action field → auto-routing to LoginAnnounce');
-                    log.details([
-                        ['evidence', 'grep "LoginAnnounce" → 0 results — client never sends this action name'],
-                        ['evidence2', 'L138128-138130: getNotice sends Login constructor (no action field)'],
-                        ['evidence3', 'Only 1 of 6 login actions lacks explicit action name → getNotice'],
-                        ['autoRoute', 'LoginAnnounce (getNotice handler)']
-                    ]);
                     data.action = 'LoginAnnounce';
                 }
 
-                // Log semua field dalam request
-                log.info('EMIT', 'Request fields for ' + actionName);
+                var routeStart = Date.now();
+
+                // ── Action: judul + summary selalu terlihat, detail req/res di collapsed group ──
                 var reqKeys = Object.keys(data);
+                var fieldCount = reqKeys.length;
+                var emitNow = new Date();
+                var emitHH = String(emitNow.getHours()).padStart(2, '0');
+                var emitMM = String(emitNow.getMinutes()).padStart(2, '0');
+                console.log(
+                    '\u2699\uFE0F %c' + emitHH + ':' + emitMM + ' %c[LOGIN-SERVER] %cEMIT \u25b8 ' + actionName,
+                    'color:#616161;',
+                    'color:#00897B;font-weight:bold;',
+                    'color:#FF9800;font-weight:bold;'
+                );
+                var SC = 'color:#004D40;opacity:0.85;';
+                console.log('%c  \u00b7 \uD83D\uDCE4 emit #' + emitNum, SC);
+                console.log('%c  \u00b7 \uD83C\uDFF7\uFE0F ' + typeName, SC);
+                console.log('%c  \u00b7 \uD83D\uDCCA ' + fieldCount + ' fields', SC);
+
+                // ── Detail req/res (collapsed) ──
+                console.groupCollapsed('%c  \u2022 Request / Response', 'color:#004D40;opacity:0.7;');
+
+                // Request fields
+                var reqPairs = [];
                 for (var k = 0; k < reqKeys.length; k++) {
                     var rk = reqKeys[k];
                     var rv = String(data[rk]);
-                    if (rv.length > 80) rv = rv.substring(0, 80) + '... (truncated, total ' + String(data[rk]).length + ' chars)';
-                    log.detail(rk, rv);
+                    if (rv.length > 120) rv = rv.substring(0, 120) + '... (' + String(data[rk]).length + ' chars)';
+                    reqPairs.push([rk, rv]);
                 }
-
-                log.info('ROUTE', 'emit #' + emitNum + ' → dispatching: ' + actionName);
-
-                var routeStart = Date.now();
+                console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE5 REQUEST \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+                log.details(reqPairs);
 
                 LoginServer.router.dispatch(data, function (responseData, retCode) {
                     var routeDuration = Date.now() - routeStart;
                     var totalDuration = Date.now() - emitStartTime;
 
-                    // Build envelope
                     var envelope = LoginServer.buildEnvelope(responseData, retCode);
 
-                    log.info('ENV', 'emit #' + emitNum + ' → envelope ready');
+                    // Response details
+                    console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE4 RESPONSE \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
                     log.details([
-                        ['action', actionName],
-                        ['ret', String(envelope.ret)],
-                        ['dataSize', envelope.data.length + ' chars'],
-                        ['dataPreview', envelope.data.substring(0, 120) + (envelope.data.length > 120 ? '...' : '')],
-                        ['compress', String(envelope.compress)],
-                        ['serverTime', String(envelope.serverTime)],
-                        ['server0Time', String(envelope.server0Time)],
-                        ['source', retCode ? 'ERROR PATH' : 'HANDLER OK']
+                        ['\uD83D\uDD00 dispatched', 'actions/' + actionName + '.js'],
+                        ['\uD83D\uDCE4 ret', String(envelope.ret)],
+                        ['\uD83D\uDCE4 data', envelope.data.substring(0, 300) + (envelope.data.length > 300 ? '... (' + envelope.data.length + ' chars)' : '')],
+                        ['\uD83D\uDCE4 compress', String(envelope.compress)],
+                        ['\uD83D\UDCCA serverTime', String(envelope.serverTime)],
+                        ['\u23F1\uFE0F routeTime', routeDuration + 'ms'],
+                        ['\u23F1\uFE0F scheduleDelay', delay + 'ms'],
+                        ['\u23F1\uFE0F total', totalDuration + 'ms']
                     ]);
 
-                    log.details([
-                        ['routeTime', routeDuration + 'ms'],
-                        ['scheduleDelay', delay + 'ms'],
-                        ['totalEmitTime', totalDuration + 'ms']
-                    ]);
+                    console.groupEnd(); // end req/res detail group
 
                     if (typeof callback === 'function') {
                         try {
                             callback(envelope);
-                            log.debug('ENV', 'emit #' + emitNum + ' callback fired — OK');
                         } catch (cbErr) {
                             log.error('ENV', 'emit #' + emitNum + ' callback THREW ERROR');
                             log.alwaysDetails([
@@ -845,7 +823,7 @@
                             ]);
                         }
                     } else {
-                        log.error('ENV', 'emit #' + emitNum + ' — NO CALLBACK PROVIDED');
+                        log.error('ENV', 'emit #' + emitNum + ' \u2014 NO CALLBACK PROVIDED');
                         log.alwaysDetails([
                             ['action', actionName],
                             ['hint', 'Game may hang waiting for response']
@@ -857,7 +835,7 @@
         }
 
         // ── Unknown event ──
-        log.warn('EMIT', 'emit #' + emitNum + ' — unhandled event: "' + event + '"');
+        log.warn('EMIT', 'emit #' + emitNum + ' \u2014 unhandled event: "' + event + '"');
         log.alwaysDetails([
             ['event', event],
             ['action', actionName],
@@ -896,12 +874,7 @@
         var args = Array.prototype.slice.call(arguments, 1);
         var list = this._listeners[event];
 
-        if (!list || list.length === 0) {
-            log.debug('SOCK', '_fire: no listeners for "' + event + '" on socket #' + this._counter);
-            return;
-        }
-
-        log.debug('SOCK', '_fire: "' + event + '" → ' + list.length + ' listener(s) on socket #' + this._counter);
+        if (!list || list.length === 0) return;
 
         for (var i = 0; i < list.length; i++) {
             try {
@@ -922,7 +895,7 @@
     window.LoginServer = LoginServer;
 
     // ═══════════════════════════════════════════════════════════════════
-    // 6. INIT — patch io.connect + override getLoginServer
+    // 6. INIT — io.connect override + getLoginServer
     // ═══════════════════════════════════════════════════════════════════
 
     function init() {
@@ -930,9 +903,7 @@
         var patched = false;
 
         // ── Seed default config to IndexedDB ──
-        LoginServer.db.seedConfig().then(function () {
-            log.info('BOOT', 'IndexedDB config ready');
-        }).catch(function (e) {
+        LoginServer.db.seedConfig().catch(function (e) {
             log.error('BOOT', 'IndexedDB seedConfig FAILED');
             log.alwaysDetails([
                 ['errorName', e.name || '(unknown)'],
@@ -940,31 +911,17 @@
             ]);
         });
 
-        // ── Boot summary ──
-        log.info('BOOT', '══════════════════ BOOT COMPLETE ════════════════');
-
-        log.table('CONFIG', LoginServer.config);
-
-        var handlerInfo = [];
-        for (var i = 0; i < LoginServer._handlerNames.length; i++) {
-            handlerInfo.push({ index: '[' + i + ']', action: LoginServer._handlerNames[i], status: '✅' });
-        }
-        if (handlerInfo.length > 0) {
-            log.table('HANDLER REGISTRY (' + LoginServer._handlerNames.length + ')', handlerInfo);
-        }
-
         // ── Override getLoginServer() ──
         // Evidence: main.min.js L81719-81724
-        //   TSBrowser.executeFunction('getLoginServer') → window['getLoginServer']()
+        //   TSBrowser.executeFunction('getLoginServer') \u2192 window['getLoginServer']()
         // Evidence: main.min.js L114509-114512
-        //   connectToLogin → TSBrowser.executeFunction('getLoginServer') → io.connect(n)
+        //   connectToLogin \u2192 TSBrowser.executeFunction('getLoginServer') \u2192 io.connect(n)
         window.getLoginServer = function () {
-            log.info('IO', 'getLoginServer() called → ' + loginServerUrl);
             return loginServerUrl;
         };
 
-        // ── Patch io.connect() ──
-        function patchIoConnect() {
+        // ── Override io.connect() ──
+        function overrideIoConnect() {
             if (patched) return;
             if (!window.io || typeof window.io.connect !== 'function') return false;
 
@@ -972,38 +929,44 @@
             patched = true;
 
             window.io.connect = function (url, options) {
-                log.info('IO', 'io.connect() called');
-                log.details([
-                    ['url', url || '(none)'],
-                    ['hasOptions', String(!!options)]
-                ]);
-
                 if (url && url.indexOf(loginServerUrl) !== -1) {
-                    log.info('IO', 'CONNECTED → LOGIN SERVER (LoginSocket)');
-                    log.table('CONNECT', {
-                        url: url,
-                        verifyEnable: 'false',
-                        routing: '1-level (action only)',
-                        returnType: 'LoginSocket'
-                    });
+                    var ts2 = new Date();
+                    var hh2 = String(ts2.getHours()).padStart(2, '0');
+                    var mm2 = String(ts2.getMinutes()).padStart(2, '0');
+                    // ── IO: judul + summary selalu terlihat, detail tabel di collapsed group ──
+                    console.log(
+                        '\uD83C\uDF10 %c' + hh2 + ':' + mm2 + ' %c[LOGIN-SERVER] %cIO \u25b8 \u2705 READY',
+                        'color:#616161;',
+                        'color:#00897B;font-weight:bold;',
+                        'color:#4CAF50;font-weight:bold;'
+                    );
+                    var SC = 'color:#004D40;opacity:0.85;';
+                    console.log('%c  \u00b7 \uD83D\uDD17 ' + url, SC);
+                    console.log('%c  \u00b7 \uD83D\uDD12 verify: off', SC);
+                    console.log('%c  \u00b7 \uD83D\uDD04 1-level routing', SC);
+                    console.log('%c  \u00b7 \uD83D\uDCE6 LoginSocket', SC);
+
+                    // ── Detail tabel (collapsed) ──
+                    console.groupCollapsed('%c  \u2022 IO Config', 'color:#004D40;opacity:0.7;');
+                    console.table([
+                        { key: 'serverUrl', value: url },
+                        { key: 'verifyEnable', value: 'false' },
+                        { key: 'routing', value: '1-level (action only)' },
+                        { key: 'returnType', value: 'LoginSocket' }
+                    ]);
+                    console.groupEnd();
+
                     return new LoginServer.LoginSocket();
                 }
 
-                log.info('IO', 'PASS THROUGH → ' + url);
                 return origConnect.call(window.io, url, options);
             };
 
-            log.info('IO', 'io.connect() PATCHED — LOGIN SERVER READY');
-            log.details([
-                ['serverUrl', loginServerUrl],
-                ['verifyEnable', 'false (no TEA handshake)'],
-                ['routing', '1-level (action only)']
-            ]);
             return true;
         }
 
         // ── Poll for window.io ──
-        log.info('TIMER', 'Polling window.io...');
+        log.info('TIMER', 'Waiting for window.io...');
         var pollCount = 0;
         var pollTimer = setInterval(function () {
             if (patched) { clearInterval(pollTimer); return; }
@@ -1012,16 +975,14 @@
                 log.error('TIMER', 'window.io NOT found after 30s (300 polls)');
                 log.alwaysDetails([
                     ['hint', 'main.min.js may not have loaded'],
-                    ['hint2', 'io not exposed on window'],
-                    ['pollAttempts', '300'],
-                    ['pollInterval', '100ms']
+                    ['hint2', 'io not exposed on window']
                 ]);
                 return;
             }
             if (pollCount % 50 === 0) {
                 log.debug('TIMER', 'Still waiting... (' + (pollCount * 100) + 'ms, ' + pollCount + ' polls)');
             }
-            if (patchIoConnect()) clearInterval(pollTimer);
+            if (overrideIoConnect()) clearInterval(pollTimer);
         }, 100);
 
         // ── MutationObserver fallback ──
@@ -1029,14 +990,14 @@
             var observer = new MutationObserver(function () {
                 if (!patched && window.io && typeof window.io.connect === 'function') {
                     log.info('TIMER', 'MutationObserver detected window.io');
-                    patchIoConnect();
+                    overrideIoConnect();
                     observer.disconnect();
                 }
             });
             observer.observe(document.documentElement, { childList: true, subtree: true });
             setTimeout(function () { observer.disconnect(); }, 60000);
         } else {
-            log.warn('TIMER', 'MutationObserver not available — poll only');
+            log.warn('TIMER', 'MutationObserver not available \u2014 poll only');
         }
     }
 

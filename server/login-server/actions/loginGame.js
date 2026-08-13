@@ -22,7 +22,7 @@
  *
  *   loginToken: NOT dari loginGame — comes from SaveHistory (L137914)
  *
- *   Data source: IndexedDB (proot_login / loginInfo)
+ *   Data source: IndexedDB (last_game_server / loginInfo)
  */
 
 (function () {
@@ -57,7 +57,7 @@
             ['parsedUserId', userId],
             ['parsedChannelCode', channelCode],
             ['parsedNickName', nickName || '(empty)'],
-            ['source', 'IndexedDB (proot_login/loginInfo)']
+            ['source', 'IndexedDB (last_game_server/loginInfo)']
         ]);
 
         db.get(userId).then(function (acc) {
