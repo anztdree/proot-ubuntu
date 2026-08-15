@@ -41,9 +41,9 @@
  *   else → ErrorHandler.ShowErrorTips (gunakan errorDefine.json)
  *
  * Alur loginToken validation:
- *   Login-server SaveHistory → generate token → simpan ke localStorage
- *     key: login_token_{userId} (TANPA ms_ prefix, cross-server)
- *   Main-server enterGame → baca localStorage → validasi → proses
+ *   Login-server SaveHistory → generate token → simpan ke IndexedDB
+ *     DB: last_game_server, store: loginInfo (field: loginToken)
+ *   Main-server enterGame → baca IndexedDB via validateLoginToken → proses
  *
  * Ret Code Mapping (berbasis errorDefine.json):
  *   0 = success
@@ -331,7 +331,7 @@
     // ═══════════════════════════════════════════════════════════
     //
     //  Server-wide metadata yang PERSISTEN — bukan di-generate tiap login.
-    //  Disimpan di localStorage key: ms_server_meta
+    //  Disimpan di IndexedDB key: server:meta
     //
     //  Fields:
     //    _serverOpenDate — Unix timestamp (ms) saat server pertama kali setup.
@@ -349,7 +349,7 @@
     //    _broadcastQueue — array: server-wide broadcast messages.
     //    _onlineBulletins — array: server-wide online bulletins.
 
-    var SERVER_META_KEY = 'ms_server_meta';
+    var SERVER_META_KEY = 'server:meta';
 
     function getServerMeta() {
         var meta = db._get(SERVER_META_KEY);
@@ -544,7 +544,7 @@
      * 
      * ════════════════════════════════════════════════════════════════
      * PROBLEM:
-     *   User create guild → data tersimpan di IndexedDB (ms_user_*, ms_guild_list)
+     *   User create guild → data tersimpan di IndexedDB (user:*, guild:list)
      *   Saat relogin, enterGame return userGuild/userGuildPub dengan _guildId: ''
      *   Client: setTeamInfoModel('') → user KELUAR GUILD!
      * 
@@ -583,16 +583,16 @@
             ['_guildName', userGuildData._guildName || '(empty)']
         ]);
 
-        // Baca guild info lengkap dari ms_guild_list
-        var GUILD_LIST_KEY = 'ms_guild_list';
+        // Baca guild info lengkap dari guild:list
+        var GUILD_LIST_KEY = 'guild:list';
         var guildList = db._get(GUILD_LIST_KEY);
         var guildInfo = null;
 
         if (guildList && guildList[guildId]) {
             guildInfo = guildList[guildId];
-            log.info('GUILD_RECOVERY', '✅ Found guild in ms_guild_list: ' + (guildInfo._name || '?'));
+            log.info('GUILD_RECOVERY', '✅ Found guild in guild:list: ' + (guildInfo._name || '?'));
         } else {
-            log.warn('GUILD_RECOVERY', '⚠️ Guild NOT found in ms_guild_list: ' + guildId);
+            log.warn('GUILD_RECOVERY', '⚠️ Guild NOT found in guild:list: ' + guildId);
             // Tetap lanjutkan pakai data dari userGuildData saja
         }
 
@@ -2311,9 +2311,8 @@
     //    6. TIMESINFO RECOVERY: hitung recovery untuk returning user
     //    7. HANGUP REWARDS: hitung offline reward ticks
     //    8. INJECT: broadcast + bulletin dari server metadata
-    //    9. SAVE: simpan ke localStorage
-    //   10. SESSION: track session + action
-    //   11. RESPOND: callback(responseData)
+    //    9. SAVE: simpan ke DB (IndexedDB)
+    //   10. RESPOND: callback(responseData)
 
     function handleEnterGame(request, callback) {
         var userId = request.userId;
@@ -2359,9 +2358,10 @@
             }
 
             // ═══ VALIDASI 3: loginToken — CROSS-SERVER ═══
-            // Login-server SaveHistory → generate token → simpan ke localStorage:
-            //   key: login_token_{userId} (TANPA ms_ prefix, cross-server)
-            //   value: { userId, timestamp, loginToken }
+            // Login-server SaveHistory → token tersimpan di IndexedDB:
+            //   DB: last_game_server, store: loginInfo (field: loginToken)
+            //   Client main.min.js: var storageKeyServer="last_game_server"
+            //   validateLoginToken (index.js) baca dari IndexedDB ini
 
             var tokenCheck = db.validateLoginToken(userId);
             if (!tokenCheck.valid) {
@@ -2369,7 +2369,7 @@
                 log.importantDetails('error', [
                     ['userId', userId],
                     ['reason', tokenCheck.reason],
-                    ['hint', 'Login-server SaveHistory harus simpan token ke localStorage key: login_token_' + userId]
+                    ['hint', 'Login-server SaveHistory harus simpan token ke IndexedDB last_game_server/loginInfo']
                 ]);
                 callback(
                     buildError(RET_CODES.TOKEN_INVALID, 'Token validation failed: ' + tokenCheck.reason),
@@ -2411,7 +2411,7 @@
 
             // ═══ PROSES DATA ═══
 
-            var storageKey = 'ms_user_' + userId + '_' + serverId;
+            var storageKey = 'user:' + userId;
             var savedData = db._get(storageKey);
             var isNewUser = !savedData;
 
@@ -2638,12 +2638,8 @@
             // ── COMPUTE USER LEVEL for logging ──
             var userLevel = computeUserLevel(savedData);
 
-            // Simpan ke localStorage
+            // Simpan ke DB (IndexedDB)
             db._set(storageKey, savedData);
-
-            // Session tracking
-            var sessionId = db.startSession(userId, { serverId: serverId });
-            db.trackAction(sessionId, 'enterGame', isNewUser ? 'newUser' : 'returningUser');
 
             var elapsed = Date.now() - t0;
 
@@ -2659,7 +2655,6 @@
                 ['checkinDay', String(savedData.checkin ? savedData.checkin._maxActiveDay : 0)],
                 ['broadcastCount', String((savedData.broadcastRecord || []).length)],
                 ['bulletinCount', String((savedData.onlineBulletin || []).length)],
-                ['sessionId', sessionId ? sessionId.substring(0, 8) + '...' : '-'],
                 ['elapsed', elapsed + 'ms']
             ]);
 
