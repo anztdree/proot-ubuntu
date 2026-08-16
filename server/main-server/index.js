@@ -186,7 +186,7 @@
         var SERVER_TAG = '[MAIN-SERVER]';
 
         var COLORS = {
-            INFO:  '#66BB6A',
+            INFO:  '#2196F3',
             WARN:  '#FFA726',
             ERROR: '#EF5350',
             DEBUG: '#90A4AE'
@@ -203,18 +203,24 @@
         }
 
         var CTX_EMOJI = {
-            BOOT: '🚀', META: '🗄️', ROUTE: '🔀', DB: '💾', HANDLER: '🎮',
+            BOOT: '🚀', META: '🗄', ROUTE: '🔀', DB: '💾', HANDLER: '🎮',
             SOCK: '🔌', TEA: '🍵', IO: '🌐', REG: '📝', LOAD: '📦',
-            CB: '⚡', NTFY: '🔔', RESOURCE: '📁', HERO_ATTR: '⚔️',
+            CB: '⚡', NTFY: '🔔', RESOURCE: '📁', HERO_ATTR: '⚔',
             TASK: '📋', USER: '👤', CHAT: '💬', FRIEND: '🤝',
-            HERO_IMG: '🖼️', DUNGEON: '🏰', HERO: '🦸', ITEM: '💎',
-            GUILD: '🏯', SUMMON: '🎰', ARENA: '🏟️', NOTIFY: '🔔',
-            INSPECT: '🔍', EMIT: '📤'
+            HERO_IMG: '🖼', DUNGEON: '🏰', HERO: '🦸', ITEM: '💎',
+            GUILD: '🏯', SUMMON: '🎰', ARENA: '🏟', NOTIFY: '🔔',
+            INSPECT: '🔍', EMIT: '📤',
+            ENTERGAME: '🎮', GUILD_RECOVERY: '🏯',
+            NORMALIZE: '🔧', REPAIR: '🔧',
+            CHECKIN: '📅', HANGUP: '⏳',
+            BROADCAST: '📢', BULLETIN: '📢',
+            TIMESINFO: '⏱', DUNGEON_FIX: '🏰',
+            ADMIN: '🛡'
         };
         function _ctxEmoji(ctx) { return CTX_EMOJI[(ctx || '').toUpperCase()] || '⚪'; }
 
         // ═══════════════════════════════════════════════════
-        //  emit — format konsisten dengan login-server
+        //  emit — flat, consistent with login-server
         // ═══════════════════════════════════════════════════
 
         function emit(level, context, message) {
@@ -222,7 +228,7 @@
             counts[level]++;
             var em = _ctxEmoji(context);
             var color = COLORS[level] || '#78909C';
-            var pad = ((context || '???').toUpperCase() + '          ').slice(0, 10);
+            var pad = ((context || '???').toUpperCase() + '                ').slice(0, 16);
             console.log(
                 '%c' + em + ' ' + ts() + ' %c' + SERVER_TAG + ' %c' + pad + '▸ ' + message,
                 TS_COLOR,
@@ -232,7 +238,7 @@
         }
 
         // ═══════════════════════════════════════════════════
-        //  Detail lines — ├ └ style (kayak login-server)
+        //  Detail lines
         // ═══════════════════════════════════════════════════
 
         function safe(v) {
@@ -255,17 +261,12 @@
         }
 
         function detailLine(connector, emoji, key, value) {
-            if (!shouldLog('DEBUG')) return;
+            if (!shouldLog('INFO')) return;
             console.log('%c  ' + connector + ' ' + emoji + ' ' + key + ' : ' + value, DETAIL_CLR);
         }
 
-        function sectionHeader(title) {
-            if (!shouldLog('INFO')) return;
-            console.log('%c  ├── ' + title + ' ' + '─'.repeat(Math.max(1, 40 - title.length)), 'color:#004D40;opacity:0.6;font-weight:bold;');
-        }
-
         // ═══════════════════════════════════════════════════
-        //  Notify system — tidak mutasi objek caller
+        //  Notify system
         // ═══════════════════════════════════════════════════
 
         function buildNotifyEnvelope(payload) {
@@ -328,88 +329,39 @@
         }
 
         // ═══════════════════════════════════════════════════
-        //  handlerResult — dispatch output
+        //  handlerResult — 1 line success, 2+ lines failure
         // ═══════════════════════════════════════════════════
 
         function handlerResult(opts) {
             var route = opts.route || '???';
-            var request = opts.request || {};
             var envelope = opts.envelope || {};
             var ms = opts.ms || 0;
             var issues = opts.inspect || [];
             var isSuccess = (envelope.ret === 0);
 
-            var parsedData = null;
-            var parseError = false;
-            try {
-                if (typeof envelope.data === 'string' && envelope.data.length > 0) parsedData = JSON.parse(envelope.data);
-                else if (envelope.data && typeof envelope.data === 'object') parsedData = envelope.data;
-            } catch (e) { parseError = true; }
-
             var fieldCount = 0;
-            if (parsedData && typeof parsedData === 'object' && !Array.isArray(parsedData)) {
-                for (var k in parsedData) { if (parsedData.hasOwnProperty(k)) fieldCount++; }
-            }
-
-            // Title line
-            var tColor = isSuccess ? '#66BB6A' : '#EF5350';
-            var statusIcon = isSuccess ? '✅' : '❌';
-            console.log('%c' + statusIcon + ' ' + route + '  %c(' + ms + 'ms)',
-                'color:' + tColor + ';font-weight:bold;font-size:13px;padding:2px 0;',
-                'color:#78909C;font-size:11px;');
-
-            // Summary detail lines
-            detailLine('├', '⏱', 'speed', ms + 'ms');
-            detailLine('├', '📊', 'fields', String(fieldCount));
-            detailLine('└', '📋', 'result', 'ret=' + envelope.ret);
-
-            // Request — groupCollapsed
-            if (typeof console.groupCollapsed === 'function') {
-                console.groupCollapsed('%c📥 Request', 'color:#42A5F5;font-weight:bold;');
-            }
-            if (request && typeof request === 'object') {
-                var keys = Object.keys(request);
-                for (var i = 0; i < keys.length; i++) {
-                    var conn = (i < keys.length - 1) ? '├' : '└';
-                    detailLine(conn, '📋', keys[i], _safeValue(request[keys[i]], 80));
+            try {
+                var rawData = envelope.data;
+                if (envelope.compress && typeof LZString !== 'undefined' && typeof LZString.decompressFromUTF16 === 'function') {
+                    rawData = LZString.decompressFromUTF16(rawData);
                 }
+                var parsed = null;
+                if (typeof rawData === 'string' && rawData.length > 0) parsed = JSON.parse(rawData);
+                else if (rawData && typeof rawData === 'object') parsed = rawData;
+                if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+                    for (var k in parsed) { if (parsed.hasOwnProperty(k)) fieldCount++; }
+                }
+            } catch (e) {}
+
+            if (isSuccess && issues.length === 0) {
+                emit('INFO', route, '✅ ' + ms + 'ms  ' + fieldCount + ' fields');
             } else {
-                console.log('%c  (no request data)', 'color:#90A4AE;');
-            }
-            if (typeof console.groupEnd === 'function') console.groupEnd();
-
-            // Response — groupCollapsed
-            if (typeof console.groupCollapsed === 'function') {
-                console.groupCollapsed('%c📤 Response', 'color:#66BB6A;font-weight:bold;');
-            }
-            if (parseError) {
-                console.log('%c  ⚠ Failed to parse response data', 'color:#FFA726;font-weight:bold;');
-            } else if (!parsedData) {
-                console.log('%c  ⚠ Response data is null/empty', 'color:#FFA726;font-weight:bold;');
-            } else {
-                var rKeys = Object.keys(parsedData);
-                for (var i = 0; i < rKeys.length; i++) {
-                    var conn = (i < rKeys.length - 1) ? '├' : '└';
-                    detailLine(conn, '📊', rKeys[i], _safeValue(parsedData[rKeys[i]], 80));
-                }
-            }
-            if (typeof console.groupEnd === 'function') console.groupEnd();
-
-            // Analysis — collapsed, only if issues exist
-            if (issues.length > 0) {
-                if (typeof console.groupCollapsed === 'function') {
-                    console.groupCollapsed('%c🔍 Analysis', 'color:#FFA726;font-weight:bold;');
-                }
+                emit(isSuccess ? 'WARN' : 'ERROR', route, '❌ ' + ms + 'ms  ret=' + envelope.ret + (fieldCount > 0 ? '  ' + fieldCount + ' fields' : ''));
                 for (var i = 0; i < issues.length; i++) {
                     var iss = issues[i];
-                    var iClr = iss.type === 'ERROR' ? '#EF5350' : '#FFA726';
-                    console.log('%c  ' + (iss.type === 'ERROR' ? '❌' : '⚠') + ' ' + iss.msg,
-                        'color:' + iClr + ';font-weight:bold;');
+                    emit(iss.type === 'ERROR' ? 'ERROR' : 'WARN', route, (iss.type === 'ERROR' ? '❌' : '⚠') + ' ' + iss.msg);
                 }
-                if (typeof console.groupEnd === 'function') console.groupEnd();
             }
-
-            console.log('%c━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'color:#37474F;');
         }
 
         // ═══════════════════════════════════════════════════
@@ -424,7 +376,7 @@
             detail: function (key, value) { detailLine('└', '📋', key, safe(value)); },
             details: function (context, pairs) {
                 if (Array.isArray(context) && !pairs) pairs = context;
-                if (!shouldLog('DEBUG') || !Array.isArray(pairs)) return;
+                if (!shouldLog('INFO') || !Array.isArray(pairs)) return;
                 for (var i = 0; i < pairs.length; i++) {
                     var conn = (i < pairs.length - 1) ? '├' : '└';
                     detailLine(conn, '📋', pairs[i][0], safe(pairs[i][1]));
@@ -445,22 +397,7 @@
                     console.log('%c  ' + conn + ' ' + pairs[i][0] + ' : ' + safe(pairs[i][1]), DETAIL_CLR);
                 }
             },
-            openBox: function (title) { if (!shouldLog('INFO')) return; console.log('%c  ├── %c' + title, 'color:#546E7A;', 'color:#FF8F00;font-weight:bold;'); },
-            boxLine: function (text) { if (!shouldLog('INFO')) return; console.log('%c  │  %c' + text, 'color:#546E7A;', 'color:#B0BEC5;'); },
-            boxLineOk: function (text) { if (!shouldLog('INFO')) return; console.log('%c  │  %c✓ %c' + text, 'color:#546E7A;', 'color:#66BB6A;font-weight:bold;', 'color:#66BB6A;font-weight:bold;'); },
-            boxLineFail: function (text) { if (!shouldLog('INFO')) return; console.log('%c  │  %c✗ %c' + text, 'color:#546E7A;', 'color:#EF5350;font-weight:bold;', 'color:#EF5350;font-weight:bold;'); },
-            boxLineWarn: function (text) { if (!shouldLog('INFO')) return; console.log('%c  │  %c⚠ %c' + text, 'color:#546E7A;', 'color:#FFA726;font-weight:bold;', 'color:#FFA726;font-weight:bold;'); },
-            boxDetail: function (key, value) {
-                if (!shouldLog('INFO')) return;
-                var em = CTX_EMOJI[key] || CTX_EMOJI[value] || '📋';
-                detailLine('├', em, key, safe(value));
-            },
-            closeBox: function (suffix) { if (!shouldLog('INFO')) return; if (suffix) { console.log('%c  └── %c' + suffix, 'color:#546E7A;', 'color:#78909C;'); } else { console.log('%c  └' + '─'.repeat(44), 'color:#546E7A;'); } },
             arrow: function (text) { if (!shouldLog('INFO')) return; console.log('%c  ▸ %c' + text, 'color:#4DB6AC;', 'color:#B0BEC5;'); },
-            sep: function (text) { if (!shouldLog('INFO')) return; if (text) { sectionHeader(text); } else { console.log('%c  ' + '─'.repeat(48), 'color:#37474F;'); } },
-            ok: function (text) { if (!shouldLog('INFO')) return; console.log('%c  ✓ %c' + text, 'color:#66BB6A;font-weight:bold;', 'color:#66BB6A;'); },
-            fail: function (text) { if (!shouldLog('INFO')) return; console.log('%c  ✗ %c' + text, 'color:#EF5350;font-weight:bold;', 'color:#EF5350;'); },
-            sectionHeader: sectionHeader,
             notify: function (action, payload) {
                 var pushed = pushNotify(action, payload);
                 if (pushed) { counts.NOTIFY++; emit('INFO', 'NTFY', action); }
@@ -482,6 +419,7 @@
             resetCounts: function () { counts.DEBUG = 0; counts.INFO = 0; counts.WARN = 0; counts.ERROR = 0; counts.NOTIFY = 0; }
         };
     })();
+
 
     // ═══════════════════════════════════════════════════════
     //  EXPOSE LOGGER
@@ -810,46 +748,55 @@
 
     var _loginTokens = {};
 
-    function preloadLoginTokens() {
-        try {
-            var req = indexedDB.open('last_game_server');
-            req.onupgradeneeded = function () {};
-            req.onsuccess = function (e) {
-                var db = e.target.result;
-                try {
-                    var tx = db.transaction('loginInfo', 'readonly');
-                    var store = tx.objectStore('loginInfo');
-                    var cursor = store.openCursor();
-                    cursor.onsuccess = function (ev) {
-                        var c = ev.target.result;
-                        if (c) {
-                            if (c.value && c.value.loginToken && c.value.userId !== '__config__') {
-                                _loginTokens[c.value.userId] = c.value.loginToken;
-                            }
-                            c.continue();
-                        } else {
-                            db.close();
-                        }
-                    };
-                    cursor.onerror = function () { db.close(); };
-                } catch (ex) { db.close(); }
-            };
-            req.onerror = function () {};
-        } catch (ex) {}
-    }
-
-    preloadLoginTokens();
+    // _loginTokens: in-memory cache, populated on successful IDB reads
+    // (no preload — token is written by login-server AFTER this script loads)
 
     window.MainServerDB = {
         _get: function (key) { return MainServer.db.get(key); },
         _set: function (key, data) { return MainServer.db.save(key, data); },
         nowSeconds: function () { return Math.floor(Date.now() / 1000); },
-        validateLoginToken: function (userId) {
-            var token = _loginTokens[userId];
-            if (token) {
-                return { valid: true, token: { loginToken: token, userId: userId } };
+        /**
+         * validateLoginToken(userId, callback) — ASYNC
+         * Reads directly from IndexedDB at call time (not startup cache).
+         * Login-server writes token to last_game_server/loginInfo AFTER user logs in,
+         * so a startup preload would always miss it on fresh browsers.
+         */
+        validateLoginToken: function (userId, callback) {
+            // Cache hit → instant
+            if (_loginTokens[userId]) {
+                callback({ valid: true, token: { loginToken: _loginTokens[userId], userId: userId } });
+                return;
             }
-            return { valid: false, reason: 'token_not_found' };
+            // Read from IndexedDB (where login-server SaveHistory writes)
+            try {
+                var req = indexedDB.open('last_game_server');
+                req.onupgradeneeded = function () {};
+                req.onsuccess = function (e) {
+                    var idb = e.target.result;
+                    try {
+                        var tx = idb.transaction('loginInfo', 'readonly');
+                        var store = tx.objectStore('loginInfo');
+                        var cursor = store.openCursor();
+                        cursor.onsuccess = function (ev) {
+                            var c = ev.target.result;
+                            if (c) {
+                                if (c.value && c.value.userId === userId && c.value.loginToken) {
+                                    _loginTokens[userId] = c.value.loginToken;
+                                    idb.close();
+                                    callback({ valid: true, token: { loginToken: c.value.loginToken, userId: userId } });
+                                    return;
+                                }
+                                c.continue();
+                            } else {
+                                idb.close();
+                                callback({ valid: false, reason: 'token_not_found' });
+                            }
+                        };
+                        cursor.onerror = function () { idb.close(); callback({ valid: false, reason: 'db_read_error' }); };
+                    } catch (ex) { idb.close(); callback({ valid: false, reason: 'db_exception' }); }
+                };
+                req.onerror = function () { callback({ valid: false, reason: 'db_open_error' }); };
+            } catch (ex) { callback({ valid: false, reason: 'exception' }); }
         }
     };
 
@@ -937,7 +884,7 @@
             executeHandler(key, handler, request, originalCallback);
         } else {
             _stats.lazy++;
-            log.arrow('loading ' + type + '/' + action + '.js');
+            log.info('LOAD', type + '/' + action);
             MainServer.loadHandlerScript(type, action, function () {
                 var h = MainServer.handlers[key];
                 if (typeof h === 'function') {
@@ -980,8 +927,7 @@
                     catch (cbErr) {
                         log.error('CB', 'Route: ' + key + ' — ' + (cbErr.name || 'Error') + ': ' + cbErr.message);
                         if (cbErr.stack) console.error(cbErr.stack);
-                        log.boxLineFail('callback error: ' + cbErr.message);
-                        log.closeBox('');
+                        
                     }
                 }
             });
@@ -1029,56 +975,49 @@
         var self = this;
         var delay = MainServer.randomDelay();
 
-        log.openBox('SOCKET #' + _sockCounter);
-        log.boxLine('connecting...');
+        log.info('SOCK', '#' + _sockCounter + ' connecting...');
 
         setTimeout(function () {
-            if (self.disconnected) { log.boxLineWarn('disconnected before connect'); log.closeBox(''); return; }
+            if (self.disconnected) { log.warn('SOCK', '#' + _sockCounter + ' disconnected before connect'); return; }
             self.connected = true;
             self._fire('connect');
-            log.boxLineOk('connected  (' + delay + 'ms)');
+            log.info('SOCK', '#' + _sockCounter + ' connected (' + delay + 'ms)');
 
             if (MainServer.config.verifyEnable) {
-                log.boxLine('TEA verify...');
                 setTimeout(function () {
-                    if (self.disconnected || !self.connected) { log.boxLineWarn('socket gone before verify'); log.closeBox(''); return; }
+                    if (self.disconnected || !self.connected) { log.warn('SOCK', '#' + _sockCounter + ' gone before verify'); return; }
                     self._startVerify();
                 }, 50);
-            } else { log.closeBox(''); }
+            }
         }, delay);
     }
 
     MainSocket.prototype._startVerify = function () {
         var challenge = MainServer.generateChallenge();
         this._challenge = challenge;
-        log.boxDetail('challenge', challenge);
+        log.detail('challenge', challenge);
         this._fire('verify', challenge);
     };
 
     MainSocket.prototype._verifyResponse = function (encrypted, callback) {
         if (!this._challenge) {
-            log.boxLineFail('no challenge stored');
-            log.closeBox('');
+            log.warn('TEA', '#' + _sockCounter + ' no challenge stored');
             if (typeof callback === 'function') callback({ ret: 1 });
             return;
         }
         try {
             var tea = new _TEA();
             var decrypted = tea.decrypt(encrypted, MainServer.config.teaKey);
-            log.boxDetail('match', String(decrypted === this._challenge));
             if (decrypted === this._challenge) {
                 this._verified = true;
-                log.boxLineOk('verified');
-                log.closeBox('');
+                log.info('TEA', '#' + _sockCounter + ' verified');
                 if (typeof callback === 'function') callback({ ret: 0 });
             } else {
-                log.boxLineFail('mismatch');
-                log.closeBox('');
+                log.warn('TEA', '#' + _sockCounter + ' verify mismatch');
                 if (typeof callback === 'function') callback({ ret: 1 });
             }
         } catch (err) {
-            log.boxLineFail('decrypt error: ' + err.message);
-            log.closeBox('');
+            log.error('TEA', '#' + _sockCounter + ' decrypt error: ' + err.message);
             if (typeof callback === 'function') callback({ ret: 1 });
         }
     };
@@ -1102,15 +1041,14 @@
         if (event === 'verify' && !this._verified) { this._verifyResponse(data, callback); return; }
         if (event === 'handler.process') {
             if (!this._verified && MainServer.config.verifyEnable) {
-                log.boxLineFail('handler.process BEFORE verify — rejected');
-                log.closeBox('');
+                log.warn('SOCK', 'handler.process before verify — rejected');
                 return;
             }
             var self = this;
             var delay = MainServer.randomDelay();
             setTimeout(function () {
-                if (!self.connected) { log.boxLineFail('socket disconnected'); log.closeBox(''); return; }
-                if (!data || typeof data !== 'object') { log.boxLineFail('invalid data'); log.closeBox(''); return; }
+                if (!self.connected) { log.warn('SOCK', 'socket disconnected before handler'); return; }
+                if (!data || typeof data !== 'object') { log.warn('SOCK', 'invalid data'); return; }
                 MainServer.currentSocket = self;
                 dispatch(data, function (envelope) {
                     var route = data.type + '/' + data.action;
@@ -1120,8 +1058,7 @@
                         catch (cbErr) {
                             log.error('CB', 'Emit route: ' + route + ' — ' + (cbErr.name || 'Error') + ': ' + cbErr.message);
                             if (cbErr.stack) console.error(cbErr.stack);
-                            log.boxLineFail('callback error: ' + cbErr.message);
-                            log.closeBox('');
+                            
                         }
                     }
                 });
@@ -1251,18 +1188,16 @@
         window.io.connect = function (url, options) {
             var serverType = getServerType(url);
             if (serverType === 'main') {
-                log.arrow('routing → MAIN SERVER');
-                log.boxDetail('url', url);
+                log.info('IO', 'routing → MAIN SERVER  url: ' + url);
                 return new MainSocket();
             }
             if (serverType === 'chat' || serverType === 'dungeon') {
-                log.arrow('routing → ' + serverType.toUpperCase() + ' SERVER (dummy socket)');
-                log.boxDetail('url', url);
+                log.info('IO', 'routing → ' + serverType.toUpperCase() + ' SERVER (dummy)  url: ' + url);
                 return new DummySocket();
             }
             return originalConnect.call(window.io, url, options);
         };
-        log.ok('io.connect router installed (main+chat+dungeon)');
+        log.info('IO', 'router installed (main+chat+dungeon)');
         return true;
     }
 
@@ -1288,10 +1223,10 @@
             if (++pollCount > 300) {
                 clearInterval(pollTimer);
                 if (_observer) { _observer.disconnect(); _observer = null; }
-                log.fail('window.io NOT found after 30s');
+                log.error('IO', 'window.io NOT found after 30s');
                 return;
             }
-            if (pollCount % 50 === 0) log.boxLine('waiting for io... (' + (pollCount * 100) + 'ms)');
+            if (pollCount % 50 === 0) log.debug('IO', 'waiting for io... (' + (pollCount * 100) + 'ms)');
             if (installSocketRouter()) {
                 clearInterval(pollTimer);
                 if (_observer) { _observer.disconnect(); _observer = null; }
@@ -1313,21 +1248,17 @@
             }, 60000);
         }
 
-        log.sep('READY');
-        log.boxDetail('port', MainServer.config.mainServerUrl);
-        log.boxDetail('chat', MainServer.config.chatServerUrl + ' (dummy socket)');
-        log.boxDetail('dungeon', MainServer.config.dungeonServerUrl + ' (dummy socket)');
-        log.boxDetail('tea', MainServer.config.verifyEnable ? 'ON (key: ' + MainServer.config.teaKey + ', self-contained)' : 'OFF');
-        log.boxDetail('serverTime', 'Date.now() (UTC ms perangkat = server UTC ms)');
-        log.boxDetail('server0Time', SERVER0_TIME + ' (formula: 60*(-420)*1000 → UTC+7 getTimezoneOffset format)');
-        log.boxDetail('serverTZ', 'UTC+' + SERVER_TZ_HOURS + ' (= perangkat)');
-        log.boxDetail('openDate', new Date(SERVER_OPEN_DATE).toISOString() + ' (days: ' + MainServer.getDaysSinceOpen() + ')');
-        log.boxDetail('resetHour', RESET_HOUR + ':00 (server local time)');
-        log.boxDetail('nextReset', new Date(MainServer.getNextResetTime()).toLocaleTimeString());
-        log.boxDetail('routing', '2-level (type/action)');
-        log.boxDetail('handlers', '0 registered (lazy load)');
-        log.boxDetail('notify', 'via MainServer.log.notify()');
-        log.boxDetail('logLevel', log.getLevel());
+        log.info('BOOT', 'Ready');
+        log.details([
+            ['port', MainServer.config.mainServerUrl],
+            ['chat', MainServer.config.chatServerUrl + ' (dummy)'],
+            ['dungeon', MainServer.config.dungeonServerUrl + ' (dummy)'],
+            ['tea', MainServer.config.verifyEnable ? 'ON' : 'OFF'],
+            ['openDate', new Date(SERVER_OPEN_DATE).toISOString().slice(0, 10) + ' (day ' + MainServer.getDaysSinceOpen() + ')'],
+            ['resetHour', RESET_HOUR + ':00'],
+            ['routing', 'type/action  handlers: 0 (lazy)'],
+            ['logLevel', log.getLevel()]
+        ]);
     }
 
     init();

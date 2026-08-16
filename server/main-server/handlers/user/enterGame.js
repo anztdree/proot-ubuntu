@@ -367,7 +367,7 @@
             _onlineBulletins: []    // server-wide online bulletins
         };
         db._set(SERVER_META_KEY, meta);
-        log.info('META', 'Server metadata initialized — serverOpenDate: ' + new Date(meta._serverOpenDate).toISOString());
+        log.debug('META', 'Server metadata initialized — serverOpenDate: ' + new Date(meta._serverOpenDate).toISOString());
         return meta;
     }
 
@@ -571,12 +571,12 @@
         // Cek apakah user punya data guild di savedData
         var userGuildData = savedData.guild;
         if (!userGuildData || !userGuildData._guildId) {
-            log.info('GUILD_RECOVERY', 'User not in any guild — skipping recovery');
+            log.debug('GUILD_RECOVERY', 'User not in any guild — skipping recovery');
             return; // User tidak ada di guild, biarkan default kosong
         }
 
         var guildId = userGuildData._guildId;
-        log.info('GUILD_RECOVERY', '🔍 User IS in guild: ' + guildId);
+        log.debug('GUILD_RECOVERY', '🔍 User IS in guild: ' + guildId);
         log.details('userGuildData', [
             ['_guildId', guildId],
             ['_isCaptain', userGuildData._isCaptain ? 'YES' : 'NO'],
@@ -590,7 +590,7 @@
 
         if (guildList && guildList[guildId]) {
             guildInfo = guildList[guildId];
-            log.info('GUILD_RECOVERY', '✅ Found guild in guild:list: ' + (guildInfo._name || '?'));
+            log.debug('GUILD_RECOVERY', '✅ Found guild in guild:list: ' + (guildInfo._name || '?'));
         } else {
             log.warn('GUILD_RECOVERY', '⚠️ Guild NOT found in guild:list: ' + guildId);
             // Tetap lanjutkan pakai data dari userGuildData saja
@@ -680,19 +680,19 @@
             // 📖 L114795: e.guildName && setTeamName(e.guildName)
             if (guildInfo._name) {
                 savedData.guildName = guildInfo._name;
-                log.info('GUILD_RECOVERY', '✅ guildName = ' + guildInfo._name);
+                log.debug('GUILD_RECOVERY', '✅ guildName = ' + guildInfo._name);
             }
 
             // 📖 L114937: void 0 != e.guildLevel && setMyTeamLevel(e.guildLevel)
             if (typeof guildInfo._level !== 'undefined' && guildInfo._level !== null) {
                 savedData.guildLevel = guildInfo._level;
-                log.info('GUILD_RECOVERY', '✅ guildLevel = ' + guildInfo._level);
+                log.debug('GUILD_RECOVERY', '✅ guildLevel = ' + guildInfo._level);
             }
 
             // Active points (dari guildInfo atau default)
             if (guildInfo._activePoints || guildInfo._activePoint) {
                 savedData.guildActivePoints = guildInfo._activePoints || guildInfo._activePoint;
-                log.info('GUILD_RECOVERY', '✅ guildActivePoints set');
+                log.debug('GUILD_RECOVERY', '✅ guildActivePoints set');
             }
 
             // Treasure match ret (jika ada)
@@ -703,7 +703,7 @@
             // Fallback ke userGuildData kalau guildInfo tidak ada di DB
             if (userGuildData._guildName) {
                 savedData.guildName = userGuildData._guildName;
-                log.info('GUILD_RECOVERY', '✅ guildName (from userData) = ' + userGuildData._guildName);
+                log.debug('GUILD_RECOVERY', '✅ guildName (from userData) = ' + userGuildData._guildName);
             }
         }
 
@@ -770,13 +770,13 @@
 
         if (!needRepair) return;
 
-        log.info('REPAIR', 'onlineGift._nextTime CORRUPTED — ' + repairReason + ' (old=' + ol._nextTime + ')');
+        log.warn('REPAIR', 'onlineGift._nextTime CORRUPTED — ' + repairReason + ' (old=' + ol._nextTime + ')');
 
         // ── Compute correct _nextTime ──
         var bonusTable = getOnlineBonus();
         if (!bonusTable) {
             ol._nextTime = nowMs + (300 * 1000);
-            log.info('REPAIR', 'onlineGift._nextTime: config not found, default 300s → ' + ol._nextTime);
+            log.debug('REPAIR', 'onlineGift._nextTime: config not found, default 300s → ' + ol._nextTime);
             return;
         }
 
@@ -785,7 +785,7 @@
             if (tier1) {
                 var tierTime = Number(tier1.time) || 300;
                 ol._nextTime = nowMs + (tierTime * 1000);
-                log.info('REPAIR', 'onlineGift._nextTime: curId=0 → now+' + tierTime + 's = ' + ol._nextTime);
+                log.debug('REPAIR', 'onlineGift._nextTime: curId=0 → now+' + tierTime + 's = ' + ol._nextTime);
             }
         } else {
             var curTier = bonusTable[String(curId)];
@@ -794,12 +794,12 @@
                 if (nextTier) {
                     var nextTimeSec = Number(nextTier.time) || 300;
                     ol._nextTime = nowMs + (nextTimeSec * 1000);
-                    log.info('REPAIR', 'onlineGift._nextTime: curId=' + curId + ' nextID=' +
+                    log.debug('REPAIR', 'onlineGift._nextTime: curId=' + curId + ' nextID=' +
                         curTier.nextID + ' → now+' + nextTimeSec + 's = ' + ol._nextTime);
                 }
             } else {
                 ol._nextTime = 0;
-                log.info('REPAIR', 'onlineGift._nextTime: curId=' + curId + ' is last tier, keeping 0');
+                log.debug('REPAIR', 'onlineGift._nextTime: curId=' + curId + ' is last tier, keeping 0');
             }
         }
     }
@@ -873,7 +873,7 @@
         }
 
         if (fixCount > 0) {
-            log.info('NORMALIZE', 'Fixed ' + fixCount + ' missing nested field(s) in response data');
+            log.warn('NORMALIZE', 'Fixed ' + fixCount + ' missing nested field(s) in response data');
         }
     }
 
@@ -1041,14 +1041,12 @@
             }
         }
 
-        // Log results
+        // Log problems only — silent when all OK
         if (warnings.length > 0) {
-            log.error('AUDIT', '❌ ' + groupLabel + ' — ' + warnings.length + ' PROBLEM(S) FOUND:');
+            log.warn('NORMALIZE', groupLabel + ' — ' + warnings.length + ' problem(s)');
             for (var w = 0; w < warnings.length; w++) {
-                log.warn('AUDIT', warnings[w]);
+                log.warn('NORMALIZE', warnings[w]);
             }
-        } else {
-            log.info('AUDIT', '✅ ' + groupLabel + ' — all ' + fieldDefs.length + ' fields OK [' + okList.join(', ') + ']');
         }
     }
 
@@ -1393,7 +1391,7 @@
             ]
         };
 
-        log.info('ENTERGAME', 'New user starting items — Gold: ' + (startGold + idleFirstGold) +
+        log.debug('ENTERGAME', 'New user starting items — Gold: ' + (startGold + idleFirstGold) +
             ', EXP: ' + (startUserExp + idleFirstExp) +
             ', ExpCapsule: ' + idleFirstExpCapsule +
             ', Diamond: ' + startDiamond);
@@ -2014,7 +2012,7 @@
             }
 
             savedData.checkin._lastActiveDate = nowMs;
-            log.info('HANDLER', 'CHECKIN — day unlocked: ' + todayDay);
+            log.debug('HANDLER', 'CHECKIN — day unlocked: ' + todayDay);
         }
     }
 
@@ -2357,572 +2355,452 @@
                 return;
             }
 
-            // ═══ VALIDASI 3: loginToken — CROSS-SERVER ═══
-            // Login-server SaveHistory → token tersimpan di IndexedDB:
-            //   DB: last_game_server, store: loginInfo (field: loginToken)
-            //   Client main.min.js: var storageKeyServer="last_game_server"
-            //   validateLoginToken (index.js) baca dari IndexedDB ini
+            // ═══ VALIDASI 3: loginToken — CROSS-SERVER (async) ═══
+            // Baca langsung dari IndexedDB saat dipanggil (bukan cache startup).
+            // Login-server menulis token SETELAH user login — cache startup selalu kosong.
 
-            var tokenCheck = db.validateLoginToken(userId);
-            if (!tokenCheck.valid) {
-                log.error('HANDLER', 'loginToken validation FAILED');
-                log.importantDetails('error', [
-                    ['userId', userId],
-                    ['reason', tokenCheck.reason],
-                    ['hint', 'Login-server SaveHistory harus simpan token ke IndexedDB last_game_server/loginInfo']
-                ]);
-                callback(
-                    buildError(RET_CODES.TOKEN_INVALID, 'Token validation failed: ' + tokenCheck.reason),
-                    RET_CODES.TOKEN_INVALID
-                );
-                return;
-            }
+            db.validateLoginToken(userId, function (tokenCheck) {
+                try {
+                    if (!tokenCheck.valid) {
+                        log.warn('HANDLER', 'loginToken validation FAILED — ' + tokenCheck.reason);
+                        callback(
+                            buildError(RET_CODES.TOKEN_INVALID, 'Token validation failed: ' + tokenCheck.reason),
+                            RET_CODES.TOKEN_INVALID
+                        );
+                        return;
+                    }
 
-            // ═══ VALIDASI 4: token value match ═══
-            if (loginToken && tokenCheck.token && tokenCheck.token.loginToken) {
-                if (tokenCheck.token.loginToken !== loginToken) {
-                    log.error('HANDLER', 'loginToken VALUE MISMATCH');
-                    log.importantDetails('error', [
-                        ['userId', userId],
-                        ['stored', (tokenCheck.token.loginToken || '').substring(0, 16) + '...'],
-                        ['received', loginToken.substring(0, 16) + '...']
+                    // ═══ VALIDASI 4: token value match ═══
+                    if (loginToken && tokenCheck.token && tokenCheck.token.loginToken) {
+                        if (tokenCheck.token.loginToken !== loginToken) {
+                            log.error('HANDLER', 'loginToken VALUE MISMATCH');
+                            log.details('error', [
+                                ['userId', userId],
+                                ['stored', (tokenCheck.token.loginToken || '').substring(0, 16) + '...'],
+                                ['received', loginToken.substring(0, 16) + '...']
+                            ]);
+                            callback(buildError(RET_CODES.TOKEN_MISMATCH, 'Token value tidak cocok'), RET_CODES.TOKEN_MISMATCH);
+                            return;
+                        }
+                    }
+
+                    log.info('HANDLER', 'loginToken validated');
+
+                    // ═══ VALIDASI 5: gameVersion (soft check) ═══
+                    // Client L114430: sends gameVersion via ToolCommon.getClientVer()
+                    // Client TIDAK punya version comparison — purely server-side check.
+                    if (gameVersion) {
+                        log.details('version', [
+                            ['clientGameVersion', gameVersion],
+                            ['serverVersion', meta._serverVersion]
+                        ]);
+                        // TODO: implement version range check when needed:
+                        // if (compareVersion(gameVersion, MIN_VERSION) < 0) {
+                        //     callback(buildError(RET_CODES.VERSION_MISMATCH, ...), RET_CODES.VERSION_MISMATCH);
+                        //     return;
+                        // }
+                    }
+
+                    // ═══ PROSES DATA ═══
+
+                    var storageKey = 'user:' + userId;
+                    var savedData = db._get(storageKey);
+                    var isNewUser = !savedData;
+
+                    if (isNewUser) {
+                        // ── NEW USER: build fresh default data ──
+                        log.info('HANDLER', 'NEW USER — building default data');
+                        savedData = buildNewUserResponse(request);
+                    } else {
+                        // ── RETURNING USER: merge dengan defaults ──
+                        log.info('HANDLER', 'RETURNING USER — merging with defaults');
+
+                        // ═══════════════════════════════════════════════════════
+                        // 🔴 FIX BUG: Kid Goku muncul ulang setelah resolve + re-login
+                        // ═══════════════════════════════════════════════════════
+                        // ROOT CAUSE: deepMerge(saved, defaults) recurse ke
+                        // heros._heros. defaults.heros._heros punya key '0' (kid goku).
+                        // Jika saved.heros._heros tidak punya key '0' (sudah resolve),
+                        // deepMerge line 2286 copy dari defaults → kid goku HIDUP LAGI.
+                        //
+                        // Client L133718: readByData(e.heros) → iterate e._heros[n]
+                        // → SetHeroDataToModel → hero muncul di list.
+                        //
+                        // FIX: Simpan saved.heros._heros sebelum merge, restore
+                        // setelah merge. Defaults hanya untuk schema, BUKAN untuk
+                        // menambahkan hero yang sudah dihapus player.
+                        // ═══════════════════════════════════════════════════════
+                        var savedHeroes = (savedData.heros && savedData.heros._heros)
+                            ? JSON.parse(JSON.stringify(savedData.heros._heros))
+                            : null;
+
+                        var freshDefaults = buildNewUserResponse(request);
+                        savedData = deepMerge(savedData, freshDefaults);
+
+                        // Restore hero list dari saved data (bukan defaults)
+                        if (savedHeroes !== null) {
+                            if (!savedData.heros) savedData.heros = {};
+                            savedData.heros._heros = savedHeroes;
+                            log.debug('HANDLER', 'HERO LIST RESTORED from saved data '
+                                + '(protected ' + Object.keys(savedHeroes).length + ' heroes from defaults merge)');
+                        }
+
+                        savedData.newUser = false;
+
+                        // ── DAILY RESET (6:00 AM boundary) ──
+                        var didReset = checkDailyReset(savedData);
+
+                        // ── TIMESINFO RECOVERY ──
+                        computeTimesInfoRecovery(savedData);
+
+                        // ── HANGUP REWARDS ──
+                        computeHangupRewards(savedData);
+
+                        log.details('merge', [
+                            ['strategy', 'saved WINS, defaults fill missing'],
+                            ['resultFields', String(Object.keys(savedData).length)],
+                            ['dailyReset', didReset ? 'YES' : 'NO'],
+                            ['checkinDay', String(savedData.checkin ? savedData.checkin._maxActiveDay : 0)]
+                        ]);
+                    }
+
+                    // ── 🔴🔴🔴 GUILD DATA RECOVERY (CRITICAL FIX!) 🔴🔴🔴 ──
+                    // ROOT CAUSE: User create guild → data tersimpan di DB.
+                    // Saat relogin, enterGame return userGuild/userGuildPub KOSONG!
+                    // Client terima _guildId: '' → user KELUAR GUILD!
+                    //
+                    // 📖 Client code (main.min.js L114933-114938):
+                    //   e.setTeam(e) {
+                    //     e.userGuild && t.setUserTeamInfoModel(e.userGuild),  ←🔴 HARUS ADA!
+                    //     e.userGuildPub && t.setUserTeamInfoModel(e.userGuildPub),
+                    //     void 0 != e.guildLevel && t.setMyTeamLevel(e.guildLevel),
+                    //   }
+                    // 📖 Client code (main.min.js L114795):
+                    //   e.guildName && TeamInfoManager.getInstance().setTeamName(e.guildName)
+                    recoverGuildDataForEnterGame(savedData, userId);
+
+                    // ── CHECKIN UPDATE — for BOTH new and returning users ──
+                    // BUG FIX: Previously only ran for returning users (inside else block).
+                    // New users had _lastActiveDate = nowMs → checkinUpdate saw same-day → skipped.
+                    // Now: buildDefaultCheckin sets _lastActiveDate = 0 → lastDateStr = '' → always
+                    // different from today → day 1 unlocked on first login.
+                    checkinUpdate(savedData);
+
+                    // ── REPAIR ONLINE GIFT TIMER ──
+                    // CRITICAL FIX: deepMerge mempreserves saved _onlineGift._nextTime = 0
+                    // karena 0 bukan object → deepMerge line 1901: result[key] = sv (saved wins)
+                    // Padahal freshDefaults sudah compute _nextTime = (now + 300) * 1000
+                    // Tanpa repair, timer home screen stuck 0:00 selamanya.
+                    repairOnlineGiftTimer(savedData);
+
+                    // ── NORMALIZE RESPONSE DATA ──
+                    // Fix fields that deepMerge can't reach (nested objects inside saved arrays).
+                    // deepMerge preserves saved objects as-is — inner fields may be missing.
+                    // Client SetEquipDataToModel (L82843) reads _suitItems/_suitAttrs/_equipAttrs
+                    //   with .length and NO guard — undefined = crash.
+                    normalizeResponseData(savedData);
+
+                    // ── FIX: Remove null entries from ALL _items arrays ──
+                    // ROOT CAUSE: Client HeroCostModel.deserialize (L5335:29242) does
+                    //   a.id = n._items[o]._id — crashes if n._items[o] is null.
+                    // deepMerge preserves saved arrays as-is, so corrupted nulls from
+                    // IndexedDB survive into the response.
+                    var nullCleanCount = cleanNullFromItemsArrays(savedData);
+                    if (nullCleanCount > 0) {
+                        log.warn('NORMALIZE', 'Cleaned nulls from ' + nullCleanCount + ' _items array(s)');
+                    }
+
+                    // ── REMOVE: questionnaires & userDownloadReward from response ──
+                    // Returning user: deepMerge "saved WINS" → old savedData may still have
+                    //   these fields → they leak into response → unwanted UI tabs appear.
+                    // Client guards: L77669 e.questionnaires &&, L77652 if(e.userDownloadReward)
+                    // So deleting the fields = client never sees them = tabs never appear.
+                    delete savedData.questionnaires;
+                    delete savedData.userDownloadReward;
+
+                    // ── FIX: Rebuild dungeon._dungeons from _dungeonProgress ──
+                    // ROOT CAUSE:
+                    //   Client L77710-77714: setCounterpart reads e.dungeon._dungeons
+                    //     → for-in → set _curMaxLevel & _lastLevel per type into CounterpartSingleton.
+                    //   Client L161105-161108: getMaxLesson(dungeonType) reads from CounterpartSingleton.
+                    //   Client L63521: if(getMaxLesson(EQUIP) >= selectedLevel) → auto-sweep.
+                    //
+                    //   buildNewUserResponse sets r.dungeon = { _dungeons: {} } (empty, correct for new).
+                    //   checkBattleResult stores progress in savedData._dungeonProgress[type] = { _curMaxLevel, _lastLevel }.
+                    //   deepMerge: savedData.dungeon._dungeons = {} (from defaults, no dungeon key in saved).
+                    //   → Returning user ALWAYS gets _dungeons: {} → getMaxLesson() = 0 → NO AUTO-SWEEP.
+                    //
+                    //   ENERGY dungeon (type 3) is SKIPPED by client L59046:
+                    //     e[n]._type == DUNGEON_TYPE.ENERGY || (...)
+                    //   So we must NOT include type 3 in _dungeons.
+                    //
+                    // FIX: Convert savedData._dungeonProgress → savedData.dungeon._dungeons
+                    //   BEFORE response is sent.
+
+                    (function rebuildDungeonDungeons() {
+                        var dp = savedData._dungeonProgress;
+                        if (!dp || typeof dp !== 'object') return;  // no progress yet (new user or never cleared)
+
+                        // Ensure savedData.dungeon exists (deepMerge may have set it to { _dungeons: {} })
+                        if (!savedData.dungeon) savedData.dungeon = {};
+                        var dungeons = {};
+                        var converted = 0;
+
+                        for (var typeKey in dp) {
+                            var typeNum = Number(typeKey);
+                            if (typeNum === 3) continue;  // ENERGY — skip (client ignores it)
+
+                            var entry = dp[typeKey];
+                            if (!entry || typeof entry !== 'object') continue;
+
+                            // Only include types that have actual progress beyond initial state
+                            var curMax = Number(entry._curMaxLevel) || 0;
+                            var lastLvl = Number(entry._lastLevel) || 0;
+
+                            // Include if player has ever cleared any level (curMax > 1 or lastLvl > 0)
+                            // For safety, include ALL types that have progress entry
+                            dungeons[typeKey] = {
+                                _type: typeNum,
+                                _curMaxLevel: curMax,
+                                _lastLevel: lastLvl
+                            };
+                            converted++;
+                        }
+
+                        if (converted > 0) {
+                            savedData.dungeon._dungeons = dungeons;
+                            log.warn('DUNGEON_FIX', 'Rebuilt _dungeons from _dungeonProgress: ' + converted + ' types');
+                        }
+                    })();
+
+                    // ── FIX: Force arena attack times = 5 ──
+                    // ROOT CAUSE: AllRefreshCount._arenaAttackTimes (client) = 0 → shows "0/5"
+                    //   Client L58000: constructor default = 0
+                    //   Client L58006: initData reads scheduleInfo._arenaAttackTimes
+                    //   Client L157624-157627: getBattleTime() = AllRefreshCount.arenaAttackTimes + "/" + constant[1].arenaAttackTimes
+                    //   Client L63595: battle → AllRefreshCount.arenaAttackTimes-- (IN-MEMORY ONLY, not sent to server)
+                    // WHY 0: deepMerge "saved WINS" → if savedData.scheduleInfo._arenaAttackTimes = 0 (stale),
+                    //   it stays 0. Mock server doesn't track arena battle decrements,
+                    //   so saved value should always be 5, but corrupted/old data may have 0.
+                    // FIX: Force to default 5 for mock server (real server would track decrements).
+                    if (savedData.scheduleInfo) {
+                        savedData.scheduleInfo._arenaAttackTimes = 5;
+                    }
+
+                    // ── FIX: Main task chain completed — clear curMainTask ──
+                    // ROOT CAUSE (Quest 44 / Task 6044 bug):
+                    //   Task 6044 = task terakhir di chain (no nextTaskID).
+                    //   Saat claim: getReward set curMainTask[0]._state = 3 (FINISH).
+                    //   Saat re-login: enterGame return curMainTask = [{ _id:6044, _state:3 }].
+                    //   Client setMianTask → _mainTask = { _id:6044, _state:3 } (non-null).
+                    //   HomeMain.setMainTask() tidak punya handler state=3 → task group
+                    //     tetap visible tapi broken (tidak masuk if COMPLETE/DOING/DEFAULT).
+                    //   Client setMainTaskWithComplete([]) → jika _nextTasks = [] → _mainTask = null.
+                    //     TAPI setMainTaskWithComplete HANYA dipanggil dari getReward response,
+                    //     BUKAN dari enterGame response. enterGame pakai setMianTask → setMianTask
+                    //     TIDAK handle array kosong — Object.keys([]).length = 0 → _mainTask = null.
+                    //
+                    // FIX: Jika curMainTask[0]._state === 3 (FINISH), kirim array kosong [].
+                    //   Client setMianTask([]) → Object.keys([]).length <= 0 → _mainTask = null
+                    //   → HomeMain.setMainTask: if(null == t) → mainTaskGroup.visible = !1
+                    //   → Task HILANG dari home screen. PERMANEN.
+                    //
+                    //   Untuk task lain yang belum FINISH (state=1 DOING atau state=2 COMPLETE),
+                    //   curMainTask tetap dikirim apa adanya — tidak ada perubahan.
+                    //
+                    //   State 2 (COMPLETE) di-preserve karena user mungkin belum claim.
+                    //   State 1 (DOING) di-preserve karena task masih berjalan.
+
+                    if (savedData.curMainTask && Array.isArray(savedData.curMainTask) && savedData.curMainTask.length > 0) {
+                        if (Number(savedData.curMainTask[0]._state) === 3) {
+                            log.debug('HANDLER', 'Main task already FINISH (state=3) — clearing curMainTask to empty array');
+                            savedData.curMainTask = [];
+                        }
+                    }
+
+                    // Update lastLoginTime (selalu, new maupun returning)
+                    if (savedData.user) {
+                        savedData.user._lastLoginTime = db.nowSeconds();
+                    }
+
+                    // ── INJECT BROADCAST & BULLETIN ──
+                    injectBroadcastRecord(savedData);
+                    injectOnlineBulletin(savedData);
+
+                    // ── COMPUTE USER LEVEL for logging ──
+                    var userLevel = computeUserLevel(savedData);
+
+                    // Simpan ke DB (IndexedDB)
+                    db._set(storageKey, savedData);
+
+                    var elapsed = Date.now() - t0;
+
+                    log.info('HANDLER', 'enterGame response ready — ' +
+                        Object.keys(savedData).length + ' top-level fields (' + elapsed + 'ms)');
+                    log.details('response', [
+                        ['newUser', String(isNewUser)],
+                        ['userId', savedData.user ? savedData.user._id : '-'],
+                        ['userLevel', String(userLevel)],
+                        ['heroCount', savedData.heros && savedData.heros._heros ?
+                            String(Object.keys(savedData.heros._heros).length) : '0'],
+                        ['fieldCount', String(Object.keys(savedData).length)],
+                        ['checkinDay', String(savedData.checkin ? savedData.checkin._maxActiveDay : 0)],
+                        ['broadcastCount', String((savedData.broadcastRecord || []).length)],
+                        ['bulletinCount', String((savedData.onlineBulletin || []).length)],
+                        ['elapsed', elapsed + 'ms']
                     ]);
-                    callback(buildError(RET_CODES.TOKEN_MISMATCH, 'Token value tidak cocok'), RET_CODES.TOKEN_MISMATCH);
-                    return;
-                }
-            }
 
-            log.info('HANDLER', 'loginToken validation PASSED');
-
-            // ═══ VALIDASI 5: gameVersion (soft check) ═══
-            // Client L114430: sends gameVersion via ToolCommon.getClientVer()
-            // Client TIDAK punya version comparison — purely server-side check.
-            if (gameVersion) {
-                log.details('version', [
-                    ['clientGameVersion', gameVersion],
-                    ['serverVersion', meta._serverVersion]
-                ]);
-                // TODO: implement version range check when needed:
-                // if (compareVersion(gameVersion, MIN_VERSION) < 0) {
-                //     callback(buildError(RET_CODES.VERSION_MISMATCH, ...), RET_CODES.VERSION_MISMATCH);
-                //     return;
-                // }
-            }
-
-            // ═══ PROSES DATA ═══
-
-            var storageKey = 'user:' + userId;
-            var savedData = db._get(storageKey);
-            var isNewUser = !savedData;
-
-            if (isNewUser) {
-                // ── NEW USER: build fresh default data ──
-                log.info('HANDLER', 'NEW USER — building default data');
-                savedData = buildNewUserResponse(request);
-            } else {
-                // ── RETURNING USER: merge dengan defaults ──
-                log.info('HANDLER', 'RETURNING USER — merging with defaults');
-
-                // ═══════════════════════════════════════════════════════
-                // 🔴 FIX BUG: Kid Goku muncul ulang setelah resolve + re-login
-                // ═══════════════════════════════════════════════════════
-                // ROOT CAUSE: deepMerge(saved, defaults) recurse ke
-                // heros._heros. defaults.heros._heros punya key '0' (kid goku).
-                // Jika saved.heros._heros tidak punya key '0' (sudah resolve),
-                // deepMerge line 2286 copy dari defaults → kid goku HIDUP LAGI.
-                //
-                // Client L133718: readByData(e.heros) → iterate e._heros[n]
-                // → SetHeroDataToModel → hero muncul di list.
-                //
-                // FIX: Simpan saved.heros._heros sebelum merge, restore
-                // setelah merge. Defaults hanya untuk schema, BUKAN untuk
-                // menambahkan hero yang sudah dihapus player.
-                // ═══════════════════════════════════════════════════════
-                var savedHeroes = (savedData.heros && savedData.heros._heros)
-                    ? JSON.parse(JSON.stringify(savedData.heros._heros))
-                    : null;
-
-                var freshDefaults = buildNewUserResponse(request);
-                savedData = deepMerge(savedData, freshDefaults);
-
-                // Restore hero list dari saved data (bukan defaults)
-                if (savedHeroes !== null) {
-                    if (!savedData.heros) savedData.heros = {};
-                    savedData.heros._heros = savedHeroes;
-                    log.info('HANDLER', 'HERO LIST RESTORED from saved data '
-                        + '(protected ' + Object.keys(savedHeroes).length + ' heroes from defaults merge)');
-                }
-
-                savedData.newUser = false;
-
-                // ── DAILY RESET (6:00 AM boundary) ──
-                var didReset = checkDailyReset(savedData);
-
-                // ── TIMESINFO RECOVERY ──
-                computeTimesInfoRecovery(savedData);
-
-                // ── HANGUP REWARDS ──
-                computeHangupRewards(savedData);
-
-                log.details('merge', [
-                    ['strategy', 'saved WINS, defaults fill missing'],
-                    ['resultFields', String(Object.keys(savedData).length)],
-                    ['dailyReset', didReset ? 'YES' : 'NO'],
-                    ['checkinDay', String(savedData.checkin ? savedData.checkin._maxActiveDay : 0)]
-                ]);
-            }
-
-            // ── 🔴🔴🔴 GUILD DATA RECOVERY (CRITICAL FIX!) 🔴🔴🔴 ──
-            // ROOT CAUSE: User create guild → data tersimpan di DB.
-            // Saat relogin, enterGame return userGuild/userGuildPub KOSONG!
-            // Client terima _guildId: '' → user KELUAR GUILD!
-            //
-            // 📖 Client code (main.min.js L114933-114938):
-            //   e.setTeam(e) {
-            //     e.userGuild && t.setUserTeamInfoModel(e.userGuild),  ←🔴 HARUS ADA!
-            //     e.userGuildPub && t.setUserTeamInfoModel(e.userGuildPub),
-            //     void 0 != e.guildLevel && t.setMyTeamLevel(e.guildLevel),
-            //   }
-            // 📖 Client code (main.min.js L114795):
-            //   e.guildName && TeamInfoManager.getInstance().setTeamName(e.guildName)
-            recoverGuildDataForEnterGame(savedData, userId);
-
-            // ── CHECKIN UPDATE — for BOTH new and returning users ──
-            // BUG FIX: Previously only ran for returning users (inside else block).
-            // New users had _lastActiveDate = nowMs → checkinUpdate saw same-day → skipped.
-            // Now: buildDefaultCheckin sets _lastActiveDate = 0 → lastDateStr = '' → always
-            // different from today → day 1 unlocked on first login.
-            checkinUpdate(savedData);
-
-            // ── REPAIR ONLINE GIFT TIMER ──
-            // CRITICAL FIX: deepMerge mempreserves saved _onlineGift._nextTime = 0
-            // karena 0 bukan object → deepMerge line 1901: result[key] = sv (saved wins)
-            // Padahal freshDefaults sudah compute _nextTime = (now + 300) * 1000
-            // Tanpa repair, timer home screen stuck 0:00 selamanya.
-            repairOnlineGiftTimer(savedData);
-
-            // ── NORMALIZE RESPONSE DATA ──
-            // Fix fields that deepMerge can't reach (nested objects inside saved arrays).
-            // deepMerge preserves saved objects as-is — inner fields may be missing.
-            // Client SetEquipDataToModel (L82843) reads _suitItems/_suitAttrs/_equipAttrs
-            //   with .length and NO guard — undefined = crash.
-            normalizeResponseData(savedData);
-
-            // ── FIX: Remove null entries from ALL _items arrays ──
-            // ROOT CAUSE: Client HeroCostModel.deserialize (L5335:29242) does
-            //   a.id = n._items[o]._id — crashes if n._items[o] is null.
-            // deepMerge preserves saved arrays as-is, so corrupted nulls from
-            // IndexedDB survive into the response.
-            var nullCleanCount = cleanNullFromItemsArrays(savedData);
-            if (nullCleanCount > 0) {
-                log.info('NORMALIZE', 'Cleaned nulls from ' + nullCleanCount + ' _items array(s)');
-            }
-
-            // ── REMOVE: questionnaires & userDownloadReward from response ──
-            // Returning user: deepMerge "saved WINS" → old savedData may still have
-            //   these fields → they leak into response → unwanted UI tabs appear.
-            // Client guards: L77669 e.questionnaires &&, L77652 if(e.userDownloadReward)
-            // So deleting the fields = client never sees them = tabs never appear.
-            delete savedData.questionnaires;
-            delete savedData.userDownloadReward;
-
-            // ── FIX: Rebuild dungeon._dungeons from _dungeonProgress ──
-            // ROOT CAUSE:
-            //   Client L77710-77714: setCounterpart reads e.dungeon._dungeons
-            //     → for-in → set _curMaxLevel & _lastLevel per type into CounterpartSingleton.
-            //   Client L161105-161108: getMaxLesson(dungeonType) reads from CounterpartSingleton.
-            //   Client L63521: if(getMaxLesson(EQUIP) >= selectedLevel) → auto-sweep.
-            //
-            //   buildNewUserResponse sets r.dungeon = { _dungeons: {} } (empty, correct for new).
-            //   checkBattleResult stores progress in savedData._dungeonProgress[type] = { _curMaxLevel, _lastLevel }.
-            //   deepMerge: savedData.dungeon._dungeons = {} (from defaults, no dungeon key in saved).
-            //   → Returning user ALWAYS gets _dungeons: {} → getMaxLesson() = 0 → NO AUTO-SWEEP.
-            //
-            //   ENERGY dungeon (type 3) is SKIPPED by client L59046:
-            //     e[n]._type == DUNGEON_TYPE.ENERGY || (...)
-            //   So we must NOT include type 3 in _dungeons.
-            //
-            // FIX: Convert savedData._dungeonProgress → savedData.dungeon._dungeons
-            //   BEFORE response is sent.
-
-            (function rebuildDungeonDungeons() {
-                var dp = savedData._dungeonProgress;
-                if (!dp || typeof dp !== 'object') return;  // no progress yet (new user or never cleared)
-
-                // Ensure savedData.dungeon exists (deepMerge may have set it to { _dungeons: {} })
-                if (!savedData.dungeon) savedData.dungeon = {};
-                var dungeons = {};
-                var converted = 0;
-
-                for (var typeKey in dp) {
-                    var typeNum = Number(typeKey);
-                    if (typeNum === 3) continue;  // ENERGY — skip (client ignores it)
-
-                    var entry = dp[typeKey];
-                    if (!entry || typeof entry !== 'object') continue;
-
-                    // Only include types that have actual progress beyond initial state
-                    var curMax = Number(entry._curMaxLevel) || 0;
-                    var lastLvl = Number(entry._lastLevel) || 0;
-
-                    // Include if player has ever cleared any level (curMax > 1 or lastLvl > 0)
-                    // For safety, include ALL types that have progress entry
-                    dungeons[typeKey] = {
-                        _type: typeNum,
-                        _curMaxLevel: curMax,
-                        _lastLevel: lastLvl
-                    };
-                    converted++;
-                }
-
-                if (converted > 0) {
-                    savedData.dungeon._dungeons = dungeons;
-                    log.info('DUNGEON_FIX', 'Rebuilt _dungeons from _dungeonProgress: ' + converted + ' types');
-                }
-            })();
-
-            // ── FIX: Force arena attack times = 5 ──
-            // ROOT CAUSE: AllRefreshCount._arenaAttackTimes (client) = 0 → shows "0/5"
-            //   Client L58000: constructor default = 0
-            //   Client L58006: initData reads scheduleInfo._arenaAttackTimes
-            //   Client L157624-157627: getBattleTime() = AllRefreshCount.arenaAttackTimes + "/" + constant[1].arenaAttackTimes
-            //   Client L63595: battle → AllRefreshCount.arenaAttackTimes-- (IN-MEMORY ONLY, not sent to server)
-            // WHY 0: deepMerge "saved WINS" → if savedData.scheduleInfo._arenaAttackTimes = 0 (stale),
-            //   it stays 0. Mock server doesn't track arena battle decrements,
-            //   so saved value should always be 5, but corrupted/old data may have 0.
-            // FIX: Force to default 5 for mock server (real server would track decrements).
-            if (savedData.scheduleInfo) {
-                savedData.scheduleInfo._arenaAttackTimes = 5;
-            }
-
-            // ── FIX: Main task chain completed — clear curMainTask ──
-            // ROOT CAUSE (Quest 44 / Task 6044 bug):
-            //   Task 6044 = task terakhir di chain (no nextTaskID).
-            //   Saat claim: getReward set curMainTask[0]._state = 3 (FINISH).
-            //   Saat re-login: enterGame return curMainTask = [{ _id:6044, _state:3 }].
-            //   Client setMianTask → _mainTask = { _id:6044, _state:3 } (non-null).
-            //   HomeMain.setMainTask() tidak punya handler state=3 → task group
-            //     tetap visible tapi broken (tidak masuk if COMPLETE/DOING/DEFAULT).
-            //   Client setMainTaskWithComplete([]) → jika _nextTasks = [] → _mainTask = null.
-            //     TAPI setMainTaskWithComplete HANYA dipanggil dari getReward response,
-            //     BUKAN dari enterGame response. enterGame pakai setMianTask → setMianTask
-            //     TIDAK handle array kosong — Object.keys([]).length = 0 → _mainTask = null.
-            //
-            // FIX: Jika curMainTask[0]._state === 3 (FINISH), kirim array kosong [].
-            //   Client setMianTask([]) → Object.keys([]).length <= 0 → _mainTask = null
-            //   → HomeMain.setMainTask: if(null == t) → mainTaskGroup.visible = !1
-            //   → Task HILANG dari home screen. PERMANEN.
-            //
-            //   Untuk task lain yang belum FINISH (state=1 DOING atau state=2 COMPLETE),
-            //   curMainTask tetap dikirim apa adanya — tidak ada perubahan.
-            //
-            //   State 2 (COMPLETE) di-preserve karena user mungkin belum claim.
-            //   State 1 (DOING) di-preserve karena task masih berjalan.
-
-            if (savedData.curMainTask && Array.isArray(savedData.curMainTask) && savedData.curMainTask.length > 0) {
-                if (Number(savedData.curMainTask[0]._state) === 3) {
-                    log.info('HANDLER', 'Main task already FINISH (state=3) — clearing curMainTask to empty array');
-                    savedData.curMainTask = [];
-                }
-            }
-
-            // Update lastLoginTime (selalu, new maupun returning)
-            if (savedData.user) {
-                savedData.user._lastLoginTime = db.nowSeconds();
-            }
-
-            // ── INJECT BROADCAST & BULLETIN ──
-            injectBroadcastRecord(savedData);
-            injectOnlineBulletin(savedData);
-
-            // ── COMPUTE USER LEVEL for logging ──
-            var userLevel = computeUserLevel(savedData);
-
-            // Simpan ke DB (IndexedDB)
-            db._set(storageKey, savedData);
-
-            var elapsed = Date.now() - t0;
-
-            log.info('HANDLER', 'enterGame response ready — ' +
-                Object.keys(savedData).length + ' top-level fields (' + elapsed + 'ms)');
-            log.details('response', [
-                ['newUser', String(isNewUser)],
-                ['userId', savedData.user ? savedData.user._id : '-'],
-                ['userLevel', String(userLevel)],
-                ['heroCount', savedData.heros && savedData.heros._heros ?
-                    String(Object.keys(savedData.heros._heros).length) : '0'],
-                ['fieldCount', String(Object.keys(savedData).length)],
-                ['checkinDay', String(savedData.checkin ? savedData.checkin._maxActiveDay : 0)],
-                ['broadcastCount', String((savedData.broadcastRecord || []).length)],
-                ['bulletinCount', String((savedData.onlineBulletin || []).length)],
-                ['elapsed', elapsed + 'ms']
-            ]);
-
-            // ═══ RESPONSE INTEGRITY LOGGER ═══
-            // Logs EVERY field that saveUserData (L77643-77669) reads.
-            // Client error: "Cannot read properties of undefined (reading 'length')"
-            // This logger catches ANY undefined/null field BEFORE callback.
-            // When error occurs, check this log block to find the culprit.
-            logAuditField(savedData, 'ARRAY FIELDS (client reads .length)', [
-                // Arrays that saveUserData iterates with .length directly
-                { path: 'broadcastRecord',            expect: 'array' },
-                { path: 'onlineBulletin',             expect: 'array' },
-                { path: 'ballBroadcast',              expect: 'array' },
-                { path: 'blacklist',                  expect: 'array' },
-                { path: 'hideHeroes',                 expect: 'array' },
-                { path: 'vipLog',                     expect: 'array' },
-                { path: 'cardLog',                    expect: 'array' },
-                { path: '_arenaTeam',                 expect: 'array' },
-                { path: '_arenaSuper',                expect: 'array' },
-                { path: 'teamDungeonInvitedFriends',  expect: 'array' },
-                { path: 'curMainTask',                expect: 'array' },
-                // Nested arrays inside objects
-                { path: 'totalProps._items',          expect: 'array' },
-                { path: 'imprint._items',             expect: 'array' },
-                { path: 'summon._wishList',            expect: 'array' },
-                { path: 'userGuild._requestedGuild',  expect: 'array' },
-                { path: 'userGuildPub._requestedGuild', expect: 'array' },
-                // warInfo nested arrays
-                { path: 'warInfo._rank64',            expect: 'array' },
-                { path: 'warInfo._rank16',            expect: 'array' },
-                // userTopBattle nested arrays
-                { path: 'userTopBattle._records',     expect: 'array' },
-                { path: 'userTopBattle._history',      expect: 'array' },
-                { path: 'userTopBattle._gotRankReward', expect: 'array' },
-                // Other nested arrays
-                { path: 'headEffect._effects',        expect: 'array' },
-                { path: 'expedition._collection',      expect: 'array' },
-                { path: 'timeBonusInfo._timeBonus',    expect: 'array' },
-                { path: 'gemstone._items',             expect: 'array' },
-                { path: 'timeTrial._gotStarReward',    expect: 'object' },  // client iterates with for-in, NOT .length
-                // scheduleInfo nested arrays
-                { path: 'scheduleInfo._teamDugeonUsedRobots', expect: 'array' },
-                // checkin nested arrays
-                { path: 'checkin._activeItem',         expect: 'array' },
-            ]);
-
-            logAuditField(savedData, 'EQUIP FIELDS (SetEquipDataToModel reads .length)', [
-                // equip._suits is an object, each suit has arrays that .length is called on
-                { path: 'equip', expect: 'object', deepAudit: '_suits' }
-            ]);
-
-            logAuditField(savedData, 'TOP BATTLE _bet (deserialize reads n[r].length)', [
-                { path: 'userTopBattle._bet', expect: 'object', deepAudit: true },
-                { path: 'userWar._bet',        expect: 'object', deepAudit: true }
-            ]);
-
-            logAuditField(savedData, 'CRITICAL OBJECTS (client reads without guard)', [
-                { path: 'user',           expect: 'object' },
-                { path: 'hangup',         expect: 'object' },
-                { path: 'summon',         expect: 'object' },
-                { path: 'scheduleInfo',   expect: 'object' },
-                { path: 'dragonEquiped',  expect: 'object' },
-                { path: 'superSkill',     expect: 'object' },
-                { path: 'clickSystem',    expect: 'object' },
-                { path: 'forbiddenChat',  expect: 'object' },
-                { path: 'channelSpecial', expect: 'object' },
-                { path: 'heroSkin',       expect: 'object' },
-                { path: 'resonance',      expect: 'object' },
-                { path: 'topBattleInfo',  expect: 'object' },
-                { path: 'fastTeam',       expect: 'object' },
-            ]);
-
-            logAuditField(savedData, 'HERO DATA (readByData reads hero fields)', [
-                { path: 'heros._heros', expect: 'object' },
-            ]);
-
-            logAuditField(savedData, 'GUILD DATA (setTeam reads guild fields)', [
-                { path: 'userGuild',     expect: 'object' },
-                { path: 'userGuildPub',  expect: 'object' },
-                { path: 'userGuild._tech',    expect: 'object' },
-                { path: 'userGuildPub._tech', expect: 'object' },
-            ]);
-
-            // ═══ SMOKE TEST — Simulate client .length accesses ═══
-            // This mimics EXACTLY what the client saveUserData does.
-            // If the server crashes HERE, we found the exact field.
-            // Check: https://github.com/issue/enterGame-callback-error
-            log.info('AUDIT', '🔥 SMOKE TEST — simulating client .length accesses...');
-            var smokeErrors = [];
-
-            // 1. SetEquipDataToModel (L82843) — e.equip._suits[x]._suitItems.length
-            try {
-                if (savedData.equip && savedData.equip._suits) {
-                    for (var suitKey in savedData.equip._suits) {
-                        var suit = savedData.equip._suits[suitKey];
-                        var _si = suit._suitItems;
-                        var _sa = suit._suitAttrs;
-                        var _ea = suit._equipAttrs;
-                        if (!_si || !Array.isArray(_si)) smokeErrors.push('equip._suits["' + suitKey + '"]._suitItems = ' + typeof _si);
-                        if (_si && Array.isArray(_si)) { var x = _si.length; }  // simulate .length
-                        if (!_sa || !Array.isArray(_sa)) smokeErrors.push('equip._suits["' + suitKey + '"]._suitAttrs = ' + typeof _sa);
-                        if (_sa && Array.isArray(_sa)) { var x = _sa.length; }
-                        if (!_ea || !Array.isArray(_ea)) smokeErrors.push('equip._suits["' + suitKey + '"]._equipAttrs = ' + typeof _ea);
-                        if (_ea && Array.isArray(_ea)) { var x = _ea.length; }
-                    }
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('EQUIP SMOKE CRASH: ' + smokeErr.message);
-            }
-
-            // 2. UserTopBattleModel.deserialize _bet (n[r].length)
-            try {
-                if (savedData.userTopBattle && savedData.userTopBattle._bet) {
-                    for (var betK in savedData.userTopBattle._bet) {
-                        var betV = savedData.userTopBattle._bet[betK];
-                        if (!betV || !Array.isArray(betV)) smokeErrors.push('userTopBattle._bet["' + betK + '"] = ' + typeof betV);
-                        if (betV && Array.isArray(betV)) { var x = betV.length; }
-                    }
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('TOPBATTLE BET SMOKE CRASH: ' + smokeErr.message);
-            }
-
-            // 3. UserWarModel.deserialize _bet (n[a].length)
-            try {
-                if (savedData.userWar && savedData.userWar._bet) {
-                    for (var warBetK in savedData.userWar._bet) {
-                        var warBetV = savedData.userWar._bet[warBetK];
-                        if (!warBetV || !Array.isArray(warBetV)) smokeErrors.push('userWar._bet["' + warBetK + '"] = ' + typeof warBetV);
-                        if (warBetV && Array.isArray(warBetV)) { var x = warBetV.length; }
-                    }
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('WAR BET SMOKE CRASH: ' + smokeErr.message);
-            }
-
-            // 4. setMianTask — Object.keys(e).length
-            try {
-                var cmt = savedData.curMainTask;
-                if (!cmt) {
-                    smokeErrors.push('curMainTask = UNDEFINED (setMianTask will crash on Object.keys)');
-                } else {
-                    var cmtKeys = Object.keys(cmt);  // simulate
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('MAIN TASK SMOKE CRASH: ' + smokeErr.message);
-            }
-
-            // 5. TopBattleManager.setTopBattleLoginInfo(e) — called unconditionally
-            //    Inside: e.userTopBattle && t.userTopBattle.deserialize(e.userTopBattle)
-            //    Also: e.topBattleInfo && t.topBattleInfo.deserialize(e.topBattleInfo)
-            try {
-                if (savedData.topBattleInfo && savedData.topBattleInfo.topBattleInfo) {
-                    // TopBattleArea.deserialize — may have nested .length
-                    var tbInfo = savedData.topBattleInfo.topBattleInfo;
-                    log.details('smoke_topBattle', [
-                        ['topBattleInfo.topBattleInfo exists', 'YES'],
-                        ['keys', String(Object.keys(tbInfo).length)]
+                    // ═══ RESPONSE INTEGRITY LOGGER ═══
+                    // Logs EVERY field that saveUserData (L77643-77669) reads.
+                    // Client error: "Cannot read properties of undefined (reading 'length')"
+                    // This logger catches ANY undefined/null field BEFORE callback.
+                    // When error occurs, check this log block to find the culprit.
+                    logAuditField(savedData, 'ARRAY FIELDS (client reads .length)', [
+                        // Arrays that saveUserData iterates with .length directly
+                        { path: 'broadcastRecord',            expect: 'array' },
+                        { path: 'onlineBulletin',             expect: 'array' },
+                        { path: 'ballBroadcast',              expect: 'array' },
+                        { path: 'blacklist',                  expect: 'array' },
+                        { path: 'hideHeroes',                 expect: 'array' },
+                        { path: 'vipLog',                     expect: 'array' },
+                        { path: 'cardLog',                    expect: 'array' },
+                        { path: '_arenaTeam',                 expect: 'array' },
+                        { path: '_arenaSuper',                expect: 'array' },
+                        { path: 'teamDungeonInvitedFriends',  expect: 'array' },
+                        { path: 'curMainTask',                expect: 'array' },
+                        // Nested arrays inside objects
+                        { path: 'totalProps._items',          expect: 'array' },
+                        { path: 'imprint._items',             expect: 'array' },
+                        { path: 'summon._wishList',            expect: 'array' },
+                        { path: 'userGuild._requestedGuild',  expect: 'array' },
+                        { path: 'userGuildPub._requestedGuild', expect: 'array' },
+                        // warInfo nested arrays
+                        { path: 'warInfo._rank64',            expect: 'array' },
+                        { path: 'warInfo._rank16',            expect: 'array' },
+                        // userTopBattle nested arrays
+                        { path: 'userTopBattle._records',     expect: 'array' },
+                        { path: 'userTopBattle._history',      expect: 'array' },
+                        { path: 'userTopBattle._gotRankReward', expect: 'array' },
+                        // Other nested arrays
+                        { path: 'headEffect._effects',        expect: 'array' },
+                        { path: 'expedition._collection',      expect: 'array' },
+                        { path: 'timeBonusInfo._timeBonus',    expect: 'array' },
+                        { path: 'gemstone._items',             expect: 'array' },
+                        { path: 'timeTrial._gotStarReward',    expect: 'object' },  // client iterates with for-in, NOT .length
+                        // scheduleInfo nested arrays
+                        { path: 'scheduleInfo._teamDugeonUsedRobots', expect: 'array' },
+                        // checkin nested arrays
+                        { path: 'checkin._activeItem',         expect: 'array' },
                     ]);
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('TOPBATTLE INFO SMOKE CRASH: ' + smokeErr.message);
-            }
 
-            // 6. setBackpack — e.totalProps._items iterated with for-in (safe, but check)
-            try {
-                if (!savedData.totalProps || !savedData.totalProps._items) {
-                    smokeErrors.push('totalProps._items = UNDEFINED (setBackpack will crash)');
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('BACKPACK SMOKE CRASH: ' + smokeErr.message);
-            }
+                    logAuditField(savedData, 'EQUIP FIELDS (SetEquipDataToModel reads .length)', [
+                        // equip._suits is an object, each suit has arrays that .length is called on
+                        { path: 'equip', expect: 'object', deepAudit: '_suits' }
+                    ]);
 
-            // 7. SummonSingleton.setSummomLogList(e) — e.summonLog
-            try {
-                if (savedData.summonLog !== undefined && typeof savedData.summonLog !== 'object') {
-                    smokeErrors.push('summonLog = ' + typeof savedData.summonLog + ' (expected object)');
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('SUMMON LOG SMOKE CRASH: ' + smokeErr.message);
-            }
+                    logAuditField(savedData, 'TOP BATTLE _bet (deserialize reads n[r].length)', [
+                        { path: 'userTopBattle._bet', expect: 'object', deepAudit: true },
+                        { path: 'userWar._bet',        expect: 'object', deepAudit: true }
+                    ]);
 
-            // 8. checkin — e.checkin && ...setSignInInfo(e.checkin)
-            try {
-                if (savedData.checkin && savedData.checkin._activeItem && !Array.isArray(savedData.checkin._activeItem)) {
-                    smokeErrors.push('checkin._activeItem = ' + typeof savedData.checkin._activeItem);
-                }
-            } catch (smokeErr) {
-                smokeErrors.push('CHECKIN SMOKE CRASH: ' + smokeErr.message);
-            }
+                    logAuditField(savedData, 'CRITICAL OBJECTS (client reads without guard)', [
+                        { path: 'user',           expect: 'object' },
+                        { path: 'hangup',         expect: 'object' },
+                        { path: 'summon',         expect: 'object' },
+                        { path: 'scheduleInfo',   expect: 'object' },
+                        { path: 'dragonEquiped',  expect: 'object' },
+                        { path: 'superSkill',     expect: 'object' },
+                        { path: 'clickSystem',    expect: 'object' },
+                        { path: 'forbiddenChat',  expect: 'object' },
+                        { path: 'channelSpecial', expect: 'object' },
+                        { path: 'heroSkin',       expect: 'object' },
+                        { path: 'resonance',      expect: 'object' },
+                        { path: 'topBattleInfo',  expect: 'object' },
+                        { path: 'fastTeam',       expect: 'object' },
+                    ]);
 
-            // Report smoke test results
-            if (smokeErrors.length > 0) {
-                log.error('AUDIT', '🔥 SMOKE TEST FAILED — ' + smokeErrors.length + ' crash(es) would happen on client!');
-                for (var se = 0; se < smokeErrors.length; se++) {
-                    log.error('AUDIT', '  💥 ' + smokeErrors[se]);
-                }
-            } else {
-                log.info('AUDIT', '✅ SMOKE TEST PASSED — no .length crash detected');
-            }
+                    logAuditField(savedData, 'HERO DATA (readByData reads hero fields)', [
+                        { path: 'heros._heros', expect: 'object' },
+                    ]);
 
-            // ═══════════════════════════════════════════════════════════
-            //  DEFENSIVE FILTER: Bersihkan imprint._items yang corrupt
-            // ═══════════════════════════════════════════════════════════
-            // Root cause (sudah ditelusuri):
-            //   - Client ImprintItem.deserialize membaca signEx[displayId].type
-            //   - Jika displayId TIDAK ADA di signEx.json → CRASH
-            //   - Contoh: _displayId=245 (seharusnya signPiece, bukan sign)
-            //   - Sumber: dulu mungkin handler lama yg tidak punya validasi
-            // Fix dua lapis:
-            //   1) openBox.js buildSignModel — validasi sebelum tulis (sudah fix)
-            //   2) enterGame.js di sini — filter sebelum kirim ke client
-            // ═══════════════════════════════════════════════════════════
-            try {
-                var filterImprint = savedData.imprint && savedData.imprint._items;
-                if (filterImprint && filterImprint.length > 0) {
-                    var signExRef = loadJsonSync('signEx');
-                    var thingsIDRef = loadJsonSync('thingsID'); // cache sekali untuk log
-                    var validItems = [];
-                    var removedCount = 0;
+                    logAuditField(savedData, 'GUILD DATA (setTeam reads guild fields)', [
+                        { path: 'userGuild',     expect: 'object' },
+                        { path: 'userGuildPub',  expect: 'object' },
+                        { path: 'userGuild._tech',    expect: 'object' },
+                        { path: 'userGuildPub._tech', expect: 'object' },
+                    ]);
 
-                    for (var fi = 0; fi < filterImprint.length; fi++) {
-                        var fiItem = filterImprint[fi];
-                        // Cek 1: item harus truthy (bukan null/undefined)
-                        if (!fiItem) {
-                            log.warn('IMPRINT-FILTER', 'Removed null/undefined entry at index ' + fi);
-                            removedCount++;
-                            continue;
+                    // ═══════════════════════════════════════════════
+                    //  DEFENSIVE FILTER: Bersihkan imprint._items yang corrupt
+                    // ═══════════════════════════════════════════════════════════
+                    // Root cause (sudah ditelusuri):
+                    //   - Client ImprintItem.deserialize membaca signEx[displayId].type
+                    //   - Jika displayId TIDAK ADA di signEx.json → CRASH
+                    //   - Contoh: _displayId=245 (seharusnya signPiece, bukan sign)
+                    //   - Sumber: dulu mungkin handler lama yg tidak punya validasi
+                    // Fix dua lapis:
+                    //   1) openBox.js buildSignModel — validasi sebelum tulis (sudah fix)
+                    //   2) enterGame.js di sini — filter sebelum kirim ke client
+                    // ═══════════════════════════════════════════════════════════
+                    try {
+                        var filterImprint = savedData.imprint && savedData.imprint._items;
+                        if (filterImprint && filterImprint.length > 0) {
+                            var signExRef = loadJsonSync('signEx');
+                            var thingsIDRef = loadJsonSync('thingsID'); // cache sekali untuk log
+                            var validItems = [];
+                            var removedCount = 0;
+
+                            for (var fi = 0; fi < filterImprint.length; fi++) {
+                                var fiItem = filterImprint[fi];
+                                // Cek 1: item harus truthy (bukan null/undefined)
+                                if (!fiItem) {
+                                    log.warn('IMPRINT-FILTER', 'Removed null/undefined entry at index ' + fi);
+                                    removedCount++;
+                                    continue;
+                                }
+                                // Cek 2: _displayId harus ada dan valid number
+                                var fiDispId = fiItem._displayId;
+                                if (fiDispId === undefined || fiDispId === null || isNaN(Number(fiDispId))) {
+                                    log.warn('IMPRINT-FILTER', 'Removed entry ' + (fiItem._signId || fi) + ' — invalid _displayId: ' + fiDispId);
+                                    removedCount++;
+                                    continue;
+                                }
+                                // Cek 3: _displayId harus ada di signEx.json
+                                if (signExRef && !signExRef[String(fiDispId)]) {
+                                    var typeInfo = (thingsIDRef && thingsIDRef[String(fiDispId)]) ? thingsIDRef[String(fiDispId)].thingsType : 'unknown';
+                                    log.warn('IMPRINT-FILTER', 'Removed entry ' + (fiItem._signId || fi)
+                                        + ' — _displayId=' + fiDispId + ' NOT in signEx.json'
+                                        + ' (thingsType=' + typeInfo + ')'
+                                        + ' full=' + JSON.stringify(fiItem));
+                                    removedCount++;
+                                    continue;
+                                }
+                                // Cek 4: _signId harus ada
+                                if (!fiItem._signId) {
+                                    log.warn('IMPRINT-FILTER', 'Removed entry at index ' + fi + ' — missing _signId');
+                                    removedCount++;
+                                    continue;
+                                }
+                                validItems.push(fiItem);
+                            }
+
+                            if (removedCount > 0) {
+                                log.error('IMPRINT-FILTER', 'FILTERED ' + removedCount + '/' + filterImprint.length
+                                    + ' invalid imprint items — data was corrupt and would crash client');
+                                savedData.imprint._items = validItems;
+                                // savedData akan di-_set ke DB oleh caller, jadi perubahan ini persist
+                            }
                         }
-                        // Cek 2: _displayId harus ada dan valid number
-                        var fiDispId = fiItem._displayId;
-                        if (fiDispId === undefined || fiDispId === null || isNaN(Number(fiDispId))) {
-                            log.warn('IMPRINT-FILTER', 'Removed entry ' + (fiItem._signId || fi) + ' — invalid _displayId: ' + fiDispId);
-                            removedCount++;
-                            continue;
-                        }
-                        // Cek 3: _displayId harus ada di signEx.json
-                        if (signExRef && !signExRef[String(fiDispId)]) {
-                            var typeInfo = (thingsIDRef && thingsIDRef[String(fiDispId)]) ? thingsIDRef[String(fiDispId)].thingsType : 'unknown';
-                            log.warn('IMPRINT-FILTER', 'Removed entry ' + (fiItem._signId || fi)
-                                + ' — _displayId=' + fiDispId + ' NOT in signEx.json'
-                                + ' (thingsType=' + typeInfo + ')'
-                                + ' full=' + JSON.stringify(fiItem));
-                            removedCount++;
-                            continue;
-                        }
-                        // Cek 4: _signId harus ada
-                        if (!fiItem._signId) {
-                            log.warn('IMPRINT-FILTER', 'Removed entry at index ' + fi + ' — missing _signId');
-                            removedCount++;
-                            continue;
-                        }
-                        validItems.push(fiItem);
+                    } catch (filterErr) {
+                        log.error('IMPRINT-FILTER', 'Defensive filter itself crashed: ' + filterErr.message + ' — sending data as-is');
                     }
 
-                    if (removedCount > 0) {
-                        log.error('IMPRINT-FILTER', 'FILTERED ' + removedCount + '/' + filterImprint.length
-                            + ' invalid imprint items — data was corrupt and would crash client');
-                        savedData.imprint._items = validItems;
-                        // savedData akan di-_set ke DB oleh caller, jadi perubahan ini persist
-                    }
+                    callback(savedData);
+                } catch (err) {
+                    log.error('HANDLER', 'enterGame ERROR', err);
+                    callback(buildError(RET_CODES.SERVER_ERROR, err.message || 'Unknown error'), RET_CODES.SERVER_ERROR);
                 }
-            } catch (filterErr) {
-                log.error('IMPRINT-FILTER', 'Defensive filter itself crashed: ' + filterErr.message + ' — sending data as-is');
-            }
-
-            callback(savedData);
-
+            }); // end validateLoginToken
         } catch (err) {
             log.error('HANDLER', 'enterGame UNCAUGHT ERROR', err);
             callback(buildError(RET_CODES.SERVER_ERROR, err.message || 'Unknown error'), RET_CODES.SERVER_ERROR);
