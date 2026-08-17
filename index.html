@@ -24,16 +24,13 @@
         
         
         
-        
-        
-
 <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
 
 <script>
   // 1. Inisialisasi Eruda
   eruda.init();
 
-  // 2. Custom IndexedDB Tool dengan CRUD & Delete DB
+  // 2. Custom IndexedDB Tool dengan CRUD (Tanpa Hapus Record Individual)
   class IndexedDbCrudTool extends eruda.Tool {
     constructor() {
       super();
@@ -184,7 +181,6 @@
       if (!this.activeDbName) return alert('Pilih Database yang ingin dihapus');
       if (!confirm(`⚠️ PERINGATAN: Yakin ingin menghapus seluruh Database "${this.activeDbName}"? Semua data di dalamnya akan hilang permanent.`)) return;
 
-      // Hapus database
       const req = indexedDB.deleteDatabase(this.activeDbName);
 
       req.onsuccess = () => {
@@ -197,7 +193,7 @@
       };
 
       req.onblocked = () => {
-        alert('Penghapusan terhalang! Tutup tab/koneksi lain yang sedang membuka database ini, lalu coba lagi.');
+        alert('Penghapusan terhalang! Tutup tab/koneksi lain yang sedang membuka database ini, atau reload halaman lalu coba lagi.');
       };
     }
 
@@ -231,19 +227,19 @@
           const realKey = keys ? keys[i] : i;
           const card = document.createElement('div');
           card.style.cssText = 'background:#0f172a;border:1px solid #1e293b;padding:6px;border-radius:4px;margin-bottom:6px;';
+          
+          // Hanya menyisakan tombol Edit
           card.innerHTML = `
             <div style="display:flex;justify-content:space-between;color:#64748b;font-size:10px;margin-bottom:4px;align-items:center;">
               <span>#${i+1} [Key: <b style="color:#38bdf8;">${realKey}</b>]</span>
               <div>
-                <button class="btn-edit" style="background:#334155;color:#2dd4bf;border:none;padding:2px 6px;border-radius:3px;cursor:pointer;font-weight:bold;margin-right:4px;">✏️ Edit</button>
-                <button class="btn-del" style="background:transparent;color:#ef4444;border:none;cursor:pointer;font-weight:bold;">🗑️ Hapus</button>
+                <button class="btn-edit" style="background:#334155;color:#2dd4bf;border:none;padding:2px 6px;border-radius:3px;cursor:pointer;font-weight:bold;">✏️ Edit</button>
               </div>
             </div>
             <pre style="margin:0;color:#4ade80;font-size:10px;overflow-x:auto;white-space:pre-wrap;">${this.escapeHtml(JSON.stringify(item, null, 2))}</pre>
           `;
 
           card.querySelector('.btn-edit').onclick = () => this.showEditModal(realKey);
-          card.querySelector('.btn-del').onclick = () => this.deleteRecord(realKey);
 
           container.appendChild(card);
         });
@@ -272,6 +268,7 @@
           this._el.querySelector('#eruda-idb-modal').style.display = 'flex';
           db.close();
         };
+        tx.onerror = () => db.close();
       } catch (err) {
         console.error(err);
       }
@@ -299,24 +296,12 @@
           this.closeModal();
           this.loadStoreData(this.activeStoreName);
         };
-        tx.onerror = (err) => alert('Gagal menyimpan: ' + err.target.error.message);
-      } catch (err) {
-        alert('Format JSON tidak valid: ' + err.message);
-      }
-    }
-
-    async deleteRecord(key) {
-      if (!confirm(`Hapus data dengan key "${key}"?`)) return;
-      try {
-        const db = await this.getDb();
-        const tx = db.transaction(this.activeStoreName, 'readwrite');
-        tx.objectStore(this.activeStoreName).delete(key);
-        tx.oncomplete = () => {
+        tx.onerror = (err) => {
           db.close();
-          this.loadStoreData(this.activeStoreName);
+          alert('Gagal menyimpan: ' + err.target.error.message);
         };
       } catch (err) {
-        console.error(err);
+        alert('Format JSON tidak valid: ' + err.message);
       }
     }
 
@@ -349,6 +334,12 @@
   setTimeout(moveTabNextToConsole, 300);
 </script>
 
+        
+        
+        
+        
+        
+        
         
         <script type="text/javascript" src="jszip-utils.min.js"></script>
         <script type="text/javascript" src="jszip.min.js"></script>
