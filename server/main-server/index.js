@@ -645,6 +645,29 @@
                                 log.info('DB', 'Loaded ' + idbKeys.length + ' keys from IndexedDB');
                             }
 
+                            // ── migrate legacy ms_user_S_UID → user:UID ──
+                            var migratedKeys = [];
+                            for (var mk in memory) {
+                                if (mk.indexOf('ms_user_') === 0) {
+                                    var parts = mk.split('_');
+                                    if (parts.length >= 4) {
+                                        var newKey = 'user:' + parts[parts.length - 1];
+                                        if (!memory.hasOwnProperty(newKey)) {
+                                            memory[newKey] = memory[mk];
+                                            migratedKeys.push(newKey);
+                                        }
+                                    }
+                                    delete memory[mk];
+                                    if (idb) deleteIDB(mk);
+                                }
+                            }
+                            if (migratedKeys.length > 0) {
+                                log.info('DB', 'Migrated ' + migratedKeys.length + ' legacy key(s) ms_user_* → user:*');
+                                for (var mi = 0; mi < migratedKeys.length; mi++) {
+                                    writeIDB(migratedKeys[mi], memory[migratedKeys[mi]]);
+                                }
+                            }
+
                             // flush pending writes
                             for (var i = 0; i < pendingWrites.length; i++) {
                                 writeIDB(pendingWrites[i].key, pendingWrites[i].data);
@@ -1210,6 +1233,15 @@
         MainServer.DummySocket = DummySocket;
         MainServer._TEA = _TEA;
         window.MainServer = MainServer;
+
+        // ── Load heroStats.js (shared compute engine) BEFORE any handler ──
+        // Handlers are lazy-loaded but heroStats must be available globally
+        (function loadHeroStats() {
+            var s = document.createElement('script');
+            s.src = basePath + 'heroStats.js';
+            s.async = false;
+            document.head.appendChild(s);
+        })();
 
         var _observer = null;
 
