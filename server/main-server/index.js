@@ -645,13 +645,16 @@
                                 log.info('DB', 'Loaded ' + idbKeys.length + ' keys from IndexedDB');
                             }
 
-                            // ── migrate legacy ms_user_S_UID → user:UID ──
+                            // ── migrate legacy ms_user_{UID}_* → user:{UID} ──
+                            // Handler format: 'ms_user_' + userId + '_1'  →  'ms_user_12345_1'
                             var migratedKeys = [];
                             for (var mk in memory) {
                                 if (mk.indexOf('ms_user_') === 0) {
-                                    var parts = mk.split('_');
-                                    if (parts.length >= 4) {
-                                        var newKey = 'user:' + parts[parts.length - 1];
+                                    var remainder = mk.substring(7); // strip "ms_user_"  →  "12345_1"
+                                    var lastUs = remainder.lastIndexOf('_');
+                                    if (lastUs > 0) {
+                                        var uid = remainder.substring(0, lastUs); // "12345"
+                                        var newKey = 'user:' + uid;                // "user:12345"
                                         if (!memory.hasOwnProperty(newKey)) {
                                             memory[newKey] = memory[mk];
                                             migratedKeys.push(newKey);
