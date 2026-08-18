@@ -39,7 +39,7 @@
  * DATA SOURCE
  * ============================================================
  *
- * 1. localStorage: ms_user_{userId}_1
+ * 1. IndexedDB: user:{userId}
  *    → heros._heros → daftar hero yang dimiliki player
  *    → setiap hero punya: _heroDisplayId, _heroBaseAttr._level
  *
@@ -58,7 +58,7 @@
  * LOGIC
  * ============================================================
  *
- * 1. Baca hero yang dimiliki dari localStorage
+ * 1. Baca hero yang dimiliki dari IndexedDB
  * 2. Untuk setiap hero:
  *    a. Skip jika tidak punya _heroDisplayId
  *    b. Skip jika TIDAK ada di heroBook.json maupun heroBookRed.json
@@ -189,12 +189,12 @@
                 return;
             }
 
-            // ── Step 1: Baca data user dari localStorage ──
-            var storageKey = 'ms_user_' + userId + '_1';
+            // ── Step 1: Baca data user dari DB ──
+            var storageKey = 'user:' + userId;
             var savedData = db._get(storageKey);
 
             if (!savedData || !savedData.heros || !savedData.heros._heros) {
-                log.warn('HANDLER', 'No hero data found in localStorage');
+                log.warn('HANDLER', 'No hero data found in DB');
                 log.details('detail', [
                     ['storageKey', storageKey],
                     ['savedData exists', savedData ? 'yes' : 'no'],
