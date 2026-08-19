@@ -279,14 +279,14 @@
     // ═══════════════════════════════════════════════════════════════════
     // INDEXEDDB HELPER
     // ═══════════════════════════════════════════════════════════════════
-    // Database: last_game_server
+    // Database: login-server
     // Store: loginInfo (keyPath: userId)
     //
     // Record types:
     //   User   — userId = "player1" (data login user)
     //   System — userId = "__config__" (servers, notices)
 
-    var DB_NAME = 'last_game_server';
+    var DB_NAME = 'login-server';
     var DB_VERSION = 2;
     var STORE_NAME = 'loginInfo';
     var _idb = null;

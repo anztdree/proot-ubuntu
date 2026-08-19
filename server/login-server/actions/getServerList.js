@@ -10,7 +10,7 @@
  *   history: Array of serverId strings (distinct, ordered by lastLoginAt DESC)
  *   offlineReason: string
  *
- * Data source: IndexedDB (last_game_server / loginInfo)
+ * Data source: IndexedDB (login-server / loginInfo)
  *   servers → __config__ record
  *   history → user record.history array
  */

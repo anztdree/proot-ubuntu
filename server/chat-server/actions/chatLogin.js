@@ -13,7 +13,7 @@
  *   3. teamDungeonChatRoom — guarded
  *   4. teamChatRoomId — guarded
  *
- * Data source: login-server IndexedDB (last_game_server / loginInfo)
+ * Data source: login-server IndexedDB (login-server / loginInfo)
  *   Game asli pakai in-memory ts.loginInfo — kita baca dari IndexedDB.
  */
 
@@ -50,7 +50,7 @@
                 ['headImage', profileData.headImage ? '(set)' : '(default)'],
                 ['headEffect', profileData.headEffect],
                 ['headBox', profileData.headBox],
-                ['source', 'IndexedDB (last_game_server/loginInfo)']
+                ['source', 'IndexedDB (login-server/loginInfo)']
             ]);
 
             log.info('RESP', 'chatLogin → success');

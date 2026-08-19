@@ -42,7 +42,7 @@
  *
  * Alur loginToken validation:
  *   Login-server SaveHistory → generate token → simpan ke IndexedDB
- *     DB: last_game_server, store: loginInfo (field: loginToken)
+ *     DB: login-server, store: loginInfo (field: loginToken)
  *   Main-server enterGame → baca IndexedDB via validateLoginToken → proses
  *
  * Ret Code Mapping (berbasis errorDefine.json):

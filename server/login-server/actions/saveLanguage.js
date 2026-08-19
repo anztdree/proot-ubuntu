@@ -10,7 +10,7 @@
  *
  * Response: { errorCode: 0 }
  *
- * Data source: IndexedDB (last_game_server / loginInfo)
+ * Data source: IndexedDB (login-server / loginInfo)
  */
 
 (function () {
@@ -42,7 +42,7 @@
         log.details([
             ['parsedUserId', userId || '(empty)'],
             ['parsedLanguage', language],
-            ['source', 'IndexedDB (last_game_server/loginInfo)']
+            ['source', 'IndexedDB (login-server/loginInfo)']
         ]);
 
         db.get(userId).then(function (acc) {

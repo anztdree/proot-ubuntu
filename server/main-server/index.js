@@ -784,7 +784,7 @@
         /**
          * validateLoginToken(userId, callback) — ASYNC
          * Reads directly from IndexedDB at call time (not startup cache).
-         * Login-server writes token to last_game_server/loginInfo AFTER user logs in,
+         * Login-server writes token to login-server/loginInfo AFTER user logs in,
          * so a startup preload would always miss it on fresh browsers.
          */
         validateLoginToken: function (userId, callback) {
@@ -795,7 +795,7 @@
             }
             // Read from IndexedDB (where login-server SaveHistory writes)
             try {
-                var req = indexedDB.open('last_game_server');
+                var req = indexedDB.open('login-server');
                 req.onupgradeneeded = function () {};
                 req.onsuccess = function (e) {
                     var idb = e.target.result;

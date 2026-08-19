@@ -14,7 +14,7 @@
  *   8. io.connect() override (intercept port 8002)
  *
  * Actions di folder actions/. PHP/MySQL TIDAK digunakan — semua via IndexedDB.
- * User profile dibaca dari login-server IndexedDB (last_game_server/loginInfo).
+ * User profile dibaca dari login-server IndexedDB (login-server/loginInfo).
  */
 
 (function () {
@@ -294,7 +294,7 @@
         return Math.floor(Date.now() / 1000);
     };
 
-    // User profile — baca dari login-server IndexedDB (last_game_server / loginInfo)
+    // User profile — baca dari login-server IndexedDB (login-server / loginInfo)
     // Login-server simpan: userId, nickName, channelCode, securityCode, dll
     // Visual fields (headImage, headEffect, headBox) akan tersedia setelah
     // main-server di-update ke IndexedDB — sementara pakai default.
@@ -304,7 +304,7 @@
     //   Login-server sudah bikin DB ini saat login → tinggal baca.
 
     var _loginDB = null;
-    var LOGIN_DB_NAME = 'last_game_server';
+    var LOGIN_DB_NAME = 'login-server';
     var LOGIN_STORE_NAME = 'loginInfo';
 
     function openLoginDB() {
@@ -372,7 +372,7 @@
     //
     // Catatan: game asli TIDAK pakai IndexedDB untuk chat (murni in-memory
     // ts.chatData + server-side). Kita pakai IndexedDB untuk persistence
-    // offline. User profile dari login-server IndexedDB (last_game_server/loginInfo).
+    // offline. User profile dari login-server IndexedDB (login-server/loginInfo).
 
     var DB_NAME = 'chatData';
     var DB_VERSION = 1;
