@@ -80,7 +80,7 @@
         }
     };
     
-    var GUILD_LIST_KEY = 'ms_guild_list';
+    var GUILD_LIST_KEY = 'guildList';
     
     /**
      * Get ALL guilds from DB + defaults merged
@@ -106,7 +106,7 @@
      * Get user's guild data from DB
      */
     function getUserGuildData(userId) {
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         var userData = db._get(key);
         
         if (!userData) {
@@ -132,7 +132,7 @@
      * Save user's guild data to DB
      */
     function saveUserGuildData(userId, userData) {
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         db._set(key, userData);
     }
 
@@ -247,7 +247,7 @@
         // 🔥🔥🔥 SAVE USER TO GUILD MEMBER LIST!!!
         // Kalau user join guild, harus ditambahkan ke member list!
         if (currentGuildId) {
-            var MEMBERS_PREFIX = 'ms_guild_members_';
+            var MEMBERS_PREFIX = 'guildMembers:';
             var membersKey = MEMBERS_PREFIX + currentGuildId;
             var existingMembers = db._get(membersKey);
             

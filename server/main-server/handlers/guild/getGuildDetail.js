@@ -131,8 +131,8 @@
     // STORAGE KEYS & CONSTANTS
     // ════════════════════════════════════════════════════════════════
 
-    var GUILD_LIST_KEY = 'ms_guild_list';           // Guild list storage
-    var MEMBERS_PREFIX = 'ms_guild_members_';      // Members per guild
+    var GUILD_LIST_KEY = 'guildList';           // Guild list storage
+    var MEMBERS_PREFIX = 'guildMembers:';      // Members per guild
 
     // GUILD_MEMBER_TITLE enum (LINE 53781-53784)
     var MEMBER_TITLE = {
@@ -149,7 +149,7 @@
      * Get user's current data from DB
      */
     function getUserData(userId) {
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         var userData = db._get(key);
 
         if (!userData) {
@@ -170,7 +170,7 @@
     }
 
     /**
-     * Get guild info from ms_guild_list
+     * Get guild info from guildList
      */
     function getGuildFromList(guildId) {
         var guildList = db._get(GUILD_LIST_KEY);
@@ -681,7 +681,7 @@
         var guildInfo = getGuildFromList(guildUUID);
 
         if (!guildInfo) {
-            log.error('HANDLER', '❌ Guild not found in ms_guild_list: ' + guildUUID);
+            log.error('HANDLER', '❌ Guild not found in guildList: ' + guildUUID);
             callback({ ret: 1, _error: 'guild_not_found' });
             return;
         }

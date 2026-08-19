@@ -462,7 +462,7 @@
 
         if (!userId || !heroId) { callback({}, 1); return; }
 
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         var savedData = db._get(key);
         if (!savedData) { log.error('RING_EVOLVE', 'user not found'); callback({}, 1); return; }
 

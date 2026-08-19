@@ -288,7 +288,7 @@
 
         if (!userId) { callback({}, 1); return; }
 
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) { callback({}, 1); return; }
 
         if (!savedData.giftInfo) savedData.giftInfo = {};
@@ -335,7 +335,7 @@
         }
 
         fr._haveGotReward = true;
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         var response = { _changeInfo: { _items: changeItems } };
         if (addHeroes.length > 0) response._addHeroes = addHeroes;

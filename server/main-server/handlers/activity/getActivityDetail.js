@@ -795,7 +795,7 @@
 
     function buildUactHeroHelp(userId) {
         var todayDateStr = getTodayWibDateString();
-        var storageKey = 'ms_userAct_' + userId + '_' + HERO_HELP_ACT_ID;
+        var storageKey = 'activity:' + userId + '_' + HERO_HELP_ACT_ID;
         var storedUact = db._get(storageKey);
 
         if (storedUact && storedUact._rotationDate === todayDateStr) {

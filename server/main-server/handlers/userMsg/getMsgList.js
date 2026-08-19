@@ -49,7 +49,7 @@
  * DATA SOURCE
  * ============================================================
  *
- * localStorage: ms_usermsg_{userId}
+ * localStorage: userMsg:{userId}
  *   {
  *     messages: {
  *       [friendId]: [{ _time, _isSelf, _context, _type }]
@@ -59,7 +59,7 @@
  *     }
  *   }
  *
- * Profile teman dibaca dari: ms_user_{friendId}_1
+ * Profile teman dibaca dari: user:{friendId}
  *   (savedData.user._nickName, .user._headImage, dll)
  *
  * ============================================================
@@ -106,7 +106,7 @@
      * Initialize if not exists.
      */
     function getMsgData(userId) {
-        var key = 'ms_usermsg_' + userId;
+        var key = 'userMsg:' + userId;
         var data = db._get(key);
 
         if (!data) {
@@ -126,13 +126,13 @@
 
     /**
      * Get friend's UserSimpleInfo-compatible object.
-     * Reads from ms_user_{friendId}_1 (saved by enterGame).
+     * Reads from user:{friendId} (saved by enterGame).
      *
      * Fields use underscore prefix because client's deserialize()
      * strips the first character: _nickName → nickName
      */
     function getFriendUserInfo(friendId) {
-        var storageKey = 'ms_user_' + friendId + '_1';
+        var storageKey = 'user:' + friendId;
         var userData = db._get(storageKey);
 
         if (userData && userData.user) {

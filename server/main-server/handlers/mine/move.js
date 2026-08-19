@@ -58,7 +58,7 @@
  *     Reset stepRecoverTime ke now agar client tidak double-count recovery.
  *
  *   [STORAGE]:
- *     _mineModel di dalam savedData: db._get('ms_user_{userId}_1')._mineModel
+ *     _mineModel di dalam savedData: db._get('user:{userId}')._mineModel
  *     Update _curX, _curY, _leftStep, _stepRecoverTime, _map (reveal fog)
  * ============================================================
  */
@@ -142,7 +142,7 @@
         var targetY = data.targetY;
 
         // ── 1. LOAD DATA ──
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) {
             log.error('MINE', 'move — no user data for ' + userId);
             callback({}, 1);
@@ -213,7 +213,7 @@
         savedData.timesInfo.mineSteps = model._leftStep;
         savedData.timesInfo.mineStepsRecover = model._stepRecoverTime;
 
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         // ── 9. LOG ──
         log.details('MINE', [

@@ -280,7 +280,7 @@
             day = Number(day);
 
             // ═══ LOAD USER DATA ═══
-            var storageKey = 'ms_user_' + userId + '_' + serverId;
+            var storageKey = 'user:' + userId;
             var savedData = db._get(storageKey);
 
             if (!savedData) {

@@ -154,7 +154,7 @@
      * Get user's current data from DB
      */
     function getUserData(userId) {
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         var userData = db._get(key);
         
         if (!userData) {
@@ -181,7 +181,7 @@
      * Save user data to DB
      */
     function saveUserData(userId, userData) {
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         db._set(key, userData);
     }
 
@@ -463,8 +463,8 @@
         // PERSISTENCE: SAVE TO INDEXEDDB
         // ════════════════════════════════════════════════════════════════
         
-        var GUILD_LIST_KEY = 'ms_guild_list';
-        var MEMBERS_PREFIX = 'ms_guild_members_';
+        var GUILD_LIST_KEY = 'guildList';
+        var MEMBERS_PREFIX = 'guildMembers:';
         
         log.info('HANDLER', '💾 Saving to IndexedDB...');
         
@@ -475,7 +475,7 @@
         }
         existingGuilds[newGuildId] = newGuild;
         db._set(GUILD_LIST_KEY, existingGuilds);
-        log.info('HANDLER', '✅ Guild saved to ms_guild_list: ' + newGuildId);
+        log.info('HANDLER', '✅ Guild saved to guildList: ' + newGuildId);
         
         // Save members list separately (for getMembers handler)
         var membersKey = MEMBERS_PREFIX + newGuildId;

@@ -155,17 +155,17 @@
  *
  * ══════════ GUILD EXP PERSISTENCE ══════════
  *
- * 18. Guild state (_level, _leftExp, _memberLimit) stored in ms_guild_list.
+ * 18. Guild state (_level, _leftExp, _memberLimit) stored in guildList.
  *     - createGuild initializes: _level=1, _leftExp=0, _memberLimit=20
- *     - getGuildDetail reads from ms_guild_list and returns via _guildInfo
- *     - getMembers reads from ms_guild_list and returns _level, _leftExp
+ *     - getGuildDetail reads from guildList and returns via _guildInfo
+ *     - getMembers reads from guildList and returns _level, _leftExp
  *     - guildSign MUST read current state, apply exp, level-up, SAVE BACK
- *     - If guild not in ms_guild_list, fallback to level=1, leftExp=0
+ *     - If guild not in guildList, fallback to level=1, leftExp=0
  *
  * 19. Level-up benefits (from guild.json + guildOpen.json):
  *     - _memberLimit increases per guild.json memberNum
  *     - Feature unlocks per guildOpen.json (client checks automatically)
- *     - Server updates _memberLimit in ms_guild_list on level-up
+ *     - Server updates _memberLimit in guildList on level-up
  * ════════════════════════════════════════════════════════════════════════════
  */
 
@@ -180,8 +180,8 @@
     // STORAGE KEYS (same as createGuild.js, getGuildDetail.js, getMembers.js)
     // ════════════════════════════════════════════════════════════════
 
-    var GUILD_LIST_KEY = 'ms_guild_list';
-    var USER_KEY_PREFIX = 'ms_user_';
+    var GUILD_LIST_KEY = 'guildList';
+    var USER_KEY_PREFIX = 'user:';
 
     // ════════════════════════════════════════════════════════════════
     // CONSTANTS FROM main.min.js
@@ -321,7 +321,7 @@
     }
 
     // ════════════════════════════════════════════════════════════════
-    // HELPER: Get guild from ms_guild_list
+    // HELPER: Get guild from guildList
     // Same pattern as getGuildDetail.js L175-183
     // ════════════════════════════════════════════════════════════════
 
@@ -334,7 +334,7 @@
     }
 
     /**
-     * Save guild back to ms_guild_list.
+     * Save guild back to guildList.
      * guildList is keyed by guildId (same as createGuild.js)
      */
     function saveGuildToList(guildId, guildData) {
@@ -351,7 +351,7 @@
     // ════════════════════════════════════════════════════════════════
 
     function getUserNickname(userId) {
-        var userData = db._get(USER_KEY_PREFIX + userId + '_1');
+        var userData = db._get(USER_KEY_PREFIX + userId);
         if (userData && userData.user && userData.user._nickName) {
             return userData.user._nickName;
         }
@@ -454,11 +454,11 @@
         ]);
 
         // ═══════════════════════════════════════════════════════════
-        // READ GUILD STATE FROM DB (ms_guild_list)
+        // READ GUILD STATE FROM DB (guildList)
         // Same pattern as getGuildDetail.js, getMembers.js, createGuild.js
         // ═══════════════════════════════════════════════════════════
         //
-        // Guild object in ms_guild_list (created by createGuild.js):
+        // Guild object in guildList (created by createGuild.js):
         //   _id, _displayIndex, _name, _icon, _exp, _leftExp, _level,
         //   _des, _bulletin, _needAgree, _limitLevel, _captainNick,
         //   _memberCount, _memberLimit, _activePoint, _members, etc.
@@ -481,7 +481,7 @@
             // Guild not in DB — use safe defaults
             currentLevel = 1;
             currentLeftExp = 0;
-            log.warn('HANDLER', 'Guild not found in ms_guild_list: ' + guildUUID + ', using defaults (level=1, leftExp=0)');
+            log.warn('HANDLER', 'Guild not found in guildList: ' + guildUUID + ', using defaults (level=1, leftExp=0)');
         }
 
         // ═══════════════════════════════════════════════════════════
@@ -556,7 +556,7 @@
         } else {
             // Guild not in DB — we still return correct values to client
             // but can't persist. Log warning.
-            log.warn('HANDLER', 'Cannot persist guild exp — guild not in ms_guild_list');
+            log.warn('HANDLER', 'Cannot persist guild exp — guild not in guildList');
         }
 
         // ═══════════════════════════════════════════════════════════

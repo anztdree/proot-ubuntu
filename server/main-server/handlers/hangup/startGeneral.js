@@ -804,7 +804,7 @@
         }
 
         // ── 2. Load savedData ──
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         var sd = db._get(key);
         if (!sd) {
             log.warn('STARTGENERAL', 'No savedData for userId=' + userId);

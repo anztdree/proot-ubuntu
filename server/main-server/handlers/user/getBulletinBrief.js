@@ -65,7 +65,7 @@
  * DATA SOURCE
  * ============================================================
  *
- * Server metadata (ms_server_meta) -> _bulletins: []
+ * Server metadata (serverItem) -> _bulletins: []
  * Setiap bulletin: { id, title, content, version, order, active }
  *
  * Auto-init: Jika belum ada bulletin, 3 sample bulletin akan dibuat otomatis
@@ -93,7 +93,7 @@
      * @returns {Array} Array of bulletin objects
      */
     function getBulletins() {
-        var meta = db._get('ms_server_meta');
+        var meta = db._get('serverItem');
         if (!meta) {
             meta = {
                 _serverOpenDate: Date.now(),
@@ -105,13 +105,13 @@
                 _onlineBulletins: [],
                 _bulletins: []
             };
-            db._set('ms_server_meta', meta);
+            db._set('serverItem', meta);
             return meta._bulletins;
         }
 
         if (!meta._bulletins) {
             meta._bulletins = [];
-            db._set('ms_server_meta', meta);
+            db._set('serverItem', meta);
         }
 
         return meta._bulletins;
@@ -123,10 +123,10 @@
      * @param {Array} bulletins
      */
     function saveBulletins(bulletins) {
-        var meta = db._get('ms_server_meta');
+        var meta = db._get('serverItem');
         if (meta) {
             meta._bulletins = bulletins;
-            db._set('ms_server_meta', meta);
+            db._set('serverItem', meta);
         }
     }
 
@@ -392,7 +392,7 @@
     // ═══════════════════════════════════════════════════════════════
 
     (function autoInit() {
-        var meta = db._get('ms_server_meta');
+        var meta = db._get('serverItem');
         if (!meta || !meta._bulletins || meta._bulletins.length === 0) {
             log.info('INIT', 'No bulletins found, initializing samples...');
 

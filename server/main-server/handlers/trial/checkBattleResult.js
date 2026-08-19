@@ -208,7 +208,7 @@
  *  DB KEY
  *  ══════════════════════════════════════════════════════════════════
  *
- *  ms_user_{userId}_1
+ *  user:{userId}
  *
  * ================================================================
  */
@@ -604,7 +604,7 @@
         }
 
         // ── TUGAS #2: Load savedData ──
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var savedData = db._get(storageKey);
         if (!savedData) {
             log.warn('TRIAL_RESULT', 'No savedData for userId=' + userId);

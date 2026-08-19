@@ -243,7 +243,7 @@
         }
 
         // ── 1. LOAD USER DATA ──
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) {
             log.error('MINE', 'resetCurLevel — no user data for ' + userId);
             callback({}, 1);
@@ -325,7 +325,7 @@
         savedData.timesInfo.mineSteps = newModel._leftStep;
         savedData.timesInfo.mineStepsRecover = newModel._stepRecoverTime;
 
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         // ── 6. LOG ──
         log.details('MINE', [

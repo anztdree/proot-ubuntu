@@ -211,7 +211,7 @@
  * STORAGE
  * ═══════════════════════════════════════════════════════════════════════
  *
- *   User data key: ms_user_<userId>_1
+ *   User data key: user:{userId}
  *   Field: savedData.cellGameState._currentBattle = {
  *     battleId: <string>,
  *     enemyDisplayId: <number>,
@@ -283,7 +283,7 @@
     // ═══════════════════════════════════════════════════════════
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     function generateBattleId(userId) {

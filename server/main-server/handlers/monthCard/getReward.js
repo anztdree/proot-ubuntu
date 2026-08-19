@@ -76,7 +76,7 @@
     var VALID_CARD_TYPES = [1, 2, 3, 4];
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     /**

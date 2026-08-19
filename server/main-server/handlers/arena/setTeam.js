@@ -186,7 +186,7 @@
         }
 
         // ── LOAD SAVEDATA ──
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) {
             log.warn('ARENA_SETTEAM', 'No savedData for userId=' + userId);
             callback({}, 1);
@@ -291,7 +291,7 @@
         savedData._arenaSuper = simpleSuper.map(function (skillId) {
             return { _id: skillId };
         });
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         // ══════════════════════════════════════════════
         //  STEP 5: Log & Response

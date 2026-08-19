@@ -46,7 +46,7 @@
  * INVENTORY PATTERN — pola weapon-upgrade.js L489-518, L810-811
  * ============================================================
  *   var db = window.MainServerDB;
- *   var key = 'ms_user_' + userId + '_1';
+ *   var key = 'user:' + userId;
  *   var savedData = db._get(key);
  *   getItemNum(savedData, itemId) / setItemNum(savedData, itemId, num)
  *   db._set(key, savedData)
@@ -144,7 +144,7 @@
         // ============================================================
         //  BACA & UPDATE savedData — pola weapon-upgrade.js
         // ============================================================
-        var key = 'ms_user_' + userId + '_1';
+        var key = 'user:' + userId;
         var savedData = db._get(key);
 
         if (!savedData) {

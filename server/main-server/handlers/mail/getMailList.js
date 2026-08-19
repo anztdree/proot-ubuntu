@@ -10,7 +10,7 @@
  *   Server WAJIB:
  *     1. Validate request (userId)
  *     2. Load user data dari IndexedDB
- *     3. Load mail list dari IndexedDB (ms_mails_{userId})
+ *     3. Load mail list dari IndexedDB (mail:{userId})
  *     4. Return { _mails: array of mail objects }
  *
  * ============================================================
@@ -71,7 +71,7 @@
  *     e._weapons && (parse weapons)
  *
  *   [STORAGE]
- *     Key IndexedDB: ms_mails_{userId}
+ *     Key IndexedDB: mail:{userId}
  *     Value: array of mail objects
  * ============================================================
  */
@@ -91,7 +91,7 @@
     //  CONSTANTS
     // ═══════════════════════════════════════════════════════════
 
-    var MAIL_STORAGE_PREFIX = 'ms_mails_';
+    var MAIL_STORAGE_PREFIX = 'mail:';
 
     function mailStorageKey(userId) {
         return MAIL_STORAGE_PREFIX + userId;

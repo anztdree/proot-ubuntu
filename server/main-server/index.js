@@ -598,9 +598,9 @@
         var useIDB = false;
         var pendingWrites = [];
         var writesDuringLoad = {};
-        var DB_NAME = 'SuperWarriorZ_DB';
+        var DB_NAME = 'main-server';
         var DB_VERSION = 1;
-        var STORE = 'keyvalue';
+        var STORE = 'userData';
 
         function get(key) {
             if (memory.hasOwnProperty(key)) return memory[key];
@@ -643,32 +643,6 @@
                         loadAllFromIDB(function (idbKeys) {
                             if (idbKeys.length > 0) {
                                 log.info('DB', 'Loaded ' + idbKeys.length + ' keys from IndexedDB');
-                            }
-
-                            // ── migrate legacy ms_user_{UID}_* → user:{UID} ──
-                            // Handler format: 'ms_user_' + userId + '_1'  →  'ms_user_12345_1'
-                            var migratedKeys = [];
-                            for (var mk in memory) {
-                                if (mk.indexOf('ms_user_') === 0) {
-                                    var remainder = mk.substring(7); // strip "ms_user_"  →  "12345_1"
-                                    var lastUs = remainder.lastIndexOf('_');
-                                    if (lastUs > 0) {
-                                        var uid = remainder.substring(0, lastUs); // "12345"
-                                        var newKey = 'user:' + uid;                // "user:12345"
-                                        if (!memory.hasOwnProperty(newKey)) {
-                                            memory[newKey] = memory[mk];
-                                            migratedKeys.push(newKey);
-                                        }
-                                    }
-                                    delete memory[mk];
-                                    if (idb) deleteIDB(mk);
-                                }
-                            }
-                            if (migratedKeys.length > 0) {
-                                log.info('DB', 'Migrated ' + migratedKeys.length + ' legacy key(s) ms_user_* → user:*');
-                                for (var mi = 0; mi < migratedKeys.length; mi++) {
-                                    writeIDB(migratedKeys[mi], memory[migratedKeys[mi]]);
-                                }
                             }
 
                             // flush pending writes

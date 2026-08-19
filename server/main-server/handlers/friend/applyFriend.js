@@ -62,7 +62,7 @@
     }
 
     function getFriendData(userId) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         var data = db._get(key);
         if (!data) {
             data = { friends: [], blacklist: [], applyList: [], messages: {}, inviteMessages: [] };
@@ -85,7 +85,7 @@
         userId = String(userId);
 
         // ── 1. Push applicant to target's applyList ──
-        var targetKey = 'ms_friend_' + friendId;
+        var targetKey = 'friend:' + friendId;
         var targetData = db._get(targetKey);
 
         if (!targetData) {
@@ -108,7 +108,7 @@
             log.info('HANDLER', 'applyFriend → AUTO ACCEPT bot ' + friendId);
 
             // Get bot friend data (create if not exists)
-            var botFriendKey = 'ms_friend_' + friendId;
+            var botFriendKey = 'friend:' + friendId;
             var botFriendData = db._get(botFriendKey);
             if (!botFriendData) {
                 botFriendData = { friends: [], blacklist: [], applyList: [], messages: {}, inviteMessages: [] };
@@ -135,14 +135,14 @@
             if (uApplyIdx !== -1) {
                 userFriendData.applyList.splice(uApplyIdx, 1);
             }
-            db._set('ms_friend_' + userId, userFriendData);
+            db._set('friend:' + userId, userFriendData);
 
             log.info('HANDLER', 'applyFriend → AUTO ACCEPTED: ' + userId + ' <-> ' + friendId);
         }
 
         // ── 3. Check & advance main task (taskType=friendApply) ──
         try {
-            var storageKey = 'ms_user_' + userId + '_1';
+            var storageKey = 'user:' + userId;
             var savedData = db._get(storageKey);
             var cmt = savedData && savedData.curMainTask;
             if (cmt && Array.isArray(cmt) && cmt.length > 0 && cmt[0]._state === 1) {

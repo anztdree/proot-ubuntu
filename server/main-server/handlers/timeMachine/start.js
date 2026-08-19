@@ -241,7 +241,7 @@
         //  2. LOAD USER DATA
         // ═══════════════════════════════════════════════════════
 
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var savedData = db._get(storageKey);
         if (!savedData) {
             log.warn('TM_START', 'user data not found: ' + storageKey);

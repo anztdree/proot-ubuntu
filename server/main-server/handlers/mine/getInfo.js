@@ -8,7 +8,7 @@
  *   Response: { _model: { _id, _map, _curX, _curY, _leftStep,
  *                         _stepRecoverTime, _curLevel } }
  *
- *   1. Load user data dari ms_user_{userId}_1
+ *   1. Load user data dari user:{userId}
  *   2. Jika _mineModel sudah ada → return itu
  *   3. Jika belum ada → generate floor 1 baru, simpan, return
  *   4. Sync timesInfo.mineSteps/mineStepsRecover dari _mineModel
@@ -66,8 +66,8 @@
  *
  *   [STORAGE — BUKTI dari handler asli di git commit a9244b2]:
  *     _mineModel disimpan DI DALAM user data object:
- *       db._get('ms_user_' + userId + '_1')  →  savedData._mineModel
- *     BUKAN di key terpisah seperti ms_mine_{userId}.
+ *       db._get('user:' + userId)  →  savedData._mineModel
+ *     BUKAN di key terpisah seperti mine:{userId}.
  *
  *   [MAP STRUKTUR — L105190-105193 loadMapInfo]:
  *     n = t._map
@@ -247,7 +247,7 @@
         // ── 1. LOAD USER DATA ──
         // BUKTI: handler asli (git a9244b2) pakai key ini.
         // _mineModel disimpan DI DALAM user data, bukan key terpisah.
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
 
         if (!savedData) {
             log.error('MINE', 'getInfo — no user data for ' + userId);
@@ -263,7 +263,7 @@
             savedData.timesInfo.mineSteps = savedData._mineModel._leftStep;
             savedData.timesInfo.mineStepsRecover = savedData._mineModel._stepRecoverTime;
 
-            db._set('ms_user_' + userId + '_1', savedData);
+            db._set('user:' + userId, savedData);
 
             log.details('MINE', [
                 ['action', 'getInfo'],
@@ -285,7 +285,7 @@
         savedData.timesInfo.mineSteps = model._leftStep;
         savedData.timesInfo.mineStepsRecover = model._stepRecoverTime;
 
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         log.details('MINE', [
             ['action', 'getInfo'],

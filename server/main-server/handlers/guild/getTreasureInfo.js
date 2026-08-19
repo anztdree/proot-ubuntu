@@ -69,7 +69,7 @@
         ]);
 
         // Get user data for member info
-        var userData = db._get('ms_user_' + userId + '_1');
+        var userData = db._get('user:' + userId);
         var userLevel = 1;
         var userNick = 'Player';
         var userHeadImage = 'hero_icon_1201';

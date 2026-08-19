@@ -11,7 +11,7 @@
  *   _freeRefreshTimes, _diamondRefreshCount, dll. Ini RESET setiap
  *   server restart. Plus free refresh TIDAK deduct apapun dari user.
  *
- *   FIX: Pakai savedData (IndexedDB ms_user_{userId}_1) untuk
+ *   FIX: Pakai savedData (IndexedDB user:{userId}) untuk
  *   persistent state. Simpan _marketState di savedData.
  *
  * CLIENT CODE TRACE:
@@ -180,7 +180,7 @@
             var refreshMax = (constant && constant[1]) ? (constant[1].marketRefreshMax || 5) : 5;
 
             // ═══ LOAD PERSISTENT STATE dari savedData ═══
-            var key = 'ms_user_' + userId + '_1';
+            var key = 'user:' + userId;
             var savedData = db._get(key);
 
             if (!savedData) {

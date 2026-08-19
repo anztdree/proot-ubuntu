@@ -27,7 +27,7 @@
  * STRATEGY:
  * Karena ini single-server (semua data di localStorage),
  * kita generate "recommended" friends dari:
- *   1. Semua user yang terdaftar di DB (ms_user_*_1)
+ *   1. Semua user yang terdaftar di DB (user:{userId})
  *   2. Bukan diri sendiri
  *   3. Bukan sudah di friend list
  *   4. Bukan di oldUids (sudah pernah direkomendasikan)
@@ -50,7 +50,7 @@
      * Get friend data for a user.
      */
     function getFriendData(userId) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         var data = db._get(key);
 
         if (!data) {
@@ -71,7 +71,7 @@
      * Get user profile from saved user data.
      */
     function getUserProfile(userId) {
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var userData = db._get(storageKey);
 
         var level = 1;
@@ -113,7 +113,7 @@
 
     /**
      * Collect all known userIds from DB.
-     * Scans for keys matching 'ms_user_{userId}_1'
+     * Scans for keys matching 'user:{userId}'
      */
     function getAllKnownUserIds() {
         var userIds = [];
@@ -123,10 +123,9 @@
             var keys = db._getAllKeys();
             for (var i = 0; i < keys.length; i++) {
                 var key = keys[i];
-                // Match pattern: ms_user_{userId}_1
-                if (key.indexOf('ms_user_') === 0 && key.indexOf('_1') === key.length - 2) {
-                    var parts = key.substring('ms_user_'.length);
-                    var uid = parts.substring(0, parts.length - 2); // remove '_1'
+                // Match pattern: user:{userId}
+                if (key.indexOf('user:') === 0) {
+                    var uid = key.substring('user:'.length);
                     userIds.push(uid);
                 }
             }

@@ -72,7 +72,7 @@
  *   if (h <= 0) → "sold out"
  *
  * [SHOP STATE STORAGE] (from getInfo.js):
- *   Key: ms_shop_{userId}
+ *   Key: shop:{userId}
  *   _buyTimes: { "2": { "171": 3, "181": 1 }, "4": { "171": 0 }, ... }
  *
  * [HERO REWARD] — if goodsID has thingsType==="hero" in thingsID.json:
@@ -105,10 +105,10 @@
         8: 'teamDungeonShop'
     };
 
-    var SHOP_STORAGE_PREFIX = 'ms_shop_';
+    var SHOP_STORAGE_PREFIX = 'shop:';
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     function shopStorageKey(userId) {

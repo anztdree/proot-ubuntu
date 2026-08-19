@@ -22,7 +22,7 @@
  *               _oriServerId, _serverId, _level, _vip, _online,
  *               _offlineTime?, _guildName? } }
  *
- * Data source: db key 'ms_friend_{userId}'
+ * Data source: db key 'friend:{userId}'
  *   → { friends:[], blacklist:[], applyList:[] }
  */
 
@@ -37,7 +37,7 @@
      * Get friend data for a user.
      */
     function getFriendData(userId) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         var data = db._get(key);
 
         if (!data) {
@@ -58,7 +58,7 @@
      * Get user profile from saved user data.
      */
     function getUserProfile(userId) {
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var userData = db._get(storageKey);
 
         if (userData && userData.user) {

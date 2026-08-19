@@ -704,7 +704,7 @@
                 (request.friendServerId ? ' crossServer=' + request.friendServerId : ''));
 
             // ═══ 0) READ PLAYER DATA ═══
-            var savedData = db._get('ms_user_' + userId + '_1');
+            var savedData = db._get('user:' + userId);
             var playerHeros = (savedData && savedData.heros && savedData.heros._heros)
                             || (savedData && savedData._heros) || null;
 
@@ -714,7 +714,7 @@
             if (isBot(friendId)) {
                 rightTeam = buildBotTeam(friendId);
             } else {
-                var friendData = db._get('ms_user_' + friendId + '_1');
+                var friendData = db._get('user:' + friendId);
                 if (friendData && friendData._arenaTeam && Array.isArray(friendData._arenaTeam)) {
                     var arenaTeam = friendData._arenaTeam;
                     rightTeam = {};

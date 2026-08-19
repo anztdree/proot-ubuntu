@@ -10,7 +10,7 @@
  *                         _refreshCount: N,
  *                         _helpFriendHero: "" } }
  *
- *   1. Load user data dari ms_user_{userId}_1
+ *   1. Load user data dari user:{userId}
  *   2. Jika _entrustModel sudah ada → return itu
  *   3. Jika belum ada → generate daftar entrust baru, simpan, return
  *
@@ -285,7 +285,7 @@
         }
 
         // ── 1. LOAD USER DATA ──
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
 
         if (!savedData) {
             log.error('ENTRUST', 'getInfo — no user data for ' + userId);
@@ -316,7 +316,7 @@
 
         // Save to user data
         savedData._entrustModel = model;
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         log.details('ENTRUST', [
             ['action', 'getInfo'],

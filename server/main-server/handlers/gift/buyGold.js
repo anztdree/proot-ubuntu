@@ -63,7 +63,7 @@
         var userId = request.userId;
         if (!userId) { callback({}, 1); return; }
 
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) { callback({}, 1); return; }
 
         // 1. Read buy count state (lives in scheduleInfo, NOT giftInfo)
@@ -115,7 +115,7 @@
         savedData.scheduleInfo._goldBuyCount = buyCount + 1;
 
         // 8. Persist
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         // 9. Response — _changeInfo._items (OBJECT format, ABSOLUTE balance)
         var changeItems = {};

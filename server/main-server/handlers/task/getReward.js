@@ -87,7 +87,7 @@
  * ============================================================
  * STORAGE DESIGN
  * ============================================================
- * Task progress disimpan di dalam user data (IndexedDB key: ms_user_{userId}_1)
+ * Task progress disimpan di dalam user data (IndexedDB key: user:{userId})
  * di bawah field baru: _taskProgress
  *
  *   savedData._taskProgress = {
@@ -325,7 +325,7 @@
     // ═══════════════════════════════════════════════════════════
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     function getTodayStr() {

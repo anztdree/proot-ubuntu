@@ -10,7 +10,7 @@
  *  Response:              { _feetTimes: number, _feetStartRecover: number }
  *
  *  Server WAJIB:
- *    1. Load savedData user dari IndexedDB (ms_user_{userId}_1)
+ *    1. Load savedData user dari IndexedDB (user:{userId})
  *    2. Baca savedData.timesInfo.karinFeet dan savedData.timesInfo.karinFeetRecover
  *    3. Apply server-side recovery (sama dengan enterGame.js):
  *       - max = constant.karinTowerFeet (5)
@@ -65,7 +65,7 @@
  *    constant.karinTowerFeetRefresh = 7200 (2 jam per 1 foot recovery)
  *
  *  [STORAGE]
- *    Key: ms_user_{userId}_1 (same savedData as enterGame)
+ *    Key: user:{userId} (same savedData as enterGame)
  *    Field: savedData.timesInfo.karinFeet
  *    Field: savedData.timesInfo.karinFeetRecover
  * ═══════════════════════════════════════════════════════════════════════
@@ -143,7 +143,7 @@
 
         try {
             // 1. Load savedData dari IndexedDB
-            var savedData = db._get('ms_user_' + userId + '_1');
+            var savedData = db._get('user:' + userId);
             if (!savedData) {
                 log.warn('TOWER', 'getFeetInfo — No savedData for userId=' + userId);
                 // Return default (full feet, no recovery)
@@ -186,7 +186,7 @@
             if (changed) {
                 ti.karinFeet = result.count;
                 ti.karinFeetRecover = result.recoverTimestamp;
-                db._set('ms_user_' + userId + '_1', savedData);
+                db._set('user:' + userId, savedData);
             }
 
             // 6. Log & Response

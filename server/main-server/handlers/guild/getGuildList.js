@@ -47,7 +47,7 @@
     // STORAGE & DATA
     // ════════════════════════════════════════════════════════════════
 
-    var GUILD_LIST_KEY = 'ms_guild_list';
+    var GUILD_LIST_KEY = 'guildList';
 
     // 1 guild clan system (mock server)
     var DEFAULT_GUILDS = [

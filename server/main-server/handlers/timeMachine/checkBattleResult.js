@@ -95,12 +95,12 @@
  *      levelNeeded:44, reward1:102, num1:10000, linkTo:"linkTimeTravel" }
  *    → Complete 2 time travels per day → 10000 gold reward
  *
- *  Task state storage: ms_task_<userId>_2 (taskClass=2=DAILY)
+ *  Task state storage: task:<userId>_2 (taskClass=2=DAILY)
  *    { "6122": { _state:1, _curCount:0 }, ... }
  *
  *  TASK_STATE: DEFAULT=0, DOING=1, COMPLETE=2, FINISH=3
  *
- *  queryTask.js reads from ms_task_<userId>_2 → builds response with
+ *  queryTask.js reads from task:<userId>_2 → builds response with
  *  _id, _curCount, _targetCount, _state per task.
  *
  *  This handler increments _curCount on WIN and sets _state=2 when done.
@@ -215,7 +215,7 @@
     // ═══════════════════════════════════════════════════════════
     //
     //  Daily task 6122: taskType="timeTravelEnd", taskPara1=2
-    //  Storage: ms_task_<userId>_2
+    //  Storage: task:<userId>_2
     //  On WIN: increment _curCount, set _state=2 if >= target
     //
 
@@ -225,7 +225,7 @@
 
     function processDailyTaskTimeTravelEnd(userId) {
         try {
-            var taskKey = 'ms_task_' + userId + '_' + TASK_CLASS_DAILY;
+            var taskKey = 'task:' + userId + '_' + TASK_CLASS_DAILY;
             var taskState = db._get(taskKey);
             if (!taskState || typeof taskState !== 'object') {
                 taskState = {};
@@ -344,7 +344,7 @@
         //  2. LOAD USER DATA
         // ═══════════════════════════════════════════════════════
 
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var savedData = db._get(storageKey);
         if (!savedData) {
             log.warn('TM_RESULT', 'user data not found: ' + storageKey);

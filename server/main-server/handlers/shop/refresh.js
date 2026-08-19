@@ -37,10 +37,10 @@
  *
  * LOGIC:
  *   1. Validasi userId & marketType
- *   2. Load shop state dari IndexedDB (ms_shop_{userId})
+ *   2. Load shop state dari IndexedDB (shop:{userId})
  *   3. Validasi marketType valid (2,3,4,5,7,8)
  *   4. Load refresh cost dari constant.json
- *   5. Load user data dari IndexedDB (ms_user_{userId}_1)
+ *   5. Load user data dari IndexedDB (user:{userId})
  *   6. Cek saldo cukup
  *   7. Deduct currency dari totalProps._items
  *   8. Reset _buyTimes[marketType] = {}
@@ -98,16 +98,16 @@
     };
 
     // Storage keys
-    var SHOP_STORAGE_PREFIX = 'ms_shop_';
-    var USER_STORAGE_PREFIX = 'ms_user_';
-    var SERVER_META_KEY = 'ms_server_meta';
+    var SHOP_STORAGE_PREFIX = 'shop:';
+    var USER_STORAGE_PREFIX = 'user:';
+    var SERVER_META_KEY = 'serverItem';
 
     function shopStorageKey(userId) {
         return SHOP_STORAGE_PREFIX + userId;
     }
 
     function userStorageKey(userId) {
-        return USER_STORAGE_KEY + userId + '_1';
+        return USER_STORAGE_PREFIX + userId;
     }
 
     // ═══════════════════════════════════════════════════════════

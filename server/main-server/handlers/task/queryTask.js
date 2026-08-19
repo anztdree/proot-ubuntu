@@ -169,7 +169,7 @@
     // ═══════════════════════════════════════════════════════════
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     function getUserLevel(savedData) {
@@ -224,7 +224,7 @@
     // ═══════════════════════════════════════════════════════════
 
     function taskStorageKey(userId, taskClass) {
-        return 'ms_task_' + userId + '_' + taskClass;
+        return 'task:' + userId + '_' + taskClass;
     }
 
     function loadTaskState(userId, taskClass) {

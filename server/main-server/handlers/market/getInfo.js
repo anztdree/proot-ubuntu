@@ -119,7 +119,7 @@
             var marketRefreshTime = (constant && constant[1]) ? (constant[1].marketRefreshTime || 7200) : 7200;
 
             // ═══ LOAD PERSISTENT STATE dari savedData ═══
-            var key = 'ms_user_' + userId + '_1';
+            var key = 'user:' + userId;
             var savedData = db._get(key);
 
             var freeRefreshTimes = refreshMax;

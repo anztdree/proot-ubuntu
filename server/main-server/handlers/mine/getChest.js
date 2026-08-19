@@ -96,7 +96,7 @@
  *   [PLAYERLEVELID]: 104 (bukan 101!)
  *
  *   [STORAGE]:
- *     savedData._mineModel → map & state (di dalam ms_user_{userId}_1)
+ *     savedData._mineModel → map & state (di dalam user:{userId})
  *     savedData.totalProps._items → inventory
  *     savedData._taskProgress._daily["6121"] → daily task progress
  *     savedData.curMainTask → main quest array
@@ -428,7 +428,7 @@
         var targetY = data.targetY;
 
         // ── 1. LOAD USER DATA ──
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) {
             log.error('MINE', 'getChest — no user data for ' + userId);
             callback({}, 1);
@@ -553,7 +553,7 @@
 
         // ── 8. SIMPAN ──
         savedData._mineModel = model;
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         // ── 9. LOG ──
         var chestTypeName = (itemType === ITEM_TYPE.SILVER_CHEST) ? 'silver' : 'golden';

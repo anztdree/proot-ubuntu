@@ -163,7 +163,7 @@
  * STORAGE
  * ═══════════════════════════════════════════════════════════════════════
  *
- *   User data key: ms_user_<userId>_1
+ *   User data key: user:{userId}
  *   Field: savedData.cellGameState = {
  *     _curLevel: 1,
  *     _curEnemy: 1,
@@ -221,7 +221,7 @@
     // ═══════════════════════════════════════════════════════════
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     // ═══════════════════════════════════════════════════════════

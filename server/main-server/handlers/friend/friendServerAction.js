@@ -45,11 +45,11 @@
  *    Server HARUS match exact spelling ini.
  *
  * ═══════════════════════════════════════════════════════════════════
- * DATA SOURCE: localStorage (prefix ms_friend_)
+ * DATA SOURCE: localStorage (prefix friend:)
  * ═══════════════════════════════════════════════════════════════════
  *
- * ms_friend_{userId}        → { friends:[], blacklist:[], applyList:[], messages:{}, inviteMessages:[] }
- * ms_friend_profile_{userId} → { _nickName, _headImage, _level, _serverId, ... }
+ * friend:{userId}        → { friends:[], blacklist:[], applyList:[], messages:{}, inviteMessages:[] }
+ * friend:profile:{userId} → { _nickName, _headImage, _level, _serverId, ... }
  *
  * FSUser fields (TeamUserItem + state):
  *   _id, _nickName, _headImage, _headEffect, _headBox,
@@ -77,7 +77,7 @@
      * Initialize if not exists.
      */
     function getFriendData(userId) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         var data = db._get(key);
 
         if (!data) {
@@ -98,7 +98,7 @@
      * Save friend data.
      */
     function saveFriendData(userId, data) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         db._set(key, data);
     }
 
@@ -107,8 +107,8 @@
      * Mengambil data user yang sudah disimpan saat enterGame.
      */
     function getUserProfile(userId) {
-        // Coba baca dari ms_user_{userId}_1
-        var storageKey = 'ms_user_' + userId + '_1';
+        // Coba baca dari user:{userId}
+        var storageKey = 'user:' + userId;
         var userData = db._get(storageKey);
 
         if (userData && userData.user) {
@@ -749,7 +749,7 @@
      * Contoh: MainServer.admin.clearFriendData('guest_xxx')
      */
     MainServer.admin.clearFriendData = function (userId) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         db._set(key, {
             friends: [],
             blacklist: [],

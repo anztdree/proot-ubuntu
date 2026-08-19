@@ -77,7 +77,7 @@
  *    getChest.js advance dailyTask 6121 (mineChest), BUKAN mainQuest 6028.
  *
  *  STORAGE:
- *    _mineModel di db._get('ms_user_'+userId+'_1')._mineModel
+ *    _mineModel di db._get('user:'+userId+'')._mineModel
  *    Update: _map, _curX, _curY, _curLevel, _leftStep, _stepRecoverTime
  *    Task progress: savedData._mineBattleProgress.battle
  * ══════════════════════════════════════════════════════════════════
@@ -581,7 +581,7 @@
         }
 
         // ── 2. LOAD USER DATA ──
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var savedData = db._get(storageKey);
 
         if (!savedData) {

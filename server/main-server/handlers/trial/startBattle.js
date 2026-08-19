@@ -829,7 +829,7 @@
         }
 
         // ── STEP 2: Read savedData from DB ──
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var savedData = db._get(storageKey);
         if (!savedData) {
             log.warn('TRIAL_START', 'No savedData for userId=' + userId);

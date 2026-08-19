@@ -207,11 +207,11 @@
     // ═══════════════════════════════════════════════════════════
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     function activityUserKey(userId, actType) {
-        return 'ms_userAct_' + userId + '_' + actType;
+        return 'activity:' + userId + '_' + actType;
     }
 
     function getItemBalance(savedData, itemId) {

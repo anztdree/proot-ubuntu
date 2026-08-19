@@ -133,7 +133,7 @@
         }
 
         // ─── Load user data ───
-        var userKey = 'ms_user_' + userId + '_1';
+        var userKey = 'user:' + userId;
         var savedData = db._get(userKey);
         if (!savedData) {
             log.error('HANDLER', 'User not found: ' + userId);
@@ -142,7 +142,7 @@
         }
 
         // ─── Load friend list ───
-        var friendKey = 'ms_friend_' + userId;
+        var friendKey = 'friend:' + userId;
         var friendData = db._get(friendKey);
         if (!friendData || !friendData.friends || friendData.friends.length === 0) {
             log.info('HANDLER', 'No friends — returning empty response');

@@ -224,7 +224,7 @@
         var reward2Num = Number(chapter.num2);
 
         // ── LOAD USER DATA ──
-        var persistKey = 'ms_user_' + userId + '_1';
+        var persistKey = 'user:' + userId;
         var savedData = db._get(persistKey);
         if (!savedData) {
             log.error('CHAPTER_REWARD', 'User not found — userId=' + userId);

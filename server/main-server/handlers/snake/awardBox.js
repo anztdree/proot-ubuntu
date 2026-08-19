@@ -75,7 +75,7 @@
     var db = window.MainServerDB;
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     function loadSnakeState(savedData) {

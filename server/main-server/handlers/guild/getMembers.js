@@ -44,14 +44,14 @@
     var log = MainServer.log;
     var db = window.MainServerDB;
 
-    var GUILD_LIST_KEY = 'ms_guild_list';
-    var USER_GUILD_PREFIX = 'ms_user_';
+    var GUILD_LIST_KEY = 'guildList';
+    var USER_KEY_PREFIX = 'user:';
 
     /**
      * Get user data from DB for a given userId
      */
     function getUserData(userId) {
-        return db._get(USER_GUILD_PREFIX + userId + '_1');
+        return db._get(USER_KEY_PREFIX + userId);
     }
 
     /**

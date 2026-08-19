@@ -391,7 +391,7 @@
                 return;
             }
 
-            var dbKey = 'ms_user_' + userId + '_1';
+            var dbKey = 'user:' + userId;
             var savedData = db._get(dbKey);
             if (!savedData) {
                 log.warn('ARENA_DAILY', 'User data not found: ' + userId);

@@ -8,7 +8,7 @@
  *   Response:              { _shop: { _id, _buyTimes, _autoRefreshTime } }
  *
  *   Server WAJIB:
- *     1. Load state pembelian user dari IndexedDB (ms_shop_{userId})
+ *     1. Load state pembelian user dari IndexedDB (shop:{userId})
  *     2. Cek & apply auto-refresh untuk setiap market type:
  *        - Jika _autoRefreshTime[mt] <= now → RESET _buyTimes[mt] = {}, set next refresh
  *        - Jika _autoRefreshTime[mt] tidak ada/0 → init = now + interval
@@ -68,7 +68,7 @@
  *     teamDungeonShopRefreshNaturally  = 720
  *
  *   [STORAGE]
- *     Key IndexedDB: ms_shop_{userId}
+ *     Key IndexedDB: shop:{userId}
  *     Value: { _id, _buyTimes, _autoRefreshTime, _lastUpdate }
  * ============================================================
  */
@@ -109,8 +109,8 @@
     };
 
     // Storage
-    var SHOP_STORAGE_PREFIX = 'ms_shop_';
-    var SERVER_META_KEY = 'ms_server_meta';
+    var SHOP_STORAGE_PREFIX = 'shop:';
+    var SERVER_META_KEY = 'serverItem';
 
     function shopStorageKey(userId) {
         return SHOP_STORAGE_PREFIX + userId;

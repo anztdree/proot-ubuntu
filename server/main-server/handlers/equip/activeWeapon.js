@@ -56,7 +56,7 @@
     var WEAPONSTATE_ALL_READY_ACTIVATED = 1;
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     var _resourceCache = {};

@@ -1643,7 +1643,7 @@
             // Bot polos: star 0, no equip, no passive, no awakening, skill level 1.
 
             // Read savedData (needed for player hero data + rewards + tasks)
-            var storageKey = 'ms_user_' + userId + '_1';
+            var storageKey = 'user:' + userId;
             var savedData = db._get(storageKey);
 
             // Generate _rand array FIRST (used by BOTH simulation AND client)

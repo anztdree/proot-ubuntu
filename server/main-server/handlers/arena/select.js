@@ -625,7 +625,7 @@
             MainServer._arenaStates = {};
         }
         if (!MainServer._arenaStates[userId]) {
-            var savedData = db._get('ms_user_' + userId + '_1');
+            var savedData = db._get('user:' + userId);
             var persistedRank = (savedData && typeof savedData._arenaRank === 'number') ? savedData._arenaRank : INITIAL_RANK;
             var persistedTopRank = (savedData && typeof savedData._arenaTopRank === 'number') ? savedData._arenaTopRank : persistedRank;
 

@@ -176,7 +176,7 @@
         }
 
         // ── 1. LOAD USER DATA ──
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) {
             log.error('MINE', 'buyStep — no user data for ' + userId);
             callback({}, 1);
@@ -272,7 +272,7 @@
         savedData.timesInfo.mineSteps = model._leftStep;
         savedData.timesInfo.mineStepsRecover = model._stepRecoverTime;
 
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         // ── 8. LOG ──
         log.details('MINE', [

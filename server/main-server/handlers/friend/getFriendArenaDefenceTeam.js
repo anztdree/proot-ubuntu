@@ -352,7 +352,7 @@
                 _oriServerId: 1, _serverId: 1, _level: 1, _vip: 0, _online: true
             };
         }
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var userData = db._get(storageKey);
         var level = 1, vip = 0;
         if (userData && userData.totalProps && userData.totalProps._items) {
@@ -409,7 +409,7 @@
             team = buildBotTeam(friendId);
         } else {
             // Real user path — from savedData._arenaTeam
-            var friendData = db._get('ms_user_' + friendId + '_1');
+            var friendData = db._get('user:' + friendId);
             if (friendData) {
                 var arenaTeam = friendData._arenaTeam;
                 if (arenaTeam && Array.isArray(arenaTeam)) {

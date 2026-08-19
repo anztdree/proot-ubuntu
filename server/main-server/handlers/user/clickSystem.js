@@ -122,7 +122,7 @@
  * STORAGE
  * ═══════════════════════════════════════════════════════════════════════
  *
- *   User data key: ms_user_<userId>_1
+ *   User data key: user:{userId}
  *   Field: savedData.clickSystem = { _clickSys: { 1: bool, 2: bool } }
  *
  *   enterGame.js L1368 sudah init default:
@@ -177,7 +177,7 @@
     // ═══════════════════════════════════════════════════════════
 
     function userStorageKey(userId) {
-        return 'ms_user_' + userId + '_1';
+        return 'user:' + userId;
     }
 
     // ═══════════════════════════════════════════════════════════

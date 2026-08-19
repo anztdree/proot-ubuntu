@@ -375,7 +375,7 @@
 
         if (!userId || !heroId || pos < 1 || pos > 3) { callback({}, 1); return; }
 
-        var savedData = db._get('ms_user_' + userId + '_1');
+        var savedData = db._get('user:' + userId);
         if (!savedData) { callback({}, 1); return; }
 
         var hero = findHero(savedData, heroId);
@@ -416,7 +416,7 @@
         var totalItems = buildTotalAttrItems(rawStats, equipFlat);
 
         // Simpan
-        db._set('ms_user_' + userId + '_1', savedData);
+        db._set('user:' + userId, savedData);
 
         log.info('HANDLER', 'hero/activeSkill OK hero=' + heroId + ' pos=' + pos +
             ' power=' + (totalItems['21'] ? totalItems['21']._num : '?'));

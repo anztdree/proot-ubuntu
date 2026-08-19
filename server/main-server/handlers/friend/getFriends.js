@@ -31,7 +31,7 @@
  *   _giveHearts: []
  *   _getHearts: []
  *
- * Data source: db key 'ms_friend_{userId}'
+ * Data source: db key 'friend:{userId}'
  *   → { friends:[], blacklist:[], applyList:[], messages:{}, inviteMessages:[] }
  */
 
@@ -114,7 +114,7 @@
     }
 
     function getFriendData(userId) {
-        var key = 'ms_friend_' + userId;
+        var key = 'friend:' + userId;
         var data = db._get(key);
 
         if (!data) {
@@ -155,7 +155,7 @@
             };
         }
 
-        var storageKey = 'ms_user_' + userId + '_1';
+        var storageKey = 'user:' + userId;
         var userData = db._get(storageKey);
 
         var level = 1;
