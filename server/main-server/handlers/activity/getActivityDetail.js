@@ -814,7 +814,7 @@
             // ── UserHeroHelpActivity extension (verified L80232-80249) ──
             _haveGotReward: {},  // dict boolean, keyed by string itemId ("0","1","2")
 
-            // ── Rotation tracking (mock-server internal, not read by client) ──
+            // ── Rotation tracking (internal, not read by client) ──
             _rotationDate:  todayDateStr  // WIB date string, e.g. "20260726"
         };
         db._set(storageKey, uact);

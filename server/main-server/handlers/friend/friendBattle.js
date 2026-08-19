@@ -11,7 +11,7 @@
  *     Summary: items: void 0 (L64769) — ZERO reward
  *
  *   CALL SITE 2 — TeamworkFriendInfo (L64821-64835):
- *     Sama + friendServerId (optional, cross-server — ignored di mock)
+ *     Sama + friendServerId (optional, cross-server — ignored)
  *
  *   CALL SITE 3 — maha/friendBattle (L63863) — BUKAN handler ini! (type="maha")
  *

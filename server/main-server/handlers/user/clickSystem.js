@@ -115,7 +115,7 @@
  *   Hanya set local state setelah callback dipanggil.
  *   → Server bisa return apa saja (asalkan ret=0).
  *
- *   Mock response: { _clickSys: { <sysType>: true } }
+ *   Response: { _clickSys: { <sysType>: true } }
  *   (Field ini opsional, hanya untuk debugging — client tidak baca)
  *
  * ═══════════════════════════════════════════════════════════════════════

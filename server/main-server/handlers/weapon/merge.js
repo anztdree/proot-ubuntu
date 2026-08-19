@@ -146,7 +146,7 @@
     //  Verified dari main.min.js getWeaponMergeId (L52953-52964):
     //    if(!Array.isArray(r)) return r.weaponID;
     //    for(var i in r) return r[i].weaponID;  ← client selalu pick first
-    //  Tapi untuk mock server, kita pick random by weight untuk lebih realistis.
+    //  Tapi untuk server, kita pick random by weight untuk lebih realistis.
     // ═══════════════════════════════════════════════════════════
 
     function pickMergeResultWeapon(mergeConfig) {

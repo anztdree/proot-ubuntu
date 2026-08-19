@@ -1095,8 +1095,8 @@
     // ═══════════════════════════════════════════════════════
     //  IO.CONNECT ROUTER
     // ═══════════════════════════════════════════════════════
-    //  :8001 → MainSocket  |  :8002 → DummySocket (chat)
-    //  :8004 → DummySocket (dungeon)  |  lainnya → passthrough
+    //  :8001 → MainSocket  |  :8002 → ServerSocket (chat)
+    //  :8004 → ServerSocket (dungeon)  |  lainnya → passthrough
 
     var _installed = false;
 
@@ -1108,7 +1108,7 @@
         return false;
     }
 
-    function DummySocket() {
+    function ServerSocket() {
         this.id = _generateSocketId();
         this.connected = true;
         this.disconnected = false;
@@ -1125,17 +1125,17 @@
             }, 50);
         }, MainServer.randomDelay());
     }
-    DummySocket.prototype.on = function (event, handler) {
+    ServerSocket.prototype.on = function (event, handler) {
         if (typeof handler !== 'function') return;
         if (!this._listeners[event]) this._listeners[event] = [];
         this._listeners[event].push(handler);
     };
-    DummySocket.prototype.off = function (event, handler) {
+    ServerSocket.prototype.off = function (event, handler) {
         if (!this._listeners[event]) return;
         if (handler) { var list = this._listeners[event]; for (var i = list.length - 1; i >= 0; i--) { if (list[i] === handler) list.splice(i, 1); } }
         else { delete this._listeners[event]; }
     };
-    DummySocket.prototype.emit = function (event, data, callback) {
+    ServerSocket.prototype.emit = function (event, data, callback) {
         if (event === 'handler.process') {
             var self = this;
             setTimeout(function () {
@@ -1160,17 +1160,17 @@
             return;
         }
     };
-    DummySocket.prototype.disconnect = function () {
+    ServerSocket.prototype.disconnect = function () {
         this.connected = false;
         this.disconnected = true;
         this._fire('disconnect', 'io server disconnect');
     };
-    DummySocket.prototype.destroy = function () {
+    ServerSocket.prototype.destroy = function () {
         this.connected = false;
         this.disconnected = true;
         this._listeners = {};
     };
-    DummySocket.prototype._fire = function (event) {
+    ServerSocket.prototype._fire = function (event) {
         var list = this._listeners[event];
         if (!list || list.length === 0) return;
         var args = Array.prototype.slice.call(arguments, 1);
@@ -1192,8 +1192,8 @@
                 return new MainSocket();
             }
             if (serverType === 'chat' || serverType === 'dungeon') {
-                log.info('IO', 'routing → ' + serverType.toUpperCase() + ' SERVER (dummy)  url: ' + url);
-                return new DummySocket();
+                log.info('IO', 'routing → ' + serverType.toUpperCase() + ' SERVER  url: ' + url);
+                return new ServerSocket();
             }
             return originalConnect.call(window.io, url, options);
         };
@@ -1207,7 +1207,7 @@
 
     function init() {
         MainServer.MainSocket = MainSocket;
-        MainServer.DummySocket = DummySocket;
+        MainServer.ServerSocket = ServerSocket;
         MainServer._TEA = _TEA;
         window.MainServer = MainServer;
 
@@ -1260,8 +1260,8 @@
         log.info('BOOT', 'Ready');
         log.details([
             ['port', MainServer.config.mainServerUrl],
-            ['chat', MainServer.config.chatServerUrl + ' (dummy)'],
-            ['dungeon', MainServer.config.dungeonServerUrl + ' (dummy)'],
+            ['chat', MainServer.config.chatServerUrl],
+            ['dungeon', MainServer.config.dungeonServerUrl],
             ['tea', MainServer.config.verifyEnable ? 'ON' : 'OFF'],
             ['openDate', new Date(SERVER_OPEN_DATE).toISOString().slice(0, 10) + ' (day ' + MainServer.getDaysSinceOpen() + ')'],
             ['resetHour', RESET_HOUR + ':00'],

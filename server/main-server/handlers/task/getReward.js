@@ -107,7 +107,7 @@
  *
  * Inisialisasi: Jika _taskProgress belum ada saat getReward dipanggil,
  * handler akan menginisialisasi dari config dengan state=2 (COMPLETE)
- * agar mock server bisa langsung digunakan tanpa perlu queryTask terlebih dahulu.
+ * agar server bisa langsung digunakan tanpa perlu queryTask terlebih dahulu.
  *
  * ============================================================
  */
@@ -340,7 +340,7 @@
      * Memastikan _taskProgress ada di savedData.
      * Jika belum ada, inisialisasi dari config.
      *
-     * Untuk MOCK SERVER: inisialisasi dengan state=COMPLETE (2) dan
+     * Untuk AUTO WIN: inisialisasi dengan state=COMPLETE (2) dan
      * curCount=targetCount, sehingga semua task bisa langsung di-claim.
      */
     function ensureTaskProgress(savedData) {
@@ -692,7 +692,7 @@
                 var nextCfg = achieveConfig[String(nextId)];
                 var nextTarget = Number(nextCfg.taskPara2) || Number(nextCfg.taskPara1) || 1;
 
-                // Unlock next achievement → set COMPLETE (mock: langsung bisa klaim)
+                // Unlock next achievement → set COMPLETE (auto: langsung bisa klaim)
                 if (!achievements[String(nextId)]) {
                     achievements[String(nextId)] = {
                         _id: nextId,
@@ -814,10 +814,10 @@
 
         try {
             if (taskClass === TASK_CLASS_MAIN) {
-                // Untuk MAIN: set state COMPLETE dulu agar bisa di-claim (mock behavior)
+                // Untuk MAIN: set state COMPLETE dulu agar bisa di-claim (auto behavior)
                 if (savedData.curMainTask[0]._state === TASK_STATE_DOING) {
                     savedData.curMainTask[0]._state = TASK_STATE_COMPLETE;
-                    log.info('TASK', 'Main task set to COMPLETE for mock claim: id=' + savedData.curMainTask[0]._id);
+                    log.info('TASK', 'Main task set to COMPLETE for auto claim: id=' + savedData.curMainTask[0]._id);
                 }
                 taskResult = handleMainTask(savedData, taskIds, changeItems);
             } else if (taskClass === TASK_CLASS_DAILY) {

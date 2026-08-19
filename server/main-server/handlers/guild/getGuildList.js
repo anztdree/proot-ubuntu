@@ -23,7 +23,7 @@
  *    - _totalCount = TOTAL HALAMAN (Math.ceil(totalGuilds / pageLen))
  *    - HAR sample: pageLen=6, 6 guilds returned, _totalCount=7
  *
- * 3. MOCK SERVER: cuma 1 guild clan ("Super Warriors")
+ * 3. AUTO WIN: 1 guild clan ("Super Warriors")
  *    - _needAgree: false → langsung masuk tanpa approval
  *    - _limitLevel: 1 → level minimum rendah
  *
@@ -49,7 +49,7 @@
 
     var GUILD_LIST_KEY = 'guildList';
 
-    // 1 guild clan system (mock server)
+    // 1 guild clan system (server)
     var DEFAULT_GUILDS = [
         {
             _id: 'c203e281-0c49-4753-a663-27303d2348f1',

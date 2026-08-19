@@ -316,7 +316,7 @@
             evolveLevel = Number(hero._heroBaseAttr._evolveLevel) || 0;
         }
 
-        // Skin: pakai defaultSkin dari hero.json (mock — no custom skin tracking)
+        // Skin: pakai defaultSkin dari hero.json (no custom skin tracking)
         var skinId = Number(heroCfg.defaultSkin) || 0;
 
         // ── Extract stats ──

@@ -20,7 +20,7 @@
  *  Handler ini TIDAK:
  *  - Mengurangi battle times (→ trial/startBattle)
  *  - Advance daily task (→ trial/startBattle)
- *  - Process achievement (→ task/getReward.js dengan mock completion)
+ *  - Process achievement (→ task/getReward.js dengan auto completion)
  *  - Buy times / fund / daily reward (→ handler lain)
  *
  *  ══════════════════════════════════════════════════════════════════
@@ -182,7 +182,7 @@
  *    constant.json        — tidak perlu (times sudah di-startBattle)
  *    taskDaily.json       — tidak perlu (daily task sudah di-advance di startBattle)
  *    taskAchievement.json — tidak perlu (achievement di-handle task/getReward.js
- *                           dengan mock completion pattern)
+ *                           dengan auto completion pattern)
  *    hero.json            — tidak perlu (tidak build enemy team)
  *    heroLevelAttr.json   — tidak perlu (tidak build enemy team)
  *

@@ -3,7 +3,7 @@
  *
  * Request:  { type:"hero", action:"resolve", userId, heros:[heroId1,heroId2,...], version:"1.0" }
  * Response: { _changeInfo: { _items: { "111": { _id:111, _num:<ABSOLUTE_BALANCE> } } } }
- *           _linkHeroes is optional — omitted for mock (client handles gracefully)
+ *           _linkHeroes is optional — omitted for server (client handles gracefully)
  *
  * TASK SIDE-EFFECTS (2 jenis task):
  *
@@ -84,7 +84,7 @@
  * [_linkHeroes] L85269-85275:
  *   Format: [ { hero: <fullHeroData>, basicAttr: <attrObj>, totalAttr: <attrObj> }, ... ]
  *   Used when decomposed hero was in a resonance link — linked heroes need stat recalculation
- *   For mock server: safely omitted (client checks n._linkHeroes && ... before using)
+ *   For server: safely omitted (client checks n._linkHeroes && ... before using)
  *
  * [Summon Decompose Filter] L173026-173027:
  *   Only allows Purple (4) and below for summon decompose
@@ -445,11 +445,11 @@
         //    6254: decomposeHero taskPara1=1000 (child of 6253, terminal)
         //
         //  getReward.js initAchievementProgress (L395-429) sets ROOT (6251)
-        //  to COMPLETE on first access (mock pattern). Chain advances on claim.
+        //  to COMPLETE on first access (auto-complete pattern). Chain advances on claim.
         //
         //  HERE: Track REAL progress — increment _curCount on the ACTIVE
-        //  achievement (first non-FINISH in chain). Compatible with mock:
-        //    - If state already COMPLETE (mock), _curCount goes above target (harmless)
+        //  achievement (first non-FINISH in chain). Compatible with server:
+        //    - If state already COMPLETE (auto), _curCount goes above target (harmless)
         //    - If state is DOING (real tracking), _curCount increments toward target
         //    - If _curCount >= taskPara1, ensure state = COMPLETE
         //
@@ -581,7 +581,7 @@
         }
 
         // ── BUILD RESPONSE ──
-        // _linkHeroes is intentionally omitted for mock server.
+        // _linkHeroes is intentionally omitted for server.
         // Client code checks: n._linkHeroes && HerosManager.getInstance().setDecomposeHeroLink(n._linkHeroes)
         // so undefined/null is safely handled — the client's own removeHeroInResonance()
         // clears resonance slots client-side when removeHeroFromList() is called.

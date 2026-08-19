@@ -34,7 +34,7 @@
  *    - Guild info fields: _icon, _level, _leftExp, _name, _des, _bulletin
  *    - Echo: type, action, userId, guildUUID, version
  *
- * 3. MOCK: 1 guild, 1 member (the user as captain)
+ * 3. Note: 1 guild, 1 member (user as captain)
  */
 
 (function () {

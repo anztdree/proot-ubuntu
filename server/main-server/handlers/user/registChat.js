@@ -10,7 +10,7 @@
  *
  * v3 FIX:
  *   Chat server URL boleh _success:true karena index.js v3 sudah
- *   meng-intercept io.connect untuk :8002 (DummySocket).
+ *   io.connect :8002 diarahkan ke chat-server.
  *   Tapi HAPUS _guildRoomId dan _teamChatRoom yang tidak pernah
  *   dikirim server asli (bukti dari HAR).
  *

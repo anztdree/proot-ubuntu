@@ -1073,7 +1073,7 @@
      * IDENTIK dengan getReward.js L370-388 (initDailyProgress).
      *
      * Semua task di-set COMPLETE (state=2) dengan curCount=targetCount.
-     * Ini adalah MOCK behavior — player bisa langsung claim semua task.
+     * Ini adalah auto behavior — player bisa langsung claim semua task.
      *
      * @param {Object} savedData — user data (MUTATED)
      */
@@ -1094,7 +1094,7 @@
         }
 
         log.info('ARENA_TASK', 'All daily tasks initialized from config: ' +
-            Object.keys(savedData._taskProgress._daily).length + ' tasks (COMPLETE for mock)');
+            Object.keys(savedData._taskProgress._daily).length + ' tasks (COMPLETE)');
     }
 
     /**
@@ -1170,7 +1170,7 @@
             // Step C: Update date
             savedData._taskProgress._dailyDate = today;
 
-            log.info('ARENA_TASK', 'Daily reset complete — all tasks mock-COMPLETE, ' +
+            log.info('ARENA_TASK', 'Daily reset complete — all tasks auto-COMPLETE, ' +
                 'task ' + arenaTaskId + ' → ' +
                 (resetState === TASK_STATE_DOING ? 'DOING' : 'DEFAULT') +
                 '/0 (level ' + playerLevel + ' vs needed ' + levelNeeded + ')');
@@ -1216,7 +1216,7 @@
      * State transitions:
      *   FINISH(3)  → skip (sudah di-claim, tidak bisa di-progress lagi hari ini)
      *   COMPLETE(2) → skip (sudah selesai, menunggu claim)
-     *                NOTE: COMPLETE bisa datang dari getReward.js mock-init.
+     *                NOTE: COMPLETE bisa datang dari getReward.js auto-init.
      *                Kita HORMATI state ini — jangan overwrite.
      *   DEFAULT(0) → cek level → DOING(1) jika level cukup
      *   DOING(1)   → increment curCount → COMPLETE(2) jika curCount >= targetCount
@@ -1284,10 +1284,10 @@
         }
 
         // ═══ Skip kalau sudah COMPLETE atau FINISH ═══
-        // Hormati state dari getReward.js (mock COMPLETE) atau dari claim (FINISH)
+        // Hormati state dari getReward.js (auto COMPLETE) atau dari claim (FINISH)
         if (prevState === TASK_STATE_COMPLETE) {
             log.details('ARENA_START', ['dailyTask', 'Task ' + matchedTaskId +
-                ' already COMPLETE (possibly from getReward mock-init), waiting for claim']);
+                ' already COMPLETE (possibly from getReward auto-init), waiting for claim']);
             return null;
         }
         if (prevState === TASK_STATE_FINISH) {
@@ -1707,14 +1707,14 @@
                 log.warn('SIM', 'playerHeros not found in savedData, cannot build player battle data');
             }
 
-            // --- BYPASS: Selalu MENANG (mock server) ---
+            // --- BYPASS: Selalu MENANG (server) ---
             // ROOT CAUSE: simulateBattle terlalu sederhana vs client Egret battle engine
             //   → hasil sering beda (visual menang tapi server bilang kalah).
             //   Client L63594: var c = t._battleResult → pakai nilai server SEBELUM battle animation.
             // FIX: Hardcode WIN. Rank naik/tetap ditangani logic di bawah.
             var battleResult = 0;
 
-            log.info('SIM', 'BYPASS — always WIN (mock server)');
+            log.info('SIM', 'BYPASS — always WIN (server)');
 
             // ═══ COMPUTE NEW RANK + UPDATE SERVER STATE ═══
             var newRank;

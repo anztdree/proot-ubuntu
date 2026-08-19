@@ -412,7 +412,7 @@
             state._curEnemy = 1;
             // ⚠️ JANGAN set haveBeatLastLessonToday = true!
             // L108427: haveBeatLastLessonToday=true → tombol battle DISABLED → STUCK!
-            // Tidak ada daily reset mechanism di mock server.
+            // Tidak ada daily reset mechanism di server.
             // Biarkan false agar user bisa battle lagi.
 
             log.info('CELLGAME_RESULT', 'Level advance: LV' + curLevel + ' → LV' + newLevel

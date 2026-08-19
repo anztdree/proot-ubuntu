@@ -254,7 +254,7 @@
 
         // FIX BUG 8/11: Full daily reset
         if (savedData._taskProgress._dailyDate !== today) {
-            // Re-init all daily tasks (mock COMPLETE) lalu override 6121
+            // Re-init all daily tasks (auto COMPLETE) lalu override 6121
             var dailyConfig = taskDailyCfg;
             savedData._taskProgress._daily = {};
             for (var id in dailyConfig) {

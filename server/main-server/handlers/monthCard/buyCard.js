@@ -762,7 +762,7 @@
         //
         // payToSdk (L77138-77139):
         //   TSBrowser.executeFunction("paySdk", e)
-        //   In mock: no SDK → fails silently, but payFinish already delivered goods
+        //   No SDK → fails silently, but payFinish already delivered goods
         // ============================================================
 
         var prePayData = {

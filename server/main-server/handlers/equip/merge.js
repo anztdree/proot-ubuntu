@@ -70,7 +70,7 @@
  *  Client tidak punya task increment — 100% server-side.
  *  1. Daily #6108 (merge, taskPara1:1)
  *  2. Main #6026 (mergeQuality, taskPara1:1, levelNeeded:23) + BUG2 fix
- *  3. Achievement — TIDAK di sini (mock oleh task/getReward.js)
+ *  3. Achievement — TIDAK di sini (auto by task/getReward.js)
  */
 
 (function () {

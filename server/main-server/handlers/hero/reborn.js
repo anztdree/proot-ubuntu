@@ -1478,7 +1478,7 @@
             response._addHeroes = addHeroes;
         }
 
-        // _linkHeroes is intentionally omitted for mock server.
+        // _linkHeroes is intentionally omitted for server.
         // Client code checks: n._linkHeroes && ... → gracefully handles undefined
 
         log.details('response', [

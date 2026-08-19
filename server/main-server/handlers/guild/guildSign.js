@@ -584,15 +584,15 @@
         // Draft server uses simulated reasonable balance.
         // ═══════════════════════════════════════════════════════════
 
-        // Simulated current guildCoin balance (dummy value)
-        var dummyGuildCoinBalance = 5000;
+        // Simulated current guildCoin balance (stub value)
+        var guildCoinBalance = 5000;
 
         // Build _items object — REWARD ONLY, no cost items!
         // Using bracket notation (ES5 compatible, NOT computed property names)
         var items = {};
         items[reg.rewardID] = {
             _id: reg.rewardID,
-            _num: dummyGuildCoinBalance + reg.rewardNum  // remaining after addition
+            _num: guildCoinBalance + reg.rewardNum  // remaining after addition
         };
 
         var changeInfo = {
@@ -682,7 +682,7 @@
             ' logType=' + logType + ' (' + (logType === GUILD_LOG_TYPE.GOLD_SIGN ? 'GOLD_SIGN' : logType === GUILD_LOG_TYPE.DIAMOND_SIGN ? 'DIAMOND_SIGN' : 'OTHER') + ')' +
             (result.leveledUp ? ' LEVEL_UP!' : ''));
         log.details('_changeInfo._items', [
-            ['reward(guildCoin ' + reg.rewardID + ')', 'remaining=' + (dummyGuildCoinBalance + reg.rewardNum)]
+            ['reward(guildCoin ' + reg.rewardID + ')', 'remaining=' + (guildCoinBalance + reg.rewardNum)]
         ]);
         log.details('_guildLog[0]', [
             ['_time', String(guildLog[0]._time)],

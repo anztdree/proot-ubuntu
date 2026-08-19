@@ -80,7 +80,7 @@
  *
  * _linkHeroes format: [{ hero, basicAttr, totalAttr }, ...]
  *   → Used when decomposed hero was in a resonance link
- *   → Omitted for mock server (client handles gracefully with && check)
+ *   → Omitted for server (client handles gracefully with && check)
  *
  * ============================================================
  * CONFIG FILES

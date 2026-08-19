@@ -1610,7 +1610,7 @@
         // ── Download reward ──
         // L114814-114822: guarded
 
-        // r.userDownloadReward = REMOVED — download reward UI tidak digunakan di mock server
+        // r.userDownloadReward = REMOVED — download reward UI tidak digunakan di server
         //   Client L77652: if(e.userDownloadReward) { ... set userDownloadModel }
         //   Client L168106: userDownloadModel && downloadAward[1].isWork && n.push(DOWNLOADREWARD)
         //   Dengan field ini tidak ada, userDownloadModel = undefined → tab TIDAK muncul.
@@ -1694,7 +1694,7 @@
         // ── Shop & misc ──
 
         r.shopNewHeroes = {};  // ⚠️ L114851
-        // r.questionnaires = REMOVED — survey/questionnaire UI tidak digunakan di mock server
+        // r.questionnaires = REMOVED — survey/questionnaire UI tidak digunakan di server
         //   Client L168106: getQuestData() && n.push(ACTIVITY_CYCLE.QUESTION)
         //   Dengan field ini tidak ada, getQuestData() = undefined → tab TIDAK muncul.
 
@@ -2121,7 +2121,7 @@
     //    4. Store _calHangupTime for retrieve system
     //
     //  NOTE: In a full implementation, the server would compute actual
-    //  lesson rewards from lesson.json. For the mock server, we just
+    //  lesson rewards from lesson.json. For the server, we just
     //  track the time and tick count — the actual reward item generation
     //  happens when the client calls the retrieve handler.
 
@@ -2580,9 +2580,9 @@
                     //   Client L157624-157627: getBattleTime() = AllRefreshCount.arenaAttackTimes + "/" + constant[1].arenaAttackTimes
                     //   Client L63595: battle → AllRefreshCount.arenaAttackTimes-- (IN-MEMORY ONLY, not sent to server)
                     // WHY 0: deepMerge "saved WINS" → if savedData.scheduleInfo._arenaAttackTimes = 0 (stale),
-                    //   it stays 0. Mock server doesn't track arena battle decrements,
+                    //   it stays 0. Server doesn't track arena battle decrements,
                     //   so saved value should always be 5, but corrupted/old data may have 0.
-                    // FIX: Force to default 5 for mock server (real server would track decrements).
+                    // FIX: Force to default 5 for server (real server would track decrements).
                     if (savedData.scheduleInfo) {
                         savedData.scheduleInfo._arenaAttackTimes = 5;
                     }

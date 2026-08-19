@@ -71,12 +71,12 @@
     var db = window.MainServerDB;
 
     // ════════════════════════════════════════════════════════════════
-    // DUMMY HERO ATTRS — 42 slots (id 0–41) representing full
+    // HERO ATTRS — 42 slots (id 0–41) representing full
     // totalAttr set for a hero. Real server recalculates per hero
     // after tech level changes. We return zeroed set as stub.
     // ════════════════════════════════════════════════════════════════
 
-    function buildDummyHeroAttrs() {
+    function buildHeroAttrs() {
         var items = {};
         for (var i = 0; i <= 41; i++) {
             items[String(i)] = { _id: i, _num: 0 };
@@ -110,7 +110,7 @@
         // ═══════════════════════════════════════════════════════════
         var attrs = {
             _items: {
-                "0": { _id: 0, _num: 100 }    // HP attr (dummy)
+                "0": { _id: 0, _num: 100 }    // HP attr (stub)
             }
         };
 
@@ -140,11 +140,11 @@
         // _updateAttrs: dict {heroId: {"_items": {"0":{"_id":0,"_num":...}, ...}}}
         //   Full 42-attr set per hero (0-41). Client replaces hero totalAttr.
         //   Used by HerosManager.setTotalAttrsByHeroIdNotChange
-        //   Stub: return dummy attrs for requesting user only.
+        //   Stub: return attrs for requesting user only.
         // ═══════════════════════════════════════════════════════════
         var updateAttrs = {};
         updateAttrs[userId] = {
-            _items: buildDummyHeroAttrs()
+            _items: buildHeroAttrs()
         };
 
         // ═══════════════════════════════════════════════════════════

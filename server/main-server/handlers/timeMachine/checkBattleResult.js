@@ -12,7 +12,7 @@
  *  TUGAS UTAMA:
  *    1. VALIDASI request (userId, machineId, battleId)
  *    2. LOAD slot data dari DB → ambil level → resolve rewards
- *    3. ALWAYS WIN (mock server)
+ *    3. ALWAYS WIN (server)
  *    4. RESOLVE rewards dari timeTravel[level].award1-4 → timeTravelAward.json
  *    5. UPDATE user item balances (totalProps._items)
  *    6. SAVE ke DB (shard update totalProps)
@@ -392,7 +392,7 @@
         }
 
         // ═══════════════════════════════════════════════════════
-        //  5. MOCK SERVER → ALWAYS WIN
+        //  5. AUTO WIN → ALWAYS WIN
         // ═══════════════════════════════════════════════════════
 
         var battleResult = 0;  // 0 = WIN
