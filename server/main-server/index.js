@@ -25,7 +25,7 @@
 
 (function () {
     'use strict';
-    console.log('%c[MAIN-SERVER] Loading...', 'color:#00897B;font-weight:bold;');
+    console.log('%c[MAIN-SERVER] Initializing main-server (port 8001)...', 'color:#00897B;font-weight:bold;');
 
     // ═══════════════════════════════════════════════════════
     //  BASE PATH
@@ -627,52 +627,62 @@
         function keys() { return Object.keys(memory); }
 
         function init() {
+            log.info('DB', 'Opening database — db="' + DB_NAME + '" store="' + STORE + '" version=' + DB_VERSION);
             if (window.indexedDB) {
                 try {
                     var request = indexedDB.open(DB_NAME, DB_VERSION);
                     request.onupgradeneeded = function (e) {
                         var db = e.target.result;
                         if (!db.objectStoreNames.contains(STORE)) db.createObjectStore(STORE);
+                        log.info('DB', 'Object store created — "' + STORE + '"');
                     };
 
                     request.onsuccess = function (e) {
                         idb = e.target.result;
                         useIDB = true;
-                        log.info('DB', 'IndexedDB opened');
+                        log.info('DB', 'IndexedDB connection established — db="' + DB_NAME + '"');
 
                         loadAllFromIDB(function (idbKeys) {
                             if (idbKeys.length > 0) {
-                                log.info('DB', 'Loaded ' + idbKeys.length + ' keys from IndexedDB');
+                                log.info('DB', 'Persisted data loaded — ' + idbKeys.length + ' key(s) from "' + STORE + '"');
+                            } else {
+                                log.info('DB', 'No persisted data found — starting fresh');
                             }
 
                             // flush pending writes
-                            for (var i = 0; i < pendingWrites.length; i++) {
-                                writeIDB(pendingWrites[i].key, pendingWrites[i].data);
+                            if (pendingWrites.length > 0) {
+                                log.info('DB', 'Flushing ' + pendingWrites.length + ' pending write(s) queued before DB was ready');
+                                for (var i = 0; i < pendingWrites.length; i++) {
+                                    writeIDB(pendingWrites[i].key, pendingWrites[i].data);
+                                }
+                                pendingWrites = [];
                             }
-                            pendingWrites = [];
 
+                            if (Object.keys(writesDuringLoad).length > 0) {
+                                log.info('DB', 'Skipped ' + Object.keys(writesDuringLoad).length + ' key(s) overwritten during load (writesDuringLoad)');
+                            }
                             writesDuringLoad = {};
                             ready = true;
-                            log.info('DB', 'Database ready — engine=' + (useIDB ? 'IndexedDB' : 'memory') + ', keys=' + Object.keys(memory).length);
+                            log.info('DB', 'Database ready — engine=IndexedDB, keys=' + Object.keys(memory).length);
                         });
                     };
 
                     request.onerror = function (e) {
                         ready = true;
-                        log.warn('DB', 'IndexedDB open failed — using memory only');
+                        log.warn('DB', 'IndexedDB open failed (db="' + DB_NAME + '") — falling back to memory-only mode');
                     };
 
                     request.onblocked = function () {
-                        log.warn('DB', 'IndexedDB open blocked — retrying...');
+                        log.warn('DB', 'IndexedDB open blocked (db="' + DB_NAME + '") — another tab may be using it, retrying...');
                     };
 
                 } catch (err) {
                     ready = true;
-                    log.warn('DB', 'IndexedDB not usable — using memory only');
+                    log.warn('DB', 'IndexedDB not usable — ' + (err.message || err.name || 'unknown error') + ' — falling back to memory-only mode');
                 }
             } else {
                 ready = true;
-                log.warn('DB', 'IndexedDB not supported — using memory only');
+                log.warn('DB', 'IndexedDB not supported by this browser — falling back to memory-only mode');
             }
         }
 
@@ -733,6 +743,7 @@
     })();
 
     _dbEngine.init();
+    log.info('DB', 'Init complete — engine=' + (_dbEngine.isUsingIDB() ? 'IndexedDB' : 'memory') + ', keys=' + _dbEngine.getMemorySize());
 
     MainServer.db = {
         _prefix: '',
@@ -815,22 +826,26 @@
             delete MainServer._pendingCallbacks[key];
             for (var i = 0; i < cbs.length; i++) cbs[i]();
         }
-        log.debug('REG', key);
+        log.debug('REG', key + ' — handler function registered');
     };
 
     MainServer.loadHandlerScript = function (type, action, onReady) {
         var key = type + '/' + action;
 
-        if (MainServer._loadedHandlers[key] === 'registered') { onReady(); return; }
+        if (MainServer._loadedHandlers[key] === 'registered') {
+            log.debug('LOAD', key + ' — already cached');
+            onReady(); return;
+        }
 
         if (MainServer._loadedHandlers[key] === 'loading') {
+            log.debug('LOAD', key + ' — already loading, queuing callback');
             if (!MainServer._pendingCallbacks[key]) MainServer._pendingCallbacks[key] = [];
             MainServer._pendingCallbacks[key].push(onReady);
             return;
         }
 
         MainServer._loadedHandlers[key] = 'loading';
-        log.debug('LOAD', key);
+        log.debug('LOAD', key + ' — loading script: handlers/' + type + '/' + action + '.js');
 
         var bustV = Date.now();
         var script = document.createElement('script');
@@ -841,14 +856,14 @@
                 MainServer._loadedHandlers[key] = 'registered';
             } else {
                 delete MainServer._loadedHandlers[key];
-                log.warn('LOAD', 'file loaded but NOT registered: ' + key + ' — will retry');
+                log.warn('LOAD', key + ' — script loaded but handler did NOT call registerHandler — will retry on next request');
             }
             onReady();
             script.parentNode && script.parentNode.removeChild(script);
         };
         script.onerror = function () {
             delete MainServer._loadedHandlers[key];
-            log.warn('LOAD', 'file not found: ' + key + ' — will retry');
+            log.warn('LOAD', key + ' — script file not found (404) — will retry on next request');
             onReady();
         };
         (document.head || document.documentElement).appendChild(script);
@@ -866,6 +881,8 @@
         var key = type + '/' + action;
         _stats.total++;
 
+        log.debug('ROUTE', 'incoming → ' + (key || '(empty)'));
+
         if (!type || !action) {
             _stats.unknown++;
             log.handlerResult({
@@ -881,10 +898,11 @@
 
         var handler = MainServer.handlers[key];
         if (typeof handler === 'function') {
+            log.debug('ROUTE', key + ' → handler cached, executing');
             executeHandler(key, handler, request, originalCallback);
         } else {
             _stats.lazy++;
-            log.info('LOAD', type + '/' + action);
+            log.info('LOAD', key + ' — handler not cached, lazy-loading script...');
             MainServer.loadHandlerScript(type, action, function () {
                 var h = MainServer.handlers[key];
                 if (typeof h === 'function') {
@@ -974,20 +992,25 @@
 
         var self = this;
         var delay = MainServer.randomDelay();
+        var sockId = this.id;
 
-        log.info('SOCK', '#' + _sockCounter + ' connecting...');
+        log.info('SOCK', '#' + _sockCounter + ' (' + sockId + ') connecting... (delay ~' + delay + 'ms)');
 
         setTimeout(function () {
-            if (self.disconnected) { log.warn('SOCK', '#' + _sockCounter + ' disconnected before connect'); return; }
+            if (self.disconnected) { log.warn('SOCK', '#' + _sockCounter + ' (' + sockId + ') disconnected before connect completed'); return; }
             self.connected = true;
             self._fire('connect');
-            log.info('SOCK', '#' + _sockCounter + ' connected (' + delay + 'ms)');
+            log.info('SOCK', '#' + _sockCounter + ' (' + sockId + ') connected — ' + delay + 'ms latency');
 
             if (MainServer.config.verifyEnable) {
+                log.info('TEA', '#' + _sockCounter + ' (' + sockId + ') starting TEA challenge...');
                 setTimeout(function () {
-                    if (self.disconnected || !self.connected) { log.warn('SOCK', '#' + _sockCounter + ' gone before verify'); return; }
+                    if (self.disconnected || !self.connected) { log.warn('SOCK', '#' + _sockCounter + ' (' + sockId + ') disconnected before verify could start'); return; }
                     self._startVerify();
                 }, 50);
+            } else {
+                self._verified = true;
+                log.info('TEA', '#' + _sockCounter + ' (' + sockId + ') verify disabled — marking as verified');
             }
         }, delay);
     }
@@ -995,13 +1018,18 @@
     MainSocket.prototype._startVerify = function () {
         var challenge = MainServer.generateChallenge();
         this._challenge = challenge;
-        log.detail('challenge', challenge);
+        log.info('TEA', '#' + _sockCounter + ' (' + this.id + ') challenge sent → client must encrypt with key="' + MainServer.config.teaKey + '"');
+        log.details('TEA', [
+            ['socketId', this.id],
+            ['challenge', challenge]
+        ]);
         this._fire('verify', challenge);
     };
 
     MainSocket.prototype._verifyResponse = function (encrypted, callback) {
+        var sockId = this.id;
         if (!this._challenge) {
-            log.warn('TEA', '#' + _sockCounter + ' no challenge stored');
+            log.warn('TEA', '#' + _sockCounter + ' (' + sockId + ') verify response received but no challenge was stored — rejecting');
             if (typeof callback === 'function') callback({ ret: 1 });
             return;
         }
@@ -1010,14 +1038,14 @@
             var decrypted = tea.decrypt(encrypted, MainServer.config.teaKey);
             if (decrypted === this._challenge) {
                 this._verified = true;
-                log.info('TEA', '#' + _sockCounter + ' verified');
+                log.info('TEA', '#' + _sockCounter + ' (' + sockId + ') verify SUCCESS — decryption matched challenge');
                 if (typeof callback === 'function') callback({ ret: 0 });
             } else {
-                log.warn('TEA', '#' + _sockCounter + ' verify mismatch');
+                log.warn('TEA', '#' + _sockCounter + ' (' + sockId + ') verify FAILED — decrypted value does not match challenge');
                 if (typeof callback === 'function') callback({ ret: 1 });
             }
         } catch (err) {
-            log.error('TEA', '#' + _sockCounter + ' decrypt error: ' + err.message);
+            log.error('TEA', '#' + _sockCounter + ' (' + sockId + ') decrypt error — ' + (err.name || 'Error') + ': ' + err.message);
             if (typeof callback === 'function') callback({ ret: 1 });
         }
     };
@@ -1040,15 +1068,17 @@
         this._emitCount++;
         if (event === 'verify' && !this._verified) { this._verifyResponse(data, callback); return; }
         if (event === 'handler.process') {
+            var routeName = (data && data.type && data.action) ? (data.type + '/' + data.action) : '(unknown)';
             if (!this._verified && MainServer.config.verifyEnable) {
-                log.warn('SOCK', 'handler.process before verify — rejected');
+                log.warn('SOCK', '(' + this.id + ') handler.process received before TEA verify — rejected (route: ' + routeName + ')');
                 return;
             }
             var self = this;
             var delay = MainServer.randomDelay();
+            log.debug('ROUTE', '(' + this.id + ') handler.process → ' + routeName + ' (delay ~' + delay + 'ms)');
             setTimeout(function () {
-                if (!self.connected) { log.warn('SOCK', 'socket disconnected before handler'); return; }
-                if (!data || typeof data !== 'object') { log.warn('SOCK', 'invalid data'); return; }
+                if (!self.connected) { log.warn('SOCK', '(' + self.id + ') socket disconnected before handler could execute (route: ' + routeName + ')'); return; }
+                if (!data || typeof data !== 'object') { log.warn('SOCK', '(' + self.id + ') handler.process received invalid payload — expected object, got ' + typeof data + ' (event=handler.process)'); return; }
                 MainServer.currentSocket = self;
                 dispatch(data, function (envelope) {
                     var route = data.type + '/' + data.action;
@@ -1069,6 +1099,7 @@
     };
 
     MainSocket.prototype.disconnect = function () {
+        log.info('SOCK', '(' + this.id + ') disconnecting (source: client)');
         this.connected = false;
         this.disconnected = true;
         this._verified = false;
@@ -1161,6 +1192,7 @@
         }
     };
     ServerSocket.prototype.disconnect = function () {
+        log.info('SOCK', '(' + this.id + ') disconnecting (source: io server disconnect)');
         this.connected = false;
         this.disconnected = true;
         this._fire('disconnect', 'io server disconnect');
@@ -1188,16 +1220,17 @@
         window.io.connect = function (url, options) {
             var serverType = getServerType(url);
             if (serverType === 'main') {
-                log.info('IO', 'routing → MAIN SERVER  url: ' + url);
+                log.info('IO', 'io.connect("' + url + '") → routed to MainSocket (port 8001)');
                 return new MainSocket();
             }
             if (serverType === 'chat' || serverType === 'dungeon') {
-                log.info('IO', 'routing → ' + serverType.toUpperCase() + ' SERVER  url: ' + url);
+                log.info('IO', 'io.connect("' + url + '") → routed to ServerSocket (' + serverType + ', port ' + (serverType === 'chat' ? '8002' : '8004') + ')');
                 return new ServerSocket();
             }
+            log.debug('IO', 'io.connect("' + url + '") → passthrough to original io.connect (unrecognized port)');
             return originalConnect.call(window.io, url, options);
         };
-        log.info('IO', 'router installed (main+chat+dungeon)');
+        log.info('IO', 'Socket router installed — routing ports: 8001 (main), 8002 (chat), 8004 (dungeon)');
         return true;
     }
 
@@ -1232,7 +1265,7 @@
             if (++pollCount > 300) {
                 clearInterval(pollTimer);
                 if (_observer) { _observer.disconnect(); _observer = null; }
-                log.error('IO', 'window.io NOT found after 30s');
+                log.error('IO', 'window.io NOT found after 30s — socket routing cannot be installed, io.connect calls will use original behavior');
                 return;
             }
             if (pollCount % 50 === 0) log.debug('IO', 'waiting for io... (' + (pollCount * 100) + 'ms)');
@@ -1257,16 +1290,18 @@
             }, 60000);
         }
 
-        log.info('BOOT', 'Ready');
-        log.details([
+        log.info('BOOT', 'Main-server initialization complete');
+        log.importantDetails('BOOT', [
             ['port', MainServer.config.mainServerUrl],
             ['chat', MainServer.config.chatServerUrl],
             ['dungeon', MainServer.config.dungeonServerUrl],
-            ['tea', MainServer.config.verifyEnable ? 'ON' : 'OFF'],
+            ['tea', MainServer.config.verifyEnable ? 'ON (key="' + MainServer.config.teaKey + '")' : 'OFF'],
             ['openDate', new Date(SERVER_OPEN_DATE).toISOString().slice(0, 10) + ' (day ' + MainServer.getDaysSinceOpen() + ')'],
-            ['resetHour', RESET_HOUR + ':00'],
-            ['routing', 'type/action  handlers: 0 (lazy)'],
-            ['logLevel', log.getLevel()]
+            ['resetHour', RESET_HOUR + ':00 (server local time)'],
+            ['db', _dbEngine.isUsingIDB() ? 'IndexedDB ("main-server"/"userData")' : 'memory-only'],
+            ['handlers', '0 registered (lazy-loaded on first request)'],
+            ['logLevel', log.getLevel()],
+            ['router', _installed ? 'installed' : 'waiting for window.io']
         ]);
     }
 

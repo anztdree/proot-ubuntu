@@ -11,7 +11,7 @@
  *   5. Action loader (actions/*.js)
  *   6. Router/Dispatcher (type='chat' validation)
  *   7. ChatSocket class (verifyEnable=TRUE, TEA handshake)
- *   8. io.connect() routing (port 8002 → ChatSocket)
+ *   8. io.connect() override (intercept port 8002)
  *
  * Actions di folder actions/. PHP/MySQL TIDAK digunakan — semua via IndexedDB.
  * User profile dibaca dari login-server IndexedDB (login-server/loginInfo).
@@ -1127,15 +1127,15 @@
     window.ChatServer = ChatServer;
 
     // ═══════════════════════════════════════════════════════════════════
-    // 8. INIT — io.connect routing
+    // 8. INIT — io.connect override
     // ═══════════════════════════════════════════════════════════════════
-    // Route io.connect() untuk chat-server URL.
+    // Patch io.connect() untuk intercept chat-server URL.
     // Chat URL bersifat DYNAMIC — datang dari main-server via registChat.
-    // Routing berdasarkan: port 8002 atau chatServerUrl dari config.
+    // Intercept berdasarkan: port 8002 atau chatServerUrl dari config.
 
     function init() {
         var chatServerUrl = ChatServer.config.chatServerUrl;
-        var installed = false;
+        var patched = false;
 
         function isChatUrl(url) {
             if (!url) return false;
@@ -1144,13 +1144,13 @@
             return false;
         }
 
-        function installSocketRouting() {
-            if (installed) return;
+        function patchIoConnect() {
+            if (patched) return;
             if (!window.io || typeof window.io.connect !== 'function') return false;
 
-            // Simpan reference ke CURRENT io.connect
+            // Simpan reference ke CURRENT io.connect (bisa sudah di-patch login-server)
             var currentConnect = window.io.connect;
-            installed = true;
+            patched = true;
 
             window.io.connect = function (url, options) {
                 if (isChatUrl(url)) {
@@ -1188,7 +1188,7 @@
                 return currentConnect.call(window.io, url, options);
             };
 
-            log.info('TIMER', 'io.connect() routing installed — CHAT SERVER READY');
+            log.info('TIMER', 'io.connect() patched — CHAT SERVER READY');
             return true;
         }
 
@@ -1196,7 +1196,7 @@
         log.info('TIMER', 'Waiting for window.io...');
         var pollCount = 0;
         var pollTimer = setInterval(function () {
-            if (installed) { clearInterval(pollTimer); return; }
+            if (patched) { clearInterval(pollTimer); return; }
             if (++pollCount > 300) {
                 clearInterval(pollTimer);
                 log.error('TIMER', 'window.io NOT found after 30s (300 polls)');
@@ -1209,15 +1209,15 @@
             if (pollCount % 50 === 0) {
                 log.debug('TIMER', 'Still waiting... (' + (pollCount * 100) + 'ms, ' + pollCount + ' polls)');
             }
-            if (installSocketRouting()) clearInterval(pollTimer);
+            if (patchIoConnect()) clearInterval(pollTimer);
         }, 100);
 
         // ── MutationObserver fallback ──
         if (typeof MutationObserver !== 'undefined') {
             var observer = new MutationObserver(function () {
-                if (!installed && window.io && typeof window.io.connect === 'function') {
+                if (!patched && window.io && typeof window.io.connect === 'function') {
                     log.info('TIMER', 'MutationObserver detected window.io');
-                    installSocketRouting();
+                    patchIoConnect();
                     observer.disconnect();
                 }
             });
