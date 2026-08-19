@@ -5,8 +5,8 @@
  * Titik masuk tunggal. Berisi:
  *   1. Logger (inline, self-contained)
  *   2. Config + MESSAGE_KIND + Helpers
- *   3. IndexedDB (chatData: chatData)
- *      — nama dari ts.chatData di main.min.js
+ *   3. IndexedDB (chat-server: chat)
+ *      — store 'chat' dari type:"chat" di main.min.js
  *   4. Room & Notify management (in-memory)
  *   5. Action loader (actions/*.js)
  *   6. Router/Dispatcher (type='chat' validation)
@@ -365,16 +365,16 @@
     // ═══════════════════════════════════════════════════════════════════
     // 3. INDEXEDDB
     // ═══════════════════════════════════════════════════════════════════
-    // Database: chatData
-    //   — dari ts.chatData di main.min.js (in-memory chat storage game)
-    // Store: chatData
+    // Database: chat-server
+    //   — dari type:"chat" di main.min.js
+    // Store: chat
     //   — semua chat message, index by roomId dan _time
     //
     // Catatan: game asli TIDAK pakai IndexedDB untuk chat (murni in-memory
     // ts.chatData + server-side). Kita pakai IndexedDB untuk persistence
     // offline. User profile dari login-server IndexedDB (login-server/loginInfo).
 
-    var DB_NAME = 'chatData';
+    var DB_NAME = 'chat-server';
     var DB_VERSION = 1;
     var _idb = null;
 
@@ -385,9 +385,9 @@
             r.onupgradeneeded = function (e) {
                 var db = e.target.result;
 
-                // chatData — semua chat message (satu-satunya store)
-                if (!db.objectStoreNames.contains('chatData')) {
-                    var store = db.createObjectStore('chatData', { keyPath: 'id', autoIncrement: true });
+                // chat — semua chat message (satu-satunya store)
+                if (!db.objectStoreNames.contains('chat')) {
+                    var store = db.createObjectStore('chat', { keyPath: 'id', autoIncrement: true });
                     store.createIndex('roomId', 'roomId', { unique: false });
                     store.createIndex('_time', '_time', { unique: false });
                 }
@@ -623,7 +623,7 @@
                 console.table(handlerRows);
             }
             console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCBE STORAGE \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;font-weight:bold;');
-            console.log('%c  DB: ' + DB_NAME + ' | Store: chatData | basePath: ' + basePath, 'color:#4A148C;opacity:0.7;');
+            console.log('%c  DB: ' + DB_NAME + ' | Store: chat | basePath: ' + basePath, 'color:#4A148C;opacity:0.7;');
             console.groupEnd();
 
             init();

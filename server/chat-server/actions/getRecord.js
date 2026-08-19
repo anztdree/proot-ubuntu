@@ -10,7 +10,7 @@
  * startTime = 0 → return all recent messages
  * startTime > 0 → return messages with _time >= startTime
  *
- * Data source: IndexedDB (chatData / chatData)
+ * Data source: IndexedDB (chat-server: chat)
  */
 
 (function () {
@@ -44,7 +44,7 @@
         }
 
         // Query messages dari IndexedDB by roomId
-        db.getAllByIndex('chatData', 'roomId', roomId).then(function (allMsgs) {
+        db.getAllByIndex('chat', 'roomId', roomId).then(function (allMsgs) {
             var record;
 
             if (startTime > 0) {

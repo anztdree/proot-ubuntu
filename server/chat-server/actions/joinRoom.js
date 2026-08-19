@@ -18,7 +18,7 @@
  * L114566-114568: worldRoomId join has NO guard → MUST always succeed
  * L114568, L114579, L114590: guild/teamDungeon/team have guards → can fail gracefully
  *
- * Data source: IndexedDB (chatData / chatData)
+ * Data source: IndexedDB (chat-server: chat)
  *   1. Register socket in in-memory room (for Notify broadcast)
  *   2. Query recent messages from IndexedDB
  *   3. Return {_record: [...]}
@@ -68,8 +68,8 @@
         }
 
         // Query recent messages dari IndexedDB
-        // chatData: keyPath = auto-increment id, indexed by roomId
-        db.getAllByIndex('chatData', 'roomId', roomId).then(function (allMsgs) {
+        // chat: keyPath = auto-increment id, indexed by roomId
+        db.getAllByIndex('chat', 'roomId', roomId).then(function (allMsgs) {
             // Take last MAX_RECORDS messages (newest first in storage, reverse for chronological)
             var record = allMsgs.slice(-MAX_RECORDS);
 

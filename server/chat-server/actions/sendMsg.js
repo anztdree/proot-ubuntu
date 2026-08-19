@@ -29,7 +29,7 @@
  *   _id (= userId), _type, _time, _kind, _name, _content, _image, _param,
  *   _headEffect, _headBox, _oriServerId, _serverId, _showMain
  *
- * Data source: IndexedDB (chatData / chatData)
+ * Data source: IndexedDB (chat-server: chat)
  */
 
 (function () {
@@ -99,8 +99,8 @@
                 roomId:       roomId
             };
 
-            // Save ke IndexedDB (chatData store)
-            return db.put('chatData', msgObj).then(function () {
+            // Save ke IndexedDB (chat store)
+            return db.put('chat', msgObj).then(function () {
                 return { msgObj: msgObj, now: now };
             });
         }).then(function (result) {
