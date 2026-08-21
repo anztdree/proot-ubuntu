@@ -23,7 +23,7 @@
     function handleSaveUserEnterInfo(request, callback) {
         log.info('ACTION', 'SaveUserEnterInfo');
 
-        log.info('REQ', 'Request fields from client');
+        log.info('request', 'Request fields from client');
         var keys = Object.keys(request || {});
         for (var i = 0; i < keys.length; i++) {
             var k = keys[i];
@@ -39,7 +39,7 @@
             ['note', 'Analytics event - non-critical, no storage']
         ]);
 
-        log.info('RESP', 'Sending empty response (analytics discarded)');
+        log.info('response', 'Sending empty response (analytics discarded)');
         callback({});
     }
 

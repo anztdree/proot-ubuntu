@@ -185,7 +185,7 @@
                 return _registerCache;
             }
         } catch (e) {
-            log.warn('CHECKIN', 'Failed to load register.json — ' + e.message);
+            log.warn('checkin', 'Failed to load register.json — ' + e.message);
         }
         return {};
     }

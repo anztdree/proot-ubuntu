@@ -29,7 +29,7 @@
     function handleGetServerList(request, callback) {
         log.info('ACTION', '═══════════════ GetServerList ══════════════');
 
-        log.info('REQ', 'Request fields from client');
+        log.info('request', 'Request fields from client');
         var keys = Object.keys(request || {});
         for (var i = 0; i < keys.length; i++) {
             var k = keys[i];
@@ -95,13 +95,13 @@
 
             // Log DETAIL history
             if (history.length > 0) {
-                log.info('RESP', 'History detail (' + history.length + ' entries)');
+                log.info('response', 'History detail (' + history.length + ' entries)');
                 for (var h = 0; h < history.length; h++) {
                     log.detail('history[' + h + ']', String(history[h]));
                 }
             }
 
-            log.info('RESP', 'Sending response to client');
+            log.info('response', 'Sending response to client');
 
             callback({
                 serverList: servers,

@@ -42,7 +42,7 @@
             ]);
         }
 
-        log.info('RESP', 'leaveRoom → success (in-memory only)');
+        log.info('response', 'leaveRoom → success (in-memory only)');
         callback({});
     }
 

@@ -670,7 +670,7 @@
         //  SAVE USER DATA
         // ============================================================
         db._set(storageKey, savedData);
-        log.info('DB', 'User data saved');
+        log.info('database', 'User data saved');
 
         // ══════════════════════════════════════════════════════════
         //  SEND payFinish NOTIFY
@@ -714,7 +714,7 @@
         };
 
         MainServer.log.notify('payFinish', payFinishPayload);
-        log.info('NOTIFY', 'payFinish sent — _code=0, _goodType=' + GOOD_TYPE_MONTH_CARD +
+        log.info('notification', 'payFinish sent — _code=0, _goodType=' + GOOD_TYPE_MONTH_CARD +
             ', _goodId=' + cardType + ', _totalPrice=$' + priceUSD +
             ', heroes=' + Object.keys(addHeroes).length +
             ', items=' + Object.keys(changeItems).length);
@@ -734,7 +734,7 @@
         };
 
         MainServer.log.notify('monthCard', monthCardNotifyPayload);
-        log.info('NOTIFY', 'monthCard broadcast sent — cardType=' + cardType);
+        log.info('notification', 'monthCard broadcast sent — cardType=' + cardType);
 
         // ══════════════════════════════════════════════════════════
         //  SEND vipLevel NOTIFY (if VIP level changed)
@@ -751,7 +751,7 @@
             };
 
             MainServer.log.notify('vipLevel', vipLevelPayload);
-            log.info('NOTIFY', 'vipLevel sent — ' + oldVipLevel + ' → ' + newVipLevel);
+            log.info('notification', 'vipLevel sent — ' + oldVipLevel + ' → ' + newVipLevel);
         }
 
         // ══════════════════════════════════════════════════════════

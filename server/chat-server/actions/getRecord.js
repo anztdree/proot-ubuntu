@@ -59,7 +59,7 @@
                 record = allMsgs;
             }
 
-            log.info('RESP', 'getRecord → ' + record.length + ' messages');
+            log.info('response', 'getRecord → ' + record.length + ' messages');
             log.details([
                 ['roomId', roomId],
                 ['startTime', String(startTime)],
@@ -69,7 +69,7 @@
 
             callback({ _record: record });
         }).catch(function (e) {
-            log.error('DB', 'getRecord → IndexedDB FAILED');
+            log.error('database', 'getRecord → IndexedDB FAILED');
             log.alwaysDetails([
                 ['roomId', roomId],
                 ['errorName', e.name || '(unknown)'],

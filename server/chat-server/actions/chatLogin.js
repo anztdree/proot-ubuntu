@@ -53,11 +53,11 @@
                 ['source', 'IndexedDB (login-server/loginInfo)']
             ]);
 
-            log.info('RESP', 'chatLogin → success');
+            log.info('response', 'chatLogin → success');
             callback({});
         }).catch(function (e) {
             // IndexedDB gagal — tetap sukses, client tidak terpengaruh
-            log.error('DB', 'chatLogin → getUserInfo failed, continuing');
+            log.error('database', 'chatLogin → getUserInfo failed, continuing');
             log.alwaysDetails([
                 ['userId', userId],
                 ['errorName', e.name || '(unknown)'],

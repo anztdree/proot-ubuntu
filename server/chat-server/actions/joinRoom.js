@@ -73,7 +73,7 @@
             // Take last MAX_RECORDS messages (newest first in storage, reverse for chronological)
             var record = allMsgs.slice(-MAX_RECORDS);
 
-            log.info('RESP', 'joinRoom → ' + record.length + ' messages loaded');
+            log.info('response', 'joinRoom → ' + record.length + ' messages loaded');
             log.details([
                 ['roomId', roomId],
                 ['totalInDB', String(allMsgs.length)],
@@ -96,7 +96,7 @@
 
             callback({ _record: record });
         }).catch(function (e) {
-            log.error('DB', 'joinRoom → IndexedDB FAILED, returning empty record');
+            log.error('database', 'joinRoom → IndexedDB FAILED, returning empty record');
             log.alwaysDetails([
                 ['roomId', roomId],
                 ['errorName', e.name || '(unknown)'],

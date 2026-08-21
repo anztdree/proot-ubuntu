@@ -24,11 +24,11 @@
     // PRE-LOG (sebelum logger siap, pakai console.log biasa + CSS)
     // ═══════════════════════════════════════════════════════════════════
     function preLog(msg) {
-        console.log('%c[CHAT-SERVER] ' + msg, 'color:#7B1FA2;font-weight:bold;');
+        console.log('%c[CHAT-SERVER] ' + msg, 'color:#7B1FA2;');
     }
 
     function preError(msg) {
-        console.log('%c[CHAT-SERVER] ' + msg, 'color:#F44336;font-weight:bold;');
+        console.log('%c[CHAT-SERVER] ' + msg, 'color:#F44336;');
     }
 
     // ═══════════════════════════════════════════════════════════════════
@@ -85,55 +85,78 @@
 
         // Emoji per context
         var CTX_EMOJI = {
-            BOOT:      '\uD83D\uDCC2',
-            SOCK:      '\uD83D\uDD0C',
-            IO:        '\uD83C\uDF10',
-            ROUTE:     '\uD83D\uDD00',
-            EMIT:      '\uD83D\uDCE8',
-            REQ:       '\uD83D\uDCE5',
-            RESP:      '\uD83D\uDCE4',
-            ENV:       '\uD83D\uDCE6',
-            FALLBACK:  '\uD83D\uDEE1\uFE0F',
-            TIMER:     '\u23F3',
-            CONFIG:    '\u2699\uFE0F',
-            DELAY:     '\u23F1\uFE0F',
-            TOKEN:     '\uD83D\uDD11',
-            STORAGE:   '\uD83D\uDCBE',
-            ACTION:    '\uD83C\uDFAF',
-            SUCCESS:   '\u2705',
-            FAIL:      '\u274C',
-            WARN_EMOJI:'\u26A0\uFE0F',
-            HINT:      '\uD83D\uDCA1',
-            LINK:      '\uD83D\uDD17',
-            DATA:      '\uD83D\uDCCA',
-            ID:        '\uD83C\uDD94',
-            EVENT:     '\uD83D\uDCE1',
-            LOAD:      '\uD83D\uDCE6',
-            REGISTRY:  '\uD83D\uDCCB',
-            POLL:      '\u23F3',
-            TEA:       '\uD83C\uDF75',
-            NOTIFY:    '\uD83D\uDD14',
-            MSG:       '\u2709\uFE0F',
-            JOIN:      '\uD83C\uDFAA',
-            LEAVE:     '\uD83D\uDCAA',
-            CHAT:      '\uD83D\uDCAC',
-            DB:        '\uD83D\uDDA3'
+            startup:   '\uD83D\uDCC2',
+            connection:'\uD83D\uDD0C',
+            network:   '\uD83C\uDF10',
+            handler:   '\uD83D\uDD00',
+            emit:      '\uD83D\uDCE8',
+            request:   '\uD83D\uDCE5',
+            response:  '\uD83D\uDCE4',
+            environment:'\uD83D\uDCE6',
+            fallback:  '\uD83D\uDEE1\uFE0F',
+            timer:     '\u23F3',
+            config:    '\u2699\uFE0F',
+            delay:     '\u23F1\uFE0F',
+            token:     '\uD83D\uDD11',
+            storage:   '\uD83D\uDCBE',
+            action:    '\uD83C\uDFAF',
+            success:   '\u2705',
+            fail:      '\u274C',
+            warning:   '\u26A0\uFE0F',
+            hint:      '\uD83D\uDCA1',
+            link:      '\uD83D\uDD17',
+            data:      '\uD83D\uDCCA',
+            id:        '\uD83C\uDD94',
+            event:     '\uD83D\uDCE1',
+            loader:    '\uD83D\uDCE6',
+            registry:  '\uD83D\uDCCB',
+            poll:      '\u23F3',
+            encryption:'\uD83C\uDF75',
+            notification:'\uD83D\uDD14',
+            message:   '\u2709\uFE0F',
+            join:      '\uD83C\uDFAA',
+            leave:     '\uD83D\uDCAA',
+            chat:      '\uD83D\uDCAC',
+            database:  '\uD83D\uDDA3'
         };
 
         // ═══════════════════════════════════════════════════════════════
         // Emit functions
         // ═══════════════════════════════════════════════════════════════
 
+        // Case-insensitive context lookup (supports both new camelCase and legacy UPPERCASE)
+        function _ctxEmoji(ctx) {
+            var c = ctx || '';
+            if (CTX_EMOJI[c]) return CTX_EMOJI[c];
+            return CTX_EMOJI[c.toUpperCase()] || '\u26AA';
+        }
+
+        // Display name mapping: transforms old UPPERCASE to natural camelCase for log output
+        var DISPLAY_NAME = {
+            'BOOT': 'startup', 'SOCK': 'connection', 'IO': 'network',
+            'ROUTE': 'handler', 'LOAD': 'loader', 'REQ': 'request',
+            'RESP': 'response', 'ENV': 'environment', 'API': 'api',
+            'TEA': 'encryption', 'NTFY': 'notification', 'NOTIFY': 'notification',
+            'CB': 'callback', 'DB': 'database', 'META': 'storage',
+            'REG': 'register', 'MSG': 'message', 'WARN_EMOJI': 'warning'
+        };
+
+        function _displayName(ctx) {
+            var upper = (ctx || '').toUpperCase();
+            return DISPLAY_NAME[upper] || ctx;
+        }
+
         function emit(level, context, emoji, message) {
             if (!shouldLog(level)) return;
-            var em = emoji || CTX_EMOJI[context] || '\u26AA';
+            var em = emoji || _ctxEmoji(context);
+            var display = _displayName(context);
             var color = COLORS[level] || '#78909C';
-            var pad = (context + '          ').slice(0, 10);
+            var pad = (display + '          ').slice(0, 10);
             console.log(
                 '%c' + em + ' ' + ts() + ' %c' + SERVER_TAG + ' %c' + pad + '\u25b8 ' + message,
                 'color:#616161;',
-                'color:#7B1FA2;font-weight:bold;',
-                'color:' + color + ';font-weight:bold;'
+                'color:#7B1FA2;',
+                'color:' + color + ';'
             );
         }
 
@@ -216,7 +239,7 @@
                 currentLevel = level;
                 minPriority = p;
                 try { localStorage.setItem(LEVEL_KEY, level); } catch (e) {}
-                console.log('%c' + SERVER_TAG + ' Log level \u2192 ' + level, 'color:#7B1FA2;font-weight:bold;');
+                console.log('%c' + SERVER_TAG + ' Log level \u2192 ' + level, 'color:#7B1FA2;');
             }
         }
 
@@ -343,7 +366,7 @@
                 serverId:   acc.serverId || (serverId || '1')
             };
         }).catch(function (e) {
-            log.error('DB', 'getUserInfo failed for userId: ' + userId, e);
+            log.error('database', 'getUserInfo failed for userId: ' + userId, e);
             return null;
         });
     };
@@ -525,7 +548,7 @@
         var room = ChatServer._rooms[roomId] || [];
 
         if (room.length === 0) {
-            log.debug('NOTIFY', 'No sockets in room: ' + roomId);
+            log.debug('notification', 'No sockets in room: ' + roomId);
             return;
         }
 
@@ -544,11 +567,11 @@
                 targetSocket._fire('Notify', notifyEnvelope);
                 sentCount++;
             } catch (fireErr) {
-                log.error('NOTIFY', 'Failed to send Notify to ' + targetSocket.id, fireErr);
+                log.error('notification', 'Failed to send Notify to ' + targetSocket.id, fireErr);
             }
         }
 
-        log.debug('NOTIFY', 'Broadcast complete');
+        log.debug('notification', 'Broadcast complete');
         log.details([
             ['roomId', roomId],
             ['roomSize', String(room.length)],
@@ -589,8 +612,8 @@
             console.log(
                 '\uD83D\uDCC2 %c' + hh + ':' + mm + ' %c[CHAT-SERVER] %cBOOT \u25b8 ' + mark + ' Ready',
                 'color:#616161;',
-                'color:#7B1FA2;font-weight:bold;',
-                'color:#2196F3;font-weight:bold;'
+                'color:#7B1FA2;',
+                'color:#2196F3;'
             );
             var SC = 'color:#4A148C;opacity:0.85;';
             console.log('%c  \u00b7 \uD83D\uDCE6 ' + actionFiles.length + ' actions', SC);
@@ -602,7 +625,7 @@
             // ── Detail tabel (collapsed) ──
             console.groupCollapsed('%c  \u2022 Load Details', 'color:#4A148C;opacity:0.7;');
             console.table(loadResults);
-            console.log('%c  \u254c\u2500\u2500\u2500 \u2699\uFE0F CONFIG \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;font-weight:bold;');
+            console.log('%c  \u254c\u2500\u2500\u2500 \u2699\uFE0F CONFIG \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;');
             var configRows = [];
             var cfg = ChatServer.config;
             configRows.push({ key: 'chatServerUrl', value: cfg.chatServerUrl });
@@ -614,7 +637,7 @@
             configRows.push({ key: 'maxMessagesPerRequest', value: String(cfg.maxMessagesPerRequest) });
             configRows.push({ key: 'reconnectionAttempts', value: String(cfg.reconnectionAttempts) });
             console.table(configRows);
-            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCCB HANDLERS \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;font-weight:bold;');
+            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCCB HANDLERS \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;');
             var handlerRows = [];
             for (var hi = 0; hi < ChatServer._handlerNames.length; hi++) {
                 handlerRows.push({ index: '[' + hi + ']', action: ChatServer._handlerNames[hi], status: '\u2705' });
@@ -622,7 +645,7 @@
             if (handlerRows.length > 0) {
                 console.table(handlerRows);
             }
-            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCBE STORAGE \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;font-weight:bold;');
+            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCBE STORAGE \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;');
             console.log('%c  DB: ' + DB_NAME + ' | Store: chat | basePath: ' + basePath, 'color:#4A148C;opacity:0.7;');
             console.groupEnd();
 
@@ -648,7 +671,7 @@
 
         script.onerror = function () {
             _criticalError = true;
-            log.error('LOAD', 'CRITICAL: Failed to load ' + fileName);
+            log.error('loader', 'CRITICAL: Failed to load ' + fileName);
             log.alwaysDetails([
                 ['url', filePath],
                 ['basePath', basePath],
@@ -683,7 +706,7 @@
 
         if (!action) {
             _routeStats.totalNoAction++;
-            log.error('ROUTE', 'No action field in request!');
+            log.error('handler', 'No action field in request!');
             log.alwaysDetails([
                 ['type', type || '(empty)'],
                 ['requestKeys', Object.keys(request || {}).join(', ')],
@@ -695,7 +718,7 @@
 
         if (type !== 'chat') {
             _routeStats.totalWrongType++;
-            log.error('ROUTE', 'Wrong type — expected "chat"');
+            log.error('handler', 'Wrong type — expected "chat"');
             log.alwaysDetails([
                 ['receivedType', type || '(empty)'],
                 ['expectedType', 'chat'],
@@ -713,7 +736,7 @@
                 handler(request, callback);
             } catch (handlerErr) {
                 _routeStats.totalErrors++;
-                log.error('ROUTE', 'Handler "' + action + '" threw UNCAUGHT ERROR');
+                log.error('handler', 'Handler "' + action + '" threw UNCAUGHT ERROR');
                 log.alwaysDetails([
                     ['action', action],
                     ['errorName', handlerErr.name || '(unknown)'],
@@ -723,7 +746,7 @@
             }
         } else {
             _routeStats.totalUnknown++;
-            log.error('ROUTE', 'Unknown action: "' + action + '"');
+            log.error('handler', 'Unknown action: "' + action + '"');
             log.alwaysDetails([
                 ['requested', action],
                 ['totalUnknown', String(_routeStats.totalUnknown)],
@@ -771,11 +794,11 @@
         var self = this;
         var delay = ChatServer.randomDelay();
 
-        log.info('SOCK', 'ChatSocket #' + this._counter + ' connecting...');
+        log.info('connection', 'ChatSocket #' + this._counter + ' connecting...');
 
         setTimeout(function () {
             if (self.disconnected) {
-                log.warn('SOCK', 'ChatSocket #' + self._counter + ' disconnected BEFORE connect completed');
+                log.warn('connection', 'ChatSocket #' + self._counter + ' disconnected BEFORE connect completed');
                 return;
             }
             self.connected = true;
@@ -789,8 +812,8 @@
             console.log(
                 '\uD83D\uDD0C %c' + sockHH + ':' + sockMM + ' %c[CHAT-SERVER] %cSOCK \u25b8 Socket #' + self._counter + ' \u2705 CONNECTED',
                 'color:#616161;',
-                'color:#7B1FA2;font-weight:bold;',
-                'color:#4CAF50;font-weight:bold;'
+                'color:#7B1FA2;',
+                'color:#4CAF50;'
             );
             var SC = 'color:#4A148C;opacity:0.85;';
             console.log('%c  \u00b7 \u23f1\uFE0F ' + delay + 'ms', SC);
@@ -817,7 +840,7 @@
             // Setelah connect, mulai TEA verify
             setTimeout(function () {
                 if (self.disconnected || !self.connected) {
-                    log.warn('TEA', 'Socket gone before verify started');
+                    log.warn('encryption', 'Socket gone before verify started');
                     return;
                 }
                 self._startVerify();
@@ -832,7 +855,7 @@
         var challenge = ChatServer.generateChallenge();
         this._verifyChallenge = challenge;
 
-        log.info('TEA', 'Starting TEA verify handshake');
+        log.info('encryption', 'Starting TEA verify handshake');
         log.details([
             ['challenge', challenge],
             ['key', ChatServer.config.teaKey],
@@ -842,15 +865,15 @@
         // Fire 'verify' event — game client akan menerima via socket.on('verify', handler)
         this._fire('verify', challenge);
 
-        log.debug('TEA', 'Challenge sent, waiting for client response...');
+        log.debug('encryption', 'Challenge sent, waiting for client response...');
     };
 
     ChatSocket.prototype._handleVerifyResponse = function (encrypted, callback) {
         var self = this;
-        log.info('TEA', 'Received verify response from client');
+        log.info('encryption', 'Received verify response from client');
 
         if (!this._verifyChallenge) {
-            log.error('TEA', 'No challenge stored — cannot verify');
+            log.error('encryption', 'No challenge stored — cannot verify');
             if (typeof callback === 'function') callback({ ret: 1 });
             return;
         }
@@ -861,14 +884,14 @@
 
             if (decrypted === this._verifyChallenge) {
                 this._verified = true;
-                log.info('TEA', 'TEA verify SUCCESS');
+                log.info('encryption', 'TEA verify SUCCESS');
                 log.alwaysDetails([
                     ['status', 'VERIFIED'],
                     ['socketId', this.id]
                 ]);
                 if (typeof callback === 'function') callback({ ret: 0 });
             } else {
-                log.error('TEA', 'TEA verify FAILED — decrypted mismatch');
+                log.error('encryption', 'TEA verify FAILED — decrypted mismatch');
                 log.alwaysDetails([
                     ['original', this._verifyChallenge],
                     ['decrypted', decrypted],
@@ -877,7 +900,7 @@
                 if (typeof callback === 'function') callback({ ret: 1 });
             }
         } catch (err) {
-            log.error('TEA', 'TEA decrypt threw ERROR', err);
+            log.error('encryption', 'TEA decrypt threw ERROR', err);
             log.alwaysDetails([
                 ['encrypted', encrypted.substring(0, 32) + '...'],
                 ['hint', 'TEA class may not be loaded from main.min.js']
@@ -890,7 +913,7 @@
 
     ChatSocket.prototype.on = function (event, handler) {
         if (typeof handler !== 'function') {
-            log.error('SOCK', 'on() called with non-function handler');
+            log.error('connection', 'on() called with non-function handler');
             log.alwaysDetails([
                 ['event', event],
                 ['handlerType', typeof handler],
@@ -906,7 +929,7 @@
 
     ChatSocket.prototype.off = function (event, handler) {
         if (!this._listeners[event]) {
-            log.debug('SOCK', 'off() \u2014 no listeners for "' + event + '" on socket #' + this._counter);
+            log.debug('connection', 'off() \u2014 no listeners for "' + event + '" on socket #' + this._counter);
             return;
         }
         if (handler) {
@@ -915,11 +938,11 @@
             for (var i = list.length - 1; i >= 0; i--) {
                 if (list[i] === handler) list.splice(i, 1);
             }
-            log.debug('SOCK', 'off() \u2014 removed ' + (before - list.length) + ' listener(s) from "' + event + '" on socket #' + this._counter);
+            log.debug('connection', 'off() \u2014 removed ' + (before - list.length) + ' listener(s) from "' + event + '" on socket #' + this._counter);
         } else {
             var count = this._listeners[event].length;
             delete this._listeners[event];
-            log.debug('SOCK', 'off() \u2014 removed ALL ' + count + ' listener(s) from "' + event + '" on socket #' + this._counter);
+            log.debug('connection', 'off() \u2014 removed ALL ' + count + ' listener(s) from "' + event + '" on socket #' + this._counter);
         }
     };
 
@@ -932,7 +955,7 @@
 
         // ── TEA Verify response ──
         if (event === 'verify' && !this._verified) {
-            log.info('TEA', 'emit #' + emitNum + ' \u2192 TEA verify response');
+            log.info('encryption', 'emit #' + emitNum + ' \u2192 TEA verify response');
             this._handleVerifyResponse(data, callback);
             return;
         }
@@ -982,8 +1005,8 @@
                 console.log(
                     '\u2699\uFE0F %c' + emitHH + ':' + emitMM + ' %c[CHAT-SERVER] %cEMIT \u25b8 ' + actionName,
                     'color:#616161;',
-                    'color:#7B1FA2;font-weight:bold;',
-                    'color:#FF9800;font-weight:bold;'
+                    'color:#7B1FA2;',
+                    'color:#FF9800;'
                 );
                 var SC = 'color:#4A148C;opacity:0.85;';
                 console.log('%c  \u00b7 \uD83D\uDCE4 emit #' + emitNum, SC);
@@ -1000,7 +1023,7 @@
                     if (rv.length > 120) rv = rv.substring(0, 120) + '... (' + String(data[rk]).length + ' chars)';
                     reqPairs.push([rk, rv]);
                 }
-                console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE5 REQUEST \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;font-weight:bold;');
+                console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE5 REQUEST \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;');
                 log.details(reqPairs);
 
                 var routeStart = Date.now();
@@ -1024,7 +1047,7 @@
                         server0Time: Math.abs(new Date().getTimezoneOffset()) * 60 * 1000
                     };
 
-                    console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE4 RESPONSE \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;font-weight:bold;');
+                    console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE4 RESPONSE \u2500\u2500\u2500', 'color:#4A148C;opacity:0.6;');
                     log.details([
                         ['\uD83D\uDD00 dispatched', 'actions/' + actionName + '.js'],
                         ['\uD83D\uDCE4 ret', String(envelope.ret)],
@@ -1042,14 +1065,14 @@
                         try {
                             callback(envelope);
                         } catch (cbErr) {
-                            log.error('ENV', 'emit #' + emitNum + ' callback THREW ERROR');
+                            log.error('environment', 'emit #' + emitNum + ' callback THREW ERROR');
                             log.alwaysDetails([
                                 ['errorName', cbErr.name || '(unknown)'],
                                 ['errorMessage', cbErr.message || String(cbErr)]
                             ]);
                         }
                     } else {
-                        log.error('ENV', 'emit #' + emitNum + ' \u2014 NO CALLBACK PROVIDED');
+                        log.error('environment', 'emit #' + emitNum + ' \u2014 NO CALLBACK PROVIDED');
                         log.alwaysDetails([
                             ['action', actionName],
                             ['hint', 'Game may hang waiting for response']
@@ -1079,7 +1102,7 @@
         this._verified = false;
         ChatServer.socketLeaveAllRooms(this);
         this._fire('disconnect', 'client disconnect');
-        log.info('SOCK', 'ChatSocket #' + this._counter + ' disconnected');
+        log.info('connection', 'ChatSocket #' + this._counter + ' disconnected');
         log.details([
             ['socketId', this.id],
             ['totalEmits', String(this._emitCount)],
@@ -1094,7 +1117,7 @@
         this._verified = false;
         ChatServer.socketLeaveAllRooms(this);
         this._listeners = {};
-        log.info('SOCK', 'ChatSocket #' + this._counter + ' destroyed');
+        log.info('connection', 'ChatSocket #' + this._counter + ' destroyed');
         log.details([
             ['socketId', this.id],
             ['totalEmits', String(this._emitCount)],
@@ -1112,7 +1135,7 @@
             try {
                 list[i].apply(null, args);
             } catch (e) {
-                log.error('SOCK', '_fire: listener #' + (i + 1) + ' for "' + event + '" threw error');
+                log.error('connection', '_fire: listener #' + (i + 1) + ' for "' + event + '" threw error');
                 log.alwaysDetails([
                     ['errorName', e.name || '(unknown)'],
                     ['errorMessage', e.message || String(e)],
@@ -1162,8 +1185,8 @@
                     console.log(
                         '\uD83C\uDF10 %c' + hh2 + ':' + mm2 + ' %c[CHAT-SERVER] %cIO \u25b8 \u2705 READY',
                         'color:#616161;',
-                        'color:#7B1FA2;font-weight:bold;',
-                        'color:#4CAF50;font-weight:bold;'
+                        'color:#7B1FA2;',
+                        'color:#4CAF50;'
                     );
                     var SC = 'color:#4A148C;opacity:0.85;';
                     console.log('%c  \u00b7 \uD83D\uDD17 ' + url, SC);

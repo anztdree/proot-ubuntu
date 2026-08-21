@@ -188,7 +188,7 @@
 
             // Log DETAIL setiap bulletin
             if (briefCount > 0) {
-                log.info('RESP', 'Bulletin brief detail');
+                log.info('response', 'Bulletin brief detail');
                 var keys = Object.keys(brief);
                 for (var k = 0; k < keys.length; k++) {
                     var id = keys[k];
@@ -199,7 +199,7 @@
                     ]);
                 }
             } else {
-                log.debug('RESP', 'No active bulletins');
+                log.debug('response', 'No active bulletins');
             }
 
             callback({ _brief: brief });

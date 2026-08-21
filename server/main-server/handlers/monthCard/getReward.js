@@ -264,7 +264,7 @@
 
         // ── SAVE USER DATA ──
         db._set(storageKey, savedData);
-        log.info('DB', 'User data saved');
+        log.info('database', 'User data saved');
 
         // ══════════════════════════════════════════════════════════
         //  BUILD RESPONSE

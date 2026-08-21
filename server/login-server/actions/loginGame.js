@@ -39,7 +39,7 @@
     function handleLoginGame(request, callback) {
         log.info('ACTION', '═══════════════ loginGame ══════════════');
 
-        log.info('REQ', 'Request fields from client');
+        log.info('request', 'Request fields from client');
         var keys = Object.keys(request || {});
         for (var i = 0; i < keys.length; i++) {
             var k = keys[i];
@@ -89,7 +89,7 @@
                 ]);
 
                 db.put(acc).then(function () {
-                    log.info('RESP', 'Sending response to client (new user)');
+                    log.info('response', 'Sending response to client (new user)');
                     log.details([
                         ['userId', acc.userId],
                         ['channelCode', acc.channelCode],
@@ -130,7 +130,7 @@
                 }
 
                 db.put(acc).then(function () {
-                    log.info('RESP', 'Sending response to client (existing user)');
+                    log.info('response', 'Sending response to client (existing user)');
                     log.details([
                         ['userId', acc.userId],
                         ['channelCode', acc.channelCode],

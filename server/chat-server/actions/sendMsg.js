@@ -107,7 +107,7 @@
             var msgObj = result.msgObj;
             var now = result.now;
 
-            log.info('RESP', 'sendMsg → saved to IndexedDB & responding');
+            log.info('response', 'sendMsg → saved to IndexedDB & responding');
             log.details([
                 ['_time', String(now)],
                 ['_id', userId],
@@ -139,7 +139,7 @@
             }
         }).catch(function (e) {
             // IndexedDB/getUserInfo gagal — respond dengan timestamp anyway
-            log.error('DB', 'sendMsg → error, fallback response');
+            log.error('database', 'sendMsg → error, fallback response');
             log.alwaysDetails([
                 ['userId', userId],
                 ['roomId', roomId],

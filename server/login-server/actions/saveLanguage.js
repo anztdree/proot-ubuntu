@@ -27,7 +27,7 @@
     function handleSaveLanguage(request, callback) {
         log.info('ACTION', '═══════════════ SaveLanguage ══════════════');
 
-        log.info('REQ', 'Request fields from client');
+        log.info('request', 'Request fields from client');
         var keys = Object.keys(request || {});
         for (var i = 0; i < keys.length; i++) {
             var k = keys[i];
@@ -58,7 +58,7 @@
                 ['note', 'client will close LanguageList and apply language change']
             ]);
 
-            log.info('RESP', 'Sending response to client');
+            log.info('response', 'Sending response to client');
             callback({ errorCode: 0 });
         }).catch(function (e) {
             log.error('STORAGE', 'IndexedDB error in SaveLanguage');

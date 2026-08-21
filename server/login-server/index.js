@@ -22,11 +22,11 @@
     // PRE-LOG (sebelum logger siap, pakai console.log biasa + CSS)
     // ═══════════════════════════════════════════════════════════════════
     function preLog(msg) {
-        console.log('%c[LOGIN-SERVER] ' + msg, 'color:#00897B;font-weight:bold;');
+        console.log('%c[LOGIN-SERVER] ' + msg, 'color:#00897B;');
     }
 
     function preError(msg) {
-        console.log('%c[LOGIN-SERVER] ' + msg, 'color:#F44336;font-weight:bold;');
+        console.log('%c[LOGIN-SERVER] ' + msg, 'color:#F44336;');
     }
 
     // ═══════════════════════════════════════════════════════
@@ -83,33 +83,33 @@
 
         // Emoji per context (bukan per level)
         var CTX_EMOJI = {
-            BOOT:      '\uD83D\uDCC2',
-            SOCK:      '\uD83D\uDD0C',
-            IO:        '\uD83C\uDF10',
-            ROUTE:     '\uD83D\uDD00',
-            EMIT:      '\uD83D\uDCE8',
-            REQ:       '\uD83D\uDCE5',
-            API:       '\uD83D\uDCE1',
-            RESP:      '\uD83D\uDCE4',
-            ENV:       '\uD83D\uDCE6',
-            FALLBACK:  '\uD83D\uDEE1\uFE0F',
-            TIMER:     '\u23F3',
-            CONFIG:    '\u2699\uFE0F',
-            DELAY:     '\u23F1\uFE0F',
-            TOKEN:     '\uD83D\uDD11',
-            STORAGE:   '\uD83D\uDCBE',
-            ACTION:    '\uD83C\uDFAF',
-            SUCCESS:   '\u2705',
-            FAIL:      '\u274C',
-            WARN_EMOJI:'\u26A0\uFE0F',
-            HINT:      '\uD83D\uDCA1',
-            LINK:      '\uD83D\uDD17',
-            DATA:      '\uD83D\uDCCA',
-            ID:        '\uD83C\uDD94',
-            EVENT:     '\uD83D\uDCE1',
-            LOAD:      '\uD83D\uDCC2',
-            REGISTRY:  '\uD83D\uDCCB',
-            POLL:      '\u23F3'
+            startup:   '\uD83D\uDCC2',
+            connection:'\uD83D\uDD0C',
+            network:   '\uD83C\uDF10',
+            handler:   '\uD83D\uDD00',
+            emit:      '\uD83D\uDCE8',
+            request:   '\uD83D\uDCE5',
+            api:       '\uD83D\uDCE1',
+            response:  '\uD83D\uDCE4',
+            environment:'\uD83D\uDCE6',
+            fallback:  '\uD83D\uDEE1\uFE0F',
+            timer:     '\u23F3',
+            config:    '\u2699\uFE0F',
+            delay:     '\u23F1\uFE0F',
+            token:     '\uD83D\uDD11',
+            storage:   '\uD83D\uDCBE',
+            action:    '\uD83C\uDFAF',
+            success:   '\u2705',
+            fail:      '\u274C',
+            warning:   '\u26A0\uFE0F',
+            hint:      '\uD83D\uDCA1',
+            link:      '\uD83D\uDD17',
+            data:      '\uD83D\uDCCA',
+            id:        '\uD83C\uDD94',
+            event:     '\uD83D\uDCE1',
+            loader:    '\uD83D\uDCC2',
+            registry:  '\uD83D\uDCCB',
+            poll:      '\u23F3'
         };
 
         // ═══════════════════════════════════════════════════════════════
@@ -122,16 +122,39 @@
          * @param {string} emoji   — emoji override (opsional, pakai CTX_EMOJI[context] jika kosong)
          * @param {string} message — pesan utama
          */
+        // Case-insensitive context lookup (supports both new camelCase and legacy UPPERCASE)
+        function _ctxEmoji(ctx) {
+            var c = ctx || '';
+            if (CTX_EMOJI[c]) return CTX_EMOJI[c];
+            return CTX_EMOJI[c.toUpperCase()] || '\u26AA';
+        }
+
+        // Display name mapping: transforms old UPPERCASE to natural camelCase for log output
+        var DISPLAY_NAME = {
+            'BOOT': 'startup', 'SOCK': 'connection', 'IO': 'network',
+            'ROUTE': 'handler', 'LOAD': 'loader', 'REQ': 'request',
+            'RESP': 'response', 'ENV': 'environment', 'API': 'api',
+            'TEA': 'encryption', 'NTFY': 'notification', 'NOTIFY': 'notification',
+            'CB': 'callback', 'DB': 'database', 'META': 'storage',
+            'REG': 'register', 'MSG': 'message', 'WARN_EMOJI': 'warning'
+        };
+
+        function _displayName(ctx) {
+            var upper = (ctx || '').toUpperCase();
+            return DISPLAY_NAME[upper] || ctx;
+        }
+
         function emit(level, context, emoji, message) {
             if (!shouldLog(level)) return;
-            var em = emoji || CTX_EMOJI[context] || '\u26AA';
+            var em = emoji || _ctxEmoji(context);
+            var display = _displayName(context);
             var color = COLORS[level] || '#78909C';
-            var pad = (context + '          ').slice(0, 10);
+            var pad = (display + '          ').slice(0, 10);
             console.log(
                 '%c' + em + ' ' + ts() + ' %c' + SERVER_TAG + ' %c' + pad + '\u25b8 ' + message,
                 'color:#616161;',
-                'color:#00897B;font-weight:bold;',
-                'color:' + color + ';font-weight:bold;'
+                'color:#00897B;',
+                'color:' + color + ';'
             );
         }
 
@@ -229,7 +252,7 @@
                 currentLevel = level;
                 minPriority = p;
                 try { localStorage.setItem(LEVEL_KEY, level); } catch (e) {}
-                console.log('%c' + SERVER_TAG + ' Log level \u2192 ' + level, 'color:#00897B;font-weight:bold;');
+                console.log('%c' + SERVER_TAG + ' Log level \u2192 ' + level, 'color:#00897B;');
             }
         }
 
@@ -458,8 +481,8 @@
             console.log(
                 '\uD83D\uDCC2 %c' + hh + ':' + mm + ' %c[LOGIN-SERVER] %cBOOT \u25b8 ' + mark + ' Ready',
                 'color:#616161;',
-                'color:#00897B;font-weight:bold;',
-                'color:#2196F3;font-weight:bold;'
+                'color:#00897B;',
+                'color:#2196F3;'
             );
             var SC = 'color:#004D40;opacity:0.85;';
             console.log('%c  \u00b7 \uD83D\uDCE6 ' + actionFiles.length + ' actions', SC);
@@ -471,7 +494,7 @@
             // ── Detail tabel (collapsed) ──
             console.groupCollapsed('%c  \u2022 Load Details', 'color:#004D40;opacity:0.7;');
             console.table(loadResults);
-            console.log('%c  \u254c\u2500\u2500\u2500 \u2699\uFE0F CONFIG \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+            console.log('%c  \u254c\u2500\u2500\u2500 \u2699\uFE0F CONFIG \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;');
 
             var configRows = [];
             var cfg = LoginServer.config;
@@ -484,7 +507,7 @@
             configRows.push({ key: 'loginTokenLength', value: String(cfg.loginTokenLength) });
             configRows.push({ key: 'verifyEnable', value: String(cfg.verifyEnable) });
             console.table(configRows);
-            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCCB HANDLERS \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCCB HANDLERS \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;');
 
             var handlerRows = [];
             for (var hi = 0; hi < LoginServer._handlerNames.length; hi++) {
@@ -493,7 +516,7 @@
             if (handlerRows.length > 0) {
                 console.table(handlerRows);
             }
-            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCBE STORAGE \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+            console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCBE STORAGE \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;');
             console.log('%c  DB: ' + DB_NAME + ' | Store: ' + STORE_NAME + ' | basePath: ' + basePath, 'color:#004D40;opacity:0.7;');
             console.groupEnd();
 
@@ -519,7 +542,7 @@
 
         script.onerror = function () {
             _criticalError = true;
-            log.error('LOAD', 'CRITICAL: Failed to load ' + fileName);
+            log.error('loader', 'CRITICAL: Failed to load ' + fileName);
             log.alwaysDetails([
                 ['url', filePath],
                 ['basePath', basePath],
@@ -561,7 +584,7 @@
 
         if (!action) {
             _routeStats.totalNoAction++;
-            log.error('ROUTE', 'No action field in request!');
+            log.error('handler', 'No action field in request!');
             log.alwaysDetails([
                 ['requestKeys', Object.keys(request || {}).join(', ')],
                 ['requestDump', JSON.stringify(request || {}).substring(0, 300)],
@@ -578,7 +601,7 @@
                 handler(request, callback);
             } catch (handlerErr) {
                 _routeStats.totalErrors++;
-                log.error('ROUTE', 'Handler "' + action + '" threw UNCAUGHT ERROR');
+                log.error('handler', 'Handler "' + action + '" threw UNCAUGHT ERROR');
                 log.alwaysDetails([
                     ['action', action],
                     ['errorName', handlerErr.name || '(unknown)'],
@@ -589,7 +612,7 @@
             }
         } else {
             _routeStats.totalUnknown++;
-            log.error('ROUTE', 'Unknown action: "' + action + '"');
+            log.error('handler', 'Unknown action: "' + action + '"');
             log.alwaysDetails([
                 ['requested', action],
                 ['totalUnknown', String(_routeStats.totalUnknown)],
@@ -635,11 +658,11 @@
         var self = this;
         var delay = LoginServer.randomDelay();
 
-        log.info('SOCK', 'LoginSocket #' + this._counter + ' connecting...');
+        log.info('connection', 'LoginSocket #' + this._counter + ' connecting...');
 
         setTimeout(function () {
             if (self.disconnected) {
-                log.warn('SOCK', 'LoginSocket #' + self._counter + ' disconnected BEFORE connect completed');
+                log.warn('connection', 'LoginSocket #' + self._counter + ' disconnected BEFORE connect completed');
                 return;
             }
             self.connected = true;
@@ -654,8 +677,8 @@
             console.log(
                 '\uD83D\uDD0C %c' + sockHH + ':' + sockMM + ' %c[LOGIN-SERVER] %cSOCK \u25b8 Socket #' + self._counter + ' \u2705 CONNECTED',
                 'color:#616161;',
-                'color:#00897B;font-weight:bold;',
-                'color:#4CAF50;font-weight:bold;'
+                'color:#00897B;',
+                'color:#4CAF50;'
             );
             var SC = 'color:#004D40;opacity:0.85;';
             console.log('%c  \u00b7 \u23f1\uFE0F ' + delay + 'ms', SC);
@@ -682,7 +705,7 @@
 
     LoginSocket.prototype.on = function (event, handler) {
         if (typeof handler !== 'function') {
-            log.error('SOCK', 'on() called with non-function handler');
+            log.error('connection', 'on() called with non-function handler');
             log.alwaysDetails([
                 ['event', event],
                 ['handlerType', typeof handler],
@@ -698,7 +721,7 @@
 
     LoginSocket.prototype.off = function (event, handler) {
         if (!this._listeners[event]) {
-            log.debug('SOCK', 'off() \u2014 no listeners for "' + event + '" on socket #' + this._counter);
+            log.debug('connection', 'off() \u2014 no listeners for "' + event + '" on socket #' + this._counter);
             return;
         }
         if (handler) {
@@ -707,11 +730,11 @@
             for (var i = list.length - 1; i >= 0; i--) {
                 if (list[i] === handler) list.splice(i, 1);
             }
-            log.debug('SOCK', 'off() \u2014 removed ' + (before - list.length) + ' listener(s) from "' + event + '" on socket #' + this._counter);
+            log.debug('connection', 'off() \u2014 removed ' + (before - list.length) + ' listener(s) from "' + event + '" on socket #' + this._counter);
         } else {
             var count = this._listeners[event].length;
             delete this._listeners[event];
-            log.debug('SOCK', 'off() \u2014 removed ALL ' + count + ' listener(s) from "' + event + '" on socket #' + this._counter);
+            log.debug('connection', 'off() \u2014 removed ALL ' + count + ' listener(s) from "' + event + '" on socket #' + this._counter);
         }
     };
 
@@ -769,8 +792,8 @@
                 console.log(
                     '\u2699\uFE0F %c' + emitHH + ':' + emitMM + ' %c[LOGIN-SERVER] %cEMIT \u25b8 ' + actionName,
                     'color:#616161;',
-                    'color:#00897B;font-weight:bold;',
-                    'color:#FF9800;font-weight:bold;'
+                    'color:#00897B;',
+                    'color:#FF9800;'
                 );
                 var SC = 'color:#004D40;opacity:0.85;';
                 console.log('%c  \u00b7 \uD83D\uDCE4 emit #' + emitNum, SC);
@@ -788,7 +811,7 @@
                     if (rv.length > 120) rv = rv.substring(0, 120) + '... (' + String(data[rk]).length + ' chars)';
                     reqPairs.push([rk, rv]);
                 }
-                console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE5 REQUEST \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+                console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE5 REQUEST \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;');
                 log.details(reqPairs);
 
                 LoginServer.router.dispatch(data, function (responseData, retCode) {
@@ -798,7 +821,7 @@
                     var envelope = LoginServer.buildEnvelope(responseData, retCode);
 
                     // Response details
-                    console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE4 RESPONSE \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;font-weight:bold;');
+                    console.log('%c  \u254c\u2500\u2500\u2500 \uD83D\uDCE4 RESPONSE \u2500\u2500\u2500', 'color:#004D40;opacity:0.6;');
                     log.details([
                         ['\uD83D\uDD00 dispatched', 'actions/' + actionName + '.js'],
                         ['\uD83D\uDCE4 ret', String(envelope.ret)],
@@ -816,14 +839,14 @@
                         try {
                             callback(envelope);
                         } catch (cbErr) {
-                            log.error('ENV', 'emit #' + emitNum + ' callback THREW ERROR');
+                            log.error('environment', 'emit #' + emitNum + ' callback THREW ERROR');
                             log.alwaysDetails([
                                 ['errorName', cbErr.name || '(unknown)'],
                                 ['errorMessage', cbErr.message || String(cbErr)]
                             ]);
                         }
                     } else {
-                        log.error('ENV', 'emit #' + emitNum + ' \u2014 NO CALLBACK PROVIDED');
+                        log.error('environment', 'emit #' + emitNum + ' \u2014 NO CALLBACK PROVIDED');
                         log.alwaysDetails([
                             ['action', actionName],
                             ['hint', 'Game may hang waiting for response']
@@ -849,7 +872,7 @@
         this.connected = false;
         this.disconnected = true;
         this._fire('disconnect', 'client disconnect');
-        log.info('SOCK', 'LoginSocket #' + this._counter + ' disconnected');
+        log.info('connection', 'LoginSocket #' + this._counter + ' disconnected');
         log.details([
             ['socketId', this.id],
             ['totalEmits', String(this._emitCount)],
@@ -862,7 +885,7 @@
         this.connected = false;
         this.disconnected = true;
         this._listeners = {};
-        log.info('SOCK', 'LoginSocket #' + this._counter + ' destroyed');
+        log.info('connection', 'LoginSocket #' + this._counter + ' destroyed');
         log.details([
             ['socketId', this.id],
             ['totalEmits', String(this._emitCount)],
@@ -880,7 +903,7 @@
             try {
                 list[i].apply(null, args);
             } catch (e) {
-                log.error('SOCK', '_fire: listener #' + (i + 1) + ' for "' + event + '" threw error');
+                log.error('connection', '_fire: listener #' + (i + 1) + ' for "' + event + '" threw error');
                 log.alwaysDetails([
                     ['errorName', e.name || '(unknown)'],
                     ['errorMessage', e.message || String(e)],
@@ -904,7 +927,7 @@
 
         // ── Seed default config to IndexedDB ──
         LoginServer.db.seedConfig().catch(function (e) {
-            log.error('BOOT', 'IndexedDB seedConfig FAILED');
+            log.error('startup', 'IndexedDB seedConfig FAILED');
             log.alwaysDetails([
                 ['errorName', e.name || '(unknown)'],
                 ['errorMessage', e.message || String(e)]
@@ -937,8 +960,8 @@
                     console.log(
                         '\uD83C\uDF10 %c' + hh2 + ':' + mm2 + ' %c[LOGIN-SERVER] %cIO \u25b8 \u2705 READY',
                         'color:#616161;',
-                        'color:#00897B;font-weight:bold;',
-                        'color:#4CAF50;font-weight:bold;'
+                        'color:#00897B;',
+                        'color:#4CAF50;'
                     );
                     var SC = 'color:#004D40;opacity:0.85;';
                     console.log('%c  \u00b7 \uD83D\uDD17 ' + url, SC);

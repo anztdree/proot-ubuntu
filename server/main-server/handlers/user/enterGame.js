@@ -367,7 +367,7 @@
             _onlineBulletins: []    // server-wide online bulletins
         };
         db._set(SERVER_META_KEY, meta);
-        log.debug('META', 'Server metadata initialized — serverOpenDate: ' + new Date(meta._serverOpenDate).toISOString());
+        log.debug('storage', 'Server metadata initialized — serverOpenDate: ' + new Date(meta._serverOpenDate).toISOString());
         return meta;
     }
 
@@ -571,12 +571,12 @@
         // Cek apakah user punya data guild di savedData
         var userGuildData = savedData.guild;
         if (!userGuildData || !userGuildData._guildId) {
-            log.debug('ENTERGAME', 'Guild recovery skipped — user has no guild data (guild._guildId is empty)');
+            log.debug('enterGame', 'user has no guild, skipping guild recovery');
             return; // User tidak ada di guild, biarkan default kosong
         }
 
         var guildId = userGuildData._guildId;
-        log.info('ENTERGAME', 'Guild recovery — user IS in guild: ' + guildId);
+        log.info('enterGame', 'user is in guild: ' + guildId);
         log.details('guild', [
             ['_guildId', guildId],
             ['_isCaptain', userGuildData._isCaptain ? 'YES' : 'NO'],
@@ -590,9 +590,9 @@
 
         if (guildList && guildList[guildId]) {
             guildInfo = guildList[guildId];
-            log.debug('ENTERGAME', 'Guild info found in guild:list — "' + (guildInfo._name || '?') + '" (level ' + (guildInfo._level || 0) + ')');
+            log.debug('enterGame', 'found guild info: "' + (guildInfo._name || '?') + '" (level ' + (guildInfo._level || 0) + ')');
         } else {
-            log.warn('ENTERGAME', 'Guild ' + guildId + ' NOT found in guild:list — userGuild data may be stale');
+            log.warn('enterGame', 'guild ' + guildId + ' not found in guild list, data may be stale');
             // Tetap lanjutkan pakai data dari userGuildData saja
         }
 
@@ -680,19 +680,19 @@
             // 📖 L114795: e.guildName && setTeamName(e.guildName)
             if (guildInfo._name) {
                 savedData.guildName = guildInfo._name;
-                log.debug('ENTERGAME', 'Guild name recovered from guild:list — "' + guildInfo._name + '"');
+                log.debug('enterGame', 'recovered guild name from list: "' + guildInfo._name + '"');
             }
 
             // 📖 L114937: void 0 != e.guildLevel && setMyTeamLevel(e.guildLevel)
             if (typeof guildInfo._level !== 'undefined' && guildInfo._level !== null) {
                 savedData.guildLevel = guildInfo._level;
-                log.debug('ENTERGAME', 'Guild level recovered from guild:list — ' + guildInfo._level);
+                log.debug('enterGame', 'recovered guild level: ' + guildInfo._level);
             }
 
             // Active points (dari guildInfo atau default)
             if (guildInfo._activePoints || guildInfo._activePoint) {
                 savedData.guildActivePoints = guildInfo._activePoints || guildInfo._activePoint;
-                log.debug('ENTERGAME', 'Guild activePoints recovered from guild:list');
+                log.debug('enterGame', 'recovered guild activePoints');
             }
 
             // Treasure match ret (jika ada)
@@ -703,7 +703,7 @@
             // Fallback ke userGuildData kalau guildInfo tidak ada di DB
             if (userGuildData._guildName) {
                 savedData.guildName = userGuildData._guildName;
-                log.debug('ENTERGAME', 'Guild name recovered from userData (guild:list unavailable) — "' + userGuildData._guildName + '"');
+                log.debug('enterGame', 'guild name taken from userData (list unavailable): "' + userGuildData._guildName + '"');
             }
         }
 
@@ -711,7 +711,7 @@
         // LOG VERIFICATION
         // ════════════════════════════════════════════════════════════════
 
-        log.info('ENTERGAME', 'Guild data recovery complete — response populated with guild info');
+        log.info('enterGame', 'guild data recovered and added to response');
         log.details('guild recovery', [
             ['userGuild._guildId', savedData.userGuild._guildId || '(MISSING!)'],
             ['userGuildPub._guildId', savedData.userGuildPub._guildId || '(MISSING!)'],
@@ -770,13 +770,13 @@
 
         if (!needRepair) return;
 
-        log.warn('REPAIR', 'onlineGift._nextTime CORRUPTED — ' + repairReason + ' (old=' + ol._nextTime + ')');
+        log.warn('enterGame', 'onlineGift._nextTime looks wrong: ' + repairReason + ' (old=' + ol._nextTime + ')');
 
         // ── Compute correct _nextTime ──
         var bonusTable = getOnlineBonus();
         if (!bonusTable) {
             ol._nextTime = nowMs + (300 * 1000);
-            log.debug('REPAIR', 'onlineGift._nextTime: config not found, default 300s → ' + ol._nextTime);
+            log.debug('enterGame', 'no bonus config found, using default 300s → ' + ol._nextTime);
             return;
         }
 
@@ -785,7 +785,7 @@
             if (tier1) {
                 var tierTime = Number(tier1.time) || 300;
                 ol._nextTime = nowMs + (tierTime * 1000);
-                log.debug('REPAIR', 'onlineGift._nextTime: curId=0 → now+' + tierTime + 's = ' + ol._nextTime);
+                log.debug('enterGame', 'at tier 0, setting next time to now+' + tierTime + 's = ' + ol._nextTime);
             }
         } else {
             var curTier = bonusTable[String(curId)];
@@ -794,12 +794,12 @@
                 if (nextTier) {
                     var nextTimeSec = Number(nextTier.time) || 300;
                     ol._nextTime = nowMs + (nextTimeSec * 1000);
-                    log.debug('REPAIR', 'onlineGift._nextTime: curId=' + curId + ' nextID=' +
-                        curTier.nextID + ' → now+' + nextTimeSec + 's = ' + ol._nextTime);
+                    log.debug('enterGame', 'tier ' + curId + ' next tier is ' +
+                        curTier.nextID + ' → next bonus at now+' + nextTimeSec + 's = ' + ol._nextTime);
                 }
             } else {
                 ol._nextTime = 0;
-                log.debug('REPAIR', 'onlineGift._nextTime: curId=' + curId + ' is last tier, keeping 0');
+                log.debug('enterGame', 'tier ' + curId + ' is the last tier, keeping as 0');
             }
         }
     }
@@ -873,7 +873,7 @@
         }
 
         if (fixCount > 0) {
-            log.warn('NORMALIZE', 'Fixed ' + fixCount + ' missing nested field(s) in response data');
+            log.warn('enterGame', 'filled ' + fixCount + ' missing fields that were empty');
         }
     }
 
@@ -1043,9 +1043,9 @@
 
         // Log problems only — silent when all OK
         if (warnings.length > 0) {
-            log.warn('NORMALIZE', groupLabel + ' — ' + warnings.length + ' problem(s)');
+            log.warn('enterGame', groupLabel + ' — ' + warnings.length + ' problem(s)');
             for (var w = 0; w < warnings.length; w++) {
-                log.warn('NORMALIZE', warnings[w]);
+                log.warn('enterGame', warnings[w]);
             }
         }
     }
@@ -1097,7 +1097,7 @@
     function makeHeroBasicAttr(heroDisplayId, level, evolveLevel, starLevel) {
         var hc = getHeroConfig(heroDisplayId);
         if (!hc) {
-            log.warn('HERO_ATTR', 'Hero config not found for: ' + heroDisplayId + ' — returning zeros');
+            log.warn('heroStats', 'Hero config not found for: ' + heroDisplayId + ' — returning zeros');
             return {
                 _level: level, _talent: 0, _exp: 0, _evolveLevel: evolveLevel,
                 _hp: 0, _attack: 0, _armor: 0, _speed: 0, _hit: 0, _dodge: 0,
@@ -1391,7 +1391,7 @@
             ]
         };
 
-        log.debug('ENTERGAME', 'New user starting items — Gold: ' + (startGold + idleFirstGold) +
+        log.debug('enterGame', 'starting gold for new user: ' + (startGold + idleFirstGold) +
             ', EXP: ' + (startUserExp + idleFirstExp) +
             ', ExpCapsule: ' + idleFirstExpCapsule +
             ', Diamond: ' + startDiamond);
@@ -1969,11 +1969,11 @@
         var nowDay = generateRetrieveDay(nowDate);
 
         if (lastDay && lastDay !== nowDay) {
-            log.info('ENTERGAME', 'Daily reset triggered — ' + lastDay + ' → ' + nowDay + ' (boundary: ' + RESET_HOUR + ':00)');
+            log.info('enterGame', 'daily reset needed: was day ' + lastDay + ' → ' + nowDay + ' (resets at ' + RESET_HOUR + ':00)');
             savedData.scheduleInfo = buildDefaultScheduleInfo();
             return true;
         }
-        log.debug('ENTERGAME', 'No daily reset needed — lastLogin=' + (lastDay || '(never)') + ', today=' + nowDay);
+        log.debug('enterGame', 'no reset needed, last login was ' + (lastDay || '(never)') + ' , today is ' + nowDay);
         return false;
     }
 
@@ -2013,7 +2013,7 @@
             }
 
             savedData.checkin._lastActiveDate = nowMs;
-            log.info('ENTERGAME', 'Checkin day unlocked — day ' + todayDay + ' (lastActive was ' + (lastDateStr || '(never)') + ')');
+            log.info('enterGame', 'unlocked checkin day ' + todayDay + ' (last active was ' + (lastDateStr || '(never)') + ')');
         }
     }
 
@@ -2045,10 +2045,10 @@
 
     function computeTimesInfoRecovery(savedData) {
         if (!savedData.timesInfo) {
-            log.debug('ENTERGAME', 'TimesInfo recovery skipped — no timesInfo in saved data');
+            log.debug('enterGame', 'no timesInfo to recover');
             return;
         }
-        log.debug('ENTERGAME', 'Computing timesInfo recovery for returning user...');
+        log.debug('enterGame', 'calculating timesInfo for returning user');
 
         var c = getConstant();
         var nowMs = Date.now();
@@ -2138,7 +2138,7 @@
         var offlineSeconds = now - lastLoginTime;
 
         if (offlineSeconds <= 0) {
-            log.debug('ENTERGAME', 'No offline hangup reward — offlineSeconds=' + offlineSeconds + ' (same session or clock skew)');
+            log.debug('enterGame', 'no offline reward, offline time was only ' + offlineSeconds + ' (probably same session or clock skew)');
             return;
         }
 
@@ -2327,7 +2327,7 @@
 
         var t0 = Date.now();
 
-        log.info('ENTERGAME', (userId || '(no userId)') + ' — processing enterGame request');
+        log.info('enterGame', 'processing enterGame for ' + (userId || '(unknown)'));
         log.details('request', [
             ['userId', userId || '-'],
             ['serverId', String(serverId)],
@@ -2342,14 +2342,14 @@
             // ═══ VALIDASI 0: Maintenance mode ═══
             var meta = getServerMeta();
             if (meta._maintenance) {
-                log.warn('ENTERGAME', (userId || '(no userId)') + ' — REJECTED: server is in maintenance mode');
+                log.warn('enterGame', 'rejected: server is under maintenance');
                 callback(buildError(RET_CODES.MAINTENANCE, 'Server sedang maintenance'), RET_CODES.MAINTENANCE);
                 return;
             }
 
             // ═══ VALIDASI 1: Banned user check ═══
             if (userId && meta._bannedUsers && meta._bannedUsers[userId]) {
-                log.warn('ENTERGAME', userId + ' — REJECTED: account is banned');
+                log.warn('enterGame', userId + ' rejected: account is banned');
                 callback(buildError(RET_CODES.ACCOUNT_BANNED, 'Account banned'), RET_CODES.ACCOUNT_BANNED);
                 return;
             }
@@ -2357,7 +2357,7 @@
             // ═══ VALIDASI 2: userId wajib ═══
             // L114426: userId = ts.loginInfo.userInfo.userId — selalu ada dari login
             if (!userId) {
-                log.error('ENTERGAME', 'REJECTED: missing userId in request — ' + JSON.stringify(request).substring(0, 200));
+                log.error('enterGame', 'missing userId in request: ' + JSON.stringify(request).substring(0, 200));
                 callback(buildError(RET_CODES.MISSING_USERID, 'userId tidak boleh kosong'), RET_CODES.MISSING_USERID);
                 return;
             }
@@ -2369,7 +2369,7 @@
             db.validateLoginToken(userId, function (tokenCheck) {
                 try {
                     if (!tokenCheck.valid) {
-                        log.warn('ENTERGAME', userId + ' — loginToken validation FAILED — reason: ' + tokenCheck.reason);
+                        log.warn('enterGame', userId + ' token check failed: ' + tokenCheck.reason);
                         callback(
                             buildError(RET_CODES.TOKEN_INVALID, 'Token validation failed: ' + tokenCheck.reason),
                             RET_CODES.TOKEN_INVALID
@@ -2380,7 +2380,7 @@
                     // ═══ VALIDASI 4: token value match ═══
                     if (loginToken && tokenCheck.token && tokenCheck.token.loginToken) {
                         if (tokenCheck.token.loginToken !== loginToken) {
-                            log.error('ENTERGAME', userId + ' — loginToken VALUE MISMATCH — stored token does not match request token');
+                            log.error('enterGame', userId + ' token mismatch: stored token differs from request');
                             log.details('token mismatch', [
                                 ['userId', userId],
                                 ['stored', (tokenCheck.token.loginToken || '').substring(0, 16) + '...'],
@@ -2391,7 +2391,7 @@
                         }
                     }
 
-                    log.info('ENTERGAME', userId + ' — loginToken validated successfully');
+                    log.info('enterGame', userId + ' token is valid');
 
                     // ═══ VALIDASI 5: gameVersion (soft check) ═══
                     // Client L114430: sends gameVersion via ToolCommon.getClientVer()
@@ -2416,11 +2416,11 @@
 
                     if (isNewUser) {
                         // ── NEW USER: build fresh default data ──
-                        log.info('ENTERGAME', userId + ' — NEW USER (no saved data), building default response...');
+                        log.info('enterGame', userId + ' is a new user, creating default data');
                         savedData = buildNewUserResponse(request);
                     } else {
                         // ── RETURNING USER: merge dengan defaults ──
-                        log.info('ENTERGAME', userId + ' — RETURNING USER (saved data exists), merging with defaults...');
+                        log.info('enterGame', userId + ' is returning, loading saved data');
 
                         // ═══════════════════════════════════════════════════════
                         // 🔴 FIX BUG: Kid Goku muncul ulang setelah resolve + re-login
@@ -2448,7 +2448,7 @@
                         if (savedHeroes !== null) {
                             if (!savedData.heros) savedData.heros = {};
                             savedData.heros._heros = savedHeroes;
-                            log.info('ENTERGAME', userId + ' — hero list protected from defaults merge (' + Object.keys(savedHeroes).length + ' heroes restored from saved data)');
+                            log.info('enterGame', userId + ' restored ' + Object.keys(savedHeroes).length + ' heroes from saved data');
                         }
 
                         savedData.newUser = false;
@@ -2513,7 +2513,7 @@
                     // IndexedDB survive into the response.
                     var nullCleanCount = cleanNullFromItemsArrays(savedData);
                     if (nullCleanCount > 0) {
-                        log.warn('NORMALIZE', 'Cleaned nulls from ' + nullCleanCount + ' _items array(s)');
+                        log.warn('enterGame', 'removed null entries from ' + nullCleanCount + ' _items arrays');
                     }
 
                     // ── REMOVE: questionnaires & userDownloadReward from response ──
@@ -2575,7 +2575,7 @@
 
                         if (converted > 0) {
                             savedData.dungeon._dungeons = dungeons;
-                            log.info('ENTERGAME', 'Dungeon _dungeons rebuilt from _dungeonProgress — ' + converted + ' dungeon type(s) converted');
+                            log.info('enterGame', 'rebuilt dungeon data: ' + converted + ' types converted');
                         }
                     })();
 
@@ -2619,7 +2619,7 @@
 
                     if (savedData.curMainTask && Array.isArray(savedData.curMainTask) && savedData.curMainTask.length > 0) {
                         if (Number(savedData.curMainTask[0]._state) === 3) {
-                            log.info('ENTERGAME', userId + ' — main task chain completed (state=3), clearing curMainTask to prevent broken UI');
+                            log.info('enterGame', userId + ' main task done, clearing current task');
                             savedData.curMainTask = [];
                         }
                     }
@@ -2641,7 +2641,7 @@
 
                     var elapsed = Date.now() - t0;
 
-                    log.info('ENTERGAME', userId + ' — response built (' + Object.keys(savedData).length + ' fields, ' + elapsed + 'ms, ' + (isNewUser ? 'NEW' : 'RETURNING') + ')');
+                    log.info('enterGame', userId + ' response ready: ' + Object.keys(savedData).length + ' fields in ' + elapsed + 'ms (' + (isNewUser ? 'new' : 'returning') + ')');
                     log.details('summary', [
                         ['newUser', String(isNewUser)],
                         ['nickName', (savedData.user && savedData.user._nickName) || '-'],
@@ -2800,15 +2800,15 @@
                         log.error('IMPRINT-FILTER', 'Defensive filter itself crashed: ' + filterErr.message + ' — sending data as-is');
                     }
 
-                    log.info('ENTERGAME', userId + ' — sending response to client (newUser=' + isNewUser + ', ' + elapsed + 'ms total)');
+                    log.info('enterGame', userId + ' sending response (newUser=' + isNewUser + ')');
                     callback(savedData);
                 } catch (err) {
-                    log.error('ENTERGAME', userId + ' — UNCAUGHT ERROR during response build: ' + (err.name || 'Error') + ': ' + err.message);
+                    log.error('enterGame', userId + ' error while building response: ' + (err.name || 'Error') + ': ' + err.message);
                     callback(buildError(RET_CODES.SERVER_ERROR, err.message || 'Unknown error'), RET_CODES.SERVER_ERROR);
                 }
             }); // end validateLoginToken
         } catch (err) {
-            log.error('ENTERGAME', (userId || '(no userId)') + ' — FATAL ERROR in handleEnterGame: ' + (err.name || 'Error') + ': ' + err.message);
+            log.error('enterGame', (userId || '(unknown)') + ' fatal error: ' + (err.name || 'Error') + ': ' + err.message);
             callback(buildError(RET_CODES.SERVER_ERROR, err.message || 'Unknown error'), RET_CODES.SERVER_ERROR);
         }
     }
